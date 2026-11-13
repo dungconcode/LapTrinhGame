@@ -1,0 +1,132 @@
+[gd_scene load_steps=11 format=3 uid="uid://ccqprnjqjn1et"]
+
+[ext_resource type="Script" path="res://content/caves/cobaltcave/CobaltCave.gd" id="1"]
+[ext_resource type="Script" path="res://content/map/Parallaxer.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://ptj0vhdv2wgx" path="res://content/caves/cobaltcave/cobaltcave_sheet.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bia4r4lcg51xx" path="res://content/drop/sand/sand_smol.png" id="4"]
+[ext_resource type="Script" path="res://content/caves/cobaltcave/Cobalt.gd" id="5"]
+[ext_resource type="PackedScene" uid="uid://02emll07tpim" path="res://content/shared/Usable.tscn" id="6"]
+[ext_resource type="Texture2D" uid="uid://gh700a6sjswp" path="res://content/drop/sand/focussed.png" id="7"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="8"]
+[ext_resource type="AudioStream" uid="uid://g6cg4bul73qo" path="res://content/sounds/monster/Shifter_amb.wav" id="9"]
+[ext_resource type="Texture2D" uid="uid://7mlaypvmus1s" path="res://content/caves/cobaltcave/cobaltcave_alpha_map_blurred.png" id="10"]
+
+[node name="CobaltCave" type="Node2D" groups=["cave", "saveable", "unstyled"]]
+z_index = -40
+texture_filter = 1
+script = ExtResource("1")
+biome = "blue"
+maxCount = 2
+
+[node name="ExtraBackground" type="ColorRect" parent="."]
+offset_left = -2.0
+offset_top = -1.0
+offset_right = 91.0
+offset_bottom = 47.0
+mouse_filter = 2
+color = Color(0.0862745, 0.0941176, 0.2, 1)
+
+[node name="Sprites" type="Control" parent="."]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_right = 96.0
+offset_bottom = 48.0
+mouse_filter = 2
+script = ExtResource("2")
+start_offset = 0.4
+scaling = 0.5
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(48, 25)
+texture = ExtResource("3")
+hframes = 5
+
+[node name="ExtraBackground2" type="ColorRect" parent="Sprites/Sprite2D"]
+offset_left = -65.0
+offset_top = -36.0
+offset_right = 64.0
+offset_bottom = 40.0
+mouse_filter = 2
+color = Color(0.188235, 0.372549, 0.482353, 1)
+
+[node name="Sprite2" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(48, 25)
+texture = ExtResource("3")
+hframes = 5
+frame = 1
+
+[node name="Sprite3" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(48, 25)
+texture = ExtResource("3")
+hframes = 5
+frame = 2
+
+[node name="Sprite4" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(48, 25)
+texture = ExtResource("3")
+hframes = 5
+frame = 3
+
+[node name="Cobalt1" type="Sprite2D" parent="Sprites/Sprite4"]
+self_modulate = Color(0.631373, 0.631373, 0.631373, 1)
+texture_filter = 1
+position = Vector2(-36, -13)
+texture = ExtResource("4")
+script = ExtResource("5")
+
+[node name="Usable" parent="Sprites/Sprite4/Cobalt1" instance=ExtResource("6")]
+visibleOnFocus = NodePath("../FocusSprite")
+
+[node name="FocusSprite" type="Sprite2D" parent="Sprites/Sprite4/Cobalt1"]
+texture_filter = 1
+position = Vector2(0, -1)
+texture = ExtResource("7")
+
+[node name="Cobalt2" type="Sprite2D" parent="Sprites/Sprite4"]
+self_modulate = Color(0.631373, 0.631373, 0.631373, 1)
+texture_filter = 1
+position = Vector2(20, 1)
+texture = ExtResource("4")
+script = ExtResource("5")
+
+[node name="Usable" parent="Sprites/Sprite4/Cobalt2" instance=ExtResource("6")]
+visibleOnFocus = NodePath("../FocusSprite")
+
+[node name="FocusSprite" type="Sprite2D" parent="Sprites/Sprite4/Cobalt2"]
+texture_filter = 1
+position = Vector2(0, -1)
+texture = ExtResource("7")
+
+[node name="Sprite5" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(48, 25)
+texture = ExtResource("3")
+hframes = 5
+frame = 4
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(47, 31)
+
+[node name="Amb" parent="Marker2D" instance=ExtResource("8")]
+stream = ExtResource("9")
+volume_db = -9.177
+pitch_scale = 0.65
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 120.0
+minAudibleDistance = 36.0
+fadeInTime = 0.1
+fadeOutTime = 2.0
+loop = true
+
+[node name="AlphaMap" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(45, 23)
+texture = ExtResource("10")

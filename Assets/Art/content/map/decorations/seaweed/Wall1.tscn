@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://by4lnhikcoane"]
+
+[ext_resource type="Texture2D" uid="uid://dri61g2he0nis" path="res://content/map/decorations/seaweed/Wall1.png" id="1"]
+[ext_resource type="Script" path="res://content/map/decorations/BorderDecoration.gd" id="2"]
+
+[node name="Seaweed" type="Sprite2D" groups=["decoration"]]
+texture_filter = 1
+texture = ExtResource("1")
+offset = Vector2(7, 0)
+hframes = 7
+frame = 1
+script = ExtResource("2")
+randY = Vector2(-12, 24)

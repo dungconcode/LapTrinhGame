@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://day50apjw6md"]
+
+[ext_resource type="Shader" path="res://content/monster/monster.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://ccqqc5rjgjkom" path="res://systems/style/palettes/index_palette.png" id="2"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/flash_rate = 2.0
+shader_parameter/flash_magnitude = 0.0
+shader_parameter/outline = false
+shader_parameter/palette = ExtResource("2")

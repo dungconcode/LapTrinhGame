@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b3u4rcpivs7m"
+path="res://.godot/imported/pure lil_3_slow.wav-d39a05d1e70850f276d6fdecacb9a499.sample"
+
+[deps]
+
+source_file="res://content/sounds/keeper2/pure lil_3_slow.wav"
+dest_files=["res://.godot/imported/pure lil_3_slow.wav-d39a05d1e70850f276d6fdecacb9a499.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

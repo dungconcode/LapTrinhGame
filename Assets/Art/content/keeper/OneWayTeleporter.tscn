@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bsun8on4a2gql"]
+
+[ext_resource type="Script" path="res://content/keeper/OneWayTeleporter.gd" id="1"]
+
+[node name="OneWayTeleporter" type="Node2D" groups=["saveable", "special2"]]
+script = ExtResource("1")

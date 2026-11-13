@@ -1,0 +1,54 @@
+[gd_scene load_steps=17 format=3 uid="uid://7utl80c8fx24"]
+
+[ext_resource type="Script" path="res://content/shared/projectiles/DirectProjectile.gd" id="1"]
+[ext_resource type="SpriteFrames" uid="uid://dr7ynrehpgcne" path="res://content/monster/shifter/ShifterProjectile_spriteframes.tres" id="2"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="3"]
+[ext_resource type="AudioStream" uid="uid://nvakc0ekl1kx" path="res://content/sounds/monster/shifter/Drum_01.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://d28myi7ivjjmj" path="res://content/sounds/monster/shifter/Drum_02.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://bbnlpekfacssq" path="res://content/sounds/monster/shifter/Drum_03.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://c4awbudevy8qb" path="res://content/sounds/monster/shifter/Drum_04.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://cs1blu7fd1613" path="res://content/sounds/monster/shifter/Drum_05.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://d0uf0tpsseirn" path="res://content/sounds/monster/shifter/Drum_06.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://l5fjr0ck67cq" path="res://content/sounds/monster/shifter/Drum_07.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://cjimaxvmqxsy2" path="res://content/sounds/monster/shifter/Drum_08.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://bryvx1vq8umfd" path="res://content/sounds/monster/shifter/Drum_09.wav" id="12"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="13"]
+[ext_resource type="AudioStream" uid="uid://8ddxhclv52wi" path="res://content/sounds/monster/walker/DomePunch01_01.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://kxlwstnrlpnd" path="res://content/sounds/monster/walker/DomePunch01_02.wav" id="15"]
+
+[sub_resource type="CircleShape2D" id="19"]
+radius = 7.0
+
+[node name="Projectile" type="Area2D" groups=["projectile"]]
+z_index = 61
+collision_layer = 256
+collision_mask = 0
+script = ExtResource("1")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0.5, 2)
+sprite_frames = ExtResource("2")
+animation = &"flying"
+speed_scale = 2.0
+
+[node name="ImpactSound" type="AudioStreamPlayer" parent="."]
+volume_db = 1.573
+pitch_scale = 1.37
+bus = &"World"
+script = ExtResource("3")
+randomPitch = 0.11
+streams = [ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12")]
+
+[node name="Sound" parent="ImpactSound" instance=ExtResource("13")]
+bus = &"World"
+streams = [ExtResource("14")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("19")
+
+[node name="ShieldedSound" parent="." instance=ExtResource("13")]
+bus = &"World"
+streams = [ExtResource("14"), ExtResource("15")]
+
+[connection signal="area_entered" from="." to="." method="_on_Projectile_area_entered"]
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]

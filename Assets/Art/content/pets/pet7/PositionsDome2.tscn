@@ -1,0 +1,72 @@
+[gd_scene format=3]
+
+[node name="PetPositions" type="Node2D"]
+
+[node name="Position1_1" type="Marker2D" parent="."]
+position = Vector2(0, -3)
+
+[node name="Position1_2_left" type="Marker2D" parent="."]
+position = Vector2(26, -5)
+
+[node name="Position1_3_right" type="Marker2D" parent="."]
+position = Vector2(-25, 6)
+
+[node name="Position1_4_left" type="Marker2D" parent="."]
+position = Vector2(22, 3)
+
+[node name="Position2_1" type="Marker2D" parent="."]
+position = Vector2(-6, -56)
+
+[node name="Position2_2" type="Marker2D" parent="."]
+position = Vector2(15, -55)
+
+[node name="Position2_3" type="Marker2D" parent="."]
+position = Vector2(0, -26)
+
+[node name="Position3_1" type="Marker2D" parent="."]
+position = Vector2(-15, -5)
+
+[node name="Position3_2" type="Marker2D" parent="."]
+position = Vector2(-22, -4)
+
+[node name="Position3_3" type="Marker2D" parent="."]
+position = Vector2(11, -4)
+
+[node name="Position3_4" type="Marker2D" parent="."]
+position = Vector2(33, 2)
+
+[node name="Position3_5" type="Marker2D" parent="."]
+position = Vector2(33, -6)
+
+[node name="Position4_1" type="Marker2D" parent="."]
+position = Vector2(3, -56)
+
+[node name="Position4_2" type="Marker2D" parent="."]
+position = Vector2(0, -26)
+
+[node name="Position5_1" type="Marker2D" parent="."]
+position = Vector2(-13, -57)
+
+[node name="Position5_2" type="Marker2D" parent="."]
+position = Vector2(7, -58)
+
+[node name="Position6_1_right" type="Marker2D" parent="."]
+position = Vector2(-37, -39)
+
+[node name="Position6_2_left" type="Marker2D" parent="."]
+position = Vector2(41, -38)
+
+[node name="Position7_1_left" type="Marker2D" parent="."]
+position = Vector2(-21, -56)
+
+[node name="Position7_2_right" type="Marker2D" parent="."]
+position = Vector2(20, -55)
+
+[node name="Position8_1" type="Marker2D" parent="."]
+position = Vector2(-12, -5)
+
+[node name="Position8_2" type="Marker2D" parent="."]
+position = Vector2(5, -5)
+
+[node name="Position8_3" type="Marker2D" parent="."]
+position = Vector2(-32, 3)

@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cyf0bju80x4k6"]
+
+[ext_resource type="Texture2D" uid="uid://5pi6678dwlr1" path="res://content/map/decorations/grass/EdgeFloor1.png" id="1"]
+[ext_resource type="Script" path="res://content/map/decorations/BorderDecoration.gd" id="2"]
+
+[node name="Gras" type="Sprite2D" groups=["decoration"]]
+texture_filter = 1
+texture = ExtResource("1")
+offset = Vector2(-3, 6)
+hframes = 5
+script = ExtResource("2")

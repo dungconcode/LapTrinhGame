@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ce06v6wyq1ur0"
+path="res://.godot/imported/sphere amb_darkness_distortion.wav-113ab6685e5a54c8bdf77324aa0cab97.sample"
+
+[deps]
+
+source_file="res://content/sounds/monster/driller/sphere amb_darkness_distortion.wav"
+dest_files=["res://.godot/imported/sphere amb_darkness_distortion.wav-113ab6685e5a54c8bdf77324aa0cab97.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=1
+edit/loop_begin=0
+edit/loop_end=384000
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://lkwwqlddxdek"
+path="res://.godot/imported/harvester Artillery.wav-534b8bbdbdf9bb5f9b7ef1cb5b0cf2b4.sample"
+
+[deps]
+
+source_file="res://content/sounds/dome3/harvester Artillery.wav"
+dest_files=["res://.godot/imported/harvester Artillery.wav-534b8bbdbdf9bb5f9b7ef1cb5b0cf2b4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

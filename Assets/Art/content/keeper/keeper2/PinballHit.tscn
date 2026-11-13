@@ -1,0 +1,48 @@
+[gd_scene load_steps=8 format=3 uid="uid://j7nxqbnaamgx"]
+
+[ext_resource type="Texture2D" uid="uid://cmcto7f4wu65o" path="res://content/keeper/keeper2/player1/pinballhit.png" id="1"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/PinballHit.gd" id="2"]
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("1")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("1")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource("1")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="SpriteFrames" id="5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}, {
+"duration": 1.0,
+"texture": SubResource("9")
+}],
+"loop": false,
+"name": &"hit",
+"speed": 24.0
+}]
+
+[node name="PinballHit" type="AnimatedSprite2D"]
+sprite_frames = SubResource("5")
+animation = &"hit"
+script = ExtResource("2")
+
+[connection signal="animation_finished" from="." to="." method="_on_PinballHit_animation_finished"]
+[connection signal="animation_looped" from="." to="." method="_on_animation_looped"]

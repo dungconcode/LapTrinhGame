@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://drpoe674dpicm"]
+
+[ext_resource type="Script" path="res://content/gadgets/remotecontrol/VirtualCameraTarget.gd" id="1"]
+
+[node name="VirtualCameraTarget" type="Node2D"]
+position = Vector2(0, -400)
+script = ExtResource("1")

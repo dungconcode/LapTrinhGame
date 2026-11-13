@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bswtm1ungi7h3"]
+
+[ext_resource type="Script" path="res://content/caves/BackwallElement.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://disro6mi735gq" path="res://content/caves/pet.png" id="2"]
+
+[node name="BackwallElement" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1")
+size = Vector2(2, 2)
+
+[node name="Background" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2")
+centered = false

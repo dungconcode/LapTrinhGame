@@ -1,0 +1,279 @@
+[gd_scene load_steps=33 format=3 uid="uid://dnlvaj2p71njn"]
+
+[ext_resource type="Script" path="res://content/weapons/artillery/MortarExplosion.gd" id="1"]
+[ext_resource type="Shader" path="res://content/weapons/artillery/explosion_shockwave_shader.gdshader" id="2"]
+[ext_resource type="Texture2D" uid="uid://daff4tw2ipany" path="res://systems/style/palettes/palette_1_1.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://c8i3eu1cnkovd" path="res://content/weapons/artillery/shockwave_gradient2.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://fexbw3j2m5xn" path="res://content/weapons/artillery/circle_512.png" id="5"]
+[ext_resource type="Shader" path="res://content/weapons/tesla/physics_sparks_particleshader.gdshader" id="6"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/CustomStyle_ChangeModulate.gd" id="7"]
+[ext_resource type="Texture2D" uid="uid://5xuybf18gcnf" path="res://content/effects/explosions/smoke32x32px_sheet.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://tbeeonuc07lp" path="res://content/effects/explosions/smoke16x16px_sheet.png" id="9"]
+[ext_resource type="SpriteFrames" uid="uid://sv0tfurstsgs" path="res://content/weapons/artillery/ArtilleryMortarExplosionSmall.tres" id="10"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="11"]
+
+[sub_resource type="Gradient" id="148"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0.001, 0.00531915, 0.0746888, 0.246888)
+colors = PackedColorArray(0.376471, 0.552941, 0, 0, 0.25098, 1, 0.392157, 1, 0.282353, 1, 0.392157, 1, 0.313726, 1, 0.392157, 1)
+
+[sub_resource type="GradientTexture2D" id="149"]
+gradient = SubResource("148")
+width = 128
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5bx4b"]
+resource_local_to_scene = true
+shader = ExtResource("2")
+shader_parameter/multiplier = 1.0
+shader_parameter/palette = ExtResource("3")
+shader_parameter/remap_gradient = SubResource("149")
+
+[sub_resource type="Gradient" id="145"]
+offsets = PackedFloat32Array(0.590116, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="151"]
+gradient = SubResource("145")
+width = 256
+
+[sub_resource type="ShaderMaterial" id="146"]
+shader = ExtResource("6")
+shader_parameter/emission_sphere_radius = 0.2
+shader_parameter/lifetime_randomness = 0.8
+shader_parameter/direction = Vector3(1, 0, 0)
+shader_parameter/spread = 180.0
+shader_parameter/scale = 1.0
+shader_parameter/air_drag = 1.0
+shader_parameter/mass = 0.05
+shader_parameter/mass_random = 0.7
+shader_parameter/scale_min = 0.1
+shader_parameter/scale_max = 0.15
+shader_parameter/initial_linear_velocity = 1500.0
+shader_parameter/initial_linear_velocity_random = 0.25
+shader_parameter/color_value = Color(1, 1, 1, 1)
+shader_parameter/scale_speed_mod = Vector3(1.113, 0.631, 0)
+shader_parameter/scale_speed_mod_min = 0.3
+shader_parameter/scale_speed_mod_max = 4.0
+shader_parameter/gravity = Vector3(0, 0, 0)
+shader_parameter/color_ramp = SubResource("151")
+
+[sub_resource type="Gradient" id="152"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0.909884, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="147"]
+gradient = SubResource("152")
+width = 8
+height = 32
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="CanvasItemMaterial" id="28"]
+particles_animation = true
+particles_anim_h_frames = 10
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="Curve" id="61"]
+_data = [Vector2(0, 0.246591), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="153"]
+curve = SubResource("61")
+
+[sub_resource type="Gradient" id="55"]
+offsets = PackedFloat32Array(0, 0.281337, 0.62117, 1)
+colors = PackedColorArray(0.313726, 1, 0.392157, 1, 0.282353, 0.792157, 0.392157, 1, 0.25098, 0.521569, 0.392157, 1, 0.188235, 0.427451, 0.392157, 0)
+
+[sub_resource type="GradientTexture2D" id="154"]
+gradient = SubResource("55")
+
+[sub_resource type="ParticleProcessMaterial" id="30"]
+lifetime_randomness = 0.8
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 20.0
+angle_max = 360.0
+spread = 120.0
+initial_velocity_min = 27.0
+initial_velocity_max = 90.0
+angular_velocity_min = -150.0
+angular_velocity_max = 150.0
+gravity = Vector3(0, 0, 0)
+linear_accel_min = -30.0
+linear_accel_max = -30.0
+damping_min = 50.0
+damping_max = 50.0
+color_ramp = SubResource("154")
+anim_speed_min = 1.0
+anim_speed_max = 1.0
+anim_speed_curve = SubResource("153")
+anim_offset_max = 0.5
+
+[sub_resource type="Gradient" id="57"]
+offsets = PackedFloat32Array(0, 0.281337, 0.62117, 1)
+colors = PackedColorArray(0.313726, 1, 0.392157, 1, 0.282353, 0.792157, 0.392157, 1, 0.25098, 0.521569, 0.392157, 1, 0.188235, 0.427451, 0.392157, 0)
+
+[sub_resource type="GradientTexture2D" id="58"]
+gradient = SubResource("57")
+
+[sub_resource type="ParticleProcessMaterial" id="36"]
+lifetime_randomness = 0.8
+particle_flag_disable_z = true
+emission_shape = 6
+emission_ring_axis = Vector3(0, 0, 1)
+emission_ring_height = 1.0
+emission_ring_radius = 40.0
+emission_ring_inner_radius = 0.0
+angle_max = 360.0
+spread = 20.0
+initial_velocity_min = 120.0
+initial_velocity_max = 400.0
+angular_velocity_min = -150.0
+angular_velocity_max = 150.0
+gravity = Vector3(0, 200, 0)
+linear_accel_min = -30.0
+linear_accel_max = -30.0
+damping_min = 50.0
+damping_max = 50.0
+color_ramp = SubResource("58")
+anim_speed_min = 1.0
+anim_speed_max = 1.0
+anim_offset_max = 1.0
+
+[sub_resource type="CanvasItemMaterial" id="31"]
+particles_animation = true
+particles_anim_h_frames = 8
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="Gradient" id="59"]
+offsets = PackedFloat32Array(0, 0.356546, 1)
+colors = PackedColorArray(0.282353, 0.792157, 0.392157, 1, 0.25098, 0.521569, 0.392157, 1, 0.188235, 0.427451, 0.392157, 0)
+
+[sub_resource type="GradientTexture2D" id="60"]
+gradient = SubResource("59")
+
+[sub_resource type="ParticleProcessMaterial" id="33"]
+lifetime_randomness = 0.8
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 20.0
+angle_max = 360.0
+spread = 20.0
+initial_velocity_min = 90.0
+initial_velocity_max = 300.0
+angular_velocity_min = -200.0
+angular_velocity_max = 200.0
+gravity = Vector3(0, 200, 0)
+linear_accel_min = -100.0
+linear_accel_max = -100.0
+color_ramp = SubResource("60")
+anim_speed_min = 1.0
+anim_speed_max = 1.0
+anim_offset_max = 1.0
+
+[node name="MortarExplosion" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="RadiusScaler" type="Node2D" parent="."]
+
+[node name="Shockwave" type="Sprite2D" parent="RadiusScaler" groups=["styleShaderCallback", "styled"]]
+texture_filter = 1
+material = SubResource("ShaderMaterial_5bx4b")
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("4")
+
+[node name="Circle" type="Sprite2D" parent="RadiusScaler"]
+modulate = Color(0, 0, 0, 1)
+texture_filter = 1
+scale = Vector2(0.039, 0.039)
+texture = ExtResource("5")
+
+[node name="Sparks" type="GPUParticles2D" parent="."]
+emitting = false
+amount = 25
+process_material = SubResource("146")
+texture = SubResource("147")
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+script = ExtResource("7")
+self_init = true
+styleColor = Color(0.470588, 1, 0, 1)
+
+[node name="Particles" type="GPUParticles2D" parent="."]
+material = SubResource("28")
+position = Vector2(19, 0)
+emitting = false
+amount = 60
+process_material = SubResource("30")
+texture = ExtResource("8")
+lifetime = 2.3
+one_shot = true
+explosiveness = 1.0
+
+[node name="ParticlesBig" type="GPUParticles2D" parent="."]
+material = SubResource("28")
+position = Vector2(20, -6.86646e-05)
+emitting = false
+amount = 100
+process_material = SubResource("36")
+texture = ExtResource("8")
+lifetime = 1.3
+one_shot = true
+explosiveness = 1.0
+
+[node name="ParticlesExtra" type="GPUParticles2D" parent="."]
+material = SubResource("31")
+position = Vector2(4, -4.57764e-05)
+emitting = false
+amount = 80
+process_material = SubResource("33")
+texture = ExtResource("9")
+lifetime = 1.6
+one_shot = true
+explosiveness = 1.0
+
+[node name="ExplosionSmall" type="AnimatedSprite2D" parent="."]
+position = Vector2(71, 0.999992)
+rotation = 0.0933366
+scale = Vector2(0.8, 0.8)
+sprite_frames = ExtResource("10")
+animation = &"Small"
+frame = 7
+
+[node name="ExplosionBig" type="AnimatedSprite2D" parent="."]
+position = Vector2(68, -5)
+scale = Vector2(0.8, 0.8)
+sprite_frames = ExtResource("10")
+animation = &"Big"
+frame = 7
+
+[node name="ExplosionSmallL" type="AnimatedSprite2D" parent="."]
+position = Vector2(55, -52)
+rotation = -0.59397
+scale = Vector2(0.8, 0.8)
+sprite_frames = ExtResource("10")
+animation = &"Small"
+frame = 7
+
+[node name="ExplosionSmallR" type="AnimatedSprite2D" parent="."]
+position = Vector2(40, 62)
+rotation = 1.01383
+scale = Vector2(0.8, 0.8)
+sprite_frames = ExtResource("10")
+animation = &"Small"
+frame = 7
+
+[node name="SelfDestructionTimer" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+autostart = true
+
+[node name="Tween" parent="." instance=ExtResource("11")]
+
+[connection signal="timeout" from="SelfDestructionTimer" to="." method="_on_SelfDestructionTimer_timeout"]

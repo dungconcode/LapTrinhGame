@@ -1,0 +1,29 @@
+[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://c0ps4eqmti8u7"]
+
+[ext_resource type="Texture2D" uid="uid://dtj74ugna5vp7" path="res://content/drop/ShredNoise.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://ccqqc5rjgjkom" path="res://systems/style/palettes/index_palette.png" id="2"]
+
+[sub_resource type="Shader" id="7"]
+code = "shader_type canvas_item;
+
+uniform sampler2D noise : source_color, filter_nearest;
+uniform sampler2D palette : source_color, filter_nearest;
+const float start_r = 0.5 / float(32);
+const float start_b = 0.5 / float(12);
+
+varying flat vec4 modulate;
+
+void vertex() {
+	modulate = COLOR;
+}
+
+void fragment() {
+    vec4 input = texture(TEXTURE, UV);
+    COLOR.a = step(texture(noise, UV).r, modulate.a)*input.a;
+    COLOR.rgb = texture(palette, vec2(start_r + input.r, start_b+input.b)).rgb;
+}"
+
+[resource]
+shader = SubResource("7")
+shader_parameter/noise = ExtResource("1")
+shader_parameter/palette = ExtResource("2")

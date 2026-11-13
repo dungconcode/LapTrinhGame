@@ -1,0 +1,140 @@
+[gd_scene load_steps=13 format=3 uid="uid://btxo6carkgvl3"]
+
+[ext_resource type="Script" path="res://content/caves/mushroomcave/MushroomCave.gd" id="1"]
+[ext_resource type="Script" path="res://content/map/Parallaxer.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://cvtcn022anheh" path="res://content/caves/mushroomcave/mushroomcave-Sheet.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://ba7w8di7406y2" path="res://content/caves/mushroomcave/consumable.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c6b47jh7fat73" path="res://content/caves/seedcave/focus.png" id="5"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="6"]
+[ext_resource type="AudioStream" uid="uid://c7ri13w57lqui" path="res://content/sounds/carryline-break.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://c2cbauerq04na" path="res://content/sounds/Biomes/mushroomConsumedSound.wav" id="8"]
+[ext_resource type="PackedScene" uid="uid://02emll07tpim" path="res://content/shared/Usable.tscn" id="9"]
+[ext_resource type="AudioStream" uid="uid://c0frroa2mv11h" path="res://content/sounds/Amb/Garden subtle.wav" id="10"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="11"]
+[ext_resource type="Texture2D" uid="uid://gi0nvflvmpcv" path="res://content/caves/mushroomcave/mushroomcave_alpha_map_blurred.png" id="12"]
+
+[node name="MushroomCave" type="Node2D" groups=["cave", "saveable", "unstyled"]]
+z_index = -40
+texture_filter = 1
+script = ExtResource("1")
+biome = "red"
+minLayer = null
+maxCount = 100
+minRelativeDepth = null
+maxRelativeDepth = null
+
+[node name="ExtraBackground" type="ColorRect" parent="."]
+offset_left = -1.0
+offset_right = 67.0
+offset_bottom = 50.0
+mouse_filter = 2
+color = Color(0.129412, 0.0941176, 0.137255, 1)
+
+[node name="Sprites" type="Control" parent="."]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_right = 66.0
+offset_bottom = 48.0
+mouse_filter = 2
+script = ExtResource("2")
+start_offset = 0.2
+scaling = 0.8
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(37, 25)
+texture = ExtResource("3")
+hframes = 6
+
+[node name="ExtraBackground2" type="ColorRect" parent="Sprites/Sprite2D"]
+offset_left = -47.0
+offset_top = -33.0
+offset_right = 43.0
+offset_bottom = 35.0
+mouse_filter = 2
+color = Color(0.396078, 0.105882, 0.196078, 1)
+
+[node name="Sprite2" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(37, 25)
+texture = ExtResource("3")
+hframes = 6
+frame = 1
+
+[node name="Sprite3" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(37, 25)
+texture = ExtResource("3")
+hframes = 6
+frame = 2
+
+[node name="Sprite4" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(37, 25)
+texture = ExtResource("3")
+hframes = 6
+frame = 3
+
+[node name="Sprite5" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(37, 25)
+texture = ExtResource("3")
+hframes = 6
+frame = 4
+
+[node name="Sprite6" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(37, 25)
+texture = ExtResource("3")
+hframes = 6
+frame = 5
+
+[node name="Mushroom" type="Sprite2D" parent="Sprites/Sprite6"]
+texture_filter = 1
+position = Vector2(1, 15)
+texture = ExtResource("4")
+
+[node name="FocusMarker" type="Sprite2D" parent="Sprites/Sprite6"]
+texture_filter = 1
+position = Vector2(2, 11)
+texture = ExtResource("5")
+
+[node name="MushroomConsumedSound" parent="." instance=ExtResource("6")]
+volume_db = 5.193
+pitch_scale = 1.22
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+streams = [ExtResource("7")]
+
+[node name="MushroomConsumedSound2" parent="MushroomConsumedSound" instance=ExtResource("6")]
+volume_db = -3.547
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+streams = [ExtResource("8")]
+
+[node name="Usable" parent="." instance=ExtResource("9")]
+position = Vector2(37, 38)
+visibleOnFocus = NodePath("../Sprites/Sprite6/FocusMarker")
+
+[node name="AmbSound" parent="Usable" instance=ExtResource("6")]
+stream = ExtResource("10")
+volume_db = -2.235
+pitch_scale = 0.69
+bus = &"Mine"
+randomVolume = 0.0
+maxAudibleDistance = 120.0
+minAudibleDistance = 36.0
+fadeInTime = 0.1
+fadeOutTime = 3.0
+loop = true
+
+[node name="Tween" parent="." instance=ExtResource("11")]
+
+[node name="AlphaMap" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(33, 25)
+texture = ExtResource("12")

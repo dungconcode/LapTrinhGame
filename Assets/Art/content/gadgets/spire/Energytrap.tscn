@@ -1,0 +1,36 @@
+[gd_scene load_steps=9 format=3 uid="uid://bih0pf4lp7ld1"]
+
+[ext_resource type="Script" path="res://content/gadgets/spire/Energytrap.gd" id="1"]
+[ext_resource type="Shader" path="res://content/gadgets/spire/Energytrap.gdshader" id="2"]
+[ext_resource type="Texture2D" uid="uid://dmii7ukqi06g5" path="res://content/gadgets/spire/energytrap_distortion.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bi6byf41x5835" path="res://content/gadgets/spire/energytrap_noise.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bf4ift114rt6p" path="res://content/gadgets/spire/ring.png" id="5"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="6"]
+
+[sub_resource type="ShaderMaterial" id="8"]
+shader = ExtResource("2")
+shader_parameter/pixelation_factor = 50
+shader_parameter/noise = ExtResource("4")
+shader_parameter/distortion = ExtResource("3")
+
+[sub_resource type="CircleShape2D" id="4"]
+
+[node name="Energytrap" type="Area2D"]
+z_index = 45
+texture_filter = 1
+collision_layer = 0
+collision_mask = 384
+monitorable = false
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+material = SubResource("8")
+texture = ExtResource("5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("4")
+
+[node name="Tween" parent="." instance=ExtResource("6")]
+
+[connection signal="area_entered" from="." to="." method="_on_Stuntrap_area_entered"]

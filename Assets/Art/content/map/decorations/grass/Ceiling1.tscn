@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cesrdjeiycg5m"]
+
+[ext_resource type="Texture2D" uid="uid://nj0q5x4xqg1p" path="res://content/map/decorations/grass/Ceiling1.png" id="1"]
+[ext_resource type="Script" path="res://content/map/decorations/BorderDecoration.gd" id="2"]
+
+[node name="Grass" type="Sprite2D" groups=["decoration"]]
+texture_filter = 1
+texture = ExtResource("1")
+offset = Vector2(0, 2)
+hframes = 5
+script = ExtResource("2")
+randomFlipH = true
+randX = Vector2(-9, 18)

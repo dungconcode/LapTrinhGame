@@ -1,0 +1,458 @@
+[gd_scene load_steps=52 format=3 uid="uid://buh1fdogmo88q"]
+
+[ext_resource type="Shader" path="res://content/weapons/tesla/polar/ReticlePolarFx.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://daff4tw2ipany" path="res://systems/style/palettes/palette_1_1.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c1io5cwu74lwd" path="res://icon_32x32.png" id="3"]
+[ext_resource type="Script" path="res://content/weapons/tesla/TeslaReticlePolarFx.gd" id="4"]
+[ext_resource type="Texture2D" uid="uid://cyjda15dgpl2d" path="res://content/weapons/tesla/lightning_repeat.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://doj0aanl5uqsb" path="res://content/weapons/tesla/polar/ReticlePolarFx_perfecttiming_noise.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://b8r5y5o7qmibg" path="res://content/weapons/tesla/polar/ReticlePolarFx_particles_noise.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://crnh4e484yrtd" path="res://content/weapons/tesla/tesla_effects_3.png" id="8"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/CustomStyle_ChangeModulate.gd" id="9"]
+[ext_resource type="Texture2D" uid="uid://bxdua8o1ttoj5" path="res://content/weapons/tesla/polar/ReticlePolarFx_quickshot_noise.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dtao6ox7d7dxu" path="res://content/weapons/tesla/polar/ReticlePolarFx_quickshot_particles_noise.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://1d7mvrmvlu87" path="res://content/weapons/tesla/tesla_effects_6.png" id="12"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="13"]
+
+[sub_resource type="Gradient" id="93"]
+resource_local_to_scene = true
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.624427, 0.709924, 0.769466, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.273963, 0.273963, 0.273963, 1, 0.554688, 0.554688, 0.554688, 1, 0.21875, 0.21875, 0.21875, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="94"]
+resource_local_to_scene = true
+gradient = SubResource("93")
+width = 512
+height = 512
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="Gradient" id="17"]
+colors = PackedColorArray(0.433594, 0.433594, 0.433594, 0, 0.855469, 0.855469, 0.855469, 1)
+
+[sub_resource type="GradientTexture2D" id="18"]
+gradient = SubResource("17")
+width = 128
+
+[sub_resource type="Gradient" id="95"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0.303817, 0.555725, 0.661069, 0.679389, 0.90229)
+colors = PackedColorArray(0, 0, 0, 1, 0.316177, 0.316177, 0.316177, 1, 0.492188, 0.492188, 0.492188, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="96"]
+gradient = SubResource("95")
+width = 256
+height = 256
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="FastNoiseLite" id="97"]
+
+[sub_resource type="NoiseTexture2D" id="98"]
+seamless = true
+noise = SubResource("97")
+
+[sub_resource type="Gradient" id="99"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.0858586, 0.171717, 0.313131, 0.616162, 0.760101, 1)
+colors = PackedColorArray(0.282353, 0.376471, 0, 1, 0.313726, 0.376471, 0, 1, 0.345098, 0.427451, 0, 1, 0.376471, 0.6, 0, 1, 0.407843, 0.941176, 0, 1, 0.439216, 1, 0, 1, 0.470588, 1, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="100"]
+gradient = SubResource("99")
+width = 128
+
+[sub_resource type="ShaderMaterial" id="101"]
+shader = ExtResource("1")
+shader_parameter/extra_power = 1.0
+shader_parameter/effect_scale = 0.969
+shader_parameter/effect_repeat = 1.0
+shader_parameter/effect_center = Vector2(0.5, 0.5)
+shader_parameter/uv_mod = Vector2(0.5, 0.282)
+shader_parameter/scroll_speed = Vector2(0.1, -0.5)
+shader_parameter/pulse_rate_1 = 7.0
+shader_parameter/pulse_rate_2 = 12.0
+shader_parameter/pulse_intensity = 0.05
+shader_parameter/noise_scale = 0.06
+shader_parameter/noise_size = 1.0
+shader_parameter/palette = ExtResource("2")
+shader_parameter/remap_gradient = SubResource("100")
+shader_parameter/noise = SubResource("98")
+shader_parameter/image_texture = null
+shader_parameter/image_multiplier = SubResource("96")
+shader_parameter/image_add = SubResource("94")
+shader_parameter/image_gradient_tint = SubResource("18")
+
+[sub_resource type="Gradient" id="Gradient_h40id"]
+resource_local_to_scene = true
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.117647, 0.21267, 0.285068, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0.803922, 0.803922, 0.803922, 1, 0.507812, 0.507812, 0.507812, 1, 0.0703125, 0.0703125, 0.0703125, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_rrywc"]
+resource_local_to_scene = true
+gradient = SubResource("Gradient_h40id")
+width = 512
+height = 512
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="Gradient" id="Gradient_70pkw"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0.171946, 0.384615, 0.864253, 0.932127, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0.177419, 0.177419, 0.177419, 1, 0.0443549, 0.0443549, 0.0443549, 1, 0.370968, 0.370968, 0.370968, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_6vknk"]
+gradient = SubResource("Gradient_70pkw")
+width = 256
+height = 256
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="Gradient" id="28"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.0858586, 0.171717, 0.313131, 0.616162, 0.760101, 1)
+colors = PackedColorArray(0.282353, 0.376471, 0, 1, 0.313726, 0.376471, 0, 1, 0.345098, 0.427451, 0, 1, 0.376471, 0.6, 0, 1, 0.407843, 0.941176, 0, 1, 0.439216, 1, 0, 1, 0.470588, 1, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="29"]
+gradient = SubResource("28")
+width = 128
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_asw1e"]
+shader = ExtResource("1")
+shader_parameter/extra_power = 1.5
+shader_parameter/effect_scale = 0.969
+shader_parameter/effect_repeat = 1.0
+shader_parameter/effect_center = Vector2(0.5, 0.5)
+shader_parameter/uv_mod = Vector2(0.5, 0.55)
+shader_parameter/scroll_speed = Vector2(0.3, -1.5)
+shader_parameter/pulse_rate_1 = 7.0
+shader_parameter/pulse_rate_2 = 12.0
+shader_parameter/pulse_intensity = 0.05
+shader_parameter/noise_scale = 0.06
+shader_parameter/noise_size = 1.0
+shader_parameter/palette = ExtResource("2")
+shader_parameter/remap_gradient = SubResource("29")
+shader_parameter/noise = ExtResource("6")
+shader_parameter/image_texture = ExtResource("5")
+shader_parameter/image_multiplier = SubResource("GradientTexture2D_6vknk")
+shader_parameter/image_add = SubResource("GradientTexture2D_rrywc")
+shader_parameter/image_gradient_tint = SubResource("18")
+
+[sub_resource type="Shader" id="5"]
+code = "// NOTE: Shader automatically converted from Godot Engine 3.5.1.stable's CanvasItemMaterial.
+
+shader_type canvas_item;
+render_mode blend_mix;
+
+uniform sampler2D noise : source_color, repeat_enable;
+uniform int particles_anim_h_frames;
+uniform int particles_anim_v_frames;
+uniform bool particles_anim_loop;
+
+varying float lifetime;
+
+void vertex() {
+	lifetime = abs(1.0-INSTANCE_CUSTOM.y);
+	float h_frames = float(particles_anim_h_frames);
+	float v_frames = float(particles_anim_v_frames);
+	VERTEX.xy /= vec2(h_frames, v_frames);
+	float particle_total_frames = float(particles_anim_h_frames * particles_anim_v_frames);
+	float particle_frame = floor(INSTANCE_CUSTOM.z * float(particle_total_frames));
+	if (!particles_anim_loop) {
+		particle_frame = clamp(particle_frame, 0.0, particle_total_frames - 1.0);
+	} else {
+		particle_frame = mod(particle_frame, particle_total_frames);
+	}	UV /= vec2(h_frames, v_frames);
+	UV += vec2(mod(particle_frame, h_frames) / h_frames, floor((particle_frame + 0.5) / h_frames) / v_frames);
+}
+
+void fragment() {
+	vec4 tex = texture(TEXTURE, UV) * COLOR;
+	COLOR = tex;
+	COLOR.a *= clamp(mix(1.0, mix(0.5, texture(noise, UV+TIME*0.3).r, 10.0), lifetime), 0.0, 1.0);
+}"
+
+[sub_resource type="ShaderMaterial" id="38"]
+shader = SubResource("5")
+shader_parameter/particles_anim_h_frames = 4
+shader_parameter/particles_anim_v_frames = 3
+shader_parameter/particles_anim_loop = false
+shader_parameter/noise = ExtResource("7")
+
+[sub_resource type="Gradient" id="39"]
+offsets = PackedFloat32Array(0, 0.0726744, 0.177326, 0.523256, 0.872093, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0.865724, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="13"]
+gradient = SubResource("39")
+width = 128
+
+[sub_resource type="ParticleProcessMaterial" id="40"]
+lifetime_randomness = 0.2
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 6.0
+angle_max = 360.0
+direction = Vector3(0, 0, 0)
+spread = 180.0
+gravity = Vector3(0, 0, 0)
+scale_min = 0.35
+scale_max = 0.35
+color_ramp = SubResource("13")
+anim_offset_max = 1.0
+
+[sub_resource type="Gradient" id="91"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.75, 0.877907, 0.950581, 0.991279)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 0.223529, 1, 1, 1, 1, 1, 1, 1, 0.364706, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="92"]
+gradient = SubResource("91")
+width = 128
+height = 128
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="Gradient" id="30"]
+resource_local_to_scene = true
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.18319, 0.293605, 0.465517, 0.56686, 0.68319, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0.803922, 0.803922, 0.803922, 1, 0.507812, 0.507812, 0.507812, 1, 0.0703125, 0.0703125, 0.0703125, 1, 0.382812, 0.382812, 0.382812, 1, 0.21875, 0.21875, 0.21875, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="31"]
+resource_local_to_scene = true
+gradient = SubResource("30")
+width = 512
+height = 512
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="Gradient" id="35"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0.261628, 0.587209, 0.793605)
+colors = PackedColorArray(1, 1, 1, 1, 0.335938, 0.335938, 0.335938, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="36"]
+gradient = SubResource("35")
+width = 256
+height = 256
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="ShaderMaterial" id="141"]
+shader = ExtResource("1")
+shader_parameter/extra_power = 1.0
+shader_parameter/effect_scale = 0.969
+shader_parameter/effect_repeat = 1.0
+shader_parameter/effect_center = Vector2(0.5, 0.5)
+shader_parameter/uv_mod = Vector2(0.5, 0.55)
+shader_parameter/scroll_speed = Vector2(0.3, -1.5)
+shader_parameter/pulse_rate_1 = 7.0
+shader_parameter/pulse_rate_2 = 12.0
+shader_parameter/pulse_intensity = 0.05
+shader_parameter/noise_scale = 0.06
+shader_parameter/noise_size = 1.0
+shader_parameter/palette = ExtResource("2")
+shader_parameter/remap_gradient = SubResource("29")
+shader_parameter/noise = ExtResource("6")
+shader_parameter/image_texture = null
+shader_parameter/image_multiplier = SubResource("36")
+shader_parameter/image_add = SubResource("31")
+shader_parameter/image_gradient_tint = SubResource("18")
+
+[sub_resource type="Gradient" id="103"]
+resource_local_to_scene = true
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.739953, 0.843972, 0.938534, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.273963, 0.273963, 0.273963, 1, 0.554688, 0.554688, 0.554688, 1, 0.21875, 0.21875, 0.21875, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="104"]
+resource_local_to_scene = true
+gradient = SubResource("103")
+width = 512
+height = 512
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="Gradient" id="105"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0.607565, 0.706856, 0.806147, 0.891253, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.316177, 0.316177, 0.316177, 1, 0.492188, 0.492188, 0.492188, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="106"]
+gradient = SubResource("105")
+width = 256
+height = 256
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="ShaderMaterial" id="107"]
+shader = ExtResource("1")
+shader_parameter/extra_power = 1.0
+shader_parameter/effect_scale = 0.969
+shader_parameter/effect_repeat = 1.0
+shader_parameter/effect_center = Vector2(0.5, 0.5)
+shader_parameter/uv_mod = Vector2(1, 0.282)
+shader_parameter/scroll_speed = Vector2(0.1, 1)
+shader_parameter/pulse_rate_1 = 7.0
+shader_parameter/pulse_rate_2 = 12.0
+shader_parameter/pulse_intensity = 0.05
+shader_parameter/noise_scale = 0.06
+shader_parameter/noise_size = 1.0
+shader_parameter/palette = ExtResource("2")
+shader_parameter/remap_gradient = SubResource("100")
+shader_parameter/noise = ExtResource("10")
+shader_parameter/image_texture = ExtResource("5")
+shader_parameter/image_multiplier = SubResource("106")
+shader_parameter/image_add = SubResource("104")
+shader_parameter/image_gradient_tint = SubResource("18")
+
+[sub_resource type="Shader" id="139"]
+code = "// NOTE: Shader automatically converted from Godot Engine 3.5.1.stable's CanvasItemMaterial.
+
+shader_type canvas_item;
+render_mode blend_mix;
+
+uniform sampler2D noise : source_color, repeat_enable;
+uniform int particles_anim_h_frames;
+uniform int particles_anim_v_frames;
+uniform bool particles_anim_loop;
+
+varying float lifetime;
+
+void vertex() {
+	lifetime = abs(1.0-INSTANCE_CUSTOM.y);
+	float h_frames = float(particles_anim_h_frames);
+	float v_frames = float(particles_anim_v_frames);
+	VERTEX.xy /= vec2(h_frames, v_frames);
+	float particle_total_frames = float(particles_anim_h_frames * particles_anim_v_frames);
+	float particle_frame = floor(INSTANCE_CUSTOM.z * float(particle_total_frames));
+	if (!particles_anim_loop) {
+		particle_frame = clamp(particle_frame, 0.0, particle_total_frames - 1.0);
+	} else {
+		particle_frame = mod(particle_frame, particle_total_frames);
+	}	UV /= vec2(h_frames, v_frames);
+	UV += vec2(mod(particle_frame, h_frames) / h_frames, floor((particle_frame + 0.5) / h_frames) / v_frames);
+}
+
+void fragment() {
+	vec4 tex = texture(TEXTURE, UV) * COLOR;
+	COLOR = tex;
+	COLOR.a *= clamp(mix(1.0, mix(0.5, texture(noise, UV+TIME*0.3).r, 10.0), lifetime), 0.0, 1.0);
+}"
+
+[sub_resource type="ShaderMaterial" id="8"]
+shader = SubResource("139")
+shader_parameter/particles_anim_h_frames = 6
+shader_parameter/particles_anim_v_frames = 2
+shader_parameter/particles_anim_loop = true
+shader_parameter/noise = ExtResource("11")
+
+[sub_resource type="ParticleProcessMaterial" id="108"]
+lifetime_randomness = 0.2
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 0.01
+angle_max = 360.0
+direction = Vector3(0, 0, 0)
+spread = 180.0
+gravity = Vector3(0, 0, 0)
+scale_min = 0.25
+scale_max = 0.25
+color_ramp = SubResource("13")
+anim_offset_max = 1.0
+
+[node name="ReticlePolarFx" type="Sprite2D" groups=["styleShaderCallback", "styled"]]
+z_index = 6
+texture_filter = 1
+material = SubResource("101")
+texture = ExtResource("3")
+script = ExtResource("4")
+
+[node name="Ready" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+material = SubResource("ShaderMaterial_asw1e")
+scale = Vector2(2, 2)
+texture = ExtResource("3")
+
+[node name="Particles" type="GPUParticles2D" parent="."]
+material = SubResource("38")
+emitting = false
+amount = 5
+process_material = SubResource("40")
+texture = ExtResource("8")
+lifetime = 0.2
+explosiveness = 0.3
+randomness = 1.0
+script = ExtResource("9")
+self_init = true
+styleColor = Color(0.439216, 1, 0, 1)
+
+[node name="PerfectTimeRing" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 4
+texture_repeat = 2
+scale = Vector2(0.27, 0.27)
+texture = SubResource("92")
+script = ExtResource("9")
+self_init = true
+styleColor = Color(0.470588, 1, 0, 1)
+
+[node name="PerfectTiming" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+material = SubResource("141")
+scale = Vector2(1.625, 1.625)
+texture = ExtResource("3")
+
+[node name="QuickShotRing" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+material = SubResource("107")
+position = Vector2(-7.62939e-06, 0)
+scale = Vector2(1.25, 1.25)
+texture = ExtResource("3")
+
+[node name="QuickShotRotator" type="Node2D" parent="."]
+visible = false
+
+[node name="QuickShotParticles" type="GPUParticles2D" parent="QuickShotRotator"]
+material = SubResource("8")
+position = Vector2(17, 0)
+amount = 20
+process_material = SubResource("108")
+texture = ExtResource("12")
+lifetime = 0.05
+explosiveness = 0.3
+randomness = 1.0
+script = ExtResource("9")
+self_init = true
+styleColor = Color(0.439216, 1, 0, 1)
+
+[node name="QuickShotParticles2" type="GPUParticles2D" parent="QuickShotRotator"]
+material = SubResource("8")
+position = Vector2(-17, 0)
+amount = 20
+process_material = SubResource("108")
+texture = ExtResource("12")
+lifetime = 0.05
+explosiveness = 0.3
+randomness = 1.0
+script = ExtResource("9")
+self_init = true
+styleColor = Color(0.439216, 1, 0, 1)
+
+[node name="QuickshotTween" parent="." instance=ExtResource("13")]
+
+[node name="ReleaseTween" parent="." instance=ExtResource("13")]

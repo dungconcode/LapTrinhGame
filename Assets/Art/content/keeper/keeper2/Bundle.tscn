@@ -1,0 +1,138 @@
+[gd_scene load_steps=22 format=3 uid="uid://dxv0w5a4qp7u1"]
+
+[ext_resource type="Script" path="res://content/keeper/keeper2/Bundle.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://b82utl0whi31m" path="res://content/keeper/keeper2/player1/bundle_shoot.png" id="2"]
+[ext_resource type="Material" uid="uid://conc1r2g1kuwk" path="res://content/keeper/keeper2/ray_material.tres" id="3"]
+[ext_resource type="Texture2D" uid="uid://bihk7gi6w63cj" path="res://content/keeper/keeper2/player1/bundle_guide.png" id="4"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/BundleCenter.gd" id="5"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="6"]
+[ext_resource type="AudioStream" uid="uid://beqhrbupe2tta" path="res://content/sounds/keeper2/Bundleamb.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://rikxfcqb46wj" path="res://content/sounds/keeper2/hoppy_03.wav" id="8"]
+
+[sub_resource type="AtlasTexture" id="1"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("2")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("2")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("2")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("2")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("2")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("2")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("2")
+region = Rect2(96, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource("2")
+region = Rect2(0, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="10"]
+atlas = ExtResource("2")
+region = Rect2(32, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="11"]
+atlas = ExtResource("2")
+region = Rect2(64, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="12"]
+atlas = ExtResource("2")
+region = Rect2(96, 64, 32, 32)
+
+[sub_resource type="SpriteFrames" id="13"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("1")
+}, {
+"duration": 1.0,
+"texture": SubResource("2")
+}, {
+"duration": 1.0,
+"texture": SubResource("3")
+}, {
+"duration": 1.0,
+"texture": SubResource("4")
+}, {
+"duration": 1.0,
+"texture": SubResource("5")
+}, {
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}, {
+"duration": 1.0,
+"texture": SubResource("9")
+}, {
+"duration": 1.0,
+"texture": SubResource("10")
+}, {
+"duration": 1.0,
+"texture": SubResource("11")
+}, {
+"duration": 1.0,
+"texture": SubResource("12")
+}],
+"loop": false,
+"name": &"shoot",
+"speed": 16.0
+}]
+
+[node name="Bundle" type="Node2D" groups=["bundle", "saveable"]]
+script = ExtResource("1")
+
+[node name="Shoot" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("13")
+animation = &"shoot"
+
+[node name="LeaderLine" type="Line2D" parent="."]
+light_mask = 0
+z_index = 100
+material = ExtResource("3")
+width = 1.0
+default_color = Color(0.12549, 0.568627, 0.156863, 1)
+texture = ExtResource("4")
+texture_mode = 1
+
+[node name="BundleCenter" type="Marker2D" parent="."]
+script = ExtResource("5")
+
+[node name="Amb" parent="BundleCenter" instance=ExtResource("6")]
+stream = ExtResource("7")
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 100.0
+minAudibleDistance = 24.0
+fadeInTime = 1.0
+fadeOutTime = 2.0
+loop = true
+doppler = 0.1
+
+[node name="DissolveSound" parent="BundleCenter" instance=ExtResource("6")]
+stream = ExtResource("8")
+volume_db = -5.244
+pitch_scale = 1.7

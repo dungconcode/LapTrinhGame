@@ -1,0 +1,81 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://content/shared/explosions/Explosion.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://cf4711n0uomqm" path="res://content/shared/explosions/explosions-Sheet.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="3"]
+[ext_resource type="AudioStream" uid="uid://diljkv2w3djpp" path="res://content/sounds/Weapons/Sword/zapsplat_sound_design_cinematic_whoosh_into_loud_punchy_explosion_63290.wav" id="4"]
+
+[sub_resource type="AtlasTexture" id="13"]
+atlas = ExtResource("2")
+region = Rect2(0, 104, 199, 104)
+
+[sub_resource type="AtlasTexture" id="14"]
+atlas = ExtResource("2")
+region = Rect2(199, 104, 199, 104)
+
+[sub_resource type="AtlasTexture" id="15"]
+atlas = ExtResource("2")
+region = Rect2(398, 104, 199, 104)
+
+[sub_resource type="AtlasTexture" id="16"]
+atlas = ExtResource("2")
+region = Rect2(597, 104, 199, 104)
+
+[sub_resource type="AtlasTexture" id="17"]
+atlas = ExtResource("2")
+region = Rect2(796, 104, 199, 104)
+
+[sub_resource type="AtlasTexture" id="18"]
+atlas = ExtResource("2")
+region = Rect2(995, 104, 199, 104)
+
+[sub_resource type="SpriteFrames" id="12"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("13")
+}, {
+"duration": 1.0,
+"texture": SubResource("14")
+}, {
+"duration": 1.0,
+"texture": SubResource("15")
+}, {
+"duration": 1.0,
+"texture": SubResource("16")
+}, {
+"duration": 1.0,
+"texture": SubResource("17")
+}, {
+"duration": 1.0,
+"texture": SubResource("18")
+}],
+"loop": false,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="DirectionalExplosion2" type="Node2D"]
+script = ExtResource("1")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(84, -4)
+sprite_frames = SubResource("12")
+frame = 1
+
+[node name="Sound" parent="." instance=ExtResource("3")]
+stream = ExtResource("4")
+bus = &"World"
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 128
+
+[node name="Collision" type="CollisionPolygon2D" parent="Area2D"]
+polygon = PackedVector2Array(-16, 0, -8, 15, 36, 32, 131, 39, 177, -7, 118, -44, 55, -41, 7, -26, -14, -8)
+disabled = true
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]
+[connection signal="finished" from="Sound" to="." method="_on_Sound_finished"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]

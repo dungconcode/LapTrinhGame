@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dpaqbi2shfmwm"
+path="res://.godot/imported/The Web Slinger Shoots 4.wav-e6f27d895a2d2989fcfb110057e225cd.sample"
+
+[deps]
+
+source_file="res://content/sounds/monster/butterfly/The Web Slinger Shoots 4.wav"
+dest_files=["res://.godot/imported/The Web Slinger Shoots 4.wav-e6f27d895a2d2989fcfb110057e225cd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

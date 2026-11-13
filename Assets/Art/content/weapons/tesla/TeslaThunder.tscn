@@ -1,0 +1,214 @@
+[gd_scene load_steps=22 format=3 uid="uid://b24s3kadiisix"]
+
+[ext_resource type="Script" path="res://content/weapons/tesla/TeslaThunder.gd" id="1"]
+[ext_resource type="PackedScene" path="res://content/weapons/tesla/arc/ArcGroupFollow.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://cdspcha5s8l17" path="res://content/weapons/tesla/arc/Tesla_Arc_noise.png" id="3"]
+[ext_resource type="PackedScene" path="res://content/weapons/tesla/arc/ArcGroup.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="5"]
+[ext_resource type="AudioStream" uid="uid://dw8bmbm5bgfq6" path="res://content/sounds/Weapons/tesla/martins/ElectroOrb_Create.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://dhy7af245cfg5" path="res://content/sounds/Weapons/tesla/martins/juice.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://cy22t5ulv06lk" path="res://content/sounds/Weapons/tesla/Shotgun_01.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://don0jvoe4qeiu" path="res://content/sounds/Weapons/tesla/Shotgun_02.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://by51ji0qdgtex" path="res://content/sounds/Weapons/tesla/Shotgun_03.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://c56hk2f25q0ba" path="res://content/sounds/Weapons/tesla/tesla_overheat.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://dbfi7wan6x8h3" path="res://content/sounds/Weapons/tesla/martins/speedip.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://cx3x3pti6dlp8" path="res://content/sounds/Weapons/tesla/martins/Hitshot.wav" id="13"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="14"]
+
+[sub_resource type="FastNoiseLite" id="15"]
+fractal_octaves = 1
+
+[sub_resource type="Shader" id="7"]
+code = "shader_type canvas_item;
+
+uniform sampler2D noise_tex : source_color, repeat_enable;
+uniform sampler2D ends_tex : source_color;
+uniform float disappear = 0.0;
+uniform float length_factor = 1.0;
+
+void fragment(){
+	vec4 noise = texture(noise_tex, UV*vec2(length_factor, 1.0));
+	vec4 tex = texture(TEXTURE, UV);
+	COLOR.a = tex.a * mix(1.0, clamp((noise.r-disappear)*4.0, 0.0, 1.0), min(disappear*10.0, 1.0)) * texture(ends_tex, UV).r;
+}
+"
+
+[sub_resource type="Gradient" id="11"]
+offsets = PackedFloat32Array(0.0101215, 0.268382, 0.794118, 0.987854)
+colors = PackedColorArray(0, 0, 0, 1, 0.98583, 0.98583, 0.98583, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="12"]
+gradient = SubResource("11")
+width = 512
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_p0r18"]
+resource_local_to_scene = true
+shader = SubResource("7")
+shader_parameter/disappear = 0.0
+shader_parameter/length_factor = 1.0
+shader_parameter/noise_tex = ExtResource("3")
+shader_parameter/ends_tex = SubResource("12")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ll0ex"]
+resource_local_to_scene = true
+shader = SubResource("7")
+shader_parameter/disappear = 0.0
+shader_parameter/length_factor = 1.0
+shader_parameter/noise_tex = ExtResource("3")
+shader_parameter/ends_tex = SubResource("12")
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_m5mnl"]
+resource_local_to_scene = true
+
+[node name="TeslaThunder" type="Node2D" groups=["tesla-thunder"]]
+z_index = 100
+script = ExtResource("1")
+noise = SubResource("15")
+
+[node name="VFX" type="Node2D" parent="."]
+
+[node name="EffectInner" type="Node2D" parent="VFX"]
+
+[node name="ArcGroupFollow" parent="VFX/EffectInner" instance=ExtResource("2")]
+position = Vector2(21, 0)
+lightColor = Color(0.439216, 1, 0, 1)
+darkColorAlpha = 0.0
+arcMat = SubResource("ShaderMaterial_p0r18")
+lengthBasedSpawnThreshold = 6
+maxPoints = 20
+interval = 8.0
+pointDieSpeed = 0.1
+arcTtlFactor = 0.6
+spawnInterval = 0.3
+randomInterval = 0.5
+arcIntensity = 1.5
+arcWildness = 15.0
+
+[node name="EffectOuter" type="Node2D" parent="VFX"]
+
+[node name="ArcGroupFollow" parent="VFX/EffectOuter" instance=ExtResource("2")]
+position = Vector2(-21, 0)
+lightColor = Color(0.439216, 1, 0, 1)
+darkColorAlpha = 0.0
+arcMat = SubResource("ShaderMaterial_ll0ex")
+lengthBasedSpawnThreshold = 6
+maxPoints = 20
+interval = 8.0
+pointDieSpeed = 0.1
+arcTtlFactor = 0.6
+spawnInterval = 0.3
+randomInterval = 0.5
+arcIntensity = 1.5
+arcWildness = 15.0
+
+[node name="ArcGroup" parent="VFX" instance=ExtResource("4")]
+modulate = Color(1, 1, 1, 0.52549)
+lightColor = Color(0.439216, 1, 0, 1)
+darkColorAlpha = 0.0
+forkSpawnArea = Vector2(10, 10)
+randomInterval = 0.9
+randomCurvature = 1.0
+showEndFork = true
+impactRadius = 0.0
+
+[node name="ArcGroup2" parent="VFX" instance=ExtResource("4")]
+modulate = Color(1, 1, 1, 0.52549)
+lightColor = Color(0.439216, 1, 0, 1)
+darkColorAlpha = 0.0
+forkSpawnArea = Vector2(10, 10)
+spawnInterval = 0.1
+arcIntensity = 1.0
+randomCurvature = 0.5
+showEndFork = true
+impactRadius = 0.0
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 4194304
+collision_mask = 128
+
+[node name="Collision" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_m5mnl")
+
+[node name="TickSoundTimer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[node name="ArcShowTimer" type="Timer" parent="."]
+wait_time = 0.15
+one_shot = true
+
+[node name="OrbOnStart1" parent="." instance=ExtResource("5")]
+stream = ExtResource("6")
+volume_db = -2.584
+pitch_scale = 0.98
+bus = &"World"
+randomVolume = 0.0
+
+[node name="OrbOnStart2" parent="." instance=ExtResource("5")]
+stream = ExtResource("6")
+volume_db = -2.375
+pitch_scale = 1.09
+bus = &"World"
+randomVolume = 0.0
+
+[node name="OrbOnStart4" parent="OrbOnStart2" instance=ExtResource("5")]
+stream = ExtResource("7")
+volume_db = -3.249
+pitch_scale = 1.09
+bus = &"World"
+randomVolume = 0.0
+
+[node name="OrbOnStart3" parent="." instance=ExtResource("5")]
+stream = ExtResource("6")
+volume_db = 3.306
+pitch_scale = 1.22
+bus = &"World"
+randomVolume = 0.0
+
+[node name="OrbOnStart5" parent="OrbOnStart3" instance=ExtResource("5")]
+stream = ExtResource("7")
+volume_db = 5.053
+pitch_scale = 1.09
+bus = &"World"
+randomVolume = 0.0
+
+[node name="OrbDamageTick" parent="." instance=ExtResource("5")]
+volume_db = -6.345
+pitch_scale = 1.25
+bus = &"World"
+randomVolume = 1.1
+randomPitch = 0.14
+streams = [ExtResource("8"), ExtResource("9"), ExtResource("10")]
+
+[node name="OrbLoop" parent="." instance=ExtResource("5")]
+stream = ExtResource("11")
+volume_db = -6.083
+bus = &"World"
+randomVolume = 0.0
+fadeInTime = 1.0
+fadeOutTime = 1.0
+
+[node name="OrbCharge" parent="." instance=ExtResource("5")]
+stream = ExtResource("12")
+volume_db = -13.325
+pitch_scale = 1.88
+bus = &"World"
+showNameOnPlay = true
+randomVolume = 0.0
+fadeInTime = 1.0
+fadeOutTime = 1.0
+
+[node name="OrbCharge2" parent="OrbCharge" instance=ExtResource("5")]
+stream = ExtResource("13")
+volume_db = 5.795
+pitch_scale = 1.35
+bus = &"World"
+showNameOnPlay = true
+randomVolume = 0.0
+fadeInTime = 1.0
+fadeOutTime = 1.0
+
+[node name="StrengthenTween" parent="." instance=ExtResource("14")]
+
+[connection signal="timeout" from="TickSoundTimer" to="." method="_on_TickSoundTimer_timeout"]
+[connection signal="timeout" from="ArcShowTimer" to="." method="_on_ArcShowTimer_timeout"]

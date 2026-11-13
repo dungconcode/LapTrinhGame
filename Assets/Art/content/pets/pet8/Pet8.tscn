@@ -1,0 +1,75 @@
+[gd_scene load_steps=9 format=3 uid="uid://biu3thatobduj"]
+
+[ext_resource type="Script" path="res://content/pets/Pet.gd" id="1"]
+[ext_resource type="SpriteFrames" uid="uid://b7g5ar5ftmegr" path="res://content/pets/pet8/Pet8_spriteframes.tres" id="2"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="3"]
+[ext_resource type="AudioStream" uid="uid://t62y3miqlyqn" path="res://content/sounds/pets/Dragon/dragon_pet_01.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://d18qw277a3cgv" path="res://content/sounds/pets/Dragon/dragon_pet_02.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://db0amp1sgtp14" path="res://content/sounds/pets/Dragon/dragon_pet_03.wav" id="6"]
+[ext_resource type="Texture2D" uid="uid://hfuxwtdxm6kv" path="res://content/pets/emote.png" id="7"]
+[ext_resource type="Script" path="res://content/pets/EmoteSprite.gd" id="8"]
+
+[node name="Pet8" type="Node2D" groups=["pets"]]
+z_index = 11
+texture_filter = 1
+script = ExtResource("1")
+id = "pet8"
+emotePositionByAnimationPos = {
+"pos1": Vector2(23, -17),
+"pos10": Vector2(-17, -34),
+"pos11": Vector2(-17, -30),
+"pos12": Vector2(-17, -34),
+"pos13": Vector2(-17, -14),
+"pos14": Vector2(5, -62),
+"pos15": Vector2(5, -62),
+"pos2": Vector2(17, -22),
+"pos3": Vector2(17, -22),
+"pos4": Vector2(17, -22),
+"pos5": Vector2(7, -14),
+"pos6": Vector2(6, -14),
+"pos7": Vector2(5, -14),
+"pos8": Vector2(3, -12),
+"pos9": Vector2(-16, -26)
+}
+zIndexByDome = {
+"dome1": {
+"pos10": 0,
+"pos9": 0
+},
+"dome2": {
+"pos12": 0
+},
+"dome3": {
+"pos1": 0,
+"pos13": 0,
+"pos2": 0,
+"pos3": 0,
+"pos4": 0
+},
+"dome4": {
+"pos1": 0,
+"pos14": 0,
+"pos15": 0,
+"pos2": 0,
+"pos3": 0,
+"pos4": 0
+}
+}
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 1
+position = Vector2(0, -25)
+sprite_frames = ExtResource("2")
+animation = &"pos9_idle"
+
+[node name="GreetingSound" parent="." instance=ExtResource("3")]
+bus = &"Dome"
+randomVolume = 0.0
+streams = [ExtResource("4"), ExtResource("5"), ExtResource("6")]
+
+[node name="EmoteSprite" type="Sprite2D" parent="."]
+z_index = 1
+texture_filter = 1
+position = Vector2(-16, -26)
+texture = ExtResource("7")
+script = ExtResource("8")

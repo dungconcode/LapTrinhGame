@@ -1,0 +1,9 @@
+[gd_resource type="ParticleProcessMaterial" load_steps=2 format=3]
+
+[ext_resource type="Texture2D" uid="uid://pjrtath3p0w3" path="res://content/keeper/spark_gradient.tres" id="1"]
+
+[resource]
+direction = Vector3(0, 1, 0)
+spread = 10.0
+gravity = Vector3(0, 0, 0)
+color_ramp = ExtResource("1")

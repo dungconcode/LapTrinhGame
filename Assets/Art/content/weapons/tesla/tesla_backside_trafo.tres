@@ -1,0 +1,57 @@
+[gd_resource type="SpriteFrames" load_steps=9 format=3 uid="uid://c42tuch4m73dk"]
+
+[sub_resource type="AtlasTexture" id="99"]
+region = Rect2(0, 0, 7, 9)
+
+[sub_resource type="AtlasTexture" id="100"]
+region = Rect2(7, 0, 7, 9)
+
+[sub_resource type="AtlasTexture" id="101"]
+region = Rect2(14, 0, 7, 9)
+
+[sub_resource type="AtlasTexture" id="102"]
+region = Rect2(21, 0, 7, 9)
+
+[sub_resource type="AtlasTexture" id="103"]
+region = Rect2(28, 0, 7, 9)
+
+[sub_resource type="AtlasTexture" id="104"]
+region = Rect2(35, 0, 7, 9)
+
+[sub_resource type="AtlasTexture" id="105"]
+region = Rect2(42, 0, 7, 9)
+
+[sub_resource type="AtlasTexture" id="106"]
+region = Rect2(49, 0, 7, 9)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("99")
+}, {
+"duration": 1.0,
+"texture": SubResource("100")
+}, {
+"duration": 1.0,
+"texture": SubResource("101")
+}, {
+"duration": 1.0,
+"texture": SubResource("102")
+}, {
+"duration": 1.0,
+"texture": SubResource("103")
+}, {
+"duration": 1.0,
+"texture": SubResource("104")
+}, {
+"duration": 1.0,
+"texture": SubResource("105")
+}, {
+"duration": 1.0,
+"texture": SubResource("106")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]

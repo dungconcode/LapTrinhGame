@@ -1,0 +1,217 @@
+[gd_scene load_steps=10 format=3 uid="uid://cpas5gsoq7cwd"]
+
+[ext_resource type="Theme" uid="uid://bo0ebvm7ocab1" path="res://gui/theme.tres" id="1"]
+[ext_resource type="Script" path="res://content/weapons/artillery/tutorial/ArtilleryTutorial.gd" id="2"]
+[ext_resource type="LabelSettings" uid="uid://b5aow2qb2h3pe" path="res://gui/fontsettings/HeadingFontSettings.tres" id="3"]
+[ext_resource type="VideoStream" path="res://content/weapons/artillery/tutorial/arty1.ogv" id="4"]
+[ext_resource type="Texture2D" uid="uid://dj7qt1rx12efp" path="res://content/shared/black_pixels.png" id="5"]
+[ext_resource type="VideoStream" path="res://content/weapons/artillery/tutorial/arty2.ogv" id="6"]
+[ext_resource type="VideoStream" path="res://content/weapons/artillery/tutorial/arty3.ogv" id="7"]
+[ext_resource type="LabelSettings" uid="uid://ce6cjgfmffufc" path="res://gui/fontsettings/LargeFontSettings.tres" id="8"]
+[ext_resource type="PackedScene" uid="uid://y24moy72idmu" path="res://gui/buttons/Action.tscn" id="9"]
+
+[node name="ArtilleryTutorial" type="CenterContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1")
+script = ExtResource("2")
+isFullscreen = true
+summaryCategory = "upgrades.dome3.title"
+moveOutAfter = -1.0
+moveInDelay = 1.0
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer"]
+texture_filter = 4
+layout_mode = 2
+text = "upgrades.dome3.title"
+label_settings = ExtResource("3")
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="GridContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 24
+columns = 3
+
+[node name="VideoPlayer1" type="VideoStreamPlayer" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+stream = ExtResource("4")
+volume_db = -80.0
+
+[node name="bg" type="TextureRect" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/VideoPlayer1"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5")
+
+[node name="VideoPlayer2" type="VideoStreamPlayer" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+stream = ExtResource("6")
+volume_db = -80.0
+
+[node name="bg" type="TextureRect" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/VideoPlayer2"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5")
+
+[node name="VideoPlayer3" type="VideoStreamPlayer" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+stream = ExtResource("7")
+volume_db = -80.0
+
+[node name="bg" type="TextureRect" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/VideoPlayer3"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5")
+
+[node name="Text1" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label2" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/Text1"]
+texture_filter = 4
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "level.tutorial.artillery.panel1header"
+label_settings = ExtResource("8")
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HFlowContainer" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/Text1"]
+layout_mode = 2
+
+[node name="LabelDesc1_1" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/Text1/HBoxContainer"]
+texture_filter = 4
+layout_mode = 2
+text = "Hold"
+
+[node name="Action" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/Text1/HBoxContainer" instance=ExtResource("9")]
+layout_mode = 2
+action = "dome_fire"
+
+[node name="LabelDesc1_2" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/Text1/HBoxContainer"]
+texture_filter = 4
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "to charge the mortar and then release to fire."
+autowrap_mode = 3
+
+[node name="Label" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/Text1"]
+texture_filter = 4
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "level.tutorial.artillery.panel1content2"
+autowrap_mode = 3
+
+[node name="Text2" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label3" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/Text2"]
+texture_filter = 4
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "level.tutorial.artillery.panel2header"
+label_settings = ExtResource("8")
+horizontal_alignment = 1
+
+[node name="HBoxContainer2" type="HFlowContainer" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/Text2"]
+layout_mode = 2
+
+[node name="LabelDesc2_1" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/Text2/HBoxContainer2"]
+texture_filter = 4
+layout_mode = 2
+text = "Hold"
+
+[node name="Action" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/Text2/HBoxContainer2" instance=ExtResource("9")]
+layout_mode = 2
+action = "dome_special"
+
+[node name="LabelDesc2_2" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/Text2/HBoxContainer2"]
+texture_filter = 4
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "to fire your anti air gun."
+autowrap_mode = 3
+
+[node name="Label4" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/Text2"]
+texture_filter = 4
+layout_mode = 2
+text = "level.tutorial.artillery.panel2content2"
+
+[node name="Text3" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label3" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/Text3"]
+texture_filter = 4
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "level.tutorial.artillery.panel3header"
+label_settings = ExtResource("8")
+horizontal_alignment = 1
+
+[node name="Label4" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/Text3"]
+texture_filter = 4
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "level.tutorial.artillery.panel3content1"
+autowrap_mode = 3
+
+[node name="HSeparator" type="HSeparator" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Controls" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="BackButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/Controls"]
+texture_filter = 4
+layout_mode = 2
+size_flags_horizontal = 3
+text = "level.tutorial.fullscreen.back"
+
+[node name="Button" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/Controls"]
+texture_filter = 4
+layout_mode = 2
+size_flags_horizontal = 3
+text = "level.tutorial.fullscreen.continue"
+
+[connection signal="finished" from="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/VideoPlayer1" to="." method="_on_VideoPlayer1_finished"]
+[connection signal="finished" from="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/VideoPlayer2" to="." method="_on_VideoPlayer2_finished"]
+[connection signal="finished" from="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/VideoPlayer3" to="." method="_on_VideoPlayer3_finished"]
+[connection signal="pressed" from="PanelContainer/MarginContainer/VBoxContainer/Controls/BackButton" to="." method="_on_BackButton_pressed"]
+[connection signal="pressed" from="PanelContainer/MarginContainer/VBoxContainer/Controls/Button" to="." method="_on_Button_pressed"]

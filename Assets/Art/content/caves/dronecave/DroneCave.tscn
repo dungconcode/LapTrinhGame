@@ -1,0 +1,99 @@
+[gd_scene load_steps=14 format=3 uid="uid://bv4558oqewanu"]
+
+[ext_resource type="Script" path="res://content/caves/dronecave/DroneCave.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://fc5a61tfr2ww" path="res://content/caves/dronecave/dronecave_sheet.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="3"]
+[ext_resource type="AudioStream" uid="uid://c7ri13w57lqui" path="res://content/sounds/carryline-break.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://cfa1vnykb8o75" path="res://content/sounds/Amb/DroneAmb.wav" id="5"]
+[ext_resource type="SpriteFrames" uid="uid://cduleqonkuwke" path="res://content/gadgets/droneyard/TransportDroneAnimations.tres" id="6"]
+[ext_resource type="SpriteFrames" uid="uid://vy6nsje2ub1m" path="res://content/gadgets/droneyard/SquidleyAnimations.tres" id="7"]
+[ext_resource type="SpriteFrames" uid="uid://vm11ilpvylk6" path="res://content/caves/dronecave/DroneCave_Door_spriteframes.tres" id="8"]
+[ext_resource type="PackedScene" path="res://content/shared/drops/ResourceGrabber.tscn" id="9"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="10"]
+[ext_resource type="Texture2D" uid="uid://dy8rgqa78eo8s" path="res://content/caves/dronecave/alpha.png" id="11"]
+[ext_resource type="AudioStream" uid="uid://bmjxvifr0fp7o" path="res://content/sounds/Locations/Transportdrone/DoorOpenDrone.wav" id="12"]
+[ext_resource type="PackedScene" uid="uid://ch4e7rx87coms" path="res://content/gadgets/droneyard/DroneDispatcher.tscn" id="13"]
+
+[node name="DroneCave" type="Node2D" groups=["cave", "saveable", "unstyled"]]
+z_index = -40
+texture_filter = 1
+script = ExtResource("1")
+biome = "green"
+maxCount = 100
+
+[node name="Sprites" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 24.0
+offset_bottom = 24.0
+mouse_filter = 2
+
+[node name="Background" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(12, 13)
+texture = ExtResource("2")
+hframes = 15
+vframes = 3
+
+[node name="DroneTakenSound" parent="Background" instance=ExtResource("3")]
+volume_db = 5.193
+pitch_scale = 1.22
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+streams = [ExtResource("4")]
+
+[node name="AmbSound" parent="Background" instance=ExtResource("3")]
+stream = ExtResource("5")
+volume_db = -2.235
+pitch_scale = 0.69
+bus = &"Mine"
+randomVolume = 0.0
+maxAudibleDistance = 120.0
+minAudibleDistance = 36.0
+fadeInTime = 0.1
+fadeOutTime = 3.0
+loop = true
+
+[node name="Drone_old" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(13, 14)
+sprite_frames = ExtResource("6")
+animation = &"idle"
+
+[node name="Drone" type="AnimatedSprite2D" parent="."]
+position = Vector2(13, 9)
+sprite_frames = ExtResource("7")
+animation = &"idle"
+
+[node name="Door" type="AnimatedSprite2D" parent="."]
+position = Vector2(12, 13)
+sprite_frames = ExtResource("8")
+
+[node name="ResourceGrabber" parent="." instance=ExtResource("9")]
+position = Vector2(13, 14)
+dropType = "water"
+
+[node name="Tween" parent="." instance=ExtResource("10")]
+
+[node name="AlphaMap" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(12, 15)
+texture = ExtResource("11")
+
+[node name="DoorOpenSound" parent="." instance=ExtResource("3")]
+stream = ExtResource("12")
+volume_db = 8.739
+
+[node name="DroneDispatcher" parent="." instance=ExtResource("13")]
+dispatcherId = "dronecave"
+
+[node name="DroneSpawnPoint" parent="DroneDispatcher" index="0"]
+position = Vector2(14, 15)
+
+[connection signal="animation_finished" from="Door" to="." method="_on_Door_animation_finished"]
+[connection signal="animation_looped" from="Door" to="." method="_on_door_animation_looped"]
+[connection signal="grabbed_resource" from="ResourceGrabber" to="." method="_on_ResourceGrabber_grabbed_resource"]
+
+[editable path="DroneDispatcher"]

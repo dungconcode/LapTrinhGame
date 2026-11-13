@@ -1,0 +1,305 @@
+[gd_scene load_steps=31 format=3 uid="uid://c1jgukv2baixv"]
+
+[ext_resource type="Script" path="res://content/gadgets/drillbot/Drillbot.gd" id="1"]
+[ext_resource type="SpriteFrames" uid="uid://bp7xck7emy4ut" path="res://content/gadgets/drillbot/frames1.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://dm387wjdaontb" path="res://content/gadgets/drillbot/focussed2.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cbo4kynkbosvo" path="res://content/gadgets/drillbot/carrie2d.png" id="4"]
+[ext_resource type="PackedScene" uid="uid://02emll07tpim" path="res://content/shared/Usable.tscn" id="5"]
+[ext_resource type="Script" path="res://content/gadgets/drillbot/TreatArea.gd" id="6"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="7"]
+[ext_resource type="AudioStream" uid="uid://ckqevp1giqycw" path="res://content/sounds/Locations/Drillbot/DigDrillbot.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://plr1n2wwac0s" path="res://content/sounds/Bastards/crunch_01.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://cftwsciyr3vft" path="res://content/sounds/Bastards/crunch_02.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://b0x3fiq8mkhb1" path="res://content/sounds/Bastards/crunch_03.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://c86gh2emkp0b2" path="res://content/sounds/Bastards/crunch_04.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://deqfe51620utd" path="res://content/sounds/Locations/Drillbot/SnoreLoop.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://dw84qfxn6arhq" path="res://content/sounds/Locations/Drillbot/drillbot_10 turn.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://bvtu2sejk6v86" path="res://content/sounds/Locations/Drillbot/Drillbot_changeDirection_01.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://drt7dnl35sdmj" path="res://content/sounds/Locations/Drillbot/Drillbot_changeDirection_02.wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://s6dp2opo4gem" path="res://content/sounds/Locations/Drillbot/drillbot_01.wav" id="17"]
+[ext_resource type="AudioStream" uid="uid://ca4773xgwuc4b" path="res://content/sounds/Locations/Drillbot/drillbot_02.wav" id="18"]
+[ext_resource type="AudioStream" uid="uid://bwfqbhxgd5fsv" path="res://content/sounds/Locations/Drillbot/Drillbot_Release.wav" id="19"]
+[ext_resource type="AudioStream" uid="uid://dyfnqfn4003tf" path="res://content/sounds/Locations/Drillbot/DrillbotLand.wav" id="20"]
+[ext_resource type="AudioStream" uid="uid://bvbmyp6g5mfru" path="res://content/sounds/Locations/Drillbot/drillbot_12.wav" id="21"]
+[ext_resource type="AudioStream" uid="uid://0jhdcjtwkth6" path="res://content/sounds/Locations/Drillbot/character falling down from a building.wav" id="22"]
+[ext_resource type="AudioStream" uid="uid://bf1jrbiqsjxux" path="res://content/sounds/Locations/Drillbot/Drillbot_Step01.wav" id="23"]
+[ext_resource type="AudioStream" uid="uid://babn0sjkoielw" path="res://content/sounds/Locations/Drillbot/Drillbot_Step02.wav" id="24"]
+[ext_resource type="AudioStream" uid="uid://bo50nwpljcutm" path="res://content/dome/shredder/Shredde3.wav" id="25"]
+
+[sub_resource type="PhysicsMaterial" id="2"]
+friction = 0.0
+
+[sub_resource type="CircleShape2D" id="44"]
+radius = 4.03112
+
+[sub_resource type="CircleShape2D" id="93"]
+radius = 1.0
+
+[sub_resource type="CircleShape2D" id="43"]
+radius = 7.0
+
+[sub_resource type="CapsuleShape2D" id="94"]
+radius = 8.0
+height = 28.0
+
+[node name="Drillbot" type="RigidBody2D" groups=["carryable", "drillbots", "saveable"]]
+z_index = 12
+texture_filter = 1
+collision_layer = 32
+collision_mask = 513
+mass = 2.0
+physics_material_override = SubResource("2")
+can_sleep = false
+linear_damp = 1.0
+angular_damp = 10.0
+script = ExtResource("1")
+additionalSlowdown = 0.2
+carryableType = "gadget"
+canTeleport = true
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -7)
+sprite_frames = ExtResource("2")
+animation = &"carried"
+frame_progress = 0.93083
+
+[node name="DefaultCollisionShape1" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-4, -1)
+rotation = 1.5708
+shape = SubResource("44")
+
+[node name="DefaultCollisionShape2" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(5, -1)
+rotation = 1.5708
+shape = SubResource("44")
+
+[node name="DefaultCollisionShape4" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(0, -1)
+rotation = 1.5708
+shape = SubResource("44")
+
+[node name="DefaultCollisionShape3" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-14, -2)
+rotation = 1.5708
+shape = SubResource("93")
+
+[node name="CarriedCollisionShape" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-5, -2)
+shape = SubResource("43")
+
+[node name="DrillHitTestRay" type="RayCast2D" parent="."]
+position = Vector2(-9, -4)
+rotation = 3.14159
+target_position = Vector2(7, 0)
+hit_from_inside = true
+
+[node name="BottomHitTestRay" type="RayCast2D" parent="."]
+position = Vector2(0, -1)
+target_position = Vector2(0, 12)
+hit_from_inside = true
+
+[node name="FocusSprite" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-2, -3)
+texture = ExtResource("3")
+
+[node name="CarrySprite" type="Sprite2D" parent="."]
+visible = false
+modulate = Color(1, 1, 1, 0)
+texture_filter = 1
+position = Vector2(-4, -2)
+texture = ExtResource("4")
+
+[node name="Usable" parent="." instance=ExtResource("5")]
+position = Vector2(2, -3)
+
+[node name="TreatArea" type="Area2D" parent="."]
+visible = false
+position = Vector2(-5, -7)
+collision_layer = 0
+collision_mask = 64
+monitorable = false
+script = ExtResource("6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TreatArea"]
+position = Vector2(1, 2)
+rotation = 1.5708
+shape = SubResource("94")
+
+[node name="DrillPoint" type="Marker2D" parent="."]
+position = Vector2(-17, -3)
+
+[node name="DrillSound0" parent="." instance=ExtResource("7")]
+stream = ExtResource("8")
+volume_db = -5.185
+pitch_scale = 3.0
+bus = &"Mine"
+randomPitch = 0.8
+maxAudibleDistance = 240.0
+minAudibleDistance = 50.0
+
+[node name="DrillSound1" parent="." instance=ExtResource("7")]
+stream = ExtResource("8")
+volume_db = -3.0
+pitch_scale = 2.71
+bus = &"Mine"
+randomPitch = 0.8
+maxAudibleDistance = 240.0
+minAudibleDistance = 50.0
+
+[node name="DrillSound5" parent="DrillSound1" instance=ExtResource("7")]
+volume_db = 5.739
+pitch_scale = 1.36
+bus = &"Mine"
+randomPitch = 0.16
+maxAudibleDistance = 150.0
+minAudibleDistance = 50.0
+streams = [ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12")]
+
+[node name="DrillSound2" parent="." instance=ExtResource("7")]
+stream = ExtResource("8")
+volume_db = 0.933
+pitch_scale = 2.3
+bus = &"Mine"
+randomPitch = 0.8
+maxAudibleDistance = 240.0
+minAudibleDistance = 50.0
+
+[node name="DrillSound6" parent="DrillSound2" instance=ExtResource("7")]
+volume_db = 5.739
+pitch_scale = 1.16
+bus = &"Mine"
+randomPitch = 0.16
+maxAudibleDistance = 150.0
+minAudibleDistance = 50.0
+streams = [ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12")]
+
+[node name="DrillSound3" parent="." instance=ExtResource("7")]
+stream = ExtResource("8")
+volume_db = 2.681
+pitch_scale = 2.08
+bus = &"Mine"
+randomPitch = 0.8
+maxAudibleDistance = 240.0
+minAudibleDistance = 50.0
+
+[node name="DrillSound7" parent="DrillSound3" instance=ExtResource("7")]
+volume_db = 5.739
+pitch_scale = 1.61
+bus = &"Mine"
+randomPitch = 0.16
+maxAudibleDistance = 150.0
+minAudibleDistance = 50.0
+streams = [ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12")]
+
+[node name="DrillSound4" parent="." instance=ExtResource("7")]
+stream = ExtResource("8")
+volume_db = 4.429
+pitch_scale = 1.98
+bus = &"Mine"
+randomPitch = 0.8
+maxAudibleDistance = 240.0
+minAudibleDistance = 50.0
+
+[node name="DrillSound8" parent="DrillSound4" instance=ExtResource("7")]
+volume_db = 5.739
+pitch_scale = 1.36
+bus = &"Mine"
+randomPitch = 0.16
+maxAudibleDistance = 150.0
+minAudibleDistance = 50.0
+streams = [ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12")]
+
+[node name="SleepingSound" parent="." instance=ExtResource("7")]
+stream = ExtResource("13")
+volume_db = 5.081
+bus = &"Sounds"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 240.0
+minAudibleDistance = 50.0
+loop = true
+
+[node name="ChangeDirectionSound" parent="." instance=ExtResource("7")]
+volume_db = 5.081
+pitch_scale = 1.6
+bus = &"Sounds"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 100.0
+minAudibleDistance = 30.0
+streams = [ExtResource("14"), ExtResource("15"), ExtResource("16")]
+
+[node name="WakeupSound" parent="." instance=ExtResource("7")]
+volume_db = 6.518
+pitch_scale = 0.79
+bus = &"Sounds"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 240.0
+minAudibleDistance = 50.0
+streams = [ExtResource("17"), ExtResource("18")]
+
+[node name="ReleaseSound" parent="." instance=ExtResource("7")]
+volume_db = -2.392
+pitch_scale = 1.48
+bus = &"Sounds"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 100.0
+minAudibleDistance = 30.0
+streams = [ExtResource("19")]
+
+[node name="LandSound" parent="." instance=ExtResource("7")]
+volume_db = -4.763
+pitch_scale = 1.84
+bus = &"Sounds"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 240.0
+minAudibleDistance = 50.0
+streams = [ExtResource("20")]
+
+[node name="FallingScreamSound" parent="." instance=ExtResource("7")]
+volume_db = -4.763
+pitch_scale = 0.99
+bus = &"Sounds"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 150.0
+minAudibleDistance = 30.0
+streams = [ExtResource("21"), ExtResource("22")]
+
+[node name="StepSound" parent="." instance=ExtResource("7")]
+volume_db = -8.991
+pitch_scale = 2.29
+bus = &"Sounds"
+randomVolume = 1.2
+maxAudibleDistance = 80.0
+minAudibleDistance = 20.0
+streams = [ExtResource("23"), ExtResource("24")]
+
+[node name="TreatEatenSound" parent="." instance=ExtResource("7")]
+volume_db = -1.748
+pitch_scale = 1.74
+bus = &"Sounds"
+randomVolume = 2.0
+maxAudibleDistance = 240.0
+minAudibleDistance = 50.0
+streams = [ExtResource("25")]
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+rect = Rect2(-15, -10, 30, 14)
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="animation_looped" from="Sprite2D" to="." method="_on_sprite_2d_animation_looped"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]
+[connection signal="area_entered" from="TreatArea" to="TreatArea" method="_on_TreatArea_area_entered"]
+[connection signal="treat_eaten" from="TreatArea" to="." method="_on_TreatArea_treat_eaten"]
+[connection signal="screen_entered" from="VisibleOnScreenNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]

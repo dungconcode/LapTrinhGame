@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://y0drxj3o41g4"
+path="res://.godot/imported/sfx_dw_shoot me3.wav-2148cf247305ecda7a04816a8aa41dd3.sample"
+
+[deps]
+
+source_file="res://content/sounds/monster/bolter/sfx_dw_shoot me3.wav"
+dest_files=["res://.godot/imported/sfx_dw_shoot me3.wav-2148cf247305ecda7a04816a8aa41dd3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

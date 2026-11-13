@@ -1,0 +1,326 @@
+[gd_scene load_steps=43 format=3 uid="uid://c065gvb2nwq2w"]
+
+[ext_resource type="Script" path="res://content/gadgets/spire/Spire.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bsgjw6pjmubu5" path="res://content/gadgets/spire/spire.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://btv5iqjflds4t" path="res://content/gadgets/spire/spire_loading.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cwmoxwmk6on44" path="res://content/gadgets/spire/spire_loaded_cube.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bde1upghtgyp4" path="res://content/gadgets/spire/spirehead_sheet.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bf4ift114rt6p" path="res://content/gadgets/spire/ring.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://yib384enkt5n" path="res://content/gadgets/spire/burst.png" id="7"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="8"]
+[ext_resource type="AudioStream" uid="uid://de1rsl7sav04i" path="res://content/sounds/Locations/Spire/Spire_01.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://dglonj332i3gh" path="res://content/sounds/Locations/Spire/Spire_03.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://c3iephknjdqo6" path="res://content/sounds/Locations/Spire/Spire_ready_v2.wav" id="11"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="12"]
+
+[sub_resource type="AtlasTexture" id="1"]
+atlas = ExtResource("5")
+region = Rect2(0, 90, 15, 15)
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("5")
+region = Rect2(0, 75, 15, 15)
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("5")
+region = Rect2(0, 60, 15, 15)
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("5")
+region = Rect2(0, 45, 15, 15)
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("5")
+region = Rect2(0, 30, 15, 15)
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("5")
+region = Rect2(0, 0, 15, 15)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("5")
+region = Rect2(60, 15, 15, 15)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("5")
+region = Rect2(45, 15, 15, 15)
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource("5")
+region = Rect2(30, 15, 15, 15)
+
+[sub_resource type="AtlasTexture" id="10"]
+atlas = ExtResource("5")
+region = Rect2(0, 15, 15, 15)
+
+[sub_resource type="AtlasTexture" id="11"]
+atlas = ExtResource("5")
+region = Rect2(15, 15, 15, 15)
+
+[sub_resource type="AtlasTexture" id="18"]
+atlas = ExtResource("5")
+region = Rect2(0, 0, 15, 15)
+
+[sub_resource type="AtlasTexture" id="12"]
+atlas = ExtResource("5")
+region = Rect2(0, 15, 15, 15)
+
+[sub_resource type="AtlasTexture" id="13"]
+atlas = ExtResource("5")
+region = Rect2(15, 15, 15, 15)
+
+[sub_resource type="AtlasTexture" id="14"]
+atlas = ExtResource("5")
+region = Rect2(30, 15, 15, 15)
+
+[sub_resource type="AtlasTexture" id="15"]
+atlas = ExtResource("5")
+region = Rect2(45, 15, 15, 15)
+
+[sub_resource type="AtlasTexture" id="16"]
+atlas = ExtResource("5")
+region = Rect2(60, 15, 15, 15)
+
+[sub_resource type="SpriteFrames" id="17"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("1")
+}],
+"loop": false,
+"name": &"0",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("2")
+}],
+"loop": false,
+"name": &"1",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("3")
+}],
+"loop": false,
+"name": &"2",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("4")
+}],
+"loop": false,
+"name": &"3",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("5")
+}],
+"loop": false,
+"name": &"4",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("6")
+}],
+"loop": false,
+"name": &"off",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}, {
+"duration": 1.0,
+"texture": SubResource("9")
+}, {
+"duration": 1.0,
+"texture": SubResource("10")
+}, {
+"duration": 1.0,
+"texture": SubResource("11")
+}, {
+"duration": 1.0,
+"texture": SubResource("18")
+}],
+"loop": false,
+"name": &"turn_off",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("12")
+}, {
+"duration": 1.0,
+"texture": SubResource("13")
+}, {
+"duration": 1.0,
+"texture": SubResource("14")
+}, {
+"duration": 1.0,
+"texture": SubResource("15")
+}, {
+"duration": 1.0,
+"texture": SubResource("16")
+}],
+"loop": false,
+"name": &"turn_on",
+"speed": 10.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="19"]
+blend_mode = 1
+
+[sub_resource type="AtlasTexture" id="27"]
+atlas = ExtResource("7")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="28"]
+atlas = ExtResource("7")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="29"]
+atlas = ExtResource("7")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="30"]
+atlas = ExtResource("7")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="31"]
+atlas = ExtResource("7")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="32"]
+atlas = ExtResource("7")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="33"]
+atlas = ExtResource("7")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="34"]
+atlas = ExtResource("7")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="35"]
+atlas = ExtResource("7")
+region = Rect2(256, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="36"]
+atlas = ExtResource("7")
+region = Rect2(288, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="26"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("27")
+}, {
+"duration": 1.0,
+"texture": SubResource("28")
+}, {
+"duration": 1.0,
+"texture": SubResource("29")
+}, {
+"duration": 1.0,
+"texture": SubResource("30")
+}, {
+"duration": 1.0,
+"texture": SubResource("31")
+}, {
+"duration": 1.0,
+"texture": SubResource("32")
+}, {
+"duration": 1.0,
+"texture": SubResource("33")
+}, {
+"duration": 1.0,
+"texture": SubResource("34")
+}, {
+"duration": 1.0,
+"texture": SubResource("35")
+}, {
+"duration": 1.0,
+"texture": SubResource("36")
+}],
+"loop": false,
+"name": &"burst",
+"speed": 20.0
+}]
+
+[node name="Spire" type="Node2D"]
+z_index = -6
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-11, -95)
+texture = ExtResource("2")
+centered = false
+
+[node name="LoadingOverlay" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-6, -64)
+texture = ExtResource("3")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 21, 13, 10)
+
+[node name="LoadedBulb" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(1, -29)
+texture = ExtResource("4")
+
+[node name="SpireHead" type="AnimatedSprite2D" parent="."]
+position = Vector2(1, -100)
+sprite_frames = SubResource("17")
+animation = &"off"
+
+[node name="Shine" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.172549)
+texture_filter = 1
+material = SubResource("19")
+position = Vector2(1, -101)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("6")
+
+[node name="Burst" type="AnimatedSprite2D" parent="."]
+position = Vector2(0.5, -101.5)
+sprite_frames = SubResource("26")
+animation = &"burst"
+
+[node name="EmissionPoint" type="Marker2D" parent="."]
+position = Vector2(0.5, -100.5)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+offset_left = 1.0
+offset_right = 4.0
+offset_bottom = 77.0
+rotation = 180.0
+color = Color(0.768627, 0.670588, 0.227451, 0.792157)
+
+[node name="ShotSound" parent="." instance=ExtResource("8")]
+volume_db = -5.681
+pitch_scale = 1.17
+bus = &"World"
+streams = [ExtResource("9"), ExtResource("10")]
+
+[node name="ChargedUpSound" parent="." instance=ExtResource("8")]
+stream = ExtResource("11")
+volume_db = -7.866
+pitch_scale = 1.25
+bus = &"World"
+
+[node name="Tween" parent="." instance=ExtResource("12")]
+
+[connection signal="animation_finished" from="SpireHead" to="." method="_on_SpireHead_animation_finished"]

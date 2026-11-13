@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4johtvskapso"]
+
+[ext_resource type="TileSet" uid="uid://dcu4bgkdu10fe" path="res://content/map/tileset.tres" id="1"]
+[ext_resource type="Script" path="res://content/map/MapData.gd" id="2"]
+
+[node name="MapData" type="TileMap"]
+z_index = 50
+tile_set = ExtResource("1")
+format = 2
+layer_0/name = "biomes"
+layer_0/modulate = Color(1, 1, 1, 0.705882)
+layer_0/navigation_enabled = false
+layer_1/name = "hardness"
+layer_1/modulate = Color(1, 1, 1, 0.705882)
+layer_1/navigation_enabled = false
+layer_1/tile_data = PackedInt32Array()
+layer_2/name = "resources"
+layer_2/modulate = Color(1, 1, 1, 0.705882)
+layer_2/navigation_enabled = false
+layer_2/tile_data = PackedInt32Array()
+script = ExtResource("2")

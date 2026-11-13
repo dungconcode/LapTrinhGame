@@ -1,0 +1,157 @@
+[gd_scene load_steps=22 format=3 uid="uid://dl1gxgj7ao5vt"]
+
+[ext_resource type="Script" path="res://content/gadgets/stunLaser/StunLaser.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://j87feanuunn7" path="res://content/gadgets/stunLaser/StunLaserBeam.tscn" id="2"]
+[ext_resource type="Shader" path="res://content/gadgets/stunLaser/StunLaser.gdshader" id="3"]
+[ext_resource type="Texture2D" uid="uid://d2yc2kqac70tj" path="res://content/gadgets/stunLaser/stunlaser_beamhitarea_noise.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://3m75m5c2pxia" path="res://systems/style/palettes/palette_4_1.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://be7psxb1yxtlb" path="res://content/gadgets/stunLaser/ring.png" id="6"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="7"]
+[ext_resource type="Texture2D" uid="uid://bo151y4a777ll" path="res://content/gadgets/stunLaser/cannont1.png" id="8"]
+[ext_resource type="SpriteFrames" uid="uid://bihonss661jpi" path="res://content/gadgets/stunLaser/StunLaser_spriteframes.tres" id="9"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="10"]
+[ext_resource type="AudioStream" uid="uid://d2qtb1v3pogta" path="res://content/sounds/Weapons/Laser/AmbLaser.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://dbbs7ulakih0p" path="res://content/sounds/Weapons/Laser/laser_init_1_add.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://ueqcwgfxn6ap" path="res://content/sounds/dome1/Terminal01_BattleButton.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://vp2i0ooh4yj5" path="res://content/sounds/Weapons/Laser/laser3Loop.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://dohjmbpxrssur" path="res://content/sounds/Locations/Stunlaser/StunArea.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://ddbkcbaa451i5" path="res://content/sounds/Locations/Stunlaser/Activate.wav" id="16"]
+
+[sub_resource type="CircleShape2D" id="34"]
+radius = 0.01
+
+[sub_resource type="ShaderMaterial" id="36"]
+shader = ExtResource("3")
+shader_parameter/pixelation_factor = 50
+shader_parameter/noise = ExtResource("4")
+shader_parameter/palette = ExtResource("5")
+
+[sub_resource type="Gradient" id="31"]
+offsets = PackedFloat32Array(0, 0.0860421, 0.594646, 0.741874, 0.839388, 1)
+colors = PackedColorArray(0.156863, 0.376471, 0.392157, 0, 0.156863, 0.376471, 0.392157, 1, 0.219608, 0.6, 0.392157, 1, 0.470588, 0.745098, 0.392157, 1, 0.345098, 1, 0.392157, 1, 0.345098, 1, 0.392157, 0)
+
+[sub_resource type="GradientTexture2D" id="32"]
+gradient = SubResource("31")
+
+[sub_resource type="ParticleProcessMaterial" id="33"]
+lifetime_randomness = 0.49
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(4, 1, 1)
+direction = Vector3(0, -1, 0)
+spread = 15.0
+initial_velocity_min = 3.42
+initial_velocity_max = 6.0
+gravity = Vector3(0, 0, 0)
+damping_min = 1.0
+damping_max = 1.0
+color_ramp = SubResource("32")
+
+[node name="StunLaser" type="Node2D" groups=["lostL", "pauseL", "saveable", "secondary-weapon"]]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="LaserBeam" parent="." instance=ExtResource("2")]
+
+[node name="BeamHitArea" type="Area2D" parent="."]
+visible = false
+collision_layer = 0
+collision_mask = 128
+monitoring = false
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BeamHitArea"]
+shape = SubResource("34")
+
+[node name="Sprite2D" type="Sprite2D" parent="BeamHitArea"]
+modulate = Color(1, 1, 1, 0.627451)
+texture_filter = 1
+material = SubResource("36")
+texture = ExtResource("6")
+
+[node name="Tween" parent="BeamHitArea" instance=ExtResource("7")]
+
+[node name="Cannon" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-1, -15)
+texture = ExtResource("8")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 2, 11)
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -7)
+sprite_frames = ExtResource("9")
+animation = &"shutdown_3"
+frame = 7
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2(0, 8)
+target_position = Vector2(0, -600)
+collision_mask = 128
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="MoveSound" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(1, 0)
+max_distance = 200.0
+bus = &"World"
+
+[node name="BasePosition" type="Marker2D" parent="."]
+position = Vector2(0, 13)
+
+[node name="CooldownParticles" type="GPUParticles2D" parent="."]
+position = Vector2(0, -2)
+amount = 20
+process_material = SubResource("33")
+lifetime = 3.0
+
+[node name="Tween" parent="." instance=ExtResource("7")]
+
+[node name="FireSound" parent="." instance=ExtResource("10")]
+volume_db = -3.933
+pitch_scale = 1.79
+bus = &"World"
+randomVolume = 0.0
+randomPitch = 0.0
+streams = [ExtResource("11")]
+loop = true
+
+[node name="FireSound2" parent="FireSound" instance=ExtResource("10")]
+volume_db = -13.11
+pitch_scale = 1.43
+bus = &"World"
+randomPitch = 0.0
+streams = [ExtResource("12")]
+loop = true
+
+[node name="ActivateSound" parent="." instance=ExtResource("10")]
+volume_db = -2.185
+pitch_scale = 1.47
+bus = &"World"
+streams = [ExtResource("13")]
+
+[node name="StunAreaSound" parent="." instance=ExtResource("10")]
+stream = ExtResource("14")
+volume_db = -16.052
+pitch_scale = 0.79
+bus = &"World"
+fadeInTime = 0.3
+fadeOutTime = 0.5
+loop = true
+
+[node name="StunAreaSound2" parent="StunAreaSound" instance=ExtResource("10")]
+stream = ExtResource("15")
+volume_db = -2.185
+pitch_scale = 1.47
+bus = &"World"
+
+[node name="StopSound" parent="." instance=ExtResource("10")]
+volume_db = -2.185
+pitch_scale = 1.35
+bus = &"World"
+streams = [ExtResource("16")]
+
+[connection signal="area_entered" from="BeamHitArea" to="." method="_on_BeamHitArea_area_entered"]
+[connection signal="area_exited" from="BeamHitArea" to="." method="_on_BeamHitArea_area_exited"]
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]

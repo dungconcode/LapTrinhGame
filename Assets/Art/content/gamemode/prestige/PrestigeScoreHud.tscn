@@ -1,0 +1,108 @@
+[gd_scene load_steps=10 format=3 uid="uid://d3ee4mm57wni4"]
+
+[ext_resource type="Script" path="res://content/gamemode/prestige/PrestigeScoreHud.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://cbsshqj3nq3ji" path="res://content/gamemode/prestige/score_hud.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://drwuoauwiyycb" path="res://content/gamemode/prestige/multipl_hud.png" id="3"]
+[ext_resource type="FontVariation" uid="uid://cfbppd3432m0s" path="res://gui/fonts/FontHudPixelartMonospaced.tres" id="4"]
+[ext_resource type="LabelSettings" uid="uid://c0e6v16htcgxc" path="res://gui/fontsettings/HudPixelartMonospacedFontSettings.tres" id="5"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="7"]
+[ext_resource type="AudioStream" uid="uid://dw4nmlqpt615t" path="res://content/sounds/UI/ui_tests_02.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://b5ghxaf4778ec" path="res://content/sounds/UI/ui_tests_05.wav" id="9"]
+
+[node name="PrestigeScoreHud" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 7.0
+offset_bottom = 3.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.333, 0.333)
+script = ExtResource("1")
+element_size = Vector2(7, 3)
+layoutWeights = Vector2(1, 2.5)
+layoutPriority = 8
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 12.012
+offset_top = 30.03
+offset_right = 33.012
+offset_bottom = 48.03
+texture = ExtResource("2")
+stretch_mode = 6
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 45.0451
+offset_top = 9.00901
+offset_right = 65.0451
+offset_bottom = 31.009
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3")
+
+[node name="ScoreLabel" type="Label" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 42.0059
+offset_top = 17.991
+offset_right = 117.006
+offset_bottom = 49.991
+grow_horizontal = 0
+size_flags_horizontal = 8
+theme_override_colors/font_color = Color(1, 0.92549, 0.839216, 1)
+theme_override_fonts/font = ExtResource("4")
+text = "54680"
+label_settings = ExtResource("5")
+horizontal_alignment = 2
+vertical_alignment = 2
+
+[node name="MultiplierLabel" type="Label" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 9.009
+offset_top = -9.00901
+offset_right = 39.009
+offset_bottom = 22.991
+size_flags_horizontal = 8
+theme_override_colors/font_color = Color(1, 0.92549, 0.839216, 1)
+theme_override_fonts/font = ExtResource("4")
+text = "99"
+label_settings = ExtResource("5")
+horizontal_alignment = 2
+vertical_alignment = 2
+
+[node name="BasePerWaveLabel" type="Label" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 57.021
+offset_top = -9.01201
+offset_right = 117.021
+offset_bottom = 22.988
+grow_horizontal = 0
+size_flags_horizontal = 8
+theme_override_colors/font_color = Color(1, 0.92549, 0.839216, 1)
+theme_override_fonts/font = ExtResource("4")
+text = "999"
+label_settings = ExtResource("5")
+horizontal_alignment = 2
+vertical_alignment = 2
+
+[node name="Tween" parent="." instance=ExtResource("6")]
+
+[node name="Ping" parent="." instance=ExtResource("7")]
+stream = ExtResource("8")
+volume_db = 6.118
+bus = &"UI"
+randomPitch = 0.5
+
+[node name="Kaching" parent="." instance=ExtResource("7")]
+stream = ExtResource("9")
+volume_db = 13.255
+bus = &"UI"
+randomVolume = 1.0
+randomPitch = 0.2

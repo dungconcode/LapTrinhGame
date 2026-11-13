@@ -1,0 +1,10 @@
+[gd_scene format=3]
+
+[node name="EmptyTech" type="Control"]
+custom_minimum_size = Vector2(194, 114)
+layout_mode = 3
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1726.0
+offset_bottom = -966.0

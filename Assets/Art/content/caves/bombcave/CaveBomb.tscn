@@ -1,0 +1,99 @@
+[gd_scene load_steps=15 format=3 uid="uid://dk7t8o5oatxel"]
+
+[ext_resource type="Script" path="res://content/caves/bombcave/CaveBomb.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://cdsng7f4xesyb" path="res://content/caves/bombcave/cavemine_sheet.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://3deofbhyh4uu" path="res://content/gadgets/blastMining/carried.png" id="3"]
+[ext_resource type="Material" uid="uid://c4rg5bvijyfin" path="res://content/shared/HighlightShader.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://bi8fw3hrhlkgs" path="res://content/gadgets/blastMining/focussed.png" id="5"]
+[ext_resource type="AudioStream" uid="uid://dg7oyernje3bw" path="res://content/sounds/Locations/BlastMiner/ActivateCountdown.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://c1tgcrm0t2s1i" path="res://content/sounds/Locations/BlastMiner/CountDownTick.wav" id="7"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_duk21"]
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("2")
+region = Rect2(42, 0, 21, 18)
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("2")
+region = Rect2(63, 0, 21, 18)
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 21, 18)
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("2")
+region = Rect2(21, 0, 21, 18)
+
+[sub_resource type="SpriteFrames" id="6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("4")
+}, {
+"duration": 1.0,
+"texture": SubResource("5")
+}],
+"loop": true,
+"name": &"activated",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("2")
+}, {
+"duration": 1.0,
+"texture": SubResource("3")
+}],
+"loop": true,
+"name": &"normal",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="1"]
+radius = 7.0
+
+[node name="CaveBomb" type="RigidBody2D" groups=["saveable"]]
+z_index = 23
+texture_filter = 1
+collision_layer = 34
+collision_mask = 522
+physics_material_override = SubResource("PhysicsMaterial_duk21")
+can_sleep = false
+max_contacts_reported = 1
+contact_monitor = true
+angular_damp = 5.0
+script = ExtResource("1")
+carryableType = "gadget"
+canTeleport = true
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1, 0)
+sprite_frames = SubResource("6")
+animation = &"normal"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("1")
+
+[node name="CarrySprite" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("3")
+
+[node name="FocusSprite" type="Sprite2D" parent="."]
+z_index = 30
+texture_filter = 1
+material = ExtResource("4")
+texture = ExtResource("5")
+
+[node name="ActivateSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6")
+volume_db = 6.19
+bus = &"Important"
+
+[node name="CountdownSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7")
+volume_db = -7.464
+pitch_scale = 1.26
+max_distance = 500.0
+bus = &"Mine"

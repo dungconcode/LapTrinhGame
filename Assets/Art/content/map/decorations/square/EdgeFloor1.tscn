@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://rdgd6giiy5xh"]
+
+[ext_resource type="Texture2D" uid="uid://04sx1xygwhqn" path="res://content/map/decorations/square/edges ground.png" id="1"]
+[ext_resource type="Script" path="res://content/map/decorations/BorderDecoration.gd" id="2"]
+
+[node name="Seaweed" type="Sprite2D" groups=["decoration"]]
+texture_filter = 1
+texture = ExtResource("1")
+offset = Vector2(-4, 10)
+hframes = 5
+script = ExtResource("2")

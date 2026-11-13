@@ -1,0 +1,54 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://qvy6ley22igi"]
+
+[ext_resource type="Texture2D" uid="uid://frpfu4wfp85m" path="res://content/weapons/sword/sword_base-Sheet.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="170"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 45, 8)
+
+[sub_resource type="AtlasTexture" id="169"]
+atlas = ExtResource("1")
+region = Rect2(45, 0, 45, 8)
+
+[sub_resource type="AtlasTexture" id="168"]
+atlas = ExtResource("1")
+region = Rect2(90, 0, 45, 8)
+
+[sub_resource type="AtlasTexture" id="167"]
+atlas = ExtResource("1")
+region = Rect2(135, 0, 45, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("170")
+}],
+"loop": false,
+"name": &"0",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("169")
+}],
+"loop": false,
+"name": &"1",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("168")
+}],
+"loop": false,
+"name": &"2",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("167")
+}],
+"loop": false,
+"name": &"3",
+"speed": 0.0
+}]

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdh0ss15ya5es"]
+
+[ext_resource type="Texture2D" uid="uid://b0pfav0qt6dsh" path="res://content/weapons/artillery/artydome_base_bandammo_sheet.png" id="1"]
+
+[node name="BandAmmo" type="Sprite2D" groups=["band_ammo"]]
+texture_filter = 1
+texture = ExtResource("1")
+hframes = 5

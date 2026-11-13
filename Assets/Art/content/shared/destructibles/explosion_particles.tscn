@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdbf63wa0j8b6"]
+
+[ext_resource type="Material" uid="uid://blhot73xh5m7i" path="res://content/shared/destructibles/explosion_particles_material.tres" id="1"]
+
+[node name="particles" type="GPUParticles2D"]
+texture_filter = 1
+emitting = false
+amount = 200
+process_material = ExtResource("1")
+one_shot = true
+speed_scale = 3.0
+explosiveness = 0.5

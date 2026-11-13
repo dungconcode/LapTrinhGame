@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b33isadiay20w"
+path="res://.godot/imported/mani amb4_1.wav-9df03502ec44f8ede2fcc6704a4a5372.sample"
+
+[deps]
+
+source_file="res://content/sounds/Weapons/Laser/mani amb4_1.wav"
+dest_files=["res://.godot/imported/mani amb4_1.wav-9df03502ec44f8ede2fcc6704a4a5372.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=1
+edit/loop_begin=0
+edit/loop_end=853334
+compress/mode=0

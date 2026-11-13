@@ -1,0 +1,254 @@
+[gd_scene load_steps=36 format=3 uid="uid://xffrcublnexr"]
+
+[ext_resource type="Script" path="res://content/gadgets/orchard/OrchardRoot.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://be32xuutmvcee" path="res://content/gadgets/orchard/roots_ref-Sheet.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="4"]
+[ext_resource type="AudioStream" uid="uid://dykpkmjjcmw8h" path="res://content/gadgets/orchard/Branch.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://dxxa647yswao" path="res://content/sounds/Bastards/sfx_kick01.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://bvwgkk60eh45x" path="res://content/sounds/Locations/Orchard/Roots.wav" id="7"]
+
+[sub_resource type="AtlasTexture" id="37"]
+atlas = ExtResource("2")
+region = Rect2(0, 21, 43, 21)
+
+[sub_resource type="AtlasTexture" id="38"]
+atlas = ExtResource("2")
+region = Rect2(43, 21, 43, 21)
+
+[sub_resource type="AtlasTexture" id="39"]
+atlas = ExtResource("2")
+region = Rect2(86, 21, 43, 21)
+
+[sub_resource type="AtlasTexture" id="40"]
+atlas = ExtResource("2")
+region = Rect2(129, 21, 43, 21)
+
+[sub_resource type="AtlasTexture" id="15"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="16"]
+atlas = ExtResource("2")
+region = Rect2(43, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="17"]
+atlas = ExtResource("2")
+region = Rect2(86, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="18"]
+atlas = ExtResource("2")
+region = Rect2(129, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="19"]
+atlas = ExtResource("2")
+region = Rect2(172, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="20"]
+atlas = ExtResource("2")
+region = Rect2(215, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="21"]
+atlas = ExtResource("2")
+region = Rect2(258, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="22"]
+atlas = ExtResource("2")
+region = Rect2(301, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="23"]
+atlas = ExtResource("2")
+region = Rect2(344, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="24"]
+atlas = ExtResource("2")
+region = Rect2(387, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="25"]
+atlas = ExtResource("2")
+region = Rect2(430, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="26"]
+atlas = ExtResource("2")
+region = Rect2(430, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="27"]
+atlas = ExtResource("2")
+region = Rect2(387, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="28"]
+atlas = ExtResource("2")
+region = Rect2(344, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="29"]
+atlas = ExtResource("2")
+region = Rect2(301, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="30"]
+atlas = ExtResource("2")
+region = Rect2(258, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="31"]
+atlas = ExtResource("2")
+region = Rect2(215, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="32"]
+atlas = ExtResource("2")
+region = Rect2(172, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="33"]
+atlas = ExtResource("2")
+region = Rect2(129, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="34"]
+atlas = ExtResource("2")
+region = Rect2(86, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="35"]
+atlas = ExtResource("2")
+region = Rect2(43, 0, 43, 21)
+
+[sub_resource type="AtlasTexture" id="36"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 43, 21)
+
+[sub_resource type="SpriteFrames" id="7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("37")
+}, {
+"duration": 1.0,
+"texture": SubResource("38")
+}, {
+"duration": 1.0,
+"texture": SubResource("39")
+}, {
+"duration": 1.0,
+"texture": SubResource("40")
+}],
+"loop": false,
+"name": &"catch",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("15")
+}, {
+"duration": 1.0,
+"texture": SubResource("16")
+}, {
+"duration": 1.0,
+"texture": SubResource("17")
+}, {
+"duration": 1.0,
+"texture": SubResource("18")
+}, {
+"duration": 1.0,
+"texture": SubResource("19")
+}, {
+"duration": 1.0,
+"texture": SubResource("20")
+}, {
+"duration": 1.0,
+"texture": SubResource("21")
+}, {
+"duration": 1.0,
+"texture": SubResource("22")
+}, {
+"duration": 1.0,
+"texture": SubResource("23")
+}, {
+"duration": 1.0,
+"texture": SubResource("24")
+}, {
+"duration": 1.0,
+"texture": SubResource("25")
+}],
+"loop": false,
+"name": &"grow",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("26")
+}, {
+"duration": 1.0,
+"texture": SubResource("27")
+}, {
+"duration": 1.0,
+"texture": SubResource("28")
+}, {
+"duration": 1.0,
+"texture": SubResource("29")
+}, {
+"duration": 1.0,
+"texture": SubResource("30")
+}, {
+"duration": 1.0,
+"texture": SubResource("31")
+}, {
+"duration": 1.0,
+"texture": SubResource("32")
+}, {
+"duration": 1.0,
+"texture": SubResource("33")
+}, {
+"duration": 1.0,
+"texture": SubResource("34")
+}, {
+"duration": 1.0,
+"texture": SubResource("35")
+}, {
+"duration": 1.0,
+"texture": SubResource("36")
+}],
+"loop": false,
+"name": &"shrink",
+"speed": 10.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="14"]
+radius = 5.0
+height = 22.0
+
+[node name="OrchardRoot" type="Area2D" groups=["orchard-root", "pauseL", "saveable"]]
+texture_filter = 1
+collision_layer = 0
+collision_mask = 524288
+script = ExtResource("1")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -9)
+sprite_frames = SubResource("7")
+animation = &"shrink"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -5)
+rotation = 1.5708
+shape = SubResource("14")
+
+[node name="Tween" parent="." instance=ExtResource("3")]
+
+[node name="RootsBreakSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("5")
+volume_db = -6.992
+pitch_scale = 0.84
+bus = &"World"
+
+[node name="RootsBreakSound2" parent="RootsBreakSound" instance=ExtResource("4")]
+stream = ExtResource("6")
+volume_db = -9.303
+pitch_scale = 1.54
+bus = &"World"
+
+[node name="RootingEnemySound" parent="." instance=ExtResource("4")]
+stream = ExtResource("7")
+volume_db = 1.252
+pitch_scale = 1.52
+bus = &"World"
+randomVolume = 0.8
+
+[connection signal="area_entered" from="." to="." method="_on_OrchardRoot_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_OrchardRoot_area_exited"]
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]

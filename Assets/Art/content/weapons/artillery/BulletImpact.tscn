@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dh4ty856vqq7e"]
+
+[ext_resource type="SpriteFrames" uid="uid://bsljfv3ayxggu" path="res://content/weapons/artillery/ArtilleryBulletImpact.tres" id="1"]
+[ext_resource type="Script" path="res://content/weapons/artillery/BulletImpact.gd" id="2"]
+
+[node name="BulletImpact" type="AnimatedSprite2D"]
+sprite_frames = ExtResource("1")
+animation = &"Impact"
+autoplay = "Impact"
+offset = Vector2(-26, 0)
+script = ExtResource("2")
+
+[connection signal="animation_finished" from="." to="." method="_on_BulletImpact_animation_finished"]

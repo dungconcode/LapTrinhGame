@@ -1,0 +1,568 @@
+[gd_scene load_steps=38 format=3 uid="uid://fkydfoc33wb"]
+
+[ext_resource type="Script" path="res://content/weapons/artillery/Artillery.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://l3ohaeyt15p4" path="res://content/weapons/laser/dotted.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://ctx1govoq2r44" path="res://content/weapons/artillery/target_marker_top.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://8kfy2b13kgnp" path="res://content/weapons/artillery/target_marker.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://crbwpdlgurekd" path="res://content/weapons/artillery/artydome_ball3.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b1bair6xlisfe" path="res://content/keeper/keeper1/player1/laserpointer.png" id="6"]
+[ext_resource type="PackedScene" uid="uid://dsr6676b4qmft" path="res://content/weapons/artillery/MortarBarrel.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://bw8no5i8iavct" path="res://content/weapons/artillery/GunBarrel.tscn" id="8"]
+[ext_resource type="Texture2D" uid="uid://bj7ps2a71u4bl" path="res://content/weapons/artillery/artydome_ball3_cog.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://gl2x8qteqxn5" path="res://content/weapons/artillery/artydome_base4.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://drm4rqjdtcsx" path="res://content/weapons/artillery/artydome_base_band.png" id="11"]
+[ext_resource type="PackedScene" uid="uid://cdh0ss15ya5es" path="res://content/weapons/artillery/BandAmmo.tscn" id="12"]
+[ext_resource type="AudioStream" uid="uid://dsn6coyf870aq" path="res://content/sounds/Weapons/tesla/reload_art.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://nrcs3awroyyq" path="res://content/sounds/Weapons/Laser/laser.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://b4u7f0qh8gndw" path="res://content/sounds/Weapons/artillery/Turning.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://0n2xq30wdkt4" path="res://content/sounds/Weapons/tesla/CogsUpFront.wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://drejb8kiqnue4" path="res://content/sounds/Weapons/artillery/Reload_01.wav" id="17"]
+[ext_resource type="AudioStream" uid="uid://nitkawcsscb1" path="res://content/sounds/Weapons/artillery/Reload_02.wav" id="18"]
+[ext_resource type="AudioStream" uid="uid://dnn375wt2kjd6" path="res://content/sounds/Weapons/artillery/aim.wav" id="19"]
+[ext_resource type="AudioStream" uid="uid://be4fqyemypuvp" path="res://content/sounds/Weapons/artillery/artillery_0.wav" id="20"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="21"]
+[ext_resource type="AudioStream" uid="uid://c4vc8heo4cjkc" path="res://content/sounds/Weapons/Mortar1.wav" id="22"]
+[ext_resource type="AudioStream" uid="uid://dbahocv0twb3h" path="res://content/sounds/Weapons/artillery/cannon_01.wav" id="23"]
+[ext_resource type="AudioStream" uid="uid://d25hkohysn8ct" path="res://content/sounds/Weapons/artillery/number2.wav" id="24"]
+[ext_resource type="AudioStream" uid="uid://ca18p1x8ee1ce" path="res://content/sounds/Weapons/artillery/high cannon.wav" id="25"]
+[ext_resource type="AudioStream" uid="uid://mohfhoehun7e" path="res://content/sounds/Weapons/artillery/medium.wav" id="26"]
+[ext_resource type="AudioStream" uid="uid://v5mloy4fyoop" path="res://content/sounds/Weapons/artillery/Reload_2.wav" id="27"]
+[ext_resource type="AudioStream" uid="uid://bicw4hqq40v5c" path="res://content/sounds/Weapons/Mortarready.wav" id="28"]
+[ext_resource type="AudioStream" uid="uid://dkc4vh10eimjv" path="res://content/sounds/Weapons/artillery/Reload_1.wav" id="29"]
+[ext_resource type="AudioStream" uid="uid://lce7faxt76rm" path="res://content/sounds/Weapons/tesla/reload_01.wav" id="30"]
+[ext_resource type="AudioStream" uid="uid://bgx46lc0xseug" path="res://content/sounds/Weapons/artillery/arty_reload.wav" id="31"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="32"]
+
+[sub_resource type="Curve2D" id="1"]
+
+[sub_resource type="Animation" id="3"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -2)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../TargetMarker:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../TargetMarker:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="4"]
+resource_name = "idle"
+length = 1.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.8, 1.2),
+"transitions": PackedFloat32Array(-2, -2, -2, -2),
+"update": 0,
+"values": [Vector2(0, -2), Vector2(0, -4), Vector2(0, 0), Vector2(0, -2)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../TargetMarker:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = false
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.7, 0.8, 1.2),
+"transitions": PackedFloat32Array(1, 1, 1.41421, 1),
+"update": 0,
+"values": [0, 0, 2, 8]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../TargetMarker:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = false
+tracks/2/keys = {
+"times": PackedFloat32Array(0.8, 1.3),
+"transitions": PackedFloat32Array(2.2974, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = false
+tracks/3/keys = {
+"times": PackedFloat32Array(0.5, 0.8, 1.2, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0.537255), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0.537255)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_6m821"]
+_data = {
+"RESET": SubResource("3"),
+"idle": SubResource("4")
+}
+
+[sub_resource type="CanvasItemMaterial" id="2"]
+blend_mode = 1
+
+[node name="Artillery" type="Node2D" groups=["customStyle", "pauseL", "primaryWeapon"]]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="ShotPredictionPath" type="Path2D" parent="."]
+curve = SubResource("1")
+
+[node name="MortarAimLine" type="Line2D" parent="."]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0.2)
+z_index = -1
+texture_repeat = 2
+points = PackedVector2Array(0, 0, 0, -200)
+width = 2.0
+texture = ExtResource("2")
+texture_mode = 1
+
+[node name="MortarTargetGroup" type="Node2D" parent="MortarAimLine"]
+unique_name_in_owner = true
+visible = false
+position = Vector2(33, 0)
+
+[node name="MortarTarget" type="Sprite2D" parent="MortarAimLine/MortarTargetGroup"]
+unique_name_in_owner = true
+texture_filter = 1
+position = Vector2(0, -2)
+texture = ExtResource("3")
+offset = Vector2(0, -4)
+
+[node name="TargetMarker" type="Sprite2D" parent="MortarAimLine/MortarTargetGroup"]
+unique_name_in_owner = true
+texture_filter = 1
+texture = ExtResource("4")
+hframes = 9
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="MortarAimLine/MortarTargetGroup"]
+root_node = NodePath("../MortarTarget")
+libraries = {
+"": SubResource("AnimationLibrary_6m821")
+}
+autoplay = "idle"
+
+[node name="Ball" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -18)
+texture = ExtResource("5")
+
+[node name="Joint3D" type="Node2D" parent="Ball"]
+
+[node name="GunAimLine" type="Line2D" parent="Ball/Joint3D"]
+unique_name_in_owner = true
+visible = false
+modulate = Color(1, 0.615686, 0.372549, 1)
+material = SubResource("2")
+position = Vector2(-7, -8)
+points = PackedVector2Array(0, 0, 0, -1000)
+width = 1.0
+default_color = Color(1, 1, 1, 0.270588)
+texture_mode = 1
+
+[node name="GunAimLineRayCast" type="RayCast2D" parent="Ball/Joint3D/GunAimLine"]
+target_position = Vector2(0, -1500)
+collision_mask = 16777344
+collide_with_areas = true
+
+[node name="LaserTarget" type="Sprite2D" parent="Ball/Joint3D/GunAimLine"]
+unique_name_in_owner = true
+texture_filter = 1
+position = Vector2(0, -29)
+texture = ExtResource("6")
+
+[node name="LaserStart" type="Sprite2D" parent="Ball/Joint3D/GunAimLine"]
+unique_name_in_owner = true
+z_index = 49
+texture_filter = 1
+texture = ExtResource("6")
+
+[node name="MortarBarrel" parent="Ball/Joint3D" instance=ExtResource("7")]
+position = Vector2(0, -30)
+
+[node name="StunShockwaveSource" type="Marker2D" parent="Ball/Joint3D"]
+unique_name_in_owner = true
+position = Vector2(0, -30)
+
+[node name="GunBarrel1" parent="Ball/Joint3D" instance=ExtResource("8")]
+z_index = -2
+position = Vector2(-9, -7)
+
+[node name="GunBarrel2" parent="Ball/Joint3D" instance=ExtResource("8")]
+visible = false
+z_index = -2
+position = Vector2(9, -7)
+flip_h = true
+
+[node name="Cog" type="Sprite2D" parent="Ball"]
+z_index = -3
+texture_filter = 1
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("9")
+
+[node name="Base" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -5)
+texture = ExtResource("10")
+
+[node name="Ammoband" type="Control" parent="Base"]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -4.0
+offset_top = -3.0
+offset_right = 4.0
+offset_bottom = 12.0
+mouse_filter = 2
+
+[node name="Band" type="TextureRect" parent="Base/Ammoband"]
+unique_name_in_owner = true
+texture_filter = 1
+texture_repeat = 2
+layout_mode = 0
+offset_left = 2.0
+offset_right = 6.0
+offset_bottom = 74.0
+mouse_filter = 2
+texture = ExtResource("11")
+stretch_mode = 1
+
+[node name="AmmoLvl0" type="Node2D" parent="Base/Ammoband/Band"]
+unique_name_in_owner = true
+
+[node name="Ammo1" parent="Base/Ammoband/Band/AmmoLvl0" instance=ExtResource("12")]
+position = Vector2(2, 21)
+
+[node name="Ammo3" parent="Base/Ammoband/Band/AmmoLvl0" instance=ExtResource("12")]
+position = Vector2(2, 45)
+
+[node name="AmmoLvl1" type="Node2D" parent="Base/Ammoband/Band"]
+unique_name_in_owner = true
+visible = false
+
+[node name="Ammo3" parent="Base/Ammoband/Band/AmmoLvl1" instance=ExtResource("12")]
+position = Vector2(2, 9)
+
+[node name="Ammo4" parent="Base/Ammoband/Band/AmmoLvl1" instance=ExtResource("12")]
+position = Vector2(2, 33)
+
+[node name="AmmoLvl2" type="Node2D" parent="Base/Ammoband/Band"]
+unique_name_in_owner = true
+visible = false
+
+[node name="Ammo5" parent="Base/Ammoband/Band/AmmoLvl2" instance=ExtResource("12")]
+position = Vector2(2, 27)
+
+[node name="Ammo6" parent="Base/Ammoband/Band/AmmoLvl2" instance=ExtResource("12")]
+position = Vector2(2, 3)
+
+[node name="Ammo7" parent="Base/Ammoband/Band/AmmoLvl2" instance=ExtResource("12")]
+position = Vector2(2, 15)
+
+[node name="Ammo8" parent="Base/Ammoband/Band/AmmoLvl2" instance=ExtResource("12")]
+position = Vector2(2, 39)
+
+[node name="BandMulti" type="TextureRect" parent="Base/Ammoband"]
+unique_name_in_owner = true
+visible = false
+texture_filter = 1
+texture_repeat = 2
+layout_mode = 0
+offset_left = 1.0
+offset_right = 5.0
+offset_bottom = 74.0
+mouse_filter = 2
+texture = ExtResource("11")
+stretch_mode = 1
+
+[node name="AmmoLvl0" type="Node2D" parent="Base/Ammoband/BandMulti"]
+
+[node name="Ammo_1_0" parent="Base/Ammoband/BandMulti/AmmoLvl0" instance=ExtResource("12")]
+visible = false
+position = Vector2(2, -3)
+
+[node name="Ammo_1_1" parent="Base/Ammoband/BandMulti/AmmoLvl0" instance=ExtResource("12")]
+visible = false
+position = Vector2(2, 3)
+
+[node name="Ammo_1_2" parent="Base/Ammoband/BandMulti/AmmoLvl0" instance=ExtResource("12")]
+visible = false
+position = Vector2(2, 9)
+
+[node name="Ammo_1_3" parent="Base/Ammoband/BandMulti/AmmoLvl0" instance=ExtResource("12")]
+visible = false
+position = Vector2(2, 15)
+
+[node name="Ammo_2_0" parent="Base/Ammoband/BandMulti/AmmoLvl0" instance=ExtResource("12")]
+visible = false
+position = Vector2(2, 45)
+
+[node name="Ammo_2_1" parent="Base/Ammoband/BandMulti/AmmoLvl0" instance=ExtResource("12")]
+visible = false
+position = Vector2(2, 51)
+
+[node name="Ammo_2_2" parent="Base/Ammoband/BandMulti/AmmoLvl0" instance=ExtResource("12")]
+visible = false
+position = Vector2(2, 57)
+
+[node name="Ammo_2_3" parent="Base/Ammoband/BandMulti/AmmoLvl0" instance=ExtResource("12")]
+visible = false
+position = Vector2(2, 63)
+
+[node name="MortarChargeSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13")
+volume_db = 3.882
+pitch_scale = 1.07
+bus = &"WeaponMinor"
+
+[node name="FlakChargeSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14")
+volume_db = 10.0
+bus = &"WeaponMinor"
+
+[node name="ReloadCog" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15")
+volume_db = -14.718
+pitch_scale = 1.77
+bus = &"WeaponMinor"
+
+[node name="ReloadCog1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16")
+volume_db = -9.202
+pitch_scale = 1.02
+bus = &"WeaponMinor"
+
+[node name="ReloadCog2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17")
+volume_db = -7.298
+pitch_scale = 1.14
+bus = &"WeaponMinor"
+
+[node name="ReloadCog3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("18")
+volume_db = -7.578
+pitch_scale = 0.88
+bus = &"WeaponMinor"
+
+[node name="ReloadCog4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16")
+volume_db = -10.101
+pitch_scale = 0.95
+bus = &"WeaponMinor"
+
+[node name="ReloadCog5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16")
+volume_db = -10.101
+pitch_scale = 0.7
+bus = &"WeaponMinor"
+
+[node name="AimCog" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("19")
+volume_db = -16.996
+pitch_scale = 0.73
+bus = &"WeaponMinor"
+
+[node name="ShotSound1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("20")
+volume_db = -20.0
+pitch_scale = 1.32
+bus = &"Weapon"
+script = ExtResource("21")
+randomVolume = 0.5
+
+[node name="ShotSoundBass" type="AudioStreamPlayer" parent="ShotSound1"]
+stream = ExtResource("22")
+volume_db = 2.5
+pitch_scale = 0.99
+bus = &"Weapon"
+script = ExtResource("21")
+randomVolume = 1.0
+
+[node name="ShotSound2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("23")
+volume_db = -13.118
+pitch_scale = 1.61
+bus = &"Weapon"
+script = ExtResource("21")
+randomVolume = 0.5
+
+[node name="ShotSound7" type="AudioStreamPlayer" parent="ShotSound2"]
+stream = ExtResource("24")
+volume_db = 4.658
+pitch_scale = 1.14
+bus = &"Weapon"
+script = ExtResource("21")
+randomVolume = 1.1
+
+[node name="ShotSound3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("25")
+volume_db = -0.858
+pitch_scale = 1.09
+bus = &"Weapon"
+script = ExtResource("21")
+randomVolume = 0.5
+
+[node name="ShotSoundBass" type="AudioStreamPlayer" parent="ShotSound3"]
+stream = ExtResource("26")
+volume_db = -1.715
+pitch_scale = 0.8
+bus = &"Weapon"
+script = ExtResource("21")
+randomVolume = 1.0
+
+[node name="ShotSound4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("25")
+volume_db = 0.536
+pitch_scale = 0.86
+bus = &"Weapon"
+script = ExtResource("21")
+showNameOnPlay = true
+randomVolume = 1.1
+
+[node name="ShotSoundBass" type="AudioStreamPlayer" parent="ShotSound4"]
+stream = ExtResource("24")
+volume_db = -3.076
+pitch_scale = 1.03
+bus = &"Sounds"
+script = ExtResource("21")
+randomVolume = 1.0
+
+[node name="ShotSound5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("20")
+volume_db = -10.85
+pitch_scale = 0.75
+bus = &"Weapon"
+script = ExtResource("21")
+randomVolume = 0.5
+
+[node name="ShotSoundBass" type="AudioStreamPlayer" parent="ShotSound5"]
+stream = ExtResource("25")
+volume_db = -1.443
+pitch_scale = 0.8
+bus = &"Weapon"
+script = ExtResource("21")
+randomVolume = 1.0
+
+[node name="ShotSound6" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("20")
+volume_db = -11.774
+pitch_scale = 0.75
+bus = &"Weapon"
+script = ExtResource("21")
+randomVolume = 0.5
+
+[node name="ShotSoundBass" type="AudioStreamPlayer" parent="ShotSound6"]
+stream = ExtResource("25")
+volume_db = -1.121
+pitch_scale = 0.8
+bus = &"Weapon"
+script = ExtResource("21")
+randomVolume = 1.0
+
+[node name="Ready" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("27")
+volume_db = -7.616
+pitch_scale = 1.49
+bus = &"Weapon"
+script = ExtResource("21")
+
+[node name="Ready6" type="AudioStreamPlayer" parent="Ready"]
+stream = ExtResource("28")
+volume_db = -2.489
+pitch_scale = 0.95
+bus = &"Sounds"
+script = ExtResource("21")
+
+[node name="Ready2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("29")
+volume_db = -6.437
+pitch_scale = 1.29
+bus = &"Weapon"
+script = ExtResource("21")
+
+[node name="Ready6" type="AudioStreamPlayer" parent="Ready2"]
+stream = ExtResource("30")
+volume_db = -9.52
+pitch_scale = 1.03
+bus = &"Weapon"
+script = ExtResource("21")
+
+[node name="Ready3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("29")
+volume_db = -5.316
+pitch_scale = 1.01
+bus = &"Weapon"
+script = ExtResource("21")
+
+[node name="Ready6" type="AudioStreamPlayer" parent="Ready3"]
+stream = ExtResource("30")
+volume_db = -3.353
+pitch_scale = 0.86
+bus = &"Weapon"
+script = ExtResource("21")
+
+[node name="Ready4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("31")
+volume_db = -14.208
+pitch_scale = 1.56
+bus = &"Weapon"
+script = ExtResource("21")
+
+[node name="Ready5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("31")
+volume_db = -13.9
+pitch_scale = 1.29
+bus = &"Weapon"
+script = ExtResource("21")
+
+[node name="Tween" parent="." instance=ExtResource("32")]
+
+[node name="StationTween" parent="." instance=ExtResource("32")]

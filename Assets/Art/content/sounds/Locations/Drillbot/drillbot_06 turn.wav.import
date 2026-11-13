@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bhodsdvo1yuhq"
+path="res://.godot/imported/drillbot_06 turn.wav-9317bc5374000f7407868867de971c6d.sample"
+
+[deps]
+
+source_file="res://content/sounds/Locations/Drillbot/drillbot_06 turn.wav"
+dest_files=["res://.godot/imported/drillbot_06 turn.wav-9317bc5374000f7407868867de971c6d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

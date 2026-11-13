@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://content/shared/drops/DropEnterTrigger.gd" id="1"]
+
+[sub_resource type="CircleShape2D" id="3"]
+radius = 3.0
+
+[node name="DropEnterTrigger" type="Area2D"]
+collision_layer = 64
+collision_mask = 0
+monitoring = false
+script = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("3")

@@ -1,0 +1,125 @@
+[gd_scene load_steps=15 format=3 uid="uid://ppuii3y74ntj"]
+
+[ext_resource type="Script" path="res://content/keeper/keeper2/BundleResourceTracker.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dwk1k85jjh38u" path="res://content/keeper/keeper2/BundleResourceTracker_sprite_noise.png" id="2"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/CustomStyle_ChangeModulate.gd" id="3"]
+
+[sub_resource type="Shader" id="318"]
+code = "shader_type canvas_item;
+
+uniform float noise_power = 0.08;
+uniform float noise_speed = 0.2;
+uniform sampler2D noise_map : source_color, repeat_enable;
+
+void fragment(){
+	vec2 uv = UV*0.5;
+	float noise_1 = texture(noise_map, uv + TIME*noise_speed * vec2(+0.15, -0.05)).r - 0.5;
+	float noise_2 = texture(noise_map, uv + TIME*noise_speed * vec2(-0.1, 0.15)).g - 0.5;
+	float noise_3 = texture(noise_map, uv + TIME*noise_speed * vec2(-0.1, -0.15)).b - 0.5;
+	vec2 noised_val = vec2(noise_1*noise_2, noise_1*noise_3);
+	vec2 noised_uv = UV + (noised_val * noise_power);
+	COLOR = texture(TEXTURE, noised_uv);
+}"
+
+[sub_resource type="ShaderMaterial" id="319"]
+shader = SubResource("318")
+shader_parameter/noise_power = 1.0
+shader_parameter/noise_speed = 3.0
+shader_parameter/noise_map = ExtResource("2")
+
+[sub_resource type="Gradient" id="314"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="315"]
+gradient = SubResource("314")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="Gradient" id="323"]
+interpolation_mode = 2
+
+[sub_resource type="GradientTexture2D" id="324"]
+gradient = SubResource("323")
+width = 512
+height = 512
+fill = 1
+fill_from = Vector2(0.495833, 0.504167)
+
+[sub_resource type="Shader" id="320"]
+code = "shader_type canvas_item;
+render_mode blend_add;
+
+uniform sampler2D color_gradient : source_color;
+
+varying flat vec4 modulate;
+
+void vertex() {
+	modulate = COLOR;
+}
+
+void fragment(){
+	float circles_mask = texture(TEXTURE, UV).r;
+	COLOR = texture(color_gradient, vec2(circles_mask, 0.0))*modulate;
+}"
+
+[sub_resource type="Gradient" id="316"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.0443864, 0.0913838, 0.151436, 0.276762, 0.657963, 0.819843)
+colors = PackedColorArray(0.87451, 0.87451, 0.87451, 0, 1, 1, 1, 1, 0.546875, 0.455017, 0.455017, 1, 0.176992, 0.0853467, 0.10366, 1, 0.0898438, 0.00666809, 0.0632015, 1, 0.14761, 0.0697139, 0.122659, 1, 0.223877, 0.2173, 0.394531, 1)
+
+[sub_resource type="GradientTexture2D" id="266"]
+gradient = SubResource("316")
+width = 256
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vbwv7"]
+resource_local_to_scene = true
+shader = SubResource("320")
+shader_parameter/color_gradient = SubResource("266")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_vjbmn"]
+viewport_path = NodePath("SubViewport")
+
+[node name="BundleResourceTracker" type="Node2D" groups=["keeper2_bundle_tracker"]]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="SubViewport" type="SubViewport" parent="." groups=["unstyled"]]
+disable_3d = true
+handle_input_locally = false
+gui_disable_input = true
+gui_snap_controls_to_pixels = false
+positional_shadow_atlas_size = 0
+positional_shadow_atlas_quad_0 = 0
+positional_shadow_atlas_quad_1 = 0
+positional_shadow_atlas_quad_2 = 0
+positional_shadow_atlas_quad_3 = 0
+size = Vector2i(2000, 2000)
+render_target_update_mode = 0
+
+[node name="Trackers" type="Node2D" parent="SubViewport" groups=["unstyled"]]
+
+[node name="Sprite2D" type="Sprite2D" parent="SubViewport" groups=["unstyled"]]
+modulate = Color(1, 1, 1, 0)
+texture_filter = 4
+texture_repeat = 2
+material = SubResource("319")
+position = Vector2(-100, -100)
+scale = Vector2(0.01, 0.01)
+texture = SubResource("315")
+
+[node name="CenterHelper" type="Sprite2D" parent="SubViewport"]
+visible = false
+texture_filter = 4
+texture_repeat = 2
+texture = SubResource("324")
+
+[node name="AssessorBundleEffect" type="Sprite2D" parent="." groups=["customStyle"]]
+unique_name_in_owner = true
+modulate = Color(1, 0.615686, 0.372549, 1)
+z_index = -1
+material = SubResource("ShaderMaterial_vbwv7")
+texture = SubResource("ViewportTexture_vjbmn")
+flip_v = true
+script = ExtResource("3")
+self_init = true

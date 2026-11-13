@@ -1,0 +1,82 @@
+[gd_scene load_steps=11 format=3 uid="uid://b6x06lo18oujh"]
+
+[ext_resource type="Texture2D" uid="uid://dr3w3wqou7j80" path="res://content/map/chamber/relicswitch/cable_glow_tex.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bpixvaodk0csb" path="res://systems/style/palettes/palette_1_2.png" id="2"]
+[ext_resource type="Script" path="res://content/map/chamber/relicswitch/NewCable/CableSegment.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="4"]
+
+[sub_resource type="Shader" id="2"]
+code = "shader_type canvas_item;
+render_mode blend_mix;
+
+const float start_r = 0.5 / float(32);
+const float start_b = 0.5 / float(12);
+
+uniform sampler2D palette : source_color, filter_nearest;
+uniform sampler2D gradient : source_color;
+uniform sampler2D color : source_color, filter_nearest;
+uniform sampler2D glow : source_color, filter_nearest, repeat_enable;
+
+varying flat vec4 MODULATE;
+void vertex() {
+    MODULATE = COLOR;
+}
+
+void fragment() {
+	float fade_vertical = abs(1.0-sin(UV.y*PI))*0.5;
+	float grad = texture(gradient, vec2(UV.x, 0.0)).r;
+	vec4 input = texture(color, vec2(MODULATE.r * grad - fade_vertical, 0.0));
+	vec4 output = texture(palette, vec2(start_r + input.r, start_b+input.b));
+	COLOR = output;
+	
+	
+	vec4 input_glow = texture(glow, vec2((((MODULATE.b/MODULATE.g) + UV.x) - TIME/MODULATE.g)*MODULATE.g, 0.0));
+	vec4 output_glow = texture(palette, vec2(start_r + input.r, start_b+input.b));
+	COLOR.rgb = mix(output.rgb, output.rgb+output_glow.rgb, input_glow.a*smoothstep(0.9, 0.3, MODULATE.a));
+}"
+
+[sub_resource type="Gradient" id="6"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.134935, 0.419593, 0.678373)
+colors = PackedColorArray(0.12549, 0.0705882, 0.313726, 1, 0, 0.203922, 0.313726, 1, 0.0313726, 0.301961, 0.313726, 1, 0.0627451, 0.356863, 0.313726, 1)
+
+[sub_resource type="GradientTexture2D" id="7"]
+gradient = SubResource("6")
+
+[sub_resource type="Gradient" id="Gradient_sb4mv"]
+offsets = PackedFloat32Array(0, 0.5, 1)
+colors = PackedColorArray(0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_n0l3k"]
+gradient = SubResource("Gradient_sb4mv")
+
+[sub_resource type="ShaderMaterial" id="5"]
+shader = SubResource("2")
+shader_parameter/palette = ExtResource("2")
+shader_parameter/gradient = SubResource("GradientTexture1D_n0l3k")
+shader_parameter/color = SubResource("7")
+shader_parameter/glow = ExtResource("1")
+
+[node name="Segment" type="Line2D"]
+z_index = 10
+material = SubResource("5")
+points = PackedVector2Array(0, 0, 20, 0, 40, 0)
+width = 2.0
+texture_mode = 2
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+script = ExtResource("3")
+
+[node name="Entry" type="Polygon2D" parent="."]
+z_index = -1
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-9, 2, -5, 2, -3, 0, -4, -3, -1, -3, 0, -3, 0, -7, 4, -11, 1, -7, 2, -2, 3, 0, 5.49528, 0, 7, -3, 10, -5, 8, -2, 16, 0, 8, -1, 6, 2, 2, 2, 6, 7, 0, 3, -1, 4, -1, 6, 1, 9, -2, 8, -3, 11, -3, 4, -2, 2, -5, 3)
+
+[node name="Exit" type="Polygon2D" parent="."]
+z_index = -1
+position = Vector2(40, 0)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-12, 1, -5, 2, -3, 0, -5, -4, -1, -2, 0, -3, 0, -7, 6, -12, 1, -7, 1, -3, 3, 0, 5.49528, 0, 7, -3, 13, -8, 8, -2, 16, 0, 8, -1, 6, 2, 2, 2, 6, 7, 0, 3, -1, 4, -1, 6, 2, 11, -2, 8, -4, 15, -3, 4, -2, 3, -5, 3)
+
+[node name="Tween" parent="." instance=ExtResource("4")]

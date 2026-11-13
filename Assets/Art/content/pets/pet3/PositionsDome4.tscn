@@ -1,0 +1,60 @@
+[gd_scene format=3]
+
+[node name="Positions" type="Node2D"]
+
+[node name="Position1_1" type="Marker2D" parent="."]
+position = Vector2(-4.25224, -34.1754)
+
+[node name="Position1_2" type="Marker2D" parent="."]
+position = Vector2(7.24454, -70.7131)
+
+[node name="Position1_3" type="Marker2D" parent="."]
+position = Vector2(17.6389, -49.4519)
+
+[node name="Position1_4" type="Marker2D" parent="."]
+position = Vector2(2.83482, -51.3418)
+
+[node name="Position1_5" type="Marker2D" parent="."]
+position = Vector2(11.4968, -22.3636)
+
+[node name="Position1_6" type="Marker2D" parent="."]
+position = Vector2(47.0895, -5.98463)
+
+[node name="Position2_1" type="Marker2D" parent="."]
+position = Vector2(4.88219, -1.5749)
+
+[node name="Position2_2" type="Marker2D" parent="."]
+position = Vector2(-2.99231, -5.98462)
+
+[node name="Position2_3" type="Marker2D" parent="."]
+position = Vector2(5.98462, -12.2842)
+
+[node name="Position2_4" type="Marker2D" parent="."]
+position = Vector2(-5.35467, -16.5365)
+
+[node name="Position2_5" type="Marker2D" parent="."]
+position = Vector2(0.31498, -39.6875)
+
+[node name="Position2_6" type="Marker2D" parent="."]
+position = Vector2(-4.88219, -56.6964)
+
+[node name="Position2_7" type="Marker2D" parent="."]
+position = Vector2(2.99232, -80.7924)
+
+[node name="Position3_1" type="Marker2D" parent="."]
+position = Vector2(46.9321, -6.14211)
+
+[node name="Position3_2" type="Marker2D" parent="."]
+position = Vector2(3.62227, -23.9385)
+
+[node name="Position4_1_right" type="Marker2D" parent="."]
+position = Vector2(46.4596, -5.98463)
+
+[node name="Position4_2" type="Marker2D" parent="."]
+position = Vector2(0.629951, -16.8514)
+
+[node name="Position4_3_right" type="Marker2D" parent="."]
+position = Vector2(20, 4)
+
+[node name="Position4_4_left" type="Marker2D" parent="."]
+position = Vector2(-19, 4)

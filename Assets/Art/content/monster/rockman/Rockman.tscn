@@ -1,0 +1,115 @@
+[gd_scene load_steps=29 format=3 uid="uid://bijwr7e5du2xi"]
+
+[ext_resource type="Script" path="res://content/monster/rockman/Rockman.gd" id="1"]
+[ext_resource type="Material" uid="uid://day50apjw6md" path="res://content/monster/FlashMaterial.tres" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://dc7isc687l3w" path="res://content/monster/rockman/spriteframes.tres" id="3"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="4"]
+[ext_resource type="AudioStream" uid="uid://c3iaedtgkjvoi" path="res://content/sounds/monster/walker/WalkerDeath.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://dpqcpwje55yhv" path="res://content/sounds/monster/bolter/pig die.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://dkaq14k3w7vl1" path="res://content/sounds/monster/bolter/pigdie2.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://24sjbo26ew8w" path="res://content/sounds/monster/rockman/ROCKMAN01.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://b3wvrxbsbkyx6" path="res://content/sounds/monster/rockman/ROCKMAN02.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://di5b3yab2nfrc" path="res://content/sounds/monster/rockman/ROCKMAN03.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://cdlpw78qpnlg7" path="res://content/sounds/monster/rockman/rockman_3.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://bab7ufdocrntn" path="res://content/sounds/monster/rockman/rockman_3_01.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://oywpqgp1m01g" path="res://content/sounds/monster/rockman/rockman_3_02.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://di3a0iu5mu2x2" path="res://content/sounds/monster/rockman/rockman_3_03.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://ch7royt2ri21u" path="res://content/sounds/monster/tick/tick_jump.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://chpjt3p7xay7o" path="res://content/sounds/monster/tick/Tick_Jump_01.wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://cgx4q8j40wfo2" path="res://content/sounds/monster/tick/Tick_Jump_02.wav" id="17"]
+[ext_resource type="AudioStream" uid="uid://cjuwi7ic6cqgk" path="res://content/sounds/monster/tick/Tick_Jump_03.wav" id="18"]
+[ext_resource type="AudioStream" uid="uid://dhavai4rp5l08" path="res://content/sounds/monster/tick/Tick_Jump_04.wav" id="19"]
+[ext_resource type="AudioStream" uid="uid://bhhdiylg238tq" path="res://content/sounds/monster/tick/Tick_Jump_05.wav" id="20"]
+[ext_resource type="AudioStream" uid="uid://7qnv3ivtnxaa" path="res://content/sounds/monster/walker/DomePunch03_01.wav" id="21"]
+[ext_resource type="AudioStream" uid="uid://cliobn7veen3k" path="res://content/sounds/monster/walker/DomePunch03_02.wav" id="22"]
+[ext_resource type="AudioStream" uid="uid://d1bl87qk2xq61" path="res://content/sounds/monster/walker/DomePunch03_03.wav" id="23"]
+[ext_resource type="AudioStream" uid="uid://cseiyq1bp2non" path="res://content/sounds/monster/walker/DomePunch03_04.wav" id="24"]
+[ext_resource type="AudioStream" uid="uid://cd5lpkm3bi1dl" path="res://content/sounds/monster/walker/DomePunch03_05.wav" id="25"]
+[ext_resource type="AudioStream" uid="uid://twn7q75geac4" path="res://content/sounds/monster/snd_hard_01.wav" id="26"]
+
+[sub_resource type="CircleShape2D" id="156"]
+radius = 16.0
+
+[sub_resource type="CircleShape2D" id="107"]
+radius = 5.38516
+
+[node name="Rockman" type="Area2D" groups=["monster"]]
+texture_filter = 1
+collision_layer = 128
+collision_mask = 0
+script = ExtResource("1")
+techId = "rockman"
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+material = ExtResource("2")
+position = Vector2(-9, -18)
+sprite_frames = ExtResource("3")
+animation = &"standup"
+
+[node name="HitboxDefault" type="CollisionShape2D" parent="."]
+position = Vector2(0, -15)
+shape = SubResource("156")
+disabled = true
+
+[node name="HitPosition" type="Marker2D" parent="."]
+position = Vector2(16, -12)
+
+[node name="DieSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("5")
+volume_db = 5.681
+pitch_scale = 1.09
+bus = &"World"
+randomVolume = 1.0
+randomPitch = 0.2
+
+[node name="DieSound2" parent="DieSound" instance=ExtResource("4")]
+volume_db = 1.841
+pitch_scale = 1.3
+bus = &"World"
+randomVolume = 1.0
+randomPitch = 0.2
+streams = [ExtResource("6"), ExtResource("7")]
+
+[node name="PunchSound1" parent="." instance=ExtResource("4")]
+volume_db = 2.301
+pitch_scale = 1.1
+bus = &"World"
+streams = [ExtResource("8"), ExtResource("9"), ExtResource("10")]
+
+[node name="PunchSound2" parent="." instance=ExtResource("4")]
+volume_db = 1.381
+pitch_scale = 0.78
+bus = &"World"
+streams = [ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14")]
+
+[node name="StunSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("15")
+volume_db = 1.958
+pitch_scale = 1.53
+bus = &"World"
+randomPitch = 0.18
+streams = [ExtResource("16"), ExtResource("17"), ExtResource("18"), ExtResource("19"), ExtResource("20")]
+
+[node name="PunchSound3" parent="." instance=ExtResource("4")]
+volume_db = -2.761
+pitch_scale = 1.07
+bus = &"World"
+streams = [ExtResource("21"), ExtResource("22"), ExtResource("23"), ExtResource("24"), ExtResource("25")]
+
+[node name="StepCollisions" type="Area2D" parent="."]
+collision_layer = 524288
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StepCollisions"]
+position = Vector2(-3, -1)
+shape = SubResource("107")
+
+[node name="IsHitSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("26")
+volume_db = -10.619
+pitch_scale = 1.23
+bus = &"World"
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="animation_looped" from="Sprite2D" to="." method="_on_sprite_2d_animation_looped"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bdnsf7tdrfxoc"
+path="res://.godot/imported/Retro Bat 01.wav-6eb93c72e0cd51898b01b5bd2328debd.sample"
+
+[deps]
+
+source_file="res://content/sounds/monster/flyer/Retro Bat 01.wav"
+dest_files=["res://.godot/imported/Retro Bat 01.wav-6eb93c72e0cd51898b01b5bd2328debd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

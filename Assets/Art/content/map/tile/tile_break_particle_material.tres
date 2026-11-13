@@ -1,0 +1,26 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://b7d1lys6pq3rw"]
+
+[sub_resource type="Shader" id="1"]
+code = "shader_type canvas_item;
+
+uniform sampler2D palette;
+
+vec2 get_pixel_uv(vec2 uv, vec2 texture_pixel_size) {
+	uv /= texture_pixel_size;
+	uv = floor(uv);
+	uv *= texture_pixel_size;
+	return uv;
+}
+
+void fragment() {
+	vec4 input = texture(TEXTURE, UV);
+	float d = length(2.0 * get_pixel_uv(UV, TEXTURE_PIXEL_SIZE) - 1.0);
+	highp float c = 0.33333333*(input.r+input.g+input.b);
+	vec4 output = texture(palette, vec2((c*255.0+0.5)/255.0,0.0));
+	COLOR.a = input.a * step(d, COLOR.a * 1.7f);
+	COLOR.rgb = output.rgb;
+}"
+
+[resource]
+shader = SubResource("1")
+shader_parameter/palette = null

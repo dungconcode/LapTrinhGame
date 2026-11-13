@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bhmv57rwb27tn"]
+
+[ext_resource type="Texture2D" uid="uid://dglg6nyd5oxya" path="res://content/keeper/coop_glow.png" id="1"]
+[ext_resource type="Script" path="res://content/keeper/CoopLightSource.gd" id="2"]
+
+[node name="CoopLightSource" type="Sprite2D" groups=["coop_light_source"]]
+visible = false
+texture_filter = 1
+position = Vector2(0, -2)
+texture = ExtResource("1")
+script = ExtResource("2")

@@ -1,0 +1,116 @@
+[gd_scene load_steps=16 format=3 uid="uid://mp0am0xgoc62"]
+
+[ext_resource type="Script" path="res://content/weapons/artillery/Bullet.gd" id="1"]
+[ext_resource type="Shader" path="res://content/weapons/tesla/physics_sparks_particleshader.gdshader" id="2"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/CustomStyle_ChangeModulate.gd" id="3"]
+[ext_resource type="Texture2D" uid="uid://sae8pyu4xyk1" path="res://content/weapons/artillery/artydome_flak_muzzleflash_1.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://tiydm6ceqqbi" path="res://content/weapons/artillery/projectile.png" id="5"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="7"]
+[ext_resource type="AudioStream" uid="uid://rsrdid5nf608" path="res://content/sounds/Weapons/artillery/monsterHit.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://txnibhof5j10" path="res://content/sounds/Weapons/artillery/ArtilleryGun_1.wav" id="9"]
+
+[sub_resource type="Gradient" id="148"]
+offsets = PackedFloat32Array(0.282158, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="149"]
+gradient = SubResource("148")
+width = 256
+
+[sub_resource type="ShaderMaterial" id="146"]
+shader = ExtResource("2")
+shader_parameter/emission_sphere_radius = 0.1
+shader_parameter/lifetime_randomness = 0.8
+shader_parameter/direction = Vector3(1, 0, 0)
+shader_parameter/spread = 10.0
+shader_parameter/scale = 0.6
+shader_parameter/air_drag = 1.0
+shader_parameter/mass = 0.1
+shader_parameter/mass_random = 0.7
+shader_parameter/scale_min = 0.1
+shader_parameter/scale_max = 0.15
+shader_parameter/initial_linear_velocity = 800.0
+shader_parameter/initial_linear_velocity_random = 0.25
+shader_parameter/color_value = Color(1, 1, 1, 1)
+shader_parameter/scale_speed_mod = Vector3(1.113, 1.316, 0)
+shader_parameter/scale_speed_mod_min = 0.3
+shader_parameter/scale_speed_mod_max = 4.0
+shader_parameter/gravity = Vector3(0, 0, 0)
+shader_parameter/color_ramp = SubResource("149")
+
+[sub_resource type="Gradient" id="144"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0.909884, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="147"]
+gradient = SubResource("144")
+width = 8
+height = 32
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(10, 2)
+
+[node name="Bullet" type="Area2D"]
+z_index = 100
+texture_filter = 1
+collision_layer = 0
+collision_mask = 131200
+script = ExtResource("1")
+
+[node name="Sparks" type="GPUParticles2D" parent="."]
+editor_description = "fine_tuned"
+visible = false
+position = Vector2(-3, 0)
+rotation = 3.14159
+amount = 40
+process_material = SubResource("146")
+texture = SubResource("147")
+lifetime = 0.8
+script = ExtResource("3")
+self_init = true
+styleColor = Color(0.439216, 1, 0, 1)
+
+[node name="RocketEngine" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-3, 2.20268e-13)
+rotation = -1.57079
+scale = Vector2(0.273, 0.329)
+texture = ExtResource("4")
+centered = false
+offset = Vector2(-12.775, -42.487)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, 0.5)
+rotation = 1.5708
+texture = ExtResource("5")
+
+[node name="Tween" parent="." instance=ExtResource("6")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 0)
+shape = SubResource("1")
+
+[node name="Impact" parent="." instance=ExtResource("7")]
+stream = ExtResource("8")
+volume_db = -15.036
+pitch_scale = 0.9
+bus = &"Weapon"
+randomPitch = 0.13
+
+[node name="ImpactExplosive" parent="." instance=ExtResource("7")]
+stream = ExtResource("9")
+volume_db = -6.159
+pitch_scale = 1.33
+bus = &"WeaponMinor"
+randomVolume = 2.0
+
+[connection signal="area_entered" from="." to="." method="_on_Bullet_area_entered"]
+[connection signal="finished" from="Impact" to="." method="_on_Impact_finished"]
+[connection signal="finished" from="ImpactExplosive" to="." method="_on_ImpactExplosive_finished"]

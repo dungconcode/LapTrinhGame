@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://8w5y5jwpndkq"]
+
+[ext_resource type="Texture2D" uid="uid://b44dhusm70fy5" path="res://content/map/decorations/fuzzy/Ceiling1.png" id="1"]
+[ext_resource type="Script" path="res://content/map/decorations/BorderDecoration.gd" id="2"]
+
+[node name="Fuzzy" type="Sprite2D" groups=["decoration"]]
+texture_filter = 1
+texture = ExtResource("1")
+offset = Vector2(0, 4)
+hframes = 5
+frame = 4
+script = ExtResource("2")
+randomFlipH = true
+randX = Vector2(-3, 6)

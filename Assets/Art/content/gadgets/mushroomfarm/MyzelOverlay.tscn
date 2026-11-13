@@ -1,0 +1,94 @@
+[gd_scene load_steps=15 format=3 uid="uid://u33uyxnprwfa"]
+
+[ext_resource type="Texture2D" uid="uid://tglev6pk1nnx" path="res://content/gadgets/mushroomfarm/tilemyzel.png" id="1"]
+[ext_resource type="Script" path="res://content/gadgets/mushroomfarm/MyzelOverlay.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://02emll07tpim" path="res://content/shared/Usable.tscn" id="3"]
+[ext_resource type="Texture2D" uid="uid://dxwlvbx8jpnsr" path="res://content/gadgets/mushroomfarm/mushroom_left.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cll30ll3ih460" path="res://content/gadgets/mushroomfarm/mushroom_bottom.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cjtflewecp424" path="res://content/gadgets/mushroomfarm/mushroom_right.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://befujicwlixo" path="res://content/gadgets/mushroomfarm/mushroom_top.png" id="7"]
+[ext_resource type="SpriteFrames" uid="uid://b7jeurwmmt1e2" path="res://content/gadgets/mushroomfarm/poof_anim.tres" id="8"]
+[ext_resource type="AudioStream" uid="uid://clcdqr6pa1n1e" path="res://content/sounds/Locations/MushroomFarm/fruitLook_50.wav" id="9"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="10"]
+[ext_resource type="AudioStream" uid="uid://dmmvvvbf2qigo" path="res://content/sounds/Locations/MushroomFarm/fruitLook_08.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://csq21i76l6rm8" path="res://content/sounds/Locations/MushroomFarm/fruitLook_24.wav" id="12"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_u3a8l"]
+radius = 8.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1m6uy"]
+radius = 24.0
+
+[node name="MyzelOverlay" type="Sprite2D"]
+z_index = 1
+texture_filter = 1
+texture = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Usable" parent="." instance=ExtResource("3")]
+modulateOnFocus = NodePath("..")
+
+[node name="CollisionShape2D" parent="Usable" index="0"]
+shape = SubResource("CircleShape2D_u3a8l")
+
+[node name="AutoPickArea" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 16384
+monitoring = false
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AutoPickArea"]
+shape = SubResource("CircleShape2D_1m6uy")
+
+[node name="mushroom_l" type="Sprite2D" parent="."]
+position = Vector2(-11, -3)
+texture = ExtResource("4")
+centered = false
+offset = Vector2(-8, -4)
+
+[node name="mushroom_d" type="Sprite2D" parent="."]
+position = Vector2(0, 11)
+texture = ExtResource("5")
+centered = false
+offset = Vector2(-5, 0)
+
+[node name="mushroom_r" type="Sprite2D" parent="."]
+position = Vector2(11, -1)
+texture = ExtResource("6")
+centered = false
+offset = Vector2(0, -6)
+
+[node name="mushroom_t" type="Sprite2D" parent="."]
+position = Vector2(0, -11)
+texture = ExtResource("7")
+centered = false
+offset = Vector2(-5, -9)
+
+[node name="poof" type="AnimatedSprite2D" parent="."]
+self_modulate = Color(1, 1, 1, 0.666667)
+position = Vector2(1, 16)
+sprite_frames = ExtResource("8")
+frame = 13
+frame_progress = 1.0
+
+[node name="SpawnSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9")
+bus = &"World"
+script = ExtResource("10")
+maxAudibleDistance = 200.0
+minAudibleDistance = 60.0
+
+[node name="PickupSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11")
+bus = &"Sounds"
+
+[node name="PoofSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12")
+bus = &"World"
+script = ExtResource("10")
+maxAudibleDistance = 150.0
+minAudibleDistance = 40.0
+
+[connection signal="body_entered" from="AutoPickArea" to="." method="_on_auto_pick_area_body_entered"]
+
+[editable path="Usable"]

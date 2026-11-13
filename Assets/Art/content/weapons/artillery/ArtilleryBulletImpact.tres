@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://bsljfv3ayxggu"]
+
+[ext_resource type="Texture2D" uid="uid://cw14yc22iv8mr" path="res://content/weapons/artillery/artydome_flak_impact_1.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hj0ol"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nxj6a"]
+atlas = ExtResource("1")
+region = Rect2(64, 0, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q4wln"]
+atlas = ExtResource("1")
+region = Rect2(128, 0, 64, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hj0ol")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nxj6a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q4wln")
+}],
+"loop": false,
+"name": &"Impact",
+"speed": 36.0
+}]

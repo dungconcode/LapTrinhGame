@@ -1,0 +1,160 @@
+[gd_scene load_steps=21 format=3 uid="uid://ce63s4xwuonal"]
+
+[ext_resource type="Script" path="res://content/weapons/artillery/ArtilleryDirectHit.gd" id="1"]
+[ext_resource type="SpriteFrames" uid="uid://ci1gofbjjxq5c" path="res://content/weapons/artillery/ArtilleryDirectHitSlash.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://5xuybf18gcnf" path="res://content/effects/explosions/smoke32x32px_sheet.png" id="3"]
+[ext_resource type="SpriteFrames" uid="uid://dd3rx8472s54i" path="res://content/weapons/artillery/ArtilleryDirectHit.tres" id="4"]
+[ext_resource type="Shader" path="res://content/weapons/tesla/physics_sparks_particleshader.gdshader" id="5"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/CustomStyle_ChangeModulate.gd" id="6"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="7"]
+
+[sub_resource type="CanvasItemMaterial" id="145"]
+particles_animation = true
+particles_anim_h_frames = 10
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="Curve" id="146"]
+_data = [Vector2(0, 0.246591), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="158"]
+curve = SubResource("146")
+
+[sub_resource type="Gradient" id="152"]
+offsets = PackedFloat32Array(0, 0.290456, 0.485477, 0.62117, 1)
+colors = PackedColorArray(0.470588, 1, 0, 1, 0.313726, 1, 0.392157, 1, 0.282353, 0.792157, 0.392157, 1, 0.25098, 0.521569, 0.392157, 1, 0.188235, 0.427451, 0.392157, 0)
+
+[sub_resource type="GradientTexture2D" id="159"]
+gradient = SubResource("152")
+width = 256
+
+[sub_resource type="Curve" id="154"]
+_data = [Vector2(0, 0.318182), 0.0, 2.39979, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="160"]
+curve = SubResource("154")
+
+[sub_resource type="ParticleProcessMaterial" id="148"]
+lifetime_randomness = 0.8
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 15.0
+angle_max = 360.0
+spread = 20.0
+initial_velocity_min = 25.0
+initial_velocity_max = 250.0
+angular_velocity_min = -150.0
+angular_velocity_max = 150.0
+gravity = Vector3(0, -50, 0)
+linear_accel_min = -30.0
+linear_accel_max = -30.0
+damping_min = 20.0
+damping_max = 20.0
+scale_curve = SubResource("160")
+color_ramp = SubResource("159")
+anim_speed_min = 1.0
+anim_speed_max = 1.0
+anim_speed_curve = SubResource("158")
+anim_offset_max = 0.3
+
+[sub_resource type="Gradient" id="149"]
+offsets = PackedFloat32Array(0.590116, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="156"]
+gradient = SubResource("149")
+width = 256
+
+[sub_resource type="ShaderMaterial" id="150"]
+shader = ExtResource("5")
+shader_parameter/emission_sphere_radius = 0.1
+shader_parameter/lifetime_randomness = 0.8
+shader_parameter/direction = Vector3(1, 0, 0)
+shader_parameter/spread = 20.0
+shader_parameter/scale = 0.6
+shader_parameter/air_drag = 1.0
+shader_parameter/mass = 0.04
+shader_parameter/mass_random = 0.7
+shader_parameter/scale_min = 0.1
+shader_parameter/scale_max = 0.15
+shader_parameter/initial_linear_velocity = 1500.0
+shader_parameter/initial_linear_velocity_random = 0.25
+shader_parameter/color_value = Color(1, 1, 1, 1)
+shader_parameter/scale_speed_mod = Vector3(1.113, 1.316, 0)
+shader_parameter/scale_speed_mod_min = 0.3
+shader_parameter/scale_speed_mod_max = 4.0
+shader_parameter/gravity = Vector3(0, 100, 0)
+shader_parameter/color_ramp = SubResource("156")
+
+[sub_resource type="Gradient" id="157"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0.909884, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="151"]
+gradient = SubResource("157")
+width = 8
+height = 32
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[node name="ArtilleryDirectHit" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="Slash" type="AnimatedSprite2D" parent="."]
+position = Vector2(31, 0)
+scale = Vector2(1, 2)
+sprite_frames = ExtResource("2")
+frame = 16
+
+[node name="Slash2" type="AnimatedSprite2D" parent="."]
+position = Vector2(-30.0396, -14.9808)
+rotation = 0.261799
+scale = Vector2(1, 2)
+sprite_frames = ExtResource("2")
+frame = 16
+speed_scale = 1.5
+
+[node name="Slash3" type="AnimatedSprite2D" parent="."]
+position = Vector2(-29.0396, 15.0192)
+rotation = -0.239728
+scale = Vector2(1, 2)
+sprite_frames = ExtResource("2")
+frame = 16
+speed_scale = 1.5
+
+[node name="Smoke" type="GPUParticles2D" parent="."]
+material = SubResource("145")
+position = Vector2(67, 0)
+emitting = false
+amount = 30
+process_material = SubResource("148")
+texture = ExtResource("3")
+lifetime = 1.5
+one_shot = true
+explosiveness = 1.0
+
+[node name="Flames" type="AnimatedSprite2D" parent="."]
+position = Vector2(61, 0)
+scale = Vector2(0.8, 0.8)
+sprite_frames = ExtResource("4")
+frame = 22
+
+[node name="Sparks" type="GPUParticles2D" parent="."]
+editor_description = "fine_tuned"
+position = Vector2(102, 0)
+emitting = false
+amount = 10
+process_material = SubResource("150")
+texture = SubResource("151")
+one_shot = true
+explosiveness = 1.0
+script = ExtResource("6")
+self_init = true
+styleColor = Color(0.470588, 1, 0, 1)
+
+[node name="Tween" parent="." instance=ExtResource("7")]

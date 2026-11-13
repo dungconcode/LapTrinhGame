@@ -1,0 +1,210 @@
+[gd_scene load_steps=32 format=3 uid="uid://5ybcqp3uem2l"]
+
+[ext_resource type="Script" path="res://content/gadgets/droneyard/BattleDroneLaser.gd" id="1"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/CustomStyle_ChangeModulate.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://cn0txjxiqdi28" path="res://content/gadgets/droneyard/projectile_sheet.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dcrubm5l7cmom" path="res://content/gadgets/droneyard/projectile_splash_sheet_new.png" id="4"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="5"]
+[ext_resource type="AudioStream" uid="uid://cs1mvp4gsncm5" path="res://content/sounds/Locations/droneyard/drone_hit.mp3" id="6"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="7"]
+[ext_resource type="AudioStream" uid="uid://c7ce34dg54vuv" path="res://content/sounds/Locations/droneyard/schwooooon_06.wav" id="8"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yee4v"]
+radius = 6.0
+
+[sub_resource type="Curve" id="Curve_vq5x4"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.478575, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), -4.81934, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_1ra20"]
+curve = SubResource("Curve_vq5x4")
+
+[sub_resource type="Curve" id="Curve_ki35l"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), -2.80629, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_4prt5"]
+curve = SubResource("Curve_ki35l")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_fnvk4"]
+lifetime_randomness = 0.8
+particle_flag_disable_z = true
+emission_shape = 1
+emission_sphere_radius = 4.0
+direction = Vector3(-1, 0, 0)
+spread = 20.0
+initial_velocity_min = 20.0
+initial_velocity_max = 40.0
+gravity = Vector3(0, 40, 0)
+scale_max = 2.0
+scale_curve = SubResource("CurveTexture_4prt5")
+alpha_curve = SubResource("CurveTexture_1ra20")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hfdt2"]
+atlas = ExtResource("3")
+region = Rect2(0, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5824i"]
+atlas = ExtResource("3")
+region = Rect2(34, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sm36p"]
+atlas = ExtResource("3")
+region = Rect2(68, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_upeyw"]
+atlas = ExtResource("4")
+region = Rect2(34, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hr547"]
+atlas = ExtResource("4")
+region = Rect2(68, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_im8do"]
+atlas = ExtResource("4")
+region = Rect2(102, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bfxiw"]
+atlas = ExtResource("4")
+region = Rect2(136, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_clmes"]
+atlas = ExtResource("4")
+region = Rect2(170, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3xu44"]
+atlas = ExtResource("4")
+region = Rect2(204, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qlwra"]
+atlas = ExtResource("4")
+region = Rect2(238, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8u27o"]
+atlas = ExtResource("4")
+region = Rect2(272, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xc4hi"]
+atlas = ExtResource("4")
+region = Rect2(306, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qnak3"]
+atlas = ExtResource("4")
+region = Rect2(340, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sjku1"]
+atlas = ExtResource("4")
+region = Rect2(374, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u01is"]
+atlas = ExtResource("4")
+region = Rect2(408, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lgwo5"]
+atlas = ExtResource("4")
+region = Rect2(442, 0, 34, 26)
+
+[sub_resource type="SpriteFrames" id="2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hfdt2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5824i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sm36p")
+}],
+"loop": true,
+"name": &"flying",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_upeyw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hr547")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_im8do")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bfxiw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_clmes")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3xu44")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qlwra")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8u27o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xc4hi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qnak3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sjku1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u01is")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lgwo5")
+}],
+"loop": false,
+"name": &"hit",
+"speed": 18.0
+}]
+
+[node name="BattleDroneLaser" type="Area2D"]
+z_index = 20
+z_as_relative = false
+texture_filter = 1
+collision_layer = 0
+collision_mask = 128
+script = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_yee4v")
+
+[node name="Trail" type="GPUParticles2D" parent="."]
+amount = 70
+process_material = SubResource("ParticleProcessMaterial_fnvk4")
+fixed_fps = 120
+script = ExtResource("2")
+styleColor = Color(0.219608, 0.6, 0.392157, 1)
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-10, -0.5)
+sprite_frames = SubResource("2")
+animation = &"flying"
+
+[node name="ImpactSound" type="AudioStreamPlayer" parent="."]
+volume_db = -10.78
+pitch_scale = 0.61
+bus = &"World"
+script = ExtResource("5")
+randomPitch = 0.11
+streams = [ExtResource("6")]
+
+[node name="Sound" parent="ImpactSound" instance=ExtResource("7")]
+stream = ExtResource("8")
+volume_db = -8.515
+pitch_scale = 1.28
+bus = &"World"
+
+[node name="FreeTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[connection signal="area_entered" from="." to="." method="_on_Projectile_area_entered"]
+[connection signal="timeout" from="FreeTimer" to="." method="_on_free_timer_timeout"]

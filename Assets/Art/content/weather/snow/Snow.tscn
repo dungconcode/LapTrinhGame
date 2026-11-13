@@ -1,0 +1,71 @@
+[gd_scene load_steps=12 format=3 uid="uid://jr13ci4wgrbk"]
+
+[ext_resource type="Script" path="res://content/weather/snow/Snow.gd" id="1"]
+[ext_resource type="Material" uid="uid://5edy7tn7m6fx" path="res://content/weather/snow/freeze_effect.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://cm3b6y3thpsog" path="res://content/weather/snow/freeze-overlay.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="4"]
+[ext_resource type="Material" uid="uid://kpu1giufsb7x" path="res://content/weather/snow/snow_particle_material.tres" id="5"]
+[ext_resource type="Texture2D" uid="uid://b17w5y2kxdrf1" path="res://content/weather/snow/snow.png" id="6"]
+[ext_resource type="AudioStream" uid="uid://b2vo43t6potvs" path="res://content/sounds/Weather/snow-storm.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://bdldigcniajjp" path="res://content/sounds/Weather/freeze.wav" id="8"]
+
+[sub_resource type="FastNoiseLite" id="11"]
+
+[sub_resource type="Gradient" id="7"]
+colors = PackedColorArray(0.596078, 0.898039, 1, 0.0862745, 0.746613, 0.778856, 0.820312, 0.611765)
+
+[sub_resource type="GradientTexture2D" id="8"]
+gradient = SubResource("7")
+fill_from = Vector2(1, 1)
+
+[node name="Snow" type="Sprite2D" groups=["pauseL", "weather"]]
+modulate = Color(0.956863, 0.772549, 1, 1)
+texture_filter = 1
+script = ExtResource("1")
+noise = SubResource("11")
+
+[node name="ice" type="CanvasLayer" parent="."]
+
+[node name="overlay" type="TextureRect" parent="ice"]
+texture_filter = 1
+material = ExtResource("2")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+texture = ExtResource("3")
+expand_mode = 1
+
+[node name="Tween" parent="ice" instance=ExtResource("4")]
+
+[node name="Snow" type="GPUParticles2D" parent="."]
+position = Vector2(0, -500)
+amount = 4000
+process_material = ExtResource("5")
+texture = ExtResource("6")
+lifetime = 13.0
+visibility_rect = Rect2(-640, -100, 1280, 600)
+
+[node name="ColorRect" type="TextureRect" parent="." groups=["unstyled"]]
+texture_filter = 4
+texture_repeat = 2
+custom_minimum_size = Vector2(1280, 540)
+offset_left = -640.0
+offset_top = -500.0
+offset_right = 640.0
+offset_bottom = 40.0
+mouse_filter = 2
+texture = SubResource("8")
+expand_mode = 1
+
+[node name="SnowSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7")
+volume_db = -4.0
+autoplay = true
+bus = &"World"
+
+[node name="FreezeSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8")
+bus = &"World"
+
+[node name="Tween" parent="." instance=ExtResource("4")]

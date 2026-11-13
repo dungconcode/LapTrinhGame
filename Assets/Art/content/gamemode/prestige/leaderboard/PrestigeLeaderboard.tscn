@@ -1,0 +1,122 @@
+[gd_scene load_steps=6 format=3 uid="uid://bgs3ojjs0dnsy"]
+
+[ext_resource type="Theme" uid="uid://bo0ebvm7ocab1" path="res://gui/theme.tres" id="1"]
+[ext_resource type="Script" path="res://content/gamemode/prestige/leaderboard/PrestigeLeaderboard.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="3"]
+
+[sub_resource type="ButtonGroup" id="ButtonGroup_3npbu"]
+
+[sub_resource type="ButtonGroup" id="ButtonGroup_6ib4n"]
+
+[node name="PrestigeLeaderboard" type="PanelContainer"]
+custom_minimum_size = Vector2(500, 730)
+layout_direction = 2
+offset_left = 330.0
+offset_right = 830.0
+offset_bottom = 700.0
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="MarginContainer2" type="MarginContainer" parent="."]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer2"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="SeasonButtons" type="HBoxContainer" parent="MarginContainer2/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer2/VBoxContainer/SeasonButtons"]
+layout_mode = 2
+
+[node name="ModeButtons" type="HBoxContainer" parent="MarginContainer2/VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonModeCountdown" type="Button" parent="MarginContainer2/VBoxContainer/ModeButtons"]
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+button_group = SubResource("ButtonGroup_3npbu")
+text = "loadout.prestige.countdown"
+
+[node name="ButtonModeCobalt" type="Button" parent="MarginContainer2/VBoxContainer/ModeButtons"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+button_group = SubResource("ButtonGroup_3npbu")
+text = "loadout.prestige.cobalt"
+
+[node name="ButtonModeProvocation" type="Button" parent="MarginContainer2/VBoxContainer/ModeButtons"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+button_group = SubResource("ButtonGroup_3npbu")
+text = "loadout.prestige.provocation"
+
+[node name="ButtonModeMiner" type="Button" parent="MarginContainer2/VBoxContainer/ModeButtons"]
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+button_group = SubResource("ButtonGroup_3npbu")
+text = "loadout.prestige.miner"
+
+[node name="ButtonModeEndless" type="Button" parent="MarginContainer2/VBoxContainer/ModeButtons"]
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+button_group = SubResource("ButtonGroup_3npbu")
+text = "loadout.prestige.endless"
+
+[node name="FriendsOrGlobalButtons" type="HBoxContainer" parent="MarginContainer2/VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonShowFriends" type="Button" parent="MarginContainer2/VBoxContainer/FriendsOrGlobalButtons"]
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+button_group = SubResource("ButtonGroup_6ib4n")
+text = "leaderboard.friends"
+
+[node name="ButtonShowLeaderboard" type="Button" parent="MarginContainer2/VBoxContainer/FriendsOrGlobalButtons"]
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+button_group = SubResource("ButtonGroup_6ib4n")
+text = "leaderboard.global"
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer2/VBoxContainer"]
+layout_mode = 2
+
+[node name="LeaderboardLoadingLabel" type="Label" parent="MarginContainer2/VBoxContainer"]
+layout_mode = 2
+text = "leaderboard.loading"
+
+[node name="FriendsContainer" type="VBoxContainer" parent="MarginContainer2/VBoxContainer"]
+visible = false
+layout_mode = 2
+
+[node name="FriendsLeaderboardContainer" type="GridContainer" parent="MarginContainer2/VBoxContainer/FriendsContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/v_separation = 5
+columns = 6
+
+[node name="LeaderboardContainer" type="VBoxContainer" parent="MarginContainer2/VBoxContainer"]
+layout_mode = 2
+
+[node name="GlobalLeaderboardContainer" type="GridContainer" parent="MarginContainer2/VBoxContainer/LeaderboardContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/v_separation = 5
+columns = 6
+
+[node name="Tween" parent="." instance=ExtResource("3")]
+
+[connection signal="pressed" from="MarginContainer2/VBoxContainer/FriendsOrGlobalButtons/ButtonShowFriends" to="." method="_on_ButtonShowFriends_pressed"]
+[connection signal="pressed" from="MarginContainer2/VBoxContainer/FriendsOrGlobalButtons/ButtonShowLeaderboard" to="." method="_on_ButtonShowLeaderboard_pressed"]

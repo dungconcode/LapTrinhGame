@@ -1,0 +1,57 @@
+[gd_resource type="SpriteFrames" load_steps=9 format=3 uid="uid://c44pp3innj1ny"]
+
+[sub_resource type="AtlasTexture" id="1"]
+region = Rect2(0, 0, 199, 104)
+
+[sub_resource type="AtlasTexture" id="2"]
+region = Rect2(199, 0, 199, 104)
+
+[sub_resource type="AtlasTexture" id="3"]
+region = Rect2(398, 0, 199, 104)
+
+[sub_resource type="AtlasTexture" id="4"]
+region = Rect2(597, 0, 199, 104)
+
+[sub_resource type="AtlasTexture" id="5"]
+region = Rect2(796, 0, 199, 104)
+
+[sub_resource type="AtlasTexture" id="6"]
+region = Rect2(995, 0, 199, 104)
+
+[sub_resource type="AtlasTexture" id="7"]
+region = Rect2(1194, 0, 199, 104)
+
+[sub_resource type="AtlasTexture" id="8"]
+region = Rect2(1320, 0, 66, 41)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("1")
+}, {
+"duration": 1.0,
+"texture": SubResource("2")
+}, {
+"duration": 1.0,
+"texture": SubResource("3")
+}, {
+"duration": 1.0,
+"texture": SubResource("4")
+}, {
+"duration": 1.0,
+"texture": SubResource("5")
+}, {
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}],
+"loop": false,
+"name": &"default",
+"speed": 24.0
+}]

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cg80wmdlttlep"
+path="res://.godot/imported/Retro Falling Water 04.wav-41c12902b524c4c0d90ab946fbef8625.sample"
+
+[deps]
+
+source_file="res://content/sounds/monster/diver/Retro Falling Water 04.wav"
+dest_files=["res://.godot/imported/Retro Falling Water 04.wav-41c12902b524c4c0d90ab946fbef8625.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

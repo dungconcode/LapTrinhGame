@@ -1,0 +1,248 @@
+[gd_scene load_steps=30 format=3 uid="uid://cq6rqmy3dbecx"]
+
+[ext_resource type="Script" path="res://content/gadgets/droneyard/DroneYard.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dbfd84ytg76wm" path="res://content/gadgets/droneyard/droneyard_sheet.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://coras635aikop" path="res://content/gadgets/droneyard/yard_overload_FX_sheet.png" id="3"]
+[ext_resource type="SpriteFrames" uid="uid://ddt82pdqj8y7f" path="res://content/gadgets/droneyard/GridDroneNest_spriteframes.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://f36tgin7oom1" path="res://content/gadgets/droneyard/battlestationS_sheet.png" id="5"]
+[ext_resource type="PackedScene" uid="uid://ch4e7rx87coms" path="res://content/gadgets/droneyard/DroneDispatcher.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="7"]
+[ext_resource type="AudioStream" uid="uid://cbl4l6qes271i" path="res://content/sounds/UI/Error.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://y5wmnayjnmbm" path="res://content/sounds/Locations/droneyard/zomg_19.wav" id="9"]
+[ext_resource type="PackedScene" uid="uid://02emll07tpim" path="res://content/shared/Usable.tscn" id="10"]
+[ext_resource type="AudioStream" uid="uid://cph83re64dooi" path="res://content/sounds/Locations/droneyard/zomg_18.wav" id="11"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="12"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hfi5y"]
+atlas = ExtResource("3")
+region = Rect2(0, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pf62d"]
+atlas = ExtResource("3")
+region = Rect2(18, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qellx"]
+atlas = ExtResource("3")
+region = Rect2(36, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3o6fr"]
+atlas = ExtResource("3")
+region = Rect2(54, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ju100"]
+atlas = ExtResource("3")
+region = Rect2(72, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gpd1m"]
+atlas = ExtResource("3")
+region = Rect2(90, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y11en"]
+atlas = ExtResource("3")
+region = Rect2(108, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e4j5g"]
+atlas = ExtResource("3")
+region = Rect2(126, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oi27t"]
+atlas = ExtResource("3")
+region = Rect2(144, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qnq5u"]
+atlas = ExtResource("3")
+region = Rect2(162, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rioqc"]
+atlas = ExtResource("3")
+region = Rect2(180, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_myi4t"]
+atlas = ExtResource("3")
+region = Rect2(198, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tcwrv"]
+atlas = ExtResource("3")
+region = Rect2(216, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_03ct0"]
+atlas = ExtResource("3")
+region = Rect2(234, 0, 18, 20)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lgxa2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hfi5y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pf62d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qellx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3o6fr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ju100")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gpd1m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y11en")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e4j5g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oi27t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qnq5u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rioqc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_myi4t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tcwrv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_03ct0")
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}],
+"loop": true,
+"name": &"active",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": null
+}],
+"loop": false,
+"name": &"inactive",
+"speed": 5.0
+}]
+
+[sub_resource type="Curve2D" id="3"]
+_data = {
+"points": PackedVector2Array(-115.28, 0.570363, 115.28, -0.570363, 0, -294, -138.98, 2.96966, 138.98, -2.96966, 285, -369, 59.8411, -47.2141, -59.8411, 47.2141, 364, -141, 107.008, 0, -107.008, 0, -2, -182, 59.6867, 53.4386, -59.6867, -53.4386, -331, -147, -138.98, 0, 138.98, 0, -228, -371, -101.051, 0.902684, 101.051, -0.902684, 0, -294)
+}
+point_count = 7
+
+[sub_resource type="Curve2D" id="4"]
+_data = {
+"points": PackedVector2Array(98.1173, -0.314625, -98.1173, 0.314625, -5, -110, -178.966, -1.23084, 178.966, 1.23084, 0, -318, 95.91, 0.176904, -95.91, -0.176904, -2, -111)
+}
+point_count = 3
+
+[node name="DroneYard" type="Node2D" groups=["overchargable"]]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+position = Vector2(-4, -19)
+texture = ExtResource("2")
+hframes = 3
+vframes = 4
+frame = 11
+
+[node name="OverchargeSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -39)
+sprite_frames = SubResource("SpriteFrames_lgxa2")
+animation = &"inactive"
+
+[node name="GridDroneNestBack" type="AnimatedSprite2D" parent="."]
+z_index = -10
+position = Vector2(-38, -26.5)
+sprite_frames = ExtResource("4")
+animation = &"spawn_back"
+frame = 15
+
+[node name="GridDroneNestFront" type="AnimatedSprite2D" parent="."]
+visible = false
+z_index = -10
+position = Vector2(-38, -26.5)
+sprite_frames = ExtResource("4")
+animation = &"spawn_front"
+
+[node name="ParasiteDroneNestBack" type="Sprite2D" parent="."]
+z_index = -10
+position = Vector2(-38, -34.5)
+texture = ExtResource("5")
+vframes = 2
+frame = 1
+
+[node name="ParasiteDroneNestFront" type="Sprite2D" parent="."]
+z_index = -10
+position = Vector2(-38, -34.5)
+texture = ExtResource("5")
+vframes = 2
+
+[node name="DroneDispatcher" parent="." instance=ExtResource("6")]
+dispatcherId = "droneyard"
+
+[node name="BattleDroneSpawnPoint" type="Marker2D" parent="."]
+position = Vector2(-37, -41)
+
+[node name="NoOverchargeSound" parent="." instance=ExtResource("7")]
+stream = ExtResource("8")
+volume_db = 5.244
+pitch_scale = 2.0
+bus = &"Dome"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="OverchargeSound" parent="." instance=ExtResource("7")]
+stream = ExtResource("9")
+volume_db = -5.709
+pitch_scale = 0.83
+bus = &"Dome"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 240.0
+minAudibleDistance = 60.0
+
+[node name="Usable" parent="." instance=ExtResource("10")]
+position = Vector2(-1, -9)
+
+[node name="BattleDronePath" type="Path2D" parent="."]
+curve = SubResource("3")
+
+[node name="ParasiteDronePath" type="Path2D" parent="."]
+curve = SubResource("4")
+
+[node name="ReleaseDroneSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11")
+volume_db = -3.467
+pitch_scale = 1.57
+bus = &"World"
+script = ExtResource("12")
+
+[node name="ReleaseParasiteDroneSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11")
+volume_db = -3.467
+pitch_scale = 2.09
+bus = &"World"
+script = ExtResource("12")
+
+[connection signal="animation_finished" from="GridDroneNestBack" to="." method="_on_grid_drone_nest_back_animation_finished"]
+[connection signal="frame_changed" from="GridDroneNestFront" to="." method="_on_grid_drone_nest_front_frame_changed"]

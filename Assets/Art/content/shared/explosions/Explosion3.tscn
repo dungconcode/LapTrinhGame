@@ -1,0 +1,108 @@
+[gd_scene load_steps=16 format=3]
+
+[ext_resource type="Script" path="res://content/shared/explosions/Explosion.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://ud1mrq2pghjx" path="res://content/shared/explosions/explosions-Sheet_rough.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="3"]
+[ext_resource type="AudioStream" uid="uid://buw820bqurvgy" path="res://content/sounds/Locations/Orchard/MonsterExplode.wav" id="4"]
+
+[sub_resource type="AtlasTexture" id="13"]
+atlas = ExtResource("2")
+region = Rect2(0, 464, 251, 232)
+
+[sub_resource type="AtlasTexture" id="14"]
+atlas = ExtResource("2")
+region = Rect2(251, 464, 251, 232)
+
+[sub_resource type="AtlasTexture" id="15"]
+atlas = ExtResource("2")
+region = Rect2(502, 464, 251, 232)
+
+[sub_resource type="AtlasTexture" id="16"]
+atlas = ExtResource("2")
+region = Rect2(753, 464, 251, 232)
+
+[sub_resource type="AtlasTexture" id="17"]
+atlas = ExtResource("2")
+region = Rect2(1004, 464, 251, 232)
+
+[sub_resource type="AtlasTexture" id="18"]
+atlas = ExtResource("2")
+region = Rect2(1255, 464, 251, 232)
+
+[sub_resource type="AtlasTexture" id="19"]
+atlas = ExtResource("2")
+region = Rect2(1506, 464, 251, 232)
+
+[sub_resource type="AtlasTexture" id="20"]
+atlas = ExtResource("2")
+region = Rect2(1757, 464, 251, 232)
+
+[sub_resource type="AtlasTexture" id="21"]
+atlas = ExtResource("2")
+region = Rect2(1757, 0, 251, 232)
+
+[sub_resource type="SpriteFrames" id="12"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("13")
+}, {
+"duration": 1.0,
+"texture": SubResource("14")
+}, {
+"duration": 1.0,
+"texture": SubResource("15")
+}, {
+"duration": 1.0,
+"texture": SubResource("16")
+}, {
+"duration": 1.0,
+"texture": SubResource("17")
+}, {
+"duration": 1.0,
+"texture": SubResource("18")
+}, {
+"duration": 1.0,
+"texture": SubResource("19")
+}, {
+"duration": 1.0,
+"texture": SubResource("20")
+}, {
+"duration": 1.0,
+"texture": SubResource("21")
+}],
+"loop": false,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="22"]
+radius = 32.0
+
+[node name="Explosion3" type="Node2D"]
+script = ExtResource("1")
+damage = 100.0
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(54, -63)
+sprite_frames = SubResource("12")
+frame = 8
+
+[node name="Sound" parent="." instance=ExtResource("3")]
+stream = ExtResource("4")
+volume_db = -7.429
+pitch_scale = 0.5
+bus = &"World"
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 2097280
+
+[node name="Collision" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -10)
+shape = SubResource("22")
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]
+[connection signal="finished" from="Sound" to="." method="_on_Sound_finished"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]

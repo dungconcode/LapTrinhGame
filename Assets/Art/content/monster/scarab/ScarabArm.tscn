@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://k238nh5q6cih"]
+
+[ext_resource type="Script" path="res://content/monster/scarab/ScarabArm.gd" id="1"]
+[ext_resource type="Material" uid="uid://day50apjw6md" path="res://content/monster/FlashMaterial.tres" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://dgq6uulluw3bk" path="res://content/monster/scarab/ScarabArm_spriteframes.tres" id="3"]
+[ext_resource type="AudioStream" uid="uid://bdua4vu68olf0" path="res://content/sounds/monster/STINGRAY/STING_SHOOT_01.wav" id="4"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="5"]
+
+[sub_resource type="CapsuleShape2D" id="21"]
+radius = 12.0
+height = 35.0
+
+[node name="ScarabArm" type="Area2D" groups=["monster"]]
+z_index = -1
+texture_filter = 1
+script = ExtResource("1")
+techId = "scarabarm"
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+material = ExtResource("2")
+position = Vector2(-4, 0.5)
+sprite_frames = ExtResource("3")
+animation = &"die"
+
+[node name="HitboxDefault" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.5)
+shape = SubResource("21")
+
+[node name="GrowAndBurstSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4")
+volume_db = 1.748
+bus = &"World"
+script = ExtResource("5")
+randomPitch = 0.0
+
+[node name="DieSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4")
+volume_db = 1.748
+bus = &"World"
+script = ExtResource("5")
+randomPitch = 0.0
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="animation_looped" from="Sprite2D" to="." method="_on_sprite_2d_animation_looped"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]

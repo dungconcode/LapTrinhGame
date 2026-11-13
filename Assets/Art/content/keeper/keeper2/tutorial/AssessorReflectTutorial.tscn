@@ -1,0 +1,74 @@
+[gd_scene load_steps=6 format=3 uid="uid://cphrxtwvlq0b0"]
+
+[ext_resource type="Theme" uid="uid://bo0ebvm7ocab1" path="res://gui/theme.tres" id="1"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/tutorial/AssessorReflectTutorial.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://dcs06nol76slf" path="res://content/techtree/panels/zero_bright.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dtv18pndqj86g" path="res://content/icons/keeper2pinballreflect.png" id="4"]
+[ext_resource type="PackedScene" uid="uid://y24moy72idmu" path="res://gui/buttons/Action.tscn" id="5"]
+
+[node name="AssessorReflectTutorial" type="MarginContainer"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -415.0
+offset_top = -150.0
+grow_horizontal = 0
+grow_vertical = 0
+theme = ExtResource("1")
+script = ExtResource("2")
+summaryCategory = "upgrades.keeper2.title"
+moveOutAfter = 60.0
+moveInDelay = 1.0
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="PanelContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect2" type="TextureRect" parent="PanelContainer/HBoxContainer/CenterContainer"]
+texture_filter = 1
+custom_minimum_size = Vector2(112, 114)
+layout_mode = 2
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureRect" type="TextureRect" parent="PanelContainer/HBoxContainer/CenterContainer"]
+texture_filter = 1
+custom_minimum_size = Vector2(88, 88)
+layout_mode = 2
+texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="LabelDesc1" type="Label" parent="PanelContainer/HBoxContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "t1"
+
+[node name="Action" parent="PanelContainer/HBoxContainer/VBoxContainer/HBoxContainer" instance=ExtResource("5")]
+layout_mode = 2
+action = "keeper2_gravitycollect"
+
+[node name="LabelDesc2" type="Label" parent="PanelContainer/HBoxContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "t2"
+
+[node name="Label3" type="Label" parent="PanelContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "level.tutorial.assessor.reflect.desc2"
+autowrap_mode = 3

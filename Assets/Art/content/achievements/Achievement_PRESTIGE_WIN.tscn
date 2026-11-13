@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bw852ch7g3ms2"]
+
+[ext_resource type="Script" path="res://content/achievements/Achievement_PRESTIGE_WIN.gd" id="1"]
+
+[node name="Achievement" type="Node"]
+script = ExtResource("1")

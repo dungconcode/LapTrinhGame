@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://ddhneyhikjun8"]
+
+[ext_resource type="Shader" path="res://content/gadgets/shield/overcharge.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://c8rg1beqe26y8" path="res://content/dome/DomeShieldOverchargeMaterial_noise.png" id="2"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/noise_texture = ExtResource("2")
+shader_parameter/palette = null

@@ -1,0 +1,108 @@
+[gd_scene load_steps=12 format=3 uid="uid://bv743l8cfxw0k"]
+
+[ext_resource type="Script" path="res://content/weapons/tesla/ring/Dome4_3DRing.gd" id="1"]
+[ext_resource type="ArrayMesh" uid="uid://dqlra2mju61l4" path="res://content/weapons/tesla/ring/dome4_ring_speed_4_extra.obj" id="2"]
+[ext_resource type="Material" uid="uid://ddf4hbmnlin0a" path="res://content/weapons/tesla/ring/Dome4_3DRing_glow.tres" id="3"]
+[ext_resource type="Material" uid="uid://d28pywccmy4x5" path="res://content/weapons/tesla/ring/Dome4_3DRing_glow_perfect.tres" id="4"]
+[ext_resource type="ArrayMesh" uid="uid://che4sd7mcpfpb" path="res://content/weapons/tesla/ring/dome4_ring_speed_2.obj" id="5"]
+[ext_resource type="Material" uid="uid://om5omrinvfw6" path="res://content/weapons/tesla/ring/Dome4_3DRing.tres" id="6"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="7"]
+
+[sub_resource type="Curve" id="11"]
+bake_resolution = 200
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.326975, 0.3), 2.28278, 2.28278, 0, 0, Vector2(0.599455, 0.927273), 1.81117, 1.81117, 0, 0, Vector2(0.912807, 0.954545), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 5
+
+[sub_resource type="Curve" id="12"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.256131, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="StandardMaterial3D" id="8"]
+shading_mode = 0
+
+[sub_resource type="SphereMesh" id="7"]
+radius = 0.15
+height = 0.3
+
+[node name="RootScene" type="Node3D" groups=["battle-start-stop-listener"]]
+script = ExtResource("1")
+height = 0.151
+curve = SubResource("11")
+flipSqueezeCurve = SubResource("12")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 40, 4.5, 0)
+keep_aspect = 0
+fov = 21.9
+near = 20.0
+far = 70.0
+
+[node name="PerfectTimingRing" type="Node3D" parent="."]
+transform = Transform3D(-3.0598e-08, 0, -0.7, 0, 0.7, 0, 0.7, 0, -3.0598e-08, 0, -1.026, 0)
+visible = false
+
+[node name="PerfectTimingRingBottom" type="MeshInstance3D" parent="PerfectTimingRing"]
+transform = Transform3D(2.29282e-15, -1.2, 5.24537e-08, -5.24537e-08, -5.24537e-08, -1.2, 1.2, 0, -5.24537e-08, 0, -0.7, 0)
+mesh = ExtResource("2")
+skeleton = NodePath("../../RingGroup")
+surface_material_override/0 = ExtResource("3")
+surface_material_override/1 = ExtResource("4")
+
+[node name="PerfectTimingRingTop" type="MeshInstance3D" parent="PerfectTimingRing"]
+transform = Transform3D(2.29282e-15, -1.2, 5.24537e-08, -5.24537e-08, -5.24537e-08, -1.2, 1.2, 0, -5.24537e-08, 0, 0.7, 0)
+mesh = ExtResource("2")
+skeleton = NodePath("../../RingGroup")
+surface_material_override/0 = ExtResource("3")
+surface_material_override/1 = ExtResource("4")
+
+[node name="RingGroup" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.633, 0)
+
+[node name="RingCenter" type="Node3D" parent="RingGroup"]
+
+[node name="Ring0" type="MeshInstance3D" parent="RingGroup/RingCenter"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.55, 0, 0.85)
+cast_shadow = 0
+mesh = ExtResource("5")
+skeleton = NodePath("../../..")
+surface_material_override/0 = ExtResource("6")
+surface_material_override/1 = ExtResource("3")
+
+[node name="Ring1" type="MeshInstance3D" parent="RingGroup/RingCenter"]
+transform = Transform3D(-0.5, 0, 0.866025, 0, 1, 0, -0.866025, 0, -0.5, 0.55, 0, -0.85)
+cast_shadow = 0
+mesh = ExtResource("5")
+skeleton = NodePath("../../..")
+surface_material_override/0 = ExtResource("6")
+surface_material_override/1 = ExtResource("3")
+
+[node name="Ring2" type="MeshInstance3D" parent="RingGroup/RingCenter"]
+transform = Transform3D(-0.5, 0, -0.866026, 0, 1, 0, 0.866026, 0, -0.5, -1.01198, 0, 0)
+cast_shadow = 0
+mesh = ExtResource("5")
+skeleton = NodePath("../../..")
+surface_material_override/0 = ExtResource("6")
+surface_material_override/1 = ExtResource("3")
+
+[node name="ParticlePos" type="Marker3D" parent="RingGroup"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.84602, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RingGroup/ParticlePos"]
+visible = false
+material_override = SubResource("8")
+cast_shadow = 0
+mesh = SubResource("7")
+skeleton = NodePath("../../..")
+
+[node name="DelayTimer" type="Timer" parent="."]
+wait_time = 0.7
+one_shot = true
+
+[node name="EndDelayTimer" type="Timer" parent="."]
+wait_time = 0.05
+one_shot = true
+
+[node name="Tween" parent="." instance=ExtResource("7")]
+
+[connection signal="timeout" from="DelayTimer" to="." method="_on_DelayTimer_timeout"]
+[connection signal="timeout" from="EndDelayTimer" to="." method="_on_EndDelayTimer_timeout"]

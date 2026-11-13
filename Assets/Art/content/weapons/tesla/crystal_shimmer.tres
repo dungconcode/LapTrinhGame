@@ -1,0 +1,43 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://re71urpdyhcw"]
+
+[ext_resource type="Texture2D" uid="uid://ccqqc5rjgjkom" path="res://systems/style/palettes/index_palette.png" id="1"]
+
+[sub_resource type="Shader" id="1"]
+code = "shader_type canvas_item;
+render_mode blend_add;
+
+uniform sampler2D palette;
+uniform sampler2D remap_gradient : source_color;
+const float start_r = 0.5 / float(32);
+const float start_b = 0.5 / float(12);
+
+varying flat vec4 modulate;
+void vertex() {
+    modulate = COLOR;
+}
+
+void fragment() {
+	vec4 color = texture(TEXTURE, UV);
+	vec3 tex = clamp(color.rgb/color.a, 0., 10.);
+	float t = fract(TIME*0.5)*3.1416*2.0;
+	float t2 = fract(TIME*0.7)*3.1416*2.0;
+	vec4 input = texture(remap_gradient, vec2(fract(tex.r+TIME*0.6)+(0.1*sin(t))+(0.05*cos(t2)), 0.0));
+//	input.a = color.a;
+	vec4 output = texture(palette, vec2(start_r + input.r, start_b+input.b));
+	output.a = color.a * input.a;
+	COLOR = output * modulate;
+}"
+
+[sub_resource type="Gradient" id="2"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0.0290698, 0.0494186, 0.0726744, 0.665698, 0.787791, 0.869186, 0.950581)
+colors = PackedColorArray(0.470588, 1, 0, 1, 0.407843, 0.941176, 0, 1, 0.384314, 0.682353, 0, 0, 0.380392, 0.631373, 0, 0.360784, 0.407843, 0.941176, 0, 0.47451, 0.439216, 1, 0, 1, 0.470588, 1, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="3"]
+gradient = SubResource("2")
+width = 128
+
+[resource]
+shader = SubResource("1")
+shader_parameter/palette = ExtResource("1")
+shader_parameter/remap_gradient = SubResource("3")

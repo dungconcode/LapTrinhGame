@@ -1,0 +1,148 @@
+[gd_scene load_steps=14 format=3 uid="uid://brvshqqudaa0d"]
+
+[ext_resource type="Script" path="res://content/hud/wavemeter/WaveMeter.gd" id="1"]
+[ext_resource type="FontVariation" uid="uid://cfbppd3432m0s" path="res://gui/fonts/FontHudPixelartMonospaced.tres" id="2"]
+[ext_resource type="LabelSettings" uid="uid://c0e6v16htcgxc" path="res://gui/fontsettings/HudPixelartMonospacedFontSettings.tres" id="3"]
+[ext_resource type="Texture2D" uid="uid://bnvugwdewytm0" path="res://content/hud/wavemeter/hostile.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://b4c1rka5352ll" path="res://content/hud/wavemeter/hostile_flare.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cw6keytjwv7t8" path="res://content/hud/wavemeter/waveMeterSegment.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://ihkhg8y2pbjh" path="res://content/hud/wavemeter/waveMeterTerminus.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://ckloqbv7gfa34" path="res://content/hud/wavemeter/delay_segment.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bnbu8hp3fm61x" path="res://content/hud/wavemeter/delay_terminus.png" id="9"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="10"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="11"]
+[ext_resource type="AudioStream" uid="uid://uy6oodasoabf" path="res://content/sounds/UI/safe_temp.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://c8v6paso4vql3" path="res://content/sounds/UI/WarnSound_2.wav" id="13"]
+
+[node name="WaveMeter" type="MarginContainer" groups=["pauseL"]]
+texture_filter = 1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 2.0
+offset_bottom = 2.0
+theme_override_constants/margin_left = 1
+theme_override_constants/margin_top = 1
+theme_override_constants/margin_right = 1
+theme_override_constants/margin_bottom = 1
+script = ExtResource("1")
+element_size = Vector2(2, 2)
+layoutWeights = Vector2(0, 1)
+
+[node name="Box" type="HBoxContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme_override_constants/separation = 1
+
+[node name="WaveLabelContainer" type="Control" parent="Box"]
+custom_minimum_size = Vector2(12, 0)
+layout_mode = 2
+
+[node name="WaveLabel" type="Label" parent="Box/WaveLabelContainer"]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 31.0
+offset_bottom = 19.0
+scale = Vector2(0.333, 0.333)
+size_flags_horizontal = 8
+theme_override_fonts/font = ExtResource("2")
+text = "99"
+label_settings = ExtResource("3")
+horizontal_alignment = 2
+
+[node name="Normal" type="TextureRect" parent="Box"]
+texture_filter = 1
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("4")
+stretch_mode = 2
+
+[node name="Flare" type="TextureRect" parent="Box/Normal"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 10.0
+offset_bottom = 8.0
+texture = ExtResource("5")
+stretch_mode = 2
+
+[node name="TimeBar" type="TextureRect" parent="Box"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("6")
+stretch_mode = 1
+
+[node name="Terminus" type="TextureRect" parent="Box/TimeBar"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 4.0
+offset_top = 1.0
+offset_right = 5.0
+offset_bottom = 9.0
+texture = ExtResource("7")
+stretch_mode = 2
+
+[node name="FillingBar" type="ColorRect" parent="Box/TimeBar"]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 3.0
+offset_right = 25.0
+offset_bottom = 6.0
+color = Color(0.376471, 0.298039, 0.862745, 1)
+
+[node name="DelayBar" type="TextureRect" parent="Box/TimeBar"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 1.0
+offset_top = 7.0
+offset_right = 5.0
+offset_bottom = 10.0
+size_flags_vertical = 0
+texture = ExtResource("8")
+stretch_mode = 1
+
+[node name="Terminus" type="TextureRect" parent="Box/TimeBar/DelayBar"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 4.0
+offset_right = 5.0
+offset_bottom = 8.0
+texture = ExtResource("9")
+stretch_mode = 2
+
+[node name="Starter" type="TextureRect" parent="Box/TimeBar/DelayBar"]
+texture_filter = 1
+layout_mode = 0
+offset_left = -1.0
+offset_bottom = 2.0
+texture = ExtResource("9")
+stretch_mode = 2
+
+[node name="FillingBar" type="ColorRect" parent="Box/TimeBar/DelayBar"]
+layout_mode = 0
+offset_right = 22.0
+offset_bottom = 2.0
+color = Color(0.376471, 0.298039, 0.862745, 1)
+
+[node name="MonsterSpawnTween" parent="." instance=ExtResource("10")]
+
+[node name="WaveEndSound" parent="." instance=ExtResource("11")]
+stream = ExtResource("12")
+volume_db = 3.0
+bus = &"UI"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="WarnSound" parent="." instance=ExtResource("11")]
+stream = ExtResource("13")
+volume_db = 6.252
+pitch_scale = 0.7
+bus = &"UI"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="PathToDomeTween" parent="." instance=ExtResource("10")]

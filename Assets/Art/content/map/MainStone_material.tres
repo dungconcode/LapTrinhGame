@@ -1,0 +1,52 @@
+[gd_resource type="ShaderMaterial" load_steps=8 format=3 uid="uid://dmob0nxwb6mv4"]
+
+[ext_resource type="Shader" path="res://content/map/shaders/map_main_stones_new.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://bcd71hetci4ub" path="res://content/map/tile/cracks_big.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bng311nqfcw5w" path="res://content/map/textures/Map_main_mask_noise_big_map.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bsjc5febk4o4t" path="res://content/map/textures/Map_main_mask_noise_map.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://ccqqc5rjgjkom" path="res://systems/style/palettes/index_palette.png" id="5"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_vi488"]
+viewport_path = NodePath("ViewportCrackImpact")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_j2x43"]
+viewport_path = NodePath("ViewportLights")
+
+[resource]
+resource_local_to_scene = true
+shader = ExtResource("1")
+shader_parameter/base_scale = Vector2(1, 1)
+shader_parameter/ground_color = Color(0, 0.027451, 0.784314, 1)
+shader_parameter/grad_length = 100.0
+shader_parameter/u_grad_offset = -12.0
+shader_parameter/edge_straightness_factor = 0.023
+shader_parameter/noise_power = 0.002
+shader_parameter/noise_power_big = 0.01
+shader_parameter/outline_scale = 1.0
+shader_parameter/outline_pos = 0.544
+shader_parameter/outline_edge_pos = 1.71
+shader_parameter/edgecol_scale = 0.222
+shader_parameter/edgecol_hardness_factor = 8.66
+shader_parameter/edgecol_edge_pos = 1.005
+shader_parameter/shadow_pos = 0.0
+shader_parameter/shadow_pos_small = 0.551
+shader_parameter/shadow_darkness = 0.67
+shader_parameter/falloff_mix_factor = 0.8
+shader_parameter/falloff_mix_factor_2 = 2.0
+shader_parameter/lightblocker_col = Color(0.00784314, 0.0117647, 0.027451, 1)
+shader_parameter/temp_damage_step_c = 0.7
+shader_parameter/temp_damage_step_s = 0.395
+shader_parameter/temp_damage_step_a = 0.308
+shader_parameter/temp_damage_mult_a = 3.724
+shader_parameter/pixel_size = Vector2(200, 200)
+shader_parameter/palette = ExtResource("5")
+shader_parameter/crack_impact = SubResource("ViewportTexture_vi488")
+shader_parameter/mask_map = null
+shader_parameter/light_map = SubResource("ViewportTexture_j2x43")
+shader_parameter/rock_falloff_map = null
+shader_parameter/damage_map = null
+shader_parameter/cracks_tiled_map = ExtResource("2")
+shader_parameter/biome_color_map = null
+shader_parameter/mask_noise_map = ExtResource("4")
+shader_parameter/mask_noise_factor_map = null
+shader_parameter/mask_noise_big_map = ExtResource("3")

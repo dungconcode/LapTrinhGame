@@ -1,0 +1,164 @@
+[gd_scene load_steps=40 format=3 uid="uid://cjv3rf58jtyoj"]
+
+[ext_resource type="Script" path="res://content/monster/Beast/Beast.gd" id="1"]
+[ext_resource type="Material" uid="uid://day50apjw6md" path="res://content/monster/FlashMaterial.tres" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://blrfm48w3jxa0" path="res://content/monster/Beast/spriteframes.tres" id="3"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="4"]
+[ext_resource type="AudioStream" uid="uid://bryvx1vq8umfd" path="res://content/sounds/monster/shifter/Drum_09.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://cmcfhvdlukrbp" path="res://content/sounds/monster/beast/Beast_Death_01.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://c3iaedtgkjvoi" path="res://content/sounds/monster/walker/WalkerDeath.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://b22a270u1v0g0" path="res://content/sounds/monster/beast/Beast_roar_01.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://edrm56jsl42d" path="res://content/sounds/monster/beast/Beast_roar_02.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://dcr8qe85vtqmh" path="res://content/sounds/monster/beast/Beast_roar_03.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://br1f1uilha1ps" path="res://content/sounds/monster/beast/Beast_hit_01.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://bc0gb5k7pylix" path="res://content/sounds/monster/beast/Beast_hit_02.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://c3rjh2pnsn8wa" path="res://content/sounds/monster/beast/Beast_hit_03.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://bnfhyuipc4x0y" path="res://content/sounds/monster/walker/DomePunch02_01.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://dsav5daqfddhr" path="res://content/sounds/monster/walker/DomePunch02_02.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://d4lsi10ukg2el" path="res://content/sounds/monster/walker/DomePunch02_03.wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://d2vimy7psakj" path="res://content/sounds/monster/walker/DomePunch02_04.wav" id="17"]
+[ext_resource type="AudioStream" uid="uid://cjeqv086qamit" path="res://content/sounds/monster/walker/DomePunch02_05.wav" id="18"]
+[ext_resource type="AudioStream" uid="uid://diiuge8l54pxd" path="res://content/sounds/monster/walker/DomePunch02_06.wav" id="19"]
+[ext_resource type="AudioStream" uid="uid://ckw1n3gtusq60" path="res://content/sounds/monster/walker/DomePunch02_07.wav" id="20"]
+[ext_resource type="AudioStream" uid="uid://ch7royt2ri21u" path="res://content/sounds/monster/tick/tick_jump.wav" id="21"]
+[ext_resource type="AudioStream" uid="uid://chpjt3p7xay7o" path="res://content/sounds/monster/tick/Tick_Jump_01.wav" id="22"]
+[ext_resource type="AudioStream" uid="uid://cgx4q8j40wfo2" path="res://content/sounds/monster/tick/Tick_Jump_02.wav" id="23"]
+[ext_resource type="AudioStream" uid="uid://cjuwi7ic6cqgk" path="res://content/sounds/monster/tick/Tick_Jump_03.wav" id="24"]
+[ext_resource type="AudioStream" uid="uid://dhavai4rp5l08" path="res://content/sounds/monster/tick/Tick_Jump_04.wav" id="25"]
+[ext_resource type="AudioStream" uid="uid://bhhdiylg238tq" path="res://content/sounds/monster/tick/Tick_Jump_05.wav" id="26"]
+[ext_resource type="AudioStream" uid="uid://7qnv3ivtnxaa" path="res://content/sounds/monster/walker/DomePunch03_01.wav" id="27"]
+[ext_resource type="AudioStream" uid="uid://cliobn7veen3k" path="res://content/sounds/monster/walker/DomePunch03_02.wav" id="28"]
+[ext_resource type="AudioStream" uid="uid://d1bl87qk2xq61" path="res://content/sounds/monster/walker/DomePunch03_03.wav" id="29"]
+[ext_resource type="AudioStream" uid="uid://cseiyq1bp2non" path="res://content/sounds/monster/walker/DomePunch03_04.wav" id="30"]
+[ext_resource type="AudioStream" uid="uid://cd5lpkm3bi1dl" path="res://content/sounds/monster/walker/DomePunch03_05.wav" id="31"]
+[ext_resource type="AudioStream" uid="uid://cgcck5nyrqcdb" path="res://content/sounds/monster/beast/Beast_jump_01.wav" id="32"]
+[ext_resource type="AudioStream" uid="uid://dr8q6skycw0hj" path="res://content/sounds/monster/beast/Beast_jump_02.wav" id="33"]
+[ext_resource type="AudioStream" uid="uid://juhfmkkeculb" path="res://content/sounds/monster/beast/Beast_jump_03.wav" id="34"]
+[ext_resource type="AudioStream" uid="uid://ifx3n2m77qy6" path="res://content/sounds/monster/beast/LandLand.wav" id="35"]
+
+[sub_resource type="CapsuleShape2D" id="34"]
+radius = 15.0
+height = 34.0
+
+[sub_resource type="CapsuleShape2D" id="108"]
+radius = 9.99997
+height = 29.9999
+
+[sub_resource type="CapsuleShape2D" id="109"]
+radius = 12.06
+height = 39.9908
+
+[sub_resource type="CircleShape2D" id="107"]
+radius = 5.38516
+
+[node name="Beast" type="Area2D" groups=["monster"]]
+texture_filter = 1
+collision_layer = 128
+collision_mask = 0
+script = ExtResource("1")
+techId = "beast"
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+material = ExtResource("2")
+position = Vector2(1, -25)
+sprite_frames = ExtResource("3")
+animation = &"threaten"
+
+[node name="HitboxDefault" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-6, -16)
+shape = SubResource("34")
+disabled = true
+
+[node name="HitboxAttack" type="CollisionShape2D" parent="."]
+position = Vector2(6, -22)
+rotation = 0.925025
+shape = SubResource("108")
+disabled = true
+
+[node name="HitboxJump" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(4, -20)
+rotation = -2.23577
+shape = SubResource("109")
+disabled = true
+
+[node name="ShootPosition" type="Marker2D" parent="."]
+position = Vector2(6, -14)
+
+[node name="HitPosition" type="Marker2D" parent="."]
+position = Vector2(13, -14)
+
+[node name="DieSound" parent="." instance=ExtResource("4")]
+bus = &"World"
+randomVolume = 1.0
+randomPitch = 0.2
+streams = [ExtResource("5")]
+
+[node name="DieSound2" parent="DieSound" instance=ExtResource("4")]
+bus = &"World"
+randomVolume = 1.0
+randomPitch = 0.2
+streams = [ExtResource("6")]
+
+[node name="ThreatenSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("7")
+volume_db = -4.37
+pitch_scale = 0.8
+bus = &"World"
+randomVolume = 0.8
+randomPitch = 0.2
+streams = [ExtResource("8"), ExtResource("9"), ExtResource("10")]
+
+[node name="PunchSound1" parent="." instance=ExtResource("4")]
+volume_db = -6.903
+pitch_scale = 0.94
+bus = &"World"
+streams = [ExtResource("11"), ExtResource("12"), ExtResource("13")]
+
+[node name="PunchSound2" parent="." instance=ExtResource("4")]
+volume_db = 2.301
+pitch_scale = 0.82
+bus = &"World"
+streams = [ExtResource("14"), ExtResource("15"), ExtResource("16"), ExtResource("17"), ExtResource("18"), ExtResource("19"), ExtResource("20")]
+
+[node name="StunSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("21")
+volume_db = 1.958
+pitch_scale = 1.53
+bus = &"World"
+randomPitch = 0.18
+streams = [ExtResource("22"), ExtResource("23"), ExtResource("24"), ExtResource("25"), ExtResource("26")]
+
+[node name="PunchSound3" parent="." instance=ExtResource("4")]
+volume_db = -2.761
+pitch_scale = 0.76
+bus = &"World"
+streams = [ExtResource("27"), ExtResource("28"), ExtResource("29"), ExtResource("30"), ExtResource("31")]
+
+[node name="JumpSound" parent="." instance=ExtResource("4")]
+volume_db = -6.46
+pitch_scale = 0.98
+bus = &"World"
+randomVolume = 1.2
+randomPitch = 0.18
+streams = [ExtResource("32"), ExtResource("33"), ExtResource("34")]
+
+[node name="LandSound" parent="JumpSound" instance=ExtResource("4")]
+volume_db = -2.848
+bus = &"World"
+randomVolume = 1.2
+randomPitch = 0.0
+streams = [ExtResource("35")]
+
+[node name="StepCollisions" type="Area2D" parent="."]
+collision_layer = 524288
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StepCollisions"]
+position = Vector2(-7, 0)
+shape = SubResource("107")
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="animation_looped" from="Sprite2D" to="." method="_on_sprite_2d_animation_looped"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]

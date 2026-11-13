@@ -1,0 +1,21 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=3 uid="uid://xw52jol5j1f8"]
+
+[ext_resource type="Texture2D" uid="uid://5xjitc83ggni" path="res://content/techtree/panels/panel block.png" id="1"]
+
+[resource]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("1")
+texture_margin_left = 12.0
+texture_margin_top = 12.0
+texture_margin_right = 12.0
+texture_margin_bottom = 12.0
+expand_margin_left = 12.0
+expand_margin_top = 12.0
+expand_margin_right = 12.0
+expand_margin_bottom = 12.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+region_rect = Rect2(0, 0, 32, 32)

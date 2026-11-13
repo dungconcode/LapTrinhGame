@@ -1,0 +1,79 @@
+[gd_scene load_steps=12 format=3 uid="uid://b2adll2jhpn16"]
+
+[ext_resource type="Script" path="res://content/monster/hornet/Hornet.gd" id="1"]
+[ext_resource type="Material" uid="uid://day50apjw6md" path="res://content/monster/FlashMaterial.tres" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://b74tuc2je2bja" path="res://content/monster/hornet/spriteframes.tres" id="3"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="4"]
+[ext_resource type="AudioStream" uid="uid://1p4fbr4r52ug" path="res://content/sounds/monster/flyer/FlyerDie_v2.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://42vwtuuy73ey" path="res://content/sounds/monster/hornet/sting_01.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://b8lin3d1bd8h4" path="res://content/sounds/monster/hornet/sting_02.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://dbpjmxtkqvd2c" path="res://content/sounds/monster/flyer/sfx_impact_Projectile02.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://rei5c57w1oba" path="res://content/sounds/monster/hornet/move.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://c2d3m5iuxtjxm" path="res://content/sounds/monster/butterfly/Frozenstep_v3_02.wav" id="10"]
+
+[sub_resource type="CircleShape2D" id="26"]
+radius = 14.0357
+
+[node name="Hornet" type="Area2D" groups=["monster"]]
+texture_filter = 1
+collision_layer = 128
+collision_mask = 0
+script = ExtResource("1")
+techId = "hornet"
+autoAimShouldLeadShot = true
+
+[node name="HitboxDefault" type="CollisionShape2D" parent="."]
+position = Vector2(1, -6)
+shape = SubResource("26")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+material = ExtResource("2")
+sprite_frames = ExtResource("3")
+animation = &"sting_quick"
+
+[node name="StingPosition" type="Marker2D" parent="."]
+position = Vector2(24, 25)
+
+[node name="DieSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("5")
+volume_db = -9.37
+pitch_scale = 1.68
+bus = &"World"
+randomVolume = 1.3
+randomPitch = 0.26
+
+[node name="StingSound" parent="." instance=ExtResource("4")]
+volume_db = -8.419
+pitch_scale = 1.07
+bus = &"World"
+randomPitch = 2.08165e-12
+streams = [ExtResource("6"), ExtResource("7")]
+
+[node name="StingSound2" parent="StingSound" instance=ExtResource("4")]
+stream = ExtResource("8")
+volume_db = -8.419
+pitch_scale = 1.07
+bus = &"World"
+randomPitch = 2.08165e-12
+
+[node name="PrepareSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("9")
+volume_db = 0.835
+pitch_scale = 0.84
+bus = &"World"
+
+[node name="StepSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("10")
+volume_db = -6.192
+pitch_scale = 0.92
+bus = &"World"
+
+[node name="StepSound2" parent="StepSound" instance=ExtResource("4")]
+stream = ExtResource("9")
+volume_db = -9.94
+pitch_scale = 1.21
+bus = &"World"
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="animation_looped" from="Sprite2D" to="." method="_on_sprite_2d_animation_looped"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]

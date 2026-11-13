@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3]
+
+[ext_resource type="Shader" path="res://content/dome/damage_mask/hit_mask_power_multimesh_shader.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")

@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4s4gyqr0xyi6"]
+
+[ext_resource type="Texture2D" uid="uid://c2bfxdes7gc3l" path="res://content/map/decorations/seaweed/CornerCeiling1.png" id="1"]
+[ext_resource type="Script" path="res://content/map/decorations/BorderDecoration.gd" id="2"]
+
+[node name="Seaweed" type="Sprite2D" groups=["decoration"]]
+texture_filter = 1
+texture = ExtResource("1")
+offset = Vector2(-4, -3)
+hframes = 8
+script = ExtResource("2")

@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://byyqbjjsnqqwa"
+path="res://.godot/imported/dome4_ring_speed_4.obj-d49be1c06ab4a6a7476b45ad42077989.mesh"
+
+[deps]
+
+source_file="res://content/weapons/tesla/ring/dome4_ring_speed_4.obj"
+dest_files=["res://.godot/imported/dome4_ring_speed_4.obj-d49be1c06ab4a6a7476b45ad42077989.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=true

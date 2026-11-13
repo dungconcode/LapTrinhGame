@@ -1,0 +1,58 @@
+[gd_scene load_steps=10 format=3 uid="uid://dww5n1uu3s3cb"]
+
+[ext_resource type="Texture2D" uid="uid://budftp3fwicem" path="res://content/gadgets/slots/background.png" id="1"]
+[ext_resource type="Script" path="res://content/gadgets/slots/GadgetSlot.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://c01ewi0a5s2xn" path="res://content/gadgets/slots/keeper.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://30oh7rwo7fnk" path="res://content/gadgets/slots/backside.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dahybkxg2yhpv" path="res://content/gadgets/slots/cellar.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://j11kjcmj5ws3" path="res://content/gadgets/slots/mineshaft.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bcdaxlbh741ut" path="res://content/gadgets/slots/primary.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dlrjkw4tgnesx" path="res://content/gadgets/slots/surface.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dc0agqtketmt3" path="res://content/gadgets/slots/activegadget.png" id="9"]
+
+[node name="GadgetSlot" type="Sprite2D"]
+texture_filter = 1
+texture = ExtResource("1")
+script = ExtResource("2")
+
+[node name="keepersuit" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-27, -22)
+texture = ExtResource("3")
+
+[node name="domebackside" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(21, -18)
+texture = ExtResource("4")
+
+[node name="cellar" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(0, 7)
+texture = ExtResource("5")
+
+[node name="mineshaft" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(0, 22)
+texture = ExtResource("6")
+
+[node name="primarygadget" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(0, -10)
+texture = ExtResource("7")
+
+[node name="domesurface" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(0, -12)
+texture = ExtResource("8")
+
+[node name="activegadget" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-12, -29)
+texture = ExtResource("9")

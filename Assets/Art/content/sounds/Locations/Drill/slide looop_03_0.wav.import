@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://diyq0i4si2t3v"
+path="res://.godot/imported/slide looop_03_0.wav-9ee53ff218b22618adff47deb55c184b.sample"
+
+[deps]
+
+source_file="res://content/sounds/Locations/Drill/slide looop_03_0.wav"
+dest_files=["res://.godot/imported/slide looop_03_0.wav-9ee53ff218b22618adff47deb55c184b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=1
+edit/loop_begin=0
+edit/loop_end=114000
+compress/mode=0

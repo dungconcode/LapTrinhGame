@@ -1,0 +1,130 @@
+[gd_scene load_steps=18 format=3 uid="uid://bf83c54ydy6dn"]
+
+[ext_resource type="Script" path="res://content/caves/dragoncave/LunarNewYearDragonCave.gd" id="1"]
+[ext_resource type="Script" path="res://content/map/Parallaxer.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://dqid6jhi3lbgi" path="res://content/caves/dragoncave/dragoncave_sheet.png" id="3"]
+[ext_resource type="SpriteFrames" uid="uid://v0ina7l43ur6" path="res://content/caves/dragoncave/dragoncave_spriteframes.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://ck24fif22vctt" path="res://content/caves/dragoncave/dragoncave_inactivecobalt.png" id="5"]
+[ext_resource type="PackedScene" path="res://content/shared/drops/ResourceGrabber.tscn" id="6"]
+[ext_resource type="Texture2D" uid="uid://bia4r4lcg51xx" path="res://content/drop/sand/sand_smol.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://sf3gg4ac5a7f" path="res://content/drop/egg/egg.png" id="8"]
+[ext_resource type="Script" path="res://content/caves/dragoncave/DragonCaveEgg.gd" id="9"]
+[ext_resource type="PackedScene" uid="uid://02emll07tpim" path="res://content/shared/Usable.tscn" id="10"]
+[ext_resource type="Texture2D" uid="uid://cqrnxty7k5hp4" path="res://content/drop/egg/focus.png" id="11"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="12"]
+[ext_resource type="AudioStream" uid="uid://l8ohnggo1eku" path="res://content/sounds/Locations/DragonCave/dragonEvent.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://dpbiovqq358mi" path="res://content/sounds/Locations/DragonCave/dragonamb.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://dslo6lmu6iino" path="res://content/sounds/Locations/DragonCave/dragoncave enter_2.wav" id="15"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="16"]
+[ext_resource type="Texture2D" uid="uid://0visbx7ukwpl" path="res://content/caves/dragoncave/alpha.png" id="17"]
+
+[node name="LunarNewYearDragonCave" type="Node2D" groups=["cave", "saveable", "unstyled"]]
+z_index = -40
+texture_filter = 1
+script = ExtResource("1")
+biome = "red"
+
+[node name="Sprites" type="Control" parent="."]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1.0
+offset_right = 164.0
+offset_bottom = 97.0
+script = ExtResource("2")
+start_offset = 0.1
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+texture = ExtResource("3")
+offset = Vector2(46, 24)
+hframes = 3
+
+[node name="Tail" type="AnimatedSprite2D" parent="Sprites/Sprite2D"]
+position = Vector2(54, 54)
+sprite_frames = ExtResource("4")
+animation = &"tail"
+
+[node name="Sprite2" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+texture = ExtResource("3")
+offset = Vector2(80, 50)
+hframes = 3
+frame = 1
+
+[node name="Sprite3" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+texture = ExtResource("3")
+offset = Vector2(80, 50)
+hframes = 3
+frame = 2
+
+[node name="CobaltMarker" type="Sprite2D" parent="Sprites/Sprite3"]
+texture_filter = 1
+position = Vector2(19, 83)
+texture = ExtResource("5")
+
+[node name="ResourceGrabber" parent="Sprites/Sprite3/CobaltMarker" instance=ExtResource("6")]
+dropType = "sand"
+
+[node name="CobaltDelivered" type="Sprite2D" parent="Sprites/Sprite3/CobaltMarker"]
+visible = false
+texture_filter = 1
+texture = ExtResource("7")
+
+[node name="Egg" type="Sprite2D" parent="Sprites/Sprite3"]
+visible = false
+texture_filter = 1
+position = Vector2(19, 83)
+texture = ExtResource("8")
+script = ExtResource("9")
+
+[node name="Usable" parent="Sprites/Sprite3/Egg" instance=ExtResource("10")]
+visibleOnFocus = NodePath("../FocusMarker")
+
+[node name="FocusMarker" type="Sprite2D" parent="Sprites/Sprite3/Egg"]
+texture_filter = 1
+texture = ExtResource("11")
+
+[node name="Dragon" type="AnimatedSprite2D" parent="Sprites/Sprite3"]
+position = Vector2(82, 49)
+sprite_frames = ExtResource("4")
+animation = &"dragon"
+
+[node name="Lamp" type="AnimatedSprite2D" parent="Sprites/Sprite3"]
+position = Vector2(18, 64)
+sprite_frames = ExtResource("4")
+animation = &"lamp"
+
+[node name="ActivatedSound" parent="." instance=ExtResource("12")]
+stream = ExtResource("13")
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="AmbSound" parent="." instance=ExtResource("12")]
+stream = ExtResource("14")
+volume_db = -4.0
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 300.0
+minAudibleDistance = 100.0
+loop = true
+
+[node name="DiscoverSound" parent="." instance=ExtResource("12")]
+stream = ExtResource("15")
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="Tween" parent="." instance=ExtResource("16")]
+
+[node name="AlphaMap" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(82, 49)
+texture = ExtResource("17")
+
+[connection signal="grabbed_resource" from="Sprites/Sprite3/CobaltMarker/ResourceGrabber" to="." method="_on_ResourceGrabber_grabbed_resource"]
+[connection signal="egg_taken" from="Sprites/Sprite3/Egg" to="." method="_on_Egg_egg_taken"]

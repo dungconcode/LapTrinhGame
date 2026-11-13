@@ -1,0 +1,26 @@
+[gd_scene load_steps=8 format=3 uid="uid://bnijwx8mbwl3"]
+
+[ext_resource type="Script" path="res://content/dome/heal/Heal.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://m3yscfffh2a2" path="res://content/dome/dome1/dome/dome01_back.png" id="2"]
+[ext_resource type="Shader" path="res://content/dome/heal/heal_flash.gdshader" id="3"]
+[ext_resource type="Texture2D" uid="uid://ipht164ehbkw" path="res://content/dome/heal/heal.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://b6qprlno332g1" path="res://content/dome/heal/heal_noise.png" id="5"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="6"]
+
+[sub_resource type="ShaderMaterial" id="19"]
+shader = ExtResource("3")
+shader_parameter/t = 0.5
+shader_parameter/flash = ExtResource("4")
+shader_parameter/noise = ExtResource("5")
+
+[node name="HealEffect" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1")
+mask = ExtResource("2")
+
+[node name="Flash" type="Sprite2D" parent="."]
+texture_filter = 1
+material = SubResource("19")
+texture = ExtResource("2")
+
+[node name="Tween" parent="." instance=ExtResource("6")]

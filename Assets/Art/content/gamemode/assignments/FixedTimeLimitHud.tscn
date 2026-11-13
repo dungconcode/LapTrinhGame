@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=3 uid="uid://h73c53ibwdf0"]
+
+[ext_resource type="Script" path="res://content/gamemode/assignments/FixedTimeLimitHud.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://cw6keytjwv7t8" path="res://content/hud/wavemeter/waveMeterSegment.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://ihkhg8y2pbjh" path="res://content/hud/wavemeter/waveMeterTerminus.png" id="3"]
+
+[node name="FixedTimeLimitHud" type="MarginContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+element_size = Vector2(4, 2)
+layoutWeights = Vector2(1, 5)
+
+[node name="TimeBar" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("2")
+stretch_mode = 1
+
+[node name="Terminus" type="TextureRect" parent="TimeBar"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 4.0
+offset_top = 1.0
+offset_right = 5.0
+offset_bottom = 9.0
+texture = ExtResource("3")
+stretch_mode = 2
+
+[node name="FillingBar" type="ColorRect" parent="TimeBar"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1.0
+offset_top = 3.0
+offset_right = 25.0
+offset_bottom = 6.0
+color = Color(0.376471, 0.298039, 0.862745, 1)

@@ -1,0 +1,94 @@
+[gd_scene load_steps=10 format=3 uid="uid://drqcinro1tknw"]
+
+[ext_resource type="Texture2D" uid="uid://c1tbmjiso8roe" path="res://content/weapons/tesla/TeslaImpact_Static_noise.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://1d7mvrmvlu87" path="res://content/weapons/tesla/tesla_effects_6.png" id="2"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/CustomStyle_ChangeModulate.gd" id="3"]
+[ext_resource type="Script" path="res://content/weapons/tesla/TeslaOrbParticleEnd.gd" id="4"]
+
+[sub_resource type="Shader" id="16"]
+code = "// NOTE: Shader automatically converted from Godot Engine 3.5.1.stable's CanvasItemMaterial.
+
+shader_type canvas_item;
+render_mode blend_mix;
+
+uniform sampler2D noise : source_color, repeat_enable;
+uniform int particles_anim_h_frames;
+uniform int particles_anim_v_frames;
+uniform bool particles_anim_loop;
+
+varying float lifetime;
+
+void vertex() {
+	lifetime = abs(1.0-INSTANCE_CUSTOM.y);
+	float h_frames = float(particles_anim_h_frames);
+	float v_frames = float(particles_anim_v_frames);
+	VERTEX.xy /= vec2(h_frames, v_frames);
+	float particle_total_frames = float(particles_anim_h_frames * particles_anim_v_frames);
+	float particle_frame = floor(INSTANCE_CUSTOM.z * float(particle_total_frames));
+	if (!particles_anim_loop) {
+		particle_frame = clamp(particle_frame, 0.0, particle_total_frames - 1.0);
+	} else {
+		particle_frame = mod(particle_frame, particle_total_frames);
+	}	UV /= vec2(h_frames, v_frames);
+	UV += vec2(mod(particle_frame, h_frames) / h_frames, floor((particle_frame + 0.5) / h_frames) / v_frames);
+}
+
+void fragment() {
+	vec4 tex = texture(TEXTURE, UV) * COLOR;
+	COLOR = tex;
+	COLOR.a *= clamp(mix(1.0, mix(0.5, texture(noise, UV+TIME*0.3).r, 10.0), lifetime), 0.0, 1.0);
+}"
+
+[sub_resource type="ShaderMaterial" id="20"]
+shader = SubResource("16")
+shader_parameter/particles_anim_h_frames = 6
+shader_parameter/particles_anim_v_frames = 2
+shader_parameter/particles_anim_loop = true
+shader_parameter/noise = ExtResource("1")
+
+[sub_resource type="Gradient" id="21"]
+offsets = PackedFloat32Array(0, 0.0726744, 0.177326, 0.523256, 0.872093, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0.865724, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="18"]
+gradient = SubResource("21")
+width = 128
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_phs8p"]
+resource_local_to_scene = true
+lifetime_randomness = 0.2
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 20.0
+angle_max = 180.0
+direction = Vector3(0, 0, 0)
+spread = 180.0
+gravity = Vector3(0, 0, 0)
+scale_min = 0.5
+scale_max = 0.55
+color_ramp = SubResource("18")
+anim_speed_max = 1.0
+anim_offset_max = 1.0
+
+[node name="TeslaCrystalParticle" type="GPUParticles2D"]
+unique_name_in_owner = true
+texture_filter = 1
+material = SubResource("20")
+amount = 40
+process_material = SubResource("ParticleProcessMaterial_phs8p")
+texture = ExtResource("2")
+lifetime = 0.2
+explosiveness = 0.3
+randomness = 1.0
+script = ExtResource("3")
+self_init = true
+styleColor = Color(0.439216, 1, 0, 1)
+
+[node name="End" type="Node" parent="."]
+script = ExtResource("4")
+
+[node name="Timer" type="Timer" parent="End"]
+wait_time = 0.5
+one_shot = true
+
+[connection signal="timeout" from="End/Timer" to="End" method="_on_Timer_timeout"]

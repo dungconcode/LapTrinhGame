@@ -1,0 +1,94 @@
+[gd_scene load_steps=13 format=3 uid="uid://dou206b3em4fb"]
+
+[ext_resource type="Script" path="res://content/gadgets/blastMining/Mine.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://vtkkkndl7dnq" path="res://content/gadgets/blastMining/mine_adhesion.png" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://v3ca6e4dnfgn" path="res://content/gadgets/blastMining/Mine_spriteframes.tres" id="3"]
+[ext_resource type="Texture2D" uid="uid://3deofbhyh4uu" path="res://content/gadgets/blastMining/carried.png" id="4"]
+[ext_resource type="Material" uid="uid://c4rg5bvijyfin" path="res://content/shared/HighlightShader.tres" id="5"]
+[ext_resource type="Texture2D" uid="uid://bi8fw3hrhlkgs" path="res://content/gadgets/blastMining/focussed.png" id="6"]
+[ext_resource type="AudioStream" uid="uid://dg7oyernje3bw" path="res://content/sounds/Locations/BlastMiner/ActivateCountdown.wav" id="7"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="8"]
+[ext_resource type="AudioStream" uid="uid://c1tgcrm0t2s1i" path="res://content/sounds/Locations/BlastMiner/CountDownTick.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://byr380e4lhlx2" path="res://content/sounds/Locations/BlastMiner/Stickly.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://c7oq5eoq6s22r" path="res://content/sounds/Locations/Drill/brake stema.wav" id="11"]
+
+[sub_resource type="CircleShape2D" id="1"]
+radius = 5.0
+
+[node name="Mine" type="RigidBody2D" groups=["carryable", "saveable"]]
+z_index = 23
+texture_filter = 1
+collision_layer = 34
+collision_mask = 522
+can_sleep = false
+max_contacts_reported = 1
+contact_monitor = true
+angular_damp = 5.0
+script = ExtResource("1")
+carryableType = "gadget"
+canTeleport = true
+
+[node name="Adhesion" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2")
+offset = Vector2(6, 0)
+hframes = 4
+frame = 3
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("3")
+animation = &"activated_0"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("1")
+
+[node name="CarrySprite" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("4")
+
+[node name="FocusSprite" type="Sprite2D" parent="."]
+z_index = 30
+texture_filter = 1
+material = ExtResource("5")
+texture = ExtResource("6")
+
+[node name="ActivateSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7")
+volume_db = 5.622
+bus = &"Sounds"
+script = ExtResource("8")
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 300.0
+minAudibleDistance = 100.0
+
+[node name="CountdownSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9")
+volume_db = 3.747
+pitch_scale = 1.25
+script = ExtResource("8")
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 300.0
+minAudibleDistance = 100.0
+
+[node name="StickToWallSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10")
+volume_db = 3.747
+script = ExtResource("8")
+randomPitch = 2.08165e-12
+maxAudibleDistance = 300.0
+minAudibleDistance = 100.0
+
+[node name="HotBombSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11")
+volume_db = 0.936
+script = ExtResource("8")
+randomVolume = 0.0
+randomPitch = 2.08165e-12
+maxAudibleDistance = 300.0
+minAudibleDistance = 100.0
+loop = true
+
+[connection signal="body_entered" from="." to="." method="_on_Mine_body_entered"]

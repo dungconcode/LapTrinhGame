@@ -1,0 +1,46 @@
+[gd_scene load_steps=7 format=3 uid="uid://boflup7qram2h"]
+
+[ext_resource type="Script" path="res://content/map/decorations/ornaments/FollowEye.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://cgb4d55cul2i8" path="res://content/map/decorations/ornaments/halloweeneyes_sheet.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://tpg22jokikqp" path="res://content/map/TileCover.tscn" id="3"]
+[ext_resource type="Texture2D" uid="uid://yan3ge52a6vc" path="res://content/map/chamber/cover.png" id="4"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ol4qu"]
+texture = ExtResource("4")
+texture_region_size = Vector2i(24, 24)
+
+[sub_resource type="TileSet" id="1"]
+tile_size = Vector2i(25, 24)
+sources/0 = SubResource("TileSetAtlasSource_ol4qu")
+
+[node name="FollowEye" type="Node2D" groups=["saveable", "unstyled"]]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="Background" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2")
+offset = Vector2(12, 12)
+hframes = 5
+vframes = 3
+
+[node name="Eye" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2")
+offset = Vector2(12, 12)
+hframes = 5
+vframes = 3
+frame = 5
+
+[node name="Front" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(12, 12)
+texture = ExtResource("2")
+hframes = 5
+vframes = 3
+frame = 10
+
+[node name="TileCover" parent="." instance=ExtResource("3")]
+visible = false
+tile_set = SubResource("1")
+layer_0/tile_data = PackedInt32Array(0, 0, 0)

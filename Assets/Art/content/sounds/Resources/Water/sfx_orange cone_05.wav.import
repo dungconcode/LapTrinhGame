@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dxhxk0t7rm5x0"
+path="res://.godot/imported/sfx_orange cone_05.wav-9b690bff1e5c0808bde1ecc63c09369b.sample"
+
+[deps]
+
+source_file="res://content/sounds/Resources/Water/sfx_orange cone_05.wav"
+dest_files=["res://.godot/imported/sfx_orange cone_05.wav-9b690bff1e5c0808bde1ecc63c09369b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

@@ -1,0 +1,138 @@
+[gd_scene load_steps=9 format=3 uid="uid://p7v4xr2mg24h"]
+
+[ext_resource type="Script" path="res://content/gadgets/mineraltree/MineralTree.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://b57b6801d58xl" path="res://content/gadgets/mineraltree/mineraltree-Sheet.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cor432hvqqvfp" path="res://content/gadgets/mineraltree/3xiron-3xwater-3xcobalt-ranken-Sheet.png" id="3"]
+[ext_resource type="Script" path="res://content/gadgets/mineraltree/FruitGrowth.gd" id="4"]
+[ext_resource type="Texture2D" uid="uid://rasmosh8h0qm" path="res://content/drop/iron/iron_smol.png" id="5"]
+[ext_resource type="PackedScene" uid="uid://02emll07tpim" path="res://content/shared/Usable.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="7"]
+[ext_resource type="AudioStream" uid="uid://bqyt7paao2p8x" path="res://content/sounds/Locations/Vitamintree/Trippy loop.wav" id="8"]
+
+[node name="MineralTree" type="Node2D" groups=["saveable"]]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="Stem" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -25)
+texture = ExtResource("2")
+hframes = 16
+frame = 15
+
+[node name="FruitPosition1_1" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(7, -21)
+texture = ExtResource("3")
+hframes = 9
+frame = 1
+script = ExtResource("4")
+
+[node name="Sprite2D" type="Sprite2D" parent="FruitPosition1_1"]
+z_index = -1
+texture_filter = 1
+position = Vector2(1, 0)
+texture = ExtResource("5")
+
+[node name="Usable" parent="FruitPosition1_1" instance=ExtResource("6")]
+
+[node name="FruitPosition2_1" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-14, -16)
+texture = ExtResource("3")
+hframes = 9
+script = ExtResource("4")
+
+[node name="Sprite2D" type="Sprite2D" parent="FruitPosition2_1"]
+z_index = -1
+texture_filter = 1
+position = Vector2(1, 0)
+texture = ExtResource("5")
+
+[node name="Usable" parent="FruitPosition2_1" instance=ExtResource("6")]
+
+[node name="FruitPosition2_2" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(19, -11)
+texture = ExtResource("3")
+hframes = 9
+frame = 2
+script = ExtResource("4")
+
+[node name="Sprite2D" type="Sprite2D" parent="FruitPosition2_2"]
+z_index = -1
+texture_filter = 1
+position = Vector2(1, 0)
+texture = ExtResource("5")
+
+[node name="Usable" parent="FruitPosition2_2" instance=ExtResource("6")]
+
+[node name="FruitPosition3_1" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(8, -40)
+texture = ExtResource("3")
+hframes = 9
+frame = 1
+script = ExtResource("4")
+
+[node name="Sprite2D" type="Sprite2D" parent="FruitPosition3_1"]
+z_index = -1
+texture_filter = 1
+position = Vector2(1, 0)
+texture = ExtResource("5")
+
+[node name="Usable" parent="FruitPosition3_1" instance=ExtResource("6")]
+
+[node name="FruitPosition3_2" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(16, -14)
+texture = ExtResource("3")
+hframes = 9
+frame = 2
+script = ExtResource("4")
+
+[node name="Sprite2D" type="Sprite2D" parent="FruitPosition3_2"]
+z_index = -1
+texture_filter = 1
+position = Vector2(1, 0)
+texture = ExtResource("5")
+
+[node name="Usable" parent="FruitPosition3_2" instance=ExtResource("6")]
+
+[node name="FruitPosition3_3" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-17, -21)
+texture = ExtResource("3")
+hframes = 9
+script = ExtResource("4")
+
+[node name="Sprite2D" type="Sprite2D" parent="FruitPosition3_3"]
+z_index = -1
+texture_filter = 1
+position = Vector2(1, 0)
+texture = ExtResource("5")
+
+[node name="Usable" parent="FruitPosition3_3" instance=ExtResource("6")]
+
+[node name="Hanger" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-18, -24)
+texture = ExtResource("3")
+hframes = 9
+
+[node name="TreeAmbience" parent="." instance=ExtResource("7")]
+stream = ExtResource("8")
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 100.0
+minAudibleDistance = 50.0
+fadeInTime = 1.0
+fadeOutTime = 1.0
+loop = true

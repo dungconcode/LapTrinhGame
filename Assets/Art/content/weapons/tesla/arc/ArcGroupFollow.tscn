@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://content/weapons/tesla/arc/ArcGroupFollow.gd" id="1"]
+
+[node name="ArcGroupFollow" type="Node2D" groups=["customStyle"]]
+script = ExtResource("1")
+
+[connection signal="visibility_changed" from="." to="." method="_on_ArcGroupFollow_visibility_changed"]

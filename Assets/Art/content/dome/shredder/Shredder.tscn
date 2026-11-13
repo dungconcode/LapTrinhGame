@@ -1,0 +1,108 @@
+[gd_scene load_steps=14 format=3 uid="uid://j8dw5to0gtsm"]
+
+[ext_resource type="Script" path="res://content/dome/shredder/Shredder.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="3"]
+[ext_resource type="AudioStream" uid="uid://plr1n2wwac0s" path="res://content/sounds/Bastards/crunch_01.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://cftwsciyr3vft" path="res://content/sounds/Bastards/crunch_02.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://b0x3fiq8mkhb1" path="res://content/sounds/Bastards/crunch_03.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://c86gh2emkp0b2" path="res://content/sounds/Bastards/crunch_04.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://bluo56owew3n4" path="res://content/dome/shredder/whool_loop_3.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://cvh6fls6yfth6" path="res://content/dome/shredder/machi_3.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://q5d4s6lm3cgg" path="res://content/dome/shredder/harvesterOverdrive.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://c0mh0nckl1g86" path="res://content/dome/shredder/koiiPorta_09.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://cy1tjyxucn0bp" path="res://content/dome/shredder/oplike_9.wav" id="12"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(142, 72)
+
+[node name="Shredder" type="Area2D"]
+texture_filter = 1
+collision_layer = 0
+collision_mask = 64
+script = ExtResource("1")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="Tween" parent="." instance=ExtResource("2")]
+
+[node name="DropPickupShape" type="CollisionShape2D" parent="."]
+position = Vector2(0, -31.5)
+shape = SubResource("1")
+
+[node name="ShredPoint" type="Marker2D" parent="."]
+
+[node name="ShredSound" parent="ShredPoint" instance=ExtResource("3")]
+bus = &"Dome"
+maxAudibleDistance = 350.0
+minAudibleDistance = 80.0
+
+[node name="ShredLayer" parent="ShredPoint/ShredSound" instance=ExtResource("3")]
+bus = &"Dome"
+maxAudibleDistance = 350.0
+minAudibleDistance = 80.0
+streams = [ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7")]
+
+[node name="LoopOverdrive" parent="." instance=ExtResource("3")]
+stream = ExtResource("8")
+volume_db = -14.553
+pitch_scale = 0.75
+bus = &"Dome"
+randomPitch = 0.05
+maxAudibleDistance = 350.0
+minAudibleDistance = 80.0
+loop = true
+
+[node name="LoopOverdrive2" parent="LoopOverdrive" instance=ExtResource("3")]
+stream = ExtResource("9")
+volume_db = -15.159
+pitch_scale = 1.29
+bus = &"Dome"
+randomPitch = 0.05
+maxAudibleDistance = 350.0
+minAudibleDistance = 80.0
+loop = true
+
+[node name="LoopUberdrive" parent="." instance=ExtResource("3")]
+stream = ExtResource("8")
+volume_db = -10.611
+pitch_scale = 0.94
+bus = &"Dome"
+randomPitch = 0.05
+maxAudibleDistance = 350.0
+minAudibleDistance = 80.0
+loop = true
+
+[node name="LoopUberdrive2" parent="LoopUberdrive" instance=ExtResource("3")]
+stream = ExtResource("9")
+volume_db = -12.735
+pitch_scale = 1.75
+bus = &"Dome"
+maxAudibleDistance = 350.0
+minAudibleDistance = 80.0
+loop = true
+
+[node name="transitionOverdrive" parent="." instance=ExtResource("3")]
+stream = ExtResource("10")
+volume_db = -5.027
+pitch_scale = 0.78
+bus = &"Dome"
+maxAudibleDistance = 350.0
+minAudibleDistance = 80.0
+
+[node name="transitionUberdrive" parent="." instance=ExtResource("3")]
+stream = ExtResource("11")
+pitch_scale = 0.99
+bus = &"Dome"
+maxAudibleDistance = 350.0
+minAudibleDistance = 80.0
+
+[node name="ShredStop" parent="." instance=ExtResource("3")]
+stream = ExtResource("12")
+volume_db = 4.548
+pitch_scale = 0.99
+bus = &"Dome"
+maxAudibleDistance = 350.0
+minAudibleDistance = 80.0
+
+[connection signal="area_entered" from="." to="." method="_on_Shredder_area_entered"]

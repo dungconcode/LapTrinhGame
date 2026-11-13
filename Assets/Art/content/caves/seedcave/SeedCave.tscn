@@ -1,0 +1,112 @@
+[gd_scene load_steps=9 format=3 uid="uid://bki1cojonufnd"]
+
+[ext_resource type="Script" path="res://content/caves/seedcave/SeedCave.gd" id="1"]
+[ext_resource type="Script" path="res://content/map/Parallaxer.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://7b4gx27y5h7r" path="res://content/caves/seedcave/seedcave-Sheet.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://c6b47jh7fat73" path="res://content/caves/seedcave/focus.png" id="4"]
+[ext_resource type="PackedScene" uid="uid://02emll07tpim" path="res://content/shared/Usable.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="6"]
+[ext_resource type="AudioStream" uid="uid://c0frroa2mv11h" path="res://content/sounds/Amb/Garden subtle.wav" id="7"]
+[ext_resource type="Texture2D" uid="uid://dtetgf3uaqqbu" path="res://content/caves/seedcave/seedcave_alpha_map_blurred.png" id="8"]
+
+[node name="SeedCave" type="Node2D" groups=["cave", "saveable", "unstyled"]]
+z_index = -40
+texture_filter = 1
+script = ExtResource("1")
+biome = "green"
+maxRelativeDepth = 0.6
+
+[node name="ExtraBackground" type="ColorRect" parent="."]
+offset_left = -1.0
+offset_top = -2.0
+offset_right = 63.0
+offset_bottom = 50.0
+mouse_filter = 2
+color = Color(0.0901961, 0.117647, 0.133333, 1)
+
+[node name="Sprites" type="Control" parent="."]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_right = 62.0
+offset_bottom = 48.0
+mouse_filter = 2
+script = ExtResource("2")
+start_offset = 0.4
+scaling = 0.5
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(29, 24)
+texture = ExtResource("3")
+hframes = 6
+
+[node name="ExtraBackground" type="ColorRect" parent="Sprites/Sprite2D"]
+offset_left = -47.0
+offset_top = -34.0
+offset_right = 43.0
+offset_bottom = 34.0
+mouse_filter = 2
+color = Color(0.270588, 0.254902, 0.156863, 1)
+
+[node name="Sprite2" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(29, 24)
+texture = ExtResource("3")
+hframes = 6
+frame = 1
+
+[node name="Sprite3" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(29, 24)
+texture = ExtResource("3")
+hframes = 6
+frame = 2
+
+[node name="Sprite4" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(29, 24)
+texture = ExtResource("3")
+hframes = 6
+frame = 3
+
+[node name="ActiveSprite" type="Sprite2D" parent="Sprites/Sprite4"]
+texture_filter = 1
+texture = ExtResource("3")
+hframes = 6
+frame = 4
+
+[node name="FocusMarker" type="Sprite2D" parent="Sprites/Sprite4"]
+texture_filter = 1
+position = Vector2(5, 13)
+texture = ExtResource("4")
+
+[node name="Sprite5" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(29, 24)
+texture = ExtResource("3")
+hframes = 6
+frame = 5
+
+[node name="Usable" parent="." instance=ExtResource("5")]
+position = Vector2(37, 38)
+visibleOnFocus = NodePath("../Sprites/Sprite4/FocusMarker")
+
+[node name="AmbSound" parent="Usable" instance=ExtResource("6")]
+stream = ExtResource("7")
+volume_db = 1.697
+pitch_scale = 0.67
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 120.0
+minAudibleDistance = 36.0
+fadeInTime = 0.1
+fadeOutTime = 3.0
+loop = true
+
+[node name="AlphaMap" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(31, 24)
+texture = ExtResource("8")

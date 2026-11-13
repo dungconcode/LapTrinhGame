@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://disjp4hftyyrm"
+path="res://.godot/imported/Explosion Thick 02.wav-40fab6555c7724e3c13f6288ce2324ef.sample"
+
+[deps]
+
+source_file="res://content/sounds/Weapons/artillery/Explosion Thick 02.wav"
+dest_files=["res://.godot/imported/Explosion Thick 02.wav-40fab6555c7724e3c13f6288ce2324ef.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

@@ -1,0 +1,159 @@
+[gd_resource type="SpriteFrames" load_steps=21 format=3 uid="uid://cr4t4g8seb76f"]
+
+[ext_resource type="Texture2D" uid="uid://bvre0s3ql76vk" path="res://content/weapons/sword/blade_electricity_anne.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="265"]
+atlas = ExtResource("1")
+region = Rect2(0, 224, 40, 56)
+
+[sub_resource type="AtlasTexture" id="266"]
+atlas = ExtResource("1")
+region = Rect2(40, 224, 40, 56)
+
+[sub_resource type="AtlasTexture" id="267"]
+atlas = ExtResource("1")
+region = Rect2(80, 224, 40, 56)
+
+[sub_resource type="AtlasTexture" id="268"]
+atlas = ExtResource("1")
+region = Rect2(120, 224, 40, 56)
+
+[sub_resource type="AtlasTexture" id="269"]
+atlas = ExtResource("1")
+region = Rect2(160, 224, 40, 56)
+
+[sub_resource type="AtlasTexture" id="270"]
+atlas = ExtResource("1")
+region = Rect2(200, 224, 40, 56)
+
+[sub_resource type="AtlasTexture" id="271"]
+atlas = ExtResource("1")
+region = Rect2(0, 168, 40, 56)
+
+[sub_resource type="AtlasTexture" id="272"]
+atlas = ExtResource("1")
+region = Rect2(40, 168, 40, 56)
+
+[sub_resource type="AtlasTexture" id="273"]
+atlas = ExtResource("1")
+region = Rect2(80, 168, 40, 56)
+
+[sub_resource type="AtlasTexture" id="274"]
+atlas = ExtResource("1")
+region = Rect2(120, 168, 40, 56)
+
+[sub_resource type="AtlasTexture" id="275"]
+atlas = ExtResource("1")
+region = Rect2(160, 168, 40, 56)
+
+[sub_resource type="AtlasTexture" id="276"]
+atlas = ExtResource("1")
+region = Rect2(200, 168, 40, 56)
+
+[sub_resource type="AtlasTexture" id="277"]
+atlas = ExtResource("1")
+region = Rect2(240, 168, 40, 56)
+
+[sub_resource type="AtlasTexture" id="278"]
+atlas = ExtResource("1")
+region = Rect2(0, 280, 40, 56)
+
+[sub_resource type="AtlasTexture" id="279"]
+atlas = ExtResource("1")
+region = Rect2(40, 280, 40, 56)
+
+[sub_resource type="AtlasTexture" id="280"]
+atlas = ExtResource("1")
+region = Rect2(80, 280, 40, 56)
+
+[sub_resource type="AtlasTexture" id="281"]
+atlas = ExtResource("1")
+region = Rect2(120, 280, 40, 56)
+
+[sub_resource type="AtlasTexture" id="282"]
+atlas = ExtResource("1")
+region = Rect2(160, 280, 40, 56)
+
+[sub_resource type="AtlasTexture" id="283"]
+atlas = ExtResource("1")
+region = Rect2(200, 280, 40, 56)
+
+[resource]
+animations = [{
+"frames": [],
+"loop": false,
+"name": &"empty",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("265")
+}, {
+"duration": 1.0,
+"texture": SubResource("266")
+}, {
+"duration": 1.0,
+"texture": SubResource("267")
+}, {
+"duration": 1.0,
+"texture": SubResource("268")
+}, {
+"duration": 1.0,
+"texture": SubResource("269")
+}, {
+"duration": 1.0,
+"texture": SubResource("270")
+}],
+"loop": false,
+"name": &"impact",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("271")
+}, {
+"duration": 1.0,
+"texture": SubResource("272")
+}, {
+"duration": 1.0,
+"texture": SubResource("273")
+}, {
+"duration": 1.0,
+"texture": SubResource("274")
+}, {
+"duration": 1.0,
+"texture": SubResource("275")
+}, {
+"duration": 1.0,
+"texture": SubResource("276")
+}, {
+"duration": 1.0,
+"texture": SubResource("277")
+}],
+"loop": false,
+"name": &"reflect",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("278")
+}, {
+"duration": 1.0,
+"texture": SubResource("279")
+}, {
+"duration": 1.0,
+"texture": SubResource("280")
+}, {
+"duration": 1.0,
+"texture": SubResource("281")
+}, {
+"duration": 1.0,
+"texture": SubResource("282")
+}, {
+"duration": 1.0,
+"texture": SubResource("283")
+}],
+"loop": false,
+"name": &"retracted",
+"speed": 20.0
+}]

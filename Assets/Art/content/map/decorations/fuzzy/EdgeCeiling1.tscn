@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bcd6k575eaup1"]
+
+[ext_resource type="Texture2D" uid="uid://bi71nj353ixkj" path="res://content/map/decorations/fuzzy/EdgeCeiling1.png" id="1"]
+[ext_resource type="Script" path="res://content/map/decorations/BorderDecoration.gd" id="2"]
+
+[node name="Fuzzy" type="Sprite2D" groups=["decoration"]]
+texture_filter = 1
+texture = ExtResource("1")
+offset = Vector2(9, -2)
+hframes = 6
+script = ExtResource("2")

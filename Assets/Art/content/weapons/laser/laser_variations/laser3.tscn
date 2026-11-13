@@ -1,0 +1,272 @@
+[gd_scene load_steps=39 format=3 uid="uid://b6opwqlenjvte"]
+
+[ext_resource type="Script" path="res://content/weapons/laser/laser_variations/visual_laser.gd" id="1"]
+[ext_resource type="Shader" path="res://content/weapons/laser/laser_variations/laser.gdshader" id="2"]
+[ext_resource type="Texture2D" uid="uid://ccqqc5rjgjkom" path="res://systems/style/palettes/index_palette.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b6e3kmsf38g3x" path="res://content/weapons/laser/laser_variations/laser_particle3.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://w28r0rgw11ir" path="res://content/weapons/laser/laser_variations/laser_particle0.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cenaok33qdmop" path="res://content/weapons/laser/laser_variations/laser_streak.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dns2l2tqhbe5m" path="res://content/weapons/laser/muzzleflash.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dmj75h3rnqpl1" path="res://content/weapons/laser/small-burst.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dgvhioweyxgm1" path="res://content/weapons/laser/laserend-big.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bvprslenh053y" path="res://content/weapons/laser/laser_variations/hit_particle_gradient.tres" id="10"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="11"]
+[ext_resource type="AudioStream" uid="uid://b33isadiay20w" path="res://content/sounds/Weapons/Laser/mani amb4_1.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://bh5hwsc2d1cf4" path="res://content/sounds/Weapons/Laser/sfx_heavy_impact.wav" id="13"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="14"]
+[ext_resource type="AudioStream" uid="uid://22wuomrntsu3" path="res://content/sounds/Weapons/Laser/laser_loop_3.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://nrcs3awroyyq" path="res://content/sounds/Weapons/Laser/laser.wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://bgypyxgsxrypt" path="res://content/sounds/Weapons/Laser/laser_init_2.wav" id="17"]
+[ext_resource type="AudioStream" uid="uid://d4jqe2w12r6oh" path="res://content/sounds/Weapons/Laser/laser_init_2_add.wav" id="18"]
+[ext_resource type="AudioStream" uid="uid://b54qxq2cfavir" path="res://content/sounds/Weapons/Laser/laser3Off.wav" id="19"]
+[ext_resource type="AudioStream" uid="uid://dd7tadtlu6kpo" path="res://content/sounds/Weapons/Laser/grid Off.wav" id="20"]
+
+[sub_resource type="ShaderMaterial" id="3"]
+shader = ExtResource("2")
+shader_parameter/power = 3.333
+shader_parameter/speed = 4.2
+shader_parameter/palette = ExtResource("3")
+
+[sub_resource type="ShaderMaterial" id="39"]
+shader = ExtResource("2")
+shader_parameter/power = 5.987
+shader_parameter/speed = 10.0
+shader_parameter/palette = ExtResource("3")
+
+[sub_resource type="ShaderMaterial" id="40"]
+shader = ExtResource("2")
+shader_parameter/power = 0.0
+shader_parameter/speed = 2.067
+shader_parameter/palette = ExtResource("3")
+
+[sub_resource type="AtlasTexture" id="33"]
+atlas = ExtResource("7")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="34"]
+atlas = ExtResource("7")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="35"]
+atlas = ExtResource("7")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="36"]
+atlas = ExtResource("7")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="38"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("33")
+}, {
+"duration": 1.0,
+"texture": SubResource("34")
+}, {
+"duration": 1.0,
+"texture": SubResource("35")
+}, {
+"duration": 1.0,
+"texture": SubResource("36")
+}],
+"loop": true,
+"name": &"glow",
+"speed": 24.0
+}]
+
+[sub_resource type="AtlasTexture" id="44"]
+atlas = ExtResource("8")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="41"]
+atlas = ExtResource("8")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="42"]
+atlas = ExtResource("8")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="43"]
+atlas = ExtResource("8")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="45"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("44")
+}, {
+"duration": 1.0,
+"texture": SubResource("41")
+}, {
+"duration": 1.0,
+"texture": SubResource("42")
+}, {
+"duration": 1.0,
+"texture": SubResource("43")
+}],
+"loop": false,
+"name": &"kapow",
+"speed": 12.0
+}]
+
+[sub_resource type="AtlasTexture" id="54"]
+atlas = ExtResource("9")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="55"]
+atlas = ExtResource("9")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="56"]
+atlas = ExtResource("9")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="53"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("54")
+}, {
+"duration": 1.0,
+"texture": SubResource("55")
+}, {
+"duration": 1.0,
+"texture": SubResource("56")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="ParticleProcessMaterial" id="57"]
+lifetime_randomness = 0.3
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 8.0
+direction = Vector3(0, -1, 0)
+spread = 30.0
+initial_velocity_min = 85.2
+initial_velocity_max = 120.0
+gravity = Vector3(0, -5, 0)
+damping_min = 40.0
+damping_max = 40.0
+color_ramp = ExtResource("10")
+
+[node name="Laser3" type="Node2D"]
+show_behind_parent = true
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="thick" type="Sprite2D" parent="."]
+texture_filter = 1
+texture_repeat = 2
+material = SubResource("3")
+rotation = -1.5708
+texture = ExtResource("4")
+centered = false
+offset = Vector2(0, -16)
+region_enabled = true
+region_rect = Rect2(16, 32, 100, 32)
+
+[node name="thin" type="Sprite2D" parent="."]
+texture_filter = 1
+texture_repeat = 2
+material = SubResource("39")
+rotation = -1.5708
+texture = ExtResource("5")
+centered = false
+offset = Vector2(0, -16)
+region_enabled = true
+region_rect = Rect2(16, 32, 100, 32)
+
+[node name="streaks" type="Sprite2D" parent="."]
+texture_filter = 1
+texture_repeat = 2
+material = SubResource("40")
+rotation = -1.5708
+texture = ExtResource("6")
+centered = false
+offset = Vector2(0, -16)
+region_enabled = true
+region_rect = Rect2(32, 32, 100, 32)
+
+[node name="MuzzleFlash" type="AnimatedSprite2D" parent="."]
+position = Vector2(0.5, -8.5)
+scale = Vector2(1.5, 1.5)
+sprite_frames = SubResource("38")
+animation = &"glow"
+speed_scale = 1.5
+
+[node name="Burst" type="AnimatedSprite2D" parent="."]
+position = Vector2(34, 1)
+sprite_frames = SubResource("45")
+animation = &"kapow"
+offset = Vector2(-34, -43)
+
+[node name="HitEffect" type="AnimatedSprite2D" parent="."]
+z_index = 7
+position = Vector2(0, -100)
+sprite_frames = SubResource("53")
+
+[node name="HitParticles" type="GPUParticles2D" parent="."]
+z_index = 1
+position = Vector2(0, -100)
+amount = 120
+process_material = SubResource("57")
+lifetime = 0.4
+
+[node name="FireMonsterHit" parent="." instance=ExtResource("11")]
+stream = ExtResource("12")
+bus = &"World"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="FireMonsterBump" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13")
+bus = &"World"
+script = ExtResource("14")
+
+[node name="FireSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15")
+volume_db = -12.0
+pitch_scale = 0.7
+bus = &"Sounds"
+script = ExtResource("14")
+
+[node name="FireSound2" type="AudioStreamPlayer" parent="FireSound"]
+stream = ExtResource("16")
+volume_db = 5.075
+pitch_scale = 0.87
+bus = &"Weapon"
+script = ExtResource("14")
+randomPitch = 0.0
+
+[node name="FireSoundInit" type="AudioStreamPlayer" parent="."]
+volume_db = -5.126
+pitch_scale = 0.77
+bus = &"Sounds"
+script = ExtResource("14")
+streams = [ExtResource("17")]
+
+[node name="FireSoundInit2" type="AudioStreamPlayer" parent="FireSoundInit"]
+volume_db = -16.301
+pitch_scale = 0.92
+bus = &"Sounds"
+script = ExtResource("14")
+streams = [ExtResource("18")]
+
+[node name="FireSoundStop" type="AudioStreamPlayer" parent="."]
+volume_db = -3.27
+bus = &"Sounds"
+script = ExtResource("14")
+randomPitch = 0.0
+streams = [ExtResource("19")]
+
+[node name="FireSoundStop2" type="AudioStreamPlayer" parent="FireSoundStop"]
+volume_db = 12.461
+pitch_scale = 1.13
+bus = &"Sounds"
+script = ExtResource("14")
+streams = [ExtResource("20")]

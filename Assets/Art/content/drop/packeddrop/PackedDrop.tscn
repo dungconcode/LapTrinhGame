@@ -1,0 +1,55 @@
+[gd_scene load_steps=13 format=3 uid="uid://5uurwr14suqc"]
+
+[ext_resource type="PackedScene" uid="uid://cndiyiean38ms" path="res://content/drop/MineralDrop.tscn" id="1"]
+[ext_resource type="Script" path="res://content/drop/packeddrop/PackedDrop.gd" id="2"]
+[ext_resource type="AudioStream" uid="uid://b3njkosvenxwk" path="res://content/sounds/Locations/ResourcePacker/Resourcepacker_01.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://b6hmd76ro40hp" path="res://content/sounds/Locations/ResourcePacker/Resourcepacker_02.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://dfyy4uoijpfaf" path="res://content/sounds/Locations/ResourcePacker/Resourcepacker_03.wav" id="5"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="6"]
+[ext_resource type="AudioStream" uid="uid://crqif5vvkqs55" path="res://content/sounds/Locations/ResourcePacker/packedDrop_02_1.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://2oxfojcklys0" path="res://content/sounds/Locations/ResourcePacker/packedDrop_02_2.wav" id="8"]
+[ext_resource type="PackedScene" path="res://content/drop/iron/iron_shred_particles.tscn" id="9"]
+[ext_resource type="Script" path="res://systems/deprecatedtween/DeprecatedTween.gd" id="10"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_yssid"]
+resource_local_to_scene = true
+friction = 0.2
+bounce = 0.15
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_l3503"]
+streams_count = 3
+stream_0/stream = ExtResource("3")
+stream_0/weight = 1.61e-43
+stream_1/stream = ExtResource("4")
+stream_1/weight = 6.4e-44
+stream_2/stream = ExtResource("5")
+stream_2/weight = 1.56e-43
+
+[node name="PackedDrop" groups=["saveable"] instance=ExtResource("1")]
+physics_material_override = SubResource("PhysicsMaterial_yssid")
+script = ExtResource("2")
+type = "pack"
+arrivalDistanceToTarget = 20.0
+
+[node name="Sprite2D" parent="." index="0"]
+visible = false
+
+[node name="BumpSound" parent="." index="4"]
+stream = SubResource("AudioStreamRandomizer_l3503")
+volume_db = -13.823
+pitch_scale = 1.88
+bus = &"NoMusic"
+
+[node name="BumpSound2" parent="BumpSound" index="0" instance=ExtResource("6")]
+volume_db = -13.823
+pitch_scale = 1.88
+bus = &"NoMusic"
+randomVolume = 0.0
+maxAudibleDistance = 200.0
+minAudibleDistance = 50.0
+streams = [ExtResource("7"), ExtResource("8")]
+
+[node name="ShredParticles" parent="." index="5" instance=ExtResource("9")]
+
+[node name="Tween" type="Node" parent="." index="6"]
+script = ExtResource("10")

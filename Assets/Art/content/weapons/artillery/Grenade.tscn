@@ -1,0 +1,228 @@
+[gd_scene load_steps=18 format=3 uid="uid://q8xbcd0f3hpw"]
+
+[ext_resource type="Script" path="res://content/weapons/artillery/Grenade.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://cl5m61xbi4q" path="res://content/weapons/artillery/artydome_grenade_sheet.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="3"]
+[ext_resource type="AudioStream" uid="uid://dpyug4owglpa1" path="res://content/sounds/Weapons/artillery/arty_flydown.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://cocmgyd076r5n" path="res://content/sounds/Weapons/artillery/whistleSplash.wav" id="5"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="6"]
+[ext_resource type="AudioStream" uid="uid://b3xwn21jst16c" path="res://content/sounds/Weapons/artillery/Explosion Thick 01.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://disjp4hftyyrm" path="res://content/sounds/Weapons/artillery/Explosion Thick 02.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://b2juxxe5i6yue" path="res://content/sounds/Weapons/artillery/cannon_02.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://6gro3deheqwb" path="res://content/sounds/Weapons/artillery/blast_wide_0.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://brfpxtrhlue0a" path="res://content/sounds/Weapons/artillery/blast_wide_02.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://b4oil7wvy0na7" path="res://content/sounds/Weapons/artillery/blast_wide_03.wav" id="12"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="13"]
+[ext_resource type="AudioStream" uid="uid://g8x82j2ggjkq" path="res://content/sounds/Weapons/artillery/shot2.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://rsrdid5nf608" path="res://content/sounds/Weapons/artillery/monsterHit.wav" id="15"]
+
+[sub_resource type="CircleShape2D" id="1"]
+radius = 3.0
+
+[sub_resource type="CircleShape2D" id="2"]
+
+[node name="Grenade" type="Area2D" groups=["pauseL"]]
+z_index = 100
+texture_filter = 1
+collision_layer = 0
+collision_mask = 16908416
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(3, -0.5)
+texture = ExtResource("2")
+hframes = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, 0)
+shape = SubResource("1")
+
+[node name="ExplosionArea" type="Area2D" parent="."]
+position = Vector2(2, 0)
+collision_layer = 0
+collision_mask = 128
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ExplosionArea"]
+shape = SubResource("2")
+
+[node name="Tween" parent="." instance=ExtResource("3")]
+
+[node name="Explosion" type="Polygon2D" parent="."]
+visible = false
+color = Color(0.886275, 0.12549, 0.12549, 0.756863)
+polygon = PackedVector2Array(0, -10, -6, -8, -9, -4, -10, 0, -9, 4, -6, 8, 0, 10, 6, 8, 9, 4, 10, 0, 9, -4, 6, -8)
+
+[node name="Whistle" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4")
+volume_db = 10.0
+bus = &"WeaponMinor"
+
+[node name="WhistlePlain" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4")
+volume_db = 10.0
+bus = &"WeaponMinor"
+
+[node name="WhistleDirect" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4")
+volume_db = 10.0
+pitch_scale = 1.6
+bus = &"WeaponMinor"
+
+[node name="WhistleSplash" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5")
+volume_db = 10.0
+bus = &"WeaponMinor"
+
+[node name="FuseTimer" type="Timer" parent="."]
+wait_time = 0.02
+one_shot = true
+
+[node name="ImpactPlain" type="AudioStreamPlayer" parent="."]
+volume_db = -2.111
+pitch_scale = 1.48
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("7"), ExtResource("8")]
+
+[node name="Echo" type="AudioStreamPlayer" parent="ImpactPlain"]
+volume_db = -6.166
+pitch_scale = 1.1
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("9")]
+
+[node name="ImpactSplash" type="AudioStreamPlayer" parent="."]
+volume_db = 3.143
+pitch_scale = 1.27
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("10"), ExtResource("11"), ExtResource("12")]
+
+[node name="ImpactSplash2" type="AudioStreamPlayer" parent="."]
+volume_db = 3.245
+pitch_scale = 1.07
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("10"), ExtResource("11"), ExtResource("12")]
+
+[node name="Echo" type="AudioStreamPlayer" parent="ImpactSplash2"]
+volume_db = -3.98
+pitch_scale = 0.87
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("9")]
+
+[node name="ImpactSplash3" type="AudioStreamPlayer" parent="."]
+volume_db = 3.628
+pitch_scale = 1.01
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("10"), ExtResource("11"), ExtResource("12")]
+
+[node name="Echo" type="AudioStreamPlayer" parent="ImpactSplash3"]
+volume_db = -7.905
+pitch_scale = 0.87
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("9")]
+
+[node name="ImpactSplash4" type="AudioStreamPlayer" parent="."]
+volume_db = 3.143
+pitch_scale = 0.77
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("10"), ExtResource("11"), ExtResource("12")]
+
+[node name="Echo" type="AudioStreamPlayer" parent="ImpactSplash4"]
+volume_db = -7.905
+pitch_scale = 0.87
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("9")]
+
+[node name="ImpactDirect" type="AudioStreamPlayer" parent="."]
+volume_db = -1.121
+pitch_scale = 1.52
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("7"), ExtResource("8")]
+
+[node name="Echo" type="AudioStreamPlayer" parent="ImpactDirect"]
+stream = ExtResource("9")
+volume_db = -7.905
+pitch_scale = 1.66
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+
+[node name="ImpactDirect2" type="AudioStreamPlayer" parent="."]
+volume_db = 1.401
+pitch_scale = 1.39
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("7"), ExtResource("8")]
+
+[node name="Echo" type="AudioStreamPlayer" parent="ImpactDirect2"]
+volume_db = -4.822
+pitch_scale = 1.66
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("9")]
+
+[node name="ImpactDirect3" type="AudioStreamPlayer" parent="."]
+volume_db = 3.644
+pitch_scale = 1.08
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("7"), ExtResource("8")]
+
+[node name="Echo" type="AudioStreamPlayer" parent="ImpactDirect3"]
+volume_db = -3.98
+pitch_scale = 1.66
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("9")]
+
+[node name="ImpactDirect4" type="AudioStreamPlayer" parent="."]
+volume_db = 4.205
+pitch_scale = 0.81
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("7"), ExtResource("8")]
+
+[node name="Echo" type="AudioStreamPlayer" parent="ImpactDirect4"]
+volume_db = 2.814
+pitch_scale = 1.05
+bus = &"Weapon"
+script = ExtResource("6")
+randomVolume = 0.1
+streams = [ExtResource("9")]
+
+[node name="DirectHitSound" parent="." instance=ExtResource("13")]
+stream = ExtResource("14")
+volume_db = -1.449
+pitch_scale = 1.46
+
+[node name="DirectHitSound2" parent="DirectHitSound" instance=ExtResource("13")]
+stream = ExtResource("15")
+volume_db = -4.924
+pitch_scale = 0.93
+
+[connection signal="area_entered" from="." to="." method="_on_Grenade_area_entered"]
+[connection signal="timeout" from="FuseTimer" to="." method="_on_FuseTimer_timeout"]

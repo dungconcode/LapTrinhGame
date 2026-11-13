@@ -1,0 +1,92 @@
+[gd_scene load_steps=13 format=3 uid="uid://co1ke62a1b0kn"]
+
+[ext_resource type="Texture2D" uid="uid://cdspcha5s8l17" path="res://content/weapons/tesla/arc/Tesla_Arc_noise.png" id="1"]
+[ext_resource type="Curve" path="res://content/weapons/tesla/arc/ArcWidthFollow.tres" id="2"]
+[ext_resource type="Gradient" uid="uid://corglfjxpjep4" path="res://content/weapons/tesla/arc/ArcGradientDefault.tres" id="3"]
+[ext_resource type="Script" path="res://content/weapons/tesla/arc/ArcFollow.gd" id="4"]
+
+[sub_resource type="Shader" id="7"]
+code = "shader_type canvas_item;
+
+uniform sampler2D noise_tex : source_color, repeat_enable;
+uniform sampler2D ends_tex : source_color;
+uniform float disappear = 0.0;
+uniform float length_factor = 1.0;
+
+varying flat vec4 modulate;
+void vertex() {
+    modulate = COLOR;
+}
+
+void fragment(){
+	vec4 noise = texture(noise_tex, UV*vec2(length_factor, 1.0));
+	vec4 tex = texture(TEXTURE, UV);
+	COLOR.a = tex.a * mix(1.0, clamp((noise.r-disappear)*4.0, 0.0, 1.0), min(disappear*10.0, 1.0)) * texture(ends_tex, UV).r;
+	COLOR *= modulate;
+}
+"
+
+[sub_resource type="Gradient" id="11"]
+offsets = PackedFloat32Array(0.0101215, 0.0441176, 0.654412, 0.987854)
+colors = PackedColorArray(0, 0, 0, 1, 0.98583, 0.98583, 0.98583, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="12"]
+gradient = SubResource("11")
+width = 512
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rckaa"]
+resource_local_to_scene = true
+shader = SubResource("7")
+shader_parameter/disappear = 0.0
+shader_parameter/length_factor = 1.0
+shader_parameter/noise_tex = ExtResource("1")
+shader_parameter/ends_tex = SubResource("12")
+
+[sub_resource type="Gradient" id="2"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.448529, 0.625, 1)
+colors = PackedColorArray(1, 1, 1, 0.241379, 1, 1, 1, 1, 1, 1, 1, 0.27381, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="3"]
+gradient = SubResource("2")
+fill_to = Vector2(0, 1)
+
+[sub_resource type="Gradient" id="5"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0, 0.272201, 0.434363, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0.309804, 1, 1, 1, 0.117647, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="6"]
+gradient = SubResource("5")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[node name="ArcFollow" type="Line2D" groups=["unstyled"]]
+texture_filter = 1
+texture_repeat = 2
+material = SubResource("ShaderMaterial_rckaa")
+points = PackedVector2Array(0, 0, 32, -11, 62, 5, 82, -6, 118, 0, 140, 6, 159, -1, 180, -6, 210, 2, 228, -6, 254, -46, 282, -2, 306, 19, 326, -19)
+width = 14.0
+width_curve = ExtResource("2")
+default_color = Color(0.4, 0.501961, 1, 1)
+gradient = ExtResource("3")
+texture = SubResource("3")
+texture_mode = 2
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+round_precision = 3
+script = ExtResource("4")
+
+[node name="Start" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 4
+texture_repeat = 2
+texture = SubResource("6")
+
+[node name="End" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 4
+texture_repeat = 2
+texture = SubResource("6")

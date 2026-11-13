@@ -1,0 +1,155 @@
+[gd_scene load_steps=20 format=3 uid="uid://c4fs76rqrjpu8"]
+
+[ext_resource type="Script" path="res://content/monster/stag/Stag.gd" id="1"]
+[ext_resource type="Material" uid="uid://day50apjw6md" path="res://content/monster/FlashMaterial.tres" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://ba74uhy0v18hw" path="res://content/monster/stag/spriteframes.tres" id="3"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="4"]
+[ext_resource type="AudioStream" uid="uid://c2ega6a31x8kj" path="res://content/sounds/monster/worm/StagDie.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://dw534f84pkgca" path="res://content/sounds/monster/Stag/Splash pyramid.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://bh7qwhda1let8" path="res://content/sounds/monster/Stag/stag barrage.wav" id="7"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="8"]
+[ext_resource type="AudioStream" uid="uid://docykamruaqy4" path="res://content/sounds/monster/worm/Worm_Emerge.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://duox0g4bvfvas" path="res://content/sounds/monster/Scarab/FastShot_01.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://bg6bvvowedv3i" path="res://content/sounds/monster/Scarab/FastShot_02.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://7hjd3w5hfayy" path="res://content/sounds/monster/Scarab/FastShot_03.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://b1cfkdbl605s0" path="res://content/sounds/monster/Scarab/FastShot_04.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://buw820bqurvgy" path="res://content/sounds/Locations/Orchard/MonsterExplode.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://cumagjxvty38o" path="res://content/sounds/monster/Stag/stag wave.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://dmek5iv7xwcw8" path="res://content/sounds/Bastards/stunfire.wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://cev1iuos871nl" path="res://content/sounds/monster/Stag/stag enter.wav" id="17"]
+
+[sub_resource type="CapsuleShape2D" id="34"]
+radius = 12.0
+height = 74.0
+
+[sub_resource type="CircleShape2D" id="107"]
+radius = 7.0
+
+[node name="Stag" type="Area2D" groups=["monster"]]
+texture_filter = 1
+collision_layer = 128
+collision_mask = 0
+script = ExtResource("1")
+techId = "stag"
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+material = ExtResource("2")
+position = Vector2(0, -43)
+sprite_frames = ExtResource("3")
+animation = &"walk"
+
+[node name="HitboxDefault" type="CollisionShape2D" parent="."]
+position = Vector2(0, -34)
+shape = SubResource("34")
+disabled = true
+
+[node name="HitPosition" type="Marker2D" parent="."]
+position = Vector2(25, -15)
+
+[node name="DieSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("5")
+volume_db = 5.244
+pitch_scale = 0.83
+bus = &"Important"
+randomVolume = 1.0
+randomPitch = 0.2
+
+[node name="DieSound2" parent="DieSound" instance=ExtResource("4")]
+stream = ExtResource("6")
+volume_db = 10.051
+pitch_scale = 0.83
+bus = &"World"
+randomVolume = 1.0
+randomPitch = 0.2
+
+[node name="BarrageSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7")
+volume_db = -9.613
+pitch_scale = 1.2
+bus = &"World"
+script = ExtResource("8")
+randomPitch = 0.12
+
+[node name="BarrageSound2" type="AudioStreamPlayer" parent="BarrageSound"]
+stream = ExtResource("9")
+volume_db = -6.991
+pitch_scale = 0.67
+bus = &"Important"
+script = ExtResource("8")
+randomPitch = 0.07
+
+[node name="StagShot" type="AudioStreamPlayer" parent="."]
+volume_db = -8.302
+pitch_scale = 1.63
+bus = &"World"
+script = ExtResource("8")
+randomPitch = 0.12
+streams = [ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13")]
+
+[node name="GroundPoundSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14")
+volume_db = -2.622
+pitch_scale = 0.75
+bus = &"World"
+script = ExtResource("8")
+randomPitch = 0.12
+
+[node name="GroundPoundSound2" type="AudioStreamPlayer" parent="GroundPoundSound"]
+stream = ExtResource("15")
+volume_db = -2.185
+pitch_scale = 1.09
+bus = &"World"
+script = ExtResource("8")
+randomPitch = 0.08
+
+[node name="StartPound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16")
+volume_db = 2.622
+pitch_scale = 0.64
+bus = &"World"
+script = ExtResource("8")
+randomPitch = 0.0
+
+[node name="StagEnters" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17")
+volume_db = -1.311
+pitch_scale = 0.54
+bus = &"World"
+script = ExtResource("8")
+randomPitch = 0.0
+
+[node name="StepCollisions" type="Area2D" parent="."]
+collision_layer = 524288
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StepCollisions"]
+position = Vector2(0, -1)
+shape = SubResource("107")
+
+[node name="Shot1" type="Marker2D" parent="."]
+position = Vector2(15, -61)
+
+[node name="Shot4" type="Marker2D" parent="."]
+position = Vector2(5, -69)
+
+[node name="Shot7" type="Marker2D" parent="."]
+position = Vector2(-17, -64)
+
+[node name="Shot10" type="Marker2D" parent="."]
+position = Vector2(-3, -69)
+
+[node name="Shot12" type="Marker2D" parent="."]
+position = Vector2(-9, -77)
+
+[node name="Shot14" type="Marker2D" parent="."]
+position = Vector2(15, -61)
+
+[node name="Shot17" type="Marker2D" parent="."]
+position = Vector2(6, -71)
+
+[node name="Ground1" type="Marker2D" parent="."]
+position = Vector2(43, -3)
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="animation_looped" from="Sprite2D" to="." method="_on_sprite_2d_animation_looped"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]

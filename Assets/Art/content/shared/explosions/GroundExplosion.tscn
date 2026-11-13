@@ -1,0 +1,100 @@
+[gd_scene load_steps=15 format=3]
+
+[ext_resource type="Script" path="res://content/shared/explosions/Explosion.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://ud1mrq2pghjx" path="res://content/shared/explosions/explosions-Sheet_rough.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="3"]
+[ext_resource type="AudioStream" uid="uid://b82j86lrejs0n" path="res://content/sounds/Retro Explosion Short 04.wav" id="4"]
+
+[sub_resource type="AtlasTexture" id="23"]
+atlas = ExtResource("2")
+region = Rect2(0, 1856, 251, 232)
+
+[sub_resource type="AtlasTexture" id="24"]
+atlas = ExtResource("2")
+region = Rect2(251, 1856, 251, 232)
+
+[sub_resource type="AtlasTexture" id="25"]
+atlas = ExtResource("2")
+region = Rect2(502, 1856, 251, 232)
+
+[sub_resource type="AtlasTexture" id="26"]
+atlas = ExtResource("2")
+region = Rect2(753, 1856, 251, 232)
+
+[sub_resource type="AtlasTexture" id="27"]
+atlas = ExtResource("2")
+region = Rect2(1004, 1856, 251, 232)
+
+[sub_resource type="AtlasTexture" id="28"]
+atlas = ExtResource("2")
+region = Rect2(1255, 1856, 251, 232)
+
+[sub_resource type="AtlasTexture" id="29"]
+atlas = ExtResource("2")
+region = Rect2(1506, 1856, 251, 232)
+
+[sub_resource type="AtlasTexture" id="30"]
+atlas = ExtResource("2")
+region = Rect2(1757, 1856, 251, 232)
+
+[sub_resource type="SpriteFrames" id="12"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("23")
+}, {
+"duration": 1.0,
+"texture": SubResource("24")
+}, {
+"duration": 1.0,
+"texture": SubResource("25")
+}, {
+"duration": 1.0,
+"texture": SubResource("26")
+}, {
+"duration": 1.0,
+"texture": SubResource("27")
+}, {
+"duration": 1.0,
+"texture": SubResource("28")
+}, {
+"duration": 1.0,
+"texture": SubResource("29")
+}, {
+"duration": 1.0,
+"texture": SubResource("30")
+}],
+"loop": false,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="22"]
+radius = 51.0098
+
+[node name="GroundExplosion" type="Node2D" groups=["unstyled"]]
+script = ExtResource("1")
+damage = 100.0
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(54, -63)
+sprite_frames = SubResource("12")
+frame = 7
+
+[node name="Sound" parent="." instance=ExtResource("3")]
+stream = ExtResource("4")
+pitch_scale = 0.5
+bus = &"World"
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 128
+
+[node name="Collision" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -44)
+shape = SubResource("22")
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]
+[connection signal="finished" from="Sound" to="." method="_on_Sound_finished"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]

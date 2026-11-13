@@ -1,0 +1,65 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://content/minigames/stacking/StackingGame.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://bxa2a1hcdoos7" path="res://content/keeper/keeper1/Keeper1.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://dutjgavl8amrn" path="res://content/map/Map.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://content/minigames/stacking/IronSpawn.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://dmr3janu00wlr" path="res://content/minigames/stacking/GoalArea.tscn" id="5"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(1000, 20)
+
+[node name="StackingGame" type="Node2D"]
+script = ExtResource("1")
+
+[node name="Keeper1" parent="." instance=ExtResource("2")]
+position = Vector2(-88, -33)
+
+[node name="Keeper2" parent="." instance=ExtResource("2")]
+position = Vector2(85, -29)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -91)
+zoom = Vector2(0.2, 0.2)
+
+[node name="Map" parent="." instance=ExtResource("3")]
+visible = false
+position = Vector2(3, 184)
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-355, 0, -11.271, 0, -12, -354, 10, -346, 10.904, 0, 753, 0, 748, 175, -362, 153)
+
+[node name="LevelBorder" type="StaticBody2D" parent="."]
+collision_layer = 3
+collision_mask = 0
+
+[node name="CollisionShape2D1" type="CollisionShape2D" parent="LevelBorder"]
+position = Vector2(0, 10)
+shape = SubResource("1")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="LevelBorder"]
+position = Vector2(2, -213)
+shape = SubResource("1")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="LevelBorder"]
+position = Vector2(-203, -120)
+rotation = 1.5708
+shape = SubResource("1")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="LevelBorder"]
+position = Vector2(201, -133)
+rotation = 1.5708
+shape = SubResource("1")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="LevelBorder"]
+position = Vector2(0, -132)
+rotation = 1.5708
+shape = SubResource("1")
+
+[node name="Spawn1" parent="." instance=ExtResource("4")]
+position = Vector2(-173, -20)
+
+[node name="Spawn2" parent="." instance=ExtResource("4")]
+position = Vector2(171, -20)
+
+[node name="GoalArea1" parent="." instance=ExtResource("5")]

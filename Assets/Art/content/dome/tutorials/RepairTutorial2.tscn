@@ -1,0 +1,53 @@
+[gd_scene load_steps=5 format=3 uid="uid://2uwxhe4unk75"]
+
+[ext_resource type="Theme" uid="uid://bo0ebvm7ocab1" path="res://gui/theme.tres" id="1"]
+[ext_resource type="Script" path="res://content/dome/tutorials/RepairTutorial2.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://dcs06nol76slf" path="res://content/techtree/panels/zero_bright.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://n1g6g63epjhh" path="res://content/icons/domesandrepair.png" id="4"]
+
+[node name="RepairTutorial2" type="MarginContainer"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -582.0
+offset_top = -120.0
+grow_horizontal = 0
+grow_vertical = 0
+theme = ExtResource("1")
+script = ExtResource("2")
+showOnSummaryPopup = false
+summaryCategory = "loadout.dome"
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="PanelContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect2" type="TextureRect" parent="PanelContainer/HBoxContainer/CenterContainer"]
+texture_filter = 1
+custom_minimum_size = Vector2(112, 114)
+layout_mode = 2
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureRect" type="TextureRect" parent="PanelContainer/HBoxContainer/CenterContainer"]
+texture_filter = 1
+custom_minimum_size = Vector2(88, 88)
+layout_mode = 2
+texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="PanelContainer/HBoxContainer"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "level.tutorial.repair.usecobalt"
+autowrap_mode = 3

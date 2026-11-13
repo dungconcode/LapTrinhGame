@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://content/weapons/tesla/TeslaShockArc.gd" id="1"]
+
+[sub_resource type="Curve" id="66"]
+_data = [Vector2(0.0033557, 0.2), 0.0, 1.40471, 0, 0, Vector2(0.241611, 0.8), -1.49937, -1.49937, 0, 0, Vector2(0.281879, 0.190909), -0.0542699, -0.0542699, 0, 0, Vector2(0.355705, 0.181818), 0.0, 0.0, 0, 0, Vector2(0.369128, 0.990909), 0.0, 0.0, 0, 0, Vector2(0.916107, 0.427273), 0.0, 0.0, 0, 0, Vector2(1, 0.0727272), -1.09654, 0.0, 0, 0]
+point_count = 7
+
+[node name="ObeliskShockArc" type="Line2D"]
+z_index = 500
+width = 1.08
+width_curve = SubResource("66")
+default_color = Color(0.439216, 1, 0, 1)
+script = ExtResource("1")

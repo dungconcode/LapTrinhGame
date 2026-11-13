@@ -1,0 +1,96 @@
+[gd_scene load_steps=15 format=3 uid="uid://cgd7shctto2ey"]
+
+[ext_resource type="Texture2D" uid="uid://b65a10luskm1v" path="res://content/caves/bombcave/cavemine_explosion_sheet.png" id="1"]
+[ext_resource type="Script" path="res://content/caves/bombcave/ExplosionCaveBomb.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="3"]
+[ext_resource type="AudioStream" uid="uid://d3511v567m5wa" path="res://content/sounds/Biomes/Bomberman bomb.wav" id="4"]
+
+[sub_resource type="AtlasTexture" id="1"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 99, 102)
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("1")
+region = Rect2(99, 0, 99, 102)
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("1")
+region = Rect2(198, 0, 99, 102)
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("1")
+region = Rect2(297, 0, 99, 102)
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("1")
+region = Rect2(396, 0, 99, 102)
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("1")
+region = Rect2(495, 0, 99, 102)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("1")
+region = Rect2(594, 0, 99, 102)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("1")
+region = Rect2(693, 0, 99, 102)
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource("1")
+region = Rect2(792, 0, 99, 102)
+
+[sub_resource type="SpriteFrames" id="10"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("1")
+}, {
+"duration": 1.0,
+"texture": SubResource("2")
+}, {
+"duration": 1.0,
+"texture": SubResource("3")
+}, {
+"duration": 1.0,
+"texture": SubResource("4")
+}, {
+"duration": 1.0,
+"texture": SubResource("5")
+}, {
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}, {
+"duration": 1.0,
+"texture": SubResource("9")
+}],
+"loop": false,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="Explosion" type="AnimatedSprite2D"]
+z_index = 40
+z_as_relative = false
+position = Vector2(0, -2)
+sprite_frames = SubResource("10")
+script = ExtResource("2")
+
+[node name="Bang" parent="." instance=ExtResource("3")]
+stream = ExtResource("4")
+volume_db = 9.0
+pitch_scale = 1.2
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 400.0
+minAudibleDistance = 200.0
+
+[connection signal="animation_finished" from="." to="." method="finished"]

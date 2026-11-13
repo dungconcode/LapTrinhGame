@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=3 uid="uid://368yxxxho7lw"]
+
+[ext_resource type="Texture2D" uid="uid://bwmrahkt5462e" path="res://content/shared/difficulty/skull_difficulties_panel.png" id="1"]
+[ext_resource type="Script" path="res://content/shared/difficulty/DifficultyBadge.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://b87hsa2q6mtqg" path="res://content/shared/difficulty/skull_difficulties_1.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://d3881xp54qujg" path="res://content/shared/difficulty/skull_difficulties_2.png" id="4"]
+
+[node name="DifficultyBadge" type="TextureRect" groups=["unstyled"]]
+texture_filter = 1
+custom_minimum_size = Vector2(158, 84)
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1762.0
+offset_bottom = -996.0
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 2
+script = ExtResource("2")
+
+[node name="Skull1" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 54.0
+offset_bottom = 68.0
+expand_mode = 1
+stretch_mode = 2
+
+[node name="Skull2" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 60.0
+offset_top = 16.0
+offset_right = 98.0
+offset_bottom = 68.0
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 2
+
+[node name="Skull3" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 104.0
+offset_top = 16.0
+offset_right = 142.0
+offset_bottom = 68.0
+texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 2

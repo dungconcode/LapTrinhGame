@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bafouss6kuus7"]
+
+[ext_resource type="Material" uid="uid://de8md174p2gt8" path="res://content/gadgets/mushroomfarm/MushroomEffectOverlayMat.tres" id="1"]
+[ext_resource type="Script" path="res://content/gadgets/mushroomfarm/MushroomEffectOverlay.gd" id="2"]
+
+[node name="MushroomEffectOverlay" type="ColorRect"]
+z_index = -1
+material = ExtResource("1")
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("2")

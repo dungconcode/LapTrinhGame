@@ -1,0 +1,144 @@
+[gd_scene load_steps=16 format=3 uid="uid://u7n13sgy313v"]
+
+[ext_resource type="Material" uid="uid://day50apjw6md" path="res://content/monster/FlashMaterial.tres" id="1"]
+[ext_resource type="Script" path="res://content/monster/driller/Driller.gd" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://d21jbwst6xn52" path="res://content/monster/driller/spriteframes.tres" id="3"]
+[ext_resource type="AudioStream" uid="uid://ce06v6wyq1ur0" path="res://content/sounds/monster/driller/sphere amb_darkness_distortion.wav" id="4"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="5"]
+[ext_resource type="AudioStream" uid="uid://c1roi5hlbmvpv" path="res://content/sounds/monster/driller/DomeDrillerSettle.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://bjt8li2vu4xgt" path="res://content/sounds/monster/diver/DrillerImpact.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://22uyb5ckvbaw" path="res://content/sounds/monster/driller/DrillerImpact.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://l6uvan1fmlcm" path="res://content/sounds/monster/driller/DrillerDie.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://cutnsjew5nnre" path="res://content/sounds/monster/driller/DrillerDie_v2.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://twn7q75geac4" path="res://content/sounds/monster/snd_hard_01.wav" id="11"]
+
+[sub_resource type="CapsuleShape2D" id="2"]
+radius = 28.0
+height = 86.0
+
+[sub_resource type="CapsuleShape2D" id="4"]
+radius = 6.96843
+height = 83.8052
+
+[sub_resource type="CapsuleShape2D" id="5"]
+radius = 8.18263
+height = 94.8101
+
+[sub_resource type="CircleShape2D" id="6"]
+radius = 28.3019
+
+[node name="Driller" type="Area2D" groups=["monster"]]
+texture_filter = 1
+material = ExtResource("1")
+collision_layer = 128
+collision_mask = 0
+script = ExtResource("2")
+techId = "driller"
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+material = ExtResource("1")
+position = Vector2(0, -37)
+sprite_frames = ExtResource("3")
+animation = &"walk"
+
+[node name="HitboxWalk" type="CollisionShape2D" parent="."]
+position = Vector2(0, -40)
+shape = SubResource("2")
+
+[node name="HitboxAttack1" type="CollisionShape2D" parent="."]
+position = Vector2(-45, -55)
+rotation = 0.975639
+shape = SubResource("4")
+disabled = true
+
+[node name="HitboxAttack2" type="CollisionShape2D" parent="."]
+position = Vector2(14, -35)
+rotation = -0.50091
+shape = SubResource("5")
+disabled = true
+
+[node name="HitboxAttack3" type="CollisionShape2D" parent="."]
+position = Vector2(-9.53674e-07, -18)
+rotation = 0.975639
+shape = SubResource("6")
+disabled = true
+
+[node name="HitboxDefault1" type="CollisionShape2D" parent="."]
+position = Vector2(14, -35)
+rotation = -0.50091
+shape = SubResource("5")
+disabled = true
+
+[node name="HitboxDefault2" type="CollisionShape2D" parent="."]
+position = Vector2(-9.53674e-07, -18)
+rotation = 0.975639
+shape = SubResource("6")
+disabled = true
+
+[node name="HitPosition" type="Marker2D" parent="."]
+position = Vector2(-85, -29)
+
+[node name="Particles1" type="GPUParticles2D" parent="."]
+position = Vector2(-83, -29)
+emitting = false
+amount = 20
+lifetime = 0.5
+
+[node name="Particles2" type="GPUParticles2D" parent="."]
+position = Vector2(-83, -29)
+emitting = false
+amount = 20
+lifetime = 0.5
+
+[node name="PunchSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4")
+volume_db = -7.767
+bus = &"World"
+
+[node name="SettleSound" parent="." instance=ExtResource("5")]
+stream = ExtResource("6")
+volume_db = 1.748
+pitch_scale = 1.12
+bus = &"Important"
+randomVolume = 0.3
+randomPitch = 0.0
+
+[node name="SettleSound2" parent="SettleSound" instance=ExtResource("5")]
+stream = ExtResource("7")
+volume_db = -2.319
+pitch_scale = 0.89
+bus = &"World"
+removeAfterPlaying = true
+
+[node name="ImpactSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8")
+volume_db = 6.0
+bus = &"Important"
+
+[node name="DieSound" parent="." instance=ExtResource("5")]
+stream = ExtResource("9")
+volume_db = -3.0
+bus = &"Important"
+randomVolume = 1.0
+randomPitch = 0.2
+removeAfterPlaying = true
+
+[node name="DieSound2" parent="DieSound" instance=ExtResource("5")]
+stream = ExtResource("10")
+volume_db = -3.0
+pitch_scale = 1.07
+bus = &"World"
+randomVolume = 1.0
+randomPitch = 0.2
+removeAfterPlaying = true
+
+[node name="IsHitSound" parent="." instance=ExtResource("5")]
+stream = ExtResource("11")
+volume_db = -4.0
+pitch_scale = 1.71
+bus = &"World"
+randomVolume = 1.0
+randomPitch = 0.2
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="animation_looped" from="Sprite2D" to="." method="_on_sprite_2d_animation_looped"]

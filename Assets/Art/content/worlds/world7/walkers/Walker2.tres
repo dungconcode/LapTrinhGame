@@ -1,0 +1,45 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://brr453j4fbw4g"]
+
+[ext_resource type="Texture2D" uid="uid://lbojg1hiikl4" path="res://content/worlds/world7/creature_small_2.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jjfax"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 20, 82)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ghhrf"]
+atlas = ExtResource("1")
+region = Rect2(20, 0, 20, 82)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_52bsj"]
+atlas = ExtResource("1")
+region = Rect2(40, 0, 20, 82)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_udwjh"]
+atlas = ExtResource("1")
+region = Rect2(60, 0, 20, 82)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jjfax")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ghhrf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_52bsj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_udwjh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_52bsj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ghhrf")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]

@@ -1,0 +1,50 @@
+[gd_scene load_steps=5 format=3 uid="uid://blckokskpp624"]
+
+[sub_resource type="CanvasItemMaterial" id="1"]
+blend_mode = 1
+
+[sub_resource type="Gradient" id="2"]
+offsets = PackedFloat32Array(0, 0.557878, 1)
+colors = PackedColorArray(0.815686, 0.505882, 0.34902, 1, 0.815686, 0.505882, 0.34902, 1, 1, 1, 1, 0)
+
+[sub_resource type="Animation" id="3"]
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(1),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_xepm1"]
+_data = {
+"AutoDestroy": SubResource("3")
+}
+
+[node name="HitParticle" type="CPUParticles2D"]
+z_index = 100
+material = SubResource("1")
+emitting = false
+amount = 10
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+lifetime_randomness = 0.5
+emission_shape = 1
+emission_sphere_radius = 2.0
+direction = Vector2(0, -1)
+spread = 32.19
+color_ramp = SubResource("2")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_xepm1")
+}
+autoplay = "AutoDestroy"

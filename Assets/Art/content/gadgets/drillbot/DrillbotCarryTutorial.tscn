@@ -1,0 +1,46 @@
+[gd_scene load_steps=4 format=3 uid="uid://cbes3xdjhcwhp"]
+
+[ext_resource type="Theme" uid="uid://bo0ebvm7ocab1" path="res://gui/theme.tres" id="1"]
+[ext_resource type="Script" path="res://content/gadgets/drillbot/DrillbotCarryTutorial.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://3cjes43eycx7" path="res://content/gadgets/drillbot/tutpic1.png" id="3"]
+
+[node name="Drillbert1Tutorial" type="MarginContainer"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -545.0
+offset_top = -146.0
+grow_horizontal = 0
+grow_vertical = 0
+theme = ExtResource("1")
+script = ExtResource("2")
+summaryCategory = "upgrades.drillbot.title"
+moveInDelay = 1.0
+listeningDelay = 3.0
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+
+[node name="OrchardImage" type="TextureRect" parent="PanelContainer/HBoxContainer"]
+texture_filter = 1
+custom_minimum_size = Vector2(54, 66)
+layout_mode = 2
+texture = ExtResource("3")
+stretch_mode = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="PanelContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "level.tutorial.drillbot.carry"
+autowrap_mode = 3

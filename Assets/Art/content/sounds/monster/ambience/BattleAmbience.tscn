@@ -1,0 +1,255 @@
+[gd_scene load_steps=26 format=3 uid="uid://qxxy345jrvm5"]
+
+[ext_resource type="Script" path="res://content/sounds/monster/ambience/BattleAmbience.gd" id="1"]
+[ext_resource type="AudioStream" uid="uid://dcolu0mapq1rg" path="res://content/sounds/monster/ambience/elgen.ogg" id="2"]
+[ext_resource type="Script" path="res://content/sounds/monster/ambience/MonsterAmbience.gd" id="3"]
+[ext_resource type="AudioStream" uid="uid://p5l2b2y1f2fn" path="res://content/sounds/monster/walker/run.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://c11w26t1xwjna" path="res://content/sounds/monster/Mucker/MuckerApprocach.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://btdiw5r4ybbp3" path="res://content/sounds/monster/ambience/Rythmic 2.ogg" id="6"]
+[ext_resource type="AudioStream" uid="uid://ccpi3nannc1eg" path="res://content/sounds/monster/Mucker_amb.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://bbvtgv0e7a8v8" path="res://content/sounds/monster/amb_monsterAttack.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://dml30dbidxya0" path="res://content/sounds/monster/ambience/bjeff.ogg" id="9"]
+[ext_resource type="AudioStream" uid="uid://ckwq4m7xub87v" path="res://content/sounds/monster/ambience/unHoly.ogg" id="10"]
+[ext_resource type="AudioStream" uid="uid://bmybd7taluwmg" path="res://content/sounds/monster/ambience/LOOW .ogg" id="11"]
+[ext_resource type="AudioStream" uid="uid://cwrqy0m20u4wk" path="res://content/sounds/monster/ambience/eerie flyer.ogg" id="12"]
+[ext_resource type="AudioStream" uid="uid://vy25cilko5da" path="res://content/sounds/monster/ambience/manifoldnoise.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://1a6e8buw7m4b" path="res://content/sounds/monster/ambience/virus amb2.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://h1ii6dnpgfo1" path="res://content/sounds/monster/ambience/Tick amb.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://whle57665xmb" path="res://content/sounds/monster/STINGRAY/PERFECT.wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://g6cg4bul73qo" path="res://content/sounds/monster/Shifter_amb.wav" id="17"]
+[ext_resource type="AudioStream" uid="uid://cl0nfyycri0wd" path="res://content/sounds/monster/ambience/mosquitoa2.wav" id="18"]
+[ext_resource type="AudioStream" uid="uid://cqbtmtootl8op" path="res://content/sounds/monster/ambience/Bloater.wav" id="19"]
+[ext_resource type="AudioStream" uid="uid://bs7ojhu0lb6q2" path="res://content/sounds/monster/ambience/amb phaser.wav" id="20"]
+[ext_resource type="AudioStream" uid="uid://bxhga4ljnxaf" path="res://content/sounds/monster/beast/BeastAmb_01.wav" id="21"]
+[ext_resource type="AudioStream" uid="uid://6jixmu0ye3dy" path="res://content/sounds/monster/beast/layerchaor.wav" id="22"]
+[ext_resource type="AudioStream" uid="uid://dnrx3geseytl7" path="res://content/sounds/monster/ambience/Electyric noice.wav" id="23"]
+[ext_resource type="AudioStream" uid="uid://b2257nj7yijo7" path="res://content/sounds/monster/ambience/amb breeder.wav" id="24"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="25"]
+
+[node name="BattleAmbience" type="Node"]
+script = ExtResource("1")
+
+[node name="Walker_2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2")
+volume_db = 0.899
+pitch_scale = 1.01
+bus = &"Ambience"
+script = ExtResource("3")
+beginAt = 2.0
+maximumAt = 4.0
+
+[node name="Rockman_3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2")
+volume_db = -0.849
+pitch_scale = 0.8
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Walker_3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4")
+volume_db = -5.961
+pitch_scale = 0.81
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+one_shot = true
+
+[node name="Rockman_2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4")
+volume_db = -8.146
+pitch_scale = 0.76
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+one_shot = true
+
+[node name="Mucker_2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5")
+volume_db = -5.524
+pitch_scale = 0.99
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Walker_1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6")
+volume_db = 12.392
+pitch_scale = 0.99
+bus = &"Ambience"
+script = ExtResource("3")
+
+[node name="Rockman" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6")
+volume_db = 12.392
+pitch_scale = 0.77
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 3.0
+
+[node name="Diver_1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7")
+volume_db = -4.831
+pitch_scale = 0.94
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Slug_1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8")
+pitch_scale = 1.05
+bus = &"Ambience"
+script = ExtResource("3")
+
+[node name="Worm_1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9")
+volume_db = 5.759
+pitch_scale = 1.01
+bus = &"Ambience"
+script = ExtResource("3")
+
+[node name="Driller" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10")
+volume_db = 5.42
+pitch_scale = 1.01
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Driller_3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11")
+volume_db = 5.42
+pitch_scale = 1.01
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Flyer_1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12")
+pitch_scale = 0.82
+bus = &"Ambience"
+script = ExtResource("3")
+
+[node name="Tick_1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13")
+volume_db = 5.651
+pitch_scale = 1.03
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Bolter_1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14")
+pitch_scale = 1.03
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Scarab_1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14")
+pitch_scale = 0.51
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Tick_2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15")
+volume_db = 5.159
+pitch_scale = 0.84
+bus = &"Ambience"
+script = ExtResource("3")
+
+[node name="Butterfly" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7")
+volume_db = -3.58
+pitch_scale = 0.84
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Stingray" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16")
+volume_db = 7.345
+pitch_scale = 1.13
+bus = &"Ambience"
+script = ExtResource("3")
+
+[node name="Shifter" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17")
+volume_db = 10.84
+pitch_scale = 0.84
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Phaser_2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17")
+volume_db = 3.345
+pitch_scale = 0.69
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Mucker" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("18")
+volume_db = -1.395
+pitch_scale = 0.97
+bus = &"Ambience"
+script = ExtResource("3")
+
+[node name="Bloater" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("19")
+volume_db = 4.146
+pitch_scale = 0.97
+bus = &"Ambience"
+script = ExtResource("3")
+
+[node name="Phaser" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("20")
+volume_db = -1.395
+pitch_scale = 0.97
+bus = &"Ambience"
+script = ExtResource("3")
+
+[node name="Beast_1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("21")
+volume_db = -9.271
+pitch_scale = 0.97
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+one_shot = true
+
+[node name="Beast_2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("22")
+volume_db = 12.151
+pitch_scale = 0.97
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Tormentor" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("23")
+volume_db = 14.025
+pitch_scale = 0.97
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Breeder" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("24")
+volume_db = -3.242
+pitch_scale = 0.97
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Bloater2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("24")
+volume_db = -6.172
+pitch_scale = 0.74
+bus = &"Ambience"
+script = ExtResource("3")
+maximumAt = 1.0
+
+[node name="Tween" parent="." instance=ExtResource("25")]

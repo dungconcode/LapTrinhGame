@@ -1,0 +1,48 @@
+[gd_scene load_steps=4 format=3 uid="uid://cgr6m3cxspawy"]
+
+[ext_resource type="Theme" uid="uid://bo0ebvm7ocab1" path="res://gui/theme.tres" id="1"]
+[ext_resource type="Script" path="res://content/gadgets/teleporter/TeleporterTakeTutorial.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://b6ki514ksas53" path="res://content/gadgets/teleporter/tutpic2.png" id="3"]
+
+[node name="TeleporterTutorial" type="MarginContainer"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -473.0
+offset_top = -105.0
+grow_horizontal = 0
+grow_vertical = 0
+theme = ExtResource("1")
+script = ExtResource("2")
+summaryCategory = "upgrades.teleporter.title"
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="PanelContainer/HBoxContainer"]
+texture_filter = 1
+custom_minimum_size = Vector2(66, 60)
+layout_mode = 2
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="PanelContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(450, 0)
+layout_mode = 2
+text = "level.tutorial.teleporter.take1"
+autowrap_mode = 3
+
+[node name="Label2" type="Label" parent="PanelContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(450, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "level.tutorial.teleporter.take2"
+autowrap_mode = 3

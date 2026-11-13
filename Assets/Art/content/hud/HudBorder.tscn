@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqhvc7j5b2f0g"]
+
+[ext_resource type="Texture2D" uid="uid://bibdatnpw7xwl" path="res://content/hud/hudborder.png" id="1"]
+
+[node name="HudBorder" type="Sprite2D"]
+texture_filter = 1
+texture = ExtResource("1")
+hframes = 4
+vframes = 4
+frame = 2

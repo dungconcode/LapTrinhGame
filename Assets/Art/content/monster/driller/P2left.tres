@@ -1,0 +1,10 @@
+[gd_resource type="ParticleProcessMaterial" load_steps=2 format=3]
+
+[ext_resource type="Texture2D" uid="uid://dyyfds1w0uaq0" path="res://content/monster/driller/drill_gradient.tres" id="1"]
+
+[resource]
+lifetime_randomness = 0.4
+direction = Vector3(-1, 0.3, 0)
+spread = 15.0
+gravity = Vector3(0, 0, 0)
+color_ramp = ExtResource("1")

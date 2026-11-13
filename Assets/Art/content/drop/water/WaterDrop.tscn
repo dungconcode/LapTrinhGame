@@ -1,0 +1,45 @@
+[gd_scene load_steps=11 format=3 uid="uid://cf8kibbqurie8"]
+
+[ext_resource type="PackedScene" uid="uid://cndiyiean38ms" path="res://content/drop/MineralDrop.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://c7sqlyxi0hxga" path="res://content/drop/water/water_smol.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://jd8nnjnx0d3v" path="res://content/drop/water/carried.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dgb8glop3jfmo" path="res://content/drop/water/focussed.png" id="4"]
+[ext_resource type="AudioStream" uid="uid://c5k32uvffwsop" path="res://content/sounds/drops/waterTest_01.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://blquo55tyst6v" path="res://content/sounds/drops/waterTest_02.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://c86dr5q5dv1yu" path="res://content/sounds/drops/waterTest_03.wav" id="7"]
+[ext_resource type="PackedScene" path="res://content/drop/water/water_shred_particles.tscn" id="8"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_1a7r6"]
+resource_local_to_scene = true
+friction = 0.6
+bounce = 0.45
+
+[sub_resource type="CircleShape2D" id="2"]
+radius = 4.0
+
+[node name="WaterDrop" groups=["saveable"] instance=ExtResource("1")]
+physics_material_override = SubResource("PhysicsMaterial_1a7r6")
+type = "water"
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2")
+
+[node name="CarrySprite" parent="." index="1"]
+visible = false
+texture = ExtResource("3")
+
+[node name="FocusSprite" parent="." index="2"]
+visible = false
+texture = ExtResource("4")
+
+[node name="BumpSound" parent="." index="4"]
+volume_db = -15.449
+pitch_scale = 1.67
+bus = &"NoMusic"
+randomPitch = 0.14
+streams = [ExtResource("5"), ExtResource("6"), ExtResource("7")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="5"]
+shape = SubResource("2")
+
+[node name="ShredParticles" parent="." index="6" instance=ExtResource("8")]

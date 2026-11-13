@@ -1,0 +1,104 @@
+[gd_scene load_steps=19 format=3 uid="uid://8213pd2dxv5f"]
+
+[ext_resource type="Script" path="res://content/monster/worm/Worm.gd" id="1"]
+[ext_resource type="Material" uid="uid://day50apjw6md" path="res://content/monster/FlashMaterial.tres" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://6vydg3ysyfem" path="res://content/monster/worm/spriteframes.tres" id="3"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="4"]
+[ext_resource type="AudioStream" uid="uid://bn4kqlo75ijrp" path="res://content/sounds/monster/worm/Worm_Die.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://dpaynu20hhuq7" path="res://content/sounds/monster/worm/Worm_Spit.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://irbf6o5jbff4" path="res://content/sounds/monster/worm/spit.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://docykamruaqy4" path="res://content/sounds/monster/worm/Worm_Emerge.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://ch7royt2ri21u" path="res://content/sounds/monster/tick/tick_jump.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://chpjt3p7xay7o" path="res://content/sounds/monster/tick/Tick_Jump_01.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://cgx4q8j40wfo2" path="res://content/sounds/monster/tick/Tick_Jump_02.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://cjuwi7ic6cqgk" path="res://content/sounds/monster/tick/Tick_Jump_03.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://dhavai4rp5l08" path="res://content/sounds/monster/tick/Tick_Jump_04.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://bhhdiylg238tq" path="res://content/sounds/monster/tick/Tick_Jump_05.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://b2l2cx3unx3av" path="res://content/sounds/monster/worm/Worm_Burrow.wav" id="15"]
+
+[sub_resource type="CapsuleShape2D" id="34"]
+radius = 5.0
+height = 58.0
+
+[sub_resource type="RectangleShape2D" id="123"]
+size = Vector2(26, 11)
+
+[sub_resource type="RectangleShape2D" id="124"]
+size = Vector2(22, 11)
+
+[node name="Worm" type="Area2D" groups=["monster"]]
+texture_filter = 1
+collision_layer = 128
+collision_mask = 0
+script = ExtResource("1")
+techId = "worm"
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+material = ExtResource("2")
+position = Vector2(14, -30)
+sprite_frames = ExtResource("3")
+animation = &"hit"
+
+[node name="HitboxDefault1" type="CollisionShape2D" parent="."]
+position = Vector2(14, -29)
+rotation = 1.5708
+shape = SubResource("34")
+disabled = true
+
+[node name="HitboxDefault2" type="CollisionShape2D" parent="."]
+position = Vector2(-4, -12)
+rotation = 1.5708
+shape = SubResource("123")
+disabled = true
+
+[node name="HitboxBurrowowowow" type="CollisionShape2D" parent="."]
+position = Vector2(-5, -12)
+rotation = 1.5708
+shape = SubResource("124")
+disabled = true
+
+[node name="ShootPosition" type="Marker2D" parent="."]
+position = Vector2(-6, -22)
+
+[node name="RockSpawnPosition" type="Marker2D" parent="."]
+position = Vector2(43, -51)
+
+[node name="DieSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("5")
+pitch_scale = 0.88
+bus = &"World"
+randomVolume = 1.0
+randomPitch = 0.2
+
+[node name="SpitSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("6")
+pitch_scale = 1.48
+bus = &"World"
+
+[node name="SpitSound2" parent="SpitSound" instance=ExtResource("4")]
+stream = ExtResource("7")
+volume_db = -0.437
+pitch_scale = 0.79
+bus = &"World"
+
+[node name="EmergeSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("8")
+pitch_scale = 1.26
+bus = &"World"
+
+[node name="StunSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("9")
+volume_db = 1.958
+pitch_scale = 1.53
+bus = &"World"
+randomPitch = 0.18
+streams = [ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14")]
+
+[node name="BurrowSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("15")
+pitch_scale = 1.25
+bus = &"World"
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="animation_looped" from="Sprite2D" to="." method="_on_sprite_2d_animation_looped"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]

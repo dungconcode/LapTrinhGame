@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dgf1je468xeck"
+path="res://.godot/imported/op1_ield_48 copy.wav-89a1b503b89dd4cabf81cd3f75cb5641.sample"
+
+[deps]
+
+source_file="res://content/sounds/op1_ield_48 copy.wav"
+dest_files=["res://.godot/imported/op1_ield_48 copy.wav-89a1b503b89dd4cabf81cd3f75cb5641.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

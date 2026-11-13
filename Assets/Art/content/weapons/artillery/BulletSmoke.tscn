@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dpg5riaifoq6j"]
+
+[ext_resource type="Material" uid="uid://l0f2mkpask5m" path="res://content/weapons/artillery/MortarSmokeMat.tres" id="1"]
+
+[node name="BulletSmoke" type="Line2D"]
+modulate = Color(0, 0, 0, 1)
+texture_filter = 4
+texture_repeat = 2
+material = ExtResource("1")
+points = PackedVector2Array(0, 0, 0, 0)
+width = 4.0
+texture_mode = 2
+joint_mode = 2
+round_precision = 4

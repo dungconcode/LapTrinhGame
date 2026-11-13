@@ -1,0 +1,81 @@
+[gd_scene load_steps=12 format=3 uid="uid://dm3hmylxmpywr"]
+
+[ext_resource type="Texture2D" uid="uid://cpwocoot2g0tw" path="res://content/keeper/keeper2/player1/sphere_split.png" id="1"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/SplitSlice.gd" id="2"]
+
+[sub_resource type="AtlasTexture" id="261"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="262"]
+atlas = ExtResource("1")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="263"]
+atlas = ExtResource("1")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="264"]
+atlas = ExtResource("1")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="265"]
+atlas = ExtResource("1")
+region = Rect2(192, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="266"]
+atlas = ExtResource("1")
+region = Rect2(240, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="267"]
+atlas = ExtResource("1")
+region = Rect2(288, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="268"]
+atlas = ExtResource("1")
+region = Rect2(336, 0, 48, 48)
+
+[sub_resource type="SpriteFrames" id="260"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("261")
+}, {
+"duration": 1.0,
+"texture": SubResource("261")
+}, {
+"duration": 1.0,
+"texture": SubResource("262")
+}, {
+"duration": 1.0,
+"texture": SubResource("263")
+}, {
+"duration": 1.0,
+"texture": SubResource("264")
+}, {
+"duration": 1.0,
+"texture": SubResource("265")
+}, {
+"duration": 1.0,
+"texture": SubResource("266")
+}, {
+"duration": 1.0,
+"texture": SubResource("267")
+}, {
+"duration": 1.0,
+"texture": SubResource("268")
+}],
+"loop": false,
+"name": &"slice",
+"speed": 16.0
+}]
+
+[node name="SplitSlice" type="AnimatedSprite2D"]
+process_mode = 3
+z_index = 50
+sprite_frames = SubResource("260")
+animation = &"slice"
+script = ExtResource("2")
+
+[connection signal="animation_finished" from="." to="." method="_on_SplitSlice_animation_finished"]
+[connection signal="animation_looped" from="." to="." method="_on_animation_looped"]

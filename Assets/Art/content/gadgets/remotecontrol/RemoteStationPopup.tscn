@@ -1,0 +1,149 @@
+[gd_scene load_steps=8 format=3 uid="uid://o8ridijsniui"]
+
+[ext_resource type="Theme" uid="uid://bo0ebvm7ocab1" path="res://gui/theme.tres" id="1"]
+[ext_resource type="Script" path="res://content/gadgets/remotecontrol/RemoteStationPopup.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://y24moy72idmu" path="res://gui/buttons/Action.tscn" id="3"]
+[ext_resource type="LabelSettings" uid="uid://ce6cjgfmffufc" path="res://gui/fontsettings/LargeFontSettings.tres" id="4"]
+[ext_resource type="TileSet" uid="uid://dmmhydi0tgr84" path="res://content/gadgets/remotecontrol/minimap_tileset.tres" id="5"]
+[ext_resource type="Script" path="res://content/map/MapData.gd" id="6"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="7"]
+
+[node name="RemoteStationPopup" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -509.5
+offset_top = -58.0
+offset_right = 509.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+
+[node name="ActionBattle" parent="PanelContainer/HBoxContainer" instance=ExtResource("3")]
+layout_mode = 2
+action = "dome_battle"
+
+[node name="ActionBattleLabel" type="Label" parent="PanelContainer/HBoxContainer"]
+layout_mode = 2
+text = "level.station.navbar.battle"
+
+[node name="HBoxActionUpgrades" type="HBoxContainer" parent="PanelContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="ActionUpgradesSeparator" type="VSeparator" parent="PanelContainer/HBoxContainer/HBoxActionUpgrades"]
+layout_mode = 2
+
+[node name="ActionUpgrades" parent="PanelContainer/HBoxContainer/HBoxActionUpgrades" instance=ExtResource("3")]
+layout_mode = 2
+action = "dome_upgrades"
+
+[node name="ActionUpgradesLabel" type="Label" parent="PanelContainer/HBoxContainer/HBoxActionUpgrades"]
+layout_mode = 2
+text = "level.station.navbar.upgrades"
+
+[node name="ActionBackSeparator" type="VSeparator" parent="PanelContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="ActionEmergencyExit" parent="PanelContainer/HBoxContainer" instance=ExtResource("3")]
+unique_name_in_owner = true
+layout_mode = 2
+action = "dome_ability1"
+
+[node name="ActionEmergencyExitLabel" type="Label" parent="PanelContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "level.station.navbar.emergencyexit"
+
+[node name="ActionBackSeparator2" type="VSeparator" parent="PanelContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="ActionBack" parent="PanelContainer/HBoxContainer" instance=ExtResource("3")]
+layout_mode = 2
+action = "ui_cancel"
+
+[node name="ActionBackLabel" type="Label" parent="PanelContainer/HBoxContainer"]
+layout_mode = 2
+text = "level.station.navbar.exit"
+
+[node name="MiniMap" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -72.0
+offset_top = -51.0
+offset_right = 72.0
+offset_bottom = 51.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MiniMap"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MiniMap/MarginContainer"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="MiniMap/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"HeaderLarge"
+text = "Minimap"
+label_settings = ExtResource("4")
+horizontal_alignment = 1
+
+[node name="MapContainer" type="Control" parent="MiniMap/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_filter = 2
+
+[node name="MapData" type="TileMap" parent="MiniMap/MarginContainer/VBoxContainer/MapContainer"]
+unique_name_in_owner = true
+z_index = 500
+position = Vector2(-28, -74)
+scale = Vector2(1.5, 1.5)
+tile_set = ExtResource("5")
+format = 2
+layer_0/name = "biomes"
+layer_0/enabled = false
+layer_0/navigation_enabled = false
+layer_0/tile_data = PackedInt32Array(-589823, 262145, 3, -524288, 262145, 3, -458753, 262145, 3, -393218, 262145, 3, -393219, 262145, 3, -393220, 262145, 3, -327684, 262145, 3, -327685, 262145, 3, -262150, 262145, 3, -262151, 262145, 3, -196615, 262145, 3, -196616, 262145, 3, -131080, 262145, 3, -196614, 262145, 3, -196613, 262145, 3, -196612, 262145, 3, -196611, 262145, 3, -196610, 262145, 3, -262146, 262145, 3)
+layer_1/name = "hardness"
+layer_1/enabled = false
+layer_1/navigation_enabled = false
+layer_1/tile_data = PackedInt32Array(-720894, 262145, 3, -655358, 262145, 3, -655359, 262145, 3, -589823, 262145, 3, -589824, 262145, 3, -524288, 262145, 3, -458753, 262145, 3, -393217, 262145, 3, -327682, 262145, 3, -327683, 262145, 3, -262147, 262145, 3, -262148, 262145, 3, -196612, 262145, 3, -196611, 262145, 3, -196610, 262145, 3, -196609, 262145, 3, -262144, 262145, 3, -262143, 262145, 3, -262142, 262145, 3, -262141, 262145, 3, -196604, 262145, 3, -196605, 262145, 3, -196606, 262145, 3, -196607, 262145, 3, -196608, 262145, 3, -131073, 262145, 3, -65537, 262145, 3, -131072, 262145, 3, -131071, 262145, 3, -131070, 262145, 3, -131069, 262145, 3, -131068, 262145, 3, -65532, 262145, 3, -262138, 262145, 3, -262139, 262145, 3, -196602, 262145, 3, -196601, 262145, 3)
+layer_2/name = "resources"
+layer_2/navigation_enabled = false
+layer_2/tile_data = PackedInt32Array(-1507330, 1, 0, -1441794, 1, 0, -1376258, 1, 0, -1310723, 1, 0, -1245187, 1, 0, -1179651, 1, 0, -1114115, 1, 0, -1048580, 1, 0, -983044, 1, 0, -917509, 1, 0, -851973, 1, 0, -786438, 1, 0, -720903, 1, 0, -655367, 1, 0, -589832, 1, 0, -524296, 1, 0, -458760, 1, 0, -393225, 1, 0, -327689, 1, 0, -262154, 1, 0, -196619, 1, 0, -131083, 1, 0, -65548, 1, 0, -12, 1, 0, 65523, 1, 0, 131059, 1, 0, 196595, 1, 0, 262130, 1, 0, 327666, 1, 0, 393202, 1, 0, 458738, 1, 0, 524273, 1, 0, 589809, 1, 0, 655345, 1, 0, 720881, 1, 0, 786417, 1, 0, 851953, 1, 0, 917489, 1, 0, 917490, 1, 0, 917491, 1, 0, 917492, 1, 0, 917493, 1, 0, 917494, 1, 0, 851959, 1, 0, 851960, 1, 0, 786425, 1, 0, 786426, 1, 0, 786427, 1, 0, 720892, 1, 0, 720893, 1, 0, 720894, 1, 0, 720895, 1, 0, 655360, 1, 0, 655361, 1, 0, 655362, 1, 0, 655363, 1, 0, 655364, 1, 0, 655365, 1, 0, 655366, 1, 0, 720903, 1, 0, 786439, 1, 0, 851976, 1, 0, 917512, 1, 0, 983048, 1, 0, 1048584, 1, 0, 1114119, 1, 0, 1179655, 1, 0, 1245190, 1, 0, 1310725, 1, 0, 1376260, 1, 0, 1441795, 1, 0, 1441794, 1, 0, 1441793, 1, 0, 1441792, 1, 0, 1507327, 1, 0, 1507326, 1, 0, 1507325, 1, 0, 1507324, 1, 0, 1441787, 1, 0, 1376251, 1, 0, 1310715, 1, 0, 1245178, 1, 0, 1179642, 1, 0, 1114106, 1, 0, 1048570, 1, 0, 983034, 1, 0, 917497, 1, 0, 851961, 1, 0, 720889, 1, 0, 655352, 1, 0, 589816, 1, 0, 524280, 1, 0, 458744, 1, 0, 393209, 1, 0, 327674, 1, 0, 262139, 1, 0, 262140, 1, 0, 196605, 1, 0, 196606, 1, 0, 131071, 1, 0, 65536, 1, 0, 1, 1, 0, -65534, 1, 0, -65533, 1, 0, -131068, 1, 0, -131067, 1, 0, -131066, 1, 0, -196601, 1, 0, -196600, 1, 0, -262135, 1, 0, -262134, 1, 0, -262133, 1, 0, -327668, 1, 0, -327667, 1, 0, -393202, 1, 0, -393201, 1, 0, -393200, 1, 0, -327665, 1, 0, -262130, 1, 0, -262131, 1, 0, -196596, 1, 0, -196597, 1, 0, -131062, 1, 0, -131063, 1, 0, -131064, 1, 0, -131065, 1, 0, -65531, 1, 0, -65532, 1, 0, -65535, 1, 0, -65536, 1, 0, -1, 1, 0, -65538, 1, 0, -65539, 1, 0, -131075, 1, 0, -196611, 1, 0, -262147, 1, 0, -327683, 1, 0, -327682, 1, 0, -327681, 1, 0, -393216, 1, 0, -393215, 1, 0, -393214, 1, 0, -786426, 262145, 3, -720890, 262145, 3, -655354, 262145, 3, -655355, 262145, 3, -589819, 262145, 3, -524282, 262145, 3, -524281, 262145, 3, -524280, 262145, 3, -524279, 262145, 3, -458743, 262145, 3, -458744, 262145, 3, -524283, 262145, 3, -524284, 262145, 3, -524285, 262145, 3, -589821, 262145, 3, -589820, 262145, 3, -589818, 262145, 3, -655356, 262145, 3, -655357, 262145, 3, -720893, 262145, 3, -720894, 262145, 3, -720895, 262145, 3, -786431, 262145, 3, -786432, 262145, 3, -6, 1, 0, -7, 1, 0, -8, 1, 0, -5, 1, 0, 65531, 1, 0, 65530, 1, 0, 131065, 1, 0, 196601, 1, 0, 196602, 1, 0)
+layer_3/name = "iron"
+layer_3/tile_data = PackedInt32Array()
+layer_4/name = "water"
+layer_4/tile_data = PackedInt32Array()
+layer_5/name = "sand"
+layer_5/tile_data = PackedInt32Array()
+layer_6/name = "carryable"
+layer_6/tile_data = PackedInt32Array()
+script = ExtResource("6")
+
+[node name="Tween" parent="." instance=ExtResource("7")]

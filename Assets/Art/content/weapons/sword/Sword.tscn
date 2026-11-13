@@ -1,0 +1,760 @@
+[gd_scene load_steps=92 format=3 uid="uid://bn3db7xpk006b"]
+
+[ext_resource type="Script" path="res://content/weapons/sword/Sword.gd" id="1"]
+[ext_resource type="Shader" path="res://content/weapons/sword/bladetrail.gdshader" id="2"]
+[ext_resource type="Texture2D" uid="uid://d1frbcipwxe4d" path="res://content/weapons/sword/trail.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://itrgpyqwetow" path="res://content/weapons/sword/blade_particle.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://l038w83tu6yt" path="res://content/weapons/sword/finne_left.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://d2atjuxs16gw8" path="res://content/weapons/sword/finne_right.png" id="6"]
+[ext_resource type="SpriteFrames" uid="uid://dol3yjjujlii2" path="res://content/weapons/sword/blade_sprite.tres" id="7"]
+[ext_resource type="Texture2D" uid="uid://cq1lsusvidyhs" path="res://content/weapons/sword/blade_bfn_filling_cooldown.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cy416nv4hk010" path="res://content/weapons/sword/bombtip.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://qpbytdcvxeag" path="res://content/weapons/sword/dotted.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cncrwu6v6cdnt" path="res://content/weapons/sword/blade_electricity.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bvre0s3ql76vk" path="res://content/weapons/sword/blade_electricity_anne.png" id="12"]
+[ext_resource type="SpriteFrames" uid="uid://g0xulaoyy6oo" path="res://content/weapons/sword/javelin_chharge_sprites.tres" id="13"]
+[ext_resource type="SpriteFrames" uid="uid://qvy6ley22igi" path="res://content/weapons/sword/base_sprites.tres" id="14"]
+[ext_resource type="SpriteFrames" uid="uid://cr4t4g8seb76f" path="res://content/weapons/sword/base_effect_sprites.tres" id="15"]
+[ext_resource type="AudioStream" uid="uid://cn4et8iwt3nt4" path="res://content/sounds/Weapons/Sword/sword-move.ogg" id="16"]
+[ext_resource type="AudioStream" uid="uid://c10xss1mf80w2" path="res://content/sounds/Weapons/Sword/Sword_Hit_v2.wav" id="17"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="18"]
+[ext_resource type="AudioStream" uid="uid://nghk5xymlyst" path="res://content/sounds/Weapons/Sword/sword-smash.wav" id="19"]
+[ext_resource type="AudioStream" uid="uid://doj1d33nsqaei" path="res://content/sounds/Weapons/Sword/sword-recharge.wav" id="20"]
+[ext_resource type="AudioStream" uid="uid://cppkqnj713y32" path="res://content/sounds/Weapons/Sword/sparks.wav" id="21"]
+[ext_resource type="AudioStream" uid="uid://rruyn4p7vcux" path="res://content/sounds/Weapons/Sword/SwordelectricHit.wav" id="22"]
+[ext_resource type="AudioStream" uid="uid://bblp6sj8fmb3k" path="res://content/sounds/Weapons/Sword/SwordelectricOn.wav" id="23"]
+[ext_resource type="AudioStream" uid="uid://c8q7vocdl4vaj" path="res://content/sounds/Locations/BlastMiner/sndExplosionSmall2.wav" id="24"]
+[ext_resource type="AudioStream" uid="uid://ja7iheop0q4i" path="res://content/sounds/Weapons/Sword/sword-small-hit.wav" id="25"]
+[ext_resource type="AudioStream" uid="uid://vgn032i3ge6" path="res://content/sounds/Weapons/Sword/Sword_Charge.wav" id="26"]
+[ext_resource type="AudioStream" uid="uid://gbcs1vwsguo2" path="res://content/sounds/Weapons/Sword/Sword_Deflect.wav" id="27"]
+[ext_resource type="AudioStream" uid="uid://bsokdltjyx85g" path="res://content/sounds/monster/worm/RocksDestroy_1.wav" id="28"]
+[ext_resource type="AudioStream" uid="uid://bdc8c22og1mv6" path="res://content/sounds/monster/worm/RocksDestroy_2.wav" id="29"]
+[ext_resource type="AudioStream" uid="uid://dnmcdmyvak18m" path="res://content/sounds/monster/worm/RocksDestroy_3.wav" id="30"]
+[ext_resource type="AudioStream" uid="uid://lx7pt7ovwjp6" path="res://content/sounds/monster/worm/RocksDestroy_4.wav" id="31"]
+[ext_resource type="AudioStream" uid="uid://cnc3eslqmi0p7" path="res://content/sounds/Weapons/Sword/Sword_Retracted_v3.wav" id="32"]
+[ext_resource type="AudioStream" uid="uid://baaf4u5vweb4s" path="res://content/sounds/Weapons/Sword/Sword_Retracted_start.wav" id="33"]
+[ext_resource type="AudioStream" uid="uid://dkggf7bis2hor" path="res://content/sounds/Weapons/Sword/Sword_Retracted_v2.wav" id="34"]
+[ext_resource type="AudioStream" uid="uid://dfi1mlhyxet0y" path="res://content/sounds/Weapons/Sword/sword-slow.wav" id="35"]
+[ext_resource type="AudioStream" uid="uid://c068r6jo3mj6y" path="res://content/sounds/Weapons/Javelin/JavelinFire.wav" id="36"]
+[ext_resource type="AudioStream" uid="uid://1faue2cqgix8" path="res://content/sounds/Weapons/Sword/javelin-charged.wav" id="37"]
+[ext_resource type="AudioStream" uid="uid://chib73wct7uuo" path="res://content/sounds/Weapons/Javelin/op1_ield_58.wav" id="38"]
+[ext_resource type="AudioStream" uid="uid://c7ykfesgaxkag" path="res://content/sounds/Weapons/Javelin/javelin_charging.wav" id="39"]
+[ext_resource type="AudioStream" uid="uid://crvijkx3akka4" path="res://content/sounds/Weapons/Javelin/javelinCharged_amb.wav" id="40"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="41"]
+
+[sub_resource type="ShaderMaterial" id="45"]
+shader = ExtResource("2")
+shader_parameter/palette = null
+
+[sub_resource type="Gradient" id="78"]
+colors = PackedColorArray(1, 1, 1, 0.784314, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="79"]
+gradient = SubResource("78")
+
+[sub_resource type="ParticleProcessMaterial" id="80"]
+particle_flag_disable_z = true
+gravity = Vector3(0, 0, 0)
+color_ramp = SubResource("79")
+
+[sub_resource type="Gradient" id="1"]
+offsets = PackedFloat32Array(0, 0.123909, 0.410122, 0.797557, 1)
+colors = PackedColorArray(0.815686, 0.505882, 0.34902, 0, 0.815686, 0.505882, 0.34902, 1, 1, 0.666667, 0.368627, 1, 1, 0.92549, 0.839216, 1, 1, 0.92549, 0.839216, 0)
+
+[sub_resource type="GradientTexture2D" id="2"]
+gradient = SubResource("1")
+
+[sub_resource type="ParticleProcessMaterial" id="8"]
+lifetime_randomness = 0.47
+particle_flag_disable_z = true
+direction = Vector3(0, 1, 0)
+spread = 180.0
+initial_velocity_min = 10.0
+initial_velocity_max = 10.0
+gravity = Vector3(0, 0, 0)
+damping_min = 5.0
+damping_max = 5.0
+color_ramp = SubResource("2")
+
+[sub_resource type="RectangleShape2D" id="9"]
+size = Vector2(6, 52)
+
+[sub_resource type="RectangleShape2D" id="86"]
+size = Vector2(19, 4)
+
+[sub_resource type="AtlasTexture" id="197"]
+atlas = ExtResource("11")
+region = Rect2(192, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="198"]
+atlas = ExtResource("11")
+region = Rect2(192, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="199"]
+atlas = ExtResource("11")
+region = Rect2(192, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="200"]
+atlas = ExtResource("11")
+region = Rect2(192, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="201"]
+atlas = ExtResource("11")
+region = Rect2(192, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="202"]
+atlas = ExtResource("11")
+region = Rect2(192, 144, 48, 48)
+
+[sub_resource type="AtlasTexture" id="257"]
+atlas = ExtResource("12")
+region = Rect2(0, 0, 40, 56)
+
+[sub_resource type="AtlasTexture" id="258"]
+atlas = ExtResource("12")
+region = Rect2(40, 0, 40, 56)
+
+[sub_resource type="AtlasTexture" id="259"]
+atlas = ExtResource("12")
+region = Rect2(80, 0, 40, 56)
+
+[sub_resource type="AtlasTexture" id="260"]
+atlas = ExtResource("12")
+region = Rect2(120, 0, 40, 56)
+
+[sub_resource type="AtlasTexture" id="261"]
+atlas = ExtResource("12")
+region = Rect2(160, 0, 40, 56)
+
+[sub_resource type="AtlasTexture" id="262"]
+atlas = ExtResource("12")
+region = Rect2(200, 0, 40, 56)
+
+[sub_resource type="AtlasTexture" id="263"]
+atlas = ExtResource("12")
+region = Rect2(240, 0, 40, 56)
+
+[sub_resource type="AtlasTexture" id="264"]
+atlas = ExtResource("12")
+region = Rect2(280, 0, 40, 56)
+
+[sub_resource type="AtlasTexture" id="235"]
+atlas = ExtResource("12")
+region = Rect2(0, 56, 40, 56)
+
+[sub_resource type="AtlasTexture" id="236"]
+atlas = ExtResource("12")
+region = Rect2(40, 56, 40, 56)
+
+[sub_resource type="AtlasTexture" id="237"]
+atlas = ExtResource("12")
+region = Rect2(80, 56, 40, 56)
+
+[sub_resource type="AtlasTexture" id="238"]
+atlas = ExtResource("12")
+region = Rect2(120, 56, 40, 56)
+
+[sub_resource type="AtlasTexture" id="239"]
+atlas = ExtResource("12")
+region = Rect2(160, 56, 40, 56)
+
+[sub_resource type="AtlasTexture" id="240"]
+atlas = ExtResource("12")
+region = Rect2(200, 56, 40, 56)
+
+[sub_resource type="AtlasTexture" id="241"]
+atlas = ExtResource("12")
+region = Rect2(240, 56, 40, 56)
+
+[sub_resource type="AtlasTexture" id="242"]
+atlas = ExtResource("12")
+region = Rect2(280, 56, 40, 56)
+
+[sub_resource type="AtlasTexture" id="243"]
+atlas = ExtResource("12")
+region = Rect2(320, 56, 40, 56)
+
+[sub_resource type="AtlasTexture" id="244"]
+atlas = ExtResource("12")
+region = Rect2(360, 56, 40, 56)
+
+[sub_resource type="AtlasTexture" id="245"]
+atlas = ExtResource("12")
+region = Rect2(0, 112, 40, 56)
+
+[sub_resource type="AtlasTexture" id="246"]
+atlas = ExtResource("12")
+region = Rect2(40, 112, 40, 56)
+
+[sub_resource type="AtlasTexture" id="247"]
+atlas = ExtResource("12")
+region = Rect2(80, 112, 40, 56)
+
+[sub_resource type="AtlasTexture" id="248"]
+atlas = ExtResource("12")
+region = Rect2(120, 112, 40, 56)
+
+[sub_resource type="AtlasTexture" id="249"]
+atlas = ExtResource("12")
+region = Rect2(160, 112, 40, 56)
+
+[sub_resource type="AtlasTexture" id="250"]
+atlas = ExtResource("12")
+region = Rect2(200, 112, 40, 56)
+
+[sub_resource type="AtlasTexture" id="251"]
+atlas = ExtResource("12")
+region = Rect2(240, 112, 40, 56)
+
+[sub_resource type="AtlasTexture" id="252"]
+atlas = ExtResource("12")
+region = Rect2(280, 112, 40, 56)
+
+[sub_resource type="AtlasTexture" id="253"]
+atlas = ExtResource("12")
+region = Rect2(320, 112, 40, 56)
+
+[sub_resource type="AtlasTexture" id="254"]
+atlas = ExtResource("12")
+region = Rect2(360, 112, 40, 56)
+
+[sub_resource type="AtlasTexture" id="255"]
+atlas = ExtResource("12")
+region = Rect2(400, 112, 40, 56)
+
+[sub_resource type="AtlasTexture" id="256"]
+atlas = ExtResource("12")
+region = Rect2(440, 112, 40, 56)
+
+[sub_resource type="SpriteFrames" id="196"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("197")
+}],
+"loop": false,
+"name": &"idle1",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("198")
+}, {
+"duration": 1.0,
+"texture": SubResource("199")
+}],
+"loop": false,
+"name": &"idle2",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("200")
+}, {
+"duration": 1.0,
+"texture": SubResource("201")
+}, {
+"duration": 1.0,
+"texture": SubResource("202")
+}],
+"loop": false,
+"name": &"idle3",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("257")
+}, {
+"duration": 1.0,
+"texture": SubResource("258")
+}, {
+"duration": 1.0,
+"texture": SubResource("259")
+}, {
+"duration": 1.0,
+"texture": SubResource("260")
+}, {
+"duration": 1.0,
+"texture": SubResource("261")
+}, {
+"duration": 1.0,
+"texture": SubResource("262")
+}, {
+"duration": 1.0,
+"texture": SubResource("263")
+}, {
+"duration": 1.0,
+"texture": SubResource("264")
+}],
+"loop": false,
+"name": &"spark0",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("235")
+}, {
+"duration": 1.0,
+"texture": SubResource("236")
+}, {
+"duration": 1.0,
+"texture": SubResource("237")
+}, {
+"duration": 1.0,
+"texture": SubResource("238")
+}, {
+"duration": 1.0,
+"texture": SubResource("239")
+}, {
+"duration": 1.0,
+"texture": SubResource("240")
+}, {
+"duration": 1.0,
+"texture": SubResource("241")
+}, {
+"duration": 1.0,
+"texture": SubResource("242")
+}, {
+"duration": 1.0,
+"texture": SubResource("243")
+}, {
+"duration": 1.0,
+"texture": SubResource("244")
+}],
+"loop": false,
+"name": &"spark1",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("245")
+}, {
+"duration": 1.0,
+"texture": SubResource("246")
+}, {
+"duration": 1.0,
+"texture": SubResource("247")
+}, {
+"duration": 1.0,
+"texture": SubResource("248")
+}, {
+"duration": 1.0,
+"texture": SubResource("249")
+}, {
+"duration": 1.0,
+"texture": SubResource("250")
+}, {
+"duration": 1.0,
+"texture": SubResource("251")
+}, {
+"duration": 1.0,
+"texture": SubResource("252")
+}, {
+"duration": 1.0,
+"texture": SubResource("253")
+}, {
+"duration": 1.0,
+"texture": SubResource("254")
+}, {
+"duration": 1.0,
+"texture": SubResource("255")
+}, {
+"duration": 1.0,
+"texture": SubResource("256")
+}],
+"loop": false,
+"name": &"spark2",
+"speed": 15.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="291"]
+blend_mode = 1
+
+[sub_resource type="Curve" id="292"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.326087, 1), 0.0, 0.0, 0, 0, Vector2(0.32971, 0.490909), 0.0, 0.0, 0, 0, Vector2(1, 0.490909), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="293"]
+curve = SubResource("292")
+
+[sub_resource type="ParticleProcessMaterial" id="294"]
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 1.0
+direction = Vector3(0, -1, 0)
+spread = 0.0
+initial_velocity_min = 30.0
+initial_velocity_max = 30.0
+gravity = Vector3(0, 0, 0)
+damping_min = 15.0
+damping_max = 30.0
+scale_min = 2.0
+scale_max = 2.0
+scale_curve = SubResource("293")
+
+[node name="Sword" type="Node2D" groups=["lostL", "primaryWeapon"]]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="BladeTrail" type="Line2D" parent="."]
+z_index = -1
+material = SubResource("45")
+position = Vector2(0, 2)
+width = 7.0
+texture = ExtResource("3")
+texture_mode = 1
+
+[node name="Blade" type="Node2D" parent="."]
+position = Vector2(0, -3)
+
+[node name="BladeParticles" type="GPUParticles2D" parent="Blade"]
+visible = false
+position = Vector2(0, -10)
+amount = 6
+process_material = SubResource("80")
+texture = ExtResource("4")
+lifetime = 0.1
+
+[node name="ArrowLeft" type="Sprite2D" parent="Blade"]
+texture_filter = 1
+position = Vector2(-4.5, -26)
+texture = ExtResource("5")
+hframes = 3
+frame = 2
+
+[node name="ArrowRight" type="Sprite2D" parent="Blade"]
+texture_filter = 1
+position = Vector2(5.5, -26)
+texture = ExtResource("6")
+hframes = 3
+frame = 2
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="Blade"]
+position = Vector2(0.5, -24)
+sprite_frames = ExtResource("7")
+animation = &"cooldown_2"
+
+[node name="MoveParticles" type="GPUParticles2D" parent="Blade"]
+visible = false
+z_index = -1
+position = Vector2(0, 3)
+emitting = false
+amount = 250
+process_material = SubResource("8")
+lifetime = 2.0
+visibility_rect = Rect2(-500, -500, 1000, 1000)
+
+[node name="HitArea" type="Area2D" parent="Blade"]
+position = Vector2(0, 5)
+collision_layer = 0
+collision_mask = 128
+
+[node name="BladeCollisionShape" type="CollisionShape2D" parent="Blade/HitArea"]
+position = Vector2(0, -29)
+shape = SubResource("9")
+
+[node name="ArrowHead" type="CollisionShape2D" parent="Blade/HitArea"]
+visible = false
+position = Vector2(0, -39)
+shape = SubResource("86")
+
+[node name="Filling" type="Sprite2D" parent="Blade"]
+texture_filter = 1
+position = Vector2(-2.5, -38)
+texture = ExtResource("8")
+centered = false
+offset = Vector2(0.5, 0)
+region_enabled = true
+region_rect = Rect2(0, 0, 5, 0)
+
+[node name="Bombtip" type="Sprite2D" parent="Blade"]
+texture_filter = 1
+position = Vector2(0.5, -15)
+texture = ExtResource("9")
+hframes = 2
+
+[node name="AimLine" type="Line2D" parent="Blade"]
+visible = false
+z_index = -30
+texture_repeat = 2
+position = Vector2(0.5, 0)
+points = PackedVector2Array(0, -6, 0, -600)
+width = 1.0
+texture = ExtResource("10")
+texture_mode = 1
+
+[node name="RayCast2D" type="RayCast2D" parent="Blade"]
+visible = false
+position = Vector2(0, 7)
+target_position = Vector2(0, -600)
+collision_mask = 128
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="Sparks" type="AnimatedSprite2D" parent="Blade"]
+position = Vector2(0, -23)
+sprite_frames = SubResource("196")
+animation = &"idle1"
+
+[node name="JavelinCharge" type="AnimatedSprite2D" parent="Blade"]
+material = SubResource("291")
+position = Vector2(0, -7)
+sprite_frames = ExtResource("13")
+animation = &"charged"
+
+[node name="JavelinChargeParticles" type="GPUParticles2D" parent="Blade"]
+amount = 20
+process_material = SubResource("294")
+
+[node name="Base" type="AnimatedSprite2D" parent="."]
+position = Vector2(0.5, -1)
+sprite_frames = ExtResource("14")
+animation = &"3"
+
+[node name="ReflectionArea" type="Area2D" parent="Base"]
+collision_layer = 0
+collision_mask = 256
+
+[node name="Shape1" type="CollisionPolygon2D" parent="Base/ReflectionArea"]
+visible = false
+position = Vector2(-0.5, 0)
+polygon = PackedVector2Array(-8.5, 2, 8.5, 2, 8.5, 1, 5.5, -1, -5.5, -1, -8.5, 1)
+
+[node name="Shape2" type="CollisionPolygon2D" parent="Base/ReflectionArea"]
+visible = false
+position = Vector2(0.5, 0)
+polygon = PackedVector2Array(-14.5, 2, 12.5, 2, 12.5, 1, 6.5, -3, -8.5, -3, -14.5, 1)
+
+[node name="Shape3" type="CollisionPolygon2D" parent="Base/ReflectionArea"]
+visible = false
+position = Vector2(-0.5, 0)
+polygon = PackedVector2Array(-16.5, 3, 16.5, 3, 16.5, 2, 9, -3, -9, -3, -16.5, 2)
+
+[node name="Shape4" type="CollisionPolygon2D" parent="Base/ReflectionArea"]
+position = Vector2(-0.5, 0)
+polygon = PackedVector2Array(-22.5, 4, 22.5, 4, 22.5, 3, 16, -2, -16, -2, -22.5, 3)
+
+[node name="BaseEffect" type="AnimatedSprite2D" parent="Base"]
+position = Vector2(-0.5, -25)
+sprite_frames = ExtResource("15")
+animation = &"empty"
+
+[node name="MoveSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16")
+volume_db = -7.244
+bus = &"Weapon"
+
+[node name="EndOfRopeSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17")
+volume_db = -5.527
+pitch_scale = 2.19
+bus = &"Important"
+script = ExtResource("18")
+
+[node name="SmashSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("19")
+bus = &"Sounds"
+script = ExtResource("18")
+
+[node name="HitSound3" type="AudioStreamPlayer" parent="SmashSound"]
+stream = ExtResource("17")
+volume_db = 0.154
+pitch_scale = 0.97
+bus = &"Important"
+script = ExtResource("18")
+
+[node name="RechargeSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("20")
+volume_db = -16.766
+bus = &"Sounds"
+script = ExtResource("18")
+randomVolume = 0.0
+randomPitch = 0.05
+
+[node name="SparksSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("21")
+volume_db = -3.0
+bus = &"Sounds"
+script = ExtResource("18")
+
+[node name="HitSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17")
+volume_db = 2.776
+pitch_scale = 1.26
+bus = &"Important"
+script = ExtResource("18")
+
+[node name="HitElectricSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17")
+volume_db = 6.272
+pitch_scale = 1.26
+bus = &"Important"
+script = ExtResource("18")
+
+[node name="HitElectricSound2" type="AudioStreamPlayer" parent="HitElectricSound"]
+stream = ExtResource("22")
+volume_db = -2.031
+bus = &"Important"
+script = ExtResource("18")
+
+[node name="ElectricPowerupSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("23")
+volume_db = -4.215
+pitch_scale = 1.26
+bus = &"Important"
+script = ExtResource("18")
+
+[node name="BombSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("24")
+volume_db = 6.272
+pitch_scale = 1.29
+bus = &"Important"
+script = ExtResource("18")
+
+[node name="BigBombSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("24")
+volume_db = 6.272
+pitch_scale = 0.91
+bus = &"Important"
+script = ExtResource("18")
+
+[node name="SmallHitSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("25")
+volume_db = -0.437
+pitch_scale = 1.49
+bus = &"Important"
+script = ExtResource("18")
+
+[node name="ChargeSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("26")
+volume_db = -3.496
+bus = &"Weapon"
+script = ExtResource("18")
+
+[node name="QuickChargeSound" type="AudioStreamPlayer" parent="."]
+volume_db = -4.37
+pitch_scale = 1.25
+bus = &"Sounds"
+script = ExtResource("18")
+streams = [ExtResource("26")]
+
+[node name="QuickChargeSound2" type="AudioStreamPlayer" parent="QuickChargeSound"]
+volume_db = -4.37
+pitch_scale = 1.25
+bus = &"Sounds"
+script = ExtResource("18")
+streams = [ExtResource("25")]
+
+[node name="ReflectSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("27")
+volume_db = 2.756
+bus = &"Sounds"
+script = ExtResource("18")
+
+[node name="HitSound2" type="AudioStreamPlayer" parent="ReflectSound"]
+stream = ExtResource("17")
+volume_db = -1.594
+pitch_scale = 1.24
+bus = &"Important"
+script = ExtResource("18")
+
+[node name="StopProjectileSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("27")
+volume_db = 1.882
+pitch_scale = 1.25
+bus = &"Sounds"
+script = ExtResource("18")
+
+[node name="StopProjectileSound2" type="AudioStreamPlayer" parent="StopProjectileSound"]
+volume_db = -4.424
+bus = &"Sounds"
+script = ExtResource("18")
+streams = [ExtResource("28"), ExtResource("29"), ExtResource("30"), ExtResource("31")]
+
+[node name="CooldownSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("32")
+volume_db = -3.059
+pitch_scale = 1.22
+bus = &"Sounds"
+script = ExtResource("18")
+
+[node name="RetractingSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("33")
+volume_db = -4.37
+bus = &"Sounds"
+script = ExtResource("18")
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="RetractedSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("34")
+volume_db = -3.325
+pitch_scale = 1.31
+bus = &"Sounds"
+script = ExtResource("18")
+
+[node name="TooSlowSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("35")
+volume_db = -4.0
+bus = &"Sounds"
+script = ExtResource("18")
+
+[node name="JavelinFireSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("36")
+volume_db = 2.0
+pitch_scale = 0.92
+bus = &"Sounds"
+script = ExtResource("18")
+
+[node name="JavelinChargedSound3" type="AudioStreamPlayer" parent="JavelinFireSound"]
+stream = ExtResource("37")
+volume_db = -9.059
+pitch_scale = 2.31
+bus = &"Sounds"
+script = ExtResource("18")
+randomVolume = 0.0
+randomPitch = 0.0
+loop = true
+
+[node name="JavelinReadySound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("38")
+volume_db = 13.109
+bus = &"Sounds"
+script = ExtResource("18")
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="JavelinChargingSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("39")
+volume_db = -2.941
+bus = &"Sounds"
+script = ExtResource("18")
+randomVolume = 0.0
+
+[node name="JavelinChargedSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("40")
+volume_db = -6.0
+pitch_scale = 1.37
+bus = &"Sounds"
+script = ExtResource("18")
+randomVolume = 0.0
+randomPitch = 0.0
+loop = true
+
+[node name="JavelinChargedSound2" type="AudioStreamPlayer" parent="JavelinChargedSound"]
+stream = ExtResource("37")
+volume_db = -6.0
+pitch_scale = 1.15
+bus = &"Sounds"
+script = ExtResource("18")
+randomVolume = 0.0
+randomPitch = 0.0
+loop = true
+
+[node name="Tween" parent="." instance=ExtResource("41")]
+
+[connection signal="animation_finished" from="Blade/Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="area_entered" from="Blade/HitArea" to="." method="_on_HitArea_area_entered"]
+[connection signal="area_exited" from="Blade/HitArea" to="." method="_on_HitArea_area_exited"]
+[connection signal="animation_finished" from="Blade/Sparks" to="." method="_on_Sparks_animation_finished"]
+[connection signal="area_entered" from="Base/ReflectionArea" to="." method="_on_ReflectionArea_area_entered"]

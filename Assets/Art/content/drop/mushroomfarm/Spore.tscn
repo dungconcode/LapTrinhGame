@@ -1,0 +1,83 @@
+[gd_scene load_steps=13 format=3 uid="uid://dr7cyajc328sj"]
+
+[ext_resource type="Script" path="res://content/drop/mushroomfarm/Spore.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dspr07xv0jr2i" path="res://content/drop/mushroomfarm/spore.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c7a0v3dmfym0a" path="res://content/drop/seed/carry2.png" id="3"]
+[ext_resource type="Material" uid="uid://c4rg5bvijyfin" path="res://content/shared/HighlightShader.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://ob5kpy8uqowy" path="res://content/drop/seed/focus2.png" id="5"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="7"]
+[ext_resource type="AudioStream" uid="uid://ds5nkama5rak" path="res://content/sounds/Events/EggPlant/Spring_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://blwy7ub6wxay0" path="res://content/sounds/Bastards/Bv_BoatLandfall_8.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://yj88lnc00i8e" path="res://content/sounds/Bastards/guts_02.wav" id="10"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_d2ayn"]
+resource_local_to_scene = true
+friction = 0.6
+bounce = 0.25
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mma82"]
+radius = 4.0
+
+[node name="Spore" type="RigidBody2D" groups=["carryable", "saveable"]]
+z_index = 22
+texture_filter = 1
+collision_layer = 32
+collision_mask = 521
+physics_material_override = SubResource("PhysicsMaterial_d2ayn")
+can_sleep = false
+max_contacts_reported = 1
+contact_monitor = true
+script = ExtResource("1")
+carryableType = "gadget"
+canTeleport = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+light_mask = 0
+texture_filter = 1
+texture = ExtResource("2")
+
+[node name="CarrySprite" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -0.5)
+texture = ExtResource("3")
+
+[node name="FocusSprite" type="Sprite2D" parent="."]
+z_index = 30
+texture_filter = 1
+material = ExtResource("4")
+position = Vector2(0, -0.5)
+texture = ExtResource("5")
+
+[node name="Tween" parent="." instance=ExtResource("6")]
+
+[node name="BumpSound" parent="." instance=ExtResource("7")]
+stream = ExtResource("8")
+volume_db = -3.0
+pitch_scale = 1.04
+bus = &"Mine"
+randomPitch = 0.19
+
+[node name="InfectSound" parent="." instance=ExtResource("7")]
+stream = ExtResource("9")
+volume_db = -5.965
+pitch_scale = 0.88
+bus = &"Mine"
+randomPitch = 0.19
+maxAudibleDistance = 300.0
+minAudibleDistance = 70.0
+removeAfterPlaying = true
+
+[node name="InfectSound2" parent="InfectSound" instance=ExtResource("7")]
+stream = ExtResource("10")
+volume_db = -6.775
+pitch_scale = 0.73
+bus = &"Mine"
+randomPitch = 0.19
+fadeInTime = 0.4
+removeAfterPlaying = true
+
+[node name="CollisionShape1" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_mma82")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -1,0 +1,236 @@
+[gd_scene load_steps=28 format=3 uid="uid://dd4r64beuw0nk"]
+
+[ext_resource type="Script" path="res://content/caves/teleportcave/TeleportCave.gd" id="1"]
+[ext_resource type="Script" path="res://content/map/Parallaxer.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://csi3nux1j6nru" path="res://content/caves/teleportcave/teleportcave-Sheet.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://nxe2ru3y7x58" path="res://content/caves/teleportcave/teleporteye-mine-Sheet.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://b5jt1icrd3q3j" path="res://content/caves/teleportcave/teleporteye-takeout-Sheet.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b3opfvq1ujngr" path="res://content/caves/teleportcave/focus.png" id="6"]
+[ext_resource type="PackedScene" uid="uid://02emll07tpim" path="res://content/shared/Usable.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="8"]
+[ext_resource type="AudioStream" uid="uid://dq5dyw428l2ps" path="res://content/sounds/Biomes/TeleportAmb.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://bgnnw5u5akxu0" path="res://content/sounds/Biomes/TeleportTouch.wav" id="10"]
+[ext_resource type="Texture2D" uid="uid://j1586kmgunlc" path="res://content/caves/teleportcave/teleportcave_alpha_map_blurred.png" id="11"]
+
+[sub_resource type="AtlasTexture" id="1"]
+atlas = ExtResource("4")
+region = Rect2(0, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("4")
+region = Rect2(24, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("4")
+region = Rect2(48, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("4")
+region = Rect2(72, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("4")
+region = Rect2(96, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("4")
+region = Rect2(120, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("4")
+region = Rect2(144, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("4")
+region = Rect2(168, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="10"]
+atlas = ExtResource("5")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="11"]
+atlas = ExtResource("5")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="12"]
+atlas = ExtResource("5")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="13"]
+atlas = ExtResource("5")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="14"]
+atlas = ExtResource("5")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="15"]
+atlas = ExtResource("5")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="16"]
+atlas = ExtResource("5")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="9"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("1")
+}, {
+"duration": 1.0,
+"texture": SubResource("2")
+}, {
+"duration": 1.0,
+"texture": SubResource("3")
+}, {
+"duration": 1.0,
+"texture": SubResource("4")
+}, {
+"duration": 1.0,
+"texture": SubResource("5")
+}, {
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("10")
+}, {
+"duration": 1.0,
+"texture": SubResource("11")
+}, {
+"duration": 1.0,
+"texture": SubResource("12")
+}, {
+"duration": 1.0,
+"texture": SubResource("13")
+}, {
+"duration": 1.0,
+"texture": SubResource("14")
+}, {
+"duration": 1.0,
+"texture": SubResource("15")
+}, {
+"duration": 1.0,
+"texture": SubResource("16")
+}],
+"loop": false,
+"name": &"taken",
+"speed": 10.0
+}]
+
+[node name="TeleportCave" type="Node2D" groups=["cave", "saveable", "special2", "unstyled"]]
+z_index = -40
+texture_filter = 1
+script = ExtResource("1")
+biome = "yellow"
+
+[node name="ExtraBackground" type="ColorRect" parent="."]
+offset_left = -3.0
+offset_top = -6.0
+offset_right = 74.0
+offset_bottom = 52.0
+mouse_filter = 2
+color = Color(0.129412, 0.105882, 0.0862745, 1)
+
+[node name="Sprites" type="Control" parent="."]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_right = 66.0
+offset_bottom = 48.0
+mouse_filter = 2
+script = ExtResource("2")
+start_offset = 0.4
+scaling = 0.5
+
+[node name="Sprite1" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(34, 22)
+texture = ExtResource("3")
+hframes = 4
+vframes = 2
+
+[node name="ExtraBackground" type="ColorRect" parent="Sprites/Sprite1"]
+offset_left = -96.0
+offset_top = -51.0
+offset_right = 88.0
+offset_bottom = 57.0
+mouse_filter = 2
+color = Color(0.741176, 0.490196, 0.176471, 1)
+
+[node name="Sprite2" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(34, 22)
+texture = ExtResource("3")
+hframes = 4
+vframes = 2
+frame = 1
+
+[node name="Eye" type="AnimatedSprite2D" parent="Sprites/Sprite2"]
+position = Vector2(-1, 0)
+sprite_frames = SubResource("9")
+
+[node name="FocusMarker" type="Sprite2D" parent="Sprites/Sprite2"]
+texture_filter = 1
+texture = ExtResource("6")
+
+[node name="Sprite3" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(34, 22)
+texture = ExtResource("3")
+hframes = 4
+vframes = 2
+frame = 2
+
+[node name="Sprite4" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(34, 22)
+texture = ExtResource("3")
+hframes = 4
+vframes = 2
+frame = 3
+
+[node name="Usable" parent="." instance=ExtResource("7")]
+position = Vector2(34, 22)
+visibleOnFocus = NodePath("../Sprites/Sprite2/FocusMarker")
+
+[node name="CaveAmb" parent="Usable" instance=ExtResource("8")]
+stream = ExtResource("9")
+volume_db = -12.068
+pitch_scale = 0.66
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 120.0
+minAudibleDistance = 36.0
+fadeInTime = 0.1
+fadeOutTime = 3.0
+loop = true
+
+[node name="EyeCloseSound" parent="." instance=ExtResource("8")]
+stream = ExtResource("10")
+volume_db = -3.933
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="AlphaMap" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(36, 24)
+texture = ExtResource("11")
+
+[connection signal="animation_finished" from="Sprites/Sprite2/Eye" to="." method="_on_Eye_animation_finished"]
+[connection signal="animation_looped" from="Sprites/Sprite2/Eye" to="." method="_on_eye_animation_looped"]

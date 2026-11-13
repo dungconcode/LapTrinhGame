@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://content/weapons/tesla/arc/ArcGroup.gd" id="1"]
+
+[node name="ArcGroup" type="Node2D" groups=["customStyle"]]
+script = ExtResource("1")
+baseCurvature = 0.0
+arcIntensity = 0.5
+randomCurvature = 0.15
+showEndFork = false
+arcWildness = 20.0

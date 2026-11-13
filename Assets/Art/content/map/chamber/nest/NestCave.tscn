@@ -1,0 +1,62 @@
+[gd_scene load_steps=8 format=3 uid="uid://c4qle852xjhbn"]
+
+[ext_resource type="Script" path="res://content/map/chamber/nest/NestCave.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="2"]
+[ext_resource type="AudioStream" uid="uid://bugvdrrv3ruwg" path="res://content/sounds/Locations/ChamberNest/Biome_Cricket.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://cos8v61iirjlc" path="res://content/sounds/Locations/ChamberNest/Biome_Birds.wav" id="4"]
+[ext_resource type="SpriteFrames" uid="uid://dw7bof51s5xrj" path="res://content/map/chamber/nest/NestCave_spriteframes.tres" id="5"]
+[ext_resource type="Texture2D" uid="uid://cqrnxty7k5hp4" path="res://content/drop/egg/focus.png" id="6"]
+[ext_resource type="PackedScene" uid="uid://02emll07tpim" path="res://content/shared/Usable.tscn" id="7"]
+
+[node name="NestCave" type="Node2D" groups=["saveable"]]
+z_index = -10
+texture_filter = 1
+script = ExtResource("1")
+minRelativeDepth = 0.75
+maxRelativeDepth = 1.0
+
+[node name="GizmoSpawn" type="Marker2D" parent="."]
+z_index = 50
+position = Vector2(27, 27)
+
+[node name="AmbCricket" parent="GizmoSpawn" instance=ExtResource("2")]
+stream = ExtResource("3")
+volume_db = 6.0
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 72.0
+minAudibleDistance = 24.0
+fadeInTime = 0.5
+fadeOutTime = 0.5
+loop = true
+
+[node name="AmbBird" parent="GizmoSpawn" instance=ExtResource("2")]
+stream = ExtResource("4")
+volume_db = 6.0
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 48.0
+minAudibleDistance = 24.0
+fadeInTime = 0.5
+fadeOutTime = 0.5
+loop = true
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(24, 24)
+sprite_frames = ExtResource("5")
+animation = &"egged"
+
+[node name="FocusMarker" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(27, 27)
+texture = ExtResource("6")
+
+[node name="Usable" parent="." instance=ExtResource("7")]
+position = Vector2(27, 27)
+visibleOnFocus = NodePath("../FocusMarker")
+
+[node name="EggSpawnDelayer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true

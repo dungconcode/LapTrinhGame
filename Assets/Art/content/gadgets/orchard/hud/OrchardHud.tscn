@@ -1,0 +1,323 @@
+[gd_scene load_steps=39 format=3 uid="uid://o8ttt7j0vwpm"]
+
+[ext_resource type="Script" path="res://content/gadgets/orchard/hud/OrchardHud.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dafu0l705qdnj" path="res://content/gadgets/orchard/hud/fruit_backgroundborder-Sheet.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bwhwpmkicmtq" path="res://content/gadgets/orchard/hud/fruit_woxt.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bjo1uukr41q5" path="res://content/gadgets/orchard/hud/fruit_ossewoxt.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bpcgxari7y36t" path="res://content/shared/battleabilities/charge_slot.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cbksglxf4kyhw" path="res://content/shared/battleabilities/charge.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dhq7c7qrfk5bc" path="res://content/shared/battleabilities/blocked.png" id="7"]
+
+[sub_resource type="AtlasTexture" id="24"]
+atlas = ExtResource("2")
+region = Rect2(0, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="25"]
+atlas = ExtResource("2")
+region = Rect2(16, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="26"]
+atlas = ExtResource("2")
+region = Rect2(32, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="27"]
+atlas = ExtResource("2")
+region = Rect2(48, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="28"]
+atlas = ExtResource("2")
+region = Rect2(64, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="29"]
+atlas = ExtResource("2")
+region = Rect2(80, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="30"]
+atlas = ExtResource("2")
+region = Rect2(96, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="1"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("2")
+region = Rect2(0, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("2")
+region = Rect2(16, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("2")
+region = Rect2(32, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("2")
+region = Rect2(48, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("2")
+region = Rect2(64, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("2")
+region = Rect2(80, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource("2")
+region = Rect2(96, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="10"]
+atlas = ExtResource("2")
+region = Rect2(112, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="11"]
+atlas = ExtResource("2")
+region = Rect2(128, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="12"]
+atlas = ExtResource("2")
+region = Rect2(144, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="13"]
+atlas = ExtResource("2")
+region = Rect2(160, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="14"]
+atlas = ExtResource("2")
+region = Rect2(176, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="15"]
+atlas = ExtResource("2")
+region = Rect2(192, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="16"]
+atlas = ExtResource("2")
+region = Rect2(208, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="17"]
+atlas = ExtResource("2")
+region = Rect2(224, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="18"]
+atlas = ExtResource("2")
+region = Rect2(240, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="19"]
+atlas = ExtResource("2")
+region = Rect2(256, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="20"]
+atlas = ExtResource("2")
+region = Rect2(272, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="21"]
+atlas = ExtResource("2")
+region = Rect2(288, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="22"]
+atlas = ExtResource("2")
+region = Rect2(304, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="23"]
+atlas = ExtResource("2")
+region = Rect2(320, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("2")
+region = Rect2(0, 48, 16, 16)
+
+[sub_resource type="SpriteFrames" id="31"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("24")
+}, {
+"duration": 1.0,
+"texture": SubResource("25")
+}, {
+"duration": 1.0,
+"texture": SubResource("26")
+}, {
+"duration": 1.0,
+"texture": SubResource("27")
+}, {
+"duration": 1.0,
+"texture": SubResource("28")
+}, {
+"duration": 1.0,
+"texture": SubResource("29")
+}, {
+"duration": 1.0,
+"texture": SubResource("30")
+}],
+"loop": true,
+"name": &"consuming",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("1")
+}],
+"loop": false,
+"name": &"empty",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("3")
+}, {
+"duration": 1.0,
+"texture": SubResource("4")
+}, {
+"duration": 1.0,
+"texture": SubResource("5")
+}, {
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}, {
+"duration": 1.0,
+"texture": SubResource("9")
+}, {
+"duration": 1.0,
+"texture": SubResource("10")
+}, {
+"duration": 1.0,
+"texture": SubResource("11")
+}, {
+"duration": 1.0,
+"texture": SubResource("12")
+}, {
+"duration": 1.0,
+"texture": SubResource("13")
+}, {
+"duration": 1.0,
+"texture": SubResource("14")
+}, {
+"duration": 1.0,
+"texture": SubResource("15")
+}, {
+"duration": 1.0,
+"texture": SubResource("16")
+}, {
+"duration": 1.0,
+"texture": SubResource("17")
+}, {
+"duration": 1.0,
+"texture": SubResource("18")
+}, {
+"duration": 1.0,
+"texture": SubResource("19")
+}, {
+"duration": 1.0,
+"texture": SubResource("20")
+}, {
+"duration": 1.0,
+"texture": SubResource("21")
+}, {
+"duration": 1.0,
+"texture": SubResource("22")
+}, {
+"duration": 1.0,
+"texture": SubResource("23")
+}],
+"loop": true,
+"name": &"producing",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("2")
+}],
+"loop": false,
+"name": &"ready",
+"speed": 0.0
+}]
+
+[node name="OrchardHud" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 3.0
+offset_bottom = 3.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+element_size = Vector2(3, 3)
+layoutWeights = Vector2(0, 5)
+layoutPriority = 10
+
+[node name="Background" type="AnimatedSprite2D" parent="."]
+position = Vector2(9, 9)
+sprite_frames = SubResource("31")
+animation = &"ready"
+
+[node name="PlantGrowing" type="Sprite2D" parent="Background"]
+visible = false
+texture_filter = 1
+position = Vector2(-7, -7)
+texture = ExtResource("3")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 14, 14)
+
+[node name="PlantEating" type="Sprite2D" parent="Background"]
+visible = false
+texture_filter = 1
+position = Vector2(-7, -3)
+texture = ExtResource("4")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 4, 14, 10)
+
+[node name="Slot1" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 4.0
+offset_top = 1.0
+offset_right = 14.0
+offset_bottom = 5.0
+texture = ExtResource("5")
+stretch_mode = 2
+
+[node name="Charge" type="TextureRect" parent="Slot1"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 7.0
+offset_bottom = 7.0
+texture = ExtResource("6")
+stretch_mode = 2
+
+[node name="Slot2" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 14.0
+offset_bottom = 8.0
+texture = ExtResource("5")
+stretch_mode = 2
+
+[node name="Blocked" type="TextureRect" parent="Slot2"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 10.0
+offset_bottom = 7.0
+texture = ExtResource("7")
+stretch_mode = 2
+
+[node name="Charge" type="TextureRect" parent="Slot2"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 7.0
+offset_bottom = 7.0
+texture = ExtResource("6")
+stretch_mode = 2

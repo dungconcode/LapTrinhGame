@@ -1,0 +1,45 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://dk4dq8si2hrki"]
+
+[ext_resource type="Texture2D" uid="uid://csjblhi6r2tl3" path="res://content/worlds/world7/creature_small_6.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i0161"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 12, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lqwi2"]
+atlas = ExtResource("1")
+region = Rect2(12, 0, 12, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iqt8d"]
+atlas = ExtResource("1")
+region = Rect2(24, 0, 12, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_03202"]
+atlas = ExtResource("1")
+region = Rect2(36, 0, 12, 70)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i0161")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lqwi2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iqt8d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_03202")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iqt8d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lqwi2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]

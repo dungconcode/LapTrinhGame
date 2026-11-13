@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dybv5p7qx0flb"]
+
+[ext_resource type="Script" path="res://content/weather/spores/spores.gd" id="1"]
+[ext_resource type="AudioStream" uid="uid://dlfuqrx51lflg" path="res://content/sounds/Weather/spores.wav" id="2"]
+
+[node name="Spores" type="Sprite2D" groups=["pauseL", "weather"]]
+modulate = Color(0.313726, 0.376471, 0, 1)
+script = ExtResource("1")
+
+[node name="SporeSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2")
+volume_db = -25.0
+autoplay = true
+bus = &"World"

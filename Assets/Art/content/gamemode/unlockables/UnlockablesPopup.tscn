@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://cycl63levl13j"]
+
+[ext_resource type="Theme" uid="uid://bo0ebvm7ocab1" path="res://gui/theme.tres" id="1"]
+[ext_resource type="Script" path="res://content/gamemode/unlockables/UnlockablesPopup.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://jtbhye5agwd4" path="res://content/gamemode/unlockables/UnlockablesPanel.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="4"]
+
+[node name="UnlockablesPopup" type="ColorRect" groups=["unstyled"]]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="UnlockablesPanel" parent="CenterContainer" instance=ExtResource("3")]
+layout_mode = 2
+showButtons = true
+
+[node name="Tween" parent="." instance=ExtResource("4")]
+
+[connection signal="back" from="CenterContainer/UnlockablesPanel" to="." method="_on_UnlockablesPanel_back"]
+[connection signal="proceed" from="CenterContainer/UnlockablesPanel" to="." method="_on_UnlockablesPanel_proceed"]

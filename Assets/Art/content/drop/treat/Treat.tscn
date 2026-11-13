@@ -1,0 +1,73 @@
+[gd_scene load_steps=14 format=3 uid="uid://c7wc81xajx01d"]
+
+[ext_resource type="Script" path="res://content/drop/treat/Treat.gd" id="1"]
+[ext_resource type="Material" uid="uid://c0ps4eqmti8u7" path="res://content/drop/ShredMaterial.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://bp5liqjb0oejs" path="res://content/drop/treat/food.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bd7e87b7mdabw" path="res://content/drop/treat/carried.png" id="4"]
+[ext_resource type="Material" uid="uid://c4rg5bvijyfin" path="res://content/shared/HighlightShader.tres" id="5"]
+[ext_resource type="Texture2D" uid="uid://dholkgcevu8ja" path="res://content/drop/treat/icon_selector2.png" id="6"]
+[ext_resource type="PackedScene" path="res://content/shared/drops/DropEnterTrigger.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="8"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="9"]
+[ext_resource type="AudioStream" uid="uid://ds5nkama5rak" path="res://content/sounds/Events/EggPlant/Spring_08.wav" id="10"]
+[ext_resource type="PackedScene" path="res://content/drop/iron/iron_shred_particles.tscn" id="11"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ntt76"]
+resource_local_to_scene = true
+friction = 0.6
+bounce = 0.25
+
+[sub_resource type="CircleShape2D" id="7"]
+radius = 3.5
+
+[node name="Treat" type="RigidBody2D" groups=["carryable", "saveable", "treat"]]
+z_index = 22
+texture_filter = 1
+collision_layer = 34
+collision_mask = 522
+physics_material_override = SubResource("PhysicsMaterial_ntt76")
+can_sleep = false
+max_contacts_reported = 1
+contact_monitor = true
+script = ExtResource("1")
+type = "treat"
+independentSpeedClamp = 20.0
+independentAcceleration = 2.0
+arrivalDistanceToTarget = 5.0
+carryableType = "gadget"
+canTeleport = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+light_mask = 0
+texture_filter = 1
+material = ExtResource("2")
+position = Vector2(0.5, 0.5)
+texture = ExtResource("3")
+
+[node name="CarrySprite" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+texture = ExtResource("4")
+
+[node name="FocusSprite" type="Sprite2D" parent="."]
+visible = false
+z_index = 30
+texture_filter = 1
+material = ExtResource("5")
+texture = ExtResource("6")
+
+[node name="DropEnterTrigger" parent="." instance=ExtResource("7")]
+
+[node name="Tween" parent="." instance=ExtResource("8")]
+
+[node name="BumpSound" parent="." instance=ExtResource("9")]
+stream = ExtResource("10")
+volume_db = -3.0
+pitch_scale = 1.04
+bus = &"Mine"
+randomPitch = 0.19
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("7")
+
+[node name="ShredParticles" parent="." instance=ExtResource("11")]

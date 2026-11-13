@@ -1,0 +1,94 @@
+[gd_scene load_steps=22 format=3 uid="uid://dd6lb5cmbifqk"]
+
+[ext_resource type="Script" path="res://content/monster/bigtick/BigTick.gd" id="1"]
+[ext_resource type="Material" uid="uid://day50apjw6md" path="res://content/monster/FlashMaterial.tres" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://c6nx1komljfhl" path="res://content/monster/bigtick/spriteframes.tres" id="3"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="4"]
+[ext_resource type="AudioStream" uid="uid://gxg0vun2denp" path="res://content/sounds/monster/tick/Tickdeath_01.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://1ixloymwe8n8" path="res://content/sounds/monster/tick/Tickdeath_02.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://bamwe7iv0b42s" path="res://content/sounds/monster/tick/Tickdeath_03.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://1q51go32tifq" path="res://content/sounds/monster/tick/Tickdeath_04.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://8vi3acae3k2h" path="res://content/sounds/monster/tick/Tickdeath_05.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://b1vin5y1vjgah" path="res://content/sounds/monster/Mucker/MuckerDie.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://c2evxi4lanr00" path="res://content/sounds/monster/tick/tick_explode.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://ch7royt2ri21u" path="res://content/sounds/monster/tick/tick_jump.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://chpjt3p7xay7o" path="res://content/sounds/monster/tick/Tick_Jump_01.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://cgx4q8j40wfo2" path="res://content/sounds/monster/tick/Tick_Jump_02.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://cjuwi7ic6cqgk" path="res://content/sounds/monster/tick/Tick_Jump_03.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://dhavai4rp5l08" path="res://content/sounds/monster/tick/Tick_Jump_04.wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://bhhdiylg238tq" path="res://content/sounds/monster/tick/Tick_Jump_05.wav" id="17"]
+[ext_resource type="AudioStream" uid="uid://cphmgub73dujl" path="res://content/sounds/Retro Blop 03.wav" id="18"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="19"]
+
+[sub_resource type="CircleShape2D" id="68"]
+radius = 7.0
+
+[sub_resource type="CircleShape2D" id="182"]
+radius = 4.0
+
+[node name="BigTick" type="Area2D" groups=["monster"]]
+texture_filter = 1
+collision_layer = 128
+collision_mask = 0
+script = ExtResource("1")
+techId = "bigtick"
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+material = ExtResource("2")
+position = Vector2(-5, -4)
+sprite_frames = ExtResource("3")
+animation = &"walk"
+
+[node name="HitboxDefault" type="CollisionShape2D" parent="."]
+position = Vector2(2, -3)
+shape = SubResource("68")
+
+[node name="DieSound" parent="." instance=ExtResource("4")]
+volume_db = 1.762
+pitch_scale = 1.06
+bus = &"World"
+randomVolume = 1.0
+randomPitch = 0.2
+streams = [ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9")]
+removeAfterPlaying = true
+
+[node name="DieSound" parent="DieSound" instance=ExtResource("4")]
+stream = ExtResource("10")
+volume_db = -5.676
+pitch_scale = 0.75
+bus = &"World"
+randomVolume = 1.0
+randomPitch = 0.2
+removeAfterPlaying = true
+
+[node name="DieSoundExplode" parent="." instance=ExtResource("4")]
+stream = ExtResource("11")
+volume_db = 1.0
+bus = &"World"
+randomPitch = 0.2
+
+[node name="JumpSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("12")
+volume_db = 1.958
+pitch_scale = 1.3
+bus = &"World"
+randomPitch = 0.18
+streams = [ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16"), ExtResource("17")]
+
+[node name="StepCollisions" type="Area2D" parent="."]
+collision_layer = 524288
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StepCollisions"]
+shape = SubResource("182")
+
+[node name="IsHitSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("18")
+volume_db = 2.548
+pitch_scale = 1.38
+bus = &"World"
+script = ExtResource("19")
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="animation_looped" from="Sprite2D" to="." method="_on_sprite_2d_animation_looped"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]

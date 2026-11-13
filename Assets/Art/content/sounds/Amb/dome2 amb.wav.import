@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://csdowakhr54i6"
+path="res://.godot/imported/dome2 amb.wav-69302c74950a9fc3bef25abf7bb74745.sample"
+
+[deps]
+
+source_file="res://content/sounds/Amb/dome2 amb.wav"
+dest_files=["res://.godot/imported/dome2 amb.wav-69302c74950a9fc3bef25abf7bb74745.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=1
+edit/loop_begin=0
+edit/loop_end=1296000
+compress/mode=0

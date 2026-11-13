@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://f5ms8yatqn7i"]
+
+[ext_resource type="Script" path="res://content/shared/Overlay.gd" id="1"]
+
+[node name="Overlay" type="ColorRect" groups=["unstyled"]]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0, 0, 0, 0.505882)
+script = ExtResource("1")

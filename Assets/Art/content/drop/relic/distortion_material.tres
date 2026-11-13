@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://cr8kawnbn87hh"]
+
+[ext_resource type="Shader" path="res://content/drop/relic/distortion.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://c4ajykgfba2r0" path="res://content/drop/relic/distortion_normal.png" id="2"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/NORMAL_TEX = ExtResource("2")

@@ -1,0 +1,234 @@
+[gd_scene load_steps=33 format=3 uid="uid://7l6yvv4ndkwg"]
+
+[ext_resource type="Script" path="res://content/caves/bombcave/BombCave.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://blduugvl0g1ql" path="res://content/caves/bombcave/bombcave_sheet.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bi8fw3hrhlkgs" path="res://content/gadgets/blastMining/focussed.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="4"]
+[ext_resource type="AudioStream" uid="uid://0bkkdhn2tb5f" path="res://content/sounds/dome4/TeslaDomeenter.wav" id="5"]
+[ext_resource type="PackedScene" uid="uid://02emll07tpim" path="res://content/shared/Usable.tscn" id="6"]
+[ext_resource type="AudioStream" uid="uid://bvkguqh4clmib" path="res://content/sounds/Bastards/AmbLaser.wav" id="7"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="8"]
+[ext_resource type="Texture2D" uid="uid://d1osqve1i8dmj" path="res://content/caves/bombcave/bombcave_alpha.png" id="9"]
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("2")
+region = Rect2(46, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("2")
+region = Rect2(92, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("2")
+region = Rect2(138, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("2")
+region = Rect2(184, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("2")
+region = Rect2(230, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("2")
+region = Rect2(276, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource("2")
+region = Rect2(322, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="10"]
+atlas = ExtResource("2")
+region = Rect2(368, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="11"]
+atlas = ExtResource("2")
+region = Rect2(414, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="12"]
+atlas = ExtResource("2")
+region = Rect2(460, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="13"]
+atlas = ExtResource("2")
+region = Rect2(506, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="14"]
+atlas = ExtResource("2")
+region = Rect2(552, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="15"]
+atlas = ExtResource("2")
+region = Rect2(598, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="16"]
+atlas = ExtResource("2")
+region = Rect2(644, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="17"]
+atlas = ExtResource("2")
+region = Rect2(690, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="18"]
+atlas = ExtResource("2")
+region = Rect2(736, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="19"]
+atlas = ExtResource("2")
+region = Rect2(782, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="20"]
+atlas = ExtResource("2")
+region = Rect2(828, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="21"]
+atlas = ExtResource("2")
+region = Rect2(874, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="22"]
+atlas = ExtResource("2")
+region = Rect2(920, 0, 46, 30)
+
+[sub_resource type="AtlasTexture" id="24"]
+atlas = ExtResource("2")
+region = Rect2(0, 90, 46, 30)
+
+[sub_resource type="SpriteFrames" id="23"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("2")
+}, {
+"duration": 1.0,
+"texture": SubResource("3")
+}, {
+"duration": 1.0,
+"texture": SubResource("4")
+}, {
+"duration": 1.0,
+"texture": SubResource("5")
+}, {
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}, {
+"duration": 1.0,
+"texture": SubResource("9")
+}, {
+"duration": 1.0,
+"texture": SubResource("10")
+}, {
+"duration": 1.0,
+"texture": SubResource("11")
+}, {
+"duration": 1.0,
+"texture": SubResource("12")
+}, {
+"duration": 1.0,
+"texture": SubResource("13")
+}, {
+"duration": 1.0,
+"texture": SubResource("14")
+}, {
+"duration": 1.0,
+"texture": SubResource("15")
+}, {
+"duration": 1.0,
+"texture": SubResource("16")
+}, {
+"duration": 1.0,
+"texture": SubResource("17")
+}, {
+"duration": 1.0,
+"texture": SubResource("18")
+}, {
+"duration": 1.0,
+"texture": SubResource("19")
+}, {
+"duration": 1.0,
+"texture": SubResource("20")
+}, {
+"duration": 1.0,
+"texture": SubResource("21")
+}, {
+"duration": 1.0,
+"texture": SubResource("22")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("24")
+}],
+"loop": false,
+"name": &"empty",
+"speed": 1.0
+}]
+
+[node name="BombCave" type="Node2D" groups=["cave", "saveable", "unstyled"]]
+z_index = -40
+texture_filter = 1
+script = ExtResource("1")
+biome = "blue"
+maxCount = 100
+
+[node name="Sprites" type="Control" parent="."]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_right = 48.0
+offset_bottom = 48.0
+mouse_filter = 2
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(24, 25)
+sprite_frames = SubResource("23")
+
+[node name="FocusMarker" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(21, 24)
+texture = ExtResource("3")
+
+[node name="BombTakenSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("5")
+volume_db = -3.983
+pitch_scale = 1.52
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="Usable" parent="." instance=ExtResource("6")]
+position = Vector2(21, 25)
+visibleOnFocus = NodePath("../FocusMarker")
+
+[node name="AmbSound" parent="Usable" instance=ExtResource("4")]
+stream = ExtResource("7")
+volume_db = -10.974
+pitch_scale = 0.99
+bus = &"Mine"
+randomVolume = 0.0
+maxAudibleDistance = 120.0
+minAudibleDistance = 36.0
+fadeInTime = 0.1
+fadeOutTime = 3.0
+loop = true
+
+[node name="Tween" parent="." instance=ExtResource("8")]
+
+[node name="AlphaMap" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(24, 27)
+texture = ExtResource("9")

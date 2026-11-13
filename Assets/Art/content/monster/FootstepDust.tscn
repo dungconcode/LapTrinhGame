@@ -1,0 +1,50 @@
+[gd_scene load_steps=8 format=3 uid="uid://dhdy435qjghj3"]
+
+[ext_resource type="Texture2D" uid="uid://cpu08ojq3ei7a" path="res://content/monster/dust.png" id="1"]
+[ext_resource type="Script" path="res://content/monster/FootstepDust.gd" id="2"]
+
+[sub_resource type="Gradient" id="10"]
+colors = PackedColorArray(0.313726, 0.145098, 0.784314, 1, 0.313726, 0.145098, 0.784314, 1)
+
+[sub_resource type="GradientTexture2D" id="11"]
+gradient = SubResource("10")
+width = 3
+
+[sub_resource type="Curve" id="3"]
+_data = [Vector2(0, 1), 0.0, -0.0116774, 0, 0, Vector2(0.251678, 1), 0.0, 0.0, 0, 0, Vector2(0.251678, 0.625), 0.0, 0.0, 0, 0, Vector2(0.64094, 0.625), 0.0, 0.0, 0, 0, Vector2(0.644295, 0.261364), 0.0, 0.0, 0, 0, Vector2(1, 0.270455), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 7
+
+[sub_resource type="CurveTexture" id="4"]
+width = 32
+curve = SubResource("3")
+
+[sub_resource type="ParticleProcessMaterial" id="5"]
+lifetime_randomness = 0.58
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(1, 10, 1)
+angle_max = 180.0
+spread = 5.0
+initial_velocity_min = 10.0
+initial_velocity_max = 10.0
+gravity = Vector3(0, 0, 0)
+damping_min = 15.0
+damping_max = 15.0
+scale_curve = SubResource("4")
+color_ramp = SubResource("11")
+
+[node name="Dust" type="GPUParticles2D"]
+texture_filter = 1
+rotation = -1.57079
+amount = 10
+process_material = SubResource("5")
+texture = ExtResource("1")
+explosiveness = 0.75
+randomness = 0.69
+script = ExtResource("2")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

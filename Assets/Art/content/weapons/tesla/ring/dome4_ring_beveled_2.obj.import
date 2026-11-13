@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4b6ss7py3n77"
+path="res://.godot/imported/dome4_ring_beveled_2.obj-3029ca0590ddd57c15551a044ad99110.mesh"
+
+[deps]
+
+source_file="res://content/weapons/tesla/ring/dome4_ring_beveled_2.obj"
+dest_files=["res://.godot/imported/dome4_ring_beveled_2.obj-3029ca0590ddd57c15551a044ad99110.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

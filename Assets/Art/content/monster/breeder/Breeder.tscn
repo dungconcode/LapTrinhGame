@@ -1,0 +1,149 @@
+[gd_scene load_steps=16 format=3 uid="uid://5j2guncbqtpx"]
+
+[ext_resource type="Script" path="res://content/monster/breeder/Breeder.gd" id="1"]
+[ext_resource type="Material" uid="uid://day50apjw6md" path="res://content/monster/FlashMaterial.tres" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://dgtn0orxtdt0u" path="res://content/monster/breeder/spriteframes.tres" id="3"]
+[ext_resource type="PackedScene" uid="uid://cxpe7wcn6438g" path="res://content/monster/bloater/BloaterEgg.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="5"]
+[ext_resource type="AudioStream" uid="uid://jgfp3vy4kj2" path="res://content/sounds/monster/breeder/breeder.mp3" id="6"]
+[ext_resource type="AudioStream" uid="uid://cutnsjew5nnre" path="res://content/sounds/monster/driller/DrillerDie_v2.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://dpaynu20hhuq7" path="res://content/sounds/monster/worm/Worm_Spit.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://b0y883xq43vpk" path="res://content/sounds/monster/breeder/breederLand.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://cmedr58ah7lae" path="res://content/sounds/critters/worm.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://qe5kbwaev8u2" path="res://content/sounds/monster/breeder/Harden.wav" id="11"]
+
+[sub_resource type="CircleShape2D" id="4"]
+radius = 11.0
+
+[sub_resource type="CapsuleShape2D" id="2"]
+radius = 14.0
+height = 34.0
+
+[sub_resource type="CapsuleShape2D" id="3"]
+radius = 4.00001
+height = 48.0
+
+[sub_resource type="CircleShape2D" id="1"]
+radius = 14.0
+
+[node name="Breeder" type="Area2D" groups=["monster", "pauseL"]]
+texture_filter = 1
+collision_layer = 128
+collision_mask = 0
+script = ExtResource("1")
+techId = "breeder"
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+material = ExtResource("2")
+position = Vector2(5, -12)
+sprite_frames = ExtResource("3")
+animation = &"idle"
+
+[node name="EggAttacher1" type="Node2D" parent="."]
+position = Vector2(-4, -16)
+
+[node name="Eggs1" parent="EggAttacher1" instance=ExtResource("4")]
+unique_name_in_owner = true
+visible = false
+show_eyes = true
+
+[node name="EggAttacher2" type="Node2D" parent="."]
+position = Vector2(5, -16)
+
+[node name="Eggs2" parent="EggAttacher2" instance=ExtResource("4")]
+unique_name_in_owner = true
+visible = false
+show_eyes = true
+
+[node name="EggAttacher3" type="Node2D" parent="."]
+position = Vector2(0, -14)
+
+[node name="Eggs3" parent="EggAttacher3" instance=ExtResource("4")]
+unique_name_in_owner = true
+visible = false
+show_eyes = true
+
+[node name="HitboxFalling" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(1, -11)
+shape = SubResource("4")
+
+[node name="HitboxDefault1" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(1, -11)
+shape = SubResource("2")
+
+[node name="HitboxDefault2" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(0, -3)
+rotation = 1.57079
+shape = SubResource("3")
+
+[node name="HitboxArmor1" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(1, -8)
+shape = SubResource("1")
+
+[node name="HitboxArmor2" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(0, -3)
+rotation = 1.57079
+shape = SubResource("3")
+
+[node name="TickSpawnPosition" type="Marker2D" parent="."]
+position = Vector2(-1, -20)
+
+[node name="DieSound" parent="." instance=ExtResource("5")]
+stream = ExtResource("6")
+pitch_scale = 0.96
+bus = &"Important"
+randomVolume = 1.3
+randomPitch = 2.08165e-12
+
+[node name="DieSound2" parent="DieSound" instance=ExtResource("5")]
+stream = ExtResource("7")
+volume_db = -6.09
+pitch_scale = 1.5
+bus = &"World"
+randomVolume = 1.3
+randomPitch = 0.26
+
+[node name="BirthSound" parent="." instance=ExtResource("5")]
+stream = ExtResource("8")
+pitch_scale = 1.48
+bus = &"World"
+
+[node name="LandSound2" parent="BirthSound" instance=ExtResource("5")]
+stream = ExtResource("9")
+pitch_scale = 1.52
+bus = &"Mine"
+
+[node name="LandSound" parent="." instance=ExtResource("5")]
+stream = ExtResource("9")
+bus = &"Mine"
+
+[node name="LaunchSound" parent="." instance=ExtResource("5")]
+stream = ExtResource("10")
+bus = &"Mine"
+
+[node name="ArmorUpSound" parent="." instance=ExtResource("5")]
+stream = ExtResource("11")
+volume_db = 1.981
+bus = &"World"
+
+[node name="ArmorDownSound" parent="." instance=ExtResource("5")]
+stream = ExtResource("6")
+volume_db = -6.933
+pitch_scale = 2.14
+bus = &"World"
+randomPitch = 2.08165e-12
+
+[node name="ArmorUpSound2" parent="ArmorDownSound" instance=ExtResource("5")]
+stream = ExtResource("11")
+volume_db = 0.107
+pitch_scale = 0.8
+bus = &"World"
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="animation_looped" from="Sprite2D" to="." method="_on_sprite_2d_animation_looped"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]

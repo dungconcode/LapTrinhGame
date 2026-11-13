@@ -1,0 +1,68 @@
+[gd_scene load_steps=8 format=3 uid="uid://cyw77yqdqofrl"]
+
+[ext_resource type="Shader" path="res://content/weapons/tesla/physics_sparks_particleshader.gdshader" id="1"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/CustomStyle_ChangeModulate.gd" id="2"]
+
+[sub_resource type="Gradient" id="139"]
+offsets = PackedFloat32Array(0.590116, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="137"]
+gradient = SubResource("139")
+width = 256
+
+[sub_resource type="ShaderMaterial" id="142"]
+shader = ExtResource("1")
+shader_parameter/emission_sphere_radius = 0.2
+shader_parameter/lifetime_randomness = 0.8
+shader_parameter/direction = Vector3(1, 0, 0)
+shader_parameter/spread = 180.0
+shader_parameter/scale = 0.18
+shader_parameter/air_drag = 1.0
+shader_parameter/mass = 0.05
+shader_parameter/mass_random = 0.7
+shader_parameter/scale_min = 0.1
+shader_parameter/scale_max = 0.15
+shader_parameter/initial_linear_velocity = 600.0
+shader_parameter/initial_linear_velocity_random = 0.7
+shader_parameter/color_value = Color(1, 1, 1, 1)
+shader_parameter/scale_speed_mod = Vector3(0, 1, 0)
+shader_parameter/scale_speed_mod_min = 0.3
+shader_parameter/scale_speed_mod_max = 4.0
+shader_parameter/gravity = Vector3(0, 200, 0)
+shader_parameter/color_ramp = SubResource("137")
+
+[sub_resource type="Gradient" id="138"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0.909884, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="141"]
+gradient = SubResource("138")
+width = 8
+height = 32
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[node name="Sparks" type="GPUParticles2D"]
+editor_description = "fine_tuned"
+texture_filter = 1
+emitting = false
+amount = 40
+process_material = SubResource("142")
+texture = SubResource("141")
+lifetime = 0.4
+one_shot = true
+explosiveness = 1.0
+script = ExtResource("2")
+self_init = true
+styleColor = Color(0.439216, 1, 0, 1)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.45
+one_shot = true
+autostart = true
+
+[connection signal="ready" from="." to="." method="restart"]
+[connection signal="timeout" from="Timer" to="." method="queue_free"]

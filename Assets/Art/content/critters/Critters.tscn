@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwv0ttmgfw5cg"]
+
+[ext_resource type="Script" path="res://content/critters/Critters.gd" id="1"]
+
+[node name="Critters" type="Node2D" groups=["pauseL"]]
+script = ExtResource("1")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

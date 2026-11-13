@@ -1,0 +1,152 @@
+[gd_scene load_steps=11 format=3 uid="uid://68g7ptq3tvmb"]
+
+[ext_resource type="Script" path="res://content/caves/watercave/WaterCave.gd" id="1"]
+[ext_resource type="Script" path="res://content/map/Parallaxer.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://b6jebaerb3d0h" path="res://content/caves/watercave/watercave_sheet.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bgxp12af1hutd" path="res://content/caves/watercave/cavewater.png" id="4"]
+[ext_resource type="Script" path="res://content/caves/watercave/Water.gd" id="5"]
+[ext_resource type="PackedScene" uid="uid://02emll07tpim" path="res://content/shared/Usable.tscn" id="6"]
+[ext_resource type="Texture2D" uid="uid://dgb8glop3jfmo" path="res://content/drop/water/focussed.png" id="7"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="8"]
+[ext_resource type="AudioStream" uid="uid://dawqaapsl08ew" path="res://content/sounds/Biomes/cave_water.WAV" id="9"]
+[ext_resource type="Texture2D" uid="uid://cndwypthgdrth" path="res://content/caves/watercave/alphamap.png" id="10"]
+
+[node name="WaterCave" type="Node2D" groups=["cave", "saveable", "unstyled"]]
+z_index = -40
+texture_filter = 1
+script = ExtResource("1")
+biome = "blue"
+maxCount = 2
+
+[node name="Sprites" type="Control" parent="."]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_right = 94.0
+offset_bottom = 63.0
+mouse_filter = 2
+script = ExtResource("2")
+start_offset = 0.7
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(47.5, 35)
+texture = ExtResource("3")
+hframes = 6
+
+[node name="ExtraBackground2" type="ColorRect" parent="Sprites/Sprite2D"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -231.5
+offset_top = -136.0
+offset_right = 40.5
+offset_bottom = -14.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.133333, 0.262745, 0.341176, 1)
+
+[node name="Sprite2" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(47.5, 35)
+texture = ExtResource("3")
+hframes = 6
+frame = 1
+
+[node name="Sprite4" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(47.5, 35)
+texture = ExtResource("3")
+hframes = 6
+frame = 3
+
+[node name="Sprite3" type="Sprite2D" parent="Sprites/Sprite4"]
+show_behind_parent = true
+texture_filter = 1
+texture = ExtResource("3")
+hframes = 6
+frame = 2
+
+[node name="Water1" type="Sprite2D" parent="Sprites/Sprite4"]
+unique_name_in_owner = true
+self_modulate = Color(0.631373, 0.631373, 0.631373, 1)
+texture_filter = 1
+position = Vector2(1.5, 12)
+texture = ExtResource("4")
+script = ExtResource("5")
+
+[node name="Usable" parent="Sprites/Sprite4/Water1" instance=ExtResource("6")]
+visibleOnFocus = NodePath("../FocusSprite")
+
+[node name="FocusSprite" type="Sprite2D" parent="Sprites/Sprite4/Water1"]
+texture_filter = 1
+texture = ExtResource("7")
+
+[node name="Water2" type="Sprite2D" parent="Sprites/Sprite4"]
+unique_name_in_owner = true
+self_modulate = Color(0.631373, 0.631373, 0.631373, 1)
+texture_filter = 1
+position = Vector2(-3.5, 14)
+texture = ExtResource("4")
+script = ExtResource("5")
+
+[node name="Usable" parent="Sprites/Sprite4/Water2" instance=ExtResource("6")]
+visibleOnFocus = NodePath("../FocusSprite")
+
+[node name="FocusSprite" type="Sprite2D" parent="Sprites/Sprite4/Water2"]
+texture_filter = 1
+texture = ExtResource("7")
+
+[node name="Water3" type="Sprite2D" parent="Sprites/Sprite4"]
+unique_name_in_owner = true
+self_modulate = Color(0.631373, 0.631373, 0.631373, 1)
+texture_filter = 1
+position = Vector2(5.5, 15)
+texture = ExtResource("4")
+script = ExtResource("5")
+
+[node name="Usable" parent="Sprites/Sprite4/Water3" instance=ExtResource("6")]
+visibleOnFocus = NodePath("../FocusSprite")
+
+[node name="FocusSprite" type="Sprite2D" parent="Sprites/Sprite4/Water3"]
+texture_filter = 1
+texture = ExtResource("7")
+
+[node name="Sprite5" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(47.5, 35)
+texture = ExtResource("3")
+hframes = 6
+frame = 4
+
+[node name="Sprite6" type="Sprite2D" parent="Sprites"]
+texture_filter = 1
+position = Vector2(47.5, 35)
+texture = ExtResource("3")
+hframes = 6
+frame = 5
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(47, 31)
+
+[node name="Amb" parent="Marker2D" instance=ExtResource("8")]
+stream = ExtResource("9")
+volume_db = -8.709
+pitch_scale = 0.65
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+maxAudibleDistance = 170.0
+minAudibleDistance = 36.0
+fadeInTime = 0.1
+fadeOutTime = 2.0
+loop = true
+
+[node name="AlphaMap" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(48.5, 30.5)
+texture = ExtResource("10")

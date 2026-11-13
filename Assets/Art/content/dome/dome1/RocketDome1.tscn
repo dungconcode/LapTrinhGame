@@ -1,0 +1,115 @@
+[gd_scene load_steps=23 format=3 uid="uid://cxh21vyojek7c"]
+
+[ext_resource type="Script" path="res://content/dome/dome1/RocketDome1.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://btqx6l7rwa55c" path="res://content/dome/dome1/dome/rocketdome_fly0.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://51suur0tytyu" path="res://content/dome/dome1/dome/rocketdome_fly1.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dyjjbd4q4femn" path="res://content/dome/dome1/dome/rocketdome_fly2.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dsrem4pbcmo0l" path="res://content/dome/dome1/dome/rocketdome_fly3.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dm2pl60qyqq3x" path="res://content/dome/dome1/dome/rocketdome_launch0.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://d0a8uer1cr0vl" path="res://content/dome/dome1/dome/rocketdome_launch1.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://ctymslgt4tlp7" path="res://content/dome/dome1/dome/rocketdome_launch2.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bk6mxecapdsag" path="res://content/dome/dome1/dome/rocketdome_launch3.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dpe64r4qyi62g" path="res://content/dome/dome1/dome/rocketdome_launch4.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://g0gfqpcsqjbr" path="res://content/dome/dome1/dome/dome_launch0.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://b7eyin0tg2ftu" path="res://content/dome/dome1/dome/dome_launch1.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cjc2dx5rykj28" path="res://content/dome/dome1/dome/dome_launch2.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://db3wyofrksmo3" path="res://content/dome/dome1/dome/dome_launch3.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cd3wju4qohlo2" path="res://content/dome/dome1/dome/dome_launch4.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dcxjfta0f55rt" path="res://content/dome/dome1/dome/dome_launch5.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cap76p3ensehd" path="res://content/dome/dome1/dome/dome_launch6.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://biaf3t7m1a764" path="res://content/dome/dome1/dome/dome_launch7.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://die47q32tub0c" path="res://content/dome/dome1/dome/dome_launch8.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dhhv3wsspek8s" path="res://content/dome/dome1/dome/dome_launch9.png" id="21"]
+
+[sub_resource type="SpriteFrames" id="1"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}],
+"loop": true,
+"name": &"fly",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}],
+"loop": false,
+"name": &"launch",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}],
+"loop": false,
+"name": &"start",
+"speed": 8.0
+}]
+
+[node name="RocketDome1" type="Node2D"]
+script = ExtResource("1")
+
+[node name="Tween" parent="." instance=ExtResource("2")]
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -13)
+sprite_frames = SubResource("1")
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_AnimatedSprite_animation_finished"]
+[connection signal="animation_looped" from="Sprite2D" to="." method="_on_sprite_2d_animation_looped"]

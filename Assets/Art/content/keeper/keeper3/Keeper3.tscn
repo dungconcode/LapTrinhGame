@@ -1,0 +1,184 @@
+[gd_scene load_steps=21 format=3 uid="uid://ci5a0y5gqx36t"]
+
+[ext_resource type="Script" path="res://content/keeper/keeper3/Keeper3.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="2"]
+[ext_resource type="Script" path="res://content/shared/LightLineOfSight.gd" id="3"]
+[ext_resource type="SpriteFrames" uid="uid://bdy2oqs57smmp" path="res://content/keeper/keeper1/spriteframes-skin0.tres" id="4"]
+[ext_resource type="PackedScene" uid="uid://btnjohc53vjf6" path="res://content/shared/sounds/TileHitSounds.tscn" id="5"]
+[ext_resource type="AudioStream" uid="uid://crayq1yfniwhq" path="res://content/sounds/keeper1/ResourceAttach.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://df4d5kishvpyv" path="res://content/sounds/keeper1/Drop.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://cvyuirbtrf15n" path="res://content/sounds/keeper1/DragResourcesLoop.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://c7ri13w57lqui" path="res://content/sounds/carryline-break.wav" id="9"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="10"]
+[ext_resource type="AudioStream" uid="uid://bwrvu01ga4dyt" path="res://content/sounds/Locations/Teleport/TeleportInit.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://bri5blprws0cw" path="res://content/sounds/Locations/Teleport/TeleportDone_v2.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://ca24uup4xugrd" path="res://content/sounds/keeper1/jetpackstart2.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://dut8u4giiporl" path="res://content/sounds/keeper1/jetpackstop.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://08fn1pep6du6" path="res://content/sounds/keeper1/jetpacktest_2.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://cywfmlnqixtok" path="res://content/sounds/keeper1/MovementLoop_01.wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://dcudgl18wog28" path="res://content/sounds/keeper1/CarryLoad.wav" id="17"]
+
+[sub_resource type="CircleShape2D" id="4"]
+radius = 22.0227
+
+[sub_resource type="CircleShape2D" id="95"]
+radius = 30.0
+
+[sub_resource type="CircleShape2D" id="170"]
+radius = 5.0
+
+[node name="Keeper" type="CharacterBody2D" groups=["gamepadListeners", "keeper", "lostL", "pauseL"]]
+z_index = 25
+texture_filter = 1
+collision_layer = 16384
+collision_mask = 2147483649
+floor_max_angle = 0.15708
+floor_snap_length = 0.0
+platform_floor_layers = 1
+platform_wall_layers = 1
+script = ExtResource("1")
+techId = "keeper3"
+
+[node name="UseArea" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="UseArea"]
+shape = SubResource("4")
+
+[node name="CarryArea" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CarryArea"]
+shape = SubResource("95")
+
+[node name="Light3D" type="Node2D" parent="."]
+position = Vector2(0, -2)
+
+[node name="Tween" parent="Light3D" instance=ExtResource("2")]
+
+[node name="LightBig" type="Node2D" parent="Light3D"]
+script = ExtResource("3")
+light_name = "keeper_big"
+light_color = Color(0.12549, 0.568627, 0.156863, 0.627451)
+light_size = 36.0
+light_flicker_strength = 1.0
+
+[node name="LightSmall" type="Node2D" parent="Light3D"]
+script = ExtResource("3")
+light_name = "keeper_small"
+light_color = Color(0.12549, 0.568627, 0.156863, 1)
+light_size = 28.0
+light_flicker_strength = 1.0
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+light_mask = 0
+position = Vector2(0.5, 0)
+scale = Vector2(1, 0.6)
+sprite_frames = ExtResource("4")
+animation = &"down"
+
+[node name="PlayerCollision" type="CollisionShape2D" parent="."]
+shape = SubResource("170")
+
+[node name="Tween" parent="." instance=ExtResource("2")]
+
+[node name="TileHitSounds" parent="." instance=ExtResource("5")]
+
+[node name="Pickup" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6")
+bus = &"Sounds"
+
+[node name="Drop" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7")
+volume_db = -6.891
+pitch_scale = 1.74
+bus = &"Sounds"
+
+[node name="CarryLine" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8")
+volume_db = -8.739
+bus = &"NoMusic"
+
+[node name="CarryLineStretch" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8")
+bus = &"NoMusic"
+
+[node name="CarryLineBreak" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9")
+bus = &"Sounds"
+
+[node name="TeleportInit" parent="." instance=ExtResource("10")]
+stream = ExtResource("11")
+pitch_scale = 0.91
+bus = &"Keeper"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="TeleportDone" parent="." instance=ExtResource("10")]
+stream = ExtResource("12")
+volume_db = 3.714
+bus = &"Keeper"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="MoveStartSound" parent="." instance=ExtResource("10")]
+stream = ExtResource("13")
+volume_db = -80.0
+pitch_scale = 1.5
+bus = &"Keeper"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="MoveStopSound" parent="." instance=ExtResource("10")]
+stream = ExtResource("14")
+volume_db = -80.0
+pitch_scale = 1.81
+bus = &"Keeper"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="MoveSound" parent="." instance=ExtResource("10")]
+stream = ExtResource("15")
+volume_db = -12.0
+pitch_scale = 1.08
+bus = &"Keeper"
+randomVolume = 0.0
+randomPitch = 0.0
+fadeInTime = 0.1
+fadeOutTime = 0.1
+loop = true
+
+[node name="StillSound" parent="." instance=ExtResource("10")]
+stream = ExtResource("16")
+volume_db = -15.603
+pitch_scale = 0.98
+mix_target = 2
+bus = &"Keeper"
+randomVolume = 1.2
+randomPitch = 0.04
+fadeInTime = 0.1
+fadeOutTime = 0.1
+loop = true
+
+[node name="CarryLoadSound" parent="." instance=ExtResource("10")]
+stream = ExtResource("17")
+volume_db = 1.418
+pitch_scale = 0.86
+bus = &"Keeper"
+randomVolume = 0.0
+randomPitch = 0.0
+fadeInTime = 0.1
+fadeOutTime = 0.1
+loop = true
+
+[node name="AudioListener2D" type="AudioListener2D" parent="."]
+current = true
+
+[connection signal="area_entered" from="UseArea" to="." method="_on_UseArea_usable_entered"]
+[connection signal="area_exited" from="UseArea" to="." method="_on_UseArea_usable_exited"]
+[connection signal="body_entered" from="UseArea" to="." method="_on_UseArea_usable_entered"]
+[connection signal="body_exited" from="UseArea" to="." method="_on_UseArea_usable_exited"]
+[connection signal="body_entered" from="CarryArea" to="." method="_on_CarryArea_body_entered"]
+[connection signal="body_exited" from="CarryArea" to="." method="_on_CarryArea_body_exited"]

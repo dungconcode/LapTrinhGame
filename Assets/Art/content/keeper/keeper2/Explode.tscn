@@ -1,0 +1,182 @@
+[gd_scene load_steps=26 format=3 uid="uid://ehk8shfo3b2t"]
+
+[ext_resource type="Texture2D" uid="uid://djcmewhdpxq3k" path="res://content/keeper/keeper2/player1/implode.png" id="1"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/Explode.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://cflnigtmjmyqg" path="res://content/shared/particle_1px_offset.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="4"]
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("1")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("1")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("1")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("1")
+region = Rect2(96, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("1")
+region = Rect2(128, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("1")
+region = Rect2(160, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("1")
+region = Rect2(192, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource("1")
+region = Rect2(224, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="10"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="11"]
+atlas = ExtResource("1")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="12"]
+atlas = ExtResource("1")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="13"]
+atlas = ExtResource("1")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="14"]
+atlas = ExtResource("1")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="15"]
+atlas = ExtResource("1")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="16"]
+atlas = ExtResource("1")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="17"]
+atlas = ExtResource("1")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("2")
+}, {
+"duration": 1.0,
+"texture": SubResource("3")
+}, {
+"duration": 1.0,
+"texture": SubResource("4")
+}, {
+"duration": 1.0,
+"texture": SubResource("5")
+}, {
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}, {
+"duration": 1.0,
+"texture": SubResource("9")
+}],
+"loop": true,
+"name": &"implode",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("10")
+}, {
+"duration": 1.0,
+"texture": SubResource("11")
+}, {
+"duration": 1.0,
+"texture": SubResource("12")
+}, {
+"duration": 1.0,
+"texture": SubResource("13")
+}, {
+"duration": 1.0,
+"texture": SubResource("14")
+}, {
+"duration": 1.0,
+"texture": SubResource("15")
+}, {
+"duration": 1.0,
+"texture": SubResource("16")
+}, {
+"duration": 1.0,
+"texture": SubResource("17")
+}],
+"loop": true,
+"name": &"prepare",
+"speed": 12.0
+}]
+
+[sub_resource type="ParticleProcessMaterial" id="18"]
+particle_flag_disable_z = true
+emission_shape = 6
+emission_ring_axis = Vector3(0, 0, 1)
+emission_ring_height = 1.0
+emission_ring_radius = 10.0
+emission_ring_inner_radius = 8.0
+gravity = Vector3(0, 0, 0)
+radial_accel_min = -200.0
+radial_accel_max = -200.0
+
+[sub_resource type="Gradient" id="168"]
+offsets = PackedFloat32Array(0, 0.606119, 0.848948, 1)
+colors = PackedColorArray(0.188235, 0.92549, 0.156863, 1, 0.12549, 0.568627, 0.156863, 1, 0.0313726, 0.145098, 0.156863, 1, 0.0313726, 0.145098, 0.156863, 0)
+
+[sub_resource type="GradientTexture2D" id="170"]
+gradient = SubResource("168")
+width = 128
+
+[sub_resource type="ParticleProcessMaterial" id="171"]
+lifetime_randomness = 0.8
+particle_flag_disable_z = true
+angle_max = 360.0
+spread = 40.0
+initial_velocity_min = 6.0
+initial_velocity_max = 60.0
+angular_velocity_min = -800.0
+angular_velocity_max = 800.0
+gravity = Vector3(0, 20, 0)
+color_ramp = SubResource("170")
+
+[node name="Explode" type="AnimatedSprite2D" groups=["pauseL"]]
+texture_filter = 1
+sprite_frames = SubResource("1")
+animation = &"prepare"
+script = ExtResource("2")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+amount = 20
+process_material = SubResource("18")
+lifetime = 0.3
+
+[node name="RayParticles" type="GPUParticles2D" parent="."]
+emitting = false
+amount = 200
+process_material = SubResource("171")
+texture = ExtResource("3")
+speed_scale = 2.0
+
+[node name="Tween" parent="." instance=ExtResource("4")]

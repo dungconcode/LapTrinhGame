@@ -1,0 +1,91 @@
+[gd_scene load_steps=4 format=3 uid="uid://c1i0w8hk0o7tl"]
+
+[ext_resource type="Script" path="res://content/gadgets/probe/hud/HudProbeCharges.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bv5n0ws2rw71q" path="res://content/gadgets/probe/hud/probe_charge_slot.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cxivkfhgu3iex" path="res://content/gadgets/probe/hud/probe_charge.png" id="3"]
+
+[node name="ProbeHud" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 2.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+element_size = Vector2(2, 2)
+layoutWeights = Vector2(1, 1)
+layoutPriority = 15
+
+[node name="Slot1" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 3.0
+offset_top = 2.0
+offset_right = 10.0
+offset_bottom = 9.0
+texture = ExtResource("2")
+stretch_mode = 2
+
+[node name="Charge1" type="TextureRect" parent="Slot1"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 7.0
+offset_bottom = 7.0
+texture = ExtResource("3")
+stretch_mode = 2
+
+[node name="Slot2" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 3.0
+offset_top = 10.0
+offset_right = 10.0
+offset_bottom = 17.0
+texture = ExtResource("2")
+stretch_mode = 2
+
+[node name="Charge2" type="TextureRect" parent="Slot2"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 7.0
+offset_bottom = 7.0
+texture = ExtResource("3")
+stretch_mode = 2
+
+[node name="Slot3" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 3.0
+offset_top = 18.0
+offset_right = 10.0
+offset_bottom = 25.0
+texture = ExtResource("2")
+stretch_mode = 2
+
+[node name="Charge3" type="TextureRect" parent="Slot3"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 7.0
+offset_bottom = 7.0
+texture = ExtResource("3")
+stretch_mode = 2
+
+[node name="Slot4" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 3.0
+offset_top = 26.0
+offset_right = 10.0
+offset_bottom = 33.0
+texture = ExtResource("2")
+stretch_mode = 2
+
+[node name="Charge4" type="TextureRect" parent="Slot4"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 7.0
+offset_bottom = 7.0
+texture = ExtResource("3")
+stretch_mode = 2

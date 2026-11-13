@@ -1,0 +1,252 @@
+[gd_scene load_steps=12 format=3 uid="uid://c5ts16dwwm0e1"]
+
+[ext_resource type="Theme" uid="uid://bo0ebvm7ocab1" path="res://gui/theme.tres" id="1"]
+[ext_resource type="Script" path="res://content/gamemode/summary/MiningSummary.gd" id="2"]
+[ext_resource type="StyleBox" uid="uid://dkv8plo4j2b22" path="res://gui/panels/panel_outside.tres" id="3"]
+[ext_resource type="FontVariation" uid="uid://g3vbmmqhudaf" path="res://gui/fonts/FontHeading.tres" id="4"]
+[ext_resource type="LabelSettings" uid="uid://b5aow2qb2h3pe" path="res://gui/fontsettings/HeadingFontSettings.tres" id="5"]
+[ext_resource type="TileSet" uid="uid://dmmhydi0tgr84" path="res://content/gadgets/remotecontrol/minimap_tileset.tres" id="6"]
+[ext_resource type="Script" path="res://content/map/MapData.gd" id="7"]
+[ext_resource type="Texture2D" uid="uid://dkk8vh6unmpld" path="res://content/gamemode/summary/summary_logo.png" id="8"]
+[ext_resource type="FontFile" uid="uid://b17frfesibn6u" path="res://gui/fonts/small_pixel.ttf" id="9"]
+
+[sub_resource type="ButtonGroup" id="ButtonGroup_bxxkb"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_lwjeu"]
+font = ExtResource("9")
+
+[node name="MiningSummary" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="ColorRect" type="ColorRect" parent="." groups=["unstyled"]]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Container" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="Container"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = ExtResource("3")
+
+[node name="MarginContainer" type="MarginContainer" parent="Container/PanelContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Container/PanelContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="TitleLabel" type="Label" parent="Container/PanelContainer/MarginContainer/VBoxContainer"]
+texture_filter = 4
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4")
+text = "level.gameover.timelapse"
+label_settings = ExtResource("5")
+horizontal_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(1400, 740)
+layout_mode = 2
+
+[node name="MapContainer" type="CenterContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Control" type="Control" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/MapContainer"]
+visible = false
+layout_mode = 2
+
+[node name="MapData" type="TileMap" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/MapContainer"]
+unique_name_in_owner = true
+z_index = 500
+position = Vector2(750, 370)
+scale = Vector2(1.5, 1.5)
+tile_set = ExtResource("6")
+format = 2
+layer_0/name = "biomes"
+layer_0/enabled = false
+layer_0/navigation_enabled = false
+layer_0/tile_data = PackedInt32Array(-589823, 262145, 3, -524288, 262145, 3, -458753, 262145, 3, -393218, 262145, 3, -393219, 262145, 3, -393220, 262145, 3, -327684, 262145, 3, -327685, 262145, 3, -262150, 262145, 3, -262151, 262145, 3, -196615, 262145, 3, -196616, 262145, 3, -131080, 262145, 3, -196614, 262145, 3, -196613, 262145, 3, -196612, 262145, 3, -196611, 262145, 3, -196610, 262145, 3, -262146, 262145, 3)
+layer_1/name = "hardness"
+layer_1/enabled = false
+layer_1/navigation_enabled = false
+layer_1/tile_data = PackedInt32Array(-720894, 262145, 3, -655358, 262145, 3, -655359, 262145, 3, -589823, 262145, 3, -589824, 262145, 3, -524288, 262145, 3, -458753, 262145, 3, -393217, 262145, 3, -327682, 262145, 3, -327683, 262145, 3, -262147, 262145, 3, -262148, 262145, 3, -196612, 262145, 3, -196611, 262145, 3, -196610, 262145, 3, -196609, 262145, 3, -262144, 262145, 3, -262143, 262145, 3, -262142, 262145, 3, -262141, 262145, 3, -196604, 262145, 3, -196605, 262145, 3, -196606, 262145, 3, -196607, 262145, 3, -196608, 262145, 3, -131073, 262145, 3, -65537, 262145, 3, -131072, 262145, 3, -131071, 262145, 3, -131070, 262145, 3, -131069, 262145, 3, -131068, 262145, 3, -65532, 262145, 3, -262138, 262145, 3, -262139, 262145, 3, -196602, 262145, 3, -196601, 262145, 3)
+layer_2/name = "resources"
+layer_2/navigation_enabled = false
+layer_2/tile_data = PackedInt32Array(-1507330, 1, 0, -1441794, 1, 0, -1376258, 1, 0, -1310723, 1, 0, -1245187, 1, 0, -1179651, 1, 0, -1114115, 1, 0, -1048580, 1, 0, -983044, 1, 0, -917509, 1, 0, -851973, 1, 0, -786438, 1, 0, -720903, 1, 0, -655367, 1, 0, -589832, 1, 0, -524296, 1, 0, -458760, 1, 0, -393225, 1, 0, -327689, 1, 0, -262154, 1, 0, -196619, 1, 0, -131083, 1, 0, -65548, 1, 0, -12, 1, 0, 65523, 1, 0, 131059, 1, 0, 196595, 1, 0, 262130, 1, 0, 327666, 1, 0, 393202, 1, 0, 458738, 1, 0, 524273, 1, 0, 589809, 1, 0, 655345, 1, 0, 720881, 1, 0, 786417, 1, 0, 851953, 1, 0, 917489, 1, 0, 917490, 1, 0, 917491, 1, 0, 917492, 1, 0, 917493, 1, 0, 917494, 1, 0, 851959, 1, 0, 851960, 1, 0, 786425, 1, 0, 786426, 1, 0, 786427, 1, 0, 720892, 1, 0, 720893, 1, 0, 720894, 1, 0, 720895, 1, 0, 655360, 1, 0, 655361, 1, 0, 655362, 1, 0, 655363, 1, 0, 655364, 1, 0, 655365, 1, 0, 655366, 1, 0, 720903, 1, 0, 786439, 1, 0, 851976, 1, 0, 917512, 1, 0, 983048, 1, 0, 1048584, 1, 0, 1114119, 1, 0, 1179655, 1, 0, 1245190, 1, 0, 1310725, 1, 0, 1376260, 1, 0, 1441795, 1, 0, 1441794, 1, 0, 1441793, 1, 0, 1441792, 1, 0, 1507327, 1, 0, 1507326, 1, 0, 1507325, 1, 0, 1507324, 1, 0, 1441787, 1, 0, 1376251, 1, 0, 1310715, 1, 0, 1245178, 1, 0, 1179642, 1, 0, 1114106, 1, 0, 1048570, 1, 0, 983034, 1, 0, 917497, 1, 0, 851961, 1, 0, 720889, 1, 0, 655352, 1, 0, 589816, 1, 0, 524280, 1, 0, 458744, 1, 0, 393209, 1, 0, 327674, 1, 0, 262139, 1, 0, 262140, 1, 0, 196605, 1, 0, 196606, 1, 0, 131071, 1, 0, 65536, 1, 0, 1, 1, 0, -65534, 1, 0, -65533, 1, 0, -131068, 1, 0, -131067, 1, 0, -131066, 1, 0, -196601, 1, 0, -196600, 1, 0, -262135, 1, 0, -262134, 1, 0, -262133, 1, 0, -327668, 1, 0, -327667, 1, 0, -393202, 1, 0, -393201, 1, 0, -393200, 1, 0, -327665, 1, 0, -262130, 1, 0, -262131, 1, 0, -196596, 1, 0, -196597, 1, 0, -131062, 1, 0, -131063, 1, 0, -131064, 1, 0, -131065, 1, 0, -65531, 1, 0, -65532, 1, 0, -65535, 1, 0, -65536, 1, 0, -1, 1, 0, -65538, 1, 0, -65539, 1, 0, -131075, 1, 0, -196611, 1, 0, -262147, 1, 0, -327683, 1, 0, -327682, 1, 0, -327681, 1, 0, -393216, 1, 0, -393215, 1, 0, -393214, 1, 0, -786426, 262145, 3, -720890, 262145, 3, -655354, 262145, 3, -655355, 262145, 3, -589819, 262145, 3, -524282, 262145, 3, -524281, 262145, 3, -524280, 262145, 3, -524279, 262145, 3, -458743, 262145, 3, -458744, 262145, 3, -524283, 262145, 3, -524284, 262145, 3, -524285, 262145, 3, -589821, 262145, 3, -589820, 262145, 3, -589818, 262145, 3, -655356, 262145, 3, -655357, 262145, 3, -720893, 262145, 3, -720894, 262145, 3, -720895, 262145, 3, -786431, 262145, 3, -786432, 262145, 3, -6, 1, 0, -7, 1, 0, -8, 1, 0, -5, 1, 0, 65531, 1, 0, 65530, 1, 0, 131065, 1, 0, 196601, 1, 0, 196602, 1, 0)
+script = ExtResource("7")
+
+[node name="HSeparator2" type="HSeparator" parent="Container/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="ShowImagesButton" type="Button" parent="Container/PanelContainer/MarginContainer/VBoxContainer/HSeparator2"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1032.0
+offset_top = -63.0
+offset_right = 1401.0
+offset_bottom = -5.0
+focus_neighbor_left = NodePath("../../../../../../MarginContainer/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/ButtonEnd")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath("../../CancelButton")
+focus_next = NodePath(".")
+focus_previous = NodePath(".")
+text = "level.gameover.showimages"
+
+[node name="LabelSaveInfo" type="Label" parent="Container/PanelContainer/MarginContainer/VBoxContainer/HSeparator2"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+anchor_left = 0.05
+anchor_top = -2.45833
+anchor_right = 0.985715
+anchor_bottom = -1.04167
+offset_left = 82.0
+offset_right = -378.0
+autowrap_mode = 3
+metadata/_edit_use_anchors_ = true
+
+[node name="CancelButton" type="Button" parent="Container/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+focus_neighbor_left = NodePath("../../../../../MarginContainer/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/ButtonEnd")
+focus_neighbor_top = NodePath("../HSeparator2/ShowImagesButton")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath(".")
+focus_next = NodePath(".")
+focus_previous = NodePath(".")
+text = "level.station.upgrademenu.close"
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.000520833
+anchor_top = 0.610185
+anchor_right = 0.148438
+anchor_bottom = 0.878704
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/PanelContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/PanelContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="GridContainer" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+columns = 3
+
+[node name="ButtonSpeed1" type="Button" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+button_group = SubResource("ButtonGroup_bxxkb")
+text = ">"
+
+[node name="ButtonSpeed2" type="Button" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+button_pressed = true
+button_group = SubResource("ButtonGroup_bxxkb")
+text = ">>"
+
+[node name="ButtonSpeed3" type="Button" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+button_group = SubResource("ButtonGroup_bxxkb")
+text = ">>>"
+
+[node name="ButtonInitial" type="Button" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "|<"
+
+[node name="ButtonPause" type="Button" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+toggle_mode = true
+text = "||"
+
+[node name="ButtonEnd" type="Button" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = ">|"
+
+[node name="ButtonSave" type="Button" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "level.gameover.saveimages"
+
+[node name="GifExportOverlayViewport" type="SubViewport" parent="." groups=["unstyled"]]
+unique_name_in_owner = true
+disable_3d = true
+transparent_bg = true
+size = Vector2i(200, 200)
+render_target_clear_mode = 1
+render_target_update_mode = 0
+
+[node name="GifExportOverlayEntries" type="VBoxContainer" parent="GifExportOverlayViewport"]
+unique_name_in_owner = true
+offset_right = 242.0
+offset_bottom = 137.0
+size_flags_horizontal = 3
+alignment = 2
+
+[node name="TextureRect2" type="TextureRect" parent="GifExportOverlayViewport/GifExportOverlayEntries"]
+layout_mode = 2
+texture = ExtResource("8")
+stretch_mode = 2
+
+[node name="LabelUsernameData" type="Label" parent="GifExportOverlayViewport/GifExportOverlayEntries"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "AAAAA    AAA"
+label_settings = SubResource("LabelSettings_lwjeu")
+horizontal_alignment = 2
+
+[node name="LabelGamemodeScore" type="Label" parent="GifExportOverlayViewport/GifExportOverlayEntries"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Relic Huntawdad"
+label_settings = SubResource("LabelSettings_lwjeu")
+horizontal_alignment = 2
+
+[node name="FileDialog" type="FileDialog" parent="."]
+size = Vector2i(664, 339)
+ok_button_text = "Save"
+dialog_hide_on_ok = true
+access = 2
+filters = PackedStringArray("*.gif")
+use_native_dialog = true
+
+[connection signal="pressed" from="Container/PanelContainer/MarginContainer/VBoxContainer/HSeparator2/ShowImagesButton" to="." method="_on_show_images_button_pressed"]
+[connection signal="pressed" from="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/ButtonSpeed1" to="." method="_on_button_speed_1_pressed"]
+[connection signal="pressed" from="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/ButtonSpeed2" to="." method="_on_button_speed_2_pressed"]
+[connection signal="pressed" from="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/ButtonSpeed3" to="." method="_on_button_speed_3_pressed"]
+[connection signal="pressed" from="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/ButtonInitial" to="." method="_on_button_initial_pressed"]
+[connection signal="pressed" from="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/ButtonPause" to="." method="_on_button_pause_pressed"]
+[connection signal="pressed" from="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/ButtonEnd" to="." method="_on_button_end_pressed"]
+[connection signal="pressed" from="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/ButtonSave" to="." method="_on_button_save_pressed"]

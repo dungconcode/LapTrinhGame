@@ -1,0 +1,44 @@
+[gd_scene load_steps=4 format=3 uid="uid://cbb6hb4tbs83n"]
+
+[ext_resource type="Theme" uid="uid://bo0ebvm7ocab1" path="res://gui/theme.tres" id="1"]
+[ext_resource type="Script" path="res://content/caves/seedcave/MineralTreeTutorial.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://dra24ihmi24br" path="res://content/gadgets/mineraltree/seeddrop.png" id="3"]
+
+[node name="MineralTreeTutorial" type="MarginContainer"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -518.0
+offset_top = -122.0
+grow_horizontal = 0
+grow_vertical = 0
+theme = ExtResource("1")
+script = ExtResource("2")
+summaryCategory = "level.tutorial.caves"
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="PanelContainer/HBoxContainer" groups=["unstyled"]]
+texture_filter = 1
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+size_flags_vertical = 5
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="PanelContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+text = "level.tutorial.mineraltree1"
+autowrap_mode = 3

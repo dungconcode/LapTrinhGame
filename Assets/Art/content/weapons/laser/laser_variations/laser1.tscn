@@ -1,0 +1,232 @@
+[gd_scene load_steps=35 format=3 uid="uid://bxrcobh8xce32"]
+
+[ext_resource type="Script" path="res://content/weapons/laser/laser_variations/visual_laser.gd" id="1"]
+[ext_resource type="Shader" path="res://content/weapons/laser/laser_variations/laser.gdshader" id="2"]
+[ext_resource type="Texture2D" uid="uid://ccqqc5rjgjkom" path="res://systems/style/palettes/index_palette.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://c5p5rb6gg8mxo" path="res://content/weapons/laser/laser_variations/laser_particle1.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dns2l2tqhbe5m" path="res://content/weapons/laser/muzzleflash.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dmj75h3rnqpl1" path="res://content/weapons/laser/small-burst.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://ddv6xhgmrqo8c" path="res://content/weapons/laser/laserend-small.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bvprslenh053y" path="res://content/weapons/laser/laser_variations/hit_particle_gradient.tres" id="8"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="9"]
+[ext_resource type="AudioStream" uid="uid://b33isadiay20w" path="res://content/sounds/Weapons/Laser/mani amb4_1.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://bh5hwsc2d1cf4" path="res://content/sounds/Weapons/Laser/sfx_heavy_impact.wav" id="11"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="12"]
+[ext_resource type="AudioStream" uid="uid://b46pln84qw6pg" path="res://content/sounds/Weapons/Laser/laser_loop_1.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://b68kjuodlmbtd" path="res://content/sounds/Weapons/Laser/laser_init_1.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://dbbs7ulakih0p" path="res://content/sounds/Weapons/Laser/laser_init_1_add.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://bn0ccd33g48cw" path="res://content/sounds/Combat Punch 5.wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://dd7tadtlu6kpo" path="res://content/sounds/Weapons/Laser/grid Off.wav" id="17"]
+
+[sub_resource type="ShaderMaterial" id="3"]
+shader = ExtResource("2")
+shader_parameter/power = 1.4
+shader_parameter/speed = 6.667
+shader_parameter/palette = ExtResource("3")
+
+[sub_resource type="AtlasTexture" id="33"]
+atlas = ExtResource("5")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="34"]
+atlas = ExtResource("5")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="35"]
+atlas = ExtResource("5")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="36"]
+atlas = ExtResource("5")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="38"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("33")
+}, {
+"duration": 1.0,
+"texture": SubResource("34")
+}, {
+"duration": 1.0,
+"texture": SubResource("35")
+}, {
+"duration": 1.0,
+"texture": SubResource("36")
+}],
+"loop": true,
+"name": &"glow",
+"speed": 24.0
+}]
+
+[sub_resource type="AtlasTexture" id="44"]
+atlas = ExtResource("6")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="41"]
+atlas = ExtResource("6")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="42"]
+atlas = ExtResource("6")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="43"]
+atlas = ExtResource("6")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="45"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("44")
+}, {
+"duration": 1.0,
+"texture": SubResource("41")
+}, {
+"duration": 1.0,
+"texture": SubResource("42")
+}, {
+"duration": 1.0,
+"texture": SubResource("43")
+}],
+"loop": false,
+"name": &"kapow",
+"speed": 12.0
+}]
+
+[sub_resource type="AtlasTexture" id="53"]
+atlas = ExtResource("7")
+region = Rect2(0, 0, 9, 7)
+
+[sub_resource type="AtlasTexture" id="54"]
+atlas = ExtResource("7")
+region = Rect2(9, 0, 9, 7)
+
+[sub_resource type="AtlasTexture" id="55"]
+atlas = ExtResource("7")
+region = Rect2(18, 0, 9, 7)
+
+[sub_resource type="AtlasTexture" id="56"]
+atlas = ExtResource("7")
+region = Rect2(27, 0, 9, 7)
+
+[sub_resource type="SpriteFrames" id="50"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("53")
+}, {
+"duration": 1.0,
+"texture": SubResource("54")
+}, {
+"duration": 1.0,
+"texture": SubResource("55")
+}, {
+"duration": 1.0,
+"texture": SubResource("56")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="ParticleProcessMaterial" id="52"]
+lifetime_randomness = 0.3
+particle_flag_disable_z = true
+direction = Vector3(0, -1, 0)
+spread = 30.0
+initial_velocity_min = 48.564
+initial_velocity_max = 68.4
+gravity = Vector3(0, -5, 0)
+damping_min = 40.0
+damping_max = 40.0
+color_ramp = ExtResource("8")
+
+[node name="Laser" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture_repeat = 2
+material = SubResource("3")
+position = Vector2(-0.5, 0)
+rotation = -1.57365
+texture = ExtResource("4")
+centered = false
+offset = Vector2(0, -16)
+region_enabled = true
+region_rect = Rect2(16, 32, 100, 32)
+
+[node name="MuzzleFlash" type="AnimatedSprite2D" parent="."]
+position = Vector2(0.5, -8.5)
+sprite_frames = SubResource("38")
+animation = &"glow"
+
+[node name="Burst" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -42)
+sprite_frames = SubResource("45")
+animation = &"kapow"
+
+[node name="HitEffect" type="AnimatedSprite2D" parent="."]
+z_index = 7
+position = Vector2(0, -100)
+sprite_frames = SubResource("50")
+frame = 1
+
+[node name="HitParticles" type="GPUParticles2D" parent="."]
+z_index = 1
+position = Vector2(0, -100)
+amount = 30
+process_material = SubResource("52")
+lifetime = 0.4
+
+[node name="FireMonsterHit" parent="." instance=ExtResource("9")]
+stream = ExtResource("10")
+bus = &"World"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="FireMonsterBump" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11")
+volume_db = 6.555
+bus = &"World"
+script = ExtResource("12")
+
+[node name="FireSound" parent="." instance=ExtResource("9")]
+stream = ExtResource("13")
+volume_db = -15.496
+pitch_scale = 0.95
+bus = &"Weapon"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="FireSoundInit" type="AudioStreamPlayer" parent="."]
+volume_db = -8.622
+pitch_scale = 0.92
+bus = &"Sounds"
+script = ExtResource("12")
+streams = [ExtResource("14")]
+
+[node name="FireSoundInit2" type="AudioStreamPlayer" parent="FireSoundInit"]
+volume_db = -16.488
+pitch_scale = 0.59
+bus = &"Sounds"
+script = ExtResource("12")
+streams = [ExtResource("15")]
+
+[node name="FireSoundStop" type="AudioStreamPlayer" parent="."]
+volume_db = -13.758
+pitch_scale = 1.25
+bus = &"Sounds"
+script = ExtResource("12")
+streams = [ExtResource("16")]
+
+[node name="FireSoundStop2" type="AudioStreamPlayer" parent="FireSoundStop"]
+volume_db = 2.847
+pitch_scale = 1.13
+bus = &"Sounds"
+script = ExtResource("12")
+streams = [ExtResource("17")]

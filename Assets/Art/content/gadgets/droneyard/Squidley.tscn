@@ -1,0 +1,42 @@
+[gd_scene load_steps=7 format=3 uid="uid://bbnxd7op6anii"]
+
+[ext_resource type="Script" path="res://content/gadgets/droneyard/Squidley.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://rasmosh8h0qm" path="res://content/drop/iron/iron_smol.png" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://vy6nsje2ub1m" path="res://content/gadgets/droneyard/SquidleyAnimations.tres" id="3"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="4"]
+[ext_resource type="AudioStream" uid="uid://vwb3leendflr" path="res://content/sounds/Locations/Transportdrone/DroneMove.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://blulqphaadxx1" path="res://content/sounds/Locations/Transportdrone/DroneLift.wav" id="6"]
+
+[node name="TransportDrone" type="Node2D" groups=["saveable", "transport_drones"]]
+z_index = 20
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="CarriedResource" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, 7)
+texture = ExtResource("2")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -3)
+sprite_frames = ExtResource("3")
+animation = &"move_right"
+
+[node name="PickupSpot" type="Marker2D" parent="."]
+position = Vector2(0, 4)
+
+[node name="MoveAmb" parent="." instance=ExtResource("4")]
+stream = ExtResource("5")
+bus = &"Mine"
+randomVolume = 0.0
+maxAudibleDistance = 230.0
+minAudibleDistance = 60.0
+doppler = 0.15
+
+[node name="PickupSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("6")
+bus = &"Mine"
+maxAudibleDistance = 350.0
+minAudibleDistance = 100.0
+
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]

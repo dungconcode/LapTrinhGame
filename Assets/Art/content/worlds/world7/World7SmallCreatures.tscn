@@ -1,0 +1,83 @@
+[gd_scene load_steps=8 format=3 uid="uid://cd7aekbyrfdqg"]
+
+[ext_resource type="SpriteFrames" uid="uid://benuqhiv035h4" path="res://content/worlds/world7/walkers/Walker1.tres" id="1"]
+[ext_resource type="Script" path="res://content/worlds/world7/World7SmallCreature.gd" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://brr453j4fbw4g" path="res://content/worlds/world7/walkers/Walker2.tres" id="3"]
+[ext_resource type="SpriteFrames" uid="uid://dk4dq8si2hrki" path="res://content/worlds/world7/walkers/Walker3.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://h0rwtyn7d83" path="res://content/worlds/world7/creature_small_3.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dpgeonev5qoor" path="res://content/worlds/world7/creature_small_4.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dnqq8tylygnya" path="res://content/worlds/world7/creature_small_5.png" id="7"]
+
+[node name="World7SmallCreatures" type="Node2D"]
+
+[node name="Walker1" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, 109)
+sprite_frames = ExtResource("1")
+autoplay = "default"
+frame_progress = 0.861136
+script = ExtResource("2")
+speed = 0.07
+
+[node name="Walker2" type="AnimatedSprite2D" parent="."]
+position = Vector2(138, 98)
+sprite_frames = ExtResource("3")
+autoplay = "default"
+frame_progress = 0.0886146
+script = ExtResource("2")
+speed = 0.2
+
+[node name="Walker8" type="AnimatedSprite2D" parent="."]
+position = Vector2(-233, 100)
+sprite_frames = ExtResource("3")
+autoplay = "default"
+frame_progress = 0.0886146
+flip_h = true
+script = ExtResource("2")
+speed = -0.25
+left_to_right = false
+
+[node name="Walker3" type="AnimatedSprite2D" parent="."]
+position = Vector2(-305, 105)
+sprite_frames = ExtResource("4")
+autoplay = "default"
+frame_progress = 0.557826
+script = ExtResource("2")
+speed = 0.07
+
+[node name="Walker4" type="Sprite2D" parent="."]
+position = Vector2(270, 76)
+texture = ExtResource("5")
+centered = false
+script = ExtResource("2")
+speed = 0.05
+
+[node name="Walker9" type="Sprite2D" parent="."]
+position = Vector2(-200, 77)
+texture = ExtResource("5")
+centered = false
+script = ExtResource("2")
+speed = -0.05
+left_to_right = false
+
+[node name="Walker5" type="Sprite2D" parent="."]
+position = Vector2(-34, 76)
+texture = ExtResource("5")
+centered = false
+script = ExtResource("2")
+speed = -0.05
+left_to_right = false
+
+[node name="Walker6" type="Sprite2D" parent="."]
+position = Vector2(87, 73)
+texture = ExtResource("6")
+centered = false
+script = ExtResource("2")
+speed = -0.1
+left_to_right = false
+
+[node name="Walker7" type="Sprite2D" parent="."]
+position = Vector2(300, 75)
+texture = ExtResource("7")
+centered = false
+script = ExtResource("2")
+speed = 0.1

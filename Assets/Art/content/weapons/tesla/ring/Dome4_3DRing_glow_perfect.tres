@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://d28pywccmy4x5"]
+
+[ext_resource type="Shader" uid="uid://b0pi2ieo3pfw7" path="res://content/weapons/tesla/ring/3d_mat_shader.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://6ckm87mcefyo" path="res://content/weapons/tesla/ring/Metal-4-posterized.png" id="2"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/metalness = 1.0
+shader_parameter/color = Color(1, 1, 1, 1)
+shader_parameter/glow_power = 0.0
+shader_parameter/glow_color = Color(1, 1, 1, 1)
+shader_parameter/matcap = ExtResource("2")

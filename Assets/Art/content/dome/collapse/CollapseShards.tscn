@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://content/dome/collapse/CollapseShards.gd" id="1"]
+
+[sub_resource type="Curve2D" id="72"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 75, 154, -8.24069, 10.8627, 8.24069, -10.8627, 83, 132, -35.9594, -0.374577, 35.9594, 0.374577, 149, 104, -9.73899, -9.36442, 9.73899, 9.36442, 212, 129, 0, 0, 0, 0, 223, 154)
+}
+point_count = 5
+
+[node name="CollapseShards" type="Path2D"]
+position = Vector2(-149, -158)
+curve = SubResource("72")
+script = ExtResource("1")

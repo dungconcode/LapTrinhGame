@@ -1,0 +1,98 @@
+[gd_scene load_steps=14 format=3 uid="uid://b74skpkppjbe"]
+
+[ext_resource type="Script" path="res://content/dome/PrestigeEngine.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://broi2an7bia4o" path="res://content/dome/prestige_engine.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c4wnecs6txmhg" path="res://stages/landing/smoke.png" id="3"]
+[ext_resource type="AudioStream" uid="uid://ccpt60ili5f60" path="res://content/sounds/prestige-engine.wav" id="4"]
+
+[sub_resource type="AtlasTexture" id="1"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 48, 72)
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("2")
+region = Rect2(48, 0, 48, 72)
+
+[sub_resource type="SpriteFrames" id="3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("1")
+}, {
+"duration": 1.0,
+"texture": SubResource("2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Gradient" id="24"]
+offsets = PackedFloat32Array(0, 0.705628, 1)
+colors = PackedColorArray(0.407843, 0.482353, 0.784314, 1, 0.407843, 0.482353, 0.784314, 1, 0.407843, 0.482353, 0.784314, 0)
+
+[sub_resource type="GradientTexture2D" id="23"]
+gradient = SubResource("24")
+
+[sub_resource type="Curve" id="25"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.0851852, 1), 0.0, 0.0, 0, 0, Vector2(0.34252, 1), -0.0541193, -0.0541193, 0, 0, Vector2(1, 0), -4.67895, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="19"]
+curve = SubResource("25")
+
+[sub_resource type="ParticleProcessMaterial" id="26"]
+lifetime_randomness = 0.77
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 5.0
+angle_max = 360.0
+direction = Vector3(0, 1, 0)
+spread = 15.0
+initial_velocity_min = 23.5
+initial_velocity_max = 50.0
+angular_velocity_min = -10.0
+angular_velocity_max = 10.0
+gravity = Vector3(0, -10, 0)
+scale_curve = SubResource("19")
+color_ramp = SubResource("23")
+
+[sub_resource type="ParticleProcessMaterial" id="27"]
+lifetime_randomness = 0.49
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(60, 10, 1)
+gravity = Vector3(0, 40, 0)
+scale_max = 2.0
+color = Color(0.909804, 0.776471, 1, 1)
+
+[node name="PrestigeEngine" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, 84)
+sprite_frames = SubResource("3")
+
+[node name="SmokeParticles" type="GPUParticles2D" parent="."]
+z_index = 100
+position = Vector2(0, 100)
+emitting = false
+amount = 500
+process_material = SubResource("26")
+texture = ExtResource("3")
+lifetime = 20.0
+one_shot = true
+randomness = 0.25
+visibility_rect = Rect2(-150, 0, 300, 1000)
+
+[node name="DirtParticles" type="GPUParticles2D" parent="."]
+position = Vector2(0, 24)
+amount = 50
+process_material = SubResource("27")
+lifetime = 2.0
+visibility_rect = Rect2(-100, -10, 200, 1000)
+
+[node name="EngineSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4")
+bus = &"Sounds"

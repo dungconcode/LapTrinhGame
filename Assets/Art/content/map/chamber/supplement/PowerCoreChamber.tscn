@@ -1,0 +1,186 @@
+[gd_scene load_steps=29 format=3 uid="uid://c0se3sjup5ja7"]
+
+[ext_resource type="Script" path="res://content/map/chamber/supplement/PowerCoreChamber.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://6ajc0jgsrppq" path="res://content/drop/powercore/PowerCoreDrop.tscn" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://bj8vmk10475m5" path="res://content/map/chamber/supplement/PowerCoreChamber_spriteframes.tres" id="3"]
+[ext_resource type="Texture2D" uid="uid://buqvmonteyvny" path="res://content/drop/powercore/core.png" id="4"]
+[ext_resource type="AudioStream" uid="uid://c2hpxhgvrwf5y" path="res://content/sounds/Locations/ChamberRelic/NoiseFloor09.wav" id="5"]
+[ext_resource type="PackedScene" uid="uid://02emll07tpim" path="res://content/shared/Usable.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://tpg22jokikqp" path="res://content/map/TileCover.tscn" id="7"]
+[ext_resource type="Texture2D" uid="uid://yan3ge52a6vc" path="res://content/map/chamber/cover.png" id="8"]
+[ext_resource type="AudioStream" uid="uid://cxolv2c5th51j" path="res://content/sounds/Locations/RelicSwitchChamber/switchChamberAppear.wav" id="9"]
+[ext_resource type="Texture2D" uid="uid://y8ueo8hqi5ab" path="res://content/drop/powercore/focussed.png" id="10"]
+[ext_resource type="PackedScene" path="res://content/shared/drops/ResourceGrabber.tscn" id="11"]
+[ext_resource type="Texture2D" uid="uid://uqil5brfpxsu" path="res://content/map/chamber/supplement/watershimmer_sheet.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://c7sqlyxi0hxga" path="res://content/drop/water/water_smol.png" id="13"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k1n40"]
+texture = ExtResource("8")
+texture_region_size = Vector2i(24, 24)
+0:0/0 = 0
+0:0/0/script = null
+
+[sub_resource type="TileSet" id="1"]
+tile_size = Vector2i(24, 24)
+sources/0 = SubResource("TileSetAtlasSource_k1n40")
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("12")
+region = Rect2(0, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("12")
+region = Rect2(8, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("12")
+region = Rect2(16, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("12")
+region = Rect2(24, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("12")
+region = Rect2(32, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("12")
+region = Rect2(40, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("12")
+region = Rect2(48, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource("12")
+region = Rect2(56, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="10"]
+atlas = ExtResource("12")
+region = Rect2(64, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="11"]
+atlas = ExtResource("12")
+region = Rect2(72, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="12"]
+atlas = ExtResource("12")
+region = Rect2(80, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="13"]
+atlas = ExtResource("12")
+region = Rect2(88, 0, 8, 8)
+
+[sub_resource type="SpriteFrames" id="14"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("2")
+}, {
+"duration": 1.0,
+"texture": SubResource("3")
+}, {
+"duration": 1.0,
+"texture": SubResource("4")
+}, {
+"duration": 1.0,
+"texture": SubResource("5")
+}, {
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}, {
+"duration": 1.0,
+"texture": SubResource("9")
+}, {
+"duration": 1.0,
+"texture": SubResource("10")
+}, {
+"duration": 1.0,
+"texture": SubResource("11")
+}, {
+"duration": 1.0,
+"texture": SubResource("12")
+}, {
+"duration": 1.0,
+"texture": SubResource("13")
+}],
+"loop": false,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="PowerCoreChamber" type="Node2D" groups=["chamber", "saveable"]]
+z_index = -10
+texture_filter = 1
+script = ExtResource("1")
+GIZMO_SCENE = ExtResource("2")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(3, 14)
+sprite_frames = ExtResource("3")
+animation = &"opening"
+frame = 17
+centered = false
+
+[node name="SocketedGizmo" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(25, 48)
+texture = ExtResource("4")
+
+[node name="GizmoSpawn" type="Marker2D" parent="."]
+z_index = 50
+position = Vector2(24, 47.5)
+
+[node name="ChamberAmb" type="AudioStreamPlayer" parent="GizmoSpawn"]
+stream = ExtResource("5")
+volume_db = -8.739
+pitch_scale = 0.8
+bus = &"Mine"
+
+[node name="Usable" parent="." instance=ExtResource("6")]
+position = Vector2(24, 48)
+visibleOnFocus = NodePath("../FocusMarker")
+
+[node name="TileCover" parent="." instance=ExtResource("7")]
+visible = false
+tile_set = SubResource("1")
+layer_0/tile_data = PackedInt32Array(0, 0, 0, 65536, 0, 0, 65537, 0, 0, 131072, 0, 0, 131073, 0, 0)
+
+[node name="DoorOpen" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9")
+volume_db = 12.0
+bus = &"Mine"
+
+[node name="FocusMarker" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(24, 48)
+texture = ExtResource("10")
+
+[node name="ResourceGrabber" parent="." instance=ExtResource("11")]
+position = Vector2(15, 18)
+dropType = "water"
+
+[node name="WaterShineSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(15, 18)
+sprite_frames = SubResource("14")
+frame = 11
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Resource" type="Sprite2D" parent="."]
+modulate = Color(0.282353, 0.286275, 0.278431, 1)
+texture_filter = 1
+position = Vector2(15, 18)
+texture = ExtResource("13")
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]
+[connection signal="grabbed_resource" from="ResourceGrabber" to="." method="_on_ResourceGrabber_grabbed_resource"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

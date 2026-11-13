@@ -1,0 +1,33 @@
+[gd_scene load_steps=7 format=3 uid="uid://bu8qd2016gxlo"]
+
+[ext_resource type="Script" path="res://content/pets/Pet.gd" id="1"]
+[ext_resource type="SpriteFrames" uid="uid://dgsqv0wjftg0w" path="res://content/pets/pet2/Pet2_spriteframes.tres" id="2"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="3"]
+[ext_resource type="AudioStream" uid="uid://oeaq7dv0161r" path="res://content/sounds/pets/penguin_emote.wav" id="4"]
+[ext_resource type="Texture2D" uid="uid://hfuxwtdxm6kv" path="res://content/pets/emote.png" id="5"]
+[ext_resource type="Script" path="res://content/pets/EmoteSprite.gd" id="6"]
+
+[node name="Pet2" type="Node2D" groups=["pets"]]
+z_index = 5
+texture_filter = 1
+script = ExtResource("1")
+id = "pet2"
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -4)
+sprite_frames = ExtResource("2")
+animation = &"pos5_idle"
+frame = 12
+
+[node name="GreetingSound" parent="." instance=ExtResource("3")]
+bus = &"Dome"
+randomVolume = 0.0
+streams = [ExtResource("4")]
+
+[node name="EmoteSprite" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-1, -11)
+texture = ExtResource("5")
+script = ExtResource("6")
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]

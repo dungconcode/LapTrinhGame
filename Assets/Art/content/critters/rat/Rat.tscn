@@ -1,0 +1,209 @@
+[gd_scene load_steps=26 format=3 uid="uid://bhtf021thvahk"]
+
+[ext_resource type="Script" path="res://content/critters/rat/Rat.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dwsshgxg8kfkj" path="res://content/critters/rat/rat_anne.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="3"]
+[ext_resource type="AudioStream" uid="uid://bymtq1ltl7a44" path="res://content/sounds/critters/rats.wav" id="4"]
+
+[sub_resource type="PhysicsMaterial" id="29"]
+friction = 0.4
+
+[sub_resource type="CircleShape2D" id="63"]
+radius = 5.09902
+
+[sub_resource type="AtlasTexture" id="79"]
+atlas = ExtResource("2")
+region = Rect2(0, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="80"]
+atlas = ExtResource("2")
+region = Rect2(16, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="81"]
+atlas = ExtResource("2")
+region = Rect2(32, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="82"]
+atlas = ExtResource("2")
+region = Rect2(48, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="71"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="72"]
+atlas = ExtResource("2")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="73"]
+atlas = ExtResource("2")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="74"]
+atlas = ExtResource("2")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="75"]
+atlas = ExtResource("2")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="76"]
+atlas = ExtResource("2")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="65"]
+atlas = ExtResource("2")
+region = Rect2(0, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="66"]
+atlas = ExtResource("2")
+region = Rect2(16, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="67"]
+atlas = ExtResource("2")
+region = Rect2(32, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="68"]
+atlas = ExtResource("2")
+region = Rect2(48, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="69"]
+atlas = ExtResource("2")
+region = Rect2(64, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="70"]
+atlas = ExtResource("2")
+region = Rect2(80, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="77"]
+atlas = ExtResource("2")
+region = Rect2(0, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="78"]
+atlas = ExtResource("2")
+region = Rect2(16, 16, 16, 16)
+
+[sub_resource type="SpriteFrames" id="9"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("79")
+}, {
+"duration": 1.0,
+"texture": SubResource("80")
+}, {
+"duration": 1.0,
+"texture": SubResource("81")
+}, {
+"duration": 1.0,
+"texture": SubResource("82")
+}],
+"loop": false,
+"name": &"appear",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("71")
+}, {
+"duration": 1.0,
+"texture": SubResource("72")
+}, {
+"duration": 1.0,
+"texture": SubResource("73")
+}, {
+"duration": 1.0,
+"texture": SubResource("74")
+}, {
+"duration": 1.0,
+"texture": SubResource("75")
+}, {
+"duration": 1.0,
+"texture": SubResource("76")
+}],
+"loop": true,
+"name": &"crawl",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("65")
+}, {
+"duration": 1.0,
+"texture": SubResource("66")
+}, {
+"duration": 1.0,
+"texture": SubResource("67")
+}, {
+"duration": 1.0,
+"texture": SubResource("68")
+}, {
+"duration": 1.0,
+"texture": SubResource("69")
+}, {
+"duration": 1.0,
+"texture": SubResource("70")
+}],
+"loop": false,
+"name": &"disappear",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("77")
+}, {
+"duration": 1.0,
+"texture": SubResource("78")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 4.0
+}]
+
+[node name="Rat" type="RigidBody2D" groups=["critters_rat"]]
+z_index = 23
+collision_layer = 0
+physics_material_override = SubResource("29")
+can_sleep = false
+max_contacts_reported = 3
+contact_monitor = true
+script = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("63")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("9")
+animation = &"disappear"
+
+[node name="deathTimer" type="Timer" parent="."]
+
+[node name="decisionTimer" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+
+[node name="RayCastFloor" type="RayCast2D" parent="."]
+target_position = Vector2(0, 6)
+
+[node name="RayCastRight" type="RayCast2D" parent="."]
+target_position = Vector2(6, 0)
+
+[node name="RayCastLeft" type="RayCast2D" parent="."]
+target_position = Vector2(-6, 0)
+
+[node name="RayCastUp" type="RayCast2D" parent="."]
+target_position = Vector2(0, -6)
+
+[node name="Squeal" parent="." instance=ExtResource("3")]
+stream = ExtResource("4")
+bus = &"Mine"
+maxAudibleDistance = 200.0
+minAudibleDistance = 20.0
+
+[connection signal="body_entered" from="." to="." method="_on_Rat_body_entered"]
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_AnimatedSprite_animation_finished"]
+[connection signal="animation_looped" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_looped"]
+[connection signal="timeout" from="deathTimer" to="." method="_on_deathTimer_timeout"]
+[connection signal="timeout" from="decisionTimer" to="." method="_on_decisionTimer_timeout"]

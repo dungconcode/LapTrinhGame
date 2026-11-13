@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cilwyro11wk8p"]
+
+[ext_resource type="Texture2D" uid="uid://225p0dtqfutw" path="res://content/map/single_white_tile.png" id="1"]
+
+[node name="TileVisibilitySprite" type="Sprite2D"]
+texture_filter = 1
+texture = ExtResource("1")
+centered = false

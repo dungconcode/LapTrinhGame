@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://6svbcyokqu2u"]
+
+[ext_resource type="Shader" path="res://content/keeper/edge_light.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://ccqqc5rjgjkom" path="res://systems/style/palettes/index_palette.png" id="2"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/light_threshold = 0.01
+shader_parameter/palette = ExtResource("2")

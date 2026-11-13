@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dk62n447qei30"]
+
+[ext_resource type="Texture2D" uid="uid://dup5t312338wm" path="res://content/map/decorations/mushroom/Floor2.png" id="1"]
+[ext_resource type="Script" path="res://content/map/decorations/BorderDecoration.gd" id="2"]
+
+[node name="Mushroom" type="Sprite2D" groups=["decoration"]]
+texture_filter = 1
+texture = ExtResource("1")
+hframes = 5
+script = ExtResource("2")
+randomFlipH = true
+randX = Vector2(-10, 20)

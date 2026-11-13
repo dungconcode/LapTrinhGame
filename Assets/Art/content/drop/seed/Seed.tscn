@@ -1,0 +1,163 @@
+[gd_scene load_steps=24 format=3 uid="uid://bkvf3ud0tyhie"]
+
+[ext_resource type="Script" path="res://content/drop/seed/Seed.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://3oket40fjg3" path="res://content/drop/seed/mineraltreesamen-Sheet.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://ceqsbot0jdwu0" path="res://content/drop/seed/seedroots-Sheet.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://c7a0v3dmfym0a" path="res://content/drop/seed/carry2.png" id="4"]
+[ext_resource type="Material" uid="uid://c4rg5bvijyfin" path="res://content/shared/HighlightShader.tres" id="5"]
+[ext_resource type="Texture2D" uid="uid://ob5kpy8uqowy" path="res://content/drop/seed/focus2.png" id="6"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="8"]
+[ext_resource type="AudioStream" uid="uid://ds5nkama5rak" path="res://content/sounds/Events/EggPlant/Spring_08.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://d34rf6uhjclgm" path="res://content/sounds/Events/EggPlant/EggPlant.wav" id="10"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_8a60m"]
+resource_local_to_scene = true
+friction = 0.6
+bounce = 0.25
+
+[sub_resource type="AtlasTexture" id="27"]
+atlas = ExtResource("3")
+region = Rect2(0, 0, 28, 15)
+
+[sub_resource type="AtlasTexture" id="28"]
+atlas = ExtResource("3")
+region = Rect2(28, 0, 28, 15)
+
+[sub_resource type="AtlasTexture" id="29"]
+atlas = ExtResource("3")
+region = Rect2(56, 0, 28, 15)
+
+[sub_resource type="AtlasTexture" id="30"]
+atlas = ExtResource("3")
+region = Rect2(84, 0, 28, 15)
+
+[sub_resource type="AtlasTexture" id="31"]
+atlas = ExtResource("3")
+region = Rect2(112, 0, 28, 15)
+
+[sub_resource type="AtlasTexture" id="32"]
+atlas = ExtResource("3")
+region = Rect2(140, 0, 28, 15)
+
+[sub_resource type="AtlasTexture" id="33"]
+atlas = ExtResource("3")
+region = Rect2(168, 0, 28, 15)
+
+[sub_resource type="AtlasTexture" id="34"]
+atlas = ExtResource("3")
+region = Rect2(196, 0, 28, 15)
+
+[sub_resource type="AtlasTexture" id="35"]
+atlas = ExtResource("3")
+region = Rect2(224, 0, 28, 15)
+
+[sub_resource type="SpriteFrames" id="36"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("27")
+}, {
+"duration": 1.0,
+"texture": SubResource("28")
+}, {
+"duration": 1.0,
+"texture": SubResource("29")
+}, {
+"duration": 1.0,
+"texture": SubResource("30")
+}, {
+"duration": 1.0,
+"texture": SubResource("31")
+}, {
+"duration": 1.0,
+"texture": SubResource("32")
+}, {
+"duration": 1.0,
+"texture": SubResource("33")
+}, {
+"duration": 1.0,
+"texture": SubResource("34")
+}, {
+"duration": 1.0,
+"texture": SubResource("35")
+}],
+"loop": false,
+"name": &"rooting",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="25"]
+radius = 3.16228
+
+[sub_resource type="CircleShape2D" id="26"]
+radius = 2.0
+
+[node name="Seed" type="RigidBody2D" groups=["carryable", "saveable"]]
+z_index = 22
+texture_filter = 1
+collision_layer = 34
+collision_mask = 522
+physics_material_override = SubResource("PhysicsMaterial_8a60m")
+center_of_mass_mode = 1
+can_sleep = false
+max_contacts_reported = 1
+contact_monitor = true
+script = ExtResource("1")
+type = "rest"
+carryableType = "gadget"
+canTeleport = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." groups=["unstyled"]]
+light_mask = 0
+texture_filter = 1
+position = Vector2(0, 6)
+texture = ExtResource("2")
+hframes = 9
+
+[node name="Roots" type="AnimatedSprite2D" parent="." groups=["unstyled"]]
+sprite_frames = SubResource("36")
+animation = &"rooting"
+frame = 5
+offset = Vector2(0, 6)
+
+[node name="CarrySprite" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-2, 2)
+texture = ExtResource("4")
+
+[node name="FocusSprite" type="Sprite2D" parent="."]
+visible = false
+z_index = 30
+texture_filter = 1
+material = ExtResource("5")
+position = Vector2(-2, 2)
+texture = ExtResource("6")
+
+[node name="Tween" parent="." instance=ExtResource("7")]
+
+[node name="BumpSound" parent="." instance=ExtResource("8")]
+stream = ExtResource("9")
+volume_db = -3.0
+pitch_scale = 1.04
+bus = &"Mine"
+randomPitch = 0.19
+
+[node name="CollisionShape1" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-1, 1)
+shape = SubResource("25")
+
+[node name="CollisionShape2" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-4, 4)
+shape = SubResource("26")
+
+[node name="TreePlantSound" parent="." instance=ExtResource("8")]
+volume_db = -0.874
+pitch_scale = 1.34
+bus = &"Mine"
+maxAudibleDistance = 120.0
+minAudibleDistance = 24.0
+streams = [ExtResource("10")]

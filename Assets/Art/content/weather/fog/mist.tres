@@ -1,0 +1,12 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://bvaksxr0vpipq"]
+
+[ext_resource type="Shader" path="res://content/weather/fog/mist.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://dpbc4iyhj581i" path="res://content/weather/fog/mist_tres_noise.png" id="2"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/speed = 50.0
+shader_parameter/fade = 50.0
+shader_parameter/direction = Vector2(1, 0)
+shader_parameter/palette = null
+shader_parameter/noise = ExtResource("2")

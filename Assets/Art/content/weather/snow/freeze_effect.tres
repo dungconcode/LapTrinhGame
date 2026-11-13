@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://5edy7tn7m6fx"]
+
+[ext_resource type="Shader" path="res://content/weather/snow/freeze.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://casopvm3pxo0s" path="res://content/weather/snow/freeze-overlay-normal.png" id="2"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/strength = 1.0
+shader_parameter/scale = Vector2(1, 1)
+shader_parameter/normal_tex = ExtResource("2")

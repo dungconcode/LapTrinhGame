@@ -1,0 +1,324 @@
+[gd_scene load_steps=33 format=3 uid="uid://ivnccs8weq0y"]
+
+[ext_resource type="Script" path="res://content/gadgets/shield/hud/ShieldHud.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bpcgxari7y36t" path="res://content/shared/battleabilities/charge_slot.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cbksglxf4kyhw" path="res://content/shared/battleabilities/charge.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://diefg21ja5em4" path="res://content/gadgets/shield/hud/bar1.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://5bsxew8v30pf" path="res://content/gadgets/shield/hud/laststand_sheet.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b3infsn7mtacb" path="res://content/gadgets/shield/hud/overcharge_sheet.png" id="6"]
+
+[sub_resource type="AtlasTexture" id="1"]
+atlas = ExtResource("5")
+region = Rect2(0, 0, 8, 9)
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("5")
+region = Rect2(8, 0, 8, 9)
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("5")
+region = Rect2(16, 0, 8, 9)
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("5")
+region = Rect2(24, 0, 8, 9)
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("5")
+region = Rect2(32, 0, 8, 9)
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("5")
+region = Rect2(40, 0, 8, 9)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("5")
+region = Rect2(48, 0, 8, 9)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("5")
+region = Rect2(56, 0, 8, 9)
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource("5")
+region = Rect2(64, 0, 8, 9)
+
+[sub_resource type="AtlasTexture" id="10"]
+atlas = ExtResource("5")
+region = Rect2(72, 0, 8, 9)
+
+[sub_resource type="AtlasTexture" id="11"]
+atlas = ExtResource("5")
+region = Rect2(80, 0, 8, 9)
+
+[sub_resource type="AtlasTexture" id="12"]
+atlas = ExtResource("5")
+region = Rect2(88, 0, 8, 9)
+
+[sub_resource type="AtlasTexture" id="13"]
+atlas = ExtResource("6")
+region = Rect2(0, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="14"]
+atlas = ExtResource("6")
+region = Rect2(11, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="15"]
+atlas = ExtResource("6")
+region = Rect2(22, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="16"]
+atlas = ExtResource("6")
+region = Rect2(33, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="17"]
+atlas = ExtResource("6")
+region = Rect2(44, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="18"]
+atlas = ExtResource("6")
+region = Rect2(55, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="19"]
+atlas = ExtResource("6")
+region = Rect2(66, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="20"]
+atlas = ExtResource("6")
+region = Rect2(77, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="21"]
+atlas = ExtResource("6")
+region = Rect2(88, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="22"]
+atlas = ExtResource("6")
+region = Rect2(99, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="23"]
+atlas = ExtResource("6")
+region = Rect2(110, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="24"]
+atlas = ExtResource("6")
+region = Rect2(121, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="25"]
+atlas = ExtResource("6")
+region = Rect2(132, 0, 11, 11)
+
+[sub_resource type="SpriteFrames" id="26"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("1")
+}, {
+"duration": 1.0,
+"texture": SubResource("2")
+}, {
+"duration": 1.0,
+"texture": SubResource("3")
+}, {
+"duration": 1.0,
+"texture": SubResource("4")
+}, {
+"duration": 1.0,
+"texture": SubResource("5")
+}, {
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}, {
+"duration": 1.0,
+"texture": SubResource("9")
+}, {
+"duration": 1.0,
+"texture": SubResource("10")
+}, {
+"duration": 1.0,
+"texture": SubResource("11")
+}, {
+"duration": 1.0,
+"texture": SubResource("12")
+}],
+"loop": true,
+"name": &"laststand",
+"speed": 10.0
+}, {
+"frames": [],
+"loop": false,
+"name": &"nothing",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("13")
+}, {
+"duration": 1.0,
+"texture": SubResource("14")
+}, {
+"duration": 1.0,
+"texture": SubResource("15")
+}, {
+"duration": 1.0,
+"texture": SubResource("16")
+}, {
+"duration": 1.0,
+"texture": SubResource("17")
+}, {
+"duration": 1.0,
+"texture": SubResource("18")
+}, {
+"duration": 1.0,
+"texture": SubResource("19")
+}, {
+"duration": 1.0,
+"texture": SubResource("20")
+}, {
+"duration": 1.0,
+"texture": SubResource("21")
+}, {
+"duration": 1.0,
+"texture": SubResource("22")
+}, {
+"duration": 1.0,
+"texture": SubResource("23")
+}, {
+"duration": 1.0,
+"texture": SubResource("24")
+}, {
+"duration": 1.0,
+"texture": SubResource("25")
+}],
+"loop": true,
+"name": &"overcharged",
+"speed": 10.0
+}]
+
+[node name="ShieldHud" type="Control"]
+texture_filter = 1
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 2.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+element_size = Vector2(2, 3)
+layoutWeights = Vector2(1, 5)
+layoutPriority = 10
+
+[node name="Slot1" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 11.0
+offset_bottom = 5.0
+texture = ExtResource("2")
+stretch_mode = 2
+
+[node name="Charge1" type="TextureRect" parent="Slot1"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 10.0
+offset_bottom = 4.0
+texture = ExtResource("3")
+stretch_mode = 2
+
+[node name="Slot2" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 1.0
+offset_top = 4.0
+offset_right = 11.0
+offset_bottom = 8.0
+texture = ExtResource("2")
+stretch_mode = 2
+
+[node name="Charge2" type="TextureRect" parent="Slot2"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 10.0
+offset_bottom = 4.0
+texture = ExtResource("3")
+stretch_mode = 2
+
+[node name="Slot3" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 1.0
+offset_top = 7.0
+offset_right = 11.0
+offset_bottom = 11.0
+texture = ExtResource("2")
+stretch_mode = 2
+
+[node name="Charge3" type="TextureRect" parent="Slot3"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 10.0
+offset_bottom = 4.0
+texture = ExtResource("3")
+stretch_mode = 2
+
+[node name="Bar" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 2.0
+offset_top = 3.0
+offset_right = 11.0
+offset_bottom = 21.0
+texture = ExtResource("4")
+stretch_mode = 2
+
+[node name="ShieldFilling" type="ColorRect" parent="Bar"]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 8.0
+offset_right = 12.0
+offset_bottom = 15.0
+rotation = 3.14159
+color = Color(0.533333, 0.380392, 0.862745, 1)
+
+[node name="OverchargeFilling" type="ColorRect" parent="Bar"]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 8.0
+offset_right = 12.0
+offset_bottom = 15.0
+rotation = 3.14159
+color = Color(0.219608, 0.4, 0.235294, 1)
+
+[node name="AbilityDurationFilling" type="ColorRect" parent="Bar"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 8.0
+offset_right = 9.0
+offset_bottom = 15.0
+grow_vertical = 0
+rotation = 3.14159
+color = Color(0.313726, 0.309804, 0.235294, 1)
+
+[node name="OverchargeOverlay" type="AnimatedSprite2D" parent="Bar"]
+visible = false
+position = Vector2(4.5, 12.5)
+sprite_frames = SubResource("26")
+animation = &"overcharged"
+frame = 2
+frame_progress = 0.484221
+
+[node name="LaststandOverlay" type="AnimatedSprite2D" parent="Bar"]
+visible = false
+position = Vector2(4, 12.5)
+sprite_frames = SubResource("26")
+animation = &"laststand"
+frame = 6
+frame_progress = 0.155318

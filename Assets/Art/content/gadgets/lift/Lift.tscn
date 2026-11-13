@@ -1,0 +1,158 @@
+[gd_scene load_steps=19 format=3 uid="uid://b6b0mgtujvrrw"]
+
+[ext_resource type="Script" path="res://content/gadgets/lift/Lift.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://cgwdajs7nsf3m" path="res://content/gadgets/lift/lift.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bcv6ogm75q10e" path="res://content/gadgets/lift/lift-build.png" id="3"]
+[ext_resource type="AudioStream" uid="uid://bjcqbmr71uhct" path="res://content/sounds/Amb/giraffe.wav" id="4"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="5"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(40, 22)
+
+[sub_resource type="Gradient" id="2"]
+offsets = PackedFloat32Array(0, 0.0960758, 0.88498, 1)
+colors = PackedColorArray(0.345098, 1, 0.392157, 0, 0.345098, 1, 0.392157, 0.54902, 0.345098, 1, 0.392157, 0.54902, 0.345098, 1, 0.392157, 0)
+
+[sub_resource type="GradientTexture2D" id="3"]
+gradient = SubResource("2")
+
+[sub_resource type="ParticleProcessMaterial" id="4"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(10, 12, 1)
+direction = Vector3(0, -1, 0)
+spread = 3.0
+initial_velocity_min = 12.0
+initial_velocity_max = 12.0
+gravity = Vector3(0, 0, 0)
+color_ramp = SubResource("3")
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("3")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("3")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("3")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("3")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource("3")
+region = Rect2(192, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="10"]
+atlas = ExtResource("3")
+region = Rect2(240, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="11"]
+atlas = ExtResource("3")
+region = Rect2(288, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="12"]
+atlas = ExtResource("3")
+region = Rect2(336, 0, 48, 48)
+
+[sub_resource type="SpriteFrames" id="13"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("5")
+}, {
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}, {
+"duration": 1.0,
+"texture": SubResource("9")
+}, {
+"duration": 1.0,
+"texture": SubResource("10")
+}, {
+"duration": 1.0,
+"texture": SubResource("11")
+}, {
+"duration": 1.0,
+"texture": SubResource("12")
+}],
+"loop": true,
+"name": &"default",
+"speed": 16.0
+}]
+
+[node name="Lift" type="Area2D" groups=["pauseL", "saveable", "softPauseL"]]
+texture_filter = 1
+collision_layer = 0
+collision_mask = 19456
+priority = 5
+gravity_space_override = 3
+gravity_point_center = Vector2(0, 0)
+gravity_direction = Vector2(0, 0)
+gravity = 10.0
+linear_damp_space_override = 3
+linear_damp = 1.0
+angular_damp_space_override = 3
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture_repeat = 2
+position = Vector2(-12, 32)
+texture = ExtResource("2")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 24, 0)
+
+[node name="OverlaySprite" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.501961)
+z_index = 1
+texture_filter = 1
+texture_repeat = 2
+position = Vector2(-12, 32)
+texture = ExtResource("2")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 24, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("1")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="CollisionShape2D"]
+position = Vector2(0, 4)
+emitting = false
+amount = 10
+process_material = SubResource("4")
+lifetime = 6.0
+visibility_rect = Rect2(-100, -100, 200, 500)
+
+[node name="build" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, 33)
+sprite_frames = SubResource("13")
+
+[node name="buildSfx" type="AudioStreamPlayer2D" parent="build"]
+position = Vector2(0, -33)
+stream = ExtResource("4")
+volume_db = 7.553
+pitch_scale = 1.48
+max_distance = 200.0
+bus = &"Sounds"
+
+[node name="Tween" parent="." instance=ExtResource("5")]
+
+[node name="SpawnTween" parent="." instance=ExtResource("5")]
+
+[connection signal="body_entered" from="." to="." method="_on_Lift_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_Lift_body_exited"]
+[connection signal="tween_all_completed" from="Tween" to="." method="_on_Tween_tween_all_completed"]
+[connection signal="tween_all_completed" from="SpawnTween" to="." method="_on_Tween_tween_all_completed"]

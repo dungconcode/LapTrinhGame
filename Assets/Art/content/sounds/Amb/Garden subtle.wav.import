@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0frroa2mv11h"
+path="res://.godot/imported/Garden subtle.wav-023dbdfb8f7c5c8d5bea74fbe13d7db5.sample"
+
+[deps]
+
+source_file="res://content/sounds/Amb/Garden subtle.wav"
+dest_files=["res://.godot/imported/Garden subtle.wav-023dbdfb8f7c5c8d5bea74fbe13d7db5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=1
+edit/loop_begin=0
+edit/loop_end=2592000
+compress/mode=0

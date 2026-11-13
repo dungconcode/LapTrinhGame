@@ -1,0 +1,162 @@
+[gd_scene load_steps=7 format=3 uid="uid://6nkfifws5bag"]
+
+[ext_resource type="Theme" uid="uid://bo0ebvm7ocab1" path="res://gui/theme.tres" id="1"]
+[ext_resource type="Script" path="res://content/gamemode/DetailedStats.gd" id="2"]
+[ext_resource type="StyleBox" uid="uid://dkv8plo4j2b22" path="res://gui/panels/panel_outside.tres" id="3"]
+[ext_resource type="FontVariation" uid="uid://g3vbmmqhudaf" path="res://gui/fonts/FontHeading.tres" id="4"]
+[ext_resource type="LabelSettings" uid="uid://b5aow2qb2h3pe" path="res://gui/fontsettings/HeadingFontSettings.tres" id="5"]
+[ext_resource type="LabelSettings" uid="uid://cq1nq3tq5f52p" path="res://gui/fontsettings/VeryLargeFontSettings.tres" id="6"]
+
+[node name="DetailedStats" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="ColorRect" type="ColorRect" parent="." groups=["unstyled"]]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Container" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="Container"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = ExtResource("3")
+
+[node name="MarginContainer" type="MarginContainer" parent="Container/PanelContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Container/PanelContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="TitleLabel" type="Label" parent="Container/PanelContainer/MarginContainer/VBoxContainer"]
+texture_filter = 4
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4")
+text = "level.gameover.stats.additional"
+label_settings = ExtResource("5")
+horizontal_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(1500, 740)
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 20
+
+[node name="PanelMonstersKilled" type="PanelContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer/PanelMonstersKilled"]
+layout_mode = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 50
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer/PanelMonstersKilled/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="KilledLabel" type="Label" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer/PanelMonstersKilled/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "level.gameover.stats.monsterskilled"
+label_settings = ExtResource("6")
+horizontal_alignment = 1
+
+[node name="MonstersKilledContainer" type="HFlowContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer/PanelMonstersKilled/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 100
+theme_override_constants/v_separation = 100
+
+[node name="PanelDamageReceived" type="PanelContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer/PanelDamageReceived"]
+layout_mode = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 50
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer/PanelDamageReceived/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="DamageReceivedLabel" type="Label" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer/PanelDamageReceived/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "level.gameover.stats.damagereceived"
+label_settings = ExtResource("6")
+horizontal_alignment = 1
+
+[node name="MonsterDamageReceivedContainer" type="HFlowContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer/PanelDamageReceived/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 100
+theme_override_constants/v_separation = 100
+
+[node name="PanelDamageDealt" type="PanelContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer/PanelDamageDealt"]
+layout_mode = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 50
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer/PanelDamageDealt/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="DamageDealtLabel" type="Label" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer/PanelDamageDealt/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "level.gameover.stats.damagedealt"
+label_settings = ExtResource("6")
+horizontal_alignment = 1
+
+[node name="DamageDealtContainer" type="HFlowContainer" parent="Container/PanelContainer/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer/PanelDamageDealt/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 100
+theme_override_constants/v_separation = 100
+
+[node name="HSeparator2" type="HSeparator" parent="Container/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="CancelButton" type="Button" parent="Container/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath(".")
+focus_next = NodePath(".")
+focus_previous = NodePath(".")
+text = "level.station.upgrademenu.close"

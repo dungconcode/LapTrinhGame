@@ -1,0 +1,28 @@
+[gd_scene load_steps=6 format=3 uid="uid://cmmpaigtmt4x8"]
+
+[ext_resource type="Material" uid="uid://bvaksxr0vpipq" path="res://content/weather/fog/mist.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://biihh06phyvdf" path="res://content/weather/fog/mist.png" id="2"]
+[ext_resource type="Script" path="res://content/weather/fog/FogLayer.gd" id="3"]
+[ext_resource type="Material" uid="uid://iuqjft25ji70" path="res://content/weather/fog/mistparticle.tres" id="4"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="5"]
+
+[node name="FogLayer" type="Sprite2D" groups=["pauseL", "weather"]]
+modulate = Color(0.439216, 0.666667, 0.784314, 1)
+texture_filter = 4
+texture_repeat = 2
+material = ExtResource("1")
+position = Vector2(0, -97)
+texture = ExtResource("2")
+region_rect = Rect2(0, 0, 250, 1280)
+script = ExtResource("3")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+editor_description = "fine_tuned"
+position = Vector2(0, 3)
+amount = 200
+process_material = ExtResource("4")
+lifetime = 20.0
+preprocess = 20.0
+visibility_rect = Rect2(-640, -640, 1280, 1280)
+
+[node name="Tween" parent="." instance=ExtResource("5")]

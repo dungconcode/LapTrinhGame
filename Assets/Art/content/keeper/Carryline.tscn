@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Material" path="res://content/keeper/carryline/carryline_material.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://bf45kalnigd5t" path="res://content/keeper/carryline/carryline.png" id="2"]
+
+[node name="Carryline" type="Line2D"]
+z_index = 24
+material = ExtResource("1")
+width = 6.0
+texture = ExtResource("2")
+texture_mode = 1

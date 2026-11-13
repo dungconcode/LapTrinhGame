@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://5755kjk4swq2"]
+
+[ext_resource type="Shader" path="res://content/map/tile/cracks.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://d2m25k5l0oue0" path="res://content/map/border/resources_sheet.png" id="2"]
+
+[sub_resource type="ShaderMaterial" id="5"]
+shader = ExtResource("1")
+shader_parameter/cracks_texture_size = 24
+shader_parameter/top_damage = 0.0
+shader_parameter/right_damage = 0.0
+shader_parameter/bottom_damage = 0.0
+shader_parameter/left_damage = 0.0
+shader_parameter/world_pos = Vector2(0, 0)
+shader_parameter/ground_color = Color(0.07, 0.07, 0.1, 1)
+shader_parameter/highlight_color = Color(0, 0, 0, 1)
+shader_parameter/frame_coords = Vector2(1, 0)
+shader_parameter/sheet_size = Vector2(12, 12)
+shader_parameter/cracks_texture = null
+shader_parameter/palette = null
+
+[node name="ResourceSprite" type="Sprite2D"]
+light_mask = 3
+z_index = 1
+texture_filter = 1
+material = SubResource("5")
+texture = ExtResource("2")
+hframes = 12
+vframes = 12
+region_rect = Rect2(0, 0, 16, 16)

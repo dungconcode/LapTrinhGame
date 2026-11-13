@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[node name="PetPositions" type="Node2D"]
+
+[node name="Position1_1_right" type="Marker2D" parent="."]
+position = Vector2(-17, -16)
+
+[node name="Position1_2" type="Marker2D" parent="."]
+position = Vector2(-5, -57)
+
+[node name="Position1_3_left" type="Marker2D" parent="."]
+position = Vector2(-4, -15)
+
+[node name="Position1_4_left" type="Marker2D" parent="."]
+position = Vector2(19, -24)
+
+[node name="Position2_1_left" type="Marker2D" parent="."]
+position = Vector2(-32, 4)
+
+[node name="Position2_2_left" type="Marker2D" parent="."]
+position = Vector2(15, 5)
+
+[node name="Position2_3_left" type="Marker2D" parent="."]
+position = Vector2(15, 5)
+
+[node name="Position2_4_left" type="Marker2D" parent="."]
+position = Vector2(-22, 3)

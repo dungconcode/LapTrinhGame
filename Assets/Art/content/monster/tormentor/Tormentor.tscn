@@ -1,0 +1,182 @@
+[gd_scene load_steps=25 format=3 uid="uid://dums2kqowwve1"]
+
+[ext_resource type="Script" path="res://content/monster/tormentor/Tormentor.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://ctymteqbldad3" path="res://content/monster/tormentor/TormentorBeam.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://bkakou2fgqcki" path="res://content/shared/particle_offset_turbulence_flat.png" id="3"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/CustomStyle_ChangeModulate.gd" id="4"]
+[ext_resource type="Material" uid="uid://day50apjw6md" path="res://content/monster/FlashMaterial.tres" id="5"]
+[ext_resource type="SpriteFrames" uid="uid://c63s5afejctoi" path="res://content/monster/tormentor/spriteframes.tres" id="6"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="7"]
+[ext_resource type="AudioStream" uid="uid://bwb0nybypolst" path="res://content/sounds/monster/tormentor/tormentorDie2.mp3" id="8"]
+[ext_resource type="AudioStream" uid="uid://cev1iuos871nl" path="res://content/sounds/monster/Stag/stag enter.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://cf8aiptcguea" path="res://content/sounds/monster/tormentor/transformSound.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://bx47nojdod3iw" path="res://content/sounds/monster/tormentor/hit_harder_01.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://bdsthyv357qdy" path="res://content/sounds/monster/tormentor/hit_harder_02.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://bpvvwvcy6gc3d" path="res://content/sounds/monster/tormentor/hit_harder_03.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://dlbn0kvoh3d3r" path="res://content/sounds/monster/tormentor/hit_harder_04.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://22wuomrntsu3" path="res://content/sounds/Weapons/Laser/laser_loop_3.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://b2onoysba0u47" path="res://content/sounds/Weapons/Laser/laser_init_3.wav" id="16"]
+
+[sub_resource type="CanvasItemMaterial" id="125"]
+particles_animation = true
+particles_anim_h_frames = 9
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="Gradient" id="126"]
+offsets = PackedFloat32Array(0, 0.942478, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="100"]
+gradient = SubResource("126")
+
+[sub_resource type="ParticleProcessMaterial" id="128"]
+lifetime_randomness = 0.8
+particle_flag_align_y = true
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 4.0
+direction = Vector3(-1, 0, 0)
+spread = 180.0
+initial_velocity_min = 30.0
+initial_velocity_max = 60.0
+gravity = Vector3(0, 0, 0)
+damping_min = 100.0
+damping_max = 100.0
+color_ramp = SubResource("100")
+anim_speed_min = 1.0
+anim_speed_max = 1.0
+
+[sub_resource type="ParticleProcessMaterial" id="127"]
+lifetime_randomness = 0.8
+particle_flag_align_y = true
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 4.0
+direction = Vector3(-1, 0, 0)
+spread = 70.0
+initial_velocity_min = 60.0
+initial_velocity_max = 120.0
+gravity = Vector3(0, 0, 0)
+damping_min = 100.0
+damping_max = 100.0
+color_ramp = SubResource("100")
+anim_speed_min = 1.0
+anim_speed_max = 1.0
+
+[sub_resource type="CircleShape2D" id="120"]
+radius = 20.025
+
+[sub_resource type="CapsuleShape2D" id="124"]
+radius = 16.0
+height = 62.0
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_30a01"]
+streams_count = 4
+stream_0/stream = ExtResource("11")
+stream_0/weight = 1.0
+stream_1/stream = ExtResource("12")
+stream_1/weight = 1.0
+stream_2/stream = ExtResource("13")
+stream_2/weight = 1.0
+stream_3/stream = ExtResource("14")
+stream_3/weight = 1.0
+
+[node name="Tormentor" type="Area2D" groups=["monster"]]
+texture_filter = 1
+collision_layer = 128
+collision_mask = 0
+script = ExtResource("1")
+techId = "tormentor"
+
+[node name="TormentorBeam" parent="." instance=ExtResource("2")]
+visible = false
+position = Vector2(12, -15)
+
+[node name="BeamStartParticle" type="GPUParticles2D" parent="."]
+z_index = 1
+material = SubResource("125")
+position = Vector2(10, -15)
+rotation = 3.14159
+emitting = false
+amount = 20
+process_material = SubResource("128")
+texture = ExtResource("3")
+lifetime = 0.6
+script = ExtResource("4")
+styleColor = Color(0.0627451, 0.92549, 0.705882, 1)
+
+[node name="BeamEndParticle" type="GPUParticles2D" parent="."]
+material = SubResource("125")
+emitting = false
+amount = 80
+process_material = SubResource("127")
+texture = ExtResource("3")
+lifetime = 0.6
+script = ExtResource("4")
+styleColor = Color(0.0627451, 0.92549, 0.705882, 1)
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+material = ExtResource("5")
+position = Vector2(10, -18)
+sprite_frames = ExtResource("6")
+animation = &"walk"
+
+[node name="HitboxDefault" type="CollisionShape2D" parent="."]
+position = Vector2(22, -3)
+shape = SubResource("120")
+
+[node name="HitboxBeam" type="CollisionShape2D" parent="."]
+position = Vector2(1, -10)
+shape = SubResource("124")
+
+[node name="HitPosition" type="Marker2D" parent="."]
+position = Vector2(183, -10)
+
+[node name="DieSound" parent="." instance=ExtResource("7")]
+stream = ExtResource("8")
+volume_db = 1.486
+pitch_scale = 1.14
+bus = &"World"
+randomVolume = 1.3
+randomPitch = 0.26
+
+[node name="EnterSound" parent="." instance=ExtResource("7")]
+stream = ExtResource("9")
+volume_db = -0.015
+pitch_scale = 0.81
+bus = &"World"
+
+[node name="TransformSound" parent="." instance=ExtResource("7")]
+stream = ExtResource("10")
+volume_db = -0.015
+pitch_scale = 1.01
+bus = &"Important"
+
+[node name="BeamStartSound2" parent="TransformSound" instance=ExtResource("7")]
+stream = SubResource("AudioStreamRandomizer_30a01")
+volume_db = -8.434
+pitch_scale = 1.44
+bus = &"World"
+
+[node name="BeamSound" parent="." instance=ExtResource("7")]
+stream = ExtResource("15")
+volume_db = -9.853
+pitch_scale = 1.58
+bus = &"World"
+
+[node name="BeamStartSound" parent="." instance=ExtResource("7")]
+stream = ExtResource("16")
+volume_db = -0.015
+pitch_scale = 0.64
+bus = &"World"
+
+[node name="BeamStartSound2" parent="BeamStartSound" instance=ExtResource("7")]
+stream = SubResource("AudioStreamRandomizer_30a01")
+volume_db = -8.434
+pitch_scale = 1.04
+bus = &"World"
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="animation_looped" from="Sprite2D" to="." method="_on_sprite_2d_animation_looped"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]

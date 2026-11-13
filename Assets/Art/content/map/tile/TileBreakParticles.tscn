@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=3 uid="uid://bgwmeiy6p3461"]
+
+[ext_resource type="Texture2D" uid="uid://ucgt25ybc1ma" path="res://content/shared/smoke_particles_white.png" id="1"]
+[ext_resource type="Script" path="res://content/map/tile/TileBreakParticles.gd" id="2"]
+
+[sub_resource type="CanvasItemMaterial" id="47"]
+particles_animation = true
+particles_anim_h_frames = 4
+particles_anim_v_frames = 2
+particles_anim_loop = false
+
+[sub_resource type="Curve" id="48"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), -3.64848, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_26ohb"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.227273, 0.45671, 0.660173)
+colors = PackedColorArray(0.620968, 0.620968, 0.620968, 1, 0.716956, 0.716956, 0.716956, 1, 0.895161, 0.895161, 0.895161, 1, 1, 1, 1, 1)
+
+[node name="TileBreakParticles" type="CPUParticles2D"]
+z_index = 30
+z_as_relative = false
+material = SubResource("47")
+emitting = false
+lifetime = 1.3
+one_shot = true
+explosiveness = 0.98
+lifetime_randomness = 0.6
+fixed_fps = 30
+draw_order = 1
+texture = ExtResource("1")
+emission_shape = 3
+emission_rect_extents = Vector2(6, 6)
+spread = 30.0
+gravity = Vector2(0, -10)
+initial_velocity_min = 2.0
+initial_velocity_max = 40.0
+angular_velocity_min = -200.0
+angular_velocity_max = 200.0
+angle_max = 360.0
+scale_amount_curve = SubResource("48")
+color_initial_ramp = SubResource("Gradient_26ohb")
+anim_speed_min = 1.0
+anim_speed_max = 1.0
+anim_offset_max = 0.7
+script = ExtResource("2")
+
+[connection signal="finished" from="." to="." method="_on_finished"]

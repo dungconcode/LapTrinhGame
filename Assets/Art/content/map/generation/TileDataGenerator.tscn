@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b44tlsdkmq0kw"]
+
+[ext_resource type="Script" path="res://content/map/generation/TileDataGenerator.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://c4johtvskapso" path="res://content/map/MapData.tscn" id="2"]
+
+[node name="TileDataGenerator" type="Node2D"]
+script = ExtResource("1")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, 628)
+zoom = Vector2(1.3, 1.3)
+
+[node name="MapData" parent="." instance=ExtResource("2")]

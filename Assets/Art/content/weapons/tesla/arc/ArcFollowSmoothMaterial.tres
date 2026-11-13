@@ -1,0 +1,34 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://bn5yvvh3erokq"]
+
+[ext_resource type="Texture2D" uid="uid://cdspcha5s8l17" path="res://content/weapons/tesla/arc/Tesla_Arc_noise.png" id="1"]
+
+[sub_resource type="Shader" id="7"]
+code = "shader_type canvas_item;
+
+uniform sampler2D noise_tex : source_color, repeat_enable;
+uniform sampler2D ends_tex : source_color;
+uniform float disappear = 0.0;
+uniform float length_factor = 1.0;
+
+void fragment(){
+	vec4 noise = texture(noise_tex, UV*vec2(length_factor, 1.0));
+	vec4 tex = texture(TEXTURE, UV);
+	COLOR.a = tex.a * mix(1.0, clamp((noise.r-disappear)*4.0, 0.0, 1.0), min(disappear*10.0, 1.0)) * texture(ends_tex, UV).r;
+}
+"
+
+[sub_resource type="Gradient" id="11"]
+offsets = PackedFloat32Array(0.0101215, 0.268382, 0.794118, 0.987854)
+colors = PackedColorArray(0, 0, 0, 1, 0.98583, 0.98583, 0.98583, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="12"]
+gradient = SubResource("11")
+width = 512
+
+[resource]
+resource_local_to_scene = true
+shader = SubResource("7")
+shader_parameter/disappear = 0.0
+shader_parameter/length_factor = 1.0
+shader_parameter/noise_tex = ExtResource("1")
+shader_parameter/ends_tex = SubResource("12")

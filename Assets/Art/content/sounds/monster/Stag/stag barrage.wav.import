@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bh7qwhda1let8"
+path="res://.godot/imported/stag barrage.wav-37f8094f86cc0c3d916c43218cf0c3ac.sample"
+
+[deps]
+
+source_file="res://content/sounds/monster/Stag/stag barrage.wav"
+dest_files=["res://.godot/imported/stag barrage.wav-37f8094f86cc0c3d916c43218cf0c3ac.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

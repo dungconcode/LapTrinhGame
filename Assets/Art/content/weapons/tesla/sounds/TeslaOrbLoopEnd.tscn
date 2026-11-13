@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://cn2t4a5skh2lo"]
+
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="1"]
+[ext_resource type="AudioStream" uid="uid://c0q4hqcr45w4c" path="res://content/sounds/Weapons/tesla/martins/Fire_normal.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://cs7q3lcdy5oqh" path="res://content/sounds/Weapons/tesla/martins/Explode_electrified.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://dw8bmbm5bgfq6" path="res://content/sounds/Weapons/tesla/martins/ElectroOrb_Create.wav" id="4"]
+
+[node name="OrbLoopEnd" type="Node2D"]
+
+[node name="OrbOnEnd" parent="." instance=ExtResource("1")]
+volume_db = -9.176
+pitch_scale = 1.71
+autoplay = true
+bus = &"World"
+randomVolume = 0.0
+streams = [ExtResource("2"), ExtResource("3"), ExtResource("4")]
+
+[connection signal="finished" from="OrbOnEnd" to="." method="queue_free"]

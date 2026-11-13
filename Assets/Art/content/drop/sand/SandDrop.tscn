@@ -1,0 +1,52 @@
+[gd_scene load_steps=11 format=3 uid="uid://vomwqe2ytprc"]
+
+[ext_resource type="PackedScene" uid="uid://cndiyiean38ms" path="res://content/drop/MineralDrop.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://bia4r4lcg51xx" path="res://content/drop/sand/sand_smol.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://why0tt4pdenk" path="res://content/drop/sand/carried.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://gh700a6sjswp" path="res://content/drop/sand/focussed.png" id="4"]
+[ext_resource type="AudioStream" uid="uid://byw587svv8akd" path="res://content/sounds/drops/Metaltest_01.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://dsus6nir5y1yv" path="res://content/sounds/drops/Metaltest_02.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://dc3lr524tvj4e" path="res://content/sounds/drops/Metaltest_03.wav" id="7"]
+[ext_resource type="PackedScene" path="res://content/drop/sand/sand_shred_particles.tscn" id="8"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_j88i7"]
+resource_local_to_scene = true
+friction = 0.15
+bounce = 0.05
+
+[sub_resource type="CircleShape2D" id="2"]
+radius = 3.0
+
+[node name="SandDrop" groups=["saveable"] instance=ExtResource("1")]
+physics_material_override = SubResource("PhysicsMaterial_j88i7")
+type = "sand"
+
+[node name="Sprite2D" parent="." index="0"]
+position = Vector2(0, -1.5)
+texture = ExtResource("2")
+
+[node name="CarrySprite" parent="." index="1"]
+visible = false
+position = Vector2(0.5, -1)
+texture = ExtResource("3")
+
+[node name="FocusSprite" parent="." index="2"]
+visible = false
+position = Vector2(0.5, -1)
+texture = ExtResource("4")
+
+[node name="BumpSound" parent="." index="4"]
+volume_db = -10.142
+pitch_scale = 1.23
+bus = &"NoMusic"
+streams = [ExtResource("5"), ExtResource("6"), ExtResource("7")]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="5"]
+position = Vector2(0.5, -1)
+polygon = PackedVector2Array(-5, 4, -5, 2, -0.5, -5, 4, 2, 4, 4)
+
+[node name="ShredParticles" parent="." index="6" instance=ExtResource("8")]
+position = Vector2(0, -1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="7"]
+shape = SubResource("2")

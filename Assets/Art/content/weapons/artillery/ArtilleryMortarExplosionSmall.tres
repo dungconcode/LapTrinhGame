@@ -1,0 +1,110 @@
+[gd_resource type="SpriteFrames" load_steps=17 format=3 uid="uid://sv0tfurstsgs"]
+
+[sub_resource type="AtlasTexture" id="41"]
+region = Rect2(0, 104, 199, 104)
+
+[sub_resource type="AtlasTexture" id="42"]
+region = Rect2(199, 104, 199, 104)
+
+[sub_resource type="AtlasTexture" id="43"]
+region = Rect2(398, 104, 199, 104)
+
+[sub_resource type="AtlasTexture" id="44"]
+region = Rect2(597, 104, 199, 104)
+
+[sub_resource type="AtlasTexture" id="45"]
+region = Rect2(796, 104, 199, 104)
+
+[sub_resource type="AtlasTexture" id="46"]
+region = Rect2(995, 104, 199, 104)
+
+[sub_resource type="AtlasTexture" id="47"]
+region = Rect2(1194, 104, 199, 104)
+
+[sub_resource type="AtlasTexture" id="37"]
+region = Rect2(1120, 0, 56, 52)
+
+[sub_resource type="AtlasTexture" id="48"]
+region = Rect2(0, 0, 199, 104)
+
+[sub_resource type="AtlasTexture" id="49"]
+region = Rect2(199, 0, 199, 104)
+
+[sub_resource type="AtlasTexture" id="50"]
+region = Rect2(398, 0, 199, 104)
+
+[sub_resource type="AtlasTexture" id="51"]
+region = Rect2(597, 0, 199, 104)
+
+[sub_resource type="AtlasTexture" id="52"]
+region = Rect2(796, 0, 199, 104)
+
+[sub_resource type="AtlasTexture" id="53"]
+region = Rect2(995, 0, 199, 104)
+
+[sub_resource type="AtlasTexture" id="54"]
+region = Rect2(1194, 0, 199, 104)
+
+[sub_resource type="AtlasTexture" id="38"]
+region = Rect2(1120, 0, 56, 52)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("41")
+}, {
+"duration": 1.0,
+"texture": SubResource("42")
+}, {
+"duration": 1.0,
+"texture": SubResource("43")
+}, {
+"duration": 1.0,
+"texture": SubResource("44")
+}, {
+"duration": 1.0,
+"texture": SubResource("45")
+}, {
+"duration": 1.0,
+"texture": SubResource("46")
+}, {
+"duration": 1.0,
+"texture": SubResource("47")
+}, {
+"duration": 1.0,
+"texture": SubResource("37")
+}],
+"loop": false,
+"name": &"Big",
+"speed": 18.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("48")
+}, {
+"duration": 1.0,
+"texture": SubResource("49")
+}, {
+"duration": 1.0,
+"texture": SubResource("50")
+}, {
+"duration": 1.0,
+"texture": SubResource("51")
+}, {
+"duration": 1.0,
+"texture": SubResource("52")
+}, {
+"duration": 1.0,
+"texture": SubResource("53")
+}, {
+"duration": 1.0,
+"texture": SubResource("54")
+}, {
+"duration": 1.0,
+"texture": SubResource("38")
+}],
+"loop": false,
+"name": &"Small",
+"speed": 18.0
+}]

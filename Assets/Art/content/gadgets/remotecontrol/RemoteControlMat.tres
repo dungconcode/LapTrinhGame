@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://c0kuiwl87ifya"]
+
+[ext_resource type="Shader" path="res://content/gadgets/remotecontrol/RemoteControl.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/resolution = 200.0
+shader_parameter/on_amount = 1.0
+shader_parameter/active = null

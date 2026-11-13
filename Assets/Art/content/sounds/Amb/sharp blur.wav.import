@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c244mrwws8vlj"
+path="res://.godot/imported/sharp blur.wav-d1c334f0b4ef2e9d082202090e0eee15.sample"
+
+[deps]
+
+source_file="res://content/sounds/Amb/sharp blur.wav"
+dest_files=["res://.godot/imported/sharp blur.wav-d1c334f0b4ef2e9d082202090e0eee15.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=1
+edit/loop_begin=0
+edit/loop_end=480000
+compress/mode=0

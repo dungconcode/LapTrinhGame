@@ -1,0 +1,471 @@
+[gd_scene load_steps=72 format=3 uid="uid://fhcx7ou82srw"]
+
+[ext_resource type="Script" path="res://content/monster/bolter/Bolter.gd" id="1"]
+[ext_resource type="Material" uid="uid://day50apjw6md" path="res://content/monster/FlashMaterial.tres" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://dmedqgpnwdtrj" path="res://content/monster/bolter/spriteframes.tres" id="3"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="4"]
+[ext_resource type="AudioStream" uid="uid://cxg3xvjwfdlj8" path="res://content/sounds/monster/bolter/Bolter_Attack_01.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://tjw2khc62r3" path="res://content/sounds/monster/bolter/Bolter_Attack_02.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://ldsku78r3w7u" path="res://content/sounds/monster/bolter/Bolter_Attack_03.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://brt7pffmdjgcv" path="res://content/sounds/monster/bolter/Bolter_Attack_04.wav" id="8"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="9"]
+[ext_resource type="AudioStream" uid="uid://dl0qg024ey15p" path="res://content/sounds/monster/bolter/BolterDie_1.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://d0dilqg25kwvu" path="res://content/sounds/monster/bolter/BolterDie.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://d2hjnis8xmqu" path="res://content/sounds/monster/bolter/DEATH2.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://0noup15ipfmp" path="res://content/sounds/monster/bolter/DEATH2_1.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://2dqo8iju3req" path="res://content/sounds/monster/bolter/Bolter_Pre_.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://ch7royt2ri21u" path="res://content/sounds/monster/tick/tick_jump.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://chpjt3p7xay7o" path="res://content/sounds/monster/tick/Tick_Jump_01.wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://cgx4q8j40wfo2" path="res://content/sounds/monster/tick/Tick_Jump_02.wav" id="17"]
+[ext_resource type="AudioStream" uid="uid://cjuwi7ic6cqgk" path="res://content/sounds/monster/tick/Tick_Jump_03.wav" id="18"]
+[ext_resource type="AudioStream" uid="uid://dhavai4rp5l08" path="res://content/sounds/monster/tick/Tick_Jump_04.wav" id="19"]
+[ext_resource type="AudioStream" uid="uid://bhhdiylg238tq" path="res://content/sounds/monster/tick/Tick_Jump_05.wav" id="20"]
+[ext_resource type="Texture2D" uid="uid://bqccnvu117fwl" path="res://content/monster/bolter/electricity sprite.png" id="21"]
+
+[sub_resource type="CircleShape2D" id="1"]
+radius = 27.0185
+
+[sub_resource type="AtlasTexture" id="66"]
+atlas = ExtResource("21")
+region = Rect2(0, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="67"]
+atlas = ExtResource("21")
+region = Rect2(159, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="68"]
+atlas = ExtResource("21")
+region = Rect2(318, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="69"]
+atlas = ExtResource("21")
+region = Rect2(477, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="70"]
+atlas = ExtResource("21")
+region = Rect2(636, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="71"]
+atlas = ExtResource("21")
+region = Rect2(795, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="72"]
+atlas = ExtResource("21")
+region = Rect2(954, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="73"]
+atlas = ExtResource("21")
+region = Rect2(1113, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="74"]
+atlas = ExtResource("21")
+region = Rect2(1272, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="75"]
+atlas = ExtResource("21")
+region = Rect2(1431, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="76"]
+atlas = ExtResource("21")
+region = Rect2(1590, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="77"]
+atlas = ExtResource("21")
+region = Rect2(1749, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="78"]
+atlas = ExtResource("21")
+region = Rect2(1908, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="79"]
+atlas = ExtResource("21")
+region = Rect2(2067, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="80"]
+atlas = ExtResource("21")
+region = Rect2(2226, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="81"]
+atlas = ExtResource("21")
+region = Rect2(2385, 0, 159, 149)
+
+[sub_resource type="AtlasTexture" id="50"]
+atlas = ExtResource("21")
+region = Rect2(0, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="51"]
+atlas = ExtResource("21")
+region = Rect2(159, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="52"]
+atlas = ExtResource("21")
+region = Rect2(318, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="53"]
+atlas = ExtResource("21")
+region = Rect2(477, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="54"]
+atlas = ExtResource("21")
+region = Rect2(636, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="55"]
+atlas = ExtResource("21")
+region = Rect2(795, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="56"]
+atlas = ExtResource("21")
+region = Rect2(954, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="57"]
+atlas = ExtResource("21")
+region = Rect2(1113, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="58"]
+atlas = ExtResource("21")
+region = Rect2(1272, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="59"]
+atlas = ExtResource("21")
+region = Rect2(1431, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="60"]
+atlas = ExtResource("21")
+region = Rect2(1590, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="61"]
+atlas = ExtResource("21")
+region = Rect2(1749, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="62"]
+atlas = ExtResource("21")
+region = Rect2(1908, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="63"]
+atlas = ExtResource("21")
+region = Rect2(2067, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="64"]
+atlas = ExtResource("21")
+region = Rect2(2226, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="65"]
+atlas = ExtResource("21")
+region = Rect2(2385, 149, 159, 149)
+
+[sub_resource type="AtlasTexture" id="82"]
+atlas = ExtResource("21")
+region = Rect2(0, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="83"]
+atlas = ExtResource("21")
+region = Rect2(159, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="84"]
+atlas = ExtResource("21")
+region = Rect2(318, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="85"]
+atlas = ExtResource("21")
+region = Rect2(477, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="86"]
+atlas = ExtResource("21")
+region = Rect2(636, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="87"]
+atlas = ExtResource("21")
+region = Rect2(795, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="88"]
+atlas = ExtResource("21")
+region = Rect2(954, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="89"]
+atlas = ExtResource("21")
+region = Rect2(1113, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="90"]
+atlas = ExtResource("21")
+region = Rect2(1272, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="91"]
+atlas = ExtResource("21")
+region = Rect2(1431, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="92"]
+atlas = ExtResource("21")
+region = Rect2(1590, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="93"]
+atlas = ExtResource("21")
+region = Rect2(1749, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="94"]
+atlas = ExtResource("21")
+region = Rect2(1908, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="95"]
+atlas = ExtResource("21")
+region = Rect2(2067, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="96"]
+atlas = ExtResource("21")
+region = Rect2(2226, 298, 159, 149)
+
+[sub_resource type="AtlasTexture" id="97"]
+atlas = ExtResource("21")
+region = Rect2(2385, 298, 159, 149)
+
+[sub_resource type="SpriteFrames" id="98"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("66")
+}, {
+"duration": 1.0,
+"texture": SubResource("67")
+}, {
+"duration": 1.0,
+"texture": SubResource("68")
+}, {
+"duration": 1.0,
+"texture": SubResource("69")
+}, {
+"duration": 1.0,
+"texture": SubResource("70")
+}, {
+"duration": 1.0,
+"texture": SubResource("71")
+}, {
+"duration": 1.0,
+"texture": SubResource("72")
+}, {
+"duration": 1.0,
+"texture": SubResource("73")
+}, {
+"duration": 1.0,
+"texture": SubResource("74")
+}, {
+"duration": 1.0,
+"texture": SubResource("75")
+}, {
+"duration": 1.0,
+"texture": SubResource("76")
+}, {
+"duration": 1.0,
+"texture": SubResource("77")
+}, {
+"duration": 1.0,
+"texture": SubResource("78")
+}, {
+"duration": 1.0,
+"texture": SubResource("79")
+}, {
+"duration": 1.0,
+"texture": SubResource("80")
+}, {
+"duration": 1.0,
+"texture": SubResource("81")
+}],
+"loop": false,
+"name": &"bolt1",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("50")
+}, {
+"duration": 1.0,
+"texture": SubResource("51")
+}, {
+"duration": 1.0,
+"texture": SubResource("52")
+}, {
+"duration": 1.0,
+"texture": SubResource("53")
+}, {
+"duration": 1.0,
+"texture": SubResource("54")
+}, {
+"duration": 1.0,
+"texture": SubResource("55")
+}, {
+"duration": 1.0,
+"texture": SubResource("56")
+}, {
+"duration": 1.0,
+"texture": SubResource("57")
+}, {
+"duration": 1.0,
+"texture": SubResource("58")
+}, {
+"duration": 1.0,
+"texture": SubResource("59")
+}, {
+"duration": 1.0,
+"texture": SubResource("60")
+}, {
+"duration": 1.0,
+"texture": SubResource("61")
+}, {
+"duration": 1.0,
+"texture": SubResource("62")
+}, {
+"duration": 1.0,
+"texture": SubResource("63")
+}, {
+"duration": 1.0,
+"texture": SubResource("64")
+}, {
+"duration": 1.0,
+"texture": SubResource("65")
+}],
+"loop": false,
+"name": &"bolt2",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("82")
+}, {
+"duration": 1.0,
+"texture": SubResource("83")
+}, {
+"duration": 1.0,
+"texture": SubResource("84")
+}, {
+"duration": 1.0,
+"texture": SubResource("85")
+}, {
+"duration": 1.0,
+"texture": SubResource("86")
+}, {
+"duration": 1.0,
+"texture": SubResource("87")
+}, {
+"duration": 1.0,
+"texture": SubResource("88")
+}, {
+"duration": 1.0,
+"texture": SubResource("89")
+}, {
+"duration": 1.0,
+"texture": SubResource("90")
+}, {
+"duration": 1.0,
+"texture": SubResource("91")
+}, {
+"duration": 1.0,
+"texture": SubResource("92")
+}, {
+"duration": 1.0,
+"texture": SubResource("93")
+}, {
+"duration": 1.0,
+"texture": SubResource("94")
+}, {
+"duration": 1.0,
+"texture": SubResource("95")
+}, {
+"duration": 1.0,
+"texture": SubResource("96")
+}, {
+"duration": 1.0,
+"texture": SubResource("97")
+}],
+"loop": false,
+"name": &"bolt3",
+"speed": 10.0
+}, {
+"frames": [],
+"loop": false,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="Bolter" type="Area2D" groups=["monster"]]
+texture_filter = 1
+collision_layer = 128
+collision_mask = 0
+script = ExtResource("1")
+techId = "bolter"
+autoAimShouldLeadShot = true
+
+[node name="HitboxDefault" type="CollisionShape2D" parent="."]
+position = Vector2(-5, -1)
+shape = SubResource("1")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+material = ExtResource("2")
+position = Vector2(-7, -7.5)
+sprite_frames = ExtResource("3")
+animation = &"idle"
+
+[node name="ShootSound" type="AudioStreamPlayer" parent="."]
+volume_db = -2.185
+pitch_scale = 0.89
+bus = &"World"
+script = ExtResource("4")
+streams = [ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")]
+
+[node name="ShootSound2" type="AudioStreamPlayer" parent="ShootSound"]
+volume_db = -2.761
+pitch_scale = 1.15
+bus = &"World"
+script = ExtResource("4")
+streams = [ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")]
+
+[node name="DieSound" parent="." instance=ExtResource("9")]
+stream = ExtResource("10")
+volume_db = -4.126
+pitch_scale = 1.29
+bus = &"World"
+randomVolume = 1.0
+randomPitch = 0.2
+
+[node name="DieSound2" parent="DieSound" instance=ExtResource("9")]
+volume_db = -4.126
+pitch_scale = 1.29
+bus = &"World"
+randomVolume = 1.0
+randomPitch = 0.2
+streams = [ExtResource("11"), ExtResource("10")]
+
+[node name="IsHitSound" type="AudioStreamPlayer" parent="."]
+volume_db = -0.609
+pitch_scale = 1.33
+bus = &"World"
+script = ExtResource("4")
+streams = [ExtResource("12"), ExtResource("13")]
+
+[node name="ChargingShotSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14")
+volume_db = 4.311
+pitch_scale = 1.33
+bus = &"World"
+script = ExtResource("4")
+
+[node name="ShootPosition" type="Marker2D" parent="."]
+position = Vector2(-54, -38.5)
+
+[node name="ShotPosition" type="Marker2D" parent="."]
+position = Vector2(116, 124.5)
+
+[node name="StunSound" parent="." instance=ExtResource("9")]
+stream = ExtResource("15")
+volume_db = 1.958
+pitch_scale = 1.53
+bus = &"World"
+randomPitch = 0.18
+streams = [ExtResource("16"), ExtResource("17"), ExtResource("18"), ExtResource("19"), ExtResource("20")]
+
+[node name="Bolt" type="AnimatedSprite2D" parent="."]
+position = Vector2(64, 67.5)
+sprite_frames = SubResource("98")
+autoplay = "default"
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="animation_looped" from="Sprite2D" to="." method="_on_sprite_2d_animation_looped"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]
+[connection signal="animation_finished" from="Bolt" to="." method="_on_Bolt_animation_finished"]

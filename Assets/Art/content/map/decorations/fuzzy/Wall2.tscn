@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjpgepghj60hf"]
+
+[ext_resource type="Texture2D" uid="uid://no8bdbm4v5x4" path="res://content/map/decorations/fuzzy/Wall2.png" id="1"]
+[ext_resource type="Script" path="res://content/map/decorations/BorderDecoration.gd" id="2"]
+
+[node name="Fuzzy" type="Sprite2D" groups=["decoration"]]
+texture_filter = 1
+texture = ExtResource("1")
+hframes = 7
+script = ExtResource("2")
+randY = Vector2(-6, 12)

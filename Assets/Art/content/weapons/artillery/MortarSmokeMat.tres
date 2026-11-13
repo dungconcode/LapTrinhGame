@@ -1,0 +1,40 @@
+[gd_resource type="ShaderMaterial" load_steps=10 format=3 uid="uid://l0f2mkpask5m"]
+
+[ext_resource type="Shader" path="res://content/weapons/artillery/BulletSmokeShader.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://cxpq180tcrfw0" path="res://content/weapons/artillery/ArtillerySmokeMat_noise.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://daff4tw2ipany" path="res://systems/style/palettes/palette_1_1.png" id="3"]
+
+[sub_resource type="Gradient" id="Gradient_ju8ey"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.072, 0.195, 0.319, 0.524)
+colors = PackedColorArray(0.0117647, 0.0117647, 0.0117647, 1, 0.0941176, 0.0941176, 0.0941176, 1, 0.286275, 0.286275, 0.286275, 1, 0.470588, 0.470588, 0.470588, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_x02ex"]
+gradient = SubResource("Gradient_ju8ey")
+
+[sub_resource type="Gradient" id="7"]
+offsets = PackedFloat32Array(0, 0.551899, 1)
+colors = PackedColorArray(0, 1, 0, 1, 0.460759, 0.53924, 0, 1, 1, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_foeui"]
+gradient = SubResource("7")
+
+[sub_resource type="Gradient" id="Gradient_g0qbn"]
+offsets = PackedFloat32Array(0, 0.5, 1)
+colors = PackedColorArray(0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_tu0jm"]
+gradient = SubResource("Gradient_g0qbn")
+fill_to = Vector2(0, 1)
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/input = Color(0.12549, 0.537255, 0.156863, 1)
+shader_parameter/noise_speed = Vector2(0, 2)
+shader_parameter/vertex_power = 120.0
+shader_parameter/vertex_noise_scale = Vector2(0.005, 0.005)
+shader_parameter/palette = ExtResource("3")
+shader_parameter/gradient_y = SubResource("GradientTexture2D_tu0jm")
+shader_parameter/gradient_x = SubResource("GradientTexture1D_foeui")
+shader_parameter/color_grad = SubResource("GradientTexture2D_x02ex")
+shader_parameter/noise = ExtResource("2")

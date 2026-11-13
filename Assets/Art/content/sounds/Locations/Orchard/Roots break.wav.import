@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dor604bjdscru"
+path="res://.godot/imported/Roots break.wav-e820dcc24c41ff4184785b78682369e6.sample"
+
+[deps]
+
+source_file="res://content/sounds/Locations/Orchard/Roots break.wav"
+dest_files=["res://.godot/imported/Roots break.wav-e820dcc24c41ff4184785b78682369e6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

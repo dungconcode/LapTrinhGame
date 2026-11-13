@@ -1,0 +1,109 @@
+[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://c5bkijgq6rv0n"]
+
+[ext_resource type="Texture2D" uid="uid://buxuduyquo6oh" path="res://content/monster/bloater/bloatersheet_explosion.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="461"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 242, 170)
+
+[sub_resource type="AtlasTexture" id="462"]
+atlas = ExtResource("1")
+region = Rect2(242, 0, 242, 170)
+
+[sub_resource type="AtlasTexture" id="463"]
+atlas = ExtResource("1")
+region = Rect2(484, 0, 242, 170)
+
+[sub_resource type="AtlasTexture" id="464"]
+atlas = ExtResource("1")
+region = Rect2(726, 0, 242, 170)
+
+[sub_resource type="AtlasTexture" id="465"]
+atlas = ExtResource("1")
+region = Rect2(968, 0, 242, 170)
+
+[sub_resource type="AtlasTexture" id="466"]
+atlas = ExtResource("1")
+region = Rect2(1210, 0, 242, 170)
+
+[sub_resource type="AtlasTexture" id="467"]
+atlas = ExtResource("1")
+region = Rect2(1452, 0, 242, 170)
+
+[sub_resource type="AtlasTexture" id="468"]
+atlas = ExtResource("1")
+region = Rect2(1694, 0, 242, 170)
+
+[sub_resource type="AtlasTexture" id="469"]
+atlas = ExtResource("1")
+region = Rect2(1936, 0, 242, 170)
+
+[sub_resource type="AtlasTexture" id="470"]
+atlas = ExtResource("1")
+region = Rect2(2178, 0, 242, 170)
+
+[sub_resource type="AtlasTexture" id="471"]
+atlas = ExtResource("1")
+region = Rect2(2420, 0, 242, 170)
+
+[sub_resource type="AtlasTexture" id="472"]
+atlas = ExtResource("1")
+region = Rect2(2662, 0, 242, 170)
+
+[sub_resource type="AtlasTexture" id="473"]
+atlas = ExtResource("1")
+region = Rect2(2904, 0, 242, 170)
+
+[sub_resource type="AtlasTexture" id="474"]
+atlas = ExtResource("1")
+region = Rect2(3146, 0, 242, 170)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("461")
+}, {
+"duration": 1.0,
+"texture": SubResource("462")
+}, {
+"duration": 1.0,
+"texture": SubResource("463")
+}, {
+"duration": 1.0,
+"texture": SubResource("464")
+}, {
+"duration": 1.0,
+"texture": SubResource("465")
+}, {
+"duration": 1.0,
+"texture": SubResource("466")
+}, {
+"duration": 1.0,
+"texture": SubResource("467")
+}, {
+"duration": 1.0,
+"texture": SubResource("468")
+}, {
+"duration": 1.0,
+"texture": SubResource("469")
+}, {
+"duration": 1.0,
+"texture": SubResource("470")
+}, {
+"duration": 1.0,
+"texture": SubResource("471")
+}, {
+"duration": 1.0,
+"texture": SubResource("472")
+}, {
+"duration": 1.0,
+"texture": SubResource("473")
+}, {
+"duration": 1.0,
+"texture": SubResource("474")
+}],
+"loop": true,
+"name": &"explode",
+"speed": 12.0
+}]

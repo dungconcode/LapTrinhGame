@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cs41pme3ohsw"
+path="res://.godot/imported/ExplodeOrb 04.wav-efe1c2cb489e1f698e8f0c0ad0766fb5.sample"
+
+[deps]
+
+source_file="res://content/sounds/keeper2/ExplodeOrb 04.wav"
+dest_files=["res://.godot/imported/ExplodeOrb 04.wav-efe1c2cb489e1f698e8f0c0ad0766fb5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

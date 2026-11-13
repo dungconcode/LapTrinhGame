@@ -1,0 +1,181 @@
+[gd_scene load_steps=23 format=3 uid="uid://0s6wf8pt6ofi"]
+
+[ext_resource type="Script" path="res://content/gadgets/ressourcepacker/ResourcePackerEffect.gd" id="1"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/CustomStyle_ChangeModulate.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://dxx8xnj27k7ox" path="res://content/shared/particle_offset_turbulence.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="4"]
+[ext_resource type="AudioStream" uid="uid://b0egfjp1qulrw" path="res://content/sounds/Locations/ResourcePacker/packed.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://bfk4cxr2ickoq" path="res://content/sounds/Locations/ResourcePacker/compact.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://bee5l63tyjesj" path="res://content/sounds/Locations/ResourcePacker/alien2.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://q5qwrgbrwcrh" path="res://content/sounds/Locations/Lift/LiftOrbResourceAttach.wav" id="8"]
+
+[sub_resource type="Curve" id="Curve_7b6bc"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.15942, 0.00898802), 0.0, 0.0, 0, 0, Vector2(0.405797, 0.329228), 0.0, 0.0, 0, 0, Vector2(0.730072, 0.333555), 0.0, 0.0, 0, 0, Vector2(0.842391, 0), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 6
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3cpnv"]
+radius = 40.0
+
+[sub_resource type="Curve" id="Curve_bm5dp"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.703125, 0.285094), 0.0, 0.0, 0, 0, Vector2(0.888672, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_y3bg2"]
+curve = SubResource("Curve_bm5dp")
+
+[sub_resource type="Curve" id="Curve_ibk2p"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1e-05, 1), 0.0, 0.0, 0, 0, Vector2(0.75, 0), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_6xedx"]
+curve = SubResource("Curve_ibk2p")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_ucwae"]
+particle_flag_disable_z = true
+emission_shape = 6
+emission_ring_axis = Vector3(0, 0, 1)
+emission_ring_height = 20.0
+emission_ring_radius = 36.0
+emission_ring_inner_radius = 30.0
+angle_max = 1.0
+velocity_pivot = Vector3(0, 0, 1)
+spread = 0.0
+initial_velocity_max = 10.0
+radial_velocity_min = -90.0
+radial_velocity_max = -60.0
+gravity = Vector3(0, 0, 0)
+alpha_curve = SubResource("CurveTexture_y3bg2")
+turbulence_enabled = true
+turbulence_noise_strength = 0.0
+turbulence_noise_scale = 0.0
+turbulence_noise_speed_random = 0.0
+turbulence_influence_min = 1.0
+turbulence_influence_max = 1.0
+turbulence_initial_displacement_min = -100.0
+turbulence_initial_displacement_max = 100.0
+turbulence_influence_over_life = SubResource("CurveTexture_6xedx")
+sub_emitter_keep_velocity = true
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_5j2t1"]
+particles_animation = true
+particles_anim_h_frames = 7
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="Curve" id="Curve_lgo3w"]
+_data = [Vector2(0.150391, 1), 0.0, 0.0, 0, 0, Vector2(0.583984, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_su6rf"]
+curve = SubResource("Curve_lgo3w")
+
+[sub_resource type="Curve" id="Curve_rjwas"]
+max_value = 1000.0
+_data = [Vector2(0, 277.273), 0.0, 0.0, 0, 0, Vector2(0.323907, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="35"]
+curve = SubResource("Curve_rjwas")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_6vavd"]
+lifetime_randomness = 0.8
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 1.0
+angle_max = 200.0
+angle_curve = SubResource("35")
+direction = Vector3(0, -1, 0)
+spread = 180.0
+initial_velocity_min = 7.0
+initial_velocity_max = 70.0
+angular_velocity_min = -500.0
+angular_velocity_max = 500.0
+gravity = Vector3(0, -15, 0)
+radial_accel_min = -40.0
+radial_accel_max = -20.0
+damping_min = 5.0
+damping_max = 5.0
+alpha_curve = SubResource("CurveTexture_su6rf")
+anim_speed_min = 4.8
+anim_speed_max = 8.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_h55id"]
+radius = 17.0
+
+[node name="ResourcePackerEffect" type="Area2D"]
+collision_layer = 0
+collision_mask = 32
+script = ExtResource("1")
+wiggle_over_lifetime = SubResource("Curve_7b6bc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_3cpnv")
+
+[node name="AbsorbParticles" type="GPUParticles2D" parent="."]
+emitting = false
+amount = 200
+process_material = SubResource("ParticleProcessMaterial_ucwae")
+one_shot = true
+explosiveness = 0.4
+visibility_rect = Rect2(-45.9212, -45.9812, 89.3123, 95.141)
+trail_sections = 20
+script = ExtResource("2")
+self_init = true
+styleColor = Color(0.156863, 0.392157, 0.627451, 1)
+
+[node name="SuccessParticles" type="GPUParticles2D" parent="."]
+texture_filter = 1
+material = SubResource("CanvasItemMaterial_5j2t1")
+emitting = false
+amount = 40
+process_material = SubResource("ParticleProcessMaterial_6vavd")
+texture = ExtResource("3")
+lifetime = 2.0
+one_shot = true
+explosiveness = 1.0
+script = ExtResource("2")
+self_init = true
+styleColor = Color(0.156863, 0.392157, 0.627451, 1)
+
+[node name="InnerArea" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InnerArea"]
+shape = SubResource("CircleShape2D_h55id")
+
+[node name="PackedSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("5")
+volume_db = 5.193
+pitch_scale = 1.78
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="PackedSound2" parent="PackedSound" instance=ExtResource("4")]
+stream = ExtResource("6")
+volume_db = 5.193
+pitch_scale = 1.04
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="PackingLoop" parent="." instance=ExtResource("4")]
+stream = ExtResource("7")
+volume_db = -0.75
+pitch_scale = 0.99
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.0
+fadeOutTime = 1.0
+
+[node name="ResourceEnterSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("8")
+volume_db = 5.929
+pitch_scale = 1.78
+bus = &"Mine"
+randomVolume = 0.0
+randomPitch = 0.2
+
+[connection signal="body_entered" from="InnerArea" to="." method="_on_inner_area_body_entered"]
+[connection signal="body_exited" from="InnerArea" to="." method="_on_inner_area_body_exited"]

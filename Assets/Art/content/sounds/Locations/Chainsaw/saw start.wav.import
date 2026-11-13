@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7q8qcs6xfhdx"
+path="res://.godot/imported/saw start.wav-1e3bca33138b8644242da5f6b82a2034.sample"
+
+[deps]
+
+source_file="res://content/sounds/Locations/Chainsaw/saw start.wav"
+dest_files=["res://.godot/imported/saw start.wav-1e3bca33138b8644242da5f6b82a2034.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

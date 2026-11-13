@@ -1,0 +1,59 @@
+[gd_scene load_steps=7 format=3 uid="uid://cryhr651bqdjw"]
+
+[ext_resource type="Script" path="res://content/gadgets/ressourcepacker/ResourcePackerHud.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://q0eks2fwwqnl" path="res://content/gadgets/ressourcepacker/hud_empty.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://di6d05ur2w8hm" path="res://content/gadgets/ressourcepacker/chargingpoint.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="4"]
+[ext_resource type="AudioStream" uid="uid://deiu2ojbq6hl1" path="res://content/sounds/Locations/ResourcePacker/whool_loop_1.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://cpibwhc5vd8sg" path="res://content/sounds/Locations/ResourcePacker/compact2.wav" id="6"]
+
+[node name="ResourcePackerHud" type="Control"]
+texture_filter = 1
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1")
+element_size = Vector2(3, 3)
+layoutPriority = 10
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1, 1)
+texture = ExtResource("2")
+centered = false
+hframes = 4
+frame = 3
+
+[node name="Chargingpoint1" type="Sprite2D" parent="."]
+position = Vector2(2, 5)
+texture = ExtResource("3")
+
+[node name="Chargingpoint2" type="Sprite2D" parent="."]
+position = Vector2(5, 3)
+texture = ExtResource("3")
+
+[node name="Chargingpoint3" type="Sprite2D" parent="."]
+position = Vector2(9, 2)
+texture = ExtResource("3")
+
+[node name="Chargingpoint4" type="Sprite2D" parent="."]
+position = Vector2(13, 3)
+texture = ExtResource("3")
+
+[node name="Chargingpoint5" type="Sprite2D" parent="."]
+position = Vector2(16, 5)
+texture = ExtResource("3")
+
+[node name="ResourcepackerSound" parent="." instance=ExtResource("4")]
+volume_db = -4.712
+pitch_scale = 0.78
+bus = &"UI"
+randomVolume = 0.0
+randomPitch = 0.0
+streams = [ExtResource("5")]
+
+[node name="ResourcepackerSound2" parent="ResourcepackerSound" instance=ExtResource("4")]
+stream = ExtResource("6")
+volume_db = 0.735
+pitch_scale = 1.39
+bus = &"UI"
+randomVolume = 0.0
+randomPitch = 0.0

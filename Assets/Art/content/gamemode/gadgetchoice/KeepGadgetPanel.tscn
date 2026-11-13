@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3 uid="uid://bdpw5eql2616"]
+
+[ext_resource type="Script" path="res://content/gamemode/gadgetchoice/KeepGadgetPanel.gd" id="1"]
+[ext_resource type="FontVariation" uid="uid://c5l04pe7y0aer" path="res://gui/fonts/FontLarge.tres" id="2"]
+[ext_resource type="LabelSettings" uid="uid://ce6cjgfmffufc" path="res://gui/fontsettings/LargeFontSettings.tres" id="3"]
+[ext_resource type="Theme" uid="uid://bo0ebvm7ocab1" path="res://gui/theme.tres" id="4"]
+
+[node name="KeepGadgetPanel" type="PanelContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+alignment = 1
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+texture_filter = 4
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2")
+text = "level.gameover.keepgadget.title"
+label_settings = ExtResource("3")
+horizontal_alignment = 1
+
+[node name="GadgetContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="SelectedGadgetLabel" type="RichTextLabel" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("4")
+theme_type_variation = &"FontLargeType"
+bbcode_enabled = true
+fit_content = true
+scroll_active = false

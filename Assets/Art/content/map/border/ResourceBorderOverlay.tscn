@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://5yml3dpoiw4n"]
+
+[ext_resource type="Material" uid="uid://vmhi5hepld8w" path="res://content/map/border/occlusion_overlay_material.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://d2m25k5l0oue0" path="res://content/map/border/resources_sheet.png" id="2"]
+
+[node name="ResourceBorderOverlay" type="Sprite2D"]
+light_mask = 3
+z_index = 1
+texture_filter = 1
+material = ExtResource("1")
+texture = ExtResource("2")
+hframes = 12
+vframes = 12
+frame = 2
+region_rect = Rect2(0, 0, 16, 16)

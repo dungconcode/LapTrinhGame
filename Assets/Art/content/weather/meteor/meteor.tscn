@@ -1,0 +1,72 @@
+[gd_scene load_steps=12 format=3 uid="uid://ccsuhhy2q6peq"]
+
+[ext_resource type="Texture2D" uid="uid://b3a28yhksn208" path="res://content/weather/meteor/meteor.png" id="1"]
+[ext_resource type="Script" path="res://content/weather/meteor/meteor.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="3"]
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("1")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("1")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("1")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("4")
+}, {
+"duration": 1.0,
+"texture": SubResource("5")
+}, {
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Gradient" id="9"]
+offsets = PackedFloat32Array(0, 0.0865801, 0.376623)
+colors = PackedColorArray(1, 1, 1, 1, 1, 0.585938, 0, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="10"]
+gradient = SubResource("9")
+
+[sub_resource type="ParticleProcessMaterial" id="8"]
+lifetime_randomness = 0.64
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(15, 1, 1)
+spread = 180.0
+initial_velocity_max = 5.0
+gravity = Vector3(0, 0, 0)
+color_ramp = SubResource("10")
+
+[node name="Meteor" type="AnimatedSprite2D"]
+modulate = Color(0.858824, 0.858824, 0.858824, 1)
+texture_filter = 1
+sprite_frames = SubResource("3")
+script = ExtResource("2")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+position = Vector2(-16, 0)
+amount = 400
+process_material = SubResource("8")
+visibility_rect = Rect2(-2000, -2000, 4000, 4000)
+
+[node name="Tween" parent="." instance=ExtResource("3")]

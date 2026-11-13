@@ -1,0 +1,186 @@
+[gd_scene load_steps=10 format=3 uid="uid://dsr6676b4qmft"]
+
+[ext_resource type="Script" path="res://content/weapons/artillery/MortarBarrel.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://c8ioymii3tccb" path="res://content/weapons/artillery/artydome_cannonmain1.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b07d0yu5bbo82" path="res://content/weapons/artillery/artydome_cannonmain2.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://w1ya7cf5phej" path="res://content/weapons/artillery/artydome_cannonmain3.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bbt603xytq4w1" path="res://content/weapons/artillery/artydome_cannonmain4.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://8v3mhfvklgw3" path="res://content/weapons/artillery/artydome_cannonmain5.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://br766xe8tl2qh" path="res://content/weapons/artillery/artydome_cannonmain_multi.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://n8cbgfjdwnxf" path="res://content/weapons/artillery/artydome_cannon_base.png" id="9"]
+
+[node name="MortarBarrel" type="Node2D" groups=["pauseL"]]
+z_index = -1
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="Tween" parent="." instance=ExtResource("2")]
+
+[node name="Upgrade0" type="Node2D" parent="."]
+position = Vector2(0.5, 0)
+
+[node name="CannonBot" type="Sprite2D" parent="Upgrade0"]
+texture_filter = 1
+texture = ExtResource("3")
+offset = Vector2(0, 10)
+region_enabled = true
+region_rect = Rect2(0, 21, 11, 9)
+
+[node name="CannonTop" type="Sprite2D" parent="Upgrade0/CannonBot"]
+z_index = -1
+texture_filter = 1
+texture = ExtResource("3")
+offset = Vector2(0, -6)
+region_enabled = true
+region_rect = Rect2(0, -1, 11, 22)
+
+[node name="SpawnPoint" type="Marker2D" parent="Upgrade0"]
+z_index = -1
+position = Vector2(-0.5, -4)
+
+[node name="Upgrade1" type="Node2D" parent="."]
+visible = false
+position = Vector2(0.5, 0)
+
+[node name="CannonBot" type="Sprite2D" parent="Upgrade1"]
+texture_filter = 1
+texture = ExtResource("4")
+offset = Vector2(0, 9)
+region_enabled = true
+region_rect = Rect2(0, 19, 11, 11)
+
+[node name="CannonTop" type="Sprite2D" parent="Upgrade1/CannonBot"]
+z_index = -1
+texture_filter = 1
+texture = ExtResource("4")
+offset = Vector2(0, -7)
+region_enabled = true
+region_rect = Rect2(0, -1, 11, 20)
+
+[node name="SpawnPoint" type="Marker2D" parent="Upgrade1"]
+z_index = -1
+position = Vector2(-0.5, -7)
+
+[node name="Upgrade2" type="Node2D" parent="."]
+visible = false
+position = Vector2(0.5, 0)
+
+[node name="CannonBot" type="Sprite2D" parent="Upgrade2"]
+texture_filter = 1
+position = Vector2(-0.5, 0)
+texture = ExtResource("5")
+offset = Vector2(0, 7)
+region_enabled = true
+region_rect = Rect2(0, 16, 11, 14)
+
+[node name="CannonTop" type="Sprite2D" parent="Upgrade2/CannonBot"]
+z_index = -1
+texture_filter = 1
+texture = ExtResource("5")
+offset = Vector2(0, -8)
+region_enabled = true
+region_rect = Rect2(0, -1, 11, 17)
+
+[node name="SpawnPoint" type="Marker2D" parent="Upgrade2"]
+z_index = -1
+position = Vector2(-0.5, -9)
+
+[node name="Upgrade3" type="Node2D" parent="."]
+visible = false
+position = Vector2(0.5, 0)
+
+[node name="CannonBot" type="Sprite2D" parent="Upgrade3"]
+texture_filter = 1
+texture = ExtResource("6")
+offset = Vector2(0, 8)
+region_enabled = true
+region_rect = Rect2(0, 17, 11, 13)
+
+[node name="CannonTop" type="Sprite2D" parent="Upgrade3/CannonBot"]
+z_index = -1
+texture_filter = 1
+texture = ExtResource("6")
+offset = Vector2(0, -8)
+region_enabled = true
+region_rect = Rect2(0, -1, 11, 18)
+
+[node name="SpawnPoint" type="Marker2D" parent="Upgrade3"]
+z_index = -1
+position = Vector2(-0.5, -11)
+
+[node name="Upgrade4" type="Node2D" parent="."]
+visible = false
+position = Vector2(0.5, 0)
+
+[node name="CannonBot" type="Sprite2D" parent="Upgrade4"]
+texture_filter = 1
+texture = ExtResource("7")
+offset = Vector2(0, 8)
+region_enabled = true
+region_rect = Rect2(0, 17, 11, 13)
+
+[node name="CannonTop" type="Sprite2D" parent="Upgrade4/CannonBot"]
+z_index = -1
+texture_filter = 1
+texture = ExtResource("7")
+offset = Vector2(0, -7)
+region_enabled = true
+region_rect = Rect2(0, 0, 11, 17)
+
+[node name="SpawnPoint" type="Marker2D" parent="Upgrade4"]
+z_index = -1
+position = Vector2(-0.5, -16)
+
+[node name="Upgrade5" type="Node2D" parent="."]
+visible = false
+position = Vector2(0.5, 0)
+
+[node name="CannonBot" type="Sprite2D" parent="Upgrade5"]
+texture_filter = 1
+texture = ExtResource("8")
+offset = Vector2(0, 9)
+region_enabled = true
+region_rect = Rect2(0, 20, 11, 10)
+
+[node name="CannonTop" type="Sprite2D" parent="Upgrade5/CannonBot"]
+z_index = -1
+texture_filter = 1
+texture = ExtResource("8")
+offset = Vector2(0, -5)
+region_enabled = true
+region_rect = Rect2(0, 1, 11, 19)
+
+[node name="SpawnPoint" type="Marker2D" parent="Upgrade5"]
+z_index = -1
+position = Vector2(-0.5, -15)
+
+[node name="Base" type="Node2D" parent="."]
+
+[node name="ArtydomeCannonBase" type="Sprite2D" parent="Base"]
+texture_filter = 1
+position = Vector2(0, 20)
+texture = ExtResource("9")
+hframes = 3
+
+[node name="BaseRotL" type="Sprite2D" parent="Base"]
+texture_filter = 1
+position = Vector2(-4, 15)
+texture = ExtResource("9")
+offset = Vector2(0.112, 5.33)
+hframes = 3
+frame = 1
+
+[node name="BaseRotR" type="Sprite2D" parent="Base"]
+texture_filter = 1
+position = Vector2(4, 15)
+texture = ExtResource("9")
+offset = Vector2(0.112, 5.33)
+hframes = 3
+frame = 2
+
+[node name="ShellEjectPosL" type="Marker2D" parent="Base"]
+position = Vector2(-3, 16)
+
+[node name="ShellEjectPosR" type="Marker2D" parent="Base"]
+position = Vector2(3, 16)

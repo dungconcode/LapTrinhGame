@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dtslxevkwjqqx"
+path="res://.godot/imported/soft shot_2.wav-6515cb446762f0d476851ea541f6e80d.sample"
+
+[deps]
+
+source_file="res://content/sounds/keeper2/soft shot_2.wav"
+dest_files=["res://.godot/imported/soft shot_2.wav-6515cb446762f0d476851ea541f6e80d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

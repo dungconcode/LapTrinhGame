@@ -1,0 +1,53 @@
+[gd_scene load_steps=10 format=3 uid="uid://cndiyiean38ms"]
+
+[ext_resource type="Script" path="res://content/drop/Drop.gd" id="1"]
+[ext_resource type="Material" uid="uid://c0ps4eqmti8u7" path="res://content/drop/ShredMaterial.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://rasmosh8h0qm" path="res://content/drop/iron/iron_smol.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://daphamqju0yuk" path="res://content/drop/iron/carried.png" id="4"]
+[ext_resource type="Material" uid="uid://c4rg5bvijyfin" path="res://content/shared/HighlightShader.tres" id="5"]
+[ext_resource type="Texture2D" uid="uid://cverq6f0g63it" path="res://content/drop/iron/icon_selector2.png" id="6"]
+[ext_resource type="PackedScene" path="res://content/shared/drops/DropEnterTrigger.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="8"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_5l558"]
+resource_local_to_scene = true
+friction = 0.6
+bounce = 0.25
+
+[node name="MineralDrop" type="RigidBody2D" groups=["drops"]]
+z_index = 22
+texture_filter = 1
+collision_layer = 67109922
+collision_mask = 10
+physics_material_override = SubResource("PhysicsMaterial_5l558")
+max_contacts_reported = 1
+contact_monitor = true
+script = ExtResource("1")
+hasInterDropCollisionSound = true
+arrivalDistanceToTarget = 10.0
+carryableType = "resource"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+light_mask = 0
+texture_filter = 1
+material = ExtResource("2")
+texture = ExtResource("3")
+
+[node name="CarrySprite" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("4")
+
+[node name="FocusSprite" type="Sprite2D" parent="."]
+z_index = 30
+texture_filter = 1
+material = ExtResource("5")
+texture = ExtResource("6")
+
+[node name="DropEnterTrigger" parent="." instance=ExtResource("7")]
+
+[node name="BumpSound" parent="." instance=ExtResource("8")]
+volume_db = -6.0
+bus = &"Mine"
+randomVolume = 0.0
+maxAudibleDistance = 200.0
+minAudibleDistance = 50.0

@@ -1,0 +1,105 @@
+[gd_scene load_steps=16 format=3]
+
+[ext_resource type="Script" path="res://content/gadgets/cobaltbomb/GroundBurst.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://clupocvmx1u45" path="res://content/gadgets/cobaltbomb/GroundBurst.png" id="2"]
+
+[sub_resource type="AtlasTexture" id="121"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="122"]
+atlas = ExtResource("2")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="123"]
+atlas = ExtResource("2")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="124"]
+atlas = ExtResource("2")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="125"]
+atlas = ExtResource("2")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="126"]
+atlas = ExtResource("2")
+region = Rect2(128, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="127"]
+atlas = ExtResource("2")
+region = Rect2(256, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="128"]
+atlas = ExtResource("2")
+region = Rect2(384, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="129"]
+atlas = ExtResource("2")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="130"]
+atlas = ExtResource("2")
+region = Rect2(128, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="131"]
+atlas = ExtResource("2")
+region = Rect2(256, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="132"]
+atlas = ExtResource("2")
+region = Rect2(384, 256, 128, 128)
+
+[sub_resource type="SpriteFrames" id="13"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("121")
+}, {
+"duration": 1.0,
+"texture": SubResource("122")
+}, {
+"duration": 1.0,
+"texture": SubResource("123")
+}, {
+"duration": 1.0,
+"texture": SubResource("124")
+}, {
+"duration": 1.0,
+"texture": SubResource("125")
+}, {
+"duration": 1.0,
+"texture": SubResource("126")
+}, {
+"duration": 1.0,
+"texture": SubResource("127")
+}, {
+"duration": 1.0,
+"texture": SubResource("128")
+}, {
+"duration": 1.0,
+"texture": SubResource("129")
+}, {
+"duration": 1.0,
+"texture": SubResource("130")
+}, {
+"duration": 1.0,
+"texture": SubResource("131")
+}, {
+"duration": 1.0,
+"texture": SubResource("132")
+}],
+"loop": false,
+"name": &"burst",
+"speed": 12.0
+}]
+
+[node name="GroundBurst" type="Node2D"]
+script = ExtResource("1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("13")
+animation = &"burst"
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_AnimatedSprite_animation_finished"]

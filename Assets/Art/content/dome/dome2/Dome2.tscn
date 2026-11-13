@@ -1,0 +1,239 @@
+[gd_scene load_steps=25 format=3 uid="uid://cjngmxki0wou8"]
+
+[ext_resource type="PackedScene" uid="uid://da1bf26ghdnu1" path="res://content/dome/Dome.tscn" id="1"]
+[ext_resource type="AudioStream" uid="uid://csdowakhr54i6" path="res://content/sounds/Amb/dome2 amb.wav" id="2"]
+[ext_resource type="Texture2D" uid="uid://bxc3ni226iydb" path="res://content/dome/dome2/dome/dome02_back.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://du66844hc8dtw" path="res://content/dome/dome2/dome/dome02_front.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://jlkcm6c717f6" path="res://content/dome/dome2/dome/dome02_shine.png" id="5"]
+[ext_resource type="AudioStream" uid="uid://bpwbmunfvx6ri" path="res://content/sounds/Locations/RelicRoom/RelicInsert.wav" id="6"]
+[ext_resource type="PackedScene" path="res://content/dome/dome2/Shredder2.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://content/dome/dome2/Station2.tscn" id="8"]
+[ext_resource type="Texture2D" uid="uid://c5u8nnn1m6r21" path="res://content/gadgets/shield/shield_dome2.png" id="9"]
+[ext_resource type="Shader" path="res://content/gadgets/shield/invulnerable.gdshader" id="10"]
+[ext_resource type="Texture2D" uid="uid://bje2tg55t5lmn" path="res://content/dome/InvulnerableSprite_Polygon2D.png" id="11"]
+[ext_resource type="Shader" path="res://content/dome/damage_mask/hit_mask_shader.gdshader" id="12"]
+[ext_resource type="Texture2D" uid="uid://c2wkcwfivhnac" path="res://content/dome/dome2/dome/dome02_mask.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://d33rjiq7x7f7j" path="res://content/dome/cracksoverlay_cracks_dome2_noise.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bcw05ulamyhu7" path="res://content/dome/dome2/dome/dome02_cracks.png" id="15"]
+
+[sub_resource type="Curve2D" id="9"]
+_data = {
+"points": PackedVector2Array(2.76044, 9.90496, -2.76044, -9.90496, -61, 0, -9.35859, 13.2433, 9.35859, -13.2433, -54, -48, -29.5526, 0.176577, 29.5526, -0.176577, 0, -76, -9.00544, -10.5946, 9.00544, 10.5946, 54, -48, 3.2568, -11.4128, -3.2568, 11.4128, 60, 2)
+}
+point_count = 5
+
+[sub_resource type="Gradient" id="12"]
+offsets = PackedFloat32Array(0, 0.0644068, 0.515254, 0.938983, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="ShaderMaterial" id="84"]
+shader = ExtResource("10")
+shader_parameter/stretch = Vector2(0.35, 0.55)
+shader_parameter/noise_texture = ExtResource("11")
+
+[sub_resource type="Curve2D" id="10"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 88, 158, -4.8771, 21.3739, 4.8771, -21.3739, 89, 123, -35.9594, -0.374577, 35.9594, 0.374577, 149, 83, -4.27317, -19.0347, 4.27317, 19.0347, 207, 122, 0, 0, 0, 0, 209, 158)
+}
+point_count = 5
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_rw3iq"]
+viewport_path = NodePath("CracksOverlay/SubViewport")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xmodh"]
+resource_local_to_scene = true
+shader = ExtResource("12")
+shader_parameter/damage = 0.0
+shader_parameter/impact_mask = SubResource("ViewportTexture_rw3iq")
+shader_parameter/cracks_mask = ExtResource("13")
+shader_parameter/noise_texture = ExtResource("14")
+shader_parameter/palette = null
+
+[sub_resource type="Curve2D" id="7"]
+_data = {
+"points": PackedVector2Array(1.57312, 4.40475, -1.57312, -4.40475, -55, 5, -1.57312, 15.4166, 1.57312, -15.4166, -56, -26, -13.0569, 8.80949, 13.0569, -8.80949, -21, -67)
+}
+point_count = 3
+
+[sub_resource type="Curve2D" id="8"]
+_data = {
+"points": PackedVector2Array(-2.517, 3.61819, 2.517, -3.61819, 52, 6, 0.62925, 15.8886, -0.62925, -15.8886, 57, -26, 7.07906, 2.04506, -7.07906, -2.04506, 26, -63)
+}
+point_count = 3
+
+[sub_resource type="Curve2D" id="11"]
+_data = {
+"points": PackedVector2Array(-27.8156, 27.6092, 27.8156, -27.6092, -48, -49, -22.5526, -27.7865, 22.5526, 27.7865, 49, -47)
+}
+point_count = 2
+
+[node name="Dome" instance=ExtResource("1")]
+position = Vector2(6, -22)
+techId = "dome2"
+
+[node name="Ambience" parent="." index="0"]
+stream = ExtResource("2")
+volume_db = 21.378
+pitch_scale = 0.95
+bus = &"World"
+
+[node name="Background" parent="." index="3"]
+position = Vector2(0, -32)
+texture = ExtResource("3")
+
+[node name="Foreground" parent="." index="4"]
+position = Vector2(0, -32)
+texture = ExtResource("4")
+
+[node name="ForegroundTransparent" parent="Foreground" index="0"]
+position = Vector2(6, -5)
+texture = ExtResource("5")
+
+[node name="Inserted" parent="Cellar/RelicActivation" index="0"]
+stream = ExtResource("6")
+volume_db = 2.185
+
+[node name="WeaponContainer" parent="." index="6"]
+position = Vector2(0, 0)
+
+[node name="PrimaryGadgetContainer" parent="." index="8"]
+position = Vector2(-36, 1)
+
+[node name="Shredder" parent="." index="9" instance=ExtResource("7")]
+position = Vector2(1, -5)
+
+[node name="Station" parent="." index="10" instance=ExtResource("8")]
+position = Vector2(36, -5)
+
+[node name="EggDropPoint" parent="." index="13"]
+position = Vector2(-17, -5)
+
+[node name="CollisionShape2D" parent="EggDropPoint" index="0"]
+position = Vector2(17, -7)
+
+[node name="CupolaPath" parent="." index="14"]
+curve = SubResource("9")
+axisModulation = Vector2(0.2, 0)
+
+[node name="RotationCenter" parent="CupolaPath" index="0"]
+position = Vector2(0, -21)
+
+[node name="DomeShape" parent="DomeBorder" index="0"]
+polygon = PackedVector2Array(-54, 2, -61, -16, -56, -41, -35, -64, -5, -73, 7, -73, 28, -67, 47, -52, 58, -34, 59, -12, 53, 2, 124, 2, 123, -105, -107, -104, -107, 2)
+
+[node name="HealEffect" parent="." index="16"]
+position = Vector2(0, -32)
+mask = ExtResource("3")
+
+[node name="Shield" parent="." index="17"]
+position = Vector2(0, -32)
+texture = ExtResource("9")
+
+[node name="OverchargeShield" parent="Shield" index="0"]
+visible = false
+texture = ExtResource("9")
+
+[node name="Blast" parent="Shield" index="1"]
+position = Vector2(1, -12)
+
+[node name="CollisionPolygon2D" parent="Shield/Blast" index="0"]
+polygon = PackedVector2Array(-96, 45, -63, 45, -45, -12, -3, -28, 44, -10, 59, 46, 98, 45, 84, -24, 48, -51, -2, -63, -58, -48, -92, -22)
+
+[node name="BlastSound" parent="Shield/Blast" index="1"]
+volume_db = -3.059
+
+[node name="BlastLoopSound" parent="Shield/Blast" index="2"]
+volume_db = -10.061
+pitch_scale = 0.67
+
+[node name="Reflect" parent="Shield" index="2"]
+position = Vector2(1, -12)
+
+[node name="CollisionPolygon2D" parent="Shield/Reflect" index="0"]
+visible = false
+polygon = PackedVector2Array(-80, 50, 80, 48, 78, 13, 67, -15, 47, -35, 21, -48, -13, -51, -47, -38, -71, -19, -79, 10)
+
+[node name="ReflectSprite" parent="Shield/Reflect" index="1"]
+offset = Vector2(2, -20)
+frame = 25
+
+[node name="Particles" parent="Shield/Reflect/ReflectSprite" index="0"]
+position = Vector2(18, 23)
+points = PackedVector2Array(-81, 21, -85, -4, -79, -30, -63, -46, -44, -56, -19, -59, 9, -54, 25, -44, 42, -22, 46, -3, 42, 21)
+
+[node name="Glow" parent="Shield/Reflect/ReflectSprite" index="1"]
+position = Vector2(0, 0)
+points = PackedVector2Array(-63, 44, -65, 18, -56, -4, -42, -19, -25, -29, -1, -32, 24, -28, 41, -17, 58, 4, 62, 24, 60, 44)
+gradient = SubResource("12")
+
+[node name="Invulnerable" parent="Shield" index="3"]
+position = Vector2(1, -12)
+
+[node name="InvulnerableSprite" parent="Shield/Invulnerable" index="0"]
+position = Vector2(-1, 15)
+hframes = 25
+
+[node name="Shield" parent="Shield/Invulnerable/InvulnerableSprite" index="0"]
+material = SubResource("84")
+polygon = PackedVector2Array(-62, 33, -63, 9, -58, -14, -44, -33, -26, -43, -9, -48, 9, -48, 29, -42, 44, -32, 56, -19, 64, 6, 62, 33, 35, 41, 0, 42, -35, 41)
+
+[node name="CollapseSprite" parent="." index="19"]
+position = Vector2(-152, -163)
+
+[node name="CollapseShards" parent="." index="20"]
+curve = SubResource("10")
+
+[node name="CracksOverlay" parent="." index="21"]
+position = Vector2(0, -9)
+
+[node name="SubViewport" parent="CracksOverlay" index="0"]
+handle_input_locally = false
+size = Vector2i(128, 90)
+
+[node name="Cracks" parent="CracksOverlay" index="1"]
+material = SubResource("ShaderMaterial_xmodh")
+position = Vector2(0, -24)
+texture = ExtResource("15")
+
+[node name="Left" parent="PiercePoints" index="0"]
+position = Vector2(-30, -55)
+
+[node name="Right" parent="PiercePoints" index="1"]
+position = Vector2(34, -54)
+
+[node name="LeftPoint1" parent="FrontAttackPoints" index="0"]
+position = Vector2(-37, -24)
+
+[node name="RightPoint1" parent="FrontAttackPoints" index="1"]
+position = Vector2(42, -24)
+
+[node name="Left" parent="MeleeTargets" index="0"]
+curve = SubResource("7")
+
+[node name="Right" parent="MeleeTargets" index="1"]
+curve = SubResource("8")
+
+[node name="Top" parent="MeleeTargets" index="2"]
+position = Vector2(0, -7)
+curve = SubResource("11")
+
+[node name="ProjectileTargets" parent="." index="29"]
+visible = true
+
+[node name="Position1" parent="ProjectileTargets" index="0"]
+position = Vector2(-40, -31)
+
+[node name="Position2" parent="ProjectileTargets" index="1"]
+position = Vector2(-18, -49)
+
+[node name="Position3" parent="ProjectileTargets" index="2"]
+position = Vector2(20, -50)
+
+[node name="Position4" parent="ProjectileTargets" index="3"]
+position = Vector2(39, -28)
+
+[node name="DecorationSpot" type="Marker2D" parent="." index="32" groups=["dome-decoration"]]
+position = Vector2(-27, -50)
+
+[node name="DecorationSpot2" type="Marker2D" parent="." index="33" groups=["dome-decoration"]]
+position = Vector2(23, -56)

@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://conc1r2g1kuwk"]
+
+[ext_resource type="Shader" path="res://content/keeper/keeper2/ray.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/scale = 20.0
+shader_parameter/speed = -40.0
+shader_parameter/palette = null

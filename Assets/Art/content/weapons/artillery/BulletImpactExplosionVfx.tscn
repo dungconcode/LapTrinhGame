@@ -1,0 +1,83 @@
+[gd_scene load_steps=12 format=3 uid="uid://blp3duscfe3ow"]
+
+[ext_resource type="SpriteFrames" uid="uid://c44pp3innj1ny" path="res://content/weapons/artillery/ArtilleryBulletImpactExplosionVfx.tres" id="1"]
+[ext_resource type="Script" path="res://content/weapons/artillery/BulletImpactExplosionVfx.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://5xuybf18gcnf" path="res://content/effects/explosions/smoke32x32px_sheet.png" id="3"]
+
+[sub_resource type="CanvasItemMaterial" id="156"]
+particles_animation = true
+particles_anim_h_frames = 10
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="Curve" id="157"]
+_data = [Vector2(0, 0.246591), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="62"]
+curve = SubResource("157")
+
+[sub_resource type="Gradient" id="158"]
+offsets = PackedFloat32Array(0, 0.290456, 0.485477, 0.62117, 1)
+colors = PackedColorArray(0.470588, 1, 0, 1, 0.313726, 1, 0.392157, 1, 0.282353, 0.792157, 0.392157, 1, 0.25098, 0.521569, 0.392157, 1, 0.188235, 0.427451, 0.392157, 0)
+
+[sub_resource type="GradientTexture2D" id="153"]
+gradient = SubResource("158")
+width = 256
+
+[sub_resource type="Curve" id="159"]
+_data = [Vector2(0, 0.318182), 0.0, 2.39979, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="155"]
+curve = SubResource("159")
+
+[sub_resource type="ParticleProcessMaterial" id="160"]
+lifetime_randomness = 0.8
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 15.0
+angle_max = 360.0
+spread = 20.0
+initial_velocity_min = 7.0
+initial_velocity_max = 70.0
+angular_velocity_min = -150.0
+angular_velocity_max = 150.0
+gravity = Vector3(0, -50, 0)
+linear_accel_min = -30.0
+linear_accel_max = -30.0
+damping_min = 20.0
+damping_max = 20.0
+scale_curve = SubResource("155")
+color_ramp = SubResource("153")
+anim_speed_min = 1.0
+anim_speed_max = 1.0
+anim_speed_curve = SubResource("62")
+anim_offset_max = 0.3
+
+[node name="BulletImpactExplosionVfx" type="AnimatedSprite2D"]
+texture_filter = 1
+scale = Vector2(0.3, 0.3)
+sprite_frames = ExtResource("1")
+frame = 7
+offset = Vector2(-60, 0)
+flip_h = true
+script = ExtResource("2")
+
+[node name="Smoke" type="GPUParticles2D" parent="."]
+material = SubResource("156")
+rotation = 3.14159
+scale = Vector2(2, 2)
+emitting = false
+process_material = SubResource("160")
+texture = ExtResource("3")
+lifetime = 1.5
+one_shot = true
+explosiveness = 1.0
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 1.5
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

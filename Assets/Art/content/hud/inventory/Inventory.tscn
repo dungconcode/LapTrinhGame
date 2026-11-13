@@ -1,0 +1,82 @@
+[gd_scene load_steps=7 format=3 uid="uid://b2rkp47ev4cw7"]
+
+[ext_resource type="Script" path="res://content/hud/inventory/Inventory.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://djoy6voi70xo6" path="res://content/icons/icon_iron.png" id="2"]
+[ext_resource type="FontVariation" uid="uid://cfbppd3432m0s" path="res://gui/fonts/FontHudPixelartMonospaced.tres" id="3"]
+[ext_resource type="LabelSettings" uid="uid://c0e6v16htcgxc" path="res://gui/fontsettings/HudPixelartMonospacedFontSettings.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://b6jc1mfc22tag" path="res://content/icons/icon_water.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bia4r4lcg51xx" path="res://content/drop/sand/sand_smol.png" id="6"]
+
+[node name="Inventory" type="MarginContainer"]
+offset_right = 53.0
+offset_bottom = 90.0
+scale = Vector2(0.333, 0.333)
+theme_override_constants/margin_left = 6
+theme_override_constants/margin_top = 6
+script = ExtResource("1")
+element_size = Vector2(5, 6)
+layoutWeights = Vector2(5, 0)
+layoutPriority = 2
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 2
+theme_override_constants/h_separation = 8
+theme_override_constants/v_separation = 8
+columns = 2
+
+[node name="TextureRect1" type="TextureRect" parent="GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("2")
+stretch_mode = 2
+
+[node name="LabelIron" type="Label" parent="GridContainer"]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("3")
+text = "1"
+label_settings = ExtResource("4")
+
+[node name="TextureRect2" type="TextureRect" parent="GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("5")
+stretch_mode = 2
+
+[node name="LabelWater" type="Label" parent="GridContainer"]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("3")
+text = "0"
+label_settings = ExtResource("4")
+
+[node name="Control" type="Control" parent="GridContainer"]
+layout_mode = 2
+
+[node name="TextureRect3" type="TextureRect" parent="GridContainer/Control"]
+texture_filter = 1
+custom_minimum_size = Vector2(27, 27)
+layout_mode = 2
+offset_left = -2.0
+offset_top = -3.0
+offset_right = 25.0
+offset_bottom = 24.0
+size_flags_horizontal = 0
+texture = ExtResource("6")
+expand_mode = 2
+stretch_mode = 4
+
+[node name="LabelSand" type="Label" parent="GridContainer"]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("3")
+text = "0"
+label_settings = ExtResource("4")

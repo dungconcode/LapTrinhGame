@@ -1,0 +1,88 @@
+[gd_scene load_steps=7 format=3 uid="uid://pbev6dkomwdl"]
+
+[ext_resource type="Script" path="res://content/hud/healthmeter/HealthMeter.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bl4wydww8gfuv" path="res://content/hud/healthmeter/healthMeterBGHeart.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dkowe2wfgy66i" path="res://content/hud/healthmeter/healthMeterTerminus.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cxhw2yb4aes67" path="res://content/hud/healthmeter/healthMeterSegment.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://17vtta2ufq6n" path="res://content/hud/healthmeter/heart.png" id="5"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="6"]
+
+[node name="HealthMeter" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 6.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+element_size = Vector2(6, 2)
+layoutWeights = Vector2(0, 1)
+layoutPriority = 1
+
+[node name="BG" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 2.0
+offset_top = 2.0
+offset_right = 48.0
+offset_bottom = 10.0
+
+[node name="Heart" type="TextureRect" parent="BG"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 10.0
+offset_bottom = 8.0
+texture = ExtResource("2")
+stretch_mode = 2
+
+[node name="Terminus" type="TextureRect" parent="BG"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 10.0
+offset_right = 11.0
+offset_bottom = 8.0
+texture = ExtResource("3")
+stretch_mode = 2
+
+[node name="Segment" type="TextureRect" parent="BG"]
+texture_filter = 1
+texture_repeat = 2
+layout_mode = 0
+offset_left = 10.0
+offset_right = 14.0
+offset_bottom = 8.0
+texture = ExtResource("4")
+stretch_mode = 1
+
+[node name="Heart" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(7, 6)
+texture = ExtResource("5")
+hframes = 4
+
+[node name="RepairRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 4.0
+offset_right = 22.0
+offset_bottom = 7.0
+color = Color(0.282353, 0.54902, 0.862745, 1)
+
+[node name="BadRepairRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 4.0
+offset_right = 12.0
+offset_bottom = 7.0
+color = Color(0.407843, 0.423529, 0.862745, 1)
+
+[node name="HealthRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 4.0
+offset_right = 42.0
+offset_bottom = 7.0
+color = Color(0.376471, 0.298039, 0.862745, 1)
+
+[node name="FlashTween" parent="." instance=ExtResource("6")]

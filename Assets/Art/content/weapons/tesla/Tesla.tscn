@@ -1,0 +1,1481 @@
+[gd_scene load_steps=145 format=3 uid="uid://dl6j44x2nqnpf"]
+
+[ext_resource type="Script" path="res://content/weapons/tesla/Tesla.gd" id="1"]
+[ext_resource type="Script" path="res://content/weapons/tesla/ring/Dome4_Ring.gd" id="2"]
+[ext_resource type="Shader" path="res://content/weapons/tesla/ring/tesla_ring_shader.gdshader" id="3"]
+[ext_resource type="Texture2D" uid="uid://ccqqc5rjgjkom" path="res://systems/style/palettes/index_palette.png" id="4"]
+[ext_resource type="Environment" uid="uid://cc7y2ichyct0n" path="res://content/weapons/tesla/ring/ring_world_environment_bg.tres" id="5"]
+[ext_resource type="PackedScene" uid="uid://bv743l8cfxw0k" path="res://content/weapons/tesla/ring/Dome4_3DRing.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://ddg67u8rdsyse" path="res://content/weapons/tesla/CrystalPolarEffect.tscn" id="7"]
+[ext_resource type="Texture2D" uid="uid://cyjda15dgpl2d" path="res://content/weapons/tesla/lightning_repeat.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://daff4tw2ipany" path="res://systems/style/palettes/palette_1_1.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://b2h0tuar4fqr8" path="res://content/weapons/tesla/tesla_crystals.png" id="10"]
+[ext_resource type="Material" uid="uid://re71urpdyhcw" path="res://content/weapons/tesla/crystal_shimmer.tres" id="11"]
+[ext_resource type="Texture2D" uid="uid://be08iqr6u0lh7" path="res://content/weapons/tesla/tesla_crystals_shimmer2.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://blob6wc08kl2t" path="res://content/weapons/tesla/Tesla_CrystalParticle_noise.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://1d7mvrmvlu87" path="res://content/weapons/tesla/tesla_effects_6.png" id="14"]
+[ext_resource type="Script" path="res://content/keeper/keeper2/CustomStyle_ChangeModulate.gd" id="15"]
+[ext_resource type="PackedScene" path="res://content/weapons/tesla/arc/ArcGroup.tscn" id="16"]
+[ext_resource type="Environment" uid="uid://858lnhgbuyd6" path="res://content/weapons/tesla/ring/ring_world_environment.tres" id="17"]
+[ext_resource type="Shader" path="res://content/weapons/tesla/physics_sparks_particleshader.gdshader" id="18"]
+[ext_resource type="Texture2D" uid="uid://c7gkt2to4vr57" path="res://content/weapons/tesla/Tesla_GoUpStatic_noise.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://mwva2ccbjegg" path="res://content/weapons/tesla/dome04_cap_mount.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://drcneyhq5c4bp" path="res://content/weapons/tesla/dome04_cap_level0.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://cp4hlnapui5nd" path="res://content/weapons/tesla/dome04_cap_level3_glow.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://btty7mfemjhdm" path="res://content/weapons/tesla/dome04_cap_level4.png" id="23"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="24"]
+[ext_resource type="Shader" path="res://content/weapons/tesla/tesla_backside_cable_shader.gdshader" id="25"]
+[ext_resource type="SpriteFrames" uid="uid://c42tuch4m73dk" path="res://content/weapons/tesla/tesla_backside_trafo.tres" id="26"]
+[ext_resource type="Texture2D" uid="uid://bcph8ks4n0xje" path="res://content/weapons/tesla/trafo_energy.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://di8su0xcvmvs0" path="res://content/weapons/tesla/station_light.png" id="28"]
+[ext_resource type="PackedScene" uid="uid://b3d323wwwffos" path="res://content/weapons/tesla/Reticle.tscn" id="29"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="30"]
+[ext_resource type="AudioStream" uid="uid://b48ix7cofmav2" path="res://content/sounds/Weapons/tesla/martins/Switch_02.wav" id="31"]
+[ext_resource type="AudioStream" uid="uid://cjsc40uqw84yc" path="res://content/sounds/Weapons/tesla/martins/Switch_03.wav" id="32"]
+[ext_resource type="Script" path="res://content/weapons/tesla/RingSounds.gd" id="33"]
+[ext_resource type="AudioStream" uid="uid://bw5krti7iwfk6" path="res://content/sounds/Weapons/tesla/martins/rotation.wav" id="34"]
+[ext_resource type="AudioStream" uid="uid://bre6hvasirurx" path="res://content/sounds/Weapons/tesla/martins/electricloo2.wav" id="35"]
+[ext_resource type="AudioStream" uid="uid://d4dsqimepm11k" path="res://content/sounds/Weapons/tesla/bzzt.wav" id="36"]
+[ext_resource type="AudioStream" uid="uid://2cvbml3mfft0" path="res://content/sounds/Weapons/tesla/bassy.wav" id="37"]
+[ext_resource type="AudioStream" uid="uid://bwed00rh5dc53" path="res://content/sounds/Weapons/tesla/ready.wav" id="38"]
+[ext_resource type="AudioStream" uid="uid://dbfi7wan6x8h3" path="res://content/sounds/Weapons/tesla/martins/speedip.wav" id="39"]
+[ext_resource type="AudioStream" uid="uid://5fe5k0uhvox7" path="res://content/sounds/Weapons/tesla/martins/sweet.wav" id="40"]
+[ext_resource type="AudioStream" uid="uid://bmn7umafmt701" path="res://content/sounds/Weapons/tesla/martins/hover.wav" id="41"]
+[ext_resource type="AudioStream" uid="uid://bpp1osshm2j16" path="res://content/sounds/Weapons/tesla/martins/Switch_01.wav" id="42"]
+[ext_resource type="AudioStream" uid="uid://dkc4vh10eimjv" path="res://content/sounds/Weapons/artillery/Reload_1.wav" id="43"]
+[ext_resource type="AudioStream" uid="uid://bhq0c0f83e7h7" path="res://content/sounds/Weapons/artillery/glasimpact.wav" id="44"]
+[ext_resource type="AudioStream" uid="uid://v5mloy4fyoop" path="res://content/sounds/Weapons/artillery/Reload_2.wav" id="45"]
+[ext_resource type="AudioStream" uid="uid://dwjtp5q7qkxov" path="res://content/sounds/Weapons/tesla/martins/Electric_burst.wav" id="46"]
+[ext_resource type="AudioStream" uid="uid://0xy0rnm060i5" path="res://content/sounds/Weapons/artillery/Misc_Glass_Crystal_Shatter.wav" id="47"]
+[ext_resource type="AudioStream" uid="uid://rsrdid5nf608" path="res://content/sounds/Weapons/artillery/monsterHit.wav" id="48"]
+[ext_resource type="AudioStream" uid="uid://5e2vliatd8w7" path="res://content/sounds/Weapons/tesla/martins/Tesla01.wav" id="49"]
+[ext_resource type="AudioStream" uid="uid://dnhvp68a6nhhk" path="res://content/sounds/Weapons/tesla/martins/tick_01.wav" id="50"]
+[ext_resource type="AudioStream" uid="uid://wytrr2yimob7" path="res://content/sounds/Weapons/tesla/martins/tick_02.wav" id="51"]
+[ext_resource type="AudioStream" uid="uid://b1kpp6k44xrdd" path="res://content/sounds/Weapons/tesla/martins/tick_03.wav" id="52"]
+[ext_resource type="AudioStream" uid="uid://c85210xhkulf5" path="res://content/sounds/Weapons/tesla/martins/tick_04.wav" id="53"]
+[ext_resource type="AudioStream" uid="uid://036mnt75xu5e" path="res://content/sounds/Weapons/tesla/martins/tick_05.wav" id="54"]
+[ext_resource type="AudioStream" uid="uid://cuu05da20armg" path="res://content/sounds/Weapons/tesla/martins/tick_06.wav" id="55"]
+[ext_resource type="AudioStream" uid="uid://cexeb0pmgcecc" path="res://content/sounds/Weapons/tesla/martins/tick_07.wav" id="56"]
+[ext_resource type="AudioStream" uid="uid://cvy3tbx2jxlkp" path="res://content/sounds/Weapons/tesla/martins/tick_08.wav" id="57"]
+[ext_resource type="AudioStream" uid="uid://cs7q3lcdy5oqh" path="res://content/sounds/Weapons/tesla/martins/Explode_electrified.wav" id="58"]
+[ext_resource type="AudioStream" uid="uid://b8enpgmcuyjp4" path="res://content/sounds/Weapons/tesla/kill.wav" id="59"]
+[ext_resource type="AudioStream" uid="uid://cx3x3pti6dlp8" path="res://content/sounds/Weapons/tesla/martins/Hitshot.wav" id="60"]
+[ext_resource type="AudioStream" uid="uid://pe7rfpy5gbyd" path="res://content/sounds/Weapons/tesla/lightning_up.wav" id="61"]
+[ext_resource type="AudioStream" uid="uid://dvobfmvk8pwd4" path="res://content/sounds/Weapons/tesla/weapon_start.wav" id="62"]
+[ext_resource type="AudioStream" uid="uid://d3i4dm8e2gcgv" path="res://content/sounds/Weapons/tesla/weapon_stop.wav" id="63"]
+[ext_resource type="AudioStream" uid="uid://bni3rgngemyx6" path="res://content/sounds/Weapons/tesla/reload_start.wav" id="64"]
+[ext_resource type="AudioStream" uid="uid://k5idwymdd0kf" path="res://content/sounds/Weapons/tesla/reload.wav" id="65"]
+[ext_resource type="AudioStream" uid="uid://pt8272phuxrl" path="res://content/sounds/Weapons/tesla/reload_finish2.wav" id="66"]
+[ext_resource type="AudioStream" uid="uid://cg0hoydwqhd80" path="res://content/sounds/Weapons/tesla/pure lil_4.wav" id="67"]
+[ext_resource type="AudioStream" uid="uid://d4j4msyl5n1h4" path="res://content/sounds/Weapons/tesla/detonate_marks.wav" id="68"]
+[ext_resource type="AudioStream" uid="uid://jkegx1jvdn6w" path="res://content/sounds/Weapons/tesla/ShotgunContinous_1.wav" id="69"]
+[ext_resource type="AudioStream" uid="uid://cy22t5ulv06lk" path="res://content/sounds/Weapons/tesla/Shotgun_01.wav" id="70"]
+[ext_resource type="AudioStream" uid="uid://don0jvoe4qeiu" path="res://content/sounds/Weapons/tesla/Shotgun_02.wav" id="71"]
+[ext_resource type="AudioStream" uid="uid://by51ji0qdgtex" path="res://content/sounds/Weapons/tesla/Shotgun_03.wav" id="72"]
+[ext_resource type="AudioStream" uid="uid://c56hk2f25q0ba" path="res://content/sounds/Weapons/tesla/tesla_overheat.wav" id="73"]
+[ext_resource type="AudioStream" uid="uid://y5anindk160k" path="res://content/sounds/Weapons/tesla/apply_mark.wav" id="74"]
+[ext_resource type="AudioStream" uid="uid://oqewc4gskd7l" path="res://content/sounds/Weapons/tesla/digital-ride-2.wav" id="75"]
+[ext_resource type="AudioStream" uid="uid://b2ni34hv8vyjg" path="res://content/sounds/Weapons/tesla/nukes.wav" id="76"]
+[ext_resource type="AudioStream" uid="uid://n5bsv82088p5" path="res://content/sounds/Weapons/tesla/lightning_down_full_auto.wav" id="77"]
+[ext_resource type="AudioStream" uid="uid://d3fqnsyd80332" path="res://content/sounds/Weapons/tesla/lightning_down_small.wav" id="78"]
+[ext_resource type="AudioStream" uid="uid://dyjfvsil5cmtp" path="res://content/sounds/Weapons/tesla/lightning_down.wav" id="79"]
+[ext_resource type="AudioStream" uid="uid://b0p7dhikqp6tw" path="res://content/sounds/Weapons/tesla/SingleShot_01.wav" id="80"]
+[ext_resource type="AudioStream" uid="uid://de6nw5w26ulol" path="res://content/sounds/Weapons/tesla/SingleShot_02.wav" id="81"]
+[ext_resource type="AudioStream" uid="uid://cv5rfyoxhmncf" path="res://content/sounds/Weapons/tesla/SingleShot_03.wav" id="82"]
+[ext_resource type="AudioStream" uid="uid://kijbtnlssdnk" path="res://content/sounds/Weapons/tesla/SingleShot_04.wav" id="83"]
+
+[sub_resource type="Gradient" id="93"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.0465116, 0.197674, 0.41374, 0.61374, 0.793893, 0.935878)
+colors = PackedColorArray(0, 0.0156863, 0.392157, 1, 0.627451, 0.560784, 0.392157, 1, 0.658824, 0.72549, 0.392157, 1, 0.25098, 0.521569, 0.392157, 1, 0.282353, 0.792157, 0.392157, 1, 0.313726, 1, 0.392157, 1, 0.345098, 1, 0.392157, 1)
+
+[sub_resource type="GradientTexture2D" id="87"]
+gradient = SubResource("93")
+width = 128
+
+[sub_resource type="ShaderMaterial" id="95"]
+shader = ExtResource("3")
+shader_parameter/multiplier = 1.0
+shader_parameter/palette = ExtResource("4")
+shader_parameter/remap_gradient = SubResource("87")
+
+[sub_resource type="World3D" id="World3D_womk2"]
+environment = ExtResource("5")
+
+[sub_resource type="Curve" id="11"]
+bake_resolution = 200
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.326975, 0.3), 2.28278, 2.28278, 0, 0, Vector2(0.599455, 0.927273), 1.81117, 1.81117, 0, 0, Vector2(0.912807, 0.954545), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 5
+
+[sub_resource type="Curve" id="12"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.256131, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="Shader" id="16"]
+code = "shader_type canvas_item;
+render_mode unshaded;
+
+uniform sampler2D palette : source_color;
+uniform sampler2D remap_gradient : source_color;
+const float start_r = 0.5 / float(32);
+const float start_b = 0.5 / float(12);
+
+uniform sampler2D noise : source_color;
+uniform sampler2D image_texture : source_color;
+uniform sampler2D image_multiplier : source_color;
+uniform sampler2D image_add : hint_default_black;
+uniform sampler2D image_gradient_tint : hint_default_black;
+uniform float extra_power = 1.0;
+
+uniform float effect_scale = 1.0;
+uniform float effect_repeat = 2.0;
+uniform vec2 effect_center = vec2(0.5);
+uniform vec2 uv_mod = vec2(1.0);
+uniform vec2 scroll_speed = vec2(0.0);
+
+//const float TAU = 6.2832;
+
+uniform float pulse_rate_1 = 7.0;
+uniform float pulse_rate_2 = 12.0;
+uniform float pulse_intensity = 0.02;
+
+uniform float noise_scale = 0.06;
+uniform float noise_size = 1.0;
+
+void vertex() {
+	float pulse_freq_1 = TIME * pulse_rate_1 * TAU;
+	float pulse_freq_2 = TIME * pulse_rate_2 * TAU;
+	float pulse_val = 0.25*((sin(pulse_freq_1)+1.0)+(sin(pulse_freq_2)+1.0));
+	pulse_val *= pulse_val;
+	float pulse_size = (pulse_val*pulse_intensity)-pulse_intensity;
+	VERTEX *= 1.+pulse_size;
+}
+
+vec2 coordinates(vec2 uv, vec2 center, float scale, float repeat) {
+	vec2 dir = uv - center;
+	float radius = length(dir)*2.0;
+	float angle = (atan(dir.x, dir.y) / TAU)+0.5;
+	return vec2(angle*repeat, radius*scale);
+}
+
+void fragment(){
+	float noise_x = (texture(noise, (noise_size*UV)+TIME).r);
+	float noise_y = (texture(noise, (noise_size*UV)-TIME).g);
+	vec2 noise_v2 = vec2(noise_x-0.5, noise_y-0.5)*noise_scale;
+	vec2 uv = uv_mod*coordinates(UV+noise_v2, effect_center, effect_scale, effect_repeat);
+	vec4 image_tex = texture(image_texture, mod(uv+(TIME*scroll_speed), 1.0));
+	image_tex *= image_tex.a;
+	image_tex *= texture(image_multiplier, UV+noise_v2);
+	image_tex += texture(image_add, UV+noise_v2);
+	vec4 input = textureLod(image_gradient_tint, vec2(clamp(image_tex.r, 0.0, 1.0)*extra_power, 0.0), 1.0)*extra_power;
+	input.rgb = texture(remap_gradient, vec2(input.r, 0.0)).rgb;
+	COLOR = vec4(texture(palette, vec2(start_r + input.r, start_b+input.b)).rgb, input.a);
+}"
+
+[sub_resource type="Gradient" id="30"]
+resource_local_to_scene = true
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.116279, 0.293605, 0.56686, 0.912791, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0.804688, 0.804688, 0.804688, 1, 0.507812, 0.507812, 0.507812, 1, 0.382812, 0.382812, 0.382812, 1, 0.21875, 0.21875, 0.21875, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="31"]
+resource_local_to_scene = true
+gradient = SubResource("30")
+width = 512
+height = 512
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="Gradient" id="17"]
+colors = PackedColorArray(0.433594, 0.433594, 0.433594, 0, 0.855469, 0.855469, 0.855469, 1)
+
+[sub_resource type="GradientTexture2D" id="18"]
+gradient = SubResource("17")
+width = 128
+
+[sub_resource type="Gradient" id="35"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0.261628, 0.587209, 0.793605)
+colors = PackedColorArray(1, 1, 1, 1, 0.335938, 0.335938, 0.335938, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="36"]
+gradient = SubResource("35")
+width = 256
+height = 256
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="FastNoiseLite" id="26"]
+
+[sub_resource type="NoiseTexture2D" id="27"]
+seamless = true
+noise = SubResource("26")
+
+[sub_resource type="Gradient" id="28"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.0858586, 0.171717, 0.313131, 0.616162, 0.760101, 1)
+colors = PackedColorArray(0.282353, 0.376471, 0, 1, 0.313726, 0.376471, 0, 1, 0.345098, 0.427451, 0, 1, 0.376471, 0.6, 0, 1, 0.407843, 0.941176, 0, 1, 0.439216, 1, 0, 1, 0.470588, 1, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="29"]
+gradient = SubResource("28")
+width = 128
+
+[sub_resource type="ShaderMaterial" id="32"]
+shader = SubResource("16")
+shader_parameter/extra_power = 1.0
+shader_parameter/effect_scale = 0.969
+shader_parameter/effect_repeat = 1.0
+shader_parameter/effect_center = Vector2(0.5, 0.5)
+shader_parameter/uv_mod = Vector2(0.5, 0.55)
+shader_parameter/scroll_speed = Vector2(0.3, -1.5)
+shader_parameter/pulse_rate_1 = 7.0
+shader_parameter/pulse_rate_2 = 12.0
+shader_parameter/pulse_intensity = 0.05
+shader_parameter/noise_scale = 0.06
+shader_parameter/noise_size = 1.0
+shader_parameter/palette = ExtResource("9")
+shader_parameter/remap_gradient = SubResource("29")
+shader_parameter/noise = SubResource("27")
+shader_parameter/image_texture = ExtResource("8")
+shader_parameter/image_multiplier = SubResource("36")
+shader_parameter/image_add = SubResource("31")
+shader_parameter/image_gradient_tint = SubResource("18")
+
+[sub_resource type="Shader" id="127"]
+code = "// NOTE: Shader automatically converted from Godot Engine 3.5.1.stable's CanvasItemMaterial.
+
+shader_type canvas_item;
+render_mode blend_mix;
+
+uniform sampler2D noise : source_color, repeat_enable;
+uniform int particles_anim_h_frames;
+uniform int particles_anim_v_frames;
+uniform bool particles_anim_loop;
+
+varying float lifetime;
+
+void vertex() {
+	lifetime = abs(1.0-INSTANCE_CUSTOM.y);
+	float h_frames = float(particles_anim_h_frames);
+	float v_frames = float(particles_anim_v_frames);
+	VERTEX.xy /= vec2(h_frames, v_frames);
+	float particle_total_frames = float(particles_anim_h_frames * particles_anim_v_frames);
+	float particle_frame = floor(INSTANCE_CUSTOM.z * float(particle_total_frames));
+	if (!particles_anim_loop) {
+		particle_frame = clamp(particle_frame, 0.0, particle_total_frames - 1.0);
+	} else {
+		particle_frame = mod(particle_frame, particle_total_frames);
+	}	UV /= vec2(h_frames, v_frames);
+	UV += vec2(mod(particle_frame, h_frames) / h_frames, floor((particle_frame + 0.5) / h_frames) / v_frames);
+}
+
+void fragment() {
+	vec4 tex = texture(TEXTURE, UV) * COLOR;
+	COLOR = tex;
+	COLOR.a *= clamp(mix(1.0, mix(0.5, texture(noise, UV+TIME*0.3).r, 10.0), lifetime), 0.0, 1.0);
+}"
+
+[sub_resource type="ShaderMaterial" id="124"]
+shader = SubResource("127")
+shader_parameter/particles_anim_h_frames = 6
+shader_parameter/particles_anim_v_frames = 2
+shader_parameter/particles_anim_loop = true
+shader_parameter/noise = ExtResource("13")
+
+[sub_resource type="Gradient" id="122"]
+offsets = PackedFloat32Array(0, 0.0726744, 0.177326, 0.523256, 0.872093, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0.865724, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="129"]
+gradient = SubResource("122")
+width = 128
+
+[sub_resource type="ParticleProcessMaterial" id="125"]
+lifetime_randomness = 0.2
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(0, 14, 0)
+angle_max = 180.0
+direction = Vector3(0, 0, 0)
+spread = 180.0
+gravity = Vector3(0, 0, 0)
+scale_min = 0.5
+scale_max = 0.55
+color_ramp = SubResource("129")
+anim_speed_max = 1.0
+anim_offset_max = 1.0
+
+[sub_resource type="Gradient" id="21"]
+offsets = PackedFloat32Array(0, 0.0726744, 0.177326, 0.523256, 0.872093, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0.865724, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="137"]
+gradient = SubResource("21")
+width = 128
+
+[sub_resource type="ParticleProcessMaterial" id="126"]
+lifetime_randomness = 0.2
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(6, 50, 0)
+angle_max = 180.0
+direction = Vector3(0, 0, 0)
+spread = 180.0
+gravity = Vector3(0, 0, 0)
+scale_min = 0.3
+scale_max = 0.51
+color_ramp = SubResource("137")
+anim_speed_max = 1.0
+anim_offset_max = 1.0
+
+[sub_resource type="World3D" id="World3D_v4uew"]
+environment = ExtResource("17")
+
+[sub_resource type="Gradient" id="130"]
+offsets = PackedFloat32Array(0.590116, 0.951213)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="69"]
+gradient = SubResource("130")
+width = 256
+
+[sub_resource type="ShaderMaterial" id="131"]
+shader = ExtResource("18")
+shader_parameter/emission_sphere_radius = 8.0
+shader_parameter/lifetime_randomness = 0.8
+shader_parameter/direction = Vector3(0, -1, 0)
+shader_parameter/spread = 70.0
+shader_parameter/scale = 0.18
+shader_parameter/air_drag = 1.0
+shader_parameter/mass = 0.05
+shader_parameter/mass_random = 0.7
+shader_parameter/scale_min = 0.12
+shader_parameter/scale_max = 0.2
+shader_parameter/initial_linear_velocity = 2300.0
+shader_parameter/initial_linear_velocity_random = 0.3
+shader_parameter/color_value = Color(1, 1, 1, 1)
+shader_parameter/scale_speed_mod = Vector3(0, 1, 0)
+shader_parameter/scale_speed_mod_min = 0.3
+shader_parameter/scale_speed_mod_max = 4.0
+shader_parameter/gravity = Vector3(0, 200, 0)
+shader_parameter/color_ramp = SubResource("69")
+
+[sub_resource type="Gradient" id="71"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0.909884, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="132"]
+gradient = SubResource("71")
+width = 8
+height = 32
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="Shader" id="75"]
+code = "// NOTE: Shader automatically converted from Godot Engine 3.5.1.stable's CanvasItemMaterial.
+
+shader_type canvas_item;
+render_mode blend_mix;
+
+uniform sampler2D noise : source_color, repeat_enable;
+uniform int particles_anim_h_frames;
+uniform int particles_anim_v_frames;
+uniform bool particles_anim_loop;
+
+varying float lifetime;
+
+void vertex() {
+	lifetime = abs(1.0-INSTANCE_CUSTOM.y);
+	float h_frames = float(particles_anim_h_frames);
+	float v_frames = float(particles_anim_v_frames);
+	VERTEX.xy /= vec2(h_frames, v_frames);
+	float particle_total_frames = float(particles_anim_h_frames * particles_anim_v_frames);
+	float particle_frame = floor(INSTANCE_CUSTOM.z * float(particle_total_frames));
+	if (!particles_anim_loop) {
+		particle_frame = clamp(particle_frame, 0.0, particle_total_frames - 1.0);
+	} else {
+		particle_frame = mod(particle_frame, particle_total_frames);
+	}	UV /= vec2(h_frames, v_frames);
+	UV += vec2(mod(particle_frame, h_frames) / h_frames, floor((particle_frame + 0.5) / h_frames) / v_frames);
+}
+
+void fragment() {
+	vec4 tex = texture(TEXTURE, UV) * COLOR;
+	COLOR = tex;
+	COLOR.a *= clamp(mix(1.0, mix(0.5, texture(noise, UV+TIME*0.3).r, 10.0), lifetime), 0.0, 1.0);
+}"
+
+[sub_resource type="ShaderMaterial" id="134"]
+shader = SubResource("75")
+shader_parameter/particles_anim_h_frames = 6
+shader_parameter/particles_anim_v_frames = 2
+shader_parameter/particles_anim_loop = true
+shader_parameter/noise = ExtResource("19")
+
+[sub_resource type="Gradient" id="135"]
+offsets = PackedFloat32Array(0, 0.0726744, 0.177326, 0.290698, 0.502907, 0.872093, 1)
+colors = PackedColorArray(1, 1, 1, 0, 0, 0, 0, 0.4, 0, 0, 0, 0.282353, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0.865724, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="90"]
+gradient = SubResource("135")
+width = 128
+
+[sub_resource type="ParticleProcessMaterial" id="136"]
+lifetime_randomness = 0.2
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 2.0
+angle_max = 360.0
+direction = Vector3(0, -1, 0)
+spread = 60.0
+initial_velocity_max = 180.0
+gravity = Vector3(0, 0, 0)
+scale_min = 0.4
+scale_max = 0.4
+color_ramp = SubResource("90")
+anim_speed_min = 1.0
+anim_speed_max = 1.0
+
+[sub_resource type="ShaderMaterial" id="140"]
+shader = ExtResource("18")
+shader_parameter/emission_sphere_radius = 8.0
+shader_parameter/lifetime_randomness = 0.8
+shader_parameter/direction = Vector3(0, -1, 0)
+shader_parameter/spread = 180.0
+shader_parameter/scale = 0.18
+shader_parameter/air_drag = 1.0
+shader_parameter/mass = 0.07
+shader_parameter/mass_random = 0.7
+shader_parameter/scale_min = 0.1
+shader_parameter/scale_max = 0.15
+shader_parameter/initial_linear_velocity = 2300.0
+shader_parameter/initial_linear_velocity_random = 0.3
+shader_parameter/color_value = Color(1, 1, 1, 1)
+shader_parameter/scale_speed_mod = Vector3(0, 1, 0)
+shader_parameter/scale_speed_mod_min = 0.3
+shader_parameter/scale_speed_mod_max = 4.0
+shader_parameter/gravity = Vector3(0, 200, 0)
+shader_parameter/color_ramp = SubResource("69")
+
+[sub_resource type="ParticleProcessMaterial" id="141"]
+lifetime_randomness = 0.2
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 2.0
+angle_max = 360.0
+direction = Vector3(0, -1, 0)
+spread = 180.0
+initial_velocity_max = 120.0
+gravity = Vector3(0, 0, 0)
+scale_min = 0.4
+scale_max = 0.4
+color_ramp = SubResource("90")
+anim_speed_min = 1.0
+anim_speed_max = 1.0
+
+[sub_resource type="Curve2D" id="97"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -21, -18, 0, 0, 0, 0, -26, -3)
+}
+point_count = 2
+
+[sub_resource type="Shader" id="142"]
+code = "shader_type canvas_item;
+render_mode blend_mix;
+
+uniform sampler2D grad : source_color;
+uniform vec2 dir;
+uniform vec2 uv_mod = vec2(1.0);
+uniform float time_offset = 0.0;
+
+void fragment() {
+	float tex = texture(TEXTURE, UV*uv_mod).r;
+	vec2 t = vec2(2.0*TIME+time_offset, 2.0*TIME+time_offset)*dir*uv_mod;
+	vec2 uv = vec2(UV.y, UV.x)+t*uv_mod;
+	float f = texture(grad, fract(uv)).r;
+	COLOR.a = f*tex;
+}"
+
+[sub_resource type="Gradient" id="143"]
+offsets = PackedFloat32Array(0, 0.0697674, 0.598837)
+colors = PackedColorArray(0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="144"]
+gradient = SubResource("143")
+fill_from = Vector2(0.7, 0.183333)
+fill_to = Vector2(0.9625, 0.679167)
+
+[sub_resource type="ShaderMaterial" id="145"]
+shader = SubResource("142")
+shader_parameter/dir = Vector2(0, 0.6)
+shader_parameter/uv_mod = Vector2(1, 1)
+shader_parameter/time_offset = 0.0
+shader_parameter/grad = SubResource("144")
+
+[sub_resource type="Curve2D" id="98"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 21, -18, 0, 0, 0, 0, 26, -3)
+}
+point_count = 2
+
+[sub_resource type="Gradient" id="146"]
+offsets = PackedFloat32Array(0, 0.0697674, 0.598837)
+colors = PackedColorArray(0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="147"]
+gradient = SubResource("146")
+fill_from = Vector2(0.370833, 0.575)
+fill_to = Vector2(0.633333, 0.129167)
+
+[sub_resource type="ShaderMaterial" id="148"]
+shader = SubResource("142")
+shader_parameter/dir = Vector2(0, -0.6)
+shader_parameter/uv_mod = Vector2(1, 1)
+shader_parameter/time_offset = -0.43
+shader_parameter/grad = SubResource("147")
+
+[sub_resource type="Gradient" id="114"]
+offsets = PackedFloat32Array(0.158088, 0.919118, 1)
+colors = PackedColorArray(0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="115"]
+gradient = SubResource("114")
+height = 16
+repeat = 1
+
+[sub_resource type="Gradient" id="116"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.0858586, 0.257353, 0.544118, 0.757353)
+colors = PackedColorArray(0.282353, 0.376471, 0, 1, 0.313726, 0.376471, 0, 1, 0.345098, 0.427451, 0, 1, 0.376471, 0.6, 0, 1, 0.407843, 0.941176, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="117"]
+gradient = SubResource("116")
+width = 128
+
+[sub_resource type="ShaderMaterial" id="113"]
+shader = ExtResource("25")
+shader_parameter/fill = 0.0
+shader_parameter/power = 0.0
+shader_parameter/palette = ExtResource("9")
+shader_parameter/gradient = SubResource("115")
+shader_parameter/gradient_color = SubResource("117")
+
+[sub_resource type="CanvasItemMaterial" id="110"]
+particles_animation = true
+particles_anim_h_frames = 7
+particles_anim_v_frames = 1
+particles_anim_loop = true
+
+[sub_resource type="Gradient" id="109"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="13"]
+gradient = SubResource("109")
+width = 128
+
+[sub_resource type="ParticleProcessMaterial" id="111"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(4, 3, 1)
+angle_max = 360.0
+spread = 180.0
+gravity = Vector3(0, 0, 0)
+color_ramp = SubResource("13")
+anim_speed_min = 1.5
+anim_speed_max = 1.5
+anim_offset_min = 0.8
+anim_offset_max = 1.0
+
+[sub_resource type="Curve" id="149"]
+_data = [Vector2(0, 0.245455), 0.0, 3.73846, 0, 0, Vector2(0.434146, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.754545), -1.03535, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="Curve" id="151"]
+_data = [Vector2(0, 0), 0.0, 1.27951, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="150"]
+_data = [Vector2(0.0853659, 0), 0.0, 0.0, 0, 0, Vector2(0.431707, 0.545455), 1.86364, 1.86364, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="Curve" id="152"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.0878049, 0), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[node name="Tesla" type="Node2D" groups=["primaryWeapon"]]
+z_index = -61
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="Ring" type="Node2D" parent="." groups=["battle-start-stop-listener"]]
+script = ExtResource("2")
+
+[node name="BG" type="Node2D" parent="Ring"]
+z_index = -62
+
+[node name="RingBG" type="SubViewportContainer" parent="Ring/BG" groups=["styleShaderCallback", "styled"]]
+material = SubResource("95")
+custom_minimum_size = Vector2(200, 250)
+offset_left = -100.0
+offset_top = -203.142
+offset_right = 100.0
+offset_bottom = 46.8582
+mouse_filter = 2
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="Ring/BG/RingBG"]
+own_world_3d = true
+world_3d = SubResource("World3D_womk2")
+transparent_bg = true
+handle_input_locally = false
+canvas_item_default_texture_filter = 0
+positional_shadow_atlas_size = 16
+positional_shadow_atlas_quad_0 = 0
+positional_shadow_atlas_quad_1 = 0
+positional_shadow_atlas_quad_2 = 0
+positional_shadow_atlas_quad_3 = 0
+size = Vector2i(200, 250)
+render_target_update_mode = 4
+
+[node name="BGScene" parent="Ring/BG/RingBG/SubViewport" instance=ExtResource("6")]
+unique_name_in_owner = true
+near = 40.0
+far = 60.0
+curve = SubResource("11")
+flipSqueezeCurve = SubResource("12")
+
+[node name="Crystal" type="Control" parent="Ring"]
+custom_minimum_size = Vector2(200, 400)
+layout_mode = 3
+anchors_preset = 0
+offset_left = -100.0
+offset_top = -431.0
+offset_right = 100.0
+offset_bottom = -31.0
+mouse_filter = 2
+
+[node name="CrystalCenter" type="Node2D" parent="Ring/Crystal"]
+unique_name_in_owner = true
+z_index = -44
+position = Vector2(100, 375)
+
+[node name="CrystalSprites" type="Node2D" parent="Ring/Crystal/CrystalCenter"]
+unique_name_in_owner = true
+
+[node name="CrystalPolarEffect" parent="Ring/Crystal/CrystalCenter/CrystalSprites" instance=ExtResource("7")]
+material = SubResource("32")
+
+[node name="TeslaCrystal" type="Sprite2D" parent="Ring/Crystal/CrystalCenter/CrystalSprites"]
+unique_name_in_owner = true
+texture_filter = 1
+texture = ExtResource("10")
+hframes = 5
+
+[node name="TeslaCrystalAdditive" type="Sprite2D" parent="Ring/Crystal/CrystalCenter/CrystalSprites/TeslaCrystal" groups=["styleShaderCallback", "styled"]]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0.117647)
+texture_filter = 1
+material = ExtResource("11")
+texture = ExtResource("12")
+hframes = 5
+
+[node name="TeslaCrystalParticle" type="GPUParticles2D" parent="Ring/Crystal/CrystalCenter/CrystalSprites"]
+unique_name_in_owner = true
+material = SubResource("124")
+emitting = false
+amount = 4
+process_material = SubResource("125")
+texture = ExtResource("14")
+lifetime = 0.2
+explosiveness = 0.3
+randomness = 1.0
+script = ExtResource("15")
+self_init = true
+styleColor = Color(0.470588, 1, 0, 1)
+
+[node name="ArcAim" parent="Ring/Crystal/CrystalCenter" instance=ExtResource("16")]
+unique_name_in_owner = true
+visible = false
+modulate = Color(1, 1, 1, 0.462745)
+darkColorAlpha = 0.4
+forkSpawnArea = Vector2(8, 8)
+arcTtlFactor = 0.5
+spawnInterval = 0.3
+randomInterval = 0.5
+randomCurvature = 0.2
+arcWildness = 15.0
+impactRadius = 3.0
+
+[node name="ShootAim" parent="Ring/Crystal/CrystalCenter" instance=ExtResource("16")]
+unique_name_in_owner = true
+visible = false
+forkSpawnArea = Vector2(8, 8)
+arcTtlFactor = 0.5
+spawnInterval = 0.05
+randomInterval = -2.0
+arcIntensity = 0.538
+randomCurvature = 0.0
+arcWildness = 0.0
+impactRadius = 12.0
+
+[node name="CrystalParticle" type="GPUParticles2D" parent="Ring/Crystal/CrystalCenter"]
+unique_name_in_owner = true
+material = SubResource("124")
+rotation = 1.57079
+amount = 16
+process_material = SubResource("126")
+texture = ExtResource("14")
+lifetime = 0.2
+explosiveness = 0.3
+randomness = 1.0
+script = ExtResource("15")
+self_init = true
+styleColor = Color(0.470588, 1, 0, 1)
+
+[node name="StartDelay" type="Timer" parent="Ring/Crystal"]
+wait_time = 0.7
+one_shot = true
+
+[node name="FG" type="Node2D" parent="Ring"]
+z_index = 38
+
+[node name="RingFG" type="SubViewportContainer" parent="Ring/FG"]
+material = SubResource("95")
+custom_minimum_size = Vector2(200, 250)
+offset_left = -100.0
+offset_top = -202.694
+offset_right = 100.0
+offset_bottom = 47.3058
+mouse_filter = 2
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="Ring/FG/RingFG"]
+own_world_3d = true
+world_3d = SubResource("World3D_v4uew")
+transparent_bg = true
+handle_input_locally = false
+canvas_item_default_texture_filter = 0
+gui_disable_input = true
+gui_snap_controls_to_pixels = false
+positional_shadow_atlas_size = 16
+positional_shadow_atlas_quad_0 = 0
+positional_shadow_atlas_quad_1 = 0
+positional_shadow_atlas_quad_2 = 0
+positional_shadow_atlas_quad_3 = 0
+size = Vector2i(200, 250)
+render_target_update_mode = 4
+
+[node name="FGScene" parent="Ring/FG/RingFG/SubViewport" instance=ExtResource("6")]
+unique_name_in_owner = true
+near = 20.0
+far = 40.0
+curve = SubResource("11")
+flipSqueezeCurve = SubResource("12")
+
+[node name="GoUpImpact" type="Node2D" parent="Ring"]
+position = Vector2(0, -3)
+script = ExtResource("15")
+self_init = true
+styleColor = Color(0.439216, 1, 0, 1)
+
+[node name="GoUpSparks" type="GPUParticles2D" parent="Ring/GoUpImpact"]
+editor_description = "fine_tuned"
+position = Vector2(0, -30)
+emitting = false
+amount = 150
+process_material = SubResource("131")
+texture = SubResource("132")
+lifetime = 1.8
+one_shot = true
+explosiveness = 1.0
+fixed_fps = 60
+interpolate = false
+
+[node name="GoUpStatic" type="GPUParticles2D" parent="Ring/GoUpImpact"]
+material = SubResource("134")
+position = Vector2(7.62939e-06, -32)
+scale = Vector2(1.4, 1.4)
+emitting = false
+amount = 30
+process_material = SubResource("136")
+texture = ExtResource("14")
+lifetime = 0.4
+one_shot = true
+explosiveness = 0.7
+randomness = 1.0
+
+[node name="PerfectTiming" type="Node2D" parent="Ring"]
+z_index = 38
+position = Vector2(0, -29.4598)
+script = ExtResource("15")
+self_init = true
+styleColor = Color(0.470588, 1, 0, 1)
+
+[node name="PerfectSparks" type="GPUParticles2D" parent="Ring/PerfectTiming"]
+unique_name_in_owner = true
+editor_description = "fine_tuned"
+position = Vector2(0, -30)
+emitting = false
+amount = 400
+process_material = SubResource("140")
+texture = SubResource("132")
+lifetime = 0.8
+
+[node name="PerfectStatic" type="GPUParticles2D" parent="Ring/PerfectTiming"]
+unique_name_in_owner = true
+material = SubResource("134")
+position = Vector2(7.62939e-06, -32)
+scale = Vector2(1.4, 1.4)
+emitting = false
+amount = 30
+process_material = SubResource("141")
+texture = ExtResource("14")
+lifetime = 0.4
+randomness = 1.0
+
+[node name="Cap" type="Node2D" parent="." groups=["battle-start-stop-listener"]]
+z_index = 37
+position = Vector2(0, -7)
+
+[node name="Dome04Front" type="Sprite2D" parent="Cap"]
+visible = false
+texture_filter = 1
+position = Vector2(0, 43)
+
+[node name="Path2DL" type="Path2D" parent="Cap"]
+curve = SubResource("97")
+
+[node name="PathFollow2DL" type="PathFollow2D" parent="Cap/Path2DL"]
+unique_name_in_owner = true
+position = Vector2(-21, -18)
+rotates = false
+cubic_interp = false
+loop = false
+
+[node name="MountL" type="Sprite2D" parent="Cap/Path2DL/PathFollow2DL"]
+unique_name_in_owner = true
+z_index = -1
+texture_filter = 1
+rotation = -6.28319
+texture = ExtResource("20")
+offset = Vector2(-3, -22)
+region_enabled = true
+region_rect = Rect2(0, 0, 49, 55)
+
+[node name="CapLeft" type="Sprite2D" parent="Cap/Path2DL/PathFollow2DL/MountL"]
+unique_name_in_owner = true
+z_index = 1
+texture_filter = 1
+position = Vector2(0, -6)
+texture = ExtResource("21")
+offset = Vector2(-3, -16)
+hframes = 6
+
+[node name="CapLeftOpen" type="Sprite2D" parent="Cap/Path2DL/PathFollow2DL/MountL"]
+unique_name_in_owner = true
+visible = false
+z_index = 1
+texture_filter = 1
+position = Vector2(0, -7)
+texture = ExtResource("21")
+offset = Vector2(-7, -16)
+region_enabled = true
+region_rect = Rect2(197, 0, 39, 54)
+
+[node name="CapLeftGlow" type="Sprite2D" parent="Cap/Path2DL/PathFollow2DL/MountL/CapLeftOpen"]
+unique_name_in_owner = true
+visible = false
+z_index = 1
+texture_filter = 1
+material = SubResource("145")
+texture = ExtResource("22")
+offset = Vector2(-7, -16)
+region_enabled = true
+region_rect = Rect2(197, 0, 39, 54)
+
+[node name="Positions" type="Node2D" parent="Cap/Path2DL/PathFollow2DL/MountL/CapLeftOpen"]
+position = Vector2(42, 0)
+
+[node name="Marker2D" type="Marker2D" parent="Cap/Path2DL/PathFollow2DL/MountL/CapLeftOpen/Positions"]
+position = Vector2(-38, -29)
+
+[node name="Position2D2" type="Marker2D" parent="Cap/Path2DL/PathFollow2DL/MountL/CapLeftOpen/Positions"]
+position = Vector2(-44, -32)
+
+[node name="Position2D3" type="Marker2D" parent="Cap/Path2DL/PathFollow2DL/MountL/CapLeftOpen/Positions"]
+position = Vector2(-50, -34)
+
+[node name="Position2D4" type="Marker2D" parent="Cap/Path2DL/PathFollow2DL/MountL/CapLeftOpen/Positions"]
+position = Vector2(-56, -36)
+
+[node name="SchnabelParticleL" type="GPUParticles2D" parent="Cap/Path2DL/PathFollow2DL"]
+unique_name_in_owner = true
+material = SubResource("124")
+position = Vector2(-10, -34)
+rotation = -1.24093
+emitting = false
+amount = 4
+process_material = SubResource("125")
+texture = ExtResource("14")
+lifetime = 0.2
+explosiveness = 0.3
+randomness = 1.0
+script = ExtResource("15")
+self_init = true
+styleColor = Color(0.470588, 1, 0, 1)
+
+[node name="ArcL" type="Marker2D" parent="Cap/Path2DL/PathFollow2DL"]
+unique_name_in_owner = true
+position = Vector2(-7, -34)
+
+[node name="ArcGroupL" parent="Cap/Path2DL/PathFollow2DL/ArcL" instance=ExtResource("16")]
+unique_name_in_owner = true
+darkColorAlpha = 0.3
+forkSpawnArea = Vector2(0, 15)
+spawnInterval = 0.1
+baseCurvature = -0.3
+arcWildness = 5.0
+impactRadius = 3.0
+
+[node name="Path2DR" type="Path2D" parent="Cap"]
+curve = SubResource("98")
+
+[node name="PathFollow2DR" type="PathFollow2D" parent="Cap/Path2DR"]
+unique_name_in_owner = true
+position = Vector2(21, -18)
+rotates = false
+cubic_interp = false
+loop = false
+
+[node name="MountR" type="Sprite2D" parent="Cap/Path2DR/PathFollow2DR"]
+unique_name_in_owner = true
+z_index = -1
+texture_filter = 1
+position = Vector2(2.98023e-08, -2.98023e-07)
+texture = ExtResource("20")
+offset = Vector2(3, -22)
+region_enabled = true
+region_rect = Rect2(49, 0, 49, 55)
+
+[node name="CapRight" type="Sprite2D" parent="Cap/Path2DR/PathFollow2DR/MountR"]
+unique_name_in_owner = true
+z_index = 1
+texture_filter = 1
+position = Vector2(0, -6)
+texture = ExtResource("21")
+offset = Vector2(4, -16)
+hframes = 6
+frame = 1
+
+[node name="CapRightOpen" type="Sprite2D" parent="Cap/Path2DR/PathFollow2DR/MountR"]
+unique_name_in_owner = true
+visible = false
+z_index = 1
+texture_filter = 1
+position = Vector2(0, -7)
+texture = ExtResource("23")
+offset = Vector2(8, -16)
+region_enabled = true
+region_rect = Rect2(253, -1, 39, 55)
+
+[node name="CapRightGlow" type="Sprite2D" parent="Cap/Path2DR/PathFollow2DR/MountR/CapRightOpen"]
+unique_name_in_owner = true
+visible = false
+z_index = 1
+texture_filter = 1
+material = SubResource("148")
+texture = ExtResource("22")
+offset = Vector2(8, -16)
+region_enabled = true
+region_rect = Rect2(253, -1, 39, 55)
+
+[node name="Positions" type="Node2D" parent="Cap/Path2DR/PathFollow2DR/MountR/CapRightOpen"]
+
+[node name="Marker2D" type="Marker2D" parent="Cap/Path2DR/PathFollow2DR/MountR/CapRightOpen/Positions"]
+position = Vector2(-4, -29)
+
+[node name="Position2D2" type="Marker2D" parent="Cap/Path2DR/PathFollow2DR/MountR/CapRightOpen/Positions"]
+position = Vector2(2, -32)
+
+[node name="Position2D3" type="Marker2D" parent="Cap/Path2DR/PathFollow2DR/MountR/CapRightOpen/Positions"]
+position = Vector2(8, -34)
+
+[node name="Position2D4" type="Marker2D" parent="Cap/Path2DR/PathFollow2DR/MountR/CapRightOpen/Positions"]
+position = Vector2(14, -36)
+
+[node name="SchnabelParticleR" type="GPUParticles2D" parent="Cap/Path2DR/PathFollow2DR"]
+unique_name_in_owner = true
+material = SubResource("124")
+position = Vector2(4, -34)
+rotation = 1.17538
+emitting = false
+amount = 4
+process_material = SubResource("125")
+texture = ExtResource("14")
+lifetime = 0.2
+explosiveness = 0.3
+randomness = 1.0
+script = ExtResource("15")
+self_init = true
+styleColor = Color(0.470588, 1, 0, 1)
+
+[node name="ArcR" type="Marker2D" parent="Cap/Path2DR/PathFollow2DR"]
+unique_name_in_owner = true
+position = Vector2(7, -34)
+
+[node name="ArcGroupR" parent="Cap/Path2DR/PathFollow2DR/ArcR" instance=ExtResource("16")]
+unique_name_in_owner = true
+darkColorAlpha = 0.3
+forkSpawnArea = Vector2(0, 15)
+spawnInterval = 0.1
+baseCurvature = 0.3
+arcWildness = 5.0
+impactRadius = 3.0
+
+[node name="CapTween" parent="Cap" instance=ExtResource("24")]
+unique_name_in_owner = true
+
+[node name="Backside" type="Node2D" parent="."]
+unique_name_in_owner = true
+z_index = 1
+
+[node name="Dome04Front2" type="Sprite2D" parent="Backside"]
+visible = false
+texture_filter = 1
+position = Vector2(0, 36)
+
+[node name="ShaderTrafo" type="Sprite2D" parent="Backside"]
+unique_name_in_owner = true
+visible = false
+texture_filter = 1
+material = SubResource("113")
+position = Vector2(5, 13)
+
+[node name="TrafoAnim1" type="AnimatedSprite2D" parent="Backside"]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0)
+position = Vector2(0, 40)
+sprite_frames = ExtResource("26")
+centered = false
+
+[node name="TrafoAnim2" type="AnimatedSprite2D" parent="Backside"]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0)
+position = Vector2(15, 42)
+sprite_frames = ExtResource("26")
+centered = false
+
+[node name="TrafoParticle1" type="GPUParticles2D" parent="Backside"]
+unique_name_in_owner = true
+material = SubResource("110")
+position = Vector2(9, 47)
+emitting = false
+amount = 1
+process_material = SubResource("111")
+texture = ExtResource("27")
+lifetime = 0.32
+script = ExtResource("15")
+self_init = true
+styleColor = Color(0.376471, 1, 0, 1)
+
+[node name="TrafoParticle2" type="GPUParticles2D" parent="Backside"]
+unique_name_in_owner = true
+visible = false
+material = SubResource("110")
+position = Vector2(18, 45)
+amount = 1
+process_material = SubResource("111")
+texture = ExtResource("27")
+lifetime = 0.4
+script = ExtResource("15")
+self_init = true
+styleColor = Color(0.376471, 1, 0, 1)
+
+[node name="StationLight" type="Sprite2D" parent="Backside"]
+unique_name_in_owner = true
+z_index = 2
+texture_filter = 1
+position = Vector2(1, -15)
+texture = ExtResource("28")
+
+[node name="Reticle" parent="." instance=ExtResource("29")]
+visible = false
+z_index = 80
+position = Vector2(0, -86)
+
+[node name="FlipSound" parent="Reticle" instance=ExtResource("30")]
+volume_db = 5.487
+pitch_scale = 1.28
+bus = &"Sounds"
+randomVolume = 1.0
+streams = [ExtResource("31"), ExtResource("32")]
+
+[node name="FlipLeftSound" parent="Reticle" instance=ExtResource("30")]
+volume_db = -4.483
+pitch_scale = 1.28
+bus = &"Sounds"
+randomVolume = 1.0
+streams = [ExtResource("31")]
+
+[node name="FlipRightSound" parent="Reticle" instance=ExtResource("30")]
+volume_db = -4.023
+pitch_scale = 1.37
+bus = &"Sounds"
+randomVolume = 1.0
+streams = [ExtResource("32")]
+
+[node name="PerfectHitArc" parent="." instance=ExtResource("16")]
+unique_name_in_owner = true
+visible = false
+position = Vector2(28, -59)
+darkColorAlpha = 0.6
+forkSpawnArea = Vector2(0, 130)
+spawnInterval = 0.1
+arcIntensity = 0.2
+randomCurvature = 0.1
+arcWildness = 5.0
+impactRadius = 0.0
+
+[node name="ArcOrigin" type="Marker2D" parent="."]
+position = Vector2(0, -84)
+
+[node name="Tween" parent="." instance=ExtResource("24")]
+
+[node name="RingSounds" type="Node2D" parent="."]
+script = ExtResource("33")
+windupVolumeCurve = SubResource("149")
+windupPitchCurve = SubResource("151")
+ringVolumeCurve = SubResource("150")
+ringPitchCurve = SubResource("152")
+revVolDb = 0.0
+
+[node name="WindupLoop" type="AudioStreamPlayer" parent="RingSounds"]
+stream = ExtResource("34")
+volume_db = -40.571
+bus = &"Weapon"
+
+[node name="RingLoop" type="AudioStreamPlayer" parent="RingSounds"]
+stream = ExtResource("35")
+volume_db = -48.0
+bus = &"Weapon"
+
+[node name="Rev" type="AudioStreamPlayer" parent="RingSounds"]
+stream = ExtResource("36")
+volume_db = -3.496
+bus = &"Weapon"
+
+[node name="Rev2" type="AudioStreamPlayer" parent="RingSounds/Rev"]
+stream = ExtResource("37")
+bus = &"Weapon"
+
+[node name="perfectCount" type="AudioStreamPlayer" parent="RingSounds"]
+stream = ExtResource("38")
+volume_db = -9.471
+bus = &"Weapon"
+
+[node name="perfectCount2" type="AudioStreamPlayer" parent="RingSounds/perfectCount"]
+stream = ExtResource("39")
+volume_db = 1.462
+pitch_scale = 0.79
+bus = &"Weapon"
+
+[node name="SingleShotSounds" type="Node2D" parent="."]
+
+[node name="ReloadStaticSound" parent="SingleShotSounds" instance=ExtResource("30")]
+stream = ExtResource("40")
+volume_db = -4.429
+pitch_scale = 1.37
+bus = &"Sounds"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="ReloadStaticSound3" parent="SingleShotSounds" instance=ExtResource("30")]
+stream = ExtResource("40")
+volume_db = -4.429
+pitch_scale = 1.37
+bus = &"Sounds"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="ReloadStaticSound2" parent="SingleShotSounds" instance=ExtResource("30")]
+stream = ExtResource("41")
+volume_db = -0.496
+pitch_scale = 1.2
+bus = &"Sounds"
+randomVolume = 0.0
+randomPitch = 0.0
+fadeOutTime = 3.0
+
+[node name="ReloadStaticSoundOneShot" parent="SingleShotSounds" instance=ExtResource("30")]
+volume_db = -7.925
+pitch_scale = 1.32
+bus = &"Sounds"
+randomVolume = 0.0
+fadeOutTime = 1.0
+streams = [ExtResource("42"), ExtResource("31"), ExtResource("32")]
+
+[node name="RingStart1" parent="SingleShotSounds" instance=ExtResource("30")]
+stream = ExtResource("43")
+volume_db = -9.305
+pitch_scale = 1.32
+bus = &"Sounds"
+randomVolume = 0.0
+fadeOutTime = 1.0
+
+[node name="Gem1" parent="SingleShotSounds/RingStart1" instance=ExtResource("30")]
+stream = ExtResource("44")
+volume_db = -15.748
+pitch_scale = 1.32
+bus = &"Sounds"
+randomVolume = 0.0
+fadeOutTime = 1.0
+
+[node name="RingStart2" parent="SingleShotSounds" instance=ExtResource("30")]
+stream = ExtResource("45")
+volume_db = -1.807
+pitch_scale = 1.32
+bus = &"Sounds"
+randomVolume = 0.0
+fadeOutTime = 1.0
+
+[node name="Gem2" parent="SingleShotSounds/RingStart2" instance=ExtResource("30")]
+stream = ExtResource("44")
+volume_db = -6.177
+pitch_scale = 0.9
+bus = &"Sounds"
+randomVolume = 0.0
+fadeOutTime = 1.0
+
+[node name="RingStart3" parent="SingleShotSounds" instance=ExtResource("30")]
+stream = ExtResource("46")
+volume_db = -0.356
+pitch_scale = 1.16
+bus = &"Sounds"
+randomVolume = 0.0
+fadeOutTime = 1.0
+
+[node name="Gem3" parent="SingleShotSounds/RingStart3" instance=ExtResource("30")]
+stream = ExtResource("47")
+volume_db = -12.708
+pitch_scale = 1.48
+bus = &"Sounds"
+randomVolume = 0.0
+fadeOutTime = 1.0
+
+[node name="QuickReloadWindow" parent="SingleShotSounds" instance=ExtResource("30")]
+stream = ExtResource("48")
+volume_db = 0.765
+pitch_scale = 1.37
+bus = &"Sounds"
+randomVolume = 1.0
+
+[node name="Reloaded" parent="SingleShotSounds" instance=ExtResource("30")]
+stream = ExtResource("49")
+volume_db = -4.734
+pitch_scale = 1.62
+bus = &"Sounds"
+randomVolume = 1.0
+
+[node name="Reloaded2" parent="SingleShotSounds/Reloaded" instance=ExtResource("30")]
+volume_db = -1.254
+pitch_scale = 0.73
+bus = &"Sounds"
+randomVolume = 1.0
+streams = [ExtResource("50"), ExtResource("51"), ExtResource("52"), ExtResource("53"), ExtResource("54"), ExtResource("55"), ExtResource("56"), ExtResource("57")]
+
+[node name="Reloaded2" parent="SingleShotSounds" instance=ExtResource("30")]
+stream = ExtResource("58")
+volume_db = -2.0
+pitch_scale = 1.7
+bus = &"Sounds"
+randomVolume = 1.0
+
+[node name="Reloaded2" parent="SingleShotSounds/Reloaded2" instance=ExtResource("30")]
+stream = ExtResource("59")
+volume_db = -20.295
+pitch_scale = 1.77
+bus = &"Sounds"
+randomVolume = 1.0
+
+[node name="Reloaded3" parent="SingleShotSounds" instance=ExtResource("30")]
+stream = ExtResource("58")
+volume_db = 1.496
+pitch_scale = 1.7
+bus = &"Sounds"
+randomVolume = 1.0
+
+[node name="Reloaded2" parent="SingleShotSounds/Reloaded3" instance=ExtResource("30")]
+stream = ExtResource("59")
+volume_db = -10.682
+pitch_scale = 1.77
+bus = &"Sounds"
+randomVolume = 1.0
+
+[node name="QuickReloadSuccess1" parent="SingleShotSounds" instance=ExtResource("30")]
+stream = ExtResource("58")
+volume_db = 5.295
+pitch_scale = 1.39
+bus = &"Sounds"
+
+[node name="QuickReloadSuccess4" parent="SingleShotSounds/QuickReloadSuccess1" instance=ExtResource("30")]
+stream = ExtResource("60")
+volume_db = -12.065
+pitch_scale = 1.12
+bus = &"Sounds"
+
+[node name="QuickReloadSuccess2" parent="SingleShotSounds" instance=ExtResource("30")]
+stream = ExtResource("58")
+volume_db = 0.693
+pitch_scale = 1.09
+bus = &"Sounds"
+
+[node name="QuickReloadSuccess5" parent="SingleShotSounds/QuickReloadSuccess2" instance=ExtResource("30")]
+stream = ExtResource("60")
+volume_db = -7.818
+pitch_scale = 1.1
+bus = &"Sounds"
+
+[node name="QuickReloadSuccess3" parent="SingleShotSounds" instance=ExtResource("30")]
+stream = ExtResource("58")
+volume_db = 4.189
+pitch_scale = 0.93
+bus = &"Sounds"
+
+[node name="QuickReloadSuccess6" parent="SingleShotSounds/QuickReloadSuccess3" instance=ExtResource("30")]
+stream = ExtResource("60")
+volume_db = 2.0
+pitch_scale = 0.96
+bus = &"Sounds"
+
+[node name="NurtureHitSound" parent="SingleShotSounds" instance=ExtResource("30")]
+stream = ExtResource("60")
+volume_db = -0.869
+pitch_scale = 0.73
+
+[node name="NurtureHitSound2" parent="SingleShotSounds/NurtureHitSound" instance=ExtResource("30")]
+stream = ExtResource("39")
+volume_db = -5.504
+pitch_scale = 0.73
+
+[node name="UnusedSounds" type="Node2D" parent="."]
+
+[node name="LightningUpSound" parent="UnusedSounds" instance=ExtResource("30")]
+volume_db = 3.314
+bus = &"Sounds"
+randomVolume = 1.3
+randomPitch = 0.03
+streams = [ExtResource("61")]
+
+[node name="StartSound" parent="UnusedSounds" instance=ExtResource("30")]
+bus = &"Sounds"
+randomPitch = 0.03
+streams = [ExtResource("62")]
+
+[node name="StopSound" parent="UnusedSounds" instance=ExtResource("30")]
+bus = &"Sounds"
+streams = [ExtResource("63")]
+
+[node name="ReloadStartSound" parent="UnusedSounds" instance=ExtResource("30")]
+bus = &"Sounds"
+streams = [ExtResource("64")]
+
+[node name="ReloadStartSound2" parent="UnusedSounds/ReloadStartSound" instance=ExtResource("30")]
+bus = &"Sounds"
+streams = [ExtResource("65")]
+
+[node name="ReloadFinishSound" parent="UnusedSounds" instance=ExtResource("30")]
+volume_db = -8.351
+bus = &"Sounds"
+streams = [ExtResource("66")]
+
+[node name="ReadyLightning" parent="UnusedSounds" instance=ExtResource("30")]
+volume_db = -12.722
+pitch_scale = 2.27
+bus = &"Sounds"
+streams = [ExtResource("67")]
+
+[node name="ReadyLightning2" parent="UnusedSounds/ReadyLightning" instance=ExtResource("30")]
+volume_db = -12.285
+pitch_scale = 1.7
+bus = &"Sounds"
+streams = [ExtResource("64")]
+
+[node name="DetonateMarks" parent="UnusedSounds" instance=ExtResource("30")]
+bus = &"Sounds"
+streams = [ExtResource("68")]
+
+[node name="FullAutoSound" parent="UnusedSounds" instance=ExtResource("30")]
+volume_db = 8.283
+bus = &"Sounds"
+randomVolume = 0.4
+randomPitch = 0.06
+streams = [ExtResource("69")]
+loop = true
+
+[node name="AmmoRecharge" parent="UnusedSounds" instance=ExtResource("30")]
+volume_db = -14.586
+pitch_scale = 1.58
+bus = &"Sounds"
+randomVolume = 1.6
+randomPitch = 0.06
+streams = [ExtResource("70"), ExtResource("71"), ExtResource("72")]
+
+[node name="Overheat" parent="UnusedSounds" instance=ExtResource("30")]
+streams = [ExtResource("73")]
+loop = true
+
+[node name="ShotMarkMonster" parent="UnusedSounds" instance=ExtResource("30")]
+bus = &"Sounds"
+streams = [ExtResource("74")]
+
+[node name="LastShotSniper" parent="UnusedSounds" instance=ExtResource("30")]
+volume_db = -7.547
+pitch_scale = 0.37
+bus = &"Sounds"
+randomVolume = 0.5
+randomPitch = 0.03
+streams = [ExtResource("75")]
+
+[node name="ShotSniper" parent="UnusedSounds" instance=ExtResource("30")]
+bus = &"Sounds"
+streams = [ExtResource("70"), ExtResource("71"), ExtResource("72")]
+
+[node name="ShotNuke" parent="UnusedSounds" instance=ExtResource("30")]
+bus = &"Sounds"
+streams = [ExtResource("76")]
+
+[node name="ShotFullAuto" parent="UnusedSounds" instance=ExtResource("30")]
+pitch_scale = 1.16
+bus = &"Sounds"
+streams = [ExtResource("77")]
+
+[node name="ShotStarter" parent="UnusedSounds" instance=ExtResource("30")]
+bus = &"Sounds"
+streams = [ExtResource("78")]
+
+[node name="ShotDefault" parent="UnusedSounds" instance=ExtResource("30")]
+pitch_scale = 1.76
+bus = &"Sounds"
+streams = [ExtResource("79")]
+
+[node name="ShotDefault2" parent="UnusedSounds/ShotDefault" instance=ExtResource("30")]
+volume_db = 3.221
+bus = &"Sounds"
+randomPitch = 0.0
+streams = [ExtResource("80"), ExtResource("81"), ExtResource("82"), ExtResource("83")]
+
+[node name="AmmoLowShot" parent="UnusedSounds" instance=ExtResource("30")]
+stream = ExtResource("72")
+pitch_scale = 1.89
+bus = &"Sounds"
+
+[node name="LastShot" parent="UnusedSounds" instance=ExtResource("30")]
+stream = ExtResource("72")
+volume_db = 8.701
+bus = &"Sounds"
+
+[connection signal="timeout" from="Ring/Crystal/StartDelay" to="Ring" method="_on_StartDelay_timeout"]

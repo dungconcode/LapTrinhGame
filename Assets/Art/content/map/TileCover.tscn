@@ -1,0 +1,186 @@
+[gd_scene load_steps=8 format=3 uid="uid://tpg22jokikqp"]
+
+[ext_resource type="Texture2D" uid="uid://b6t0texqhutv0" path="res://content/map/border/tunnel.png" id="1"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3qlkk"]
+texture = ExtResource("1")
+texture_region_size = Vector2i(40, 40)
+0:0/next_alternative_id = 8
+0:0/0 = 0
+0:0/0/script = null
+0:0/1 = 1
+0:0/1/flip_h = true
+0:0/1/script = null
+0:0/2 = 2
+0:0/2/flip_v = true
+0:0/2/script = null
+0:0/3 = 3
+0:0/3/flip_h = true
+0:0/3/flip_v = true
+0:0/3/script = null
+0:0/4 = 4
+0:0/4/transpose = true
+0:0/4/script = null
+0:0/5 = 5
+0:0/5/flip_h = true
+0:0/5/transpose = true
+0:0/5/script = null
+0:0/6 = 6
+0:0/6/flip_v = true
+0:0/6/transpose = true
+0:0/6/script = null
+0:0/7 = 7
+0:0/7/flip_h = true
+0:0/7/flip_v = true
+0:0/7/transpose = true
+0:0/7/script = null
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gxcq1"]
+texture = ExtResource("1")
+margins = Vector2i(40, 0)
+texture_region_size = Vector2i(40, 40)
+0:0/next_alternative_id = 8
+0:0/0 = 0
+0:0/0/script = null
+0:0/1 = 1
+0:0/1/flip_h = true
+0:0/1/script = null
+0:0/2 = 2
+0:0/2/flip_v = true
+0:0/2/script = null
+0:0/3 = 3
+0:0/3/flip_h = true
+0:0/3/flip_v = true
+0:0/3/script = null
+0:0/4 = 4
+0:0/4/transpose = true
+0:0/4/script = null
+0:0/5 = 5
+0:0/5/flip_h = true
+0:0/5/transpose = true
+0:0/5/script = null
+0:0/6 = 6
+0:0/6/flip_v = true
+0:0/6/transpose = true
+0:0/6/script = null
+0:0/7 = 7
+0:0/7/flip_h = true
+0:0/7/flip_v = true
+0:0/7/transpose = true
+0:0/7/script = null
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v2qli"]
+texture = ExtResource("1")
+margins = Vector2i(80, 0)
+texture_region_size = Vector2i(40, 40)
+0:0/next_alternative_id = 8
+0:0/0 = 0
+0:0/0/script = null
+0:0/1 = 1
+0:0/1/flip_h = true
+0:0/1/script = null
+0:0/2 = 2
+0:0/2/flip_v = true
+0:0/2/script = null
+0:0/3 = 3
+0:0/3/flip_h = true
+0:0/3/flip_v = true
+0:0/3/script = null
+0:0/4 = 4
+0:0/4/transpose = true
+0:0/4/script = null
+0:0/5 = 5
+0:0/5/flip_h = true
+0:0/5/transpose = true
+0:0/5/script = null
+0:0/6 = 6
+0:0/6/flip_v = true
+0:0/6/transpose = true
+0:0/6/script = null
+0:0/7 = 7
+0:0/7/flip_h = true
+0:0/7/flip_v = true
+0:0/7/transpose = true
+0:0/7/script = null
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_relcu"]
+texture = ExtResource("1")
+margins = Vector2i(120, 0)
+texture_region_size = Vector2i(40, 40)
+0:0/next_alternative_id = 8
+0:0/0 = 0
+0:0/0/script = null
+0:0/1 = 1
+0:0/1/flip_h = true
+0:0/1/script = null
+0:0/2 = 2
+0:0/2/flip_v = true
+0:0/2/script = null
+0:0/3 = 3
+0:0/3/flip_h = true
+0:0/3/flip_v = true
+0:0/3/script = null
+0:0/4 = 4
+0:0/4/transpose = true
+0:0/4/script = null
+0:0/5 = 5
+0:0/5/flip_h = true
+0:0/5/transpose = true
+0:0/5/script = null
+0:0/6 = 6
+0:0/6/flip_v = true
+0:0/6/transpose = true
+0:0/6/script = null
+0:0/7 = 7
+0:0/7/flip_h = true
+0:0/7/flip_v = true
+0:0/7/transpose = true
+0:0/7/script = null
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bee0c"]
+texture = ExtResource("1")
+margins = Vector2i(160, 0)
+texture_region_size = Vector2i(40, 40)
+0:0/next_alternative_id = 8
+0:0/0 = 0
+0:0/0/script = null
+0:0/1 = 1
+0:0/1/flip_h = true
+0:0/1/script = null
+0:0/2 = 2
+0:0/2/flip_v = true
+0:0/2/script = null
+0:0/3 = 3
+0:0/3/flip_h = true
+0:0/3/flip_v = true
+0:0/3/script = null
+0:0/4 = 4
+0:0/4/transpose = true
+0:0/4/script = null
+0:0/5 = 5
+0:0/5/flip_h = true
+0:0/5/transpose = true
+0:0/5/script = null
+0:0/6 = 6
+0:0/6/flip_v = true
+0:0/6/transpose = true
+0:0/6/script = null
+0:0/7 = 7
+0:0/7/flip_h = true
+0:0/7/flip_v = true
+0:0/7/transpose = true
+0:0/7/script = null
+
+[sub_resource type="TileSet" id="1"]
+tile_size = Vector2i(40, 40)
+sources/0 = SubResource("TileSetAtlasSource_3qlkk")
+sources/1 = SubResource("TileSetAtlasSource_gxcq1")
+sources/2 = SubResource("TileSetAtlasSource_v2qli")
+sources/3 = SubResource("TileSetAtlasSource_relcu")
+sources/4 = SubResource("TileSetAtlasSource_bee0c")
+
+[node name="TileCover" type="TileMap"]
+modulate = Color(1, 1, 1, 0)
+light_mask = 9
+tile_set = SubResource("1")
+format = 2

@@ -1,0 +1,391 @@
+[gd_scene load_steps=58 format=3 uid="uid://8t0ujfvc42ni"]
+
+[ext_resource type="Script" path="res://content/monster/flyer/Flyer.gd" id="1"]
+[ext_resource type="Material" uid="uid://day50apjw6md" path="res://content/monster/FlashMaterial.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://wgu2n7ucxkt6" path="res://content/monster/flyer/sheet.png" id="3"]
+[ext_resource type="AudioStream" uid="uid://di7nohxy4e86a" path="res://content/sounds/monster/flyer/FlyerShot_v2.wav" id="4"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="5"]
+[ext_resource type="AudioStream" uid="uid://1p4fbr4r52ug" path="res://content/sounds/monster/flyer/FlyerDie_v2.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://bdnsf7tdrfxoc" path="res://content/sounds/monster/flyer/Retro Bat 01.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://dlssc5rp5t2i5" path="res://content/sounds/monster/flyer/FlyerVanish_v2.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://ciit7pju08psp" path="res://content/sounds/monster/flyer/FlyerAPPEAR_v2.wav" id="9"]
+[ext_resource type="Script" path="res://systems/audio/Sound.gd" id="10"]
+[ext_resource type="AudioStream" uid="uid://d4jxkpdrx8r0m" path="res://content/sounds/monster/flyer/rev.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://ch7royt2ri21u" path="res://content/sounds/monster/tick/tick_jump.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://chpjt3p7xay7o" path="res://content/sounds/monster/tick/Tick_Jump_01.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://cgx4q8j40wfo2" path="res://content/sounds/monster/tick/Tick_Jump_02.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://cjuwi7ic6cqgk" path="res://content/sounds/monster/tick/Tick_Jump_03.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://dhavai4rp5l08" path="res://content/sounds/monster/tick/Tick_Jump_04.wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://bhhdiylg238tq" path="res://content/sounds/monster/tick/Tick_Jump_05.wav" id="17"]
+[ext_resource type="AudioStream" uid="uid://twn7q75geac4" path="res://content/sounds/monster/snd_hard_01.wav" id="18"]
+
+[sub_resource type="CircleShape2D" id="1"]
+radius = 12.0416
+
+[sub_resource type="CircleShape2D" id="48"]
+radius = 15.0
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("3")
+region = Rect2(0, 450, 66, 90)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("3")
+region = Rect2(66, 450, 66, 90)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("3")
+region = Rect2(132, 450, 66, 90)
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource("3")
+region = Rect2(198, 450, 66, 90)
+
+[sub_resource type="AtlasTexture" id="10"]
+atlas = ExtResource("3")
+region = Rect2(264, 450, 66, 90)
+
+[sub_resource type="AtlasTexture" id="11"]
+atlas = ExtResource("3")
+region = Rect2(330, 450, 66, 90)
+
+[sub_resource type="AtlasTexture" id="12"]
+atlas = ExtResource("3")
+region = Rect2(396, 450, 66, 90)
+
+[sub_resource type="AtlasTexture" id="49"]
+atlas = ExtResource("3")
+region = Rect2(462, 450, 66, 90)
+
+[sub_resource type="AtlasTexture" id="13"]
+atlas = ExtResource("3")
+region = Rect2(0, 270, 66, 90)
+
+[sub_resource type="AtlasTexture" id="14"]
+atlas = ExtResource("3")
+region = Rect2(66, 270, 66, 90)
+
+[sub_resource type="AtlasTexture" id="15"]
+atlas = ExtResource("3")
+region = Rect2(132, 270, 66, 90)
+
+[sub_resource type="AtlasTexture" id="16"]
+atlas = ExtResource("3")
+region = Rect2(198, 270, 66, 90)
+
+[sub_resource type="AtlasTexture" id="17"]
+atlas = ExtResource("3")
+region = Rect2(264, 270, 66, 90)
+
+[sub_resource type="AtlasTexture" id="28"]
+atlas = ExtResource("3")
+region = Rect2(198, 180, 66, 90)
+
+[sub_resource type="AtlasTexture" id="29"]
+atlas = ExtResource("3")
+region = Rect2(264, 180, 66, 90)
+
+[sub_resource type="AtlasTexture" id="30"]
+atlas = ExtResource("3")
+region = Rect2(132, 180, 66, 90)
+
+[sub_resource type="AtlasTexture" id="31"]
+atlas = ExtResource("3")
+region = Rect2(66, 180, 66, 90)
+
+[sub_resource type="AtlasTexture" id="32"]
+atlas = ExtResource("3")
+region = Rect2(0, 180, 66, 90)
+
+[sub_resource type="AtlasTexture" id="50"]
+atlas = ExtResource("3")
+region = Rect2(594, 90, 66, 90)
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("3")
+region = Rect2(0, 360, 66, 90)
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("3")
+region = Rect2(66, 360, 66, 90)
+
+[sub_resource type="AtlasTexture" id="38"]
+atlas = ExtResource("3")
+region = Rect2(0, 0, 66, 90)
+
+[sub_resource type="AtlasTexture" id="39"]
+atlas = ExtResource("3")
+region = Rect2(66, 0, 66, 90)
+
+[sub_resource type="AtlasTexture" id="40"]
+atlas = ExtResource("3")
+region = Rect2(132, 0, 66, 90)
+
+[sub_resource type="AtlasTexture" id="41"]
+atlas = ExtResource("3")
+region = Rect2(198, 0, 66, 90)
+
+[sub_resource type="AtlasTexture" id="42"]
+atlas = ExtResource("3")
+region = Rect2(264, 0, 66, 90)
+
+[sub_resource type="AtlasTexture" id="43"]
+atlas = ExtResource("3")
+region = Rect2(330, 0, 66, 90)
+
+[sub_resource type="AtlasTexture" id="44"]
+atlas = ExtResource("3")
+region = Rect2(396, 0, 66, 90)
+
+[sub_resource type="AtlasTexture" id="45"]
+atlas = ExtResource("3")
+region = Rect2(462, 0, 66, 90)
+
+[sub_resource type="AtlasTexture" id="46"]
+atlas = ExtResource("3")
+region = Rect2(528, 0, 66, 90)
+
+[sub_resource type="AtlasTexture" id="47"]
+atlas = ExtResource("3")
+region = Rect2(594, 0, 66, 90)
+
+[sub_resource type="AtlasTexture" id="33"]
+atlas = ExtResource("3")
+region = Rect2(0, 180, 66, 90)
+
+[sub_resource type="AtlasTexture" id="34"]
+atlas = ExtResource("3")
+region = Rect2(66, 180, 66, 90)
+
+[sub_resource type="AtlasTexture" id="35"]
+atlas = ExtResource("3")
+region = Rect2(132, 180, 66, 90)
+
+[sub_resource type="AtlasTexture" id="36"]
+atlas = ExtResource("3")
+region = Rect2(198, 180, 66, 90)
+
+[sub_resource type="AtlasTexture" id="37"]
+atlas = ExtResource("3")
+region = Rect2(264, 180, 66, 90)
+
+[sub_resource type="SpriteFrames" id="2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}, {
+"duration": 1.0,
+"texture": SubResource("9")
+}, {
+"duration": 1.0,
+"texture": SubResource("10")
+}, {
+"duration": 1.0,
+"texture": SubResource("11")
+}, {
+"duration": 1.0,
+"texture": SubResource("12")
+}, {
+"duration": 1.0,
+"texture": SubResource("49")
+}],
+"loop": false,
+"name": &"die",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("13")
+}, {
+"duration": 1.0,
+"texture": SubResource("14")
+}, {
+"duration": 1.0,
+"texture": SubResource("15")
+}, {
+"duration": 1.0,
+"texture": SubResource("16")
+}, {
+"duration": 1.0,
+"texture": SubResource("17")
+}],
+"loop": true,
+"name": &"fly",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("28")
+}, {
+"duration": 1.0,
+"texture": SubResource("29")
+}, {
+"duration": 1.0,
+"texture": SubResource("30")
+}, {
+"duration": 1.0,
+"texture": SubResource("31")
+}, {
+"duration": 1.0,
+"texture": SubResource("32")
+}, {
+"duration": 1.0,
+"texture": SubResource("50")
+}],
+"loop": false,
+"name": &"grow",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("3")
+}, {
+"duration": 1.0,
+"texture": SubResource("4")
+}, {
+"duration": 1.0,
+"texture": SubResource("4")
+}],
+"loop": true,
+"name": &"hit",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("38")
+}, {
+"duration": 1.0,
+"texture": SubResource("39")
+}, {
+"duration": 1.0,
+"texture": SubResource("40")
+}, {
+"duration": 1.0,
+"texture": SubResource("41")
+}, {
+"duration": 1.0,
+"texture": SubResource("42")
+}, {
+"duration": 1.0,
+"texture": SubResource("43")
+}, {
+"duration": 1.0,
+"texture": SubResource("44")
+}, {
+"duration": 1.0,
+"texture": SubResource("45")
+}, {
+"duration": 1.0,
+"texture": SubResource("46")
+}, {
+"duration": 1.0,
+"texture": SubResource("47")
+}],
+"loop": false,
+"name": &"shoot",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("33")
+}, {
+"duration": 1.0,
+"texture": SubResource("34")
+}, {
+"duration": 1.0,
+"texture": SubResource("35")
+}, {
+"duration": 1.0,
+"texture": SubResource("36")
+}, {
+"duration": 1.0,
+"texture": SubResource("37")
+}],
+"loop": false,
+"name": &"shrink",
+"speed": 10.0
+}]
+
+[node name="Flyer" type="Area2D" groups=["monster"]]
+texture_filter = 1
+collision_layer = 128
+collision_mask = 0
+script = ExtResource("1")
+techId = "flyer"
+autoAimShouldLeadShot = true
+
+[node name="HitboxDefault1" type="CollisionShape2D" parent="."]
+position = Vector2(-13, -11)
+shape = SubResource("1")
+
+[node name="HitboxDefault2" type="CollisionShape2D" parent="."]
+position = Vector2(-2, -20)
+shape = SubResource("48")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+material = ExtResource("2")
+position = Vector2(0, -15)
+sprite_frames = SubResource("2")
+animation = &"die"
+
+[node name="ShootSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4")
+bus = &"World"
+
+[node name="DieSound" parent="." instance=ExtResource("5")]
+stream = ExtResource("6")
+volume_db = -9.807
+bus = &"World"
+randomVolume = 1.0
+randomPitch = 0.2
+
+[node name="DieSound2" parent="DieSound" instance=ExtResource("5")]
+stream = ExtResource("7")
+volume_db = -5.0
+bus = &"World"
+randomVolume = 1.0
+randomPitch = 0.2
+
+[node name="ShrinkSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8")
+bus = &"World"
+
+[node name="AppearSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9")
+volume_db = -2.185
+pitch_scale = 1.52
+bus = &"World"
+script = ExtResource("10")
+
+[node name="AppearSound2" type="AudioStreamPlayer" parent="AppearSound"]
+volume_db = -12.236
+bus = &"World"
+script = ExtResource("10")
+streams = [ExtResource("11")]
+
+[node name="StunSound" parent="." instance=ExtResource("5")]
+stream = ExtResource("12")
+volume_db = -0.227
+pitch_scale = 1.53
+bus = &"World"
+randomPitch = 0.18
+streams = [ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16"), ExtResource("17")]
+
+[node name="IsHitSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("18")
+volume_db = -9.745
+bus = &"World"
+
+[node name="ProjectilePosition" type="Marker2D" parent="."]
+position = Vector2(20, 15)
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_Sprite_animation_finished"]
+[connection signal="animation_looped" from="Sprite2D" to="." method="_on_sprite_2d_animation_looped"]
+[connection signal="frame_changed" from="Sprite2D" to="." method="_on_Sprite_frame_changed"]

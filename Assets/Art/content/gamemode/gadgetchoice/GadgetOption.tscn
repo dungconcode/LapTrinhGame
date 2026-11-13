@@ -1,0 +1,59 @@
+[gd_scene load_steps=7 format=3 uid="uid://uh46vot5cbj7"]
+
+[ext_resource type="Texture2D" uid="uid://doq6s3nxpc3xa" path="res://content/techtree/panels/big_dark.png" id="1"]
+[ext_resource type="Script" path="res://content/gamemode/gadgetchoice/GadgetOption.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://dmf2mk272gh7w" path="res://content/icons/stationextension.png" id="3"]
+[ext_resource type="Shader" path="res://content/techtree/highlight.gdshader" id="4"]
+[ext_resource type="Texture2D" uid="uid://chj7tsjhq4tj0" path="res://content/techtree/panels/big_focus.png" id="5"]
+
+[sub_resource type="ShaderMaterial" id="1"]
+shader = ExtResource("4")
+shader_parameter/palette = null
+
+[node name="GadgetOption" type="TextureRect"]
+texture_filter = 1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1784.0
+offset_bottom = -942.0
+focus_mode = 2
+mouse_filter = 0
+texture = ExtResource("1")
+stretch_mode = 2
+script = ExtResource("2")
+
+[node name="GadgetIcon" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(108, 108)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -54.0
+offset_top = -54.0
+offset_right = 54.0
+offset_bottom = 54.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="SelectedPanel" type="TextureRect" parent="."]
+texture_filter = 1
+material = SubResource("1")
+layout_mode = 0
+offset_right = 136.0
+offset_bottom = 138.0
+mouse_filter = 2
+texture = ExtResource("5")
+stretch_mode = 2
+
+[connection signal="focus_entered" from="." to="." method="_on_GadgetOption_focus_entered"]
+[connection signal="focus_exited" from="." to="." method="_on_GadgetOption_focus_exited"]
+[connection signal="gui_input" from="." to="." method="_on_GadgetOption_gui_input"]
+[connection signal="mouse_entered" from="." to="." method="_on_GadgetOption_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_GadgetOption_mouse_exited"]

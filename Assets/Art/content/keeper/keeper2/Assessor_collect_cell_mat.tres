@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://byhls1letb824"]
+
+[ext_resource type="Shader" path="res://content/keeper/keeper2/Assessor_collect_cell.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://b0ugrjn5mffwj" path="res://content/keeper/keeper2/assessor_collect_cell_mat_noise.png" id="2"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/noise_power = 1.0
+shader_parameter/noise_speed = 3.0
+shader_parameter/world_pos = null
+shader_parameter/noise_map = ExtResource("2")

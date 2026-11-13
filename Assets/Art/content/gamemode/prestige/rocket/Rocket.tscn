@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://h3arbw5pgnnc"]
+
+[ext_resource type="Script" path="res://content/gamemode/prestige/rocket/Rocket.gd" id="1"]
+[ext_resource type="SpriteFrames" uid="uid://cm3813qd37whn" path="res://content/gamemode/prestige/rocket/rocket_animations.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://cwjn5qtm7acth" path="res://content/gamemode/prestige/mini_water.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://cal1wf2f0kx7b" path="res://systems/deprecatedtween/DeprecatedTween.tscn" id="4"]
+
+[node name="Rocket" type="Node2D" groups=["pauseL"]]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-3, 3)
+sprite_frames = ExtResource("2")
+animation = &"rocket"
+
+[node name="Cargo" type="Sprite2D" parent="Sprite2D"]
+visible = false
+texture_filter = 1
+position = Vector2(2, -11)
+texture = ExtResource("3")
+
+[node name="Tween" parent="." instance=ExtResource("4")]

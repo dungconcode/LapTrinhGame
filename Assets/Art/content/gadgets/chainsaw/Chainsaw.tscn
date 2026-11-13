@@ -1,0 +1,144 @@
+[gd_scene load_steps=15 format=3 uid="uid://c22lnkm1l7imv"]
+
+[ext_resource type="Script" path="res://content/gadgets/chainsaw/Chainsaw.gd" id="1"]
+[ext_resource type="SpriteFrames" uid="uid://sgpbas0c4pub" path="res://content/gadgets/chainsaw/Chainsaw_spriteframes.tres" id="2"]
+[ext_resource type="AudioStream" uid="uid://y8jesto1t3u7" path="res://content/sounds/Locations/Chainsaw/Saw_rotateLoop.wav" id="3"]
+[ext_resource type="PackedScene" uid="uid://fl5e4x7lb4px" path="res://systems/audio/Sound.tscn" id="4"]
+[ext_resource type="AudioStream" uid="uid://c8kg3gp67r2qb" path="res://content/sounds/Locations/Chainsaw/saw.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://2m7f661qhvym" path="res://content/sounds/Bastards/Strenght_21.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://b7q8qcs6xfhdx" path="res://content/sounds/Locations/Chainsaw/saw start.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://ckaf7gb3fyjci" path="res://content/sounds/Bastards/change.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://cg5y23vbac2to" path="res://content/sounds/Locations/Chainsaw/SawStop.wav" id="9"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gald8"]
+radius = 15.0
+
+[sub_resource type="Curve" id="Curve_cmv8r"]
+_data = [Vector2(1e-05, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_0b6ue"]
+curve = SubResource("Curve_cmv8r")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_gxwdo"]
+particle_flag_disable_z = true
+spread = 6.0
+initial_velocity_min = 50.0
+initial_velocity_max = 100.0
+gravity = Vector3(0, 100, 0)
+scale_max = 2.0
+color = Color(0, 0, 0, 1)
+alpha_curve = SubResource("CurveTexture_0b6ue")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jwnga"]
+size = Vector2(13, 24)
+
+[node name="Chainsaw" type="Node2D" groups=["lostL", "saveable", "secondary-weapon"]]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+z_index = -62
+position = Vector2(0, -2)
+sprite_frames = ExtResource("2")
+animation = &"run_3"
+
+[node name="MonsterHitbox" type="Area2D" parent="Sprite2D"]
+unique_name_in_owner = true
+position = Vector2(0, -14)
+collision_layer = 0
+collision_mask = 128
+
+[node name="MonsterHitboxCollisionShape2D" type="CollisionShape2D" parent="Sprite2D/MonsterHitbox"]
+unique_name_in_owner = true
+position = Vector2(0, 14)
+shape = SubResource("CircleShape2D_gald8")
+
+[node name="Polygon2D" type="ColorRect" parent="Sprite2D"]
+z_index = -1
+custom_minimum_size = Vector2(5, 20)
+offset_left = -3.0
+offset_top = 2.0
+offset_right = 2.0
+offset_bottom = 27.0
+color = Color(0.25098, 0.521569, 0.392157, 1)
+
+[node name="CutParticles" type="GPUParticles2D" parent="Sprite2D"]
+unique_name_in_owner = true
+position = Vector2(0, -9)
+amount = 40
+process_material = SubResource("ParticleProcessMaterial_gxwdo")
+lifetime = 1.5
+
+[node name="edge_2" type="Marker2D" parent="Sprite2D"]
+unique_name_in_owner = true
+position = Vector2(0, -13)
+gizmo_extents = 0.0
+
+[node name="edge_1" type="Marker2D" parent="Sprite2D"]
+unique_name_in_owner = true
+position = Vector2(0, -9)
+gizmo_extents = 0.0
+
+[node name="edge_4" type="Marker2D" parent="Sprite2D"]
+unique_name_in_owner = true
+position = Vector2(0, -18)
+gizmo_extents = 0.0
+
+[node name="edge_3" type="Marker2D" parent="Sprite2D"]
+unique_name_in_owner = true
+position = Vector2(0, -15)
+gizmo_extents = 0.0
+
+[node name="DistantMonsterChecker" type="Area2D" parent="."]
+position = Vector2(0, -31)
+collision_layer = 0
+collision_mask = 128
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DistantMonsterChecker"]
+position = Vector2(0, 12)
+shape = SubResource("RectangleShape2D_jwnga")
+
+[node name="MoveSound" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(1, 0)
+stream = ExtResource("3")
+max_distance = 200.0
+bus = &"World"
+
+[node name="FireSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("5")
+volume_db = -11.933
+pitch_scale = 1.25
+bus = &"World"
+randomVolume = 0.0
+randomPitch = 0.2
+loop = true
+
+[node name="FireSound2" parent="FireSound" instance=ExtResource("4")]
+stream = ExtResource("6")
+volume_db = -5.0
+pitch_scale = 1.3
+bus = &"World"
+randomVolume = 0.0
+randomPitch = 0.0
+
+[node name="ActivateSound" parent="." instance=ExtResource("4")]
+volume_db = -2.185
+pitch_scale = 1.47
+bus = &"World"
+streams = [ExtResource("7")]
+
+[node name="ChangeDirectionSound" parent="." instance=ExtResource("4")]
+stream = ExtResource("8")
+volume_db = -2.185
+pitch_scale = 1.47
+bus = &"World"
+
+[node name="StopSound" parent="." instance=ExtResource("4")]
+volume_db = -2.185
+pitch_scale = 1.35
+bus = &"World"
+streams = [ExtResource("9")]
+
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_sprite_2d_animation_finished"]
