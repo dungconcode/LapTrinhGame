@@ -135,6 +135,10 @@ namespace Underlab.EditorTools.Mining
             Set(upgrades, "drill", drill);
             Set(upgrades, "carrier", carrier);
 
+            var lift = systems.AddComponent<LiftSystem>();
+            Set(lift, "player", pc);
+            Set(lift, "carrier", carrier);
+
             var alert = systems.AddComponent<WaveAlert>();
             Set(alert, "player", pc);
             Set(alert, "cameraFollow", follow);
