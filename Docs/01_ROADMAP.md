@@ -20,11 +20,11 @@
 
 - [ ] **R01** Dựng lại `Game.unity` có vứt quặng (Q/G) — `Underlab/Defense/Build Integrated Game`
 - [ ] **R02** Playtest trọn 1 run, ghi lỗi/cảm giác → sửa
-- [ ] **R03** Cân bằng: giá upgrade, 10 wave, thời gian đào; mục tiêu run 15–20 phút (`Data/Defense`, `Data/Mining`)
-- [ ] **R04** Icon + UI SVG (Claude) — thay khối màu
+- [x] **R03** Cân bằng (theo mô hình, chờ playtest) — xem [07_BALANCE.md](07_BALANCE.md)
+- [x] **R04** Icon + UI SVG (Claude) — thay khối màu
 - [ ] **R05** Đưa asset ChatGPT vào game theo đợt (P0 → P1 → P2)
-- [ ] **R06** A15 âm thanh + juice phần đào; sửa cảnh báo font `LegacyRuntime` ở HUD TMP
-- [ ] **R07** Main menu / màn thắng-thua dùng art thật
+- [x] **R06** A15 âm thanh + juice phần đào; sửa cảnh báo font `LegacyRuntime` ở HUD TMP
+- [x] **R07** Main menu / màn thắng-thua dùng art thật
 - [ ] **R08** Build Windows, chơi trên máy khác, quay video demo (hạn 11/12)
 - [ ] **R09** (Could) A14 Teleporter
 

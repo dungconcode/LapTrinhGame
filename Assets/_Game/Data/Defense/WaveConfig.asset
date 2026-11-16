@@ -16,83 +16,83 @@ MonoBehaviour:
   spawnDistance: 16
   flyingHeight: 5
   waves:
-  - miningSeconds: 90
-    spawnDelay: 1.5
-    melee: 5
+  - miningSeconds: 60
+    spawnDelay: 2.0
+    melee: 4
     flying: 0
     ranged: 0
     bosses: 0
-    healthScale: 1
-    speedScale: 1
-  - miningSeconds: 90
-    spawnDelay: 1.5
-    melee: 5
+    healthScale: 1.0
+    speedScale: 1.0
+  - miningSeconds: 65
+    spawnDelay: 1.8
+    melee: 6
     flying: 0
     ranged: 0
     bosses: 0
-    healthScale: 1
-    speedScale: 1
-  - miningSeconds: 90
-    spawnDelay: 1.5
-    melee: 5
-    flying: 0
+    healthScale: 1.1
+    speedScale: 1.0
+  - miningSeconds: 70
+    spawnDelay: 1.6
+    melee: 6
+    flying: 2
     ranged: 0
     bosses: 0
-    healthScale: 1
-    speedScale: 1
-  - miningSeconds: 90
+    healthScale: 1.2
+    speedScale: 1.05
+  - miningSeconds: 70
     spawnDelay: 1.5
-    melee: 5
-    flying: 0
-    ranged: 0
+    melee: 7
+    flying: 3
+    ranged: 1
     bosses: 0
-    healthScale: 1
-    speedScale: 1
+    healthScale: 1.35
+    speedScale: 1.05
+  - miningSeconds: 75
+    spawnDelay: 1.4
+    melee: 8
+    flying: 3
+    ranged: 2
+    bosses: 0
+    healthScale: 1.5
+    speedScale: 1.1
+  - miningSeconds: 75
+    spawnDelay: 1.3
+    melee: 9
+    flying: 4
+    ranged: 3
+    bosses: 0
+    healthScale: 1.7
+    speedScale: 1.1
+  - miningSeconds: 80
+    spawnDelay: 1.2
+    melee: 10
+    flying: 5
+    ranged: 3
+    bosses: 0
+    healthScale: 1.9
+    speedScale: 1.15
+  - miningSeconds: 80
+    spawnDelay: 1.1
+    melee: 12
+    flying: 6
+    ranged: 4
+    bosses: 0
+    healthScale: 2.1
+    speedScale: 1.15
+  - miningSeconds: 85
+    spawnDelay: 1.0
+    melee: 14
+    flying: 7
+    ranged: 5
+    bosses: 0
+    healthScale: 2.4
+    speedScale: 1.2
   - miningSeconds: 90
-    spawnDelay: 1.5
-    melee: 5
-    flying: 0
-    ranged: 0
-    bosses: 0
-    healthScale: 1
-    speedScale: 1
-  - miningSeconds: 90
-    spawnDelay: 1.5
-    melee: 5
-    flying: 0
-    ranged: 0
-    bosses: 0
-    healthScale: 1
-    speedScale: 1
-  - miningSeconds: 90
-    spawnDelay: 1.5
-    melee: 5
-    flying: 0
-    ranged: 0
-    bosses: 0
-    healthScale: 1
-    speedScale: 1
-  - miningSeconds: 90
-    spawnDelay: 1.5
-    melee: 5
-    flying: 0
-    ranged: 0
-    bosses: 0
-    healthScale: 1
-    speedScale: 1
-  - miningSeconds: 90
-    spawnDelay: 1.5
-    melee: 5
-    flying: 0
-    ranged: 0
-    bosses: 0
-    healthScale: 1
-    speedScale: 1
-  - miningSeconds: 90
-    spawnDelay: 1.5
-    melee: 5
-    flying: 0
-    ranged: 0
-    bosses: 0
-    healthScale: 1
-    speedScale: 1
+    spawnDelay: 1.4
+    melee: 6
+    flying: 4
+    ranged: 3
+    bosses: 1
+    healthScale: 1.7
+    speedScale: 1.2
