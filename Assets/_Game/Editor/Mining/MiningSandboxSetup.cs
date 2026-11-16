@@ -129,6 +129,7 @@ namespace Underlab.EditorTools.Mining
             systems.AddComponent<DebugWaveClock>();
             var miningHud = systems.AddComponent<Underlab.UI.MiningHud>();
             Set(miningHud, "carrier", carrier);
+            Set(miningHud, "dropper", player.AddComponent<OreDropper>());
             var upgrades = systems.AddComponent<MiningUpgrades>();
             Set(upgrades, "config", GetOrCreate<MiningUpgradeConfig>(DataFolder + "/MiningUpgradeConfig.asset"));
             Set(upgrades, "player", pc);

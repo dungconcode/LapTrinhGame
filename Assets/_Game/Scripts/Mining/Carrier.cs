@@ -70,6 +70,18 @@ namespace Underlab.Mining
             return taken;
         }
 
+        /// <summary>Bỏ bớt quặng khỏi túi. Trả về số thực sự bỏ được.</summary>
+        public int Remove(ResourceType t, int amount)
+        {
+            int have = Get(t);
+            int n = Mathf.Min(have, amount);
+            if (n <= 0) return 0;
+            if (have - n == 0) items.Remove(t);
+            else items[t] = have - n;
+            Refresh();
+            return n;
+        }
+
         /// <summary>Lấy hết quặng ra (dùng khi gửi vào kho ở base).</summary>
         public Dictionary<ResourceType, int> TakeAll()
         {

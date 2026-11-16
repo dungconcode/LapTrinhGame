@@ -15,6 +15,7 @@ namespace Underlab.UI
     public class MiningHud : MonoBehaviour
     {
         [SerializeField] private Carrier carrier;
+        [SerializeField] private OreDropper dropper;
         [SerializeField] private Color loadLow = new Color(0.35f, 0.9f, 0.5f);
         [SerializeField] private Color loadMid = new Color(1f, 0.75f, 0.25f);
         [SerializeField] private Color loadHigh = new Color(1f, 0.3f, 0.25f);
@@ -23,6 +24,7 @@ namespace Underlab.UI
         private Image loadFill, timerFill;
         private Text loadText, timerText, waveText, depthText;
         private readonly Text[] oreTexts = new Text[4];
+        private readonly Image[] oreIcons = new Image[4];
         private float countdownMax = 60f;
         private bool warning;
         private int waveIndex = 1, nextWave = 1;
@@ -43,6 +45,7 @@ namespace Underlab.UI
             GameEvents.WaveStarted += OnWaveStarted;
             GameEvents.WaveCleared += OnWaveCleared;
             if (carrier != null) carrier.Changed += RefreshOres;
+            if (dropper != null) dropper.SelectedChanged += OnSelected;
         }
 
         private void OnDisable()
@@ -55,6 +58,19 @@ namespace Underlab.UI
             GameEvents.WaveStarted -= OnWaveStarted;
             GameEvents.WaveCleared -= OnWaveCleared;
             if (carrier != null) carrier.Changed -= RefreshOres;
+            if (dropper != null) dropper.SelectedChanged -= OnSelected;
+        }
+
+        /// <summary>Làm nổi icon loại quặng đang chọn để vứt.</summary>
+        private void OnSelected(ResourceType? sel)
+        {
+            for (int i = 0; i < oreIcons.Length; i++)
+            {
+                bool on = sel.HasValue && (int)sel.Value == i;
+                oreIcons[i].rectTransform.localScale = Vector3.one * (on ? 1.3f : 1f);
+                oreIcons[i].color = sel.HasValue && !on ? new Color(1f, 1f, 1f, 0.5f) : Color.white;
+                oreTexts[i].color = on ? new Color(1f, 0.9f, 0.4f) : Color.white;
+            }
         }
 
         // ---------------- Event ----------------
@@ -136,9 +152,11 @@ namespace Underlab.UI
             for (int i = 0; i < icons.Length; i++)
             {
                 var pos = new Vector2(40 + i * 115, -110);
-                MakeImage(root, icons[i], icons[i], new Vector2(0, 1), pos, new Vector2(48, 48));
+                oreIcons[i] = MakeImage(root, icons[i], icons[i], new Vector2(0, 1), pos, new Vector2(48, 48));
                 oreTexts[i] = MakeText(root, icons[i] + "_n", "0", 30, TextAnchor.MiddleLeft, new Vector2(0, 1), pos + new Vector2(56, 0), new Vector2(60, 48));
             }
+            MakeText(root, "DropHint", "Q: chọn loại  ·  G: vứt", 20, TextAnchor.MiddleLeft, new Vector2(0, 1), new Vector2(40, -165), new Vector2(460, 30))
+                .color = new Color(1f, 1f, 1f, 0.7f);
 
             // --- Đồng hồ wave (phải trên)
             var timerBg = MakeImage(root, "WaveTimer", "ui_wave_timer", new Vector2(1, 1), new Vector2(-40, -40), new Vector2(150, 150));

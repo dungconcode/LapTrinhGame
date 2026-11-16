@@ -13,10 +13,25 @@ namespace Underlab.Mining
     {
         public ResourceType Type { get; private set; }
         public int Amount { get; private set; } = 1;
-        public bool CanPickup => Time.time >= pickupAt && !collected;
+        public bool CanPickup => Time.time >= pickupAt && !collected && waitLeave == null;
 
         private float pickupAt;
         private bool collected;
+        private Transform waitLeave;   // quặng do player tự vứt: chờ player đi xa rồi mới cho nhặt lại
+        private float leaveDistance;
+
+        /// <summary>Không cho nhặt lại cho tới khi 'who' đi xa hơn 'distance'.</summary>
+        public void BlockUntilLeave(Transform who, float distance)
+        {
+            waitLeave = who;
+            leaveDistance = distance;
+        }
+
+        private void Update()
+        {
+            if (waitLeave != null && Vector2.Distance(waitLeave.position, transform.position) > leaveDistance)
+                waitLeave = null;
+        }
 
         public static string ItemArtId(ResourceType t)
         {
