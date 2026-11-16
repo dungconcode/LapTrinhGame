@@ -23,6 +23,8 @@ namespace Underlab.Defense
         public float damageUpgrade = .25f, rotationUpgrade = .2f, hitRadius = .65f;
         public float bossPatternSeconds = 6, bossChargeMultiplier = 3;
         public int bossSummonCount = 2;
+        public float turretBoardingRadius = 1.5f;
+        public Vector2 turretBoardingOffset = new Vector2(0, -2);
         public EnemyStats[] enemies = {
             new EnemyStats { kind = EnemyKind.Melee },
             new EnemyStats { kind = EnemyKind.Flying, health = 25, speed = 2, range = 2 },

@@ -35,6 +35,12 @@ namespace Underlab.Game.EditorTools
             SessionState.SetBool(Key + ".batch", true);
             Run();
         }
+        public static void BatchTurretBoarding()
+        {
+            DefenseSetup.BindTurretPlayers();
+            SessionState.SetBool(Key + ".batch", true);
+            Run();
+        }
         private static void Changed(PlayModeStateChange state)
         {
             if (state == PlayModeStateChange.EnteredPlayMode && SessionState.GetBool(Key, false))
@@ -69,6 +75,16 @@ namespace Underlab.Game.EditorTools
                     var shop = UnityEngine.Object.FindFirstObjectByType<DefenseShop>();
                     var turret = UnityEngine.Object.FindFirstObjectByType<Turret>();
                     game.StartRun();
+                    Check(turret.playerRoot != null, "Turret missing player reference");
+                    Vector3 playerPosition = turret.playerRoot.transform.position;
+                    turret.playerRoot.transform.position += Vector3.right * (turret.pool.config.turretBoardingRadius + 5);
+                    Check(!turret.TryMount(), "Boarding allowed away from turret");
+                    turret.playerRoot.transform.position = playerPosition;
+                    Check(turret.TryMount() && turret.IsMounted && !turret.playerRoot.activeSelf, "Boarding did not hide player");
+                    Check(!turret.TryMount(), "Boarding accepted while already mounted");
+                    turret.Dismount();
+                    Check(!turret.IsMounted && turret.playerRoot.activeSelf && turret.playerRoot.transform.position == playerPosition, "Dismount did not restore player position");
+                    game.TogglePause(); Check(!turret.TryMount(), "Boarding accepted while paused"); game.TogglePause();
                     GameEvents.RaisePlayerAtBaseChanged(true);
                     GameEvents.RaiseResourcesDeposited(ResourceType.Iron, 1000);
                     Check(shop.bank.Balance(ResourceType.Iron) == 1000, "Deposits not received");
@@ -123,6 +139,7 @@ namespace Underlab.Game.EditorTools
                     }
                     Check(game.baseHealth.Current < initialBaseHealth, "Ranged projectile hit failed");
                     game.spawner.pool.Clear(); game.baseHealth.Restore(); hostileVerified = true;
+                    Check(UnityEngine.Object.FindFirstObjectByType<Turret>().TryMount(), "Could not board before defense wave");
                     game.BeginWave();
                 }
                 foreach (var enemy in game.spawner.pool.Enemies)
@@ -130,6 +147,8 @@ namespace Underlab.Game.EditorTools
                 if (game.Phase != GamePhase.Victory) return;
                 Check(game.Wave == 10, "Victory before ten waves");
                 Check(game.spawner.pool.Alive == 0, "Enemies remain after victory");
+                var mountedTurret = UnityEngine.Object.FindFirstObjectByType<Turret>();
+                Check(!mountedTurret.IsMounted && mountedTurret.playerRoot.activeSelf, "Victory did not restore mounted player");
                 var loseGame = new GameObject("Loss check").AddComponent<GameManager>();
                 loseGame.config = game.config; loseGame.spawner = game.spawner; loseGame.baseHealth = game.baseHealth;
                 loseGame.StartRun(); game.baseHealth.Damage(game.baseHealth.Maximum);

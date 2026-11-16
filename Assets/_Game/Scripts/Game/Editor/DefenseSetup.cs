@@ -19,6 +19,26 @@ namespace Underlab.Game.EditorTools
         public static void Sandbox() => Build("Assets/_Game/Scenes/Sandbox_B.unity");
         [MenuItem("Underlab/Defense/Build Integrated Game")]
         public static void Integrated() => Build("Assets/_Game/Scenes/Game.unity");
+        [MenuItem("Underlab/Defense/Bind Turret Players")]
+        public static void BindTurretPlayers()
+        {
+            if (EditorApplication.isPlaying) throw new System.InvalidOperationException("Stop Play Mode trước khi gán player.");
+            if (!EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo()) return;
+            foreach (string path in new[] { "Assets/_Game/Scenes/Sandbox_B.unity", "Assets/_Game/Scenes/Game.unity" })
+            {
+                if (!File.Exists(path)) continue;
+                var scene = EditorSceneManager.OpenScene(path, OpenSceneMode.Single);
+                var player = scene.GetRootGameObjects().First(go => go.name == "Player");
+                foreach (var root in scene.GetRootGameObjects())
+                    foreach (var turret in root.GetComponentsInChildren<Turret>(true))
+                    {
+                        turret.playerRoot = player;
+                        PrefabUtility.RecordPrefabInstancePropertyModifications(turret);
+                        EditorUtility.SetDirty(turret);
+                    }
+                EditorSceneManager.SaveScene(scene);
+            }
+        }
         private static T Config<T>(string name) where T : ScriptableObject
         {
             string path = Data + name + ".asset";
@@ -97,6 +117,7 @@ namespace Underlab.Game.EditorTools
             string prefabPath = "Assets/_Game/Prefabs/Defense/DefenseRoot.prefab";
             PrefabUtility.SaveAsPrefabAssetAndConnect(rootB, prefabPath, InteractionMode.AutomatedAction);
             turret.aimCamera = Camera.main;
+            turret.playerRoot = scene.GetRootGameObjects().First(go => go.name == "Player");
             PrefabUtility.RecordPrefabInstancePropertyModifications(turret);
             AssetDatabase.SaveAssets();
             EditorSceneManager.SaveScene(scene, destination);

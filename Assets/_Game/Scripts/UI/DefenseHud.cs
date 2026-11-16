@@ -48,7 +48,7 @@ namespace Underlab.UI
             if (!game.Started)
             {
                 GUI.Box(new Rect(390, 180, 500, 300), "UNDERLAB");
-                GUI.Label(new Rect(420, 230, 440, 100), "Đào quặng • Trở về base • Sống qua 10 wave\nA/D di chuyển · Space bay · W/S khoan\nChuột trái bắn khi ở base · 1–4 đổi đạn · E cửa hàng");
+                GUI.Label(new Rect(420, 230, 440, 100), "Đào quặng • Trở về base • Sống qua 10 wave\nA/D di chuyển · Space bay · W/S khoan\nGần pháo: chuột trái để vào · Q thoát pháo\nTrong pháo: chuột trái bắn · 1–4 đổi đạn · E shop khi đi bộ");
                 if (GUI.Button(new Rect(520, 370, 240, 55), "BẮT ĐẦU")) game.StartRun();
                 return;
             }
@@ -58,7 +58,9 @@ namespace Underlab.UI
                 if (GUI.Button(new Rect(650 + i * 150, 650, 145, 45), $"{i + 1}: {(AmmoType)i} {(i == 0 ? "∞" : turret.Ammunition[i].ToString())}{((int)turret.Selected == i ? " ✓" : "")}")) turret.Select(i);
             }
             GUI.enabled = true;
-            if (!shop.Open && !game.Paused && turret.shop.AtBase)
+            if (!game.Paused && (turret.IsMounted || turret.CanMount))
+                GUI.Box(new Rect(410, 580, 460, 40), turret.IsMounted ? "ĐANG TRONG PHÁO · Chuột trái bắn · Q để thoát" : "CHUỘT TRÁI để vào pháo");
+            if (!shop.Open && !game.Paused && turret.IsMounted)
             {
                 var sprite = ArtDatabase.GetSprite("ui_crosshair");
                 if (sprite != null)

@@ -25,6 +25,8 @@ MonoBehaviour:
   bossPatternSeconds: 6
   bossChargeMultiplier: 3
   bossSummonCount: 2
+  turretBoardingRadius: 1.5
+  turretBoardingOffset: {x: 0, y: -2}
   enemies:
   - kind: 0
     health: 40
