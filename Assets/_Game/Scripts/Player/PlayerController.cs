@@ -23,7 +23,11 @@ namespace Underlab.Player
 
         public const string DefaultWalkAnim = "char_player_walk";
 
+        /// <summary>Hệ số do tải (Carrier đặt).</summary>
         public float SpeedMultiplier { get; set; } = 1f;
+        /// <summary>Hệ số do nâng cấp (MiningUpgrades đặt). Tốc độ thật = base × tải × nâng cấp.</summary>
+        public float SpeedUpgrade { get; set; } = 1f;
+        public float ThrustUpgrade { get; set; } = 1f;
         /// <summary>Anim khi đi bộ — Carrier đổi sang char_player_carry khi mang nặng.</summary>
         public string WalkAnimId { get; set; } = DefaultWalkAnim;
         public float ThrustMultiplier { get; set; } = 1f;
@@ -88,12 +92,15 @@ namespace Underlab.Player
 
             var v = body.linearVelocity;
 
-            float target = MoveInput.x * config.moveSpeed * SpeedMultiplier;
+            float target = MoveInput.x * config.moveSpeed * SpeedMultiplier * SpeedUpgrade;
             float accel = IsGrounded ? config.groundAccel : config.airAccel;
             v.x = Mathf.MoveTowards(v.x, target, accel * Time.fixedDeltaTime);
 
             if (IsThrusting)
-                v.y = Mathf.MoveTowards(v.y, config.maxRiseSpeed * ThrustMultiplier, config.thrustAccel * Time.fixedDeltaTime);
+            {
+                float thrust = ThrustMultiplier * ThrustUpgrade;
+                v.y = Mathf.MoveTowards(v.y, config.maxRiseSpeed * thrust, config.thrustAccel * thrust * Time.fixedDeltaTime);
+            }
             v.y = Mathf.Max(v.y, -config.maxFallSpeed);
 
             body.linearVelocity = v;
