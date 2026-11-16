@@ -1,0 +1,108 @@
+id,category,type,frames,fps,world_w,pivot,spec_px,priority,status,ai_tool,notes
+char_player_idle,char,anim,4,6,2,bc,256x256,P0,placeholder,GPT,Tho mo dung tho - nhin sang PHAI
+char_player_walk,char,anim,6,12,2,bc,256x256,P0,placeholder,GPT,Chu ky di bo - nhin sang PHAI (code tu lat trai)
+char_player_drill,char,anim,4,12,2,bc,256x256,P0,placeholder,GPT,Dang khoan ve phia truoc - mui khoan chia sang PHAI
+char_player_carry,char,anim,6,10,2,bc,256x256,P1,placeholder,GPT,Di cham khom lung keo quang nang
+char_player_hurt,char,anim,2,10,2,bc,256x256,P1,placeholder,GPT,Bi trung don - giat lui
+char_player_death,char,anim,6,10,2,bc,256x256,P2,placeholder,GPT,Nga xuong
+tile_surface,tile,tile,1,0,1,c,128x128,P0,placeholder,GEM,O dat mat tren cung (co reu ngoai hanh tinh o canh tren) - seamless trai phai
+tile_dirt_1,tile,tile,1,0,1,c,128x128,P0,placeholder,GEM,Dat mem tang 1 (do cung 1) - seamless 4 phia
+tile_dirt_2,tile,tile,1,0,1,c,128x128,P0,placeholder,GEM,Da tang 2 cung hon toi mau hon - seamless
+tile_dirt_3,tile,tile,1,0,1,c,128x128,P0,placeholder,GEM,Da tang 3 rat cung co tinh the nho - seamless
+tile_bedrock,tile,tile,1,0,1,c,128x128,P1,placeholder,GEM,Khong pha duoc - vien map
+tile_ore_iron,tile,tile,1,0,1,c,128x128,P0,placeholder,GEM,Nen dat + van quang sat nau do
+tile_ore_sulfur,tile,tile,1,0,1,c,128x128,P0,placeholder,GEM,Nen dat + tinh the luu huynh vang
+tile_ore_mg,tile,tile,1,0,1,c,128x128,P0,placeholder,GEM,Nen dat + quang Mg bac trang sang
+tile_ore_kcl,tile,tile,1,0,1,c,128x128,P0,placeholder,GEM,Nen dat + tinh the KCl trang hong nhat
+tile_crack,tile,anim,4,0,1,c,128x128,P0,placeholder,GEM,Overlay vet nut nen trong suot - frame 0 nut nhe den frame 3 sap vo (code chon frame)
+item_ore_iron,item,sprite,1,0,0.5,c,64x64,P0,placeholder,GEM,Cuc quang sat roi ra khi dao
+item_ore_sulfur,item,sprite,1,0,0.5,c,64x64,P0,placeholder,GEM,Cuc luu huynh
+item_ore_mg,item,sprite,1,0,0.5,c,64x64,P0,placeholder,GEM,Cuc Mg
+item_ore_kcl,item,sprite,1,0,0.5,c,64x64,P0,placeholder,GEM,Cuc KCl
+item_blast_charge,item,sprite,1,0,0.5,c,64x64,P1,placeholder,GEM,Bom pha da (Blast Mining)
+bld_base_normal,bld,sprite,1,0,4,bc,512x512,P0,placeholder,GPT,Can cu chinh (bunker sci-fi) dat tren mat dat - chua cho gan phao o dinh
+bld_base_damaged,bld,sprite,1,0,4,bc,512x512,P1,placeholder,GPT,Cung base nhung nut vo boc khoi - edit tu anh normal
+bld_base_destroyed,bld,sprite,1,0,4,bc,512x512,P2,placeholder,GPT,Base sap do
+bld_base_upgraded,bld,sprite,1,0,4,bc,512x512,P2,placeholder,GPT,Base sau nang cap (them giap/den)
+bld_turret_body,bld,sprite,1,0,1.5,c,192x192,P0,placeholder,GPT,Be xoay cua phao
+bld_turret_barrel,bld,sprite,1,0,2,0.15;0.5,256x128,P0,placeholder,GPT,Nong phao nam ngang chia sang PHAI - pivot o duoi nong (diem xoay)
+bld_turret_fire,bld,anim,3,20,2,0.15;0.5,256x128,P1,placeholder,GPT,Nong giat lui khi ban
+bld_lift,bld,sprite,1,0,1,bc,128x256,P1,placeholder,GEM,Khung truc thang may - lap theo chieu doc
+bld_lift_cart,bld,sprite,1,0,1,bc,128x128,P1,placeholder,GEM,Gio/xe cho quang cua thang may
+bld_teleporter,bld,anim,6,10,2,bc,256x256,P2,placeholder,GPT,May dich chuyen - vong nang luong xoay
+proj_normal,proj,sprite,1,0,0.5,c,64x64,P0,placeholder,GEM,Dan thuong bay sang PHAI
+proj_acid,proj,sprite,1,0,0.5,c,64x64,P1,placeholder,GEM,Dan axit xanh la
+proj_fire,proj,sprite,1,0,0.5,c,64x64,P1,placeholder,GEM,Dan lua cam do
+proj_ice,proj,sprite,1,0,0.5,c,64x64,P1,placeholder,GEM,Dan bang xanh nhat
+proj_enemy,proj,sprite,1,0,0.5,c,64x64,P1,placeholder,GEM,Dan cua quai ban xa
+enemy_melee_walk,enemy,anim,6,10,2,bc,256x256,P0,placeholder,GPT,Quai can chien di bo - nhin sang TRAI (huong ve base)
+enemy_melee_attack,enemy,anim,4,10,2,bc,256x256,P0,placeholder,GPT,Quai can chien dam/can
+enemy_melee_hurt,enemy,anim,2,10,2,bc,256x256,P1,placeholder,GPT,Bi trung don
+enemy_melee_death,enemy,anim,5,12,2,bc,256x256,P1,placeholder,GPT,Chet / no
+enemy_flying_fly,enemy,anim,6,12,2,c,256x256,P0,placeholder,GPT,Quai bay vo canh - nhin sang TRAI
+enemy_flying_attack,enemy,anim,4,12,2,c,256x256,P1,placeholder,GPT,Lao xuong tan cong
+enemy_flying_hurt,enemy,anim,2,10,2,c,256x256,P1,placeholder,GPT,Bi trung don
+enemy_flying_death,enemy,anim,5,12,2,c,256x256,P1,placeholder,GPT,Roi xuong / no
+enemy_ranged_walk,enemy,anim,6,10,2,bc,256x256,P0,placeholder,GPT,Quai ban xa di bo - nhin sang TRAI
+enemy_ranged_attack,enemy,anim,5,10,2,bc,256x256,P0,placeholder,GPT,Quai ban xa nhe dan
+enemy_ranged_hurt,enemy,anim,2,10,2,bc,256x256,P1,placeholder,GPT,Bi trung don
+enemy_ranged_death,enemy,anim,5,12,2,bc,256x256,P1,placeholder,GPT,Chet / no
+boss_idle,boss,anim,4,6,6,bc,768x768,P1,placeholder,GPT,Boss cuoi run dung yen - nhin sang TRAI
+boss_move,boss,anim,6,8,6,bc,768x768,P1,placeholder,GPT,Boss di chuyen
+boss_skill,boss,anim,8,10,6,bc,768x768,P1,placeholder,GPT,Boss xa skill dac biet
+boss_death,boss,anim,8,10,6,bc,768x768,P2,placeholder,GPT,Boss tu tran
+boss_projectile,boss,sprite,1,0,1,c,128x128,P1,placeholder,GPT,Don danh cua boss
+fx_block_break,fx,anim,6,20,1.5,c,192x192,P0,placeholder,GEM,Manh dat vo khi pha block (co the thay bang Particle System)
+fx_drill_spark,fx,anim,4,20,0.75,c,96x96,P1,placeholder,GEM,Tia lua o mui khoan
+fx_muzzle_flash,fx,anim,3,24,1,0.1;0.5,128x128,P1,placeholder,GEM,Chop lua dau nong phao - huong PHAI
+fx_explosion,fx,anim,8,20,2,c,256x256,P1,placeholder,GEM,No chung (quai chet / bom)
+fx_hit_normal,fx,anim,4,24,1,c,128x128,P1,placeholder,GEM,Trung dan thuong
+fx_hit_acid,fx,anim,6,16,1,c,128x128,P1,placeholder,GEM,Trung dan axit - bot xanh
+fx_hit_fire,fx,anim,6,16,1,c,128x128,P1,placeholder,GEM,Trung dan lua - lua bung
+fx_hit_ice,fx,anim,6,16,1,c,128x128,P1,placeholder,GEM,Trung dan bang - tinh the vo
+fx_status_poison,fx,anim,4,8,0.5,c,64x64,P1,placeholder,GEM,Cham xanh doc lo lung tren dau quai
+fx_status_burn,fx,anim,4,12,0.5,c,64x64,P1,placeholder,GEM,Ngon lua nho tren dau quai
+fx_status_frozen,fx,sprite,1,0,0.5,c,64x64,P1,placeholder,GEM,Bong tuyet nho tren dau quai
+fx_blast,fx,anim,8,20,3,c,384x384,P2,placeholder,GEM,No bom pha da
+fx_teleport,fx,anim,6,16,2,c,256x256,P2,placeholder,GEM,Hieu ung dich chuyen
+fx_deposit,fx,anim,6,16,1,c,128x128,P2,placeholder,GEM,Quang bay vao kho khi ve base
+bg_surface_sky,bg,sprite,1,0,20,c,1920x1080,P0,placeholder,GEM,Bau troi hanh tinh la (lop xa nhat)
+bg_surface_far,bg,sprite,1,0,20,c,1920x1080,P1,placeholder,GEM,Nui/vach da xa - nen trong suot phia tren - lap ngang
+bg_surface_mid,bg,sprite,1,0,20,c,1920x1080,P1,placeholder,GEM,Doi/cay ngoai hanh tinh lop giua - lap ngang
+bg_underground_far,bg,sprite,1,0,20,c,1920x1080,P0,placeholder,GEM,Nen hang dong mo toi - lap theo chieu DOC
+bg_underground_mid,bg,sprite,1,0,20,c,1920x1080,P1,placeholder,GEM,Lop hang dong giua (re cay/tinh the) - lap doc
+ui_panel,ui,ui,1,0,0,c,256x256,P0,placeholder,CLA,Khung panel 9-slice (goc bo tron sci-fi)
+ui_button,ui,ui,1,0,0,c,256x96,P0,placeholder,CLA,Nut bam 9-slice
+ui_button_pressed,ui,ui,1,0,0,c,256x96,P1,placeholder,CLA,Nut bam khi nhan
+ui_bar_frame,ui,ui,1,0,0,c,512x64,P0,placeholder,CLA,Khung thanh mau / trong tai
+ui_bar_fill,ui,ui,1,0,0,c,512x64,P0,placeholder,CLA,Phan fill mau TRANG (code to mau)
+ui_wave_timer,ui,ui,1,0,0,c,256x256,P0,placeholder,CLA,Dong ho tron dem nguoc wave
+ui_wave_warning,ui,ui,1,0,0,c,512x128,P1,placeholder,CLA,Banner canh bao WAVE INCOMING
+ui_ammo_slot,ui,ui,1,0,0,c,128x128,P0,placeholder,CLA,O chon loai dan
+ui_ammo_slot_selected,ui,ui,1,0,0,c,128x128,P1,placeholder,CLA,O dan dang chon (vien sang)
+ui_depth_meter,ui,ui,1,0,0,c,96x512,P1,placeholder,CLA,Thuoc do do sau doc
+ui_crosshair,ui,ui,1,0,0,c,128x128,P0,placeholder,CLA,Tam ngam
+ui_upgrade_node,ui,ui,1,0,0,c,160x160,P1,placeholder,CLA,Node cay nang cap (mo khoa)
+ui_upgrade_node_locked,ui,ui,1,0,0,c,160x160,P1,placeholder,CLA,Node cay nang cap (khoa)
+ui_logo,ui,ui,1,0,0,c,1024x512,P1,placeholder,GPT,Logo chu UNDERLAB
+ui_bg_mainmenu,ui,ui,1,0,0,c,1920x1080,P1,placeholder,GEM,Nen main menu
+ui_screen_victory,ui,ui,1,0,0,c,1920x1080,P2,placeholder,GEM,Nen man thang
+ui_screen_gameover,ui,ui,1,0,0,c,1920x1080,P2,placeholder,GEM,Nen man thua
+icon_ore_iron,icon,ui,1,0,0,c,128x128,P0,placeholder,CLA,Icon quang sat
+icon_ore_sulfur,icon,ui,1,0,0,c,128x128,P0,placeholder,CLA,Icon luu huynh
+icon_ore_mg,icon,ui,1,0,0,c,128x128,P0,placeholder,CLA,Icon Mg
+icon_ore_kcl,icon,ui,1,0,0,c,128x128,P0,placeholder,CLA,Icon KCl
+icon_ammo_normal,icon,ui,1,0,0,c,128x128,P0,placeholder,CLA,Icon dan thuong
+icon_ammo_acid,icon,ui,1,0,0,c,128x128,P1,placeholder,CLA,Icon dan axit
+icon_ammo_fire,icon,ui,1,0,0,c,128x128,P1,placeholder,CLA,Icon dan lua
+icon_ammo_ice,icon,ui,1,0,0,c,128x128,P1,placeholder,CLA,Icon dan bang
+icon_up_drill,icon,ui,1,0,0,c,128x128,P1,placeholder,CLA,Nang cap mui khoan
+icon_up_move,icon,ui,1,0,0,c,128x128,P1,placeholder,CLA,Nang cap toc do di chuyen
+icon_up_carry,icon,ui,1,0,0,c,128x128,P1,placeholder,CLA,Nang cap suc mang
+icon_up_turret_dmg,icon,ui,1,0,0,c,128x128,P1,placeholder,CLA,Nang cap sat thuong phao
+icon_up_turret_rot,icon,ui,1,0,0,c,128x128,P1,placeholder,CLA,Nang cap toc do xoay phao
+icon_up_base_hp,icon,ui,1,0,0,c,128x128,P1,placeholder,CLA,Nang cap mau base
+icon_repair,icon,ui,1,0,0,c,128x128,P1,placeholder,CLA,Sua base
+icon_lift,icon,ui,1,0,0,c,128x128,P1,placeholder,CLA,Thang may
+icon_teleporter,icon,ui,1,0,0,c,128x128,P2,placeholder,CLA,Teleporter
+icon_blast,icon,ui,1,0,0,c,128x128,P1,placeholder,CLA,Blast Mining
