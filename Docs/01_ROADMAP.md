@@ -3,6 +3,35 @@
 > Đọc kèm: [02_ASSET_PIPELINE.md](02_ASSET_PIPELINE.md) (hệ thống asset), [05_GIT_WORKFLOW.md](05_GIT_WORKFLOW.md) (cách merge).
 > Tick `[x]` khi xong. Mỗi task có **ID** để ghi vào tên nhánh / commit (vd `a/A03-dig`, `feat(A03): ...`).
 
+## ⚡ CẬP NHẬT 16/11 tối — trạng thái & chia việc mới
+
+**Đã xong (trên `main`):** toàn bộ Dev A (A01–A13) + Dev B (B01–B16) bản greybox. `Game.unity` chơi được trọn 1 run: đào → về base → shop (E) → pháo (chuột trái) → 10 wave + boss → thắng/thua.
+
+**Chia việc mới:**
+
+| Ai | Làm gì |
+|---|---|
+| **Dev chính (code)** — 1 người + Claude | TOÀN BỘ code còn lại (bảng R dưới). Giữ luôn `Game.unity`, không cần "token". |
+| **Bạn gen asset** | Chỉ gen ảnh bằng ChatGPT Plus theo [06_ASSET_LIST_CHATGPT.md](06_ASSET_LIST_CHATGPT.md) (76 asset có prompt dán sẵn), bỏ ảnh thô vào Drive `04_AI_Candidates/<id>/`. Không cần Unity/git. |
+| **Claude** | Icon + khung UI (`icon_*`, `ui_*`) bằng SVG; xử lý ảnh từ Drive bằng `ai_sheet.py` rồi đưa vào game. |
+| **Nhóm art** | Như cũ: vẽ final, ưu tiên cái chưa `ai-approved`. |
+
+**Việc còn lại (R = remaining):**
+
+- [ ] **R01** Dựng lại `Game.unity` có vứt quặng (Q/G) — `Underlab/Defense/Build Integrated Game`
+- [ ] **R02** Playtest trọn 1 run, ghi lỗi/cảm giác → sửa
+- [ ] **R03** Cân bằng: giá upgrade, 10 wave, thời gian đào; mục tiêu run 15–20 phút (`Data/Defense`, `Data/Mining`)
+- [ ] **R04** Icon + UI SVG (Claude) — thay khối màu
+- [ ] **R05** Đưa asset ChatGPT vào game theo đợt (P0 → P1 → P2)
+- [ ] **R06** A15 âm thanh + juice phần đào; sửa cảnh báo font `LegacyRuntime` ở HUD TMP
+- [ ] **R07** Main menu / màn thắng-thua dùng art thật
+- [ ] **R08** Build Windows, chơi trên máy khác, quay video demo (hạn 11/12)
+- [ ] **R09** (Could) A14 Teleporter
+
+**Hạn asset:** P0 (28 cái) **20/11** · P1 (38) 27/11 · P2 (10) 4/12 · **art freeze 9/12**.
+
+> Các mục cũ bên dưới giữ lại để tham khảo; phần chia "Dev A / Dev B" giờ là của 1 người code.
+
 ## 0. Nguyên tắc
 
 1. **Code không chờ art.** Ngày 1 chạy `Underlab/Art/Generate Missing Placeholders` → có đủ ~110 asset khối màu đúng kích thước. Art về thì chép đè, code không đổi.
