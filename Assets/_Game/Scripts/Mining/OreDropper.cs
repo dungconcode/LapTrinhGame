@@ -42,13 +42,22 @@ namespace Underlab.Mining
             playerCollider = GetComponent<Collider2D>();
         }
 
-        private void OnEnable() => carrier.Changed += Validate;
+        private int enabledFrame;
+
+        private void OnEnable()
+        {
+            carrier.Changed += Validate;
+            enabledFrame = Time.frameCount;
+        }
+
         private void OnDisable() => carrier.Changed -= Validate;
 
         private void Update()
         {
             var k = Keyboard.current;
             if (k == null) return;
+            // Bỏ qua frame vừa bật lại: Q cũng là phím thoát pháo (Dev B) — player được bật lại đúng frame đó.
+            if (Time.frameCount == enabledFrame) return;
 
             if (k.qKey.wasPressedThisFrame) Cycle();
 
