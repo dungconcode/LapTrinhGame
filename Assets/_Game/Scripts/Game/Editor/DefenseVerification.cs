@@ -4,6 +4,8 @@ using Underlab.Core;
 using Underlab.Defense;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.LowLevel;
 
 namespace Underlab.Game.EditorTools
 {
@@ -61,6 +63,35 @@ namespace Underlab.Game.EditorTools
             if (!condition) throw new Exception(message);
             checks++;
         }
+        private static void CheckTurretInput(Turret turret)
+        {
+            var mouse = InputSystem.AddDevice<Mouse>();
+            var keyboard = InputSystem.AddDevice<Keyboard>();
+            var background = InputSystem.settings.backgroundBehavior;
+            var editorInput = InputSystem.settings.editorInputBehaviorInPlayMode;
+            Action updateTurret = () => turret.SendMessage("Update");
+            try
+            {
+                InputSystem.settings.backgroundBehavior = InputSettings.BackgroundBehavior.IgnoreFocus;
+                InputSystem.settings.editorInputBehaviorInPlayMode = InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView;
+                InputSystem.onAfterUpdate += updateTurret;
+                var pointer = new Vector2(Screen.width * .5f, Screen.height * .75f);
+                InputSystem.QueueStateEvent(mouse, new MouseState { position = pointer }); InputSystem.Update();
+                InputSystem.QueueStateEvent(mouse, new MouseState { position = pointer, buttons = 1 }); InputSystem.Update();
+                Check(turret.IsMounted && !turret.playerRoot.activeSelf, $"Mouse input did not board turret: CanMount={turret.CanMount} current={Mouse.current == mouse} down={mouse.leftButton.isPressed} pressed={mouse.leftButton.wasPressedThisFrame} point={mouse.position.ReadValue()} screen={Screen.width}x{Screen.height}");
+                InputSystem.QueueStateEvent(mouse, new MouseState { position = pointer, buttons = 1 }); InputSystem.Update();
+                Check(turret.pool.GetComponentsInChildren<Projectile>().Length == 0, "Boarding click also fired a projectile");
+                InputSystem.QueueStateEvent(keyboard, new KeyboardState(UnityEngine.InputSystem.Key.Q)); InputSystem.Update();
+                Check(!turret.IsMounted && turret.playerRoot.activeSelf, "Q input did not restore player");
+            }
+            finally
+            {
+                InputSystem.onAfterUpdate -= updateTurret;
+                InputSystem.RemoveDevice(mouse); InputSystem.RemoveDevice(keyboard);
+                InputSystem.settings.backgroundBehavior = background;
+                InputSystem.settings.editorInputBehaviorInPlayMode = editorInput;
+            }
+        }
         private static void Tick()
         {
             try
@@ -76,6 +107,9 @@ namespace Underlab.Game.EditorTools
                     var turret = UnityEngine.Object.FindFirstObjectByType<Turret>();
                     game.StartRun();
                     Check(turret.playerRoot != null, "Turret missing player reference");
+                    GameObject originalPlayer = turret.playerRoot;
+                    turret.playerRoot = null;
+                    Check(turret.CanMount && turret.playerRoot == originalPlayer, "Missing player reference was not recovered");
                     Vector3 playerPosition = turret.playerRoot.transform.position;
                     turret.playerRoot.transform.position += Vector3.right * (turret.pool.config.turretBoardingRadius + 5);
                     Check(!turret.TryMount(), "Boarding allowed away from turret");
@@ -85,6 +119,7 @@ namespace Underlab.Game.EditorTools
                     turret.Dismount();
                     Check(!turret.IsMounted && turret.playerRoot.activeSelf && turret.playerRoot.transform.position == playerPosition, "Dismount did not restore player position");
                     game.TogglePause(); Check(!turret.TryMount(), "Boarding accepted while paused"); game.TogglePause();
+                    CheckTurretInput(turret);
                     GameEvents.RaisePlayerAtBaseChanged(true);
                     GameEvents.RaiseResourcesDeposited(ResourceType.Iron, 1000);
                     Check(shop.bank.Balance(ResourceType.Iron) == 1000, "Deposits not received");

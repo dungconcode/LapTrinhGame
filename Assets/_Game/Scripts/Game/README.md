@@ -10,7 +10,7 @@ Mở `Assets/_Game/Scenes/Game.unity`, Play, chọn **BẮT ĐẦU**. `Sandbox_B
 
 ## Điều khiển và cân bằng
 
-- Đứng gần chân pháo, bấm chuột trái để vào: nhân vật ẩn đi và ngừng di chuyển/khoan. Nhả chuột rồi bấm tiếp để bắn; chỉ khi ở trong pháo mới xoay/bắn được. Bấm Q để ra lại vị trí lúc vào. Thắng/thua hoặc tắt pháo cũng trả lại nhân vật.
+- Đứng gần chân pháo, bấm chuột trái trong Game View để vào: nhân vật ẩn đi và ngừng di chuyển/khoan. Nhả chuột rồi bấm tiếp để bắn; chỉ khi ở trong pháo mới xoay/bắn được. Bấm Q để ra lại vị trí lúc vào. Thắng/thua hoặc tắt pháo cũng trả lại nhân vật. Nếu instance cũ chưa nhận playerRoot, pháo tự nối lại GameObject Player trong cùng scene.
 - 1–4: chọn đạn. E: mở/đóng shop tại base trong Mining khi đang đi bộ. Esc: tạm dừng. Chỉnh khoảng cách lên pháo và vị trí cửa vào bằng turretBoardingRadius/turretBoardingOffset trong DefenseConfig.
 - Editor: F1 thêm quặng, F2 bắt đầu wave, F3 hồi base, F4 tới boss. Giữ F5–F10 cho phần Mining.
 - Chỉnh toàn bộ HP, damage, tốc độ, status, công thức, nhạc/SFX, giá và wave trong `Assets/_Game/Data/Defense/`.
@@ -23,7 +23,7 @@ Mở `Assets/_Game/Scenes/Game.unity`, Play, chọn **BẮT ĐẦU**. `Sandbox_B
 - `Underlab/Defense/Verify Play Mode`: chạy smoke test trên scene vừa dựng; kết quả ở `Logs/DefenseVerification.txt`.
 - Batch entry point: `Underlab.Game.EditorTools.DefenseVerification.Batch` (không truyền `-quit`; runner tự thoát sau khi kiểm tra).
 
-Đã kiểm tra với Unity 6000.0.44f1 trên bản sao dự án trong `.utmp/TurretValidation`, sử dụng các package đang có. Kết quả: **PASS, 29 assertions** — vào/ra pháo, từ chối vào từ xa/khi pause, khôi phục nhân vật khi kết thúc run, event gửi quặng, số dư, nâng cấp Mining và giới hạn cấp, recipe lửa, điều kiện ở base, hồi máu, va chạm đạn pháo và đạn quái bắn xa, tái dùng pool, 10 wave/boss, Victory và GameOver. Không có lỗi compile, NullReferenceException hay MissingReferenceException trong lượt chạy này. Test rút ngắn thời gian trên bản sao config trong Play Mode; không thay số liệu asset.
+Đã kiểm tra với Unity 6000.0.44f1 trên bản sao dự án trong `.utmp/TurretValidation`, sử dụng các package đang có. Kết quả: **PASS, 33 assertions** — vào/ra pháo bằng input chuột/Q, không bắn trong cú bấm lên pháo, tự khôi phục playerRoot bị thiếu, từ chối vào từ xa/khi pause, khôi phục nhân vật khi kết thúc run, event gửi quặng, số dư, nâng cấp Mining và giới hạn cấp, recipe lửa, điều kiện ở base, hồi máu, va chạm đạn pháo và đạn quái bắn xa, tái dùng pool, 10 wave/boss, Victory và GameOver. Không có lỗi compile, NullReferenceException hay MissingReferenceException trong lượt chạy này. Test rút ngắn thời gian trên bản sao config trong Play Mode; không thay số liệu asset.
 
 Art vẫn dùng placeholder trong manifest; âm thanh tổng hợp là bản tạm. Cần playtest trực quan, cân bằng run 15–20 phút, duyệt art/style và kiểm tra Windows build trước release. Các lỗi GUID có sẵn trong `Assets/Art/content` không thuộc thay đổi Dev B. Kết nối MCP Editor hiện không xử lý được lệnh menu nên đã dùng Unity batch riêng để xác minh, không coi thông báo recompile từ MCP là bằng chứng duy nhất.
 

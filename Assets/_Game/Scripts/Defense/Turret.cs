@@ -15,9 +15,19 @@ namespace Underlab.Defense
         public InputActionAsset inputActions;
         public GameObject playerRoot;
         public bool IsMounted { get; private set; }
-        public bool CanMount => playerRoot && playerRoot.activeInHierarchy && game.Started && !game.Paused &&
-            (game.Phase == GamePhase.Mining || game.Phase == GamePhase.Defense) && !shop.Open &&
-            Vector2.Distance(playerRoot.transform.position, (Vector2)transform.position + pool.config.turretBoardingOffset) <= pool.config.turretBoardingRadius;
+        public bool CanMount
+        {
+            get
+            {
+                // Scene đã mở trước khi thêm field có thể chưa nhận reference mới.
+                if (!playerRoot)
+                    foreach (var root in gameObject.scene.GetRootGameObjects())
+                        if (root.name == "Player") { playerRoot = root; break; }
+                return playerRoot && playerRoot.activeInHierarchy && game.Started && !game.Paused &&
+                    (game.Phase == GamePhase.Mining || game.Phase == GamePhase.Defense) && !shop.Open &&
+                    Vector2.Distance(playerRoot.transform.position, (Vector2)transform.position + pool.config.turretBoardingOffset) <= pool.config.turretBoardingRadius;
+            }
+        }
         public AmmoType Selected { get; private set; }
         public readonly int[] Ammunition = new int[4];
         private InputActionAsset controls;
