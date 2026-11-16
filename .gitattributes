@@ -1,2 +1,23 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Unity YAML: dùng Smart Merge (cấu hình driver: xem Docs/05_GIT_WORKFLOW.md §5)
+*.unity  merge=unityyamlmerge
+*.prefab merge=unityyamlmerge
+*.asset  merge=unityyamlmerge
+*.anim   merge=unityyamlmerge
+*.controller merge=unityyamlmerge
+*.mat    merge=unityyamlmerge
+
+# Binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.psd  binary
+*.psb  binary
+*.wav  binary
+*.mp3  binary
+*.ogg  binary
+*.ttf  binary
+*.otf  binary
+*.dll  binary

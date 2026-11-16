@@ -1,0 +1,702 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3350db7d79719194fbe0ce6ba6e6dc2d, type: 3}
+  m_Name: ArtDatabase
+  m_EditorClassIdentifier: 
+  entries:
+  - id: char_player_idle
+    fps: 6
+    status: placeholder
+    frames:
+    - {fileID: -184909390, guid: bddfbf7def312df4983f0f09057ddee8, type: 3}
+    - {fileID: 705195539, guid: bddfbf7def312df4983f0f09057ddee8, type: 3}
+    - {fileID: 1460574662, guid: bddfbf7def312df4983f0f09057ddee8, type: 3}
+    - {fileID: 1900473241, guid: bddfbf7def312df4983f0f09057ddee8, type: 3}
+  - id: char_player_walk
+    fps: 12
+    status: placeholder
+    frames:
+    - {fileID: 485172560, guid: 53b5e439b2205b344b334495944c24e1, type: 3}
+    - {fileID: -1366872264, guid: 53b5e439b2205b344b334495944c24e1, type: 3}
+    - {fileID: -36869185, guid: 53b5e439b2205b344b334495944c24e1, type: 3}
+    - {fileID: 688546279, guid: 53b5e439b2205b344b334495944c24e1, type: 3}
+    - {fileID: 1337436718, guid: 53b5e439b2205b344b334495944c24e1, type: 3}
+    - {fileID: -115804801, guid: 53b5e439b2205b344b334495944c24e1, type: 3}
+  - id: char_player_drill
+    fps: 12
+    status: placeholder
+    frames:
+    - {fileID: 1597278443, guid: 80f1823481c570348aaeeb265683771c, type: 3}
+    - {fileID: -1401927961, guid: 80f1823481c570348aaeeb265683771c, type: 3}
+    - {fileID: -1767059729, guid: 80f1823481c570348aaeeb265683771c, type: 3}
+    - {fileID: 1030089582, guid: 80f1823481c570348aaeeb265683771c, type: 3}
+  - id: char_player_carry
+    fps: 10
+    status: placeholder
+    frames:
+    - {fileID: 985310918, guid: 0509f19c58b8c6f46b03c190e639b9c6, type: 3}
+    - {fileID: -1217761543, guid: 0509f19c58b8c6f46b03c190e639b9c6, type: 3}
+    - {fileID: 247318611, guid: 0509f19c58b8c6f46b03c190e639b9c6, type: 3}
+    - {fileID: -2061250954, guid: 0509f19c58b8c6f46b03c190e639b9c6, type: 3}
+    - {fileID: 535936513, guid: 0509f19c58b8c6f46b03c190e639b9c6, type: 3}
+    - {fileID: -1961518002, guid: 0509f19c58b8c6f46b03c190e639b9c6, type: 3}
+  - id: char_player_hurt
+    fps: 10
+    status: placeholder
+    frames:
+    - {fileID: -1864791335, guid: 2100cba93e98b624b903e474fbea8e91, type: 3}
+    - {fileID: -1540604029, guid: 2100cba93e98b624b903e474fbea8e91, type: 3}
+  - id: char_player_death
+    fps: 10
+    status: placeholder
+    frames:
+    - {fileID: 2127549952, guid: 6dfb08cea6c66b049aa25ffa2a1d48e7, type: 3}
+    - {fileID: 1329776663, guid: 6dfb08cea6c66b049aa25ffa2a1d48e7, type: 3}
+    - {fileID: -269592675, guid: 6dfb08cea6c66b049aa25ffa2a1d48e7, type: 3}
+    - {fileID: 1411053401, guid: 6dfb08cea6c66b049aa25ffa2a1d48e7, type: 3}
+    - {fileID: -1707433078, guid: 6dfb08cea6c66b049aa25ffa2a1d48e7, type: 3}
+    - {fileID: 912623675, guid: 6dfb08cea6c66b049aa25ffa2a1d48e7, type: 3}
+  - id: tile_surface
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 737191b3b83d7d44f9449ec018188dd9, type: 3}
+  - id: tile_dirt_1
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: bc7561c6c0721c942a2cb98813544e01, type: 3}
+  - id: tile_dirt_2
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: e43e7b10213b7934888f5ad8dd308c07, type: 3}
+  - id: tile_dirt_3
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 87728bec0daf5974883edc4c41015dbd, type: 3}
+  - id: tile_bedrock
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: ef95be9578b72a245b976edd741de4f1, type: 3}
+  - id: tile_ore_iron
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: fc8cc4274ca241644b8fd62537f8162b, type: 3}
+  - id: tile_ore_sulfur
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 16b8af14198c04547b1b547f27eef3c3, type: 3}
+  - id: tile_ore_mg
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 8f621d4151a30224bb4759d349a5e2ef, type: 3}
+  - id: tile_ore_kcl
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 7cafd62eb04bdec4aa8a14ceb814e5c0, type: 3}
+  - id: tile_crack
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: -2090545652, guid: 9f95ea92c7160594fbda2974ddb05178, type: 3}
+    - {fileID: 556815078, guid: 9f95ea92c7160594fbda2974ddb05178, type: 3}
+    - {fileID: -1328077056, guid: 9f95ea92c7160594fbda2974ddb05178, type: 3}
+    - {fileID: -1017518770, guid: 9f95ea92c7160594fbda2974ddb05178, type: 3}
+  - id: item_ore_iron
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 34a1d7e5b5f336241abbc57ffd6df796, type: 3}
+  - id: item_ore_sulfur
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 86d320a68a413ed40a15bbc022b0cbea, type: 3}
+  - id: item_ore_mg
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 3e22857c24768244a8decc3afc44ff56, type: 3}
+  - id: item_ore_kcl
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: e87fdafaf58ce324ca92a125ee7b75e4, type: 3}
+  - id: item_blast_charge
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: bdc2a0d5d781b3d4dabd38d472f050a2, type: 3}
+  - id: bld_base_normal
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: b3d20c23371d8a44a88667e9dd7d86b7, type: 3}
+  - id: bld_base_damaged
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: aed83563198b8ee4d86c1960d931a257, type: 3}
+  - id: bld_base_destroyed
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: dba83f20aee84294781369959af0628f, type: 3}
+  - id: bld_base_upgraded
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 1082dbb8c0ded0e4883de0259f1b1dbe, type: 3}
+  - id: bld_turret_body
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 2a393dee14fa5834f93b40f5dfaf92c6, type: 3}
+  - id: bld_turret_barrel
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: bab6fa65e30808d42a5d4234331d48fd, type: 3}
+  - id: bld_turret_fire
+    fps: 20
+    status: placeholder
+    frames:
+    - {fileID: 475732145, guid: 52c36b6c1bb8c8d489a677f0c4940cf8, type: 3}
+    - {fileID: 1933334453, guid: 52c36b6c1bb8c8d489a677f0c4940cf8, type: 3}
+    - {fileID: 1573415981, guid: 52c36b6c1bb8c8d489a677f0c4940cf8, type: 3}
+  - id: bld_lift
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 7761dcaec0b1cbd418ebec1f2f33d91f, type: 3}
+  - id: bld_lift_cart
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: aa7242108d03af74889f80f70b60a6c5, type: 3}
+  - id: bld_teleporter
+    fps: 10
+    status: placeholder
+    frames:
+    - {fileID: -862208429, guid: 11fbfe4ea17decf49914b19e512d9515, type: 3}
+    - {fileID: -233859255, guid: 11fbfe4ea17decf49914b19e512d9515, type: 3}
+    - {fileID: -762174664, guid: 11fbfe4ea17decf49914b19e512d9515, type: 3}
+    - {fileID: 1094207560, guid: 11fbfe4ea17decf49914b19e512d9515, type: 3}
+    - {fileID: -2143953625, guid: 11fbfe4ea17decf49914b19e512d9515, type: 3}
+    - {fileID: 1680761002, guid: 11fbfe4ea17decf49914b19e512d9515, type: 3}
+  - id: proj_normal
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 444b7f10917ffe34a9e2c5118a268efd, type: 3}
+  - id: proj_acid
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 9d69692ad25550243ad967408fbe6b9f, type: 3}
+  - id: proj_fire
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 9099a050bc303ea45a142361f9130c0d, type: 3}
+  - id: proj_ice
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 18fc36710dd54894a87312039b4e5d21, type: 3}
+  - id: proj_enemy
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 4a30b86c92581814082bfecd8e6cf2df, type: 3}
+  - id: enemy_melee_walk
+    fps: 10
+    status: placeholder
+    frames:
+    - {fileID: -1998908535, guid: fa5cbf4fa57ed844b9f6e4158f0a34eb, type: 3}
+    - {fileID: 1983890561, guid: fa5cbf4fa57ed844b9f6e4158f0a34eb, type: 3}
+    - {fileID: -2070576819, guid: fa5cbf4fa57ed844b9f6e4158f0a34eb, type: 3}
+    - {fileID: 1540892217, guid: fa5cbf4fa57ed844b9f6e4158f0a34eb, type: 3}
+    - {fileID: -853729070, guid: fa5cbf4fa57ed844b9f6e4158f0a34eb, type: 3}
+    - {fileID: 331329833, guid: fa5cbf4fa57ed844b9f6e4158f0a34eb, type: 3}
+  - id: enemy_melee_attack
+    fps: 10
+    status: placeholder
+    frames:
+    - {fileID: -377670357, guid: 370c7829c752ce24ab8302bcd05ebdb8, type: 3}
+    - {fileID: 1001030756, guid: 370c7829c752ce24ab8302bcd05ebdb8, type: 3}
+    - {fileID: -448134152, guid: 370c7829c752ce24ab8302bcd05ebdb8, type: 3}
+    - {fileID: 1651966299, guid: 370c7829c752ce24ab8302bcd05ebdb8, type: 3}
+  - id: enemy_melee_hurt
+    fps: 10
+    status: placeholder
+    frames:
+    - {fileID: -238547584, guid: 3eb7d342d44761044a18f94c032a0021, type: 3}
+    - {fileID: 1035840149, guid: 3eb7d342d44761044a18f94c032a0021, type: 3}
+  - id: enemy_melee_death
+    fps: 12
+    status: placeholder
+    frames:
+    - {fileID: -992704092, guid: 05cdb3d2f73e8de4dbbf4b9cb60225a6, type: 3}
+    - {fileID: -705875822, guid: 05cdb3d2f73e8de4dbbf4b9cb60225a6, type: 3}
+    - {fileID: 350583045, guid: 05cdb3d2f73e8de4dbbf4b9cb60225a6, type: 3}
+    - {fileID: 1021396961, guid: 05cdb3d2f73e8de4dbbf4b9cb60225a6, type: 3}
+    - {fileID: 1151026907, guid: 05cdb3d2f73e8de4dbbf4b9cb60225a6, type: 3}
+  - id: enemy_flying_fly
+    fps: 12
+    status: placeholder
+    frames:
+    - {fileID: 2092486254, guid: fc0d16ba170b6e849978d824cd9a0ec3, type: 3}
+    - {fileID: -1888612158, guid: fc0d16ba170b6e849978d824cd9a0ec3, type: 3}
+    - {fileID: 2084946163, guid: fc0d16ba170b6e849978d824cd9a0ec3, type: 3}
+    - {fileID: -1441196701, guid: fc0d16ba170b6e849978d824cd9a0ec3, type: 3}
+    - {fileID: 1700427967, guid: fc0d16ba170b6e849978d824cd9a0ec3, type: 3}
+    - {fileID: -181807363, guid: fc0d16ba170b6e849978d824cd9a0ec3, type: 3}
+  - id: enemy_flying_attack
+    fps: 12
+    status: placeholder
+    frames:
+    - {fileID: 84064463, guid: 2bb2eae3086a84d41bd0f32dde8f0332, type: 3}
+    - {fileID: 1743090407, guid: 2bb2eae3086a84d41bd0f32dde8f0332, type: 3}
+    - {fileID: -1326644506, guid: 2bb2eae3086a84d41bd0f32dde8f0332, type: 3}
+    - {fileID: 1029176666, guid: 2bb2eae3086a84d41bd0f32dde8f0332, type: 3}
+  - id: enemy_flying_hurt
+    fps: 10
+    status: placeholder
+    frames:
+    - {fileID: 835808755, guid: 33e4731ad0e11df4694f57b227da0a05, type: 3}
+    - {fileID: -1700937798, guid: 33e4731ad0e11df4694f57b227da0a05, type: 3}
+  - id: enemy_flying_death
+    fps: 12
+    status: placeholder
+    frames:
+    - {fileID: 1207575102, guid: f5ae7e079bcd6cc44b7be204d0dc9efb, type: 3}
+    - {fileID: 1487257456, guid: f5ae7e079bcd6cc44b7be204d0dc9efb, type: 3}
+    - {fileID: 1441722931, guid: f5ae7e079bcd6cc44b7be204d0dc9efb, type: 3}
+    - {fileID: -1514286487, guid: f5ae7e079bcd6cc44b7be204d0dc9efb, type: 3}
+    - {fileID: -933274756, guid: f5ae7e079bcd6cc44b7be204d0dc9efb, type: 3}
+  - id: enemy_ranged_walk
+    fps: 10
+    status: placeholder
+    frames:
+    - {fileID: -49757557, guid: 78147df70d3dafd4c963de894d2153fc, type: 3}
+    - {fileID: 1404201034, guid: 78147df70d3dafd4c963de894d2153fc, type: 3}
+    - {fileID: 645953353, guid: 78147df70d3dafd4c963de894d2153fc, type: 3}
+    - {fileID: -243713339, guid: 78147df70d3dafd4c963de894d2153fc, type: 3}
+    - {fileID: 1487307780, guid: 78147df70d3dafd4c963de894d2153fc, type: 3}
+    - {fileID: -492042908, guid: 78147df70d3dafd4c963de894d2153fc, type: 3}
+  - id: enemy_ranged_attack
+    fps: 10
+    status: placeholder
+    frames:
+    - {fileID: -888936168, guid: d89c097bfa8f7d142b43c24389349cd3, type: 3}
+    - {fileID: 2107389756, guid: d89c097bfa8f7d142b43c24389349cd3, type: 3}
+    - {fileID: -784009822, guid: d89c097bfa8f7d142b43c24389349cd3, type: 3}
+    - {fileID: -995066841, guid: d89c097bfa8f7d142b43c24389349cd3, type: 3}
+    - {fileID: 971469033, guid: d89c097bfa8f7d142b43c24389349cd3, type: 3}
+  - id: enemy_ranged_hurt
+    fps: 10
+    status: placeholder
+    frames:
+    - {fileID: 337540303, guid: c9270e6eb68d355409831e035426f34a, type: 3}
+    - {fileID: -1071964964, guid: c9270e6eb68d355409831e035426f34a, type: 3}
+  - id: enemy_ranged_death
+    fps: 12
+    status: placeholder
+    frames:
+    - {fileID: 1559356241, guid: 8fe248f4a8f201e41a559009c04359cd, type: 3}
+    - {fileID: -910272995, guid: 8fe248f4a8f201e41a559009c04359cd, type: 3}
+    - {fileID: -2001337030, guid: 8fe248f4a8f201e41a559009c04359cd, type: 3}
+    - {fileID: -1220974304, guid: 8fe248f4a8f201e41a559009c04359cd, type: 3}
+    - {fileID: -163954633, guid: 8fe248f4a8f201e41a559009c04359cd, type: 3}
+  - id: boss_idle
+    fps: 6
+    status: placeholder
+    frames:
+    - {fileID: 2015915531, guid: 32458a3189ff6d9489126abd2a81f079, type: 3}
+    - {fileID: -1734174709, guid: 32458a3189ff6d9489126abd2a81f079, type: 3}
+    - {fileID: 624081020, guid: 32458a3189ff6d9489126abd2a81f079, type: 3}
+    - {fileID: -1510121972, guid: 32458a3189ff6d9489126abd2a81f079, type: 3}
+  - id: boss_move
+    fps: 8
+    status: placeholder
+    frames:
+    - {fileID: -47087170, guid: 0d63073eb966bbe459f903f6f69377de, type: 3}
+    - {fileID: -157790135, guid: 0d63073eb966bbe459f903f6f69377de, type: 3}
+    - {fileID: -467453290, guid: 0d63073eb966bbe459f903f6f69377de, type: 3}
+    - {fileID: 581976160, guid: 0d63073eb966bbe459f903f6f69377de, type: 3}
+    - {fileID: -1332554925, guid: 0d63073eb966bbe459f903f6f69377de, type: 3}
+    - {fileID: 1473851065, guid: 0d63073eb966bbe459f903f6f69377de, type: 3}
+  - id: boss_skill
+    fps: 10
+    status: placeholder
+    frames:
+    - {fileID: 1094166619, guid: 44a5376e1208cef4d9d673c9bf8f1ac3, type: 3}
+    - {fileID: 783821917, guid: 44a5376e1208cef4d9d673c9bf8f1ac3, type: 3}
+    - {fileID: 379635539, guid: 44a5376e1208cef4d9d673c9bf8f1ac3, type: 3}
+    - {fileID: -1779008337, guid: 44a5376e1208cef4d9d673c9bf8f1ac3, type: 3}
+    - {fileID: -342244272, guid: 44a5376e1208cef4d9d673c9bf8f1ac3, type: 3}
+    - {fileID: -1188762889, guid: 44a5376e1208cef4d9d673c9bf8f1ac3, type: 3}
+    - {fileID: -42380054, guid: 44a5376e1208cef4d9d673c9bf8f1ac3, type: 3}
+    - {fileID: 1184688815, guid: 44a5376e1208cef4d9d673c9bf8f1ac3, type: 3}
+  - id: boss_death
+    fps: 10
+    status: placeholder
+    frames:
+    - {fileID: 1507840821, guid: bf486cc14aab8b541bbe36ce026c1b26, type: 3}
+    - {fileID: -1107929733, guid: bf486cc14aab8b541bbe36ce026c1b26, type: 3}
+    - {fileID: 167068360, guid: bf486cc14aab8b541bbe36ce026c1b26, type: 3}
+    - {fileID: 1201432710, guid: bf486cc14aab8b541bbe36ce026c1b26, type: 3}
+    - {fileID: -818135278, guid: bf486cc14aab8b541bbe36ce026c1b26, type: 3}
+    - {fileID: 359623642, guid: bf486cc14aab8b541bbe36ce026c1b26, type: 3}
+    - {fileID: 1293991225, guid: bf486cc14aab8b541bbe36ce026c1b26, type: 3}
+    - {fileID: -1531536990, guid: bf486cc14aab8b541bbe36ce026c1b26, type: 3}
+  - id: boss_projectile
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 627d68bce2dcfdf43a3d3631c273aa77, type: 3}
+  - id: fx_block_break
+    fps: 20
+    status: placeholder
+    frames:
+    - {fileID: 1358864039, guid: ef0d234ce9d543544b3ea6246ad69a08, type: 3}
+    - {fileID: -1840483150, guid: ef0d234ce9d543544b3ea6246ad69a08, type: 3}
+    - {fileID: -1689582818, guid: ef0d234ce9d543544b3ea6246ad69a08, type: 3}
+    - {fileID: -1925371522, guid: ef0d234ce9d543544b3ea6246ad69a08, type: 3}
+    - {fileID: 668243109, guid: ef0d234ce9d543544b3ea6246ad69a08, type: 3}
+    - {fileID: -568385886, guid: ef0d234ce9d543544b3ea6246ad69a08, type: 3}
+  - id: fx_drill_spark
+    fps: 20
+    status: placeholder
+    frames:
+    - {fileID: -1354949243, guid: 975d7025209a8894d8d45fde9d0f4a9e, type: 3}
+    - {fileID: 610751725, guid: 975d7025209a8894d8d45fde9d0f4a9e, type: 3}
+    - {fileID: -1088370546, guid: 975d7025209a8894d8d45fde9d0f4a9e, type: 3}
+    - {fileID: 531360276, guid: 975d7025209a8894d8d45fde9d0f4a9e, type: 3}
+  - id: fx_muzzle_flash
+    fps: 24
+    status: placeholder
+    frames:
+    - {fileID: 1531210620, guid: 8ad39cbe170e039489d2de7089fe856f, type: 3}
+    - {fileID: 1383610323, guid: 8ad39cbe170e039489d2de7089fe856f, type: 3}
+    - {fileID: 1458019998, guid: 8ad39cbe170e039489d2de7089fe856f, type: 3}
+  - id: fx_explosion
+    fps: 20
+    status: placeholder
+    frames:
+    - {fileID: 702629974, guid: 25e197b842f5e3541a35f9910ca50a8a, type: 3}
+    - {fileID: 411710490, guid: 25e197b842f5e3541a35f9910ca50a8a, type: 3}
+    - {fileID: 63804547, guid: 25e197b842f5e3541a35f9910ca50a8a, type: 3}
+    - {fileID: 1324634587, guid: 25e197b842f5e3541a35f9910ca50a8a, type: 3}
+    - {fileID: 840183987, guid: 25e197b842f5e3541a35f9910ca50a8a, type: 3}
+    - {fileID: 1337897661, guid: 25e197b842f5e3541a35f9910ca50a8a, type: 3}
+    - {fileID: -1403674592, guid: 25e197b842f5e3541a35f9910ca50a8a, type: 3}
+    - {fileID: 1173639643, guid: 25e197b842f5e3541a35f9910ca50a8a, type: 3}
+  - id: fx_hit_normal
+    fps: 24
+    status: placeholder
+    frames:
+    - {fileID: 1629858421, guid: 763a606cef1897a4b9dc97612b99f11b, type: 3}
+    - {fileID: 504904757, guid: 763a606cef1897a4b9dc97612b99f11b, type: 3}
+    - {fileID: 931965814, guid: 763a606cef1897a4b9dc97612b99f11b, type: 3}
+    - {fileID: -162318213, guid: 763a606cef1897a4b9dc97612b99f11b, type: 3}
+  - id: fx_hit_acid
+    fps: 16
+    status: placeholder
+    frames:
+    - {fileID: -161304647, guid: 2873cdcaf5fae8649b8dfa8ad95920c8, type: 3}
+    - {fileID: 1674902949, guid: 2873cdcaf5fae8649b8dfa8ad95920c8, type: 3}
+    - {fileID: 1391143067, guid: 2873cdcaf5fae8649b8dfa8ad95920c8, type: 3}
+    - {fileID: 1969683406, guid: 2873cdcaf5fae8649b8dfa8ad95920c8, type: 3}
+    - {fileID: 1302688307, guid: 2873cdcaf5fae8649b8dfa8ad95920c8, type: 3}
+    - {fileID: 1657914480, guid: 2873cdcaf5fae8649b8dfa8ad95920c8, type: 3}
+  - id: fx_hit_fire
+    fps: 16
+    status: placeholder
+    frames:
+    - {fileID: 1642411625, guid: 1274845bd8f639c4199bc90479825a41, type: 3}
+    - {fileID: 1759185691, guid: 1274845bd8f639c4199bc90479825a41, type: 3}
+    - {fileID: 635475820, guid: 1274845bd8f639c4199bc90479825a41, type: 3}
+    - {fileID: 1978106874, guid: 1274845bd8f639c4199bc90479825a41, type: 3}
+    - {fileID: -1440287505, guid: 1274845bd8f639c4199bc90479825a41, type: 3}
+    - {fileID: 1387846312, guid: 1274845bd8f639c4199bc90479825a41, type: 3}
+  - id: fx_hit_ice
+    fps: 16
+    status: placeholder
+    frames:
+    - {fileID: -235313080, guid: 9874796a648e18a438a3f320770ab4f9, type: 3}
+    - {fileID: -1363955609, guid: 9874796a648e18a438a3f320770ab4f9, type: 3}
+    - {fileID: 930256847, guid: 9874796a648e18a438a3f320770ab4f9, type: 3}
+    - {fileID: -2072349784, guid: 9874796a648e18a438a3f320770ab4f9, type: 3}
+    - {fileID: -903000693, guid: 9874796a648e18a438a3f320770ab4f9, type: 3}
+    - {fileID: -2009068857, guid: 9874796a648e18a438a3f320770ab4f9, type: 3}
+  - id: fx_status_poison
+    fps: 8
+    status: placeholder
+    frames:
+    - {fileID: -276416385, guid: 67ec621b1f2aec44e988bee6b90d1864, type: 3}
+    - {fileID: 1094282371, guid: 67ec621b1f2aec44e988bee6b90d1864, type: 3}
+    - {fileID: 2063331393, guid: 67ec621b1f2aec44e988bee6b90d1864, type: 3}
+    - {fileID: 2037859359, guid: 67ec621b1f2aec44e988bee6b90d1864, type: 3}
+  - id: fx_status_burn
+    fps: 12
+    status: placeholder
+    frames:
+    - {fileID: -1752776190, guid: 00a10a18ce9d5c24da935226241a7672, type: 3}
+    - {fileID: -1358633808, guid: 00a10a18ce9d5c24da935226241a7672, type: 3}
+    - {fileID: -2138007684, guid: 00a10a18ce9d5c24da935226241a7672, type: 3}
+    - {fileID: -522946453, guid: 00a10a18ce9d5c24da935226241a7672, type: 3}
+  - id: fx_status_frozen
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 5b445ec84de657d42bed0f7b2fbe6abf, type: 3}
+  - id: fx_blast
+    fps: 20
+    status: placeholder
+    frames:
+    - {fileID: 221463092, guid: e7e6fa2378e552a4a81c7bc8d5b45a48, type: 3}
+    - {fileID: 990114769, guid: e7e6fa2378e552a4a81c7bc8d5b45a48, type: 3}
+    - {fileID: -1548520216, guid: e7e6fa2378e552a4a81c7bc8d5b45a48, type: 3}
+    - {fileID: 2040957412, guid: e7e6fa2378e552a4a81c7bc8d5b45a48, type: 3}
+    - {fileID: 1104443868, guid: e7e6fa2378e552a4a81c7bc8d5b45a48, type: 3}
+    - {fileID: 69774294, guid: e7e6fa2378e552a4a81c7bc8d5b45a48, type: 3}
+    - {fileID: -1378436362, guid: e7e6fa2378e552a4a81c7bc8d5b45a48, type: 3}
+    - {fileID: -1889999114, guid: e7e6fa2378e552a4a81c7bc8d5b45a48, type: 3}
+  - id: fx_teleport
+    fps: 16
+    status: placeholder
+    frames:
+    - {fileID: 599080204, guid: a65eea6d960cfe64f85b6a1b91d308bf, type: 3}
+    - {fileID: 340221842, guid: a65eea6d960cfe64f85b6a1b91d308bf, type: 3}
+    - {fileID: -795295810, guid: a65eea6d960cfe64f85b6a1b91d308bf, type: 3}
+    - {fileID: -870411749, guid: a65eea6d960cfe64f85b6a1b91d308bf, type: 3}
+    - {fileID: 651729789, guid: a65eea6d960cfe64f85b6a1b91d308bf, type: 3}
+    - {fileID: 1578822002, guid: a65eea6d960cfe64f85b6a1b91d308bf, type: 3}
+  - id: fx_deposit
+    fps: 16
+    status: placeholder
+    frames:
+    - {fileID: -754697497, guid: 4f0c9a162c0c1ac45adeaa28eb0f03d0, type: 3}
+    - {fileID: 1809681454, guid: 4f0c9a162c0c1ac45adeaa28eb0f03d0, type: 3}
+    - {fileID: 1186717209, guid: 4f0c9a162c0c1ac45adeaa28eb0f03d0, type: 3}
+    - {fileID: -1065872345, guid: 4f0c9a162c0c1ac45adeaa28eb0f03d0, type: 3}
+    - {fileID: -1494195510, guid: 4f0c9a162c0c1ac45adeaa28eb0f03d0, type: 3}
+    - {fileID: 1144657679, guid: 4f0c9a162c0c1ac45adeaa28eb0f03d0, type: 3}
+  - id: bg_surface_sky
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: c6ec9e2b58fe0e04b8eae71401707f2a, type: 3}
+  - id: bg_surface_far
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 597794dfddf553940b198276937ad12d, type: 3}
+  - id: bg_surface_mid
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 117e62027e0681b4f84068ddd7d2d090, type: 3}
+  - id: bg_underground_far
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 9e247ac67b078f64ba4c3406ee658d9c, type: 3}
+  - id: bg_underground_mid
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 3277ad15f1b20174798db526432c5a1f, type: 3}
+  - id: ui_panel
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 0fd7f02c40edb0742bb022a65551e954, type: 3}
+  - id: ui_button
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 3b648eae74625b9428be8bfaf8dab44f, type: 3}
+  - id: ui_button_pressed
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: f46e0e5b4568b5c448330f7fc08b6169, type: 3}
+  - id: ui_bar_frame
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 82f4f9a14c63aed45a87d6900331e229, type: 3}
+  - id: ui_bar_fill
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 92f3724a4aeb903459fc94e9f75b7852, type: 3}
+  - id: ui_wave_timer
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: d4c079b6f52d0fc4387cca81561e28cf, type: 3}
+  - id: ui_wave_warning
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 167e0e617409a064fb1a08ed30f1809f, type: 3}
+  - id: ui_ammo_slot
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: b6eae141eeb0bad409a7bdf3045d2b7b, type: 3}
+  - id: ui_ammo_slot_selected
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 174bc273c08801d4d8d42f0313845f63, type: 3}
+  - id: ui_depth_meter
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: b86853fb0ec26ea4db8ea45d923a86cb, type: 3}
+  - id: ui_crosshair
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 30b73ae11c979584d96406403631a329, type: 3}
+  - id: ui_upgrade_node
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 685ff6319166d474095d428f92c25d16, type: 3}
+  - id: ui_upgrade_node_locked
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 04cae9de325600f4dac87be1ac8326e7, type: 3}
+  - id: ui_logo
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: feb3f31aa650dba4b9c4e7eeffeffb53, type: 3}
+  - id: ui_bg_mainmenu
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: d8608729a2d58714c98ccd0fa55a392d, type: 3}
+  - id: ui_screen_victory
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 436cd20f6825616458f46dcd2ae9853e, type: 3}
+  - id: ui_screen_gameover
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 3b4669be0560d0c409aaaaa2158c3d68, type: 3}
+  - id: icon_ore_iron
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: fa19665941aca97439cb88a6f1647835, type: 3}
+  - id: icon_ore_sulfur
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 8347a8c44bc2c6446b8bd5c136f51dcd, type: 3}
+  - id: icon_ore_mg
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: fc1ce2942fbc7e14fb671c5b27f5bc71, type: 3}
+  - id: icon_ore_kcl
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 1a2b6322a21d6124d8b7cddf72973393, type: 3}
+  - id: icon_ammo_normal
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 90534c9a4cff6764da0271202f6948f1, type: 3}
+  - id: icon_ammo_acid
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 73a46daff209bbb459a0ca70aaf6804d, type: 3}
+  - id: icon_ammo_fire
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 905d7663c654f094fba2ef1625b5d67c, type: 3}
+  - id: icon_ammo_ice
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 0a64478173519ca4a989497a872cb389, type: 3}
+  - id: icon_up_drill
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 9b57ff0707903674893a1eeebbd0bf69, type: 3}
+  - id: icon_up_move
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 511a343c2427bfe4eaa7e89ae82fc1d2, type: 3}
+  - id: icon_up_carry
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: e6486c3fc9ee7f644baed5b9e265392c, type: 3}
+  - id: icon_up_turret_dmg
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 861b9875d5cd10041b8b8e505133a9bd, type: 3}
+  - id: icon_up_turret_rot
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 5bfef7da293adaf448078458daf835c8, type: 3}
+  - id: icon_up_base_hp
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 6e655ce1ed5f74f4cb050711ded5eb8a, type: 3}
+  - id: icon_repair
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: c9bb62bf102ee8f479dcef60f0e66aab, type: 3}
+  - id: icon_lift
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 55c3e5ba4741b1e4c8d486fed99cdc7d, type: 3}
+  - id: icon_teleporter
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 5fd58bcb2ba128849b3d50e44e5748da, type: 3}
+  - id: icon_blast
+    fps: 0
+    status: placeholder
+    frames:
+    - {fileID: 21300000, guid: 68748d8fa793aaf4bb33d4c4f78ba5c9, type: 3}
