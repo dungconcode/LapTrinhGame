@@ -137,7 +137,9 @@ namespace Underlab.EditorTools.Art
             foreach (var e in Load().Values) now[e.id] = e.ImportSignature;
 
             var changed = new List<string>();
-            if (File.Exists(SignatureCache))
+            // Chưa có cache (lần đầu trên máy này) => coi như tất cả đổi, reimport 1 lần cho chắc.
+            if (!File.Exists(SignatureCache)) changed.AddRange(now.Keys);
+            else
             {
                 var old = new Dictionary<string, string>();
                 foreach (var l in File.ReadAllLines(SignatureCache))
