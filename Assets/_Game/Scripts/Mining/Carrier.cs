@@ -28,9 +28,13 @@ namespace Underlab.Mining
         public float Weight { get; private set; }
         public float Load01 => MaxWeight > 0f ? Mathf.Clamp01(Weight / MaxWeight) : 1f;
         public bool IsEmpty => Weight <= 0f;
+        /// <summary>Không nhặt thêm được cả loại quặng nhẹ nhất.</summary>
+        public bool IsFull => Weight + LightestWeight() > MaxWeight + 0.0001f;
 
         /// <summary>Gọi mỗi khi túi thay đổi (nhặt hoặc lấy ra).</summary>
         public event Action Changed;
+        /// <summary>Gọi khi vừa nhặt quặng (loại, số lượng).</summary>
+        public event Action<ResourceType, int> PickedUp;
 
         private readonly Dictionary<ResourceType, int> items = new Dictionary<ResourceType, int>();
         private readonly List<Collider2D> nearby = new List<Collider2D>();
@@ -61,6 +65,7 @@ namespace Underlab.Mining
 
             items[t] = Get(t) + taken;
             GameEvents.RaiseResourcePickedUp(t, taken);
+            PickedUp?.Invoke(t, taken);
             Refresh();
             return taken;
         }
@@ -96,6 +101,13 @@ namespace Underlab.Mining
                     rb.linearVelocity = to.normalized * config.magnetSpeed;
                 }
             }
+        }
+
+        private float LightestWeight()
+        {
+            float min = float.MaxValue;
+            foreach (var w in config.weights) min = Mathf.Min(min, w.weight);
+            return min == float.MaxValue ? 1f : min;
         }
 
         private void Refresh()

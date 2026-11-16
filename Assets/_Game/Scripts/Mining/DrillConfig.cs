@@ -17,6 +17,6 @@ namespace Underlab.Mining
         [Header("Quặng rơi ra")]
         public float dropPopSpeed = 2.5f;
         [Tooltip("Thời gian (giây) quặng mới rơi chưa nhặt được — để không hút ngay vào người")]
-        public float dropPickupDelay = 0.25f;
+        public float dropPickupDelay = 0.6f;
     }
 }

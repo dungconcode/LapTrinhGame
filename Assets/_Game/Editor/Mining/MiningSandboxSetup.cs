@@ -92,6 +92,7 @@ namespace Underlab.EditorTools.Mining
 
             var carrier = player.AddComponent<Carrier>();
             Set(carrier, "config", carrierConfig);
+            player.AddComponent<CarrierFeedback>();
 
             var hud = new GameObject("MiningDebugHud").AddComponent<MiningDebugHud>();
             Set(hud, "player", pc);

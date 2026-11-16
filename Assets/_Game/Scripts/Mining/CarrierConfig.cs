@@ -37,7 +37,7 @@ namespace Underlab.Mining
         [Header("Nhặt quặng")]
         [Tooltip("Bán kính hút quặng về phía người")]
         public float magnetRadius = 1.6f;
-        public float magnetSpeed = 7f;
+        public float magnetSpeed = 4.5f;
         [Tooltip("Khoảng cách coi như đã nhặt")]
         public float collectRadius = 0.45f;
 
