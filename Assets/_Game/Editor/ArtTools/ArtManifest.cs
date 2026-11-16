@@ -9,6 +9,8 @@ namespace Underlab.EditorTools.Art
     public class ArtEntry
     {
         public string id, category, type, pivot, priority, status, aiTool, notes;
+        /// <summary>Viền 9-slice theo px của spec (trái;dưới;phải;trên). Rỗng = không slice.</summary>
+        public string border;
         public int frames = 1;
         public float fps = 10f;
         public float worldW;
@@ -18,7 +20,22 @@ namespace Underlab.EditorTools.Art
 
         /// <summary>Các trường ảnh hưởng tới cách import (đổi => phải reimport PNG).</summary>
         public string ImportSignature =>
-            string.Join("|", type, frames, worldW.ToString(CultureInfo.InvariantCulture), pivot);
+            string.Join("|", type, frames, worldW.ToString(CultureInfo.InvariantCulture), pivot, border, specW, specH);
+
+        /// <summary>Viền 9-slice (x=trái, y=dưới, z=phải, w=trên) theo px của spec; Vector4.zero nếu không có.</summary>
+        public Vector4 BorderPx
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(border)) return Vector4.zero;
+                var p = border.Split(';');
+                if (p.Length != 4) return Vector4.zero;
+                var v = new float[4];
+                for (int i = 0; i < 4; i++)
+                    float.TryParse(p[i], NumberStyles.Float, CultureInfo.InvariantCulture, out v[i]);
+                return new Vector4(v[0], v[1], v[2], v[3]);
+            }
+        }
     }
 
     /// <summary>Đọc Assets/_Game/Art/asset_manifest.csv (nguồn sự thật cho spec của mọi asset).</summary>
@@ -49,7 +66,7 @@ namespace Underlab.EditorTools.Art
                 var line = lines[i].Trim();
                 if (line.Length == 0 || line.StartsWith("#")) continue;
 
-                var c = line.Split(new[] { ',' }, 12);
+                var c = line.Split(new[] { ',' }, 13);
                 if (c.Length < 8)
                 {
                     Debug.LogWarning($"[Art] Dòng {i + 1} trong manifest thiếu cột: {line}");
@@ -66,6 +83,7 @@ namespace Underlab.EditorTools.Art
                     status = Col(c, 9),
                     aiTool = Col(c, 10),
                     notes = Col(c, 11),
+                    border = Col(c, 12),
                 };
                 int.TryParse(c[3].Trim(), out e.frames);
                 if (e.frames < 1) e.frames = 1;

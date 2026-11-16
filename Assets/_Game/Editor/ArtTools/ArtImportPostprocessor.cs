@@ -49,6 +49,13 @@ namespace Underlab.EditorTools.Art
             settings.spriteAlignment = (int)SpriteAlignment.Custom;
             settings.spritePivot = pivot;
             settings.spriteExtrude = e.type == "tile" ? 0u : 1u;
+            // 9-slice: viền khai báo theo kích thước spec => quy đổi theo kích thước ảnh thật.
+            var border = e.BorderPx;
+            if (e.frames == 1 && border != Vector4.zero)
+            {
+                float sx = e.specW > 0 ? (float)w / e.specW : 1f, sy = e.specH > 0 ? (float)h / e.specH : 1f;
+                settings.spriteBorder = new Vector4(border.x * sx, border.y * sy, border.z * sx, border.w * sy);
+            }
             ti.SetTextureSettings(settings);
 
             if (e.frames > 1) SliceStrip(ti, e, h, frameW, pivot);

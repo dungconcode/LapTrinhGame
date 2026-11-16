@@ -161,7 +161,8 @@ namespace Underlab.UI
             // --- Đồng hồ wave (phải trên)
             var timerBg = MakeImage(root, "WaveTimer", "ui_wave_timer", new Vector2(1, 1), new Vector2(-40, -40), new Vector2(150, 150));
             timerBg.rectTransform.pivot = new Vector2(1, 1);
-            timerFill = MakeImage(timerBg.transform, "WaveTimerFill", "ui_bar_fill", new Vector2(0.5f, 0.5f), Vector2.zero, new Vector2(120, 120));
+            // Vòng trắng cùng kích thước nền => khớp vị trí các vạch trên ui_wave_timer
+            timerFill = MakeImage(timerBg.transform, "WaveTimerFill", "ui_wave_timer_fill", new Vector2(0.5f, 0.5f), Vector2.zero, new Vector2(150, 150));
             timerFill.rectTransform.pivot = new Vector2(0.5f, 0.5f);
             timerFill.type = Image.Type.Filled;
             timerFill.fillMethod = Image.FillMethod.Radial360;

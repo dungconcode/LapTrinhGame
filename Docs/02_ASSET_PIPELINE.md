@@ -40,6 +40,7 @@ Mỗi asset có **1 ID cố định** (vd `enemy_melee_walk`). Code chỉ biết
 | `status` | `placeholder` → `ai` → `ai-approved` / `art-wip` → `final` |
 | `ai_tool` | Gợi ý tool: GPT (ChatGPT) · GEM (Gemini) · CLA (Claude SVG) |
 | `notes` | Mô tả ngắn (không dùng dấu phẩy, ghi không dấu để Excel/Sheets khỏi lỗi font) |
+| `border` | (tuỳ chọn) viền 9-slice theo px của spec: `trái;dưới;phải;trên`, vd `48;48;48;48`. Dùng cho panel/nút/thanh co giãn |
 
 > Sửa `frames / world_w / pivot / type` trong CSV → tool tự reimport đúng các PNG đó. Thêm asset mới = thêm 1 dòng + chạy *Generate Missing Placeholders*.
 

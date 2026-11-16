@@ -527,67 +527,72 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 3277ad15f1b20174798db526432c5a1f, type: 3}
   - id: ui_panel
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 0fd7f02c40edb0742bb022a65551e954, type: 3}
   - id: ui_button
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 3b648eae74625b9428be8bfaf8dab44f, type: 3}
   - id: ui_button_pressed
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: f46e0e5b4568b5c448330f7fc08b6169, type: 3}
   - id: ui_bar_frame
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 82f4f9a14c63aed45a87d6900331e229, type: 3}
   - id: ui_bar_fill
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 92f3724a4aeb903459fc94e9f75b7852, type: 3}
   - id: ui_wave_timer
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: d4c079b6f52d0fc4387cca81561e28cf, type: 3}
+  - id: ui_wave_timer_fill
+    fps: 0
+    status: ai
+    frames:
+    - {fileID: 21300000, guid: 848e6826a485470468f7dacc7e5cade8, type: 3}
   - id: ui_wave_warning
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 167e0e617409a064fb1a08ed30f1809f, type: 3}
   - id: ui_ammo_slot
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: b6eae141eeb0bad409a7bdf3045d2b7b, type: 3}
   - id: ui_ammo_slot_selected
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 174bc273c08801d4d8d42f0313845f63, type: 3}
   - id: ui_depth_meter
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: b86853fb0ec26ea4db8ea45d923a86cb, type: 3}
   - id: ui_crosshair
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 30b73ae11c979584d96406403631a329, type: 3}
   - id: ui_upgrade_node
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 685ff6319166d474095d428f92c25d16, type: 3}
   - id: ui_upgrade_node_locked
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 04cae9de325600f4dac87be1ac8326e7, type: 3}
   - id: ui_logo
@@ -612,91 +617,91 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 3b4669be0560d0c409aaaaa2158c3d68, type: 3}
   - id: icon_ore_iron
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: fa19665941aca97439cb88a6f1647835, type: 3}
   - id: icon_ore_sulfur
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 8347a8c44bc2c6446b8bd5c136f51dcd, type: 3}
   - id: icon_ore_mg
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: fc1ce2942fbc7e14fb671c5b27f5bc71, type: 3}
   - id: icon_ore_kcl
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 1a2b6322a21d6124d8b7cddf72973393, type: 3}
   - id: icon_ammo_normal
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 90534c9a4cff6764da0271202f6948f1, type: 3}
   - id: icon_ammo_acid
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 73a46daff209bbb459a0ca70aaf6804d, type: 3}
   - id: icon_ammo_fire
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 905d7663c654f094fba2ef1625b5d67c, type: 3}
   - id: icon_ammo_ice
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 0a64478173519ca4a989497a872cb389, type: 3}
   - id: icon_up_drill
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 9b57ff0707903674893a1eeebbd0bf69, type: 3}
   - id: icon_up_move
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 511a343c2427bfe4eaa7e89ae82fc1d2, type: 3}
   - id: icon_up_carry
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: e6486c3fc9ee7f644baed5b9e265392c, type: 3}
   - id: icon_up_turret_dmg
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 861b9875d5cd10041b8b8e505133a9bd, type: 3}
   - id: icon_up_turret_rot
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 5bfef7da293adaf448078458daf835c8, type: 3}
   - id: icon_up_base_hp
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 6e655ce1ed5f74f4cb050711ded5eb8a, type: 3}
   - id: icon_repair
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: c9bb62bf102ee8f479dcef60f0e66aab, type: 3}
   - id: icon_lift
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 55c3e5ba4741b1e4c8d486fed99cdc7d, type: 3}
   - id: icon_teleporter
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 5fd58bcb2ba128849b3d50e44e5748da, type: 3}
   - id: icon_blast
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 68748d8fa793aaf4bb33d4c4f78ba5c9, type: 3}
