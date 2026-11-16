@@ -111,6 +111,7 @@ namespace Underlab.Mining
             var ore = OrePickup.Spawn(t, 1, pos, playerCollider, 0f, 0f);
             ore.BlockUntilLeave(transform, leaveDistance);
             ore.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(player.Facing * tossSpeed, 2f);
+            if (TryGetComponent<MiningAudio>(out var sfx)) sfx.PlayDrop(); // không dùng ?. với component Unity
             FloatingText.Spawn($"-1 {CarrierFeedback.DisplayName(t)}", transform.position + Vector3.up * 1.1f,
                 CarrierFeedback.DisplayColor(t), duration: 0.7f, size: 0.8f);
         }

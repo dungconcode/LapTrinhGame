@@ -31,7 +31,7 @@ namespace Underlab.UI
 
         private void Awake()
         {
-            if (font == null) font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            if (font == null) font = Underlab.UI.GameFonts.Main;
             BuildUi();
         }
 

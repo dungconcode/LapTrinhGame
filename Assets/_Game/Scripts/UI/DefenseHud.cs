@@ -29,7 +29,7 @@ namespace Underlab.UI
             var label = new GameObject("Base and Bank", typeof(RectTransform), typeof(TextMeshProUGUI));
             label.transform.SetParent(canvasRoot.transform, false);
             status = label.GetComponent<TextMeshProUGUI>();
-            font = TMP_FontAsset.CreateFontAsset(Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf"));
+            font = GameFonts.MainTMP; // Roboto (LegacyRuntime không có dữ liệu nét cho TMP)
             status.font = font; status.fontSize = 20; status.raycastTarget = false;
             status.color = new Color(.65f, 1, 1);
             var rect = status.rectTransform; rect.anchorMin = rect.anchorMax = new Vector2(0, 0); rect.pivot = Vector2.zero;

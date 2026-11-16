@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96998bcbc30a4bb40a03a74b6d82fdd1, type: 3}
+  m_Name: MiningAudioConfig
+  m_EditorClassIdentifier: 
+  masterVolume: 0.6
+  drillLoop: {fileID: 0}
+  blockBreak: {fileID: 0}
+  orePickup: {fileID: 0}
+  deposit: {fileID: 0}
+  jetpackLoop: {fileID: 0}
+  land: {fileID: 0}
+  oreDrop: {fileID: 0}
+  drillVolume: 0.35
+  breakVolume: 0.6
+  pickupVolume: 0.45
+  depositVolume: 0.5
+  jetpackVolume: 0.25
+  landVolume: 0.5

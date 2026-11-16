@@ -143,7 +143,7 @@ namespace Underlab.Mining
             brt.anchorMin = brt.anchorMax = new Vector2(0.5f, 0.7f);
             brt.sizeDelta = new Vector2(1400, 140);
             banner = bgo.GetComponent<Text>();
-            banner.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            banner.font = Underlab.UI.GameFonts.Main;
             banner.fontSize = 84;
             banner.fontStyle = FontStyle.Bold;
             banner.alignment = TextAnchor.MiddleCenter;

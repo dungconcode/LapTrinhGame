@@ -36,7 +36,7 @@ namespace Underlab.EditorTools.Mining
                 if (mb.GetType().Name == "GameManager") mb.GetType().GetMethod("StartRun")?.Invoke(mb, null);
             // Ra xa base để DepositZone không tự đổ quặng vào kho giữa chừng.
             go.transform.position = new Vector3(8.5f, 0.1f, 0f);
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSecondsRealtime(0.5f);
 
             // 1) Quặng rơi cạnh người, rồi tắt/bật Player (giống lên/xuống pháo) => vẫn phải nhặt được.
             for (int i = 0; i < 3; i++)

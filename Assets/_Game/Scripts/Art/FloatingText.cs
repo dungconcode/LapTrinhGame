@@ -31,7 +31,7 @@ namespace Underlab.Art
 
         public static TextMesh CreateLabel(string text, Vector3 position, Color color, float size = 1f, int sortingOrder = 50)
         {
-            if (font == null) font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            if (font == null) font = Underlab.UI.GameFonts.Main;
 
             var go = new GameObject("Text " + text);
             go.transform.position = position;
