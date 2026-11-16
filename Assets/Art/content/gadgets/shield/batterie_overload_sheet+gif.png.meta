@@ -1,0 +1,892 @@
+fileFormatVersion: 2
+guid: 12505323d353e6349b80730dfe9570fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3649983032797713087
+    second: batterie_overload_sheet+gif_0
+  - first:
+      213: 6658944948354384854
+    second: batterie_overload_sheet+gif_1
+  - first:
+      213: 666077325792712280
+    second: batterie_overload_sheet+gif_2
+  - first:
+      213: -4331372682771354694
+    second: batterie_overload_sheet+gif_3
+  - first:
+      213: -5640464189406436063
+    second: batterie_overload_sheet+gif_4
+  - first:
+      213: -990928938907798059
+    second: batterie_overload_sheet+gif_5
+  - first:
+      213: -7562383733161103630
+    second: batterie_overload_sheet+gif_6
+  - first:
+      213: -4575602604791953498
+    second: batterie_overload_sheet+gif_7
+  - first:
+      213: -3071274574869594206
+    second: batterie_overload_sheet+gif_8
+  - first:
+      213: -1980489835845985895
+    second: batterie_overload_sheet+gif_9
+  - first:
+      213: -8379624613487675727
+    second: batterie_overload_sheet+gif_10
+  - first:
+      213: -6334756911518421395
+    second: batterie_overload_sheet+gif_11
+  - first:
+      213: 5310003031674612521
+    second: batterie_overload_sheet+gif_12
+  - first:
+      213: -2563911650592913110
+    second: batterie_overload_sheet+gif_13
+  - first:
+      213: 4970855937761080578
+    second: batterie_overload_sheet+gif_14
+  - first:
+      213: -3399850341860834655
+    second: batterie_overload_sheet+gif_15
+  - first:
+      213: -5646740775843629966
+    second: batterie_overload_sheet+gif_16
+  - first:
+      213: -5571941017675984354
+    second: batterie_overload_sheet+gif_17
+  - first:
+      213: 8509564278669751936
+    second: batterie_overload_sheet+gif_18
+  - first:
+      213: -2150039758777635312
+    second: batterie_overload_sheet+gif_19
+  - first:
+      213: 1562750861922229314
+    second: batterie_overload_sheet+gif_20
+  - first:
+      213: 7768585726388363793
+    second: batterie_overload_sheet+gif_21
+  - first:
+      213: 6009753119866871634
+    second: batterie_overload_sheet+gif_22
+  - first:
+      213: -4836481030984098099
+    second: batterie_overload_sheet+gif_23
+  - first:
+      213: 5152637933065061684
+    second: batterie_overload_sheet+gif_24
+  - first:
+      213: 498318186705960196
+    second: batterie_overload_sheet+gif_25
+  - first:
+      213: 8488302994194168941
+    second: batterie_overload_sheet+gif_26
+  - first:
+      213: -5126569277245270225
+    second: batterie_overload_sheet+gif_27
+  - first:
+      213: 2817217907504169874
+    second: batterie_overload_sheet+gif_28
+  - first:
+      213: 5761327823766027151
+    second: batterie_overload_sheet+gif_29
+  - first:
+      213: 1895709572839334083
+    second: batterie_overload_sheet+gif_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 70
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14da3e525c7a85dc0800000000000000
+      internalID: -3649983032797713087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 70
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d38b816623596c50800000000000000
+      internalID: 6658944948354384854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 65
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85611dc7cc16e3900800000000000000
+      internalID: 666077325792712280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 65
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb259d5e7fd3e3c0800000000000000
+      internalID: -4331372682771354694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 73
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1252e1644bb09b1b0800000000000000
+      internalID: -5640464189406436063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_5
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 78
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5feb651638f32f0800000000000000
+      internalID: -990928938907798059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 10
+        width: 83
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe6db9df040d0790800000000000000
+      internalID: -7562383733161103630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 35
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7060c6ca13080c0800000000000000
+      internalID: -4575602604791953498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 40
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af7535eb04a065d0800000000000000
+      internalID: -3071274574869594206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999d025ccf2e384e0800000000000000
+      internalID: -1980489835845985895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 40
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b672f9afc795bb80800000000000000
+      internalID: -8379624613487675727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 46
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e6e76e62c6618a0800000000000000
+      internalID: -6334756911518421395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_12
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b663baf9be0b940800000000000000
+      internalID: 5310003031674612521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 13
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a298cee10f72b6cd0800000000000000
+      internalID: -2563911650592913110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_14
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205f3ef73270cf440800000000000000
+      internalID: 4970855937761080578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 13
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a205e3902e41d0d0800000000000000
+      internalID: -3399850341860834655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 34
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274702d9e2fb2a1b0800000000000000
+      internalID: -5646740775843629966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_17
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 24
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e129ef37a2d7ca2b0800000000000000
+      internalID: -5571941017675984354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086b67730ab081670800000000000000
+      internalID: 8509564278669751936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_19
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 34
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ea7151b368922e0800000000000000
+      internalID: -2150039758777635312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_20
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 24
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c5f4d01a100b510800000000000000
+      internalID: 1562750861922229314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_21
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 9
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1126c84fe8f8fcb60800000000000000
+      internalID: 7768585726388363793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_22
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 12
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fd5791f9ee66350800000000000000
+      internalID: 6009753119866871634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 31
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce1749802e51ecb0800000000000000
+      internalID: -4836481030984098099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_24
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 20
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435cb8876e8d18740800000000000000
+      internalID: 5152637933065061684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_25
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 3
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40db9b720c16ae600800000000000000
+      internalID: 498318186705960196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_26
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 3
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cf3daa9928cc570800000000000000
+      internalID: 8488302994194168941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_27
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f275d517764cad8b0800000000000000
+      internalID: -5126569277245270225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_28
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293c7a7b2c4c81720800000000000000
+      internalID: 2817217907504169874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_29
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bf522812954ff40800000000000000
+      internalID: 5761327823766027151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: batterie_overload_sheet+gif_30
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0656600d9ee4a10800000000000000
+      internalID: 1895709572839334083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

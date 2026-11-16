@@ -1,0 +1,1617 @@
+fileFormatVersion: 2
+guid: 84cb81449e553264790f838155078b9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3825233770650105143
+    second: supplementcave_sheet_0
+  - first:
+      213: -3401880472817219288
+    second: supplementcave_sheet_1
+  - first:
+      213: -3083124490675609460
+    second: supplementcave_sheet_2
+  - first:
+      213: -4999352134912334693
+    second: supplementcave_sheet_3
+  - first:
+      213: -2330940144712684334
+    second: supplementcave_sheet_4
+  - first:
+      213: 1088138620379833551
+    second: supplementcave_sheet_5
+  - first:
+      213: 4767504717332463322
+    second: supplementcave_sheet_6
+  - first:
+      213: 7874642385125033146
+    second: supplementcave_sheet_7
+  - first:
+      213: -4510072705311261370
+    second: supplementcave_sheet_8
+  - first:
+      213: 1699682278709154689
+    second: supplementcave_sheet_9
+  - first:
+      213: -128522164587368269
+    second: supplementcave_sheet_10
+  - first:
+      213: -4852559104947334690
+    second: supplementcave_sheet_11
+  - first:
+      213: -6156900016685076431
+    second: supplementcave_sheet_12
+  - first:
+      213: 3358948550811681056
+    second: supplementcave_sheet_13
+  - first:
+      213: -1853933323498232012
+    second: supplementcave_sheet_14
+  - first:
+      213: 513624708706635367
+    second: supplementcave_sheet_15
+  - first:
+      213: -1668636622716476212
+    second: supplementcave_sheet_16
+  - first:
+      213: -6413748702047563573
+    second: supplementcave_sheet_17
+  - first:
+      213: -447976061182386882
+    second: supplementcave_sheet_18
+  - first:
+      213: -8366024959483014714
+    second: supplementcave_sheet_19
+  - first:
+      213: 4063755111521112044
+    second: supplementcave_sheet_20
+  - first:
+      213: 843219524708002911
+    second: supplementcave_sheet_21
+  - first:
+      213: -5820687955184512673
+    second: supplementcave_sheet_22
+  - first:
+      213: -1124820825569829516
+    second: supplementcave_sheet_23
+  - first:
+      213: -5306727282530629789
+    second: supplementcave_sheet_24
+  - first:
+      213: -732397050387647979
+    second: supplementcave_sheet_25
+  - first:
+      213: 7739558715448309013
+    second: supplementcave_sheet_26
+  - first:
+      213: -8177271886090179793
+    second: supplementcave_sheet_27
+  - first:
+      213: -6644054484877976399
+    second: supplementcave_sheet_28
+  - first:
+      213: 8907536123503290631
+    second: supplementcave_sheet_29
+  - first:
+      213: 6327927841037965462
+    second: supplementcave_sheet_30
+  - first:
+      213: 4310647063191718774
+    second: supplementcave_sheet_31
+  - first:
+      213: 6847437743439916270
+    second: supplementcave_sheet_32
+  - first:
+      213: -2654482492365416804
+    second: supplementcave_sheet_33
+  - first:
+      213: 4175387701771553747
+    second: supplementcave_sheet_34
+  - first:
+      213: 1173630676600220599
+    second: supplementcave_sheet_35
+  - first:
+      213: 5453649569644539033
+    second: supplementcave_sheet_36
+  - first:
+      213: -3427171193596857184
+    second: supplementcave_sheet_37
+  - first:
+      213: 2858076070152760753
+    second: supplementcave_sheet_38
+  - first:
+      213: -5643895737724303097
+    second: supplementcave_sheet_39
+  - first:
+      213: 8055833151497170685
+    second: supplementcave_sheet_40
+  - first:
+      213: -4014197784925156751
+    second: supplementcave_sheet_41
+  - first:
+      213: 4690745199043367078
+    second: supplementcave_sheet_42
+  - first:
+      213: 5641695060887972964
+    second: supplementcave_sheet_43
+  - first:
+      213: -4177478109580923233
+    second: supplementcave_sheet_44
+  - first:
+      213: -3106362269403013379
+    second: supplementcave_sheet_45
+  - first:
+      213: 7590661592067487408
+    second: supplementcave_sheet_46
+  - first:
+      213: 5736093934540591464
+    second: supplementcave_sheet_47
+  - first:
+      213: 7268788548039918977
+    second: supplementcave_sheet_48
+  - first:
+      213: -9121798244881730639
+    second: supplementcave_sheet_49
+  - first:
+      213: -8339458355152756736
+    second: supplementcave_sheet_50
+  - first:
+      213: 6074359558753649907
+    second: supplementcave_sheet_51
+  - first:
+      213: 5775573294800847208
+    second: supplementcave_sheet_52
+  - first:
+      213: 3264357048810596132
+    second: supplementcave_sheet_53
+  - first:
+      213: -4982225998611791345
+    second: supplementcave_sheet_54
+  - first:
+      213: 4089834957739740989
+    second: supplementcave_sheet_55
+  - first:
+      213: 1824370810918795443
+    second: supplementcave_sheet_56
+  - first:
+      213: -2061446672256602704
+    second: supplementcave_sheet_57
+  - first:
+      213: 8419862259722025273
+    second: supplementcave_sheet_58
+  - first:
+      213: -2657645645163187598
+    second: supplementcave_sheet_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: supplementcave_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca829d072a0aeac0800000000000000
+      internalID: -3825233770650105143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8294461ebb71ac0d0800000000000000
+      internalID: -3401880472817219288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8029fe5c9a8635d0800000000000000
+      internalID: -3083124490675609460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94a57398bbbe9ab0800000000000000
+      internalID: -4999352134912334693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dce3b9c946d6afd0800000000000000
+      internalID: -2330940144712684334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4af1e5f48d91f00800000000000000
+      internalID: 1088138620379833551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adeb995f744992240800000000000000
+      internalID: 4767504717332463322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4cc921789584d60800000000000000
+      internalID: 7874642385125033146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dbcb815c00961c0800000000000000
+      internalID: -4510072705311261370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1835c75f60c769710800000000000000
+      internalID: 1699682278709154689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b07102b5c5673ef0800000000000000
+      internalID: -128522164587368269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1d60a343f38acb0800000000000000
+      internalID: -4852559104947334690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130b3e33e0c4e8aa0800000000000000
+      internalID: -6156900016685076431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02181f519e16d9e20800000000000000
+      internalID: 3358948550811681056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437e0aff6718546e0800000000000000
+      internalID: -1853933323498232012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e825683f2c02700800000000000000
+      internalID: 513624708706635367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4e6cb15dfc7d8e0800000000000000
+      internalID: -1668636622716476212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc015d77989cdf6a0800000000000000
+      internalID: -6413748702047563573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d5855552878c9f0800000000000000
+      internalID: -447976061182386882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 155
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c196fbdf98e5eb80800000000000000
+      internalID: -8366024959483014714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefc4644ebb556830800000000000000
+      internalID: 4063755111521112044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ce4eda0b7b3bb00800000000000000
+      internalID: 843219524708002911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5115d2e423c83fa0800000000000000
+      internalID: -5820687955184512673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dd2ff2b65d360f0800000000000000
+      internalID: -1124820825569829516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36743ec17a7ba56b0800000000000000
+      internalID: -5306727282530629789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512b91953c006d5f0800000000000000
+      internalID: -732397050387647979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515339055af686b60800000000000000
+      internalID: 7739558715448309013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b6ecd6b8e748e80800000000000000
+      internalID: -8177271886090179793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcd180d5a39bc3a0800000000000000
+      internalID: -6644054484877976399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709af5109eced9b70800000000000000
+      internalID: 8907536123503290631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6985f5938d051d750800000000000000
+      internalID: 6327927841037965462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b8f994aae72db30800000000000000
+      internalID: 4310647063191718774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeca65f295cf60f50800000000000000
+      internalID: 6847437743439916270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96d01cbc32692bd0800000000000000
+      internalID: -2654482492365416804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbc0ab1ef4f1f930800000000000000
+      internalID: 4175387701771553747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbe148d1e2994010800000000000000
+      internalID: 1173630676600220599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cef1093614fab40800000000000000
+      internalID: 5453649569644539033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4353515fd3070d0800000000000000
+      internalID: -3427171193596857184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdef760b0de9a720800000000000000
+      internalID: 2858076070152760753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7090a9baabadca1b0800000000000000
+      internalID: -5643895737724303097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfeedc4d1911ccf60800000000000000
+      internalID: 8055833151497170685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a406bf164ba48c0800000000000000
+      internalID: -4014197784925156751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a059d8e7efd81140800000000000000
+      internalID: 4690745199043367078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cad4354c35b4e40800000000000000
+      internalID: 5641695060887972964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e6575eacd9606c0800000000000000
+      internalID: -4177478109580923233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe9e8469fbf3e4d0800000000000000
+      internalID: -3106362269403013379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6326d3082775960800000000000000
+      internalID: 7590661592067487408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8619096da03ba9f40800000000000000
+      internalID: 5736093934540591464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185c8593cacefd460800000000000000
+      internalID: 7268788548039918977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3fa0d53dcd86180800000000000000
+      internalID: -9121798244881730639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000e4f17fca444c80800000000000000
+      internalID: -8339458355152756736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f48289d5d57c4450800000000000000
+      internalID: 6074359558753649907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86146d2bf45f62050800000000000000
+      internalID: 5775573294800847208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427e56ac0735d4d20800000000000000
+      internalID: 3264357048810596132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02470ae9d39bdab0800000000000000
+      internalID: -4982225998611791345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f4d06a93302c830800000000000000
+      internalID: 4089834957739740989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 0
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8f76b2697715910800000000000000
+      internalID: 1824370810918795443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 69
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdebb07c254463e0800000000000000
+      internalID: -2061446672256602704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939f2786d1c59d470800000000000000
+      internalID: 8419862259722025273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supplementcave_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 69
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2723f25dd552e1bd0800000000000000
+      internalID: -2657645645163187598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1717 @@
+fileFormatVersion: 2
+guid: 86954b000183a4e42b8c23c9fd211615
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6405422868164521253
+    second: corpses_sheet_0
+  - first:
+      213: 1759502924330470515
+    second: corpses_sheet_1
+  - first:
+      213: -3227480361302380367
+    second: corpses_sheet_2
+  - first:
+      213: 3583083362659064695
+    second: corpses_sheet_3
+  - first:
+      213: -2759559096132749040
+    second: corpses_sheet_4
+  - first:
+      213: -2640251689376701419
+    second: corpses_sheet_5
+  - first:
+      213: 1038996823634998009
+    second: corpses_sheet_6
+  - first:
+      213: -821652733832184559
+    second: corpses_sheet_7
+  - first:
+      213: -862606395151846239
+    second: corpses_sheet_8
+  - first:
+      213: -421201912957937700
+    second: corpses_sheet_9
+  - first:
+      213: -4069775806482334513
+    second: corpses_sheet_10
+  - first:
+      213: 6444474676881068281
+    second: corpses_sheet_11
+  - first:
+      213: 7186250541806246743
+    second: corpses_sheet_12
+  - first:
+      213: -3067743996880528775
+    second: corpses_sheet_13
+  - first:
+      213: -4928951906016157852
+    second: corpses_sheet_14
+  - first:
+      213: 2417909330046396480
+    second: corpses_sheet_15
+  - first:
+      213: 3786481829607098949
+    second: corpses_sheet_16
+  - first:
+      213: -2466225354844696565
+    second: corpses_sheet_17
+  - first:
+      213: 1433176153730350131
+    second: corpses_sheet_18
+  - first:
+      213: 8926690203997149792
+    second: corpses_sheet_19
+  - first:
+      213: 857392765103500070
+    second: corpses_sheet_20
+  - first:
+      213: -8828714642225383630
+    second: corpses_sheet_21
+  - first:
+      213: -3206374102776522314
+    second: corpses_sheet_22
+  - first:
+      213: 450768751581009035
+    second: corpses_sheet_23
+  - first:
+      213: -3291453151709681136
+    second: corpses_sheet_24
+  - first:
+      213: 1409638146430660603
+    second: corpses_sheet_25
+  - first:
+      213: -8621514070762705580
+    second: corpses_sheet_26
+  - first:
+      213: -4780824147144571065
+    second: corpses_sheet_27
+  - first:
+      213: 8744824387471980965
+    second: corpses_sheet_28
+  - first:
+      213: -7593214947351612639
+    second: corpses_sheet_29
+  - first:
+      213: 3607521542210594123
+    second: corpses_sheet_30
+  - first:
+      213: 2128509145482035524
+    second: corpses_sheet_31
+  - first:
+      213: 4262415420402876833
+    second: corpses_sheet_32
+  - first:
+      213: -5215285660387368188
+    second: corpses_sheet_33
+  - first:
+      213: -3845753530050619344
+    second: corpses_sheet_34
+  - first:
+      213: 7370842579201329614
+    second: corpses_sheet_35
+  - first:
+      213: -8631035159296630860
+    second: corpses_sheet_36
+  - first:
+      213: -279827816062613419
+    second: corpses_sheet_37
+  - first:
+      213: -4415889344871892711
+    second: corpses_sheet_38
+  - first:
+      213: 7333576207569699883
+    second: corpses_sheet_39
+  - first:
+      213: -3349992236371212140
+    second: corpses_sheet_40
+  - first:
+      213: -4363564410086783921
+    second: corpses_sheet_41
+  - first:
+      213: -6502973211975369607
+    second: corpses_sheet_42
+  - first:
+      213: 67672601257795975
+    second: corpses_sheet_43
+  - first:
+      213: -1113491830991884139
+    second: corpses_sheet_44
+  - first:
+      213: -9216658175490206808
+    second: corpses_sheet_45
+  - first:
+      213: -7684004782880932679
+    second: corpses_sheet_46
+  - first:
+      213: -6208685183546648131
+    second: corpses_sheet_47
+  - first:
+      213: -6019562374578025219
+    second: corpses_sheet_48
+  - first:
+      213: -7076957623006346887
+    second: corpses_sheet_49
+  - first:
+      213: 2421864951874510279
+    second: corpses_sheet_50
+  - first:
+      213: 2294403746953462168
+    second: corpses_sheet_51
+  - first:
+      213: -8846104872727032604
+    second: corpses_sheet_52
+  - first:
+      213: 2595153352758671065
+    second: corpses_sheet_53
+  - first:
+      213: 3134024817326815542
+    second: corpses_sheet_54
+  - first:
+      213: 1173440616647050776
+    second: corpses_sheet_55
+  - first:
+      213: -8044298576028532976
+    second: corpses_sheet_56
+  - first:
+      213: 6228702700987857014
+    second: corpses_sheet_57
+  - first:
+      213: 7644194769300934733
+    second: corpses_sheet_58
+  - first:
+      213: -6256700953837106311
+    second: corpses_sheet_59
+  - first:
+      213: -1654849472392756991
+    second: corpses_sheet_60
+  - first:
+      213: -225330635125573482
+    second: corpses_sheet_61
+  - first:
+      213: 6365479996022370000
+    second: corpses_sheet_62
+  - first:
+      213: 5297684371877430472
+    second: corpses_sheet_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: corpses_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 61
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2d3eab6dd5b17a0800000000000000
+      internalID: -6405422868164521253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c8af166920b6810800000000000000
+      internalID: 1759502924330470515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 61
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0b50916bfa533d0800000000000000
+      internalID: -3227480361302380367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bd7e7955ba9b130800000000000000
+      internalID: 3583083362659064695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 61
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0193f427f9314b9d0800000000000000
+      internalID: -2759559096132749040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514a311c311fb5bd0800000000000000
+      internalID: -2640251689376701419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 61
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2f5833b124b6e00800000000000000
+      internalID: 1038996823634998009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d343f1137e894f0800000000000000
+      internalID: -821652733832184559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 61
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a47efbcd086704f0800000000000000
+      internalID: -862606395151846239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd75d6f7717972af0800000000000000
+      internalID: -421201912957937700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 62
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc342377704587c0800000000000000
+      internalID: -4069775806482334513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f01f77039f5f6950800000000000000
+      internalID: 6444474676881068281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 62
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bd15b1bc0bab360800000000000000
+      internalID: 7186250541806246743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a5914a61f2d65d0800000000000000
+      internalID: -3067743996880528775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 62
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f1cee2b58d89bb0800000000000000
+      internalID: -4928951906016157852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048a48c99b32e8120800000000000000
+      internalID: 2417909330046396480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 61
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ac33299294c8430800000000000000
+      internalID: 3786481829607098949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b009b6c3b1536cdd0800000000000000
+      internalID: -2466225354844696565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 62
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c78a75e1aa3e310800000000000000
+      internalID: 1433176153730350131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a9535e179f1eb70800000000000000
+      internalID: 8926690203997149792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 61
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62bebfc5d2216eb00800000000000000
+      internalID: 857392765103500070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237bdd63fca1a7580800000000000000
+      internalID: -8828714642225383630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 61
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b95efaddbba083d0800000000000000
+      internalID: -3206374102776522314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8415d19ac3714600800000000000000
+      internalID: 450768751581009035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 61
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a21812cc86252d0800000000000000
+      internalID: -3291453151709681136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffe6d3fc6a009310800000000000000
+      internalID: 1409638146430660603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 61
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d2822a1aa3a5880800000000000000
+      internalID: -8621514070762705580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74786df94c917adb0800000000000000
+      internalID: -4780824147144571065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 61
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9b076c27bdb5970800000000000000
+      internalID: 8744824387471980965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123bbe76c3b7f9690800000000000000
+      internalID: -7593214947351612639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 61
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45280baabd701230800000000000000
+      internalID: 3607521542210594123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44180ad5acbf98d10800000000000000
+      internalID: 2128509145482035524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 61
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1c24add34272b30800000000000000
+      internalID: 4262415420402876833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 60
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4032c6ad2559f97b0800000000000000
+      internalID: -5215285660387368188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 61
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038d0a34a8321aac0800000000000000
+      internalID: -3845753530050619344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 60
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec98e9cf54e7a4660800000000000000
+      internalID: 7370842579201329614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 61
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf97367047683880800000000000000
+      internalID: -8631035159296630860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 60
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5588059751add1cf0800000000000000
+      internalID: -279827816062613419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 61
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9197a77890c97b2c0800000000000000
+      internalID: -4415889344871892711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 60
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24c271b4b816c560800000000000000
+      internalID: 7333576207569699883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 61
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49807ce5fcf6281d0800000000000000
+      internalID: -3349992236371212140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 60
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f448d36c9418173c0800000000000000
+      internalID: -4363564410086783921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 61
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cb354615cc0c5a0800000000000000
+      internalID: -6502973211975369607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7816ffe4fdb60f000800000000000000
+      internalID: 67672601257795975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 61
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590fd6944151c80f0800000000000000
+      internalID: -1113491830991884139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 59
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3d4b9a83ad71080800000000000000
+      internalID: -9216658175490206808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 61
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcbaff8c5eec5590800000000000000
+      internalID: -7684004782880932679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 59
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9987878b156d9a0800000000000000
+      internalID: -6208685183546648131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 15
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc48ffc9e7367ca0800000000000000
+      internalID: -6019562374578025219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 13
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971c636898899cd90800000000000000
+      internalID: -7076957623006346887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 15
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdd27697513c9120800000000000000
+      internalID: 2421864951874510279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 13
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8918c743d0c57df10800000000000000
+      internalID: 2294403746953462168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecc047ac725c3580800000000000000
+      internalID: -8846104872727032604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 13
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d638d08936d30420800000000000000
+      internalID: 2595153352758671065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 14
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639f50277fa4e7b20800000000000000
+      internalID: 3134024817326815542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 12
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81643401606e84010800000000000000
+      internalID: 1173440616647050776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 12
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f73acc019ec5090800000000000000
+      internalID: -8044298576028532976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 12
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678b5effa1cc07650800000000000000
+      internalID: 6228702700987857014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 11
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40d41a54a2a51a60800000000000000
+      internalID: 7644194769300934733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 10
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b01b4c1abbb29a0800000000000000
+      internalID: -6256700953837106311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10189413c2bc809e0800000000000000
+      internalID: -1654849472392756991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 0
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698b3503bf67fdcf0800000000000000
+      internalID: -225330635125573482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dea4c3a45ab65850800000000000000
+      internalID: 6365479996022370000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpses_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c484ed2ed7258940800000000000000
+      internalID: 5297684371877430472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

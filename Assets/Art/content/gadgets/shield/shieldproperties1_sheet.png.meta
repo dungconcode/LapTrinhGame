@@ -1,0 +1,2142 @@
+fileFormatVersion: 2
+guid: 5aabee0edcaa34042bfc2ff57b5b8156
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3831954952642347162
+    second: shieldproperties1_sheet_0
+  - first:
+      213: 2218502604532488254
+    second: shieldproperties1_sheet_1
+  - first:
+      213: 7756190353056878092
+    second: shieldproperties1_sheet_2
+  - first:
+      213: 4608692241391508118
+    second: shieldproperties1_sheet_3
+  - first:
+      213: -3201858805735513664
+    second: shieldproperties1_sheet_4
+  - first:
+      213: 5204325676835749238
+    second: shieldproperties1_sheet_5
+  - first:
+      213: 467692385682104896
+    second: shieldproperties1_sheet_6
+  - first:
+      213: 867554467219357512
+    second: shieldproperties1_sheet_7
+  - first:
+      213: 5851732130203620637
+    second: shieldproperties1_sheet_8
+  - first:
+      213: 4721447484798917951
+    second: shieldproperties1_sheet_9
+  - first:
+      213: 1962076693539664609
+    second: shieldproperties1_sheet_10
+  - first:
+      213: -5171801281520711679
+    second: shieldproperties1_sheet_11
+  - first:
+      213: 633094003972130266
+    second: shieldproperties1_sheet_12
+  - first:
+      213: -7075560328792653910
+    second: shieldproperties1_sheet_13
+  - first:
+      213: -5351528448461283940
+    second: shieldproperties1_sheet_14
+  - first:
+      213: -9185630037949749071
+    second: shieldproperties1_sheet_15
+  - first:
+      213: -3707400129982060051
+    second: shieldproperties1_sheet_16
+  - first:
+      213: -8176893080716938772
+    second: shieldproperties1_sheet_17
+  - first:
+      213: -5155117023228781193
+    second: shieldproperties1_sheet_18
+  - first:
+      213: -5014273882505664079
+    second: shieldproperties1_sheet_19
+  - first:
+      213: -2583155716776863903
+    second: shieldproperties1_sheet_20
+  - first:
+      213: 6498817409964546433
+    second: shieldproperties1_sheet_21
+  - first:
+      213: -7595991448708156788
+    second: shieldproperties1_sheet_22
+  - first:
+      213: -4434021763126230265
+    second: shieldproperties1_sheet_23
+  - first:
+      213: 8811659374156081277
+    second: shieldproperties1_sheet_24
+  - first:
+      213: 5376670778765689178
+    second: shieldproperties1_sheet_25
+  - first:
+      213: 3206614500863516177
+    second: shieldproperties1_sheet_26
+  - first:
+      213: -7257523492817227930
+    second: shieldproperties1_sheet_27
+  - first:
+      213: 3677226250442844562
+    second: shieldproperties1_sheet_28
+  - first:
+      213: -2441992562279705193
+    second: shieldproperties1_sheet_29
+  - first:
+      213: -7900765658923743973
+    second: shieldproperties1_sheet_30
+  - first:
+      213: 118706190094278358
+    second: shieldproperties1_sheet_31
+  - first:
+      213: 7499238964183620976
+    second: shieldproperties1_sheet_32
+  - first:
+      213: -5366259304392312183
+    second: shieldproperties1_sheet_33
+  - first:
+      213: 6933359563929765563
+    second: shieldproperties1_sheet_34
+  - first:
+      213: 3677056778296371905
+    second: shieldproperties1_sheet_35
+  - first:
+      213: 9185859006909427148
+    second: shieldproperties1_sheet_36
+  - first:
+      213: 2008998324932431554
+    second: shieldproperties1_sheet_37
+  - first:
+      213: 6506382029367341087
+    second: shieldproperties1_sheet_38
+  - first:
+      213: -3370656618983832743
+    second: shieldproperties1_sheet_39
+  - first:
+      213: 3522993940448949664
+    second: shieldproperties1_sheet_40
+  - first:
+      213: 2767437461537152682
+    second: shieldproperties1_sheet_41
+  - first:
+      213: -7125691844301301899
+    second: shieldproperties1_sheet_42
+  - first:
+      213: 9110559306939866144
+    second: shieldproperties1_sheet_43
+  - first:
+      213: -2202665623227356343
+    second: shieldproperties1_sheet_44
+  - first:
+      213: -8135880077681542575
+    second: shieldproperties1_sheet_45
+  - first:
+      213: -2485379364502591690
+    second: shieldproperties1_sheet_46
+  - first:
+      213: -2366475204957242142
+    second: shieldproperties1_sheet_47
+  - first:
+      213: -5278377880713273265
+    second: shieldproperties1_sheet_48
+  - first:
+      213: -5401482233434889203
+    second: shieldproperties1_sheet_49
+  - first:
+      213: -1885470401682366887
+    second: shieldproperties1_sheet_50
+  - first:
+      213: 4596362647251913559
+    second: shieldproperties1_sheet_51
+  - first:
+      213: -4736829465483585139
+    second: shieldproperties1_sheet_52
+  - first:
+      213: -2845000185718769034
+    second: shieldproperties1_sheet_53
+  - first:
+      213: 3229199405883069645
+    second: shieldproperties1_sheet_54
+  - first:
+      213: 355501046625731416
+    second: shieldproperties1_sheet_55
+  - first:
+      213: -8137215126995360017
+    second: shieldproperties1_sheet_56
+  - first:
+      213: -5728305538273014199
+    second: shieldproperties1_sheet_57
+  - first:
+      213: 6401864453547967127
+    second: shieldproperties1_sheet_58
+  - first:
+      213: -5338532769772158655
+    second: shieldproperties1_sheet_59
+  - first:
+      213: -1055036463046557511
+    second: shieldproperties1_sheet_60
+  - first:
+      213: -6602662011899522915
+    second: shieldproperties1_sheet_61
+  - first:
+      213: -3094307941452084212
+    second: shieldproperties1_sheet_62
+  - first:
+      213: -845616199440351689
+    second: shieldproperties1_sheet_63
+  - first:
+      213: 3692395649758562291
+    second: shieldproperties1_sheet_64
+  - first:
+      213: -3209021891725682493
+    second: shieldproperties1_sheet_65
+  - first:
+      213: -9181289308862218481
+    second: shieldproperties1_sheet_66
+  - first:
+      213: -1828169921187547652
+    second: shieldproperties1_sheet_67
+  - first:
+      213: -789030901576538985
+    second: shieldproperties1_sheet_68
+  - first:
+      213: -6178328424177690243
+    second: shieldproperties1_sheet_69
+  - first:
+      213: 3452405959576910641
+    second: shieldproperties1_sheet_70
+  - first:
+      213: 6664723363474203526
+    second: shieldproperties1_sheet_71
+  - first:
+      213: 8668840922117519146
+    second: shieldproperties1_sheet_72
+  - first:
+      213: 8926594916815622811
+    second: shieldproperties1_sheet_73
+  - first:
+      213: 33494949714875324
+    second: shieldproperties1_sheet_74
+  - first:
+      213: -8111830798857931796
+    second: shieldproperties1_sheet_75
+  - first:
+      213: -5775198292753910815
+    second: shieldproperties1_sheet_76
+  - first:
+      213: -7046890175193435740
+    second: shieldproperties1_sheet_77
+  - first:
+      213: -7765024745002538907
+    second: shieldproperties1_sheet_78
+  - first:
+      213: 931651021066009551
+    second: shieldproperties1_sheet_79
+  - first:
+      213: -5198388328060389095
+    second: shieldproperties1_sheet_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 341
+        width: 142
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90cb831ab6dd2530800000000000000
+      internalID: 3831954952642347162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 199
+        width: 174
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38107c5d54b9ce10800000000000000
+      internalID: 2218502604532488254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 61
+        width: 94
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e4444380683ab60800000000000000
+      internalID: 7756190353056878092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 123
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a5d37fc2d55ff30800000000000000
+      internalID: 4608692241391508118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 129
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1ad2f5166b093d0800000000000000
+      internalID: -3201858805735513664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 115
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d3d3f11aa793840800000000000000
+      internalID: 5204325676835749238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 71
+        width: 90
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042acb03fb39d7600800000000000000
+      internalID: 467692385682104896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 101
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fb9e1013c2a0c00800000000000000
+      internalID: 867554467219357512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 77
+        width: 85
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15d68d5e57853150800000000000000
+      internalID: 5851732130203620637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 66
+        width: 245
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3dd91dd873f58140800000000000000
+      internalID: 4721447484798917951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 119
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e231847b52ba3b10800000000000000
+      internalID: 1962076693539664609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 82
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1084c06c2221a38b0800000000000000
+      internalID: -5171801281520711679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 95
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5403074a339c800800000000000000
+      internalID: 633094003972130266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3202
+        y: 72
+        width: 269
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafb77f6e5f8ecd90800000000000000
+      internalID: -7075560328792653910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 119
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d5110da3d8bb5b0800000000000000
+      internalID: -5351528448461283940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3653
+        y: 70
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8e8d5e526168080800000000000000
+      internalID: -9185630037949749071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 3748
+        y: 72
+        width: 105
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9ae24793bac8cc0800000000000000
+      internalID: -3707400129982060051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 3869
+        y: 117
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1748de017d58e80800000000000000
+      internalID: -8176893080716938772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3965
+        y: 62
+        width: 111
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d11ee51685578b0800000000000000
+      internalID: -5155117023228781193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4086
+        y: 92
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b92bba7878b96ab0800000000000000
+      internalID: -5014273882505664079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 4617
+        y: 66
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167defdcf89c62cd0800000000000000
+      internalID: -2583155716776863903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 4838
+        y: 68
+        width: 132
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1899f0d8000703a50800000000000000
+      internalID: 6498817409964546433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 5151
+        y: 71
+        width: 269
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8278dec50e959690800000000000000
+      internalID: -7595991448708156788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 115
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703828ae2b03772c0800000000000000
+      internalID: -4434021763126230265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 70
+        width: 127
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78605eb38d494a70800000000000000
+      internalID: 8811659374156081277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 112
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a514d822695cd9a40800000000000000
+      internalID: 5376670778765689178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 82
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e169f26ee208c20800000000000000
+      internalID: 3206614500863516177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 114
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fa395d5d8184b90800000000000000
+      internalID: -7257523492817227930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 74
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2992360cac1280330800000000000000
+      internalID: 3677226250442844562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 81
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7951c2de3bc4c1ed0800000000000000
+      internalID: -2441992562279705193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 77
+        width: 68
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15ce364e77da5290800000000000000
+      internalID: -7900765658923743973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 76
+        width: 231
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de9535a6aab5a100800000000000000
+      internalID: 118706190094278358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 3591
+        y: 115
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ddee1fa16a21860800000000000000
+      internalID: 7499238964183620976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 114
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98abf0528973785b0800000000000000
+      internalID: -5366259304392312183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 4075
+        y: 109
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb64714f9cd383060800000000000000
+      internalID: 6933359563929765563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 4261
+        y: 100
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca2c4178a7870330800000000000000
+      internalID: 3677056778296371905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 101
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccda8a7191aba7f70800000000000000
+      internalID: 9185859006909427148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 74
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cec3f7155561eb10800000000000000
+      internalID: 2008998324932431554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 4420
+        y: 104
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10fc61cbff4b4a50800000000000000
+      internalID: 6506382029367341087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 4446
+        y: 113
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95346add9a50931d0800000000000000
+      internalID: -3370656618983832743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 4498
+        y: 112
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5305eb25034e030800000000000000
+      internalID: 3522993940448949664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 4517
+        y: 105
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaed70175b9e76620800000000000000
+      internalID: 2767437461537152682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 4705
+        y: 92
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577d58965057c1d90800000000000000
+      internalID: -7125691844301301899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 4976
+        y: 64
+        width: 112
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c974b7b653f6e70800000000000000
+      internalID: 9110559306939866144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 82
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ba190394f8e61e0800000000000000
+      internalID: -2202665623227356343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 81
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a3d92dc2c871f80800000000000000
+      internalID: -8135880077681542575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 95
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637acb6d2a8228dd0800000000000000
+      internalID: -2485379364502591690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 66
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ecf0c6d657982fd0800000000000000
+      internalID: -2366475204957242142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 66
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f406ec5984f6fb6b0800000000000000
+      internalID: -5278377880713273265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 67
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04a787e6841a05b0800000000000000
+      internalID: -5401482233434889203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 69
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e9539c8a675d5e0800000000000000
+      internalID: -1885470401682366887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 68
+        width: 106
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b0350a97f89cf30800000000000000
+      internalID: 4596362647251913559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 102
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d895f3ca2b6634eb0800000000000000
+      internalID: -4736829465483585139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 84
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67aff4097678488d0800000000000000
+      internalID: -2845000185718769034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 75
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4109820cb60dc20800000000000000
+      internalID: 3229199405883069645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 80
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8530861815efee400800000000000000
+      internalID: 355501046625731416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 74
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6a18e64fdc21f80800000000000000
+      internalID: -8137215126995360017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 80
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e855a7678f080b0800000000000000
+      internalID: -5728305538273014199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 86
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7924ded4dcdf7d850800000000000000
+      internalID: 6401864453547967127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 81
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141c2fb0bb8b9e5b0800000000000000
+      internalID: -5338532769772158655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 78
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0860b3de1cb51f0800000000000000
+      internalID: -1055036463046557511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 78
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9053c0f1e1ae54a0800000000000000
+      internalID: -6602662011899522915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 78
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c0414525fce05d0800000000000000
+      internalID: -3094307941452084212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 78
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73eba000c84c344f0800000000000000
+      internalID: -845616199440351689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 76
+        width: 68
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f78e02c7460e3330800000000000000
+      internalID: 3692395649758562291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 73
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c81d3377934773d0800000000000000
+      internalID: -3209021891725682493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 75
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ffc25a402859080800000000000000
+      internalID: -9181289308862218481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 3617
+        y: 102
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5ff8a842901a6e0800000000000000
+      internalID: -1828169921187547652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 3849
+        y: 75
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79469b2539ccc05f0800000000000000
+      internalID: -789030901576538985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 3894
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79903b480b224aa0800000000000000
+      internalID: -6178328424177690243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 87
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bf509bde869ef20800000000000000
+      internalID: 3452405959576910641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 3901
+        y: 68
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683602e769add7c50800000000000000
+      internalID: 6664723363474203526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 4067
+        y: 79
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a273f21a3e8ed4870800000000000000
+      internalID: 8668840922117519146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 4118
+        y: 63
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b925a9e18c2a1eb70800000000000000
+      internalID: 8926594916815622811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 4182
+        y: 63
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb35683ba7ff67000800000000000000
+      internalID: 33494949714875324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 63
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3fff3eddcfc6f80800000000000000
+      internalID: -8111830798857931796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 4416
+        y: 97
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3f5f440cf5adfa0800000000000000
+      internalID: -5775198292753910815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 4482
+        y: 61
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1b760c8ba643e90800000000000000
+      internalID: -7046890175193435740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 4756
+        y: 61
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5686102a2271d3490800000000000000
+      internalID: -7765024745002538907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 64
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbf445eaa3edec00800000000000000
+      internalID: 931651021066009551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldproperties1_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 4337
+        y: 62
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9197c6d9b5d9bd7b0800000000000000
+      internalID: -5198388328060389095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

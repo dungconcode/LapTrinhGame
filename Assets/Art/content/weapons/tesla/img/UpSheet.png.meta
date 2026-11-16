@@ -1,0 +1,2867 @@
+fileFormatVersion: 2
+guid: 76d6d98978607f24db0a8b45410d8fe7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1507275628412518217
+    second: UpSheet_0
+  - first:
+      213: -1720371808835412289
+    second: UpSheet_1
+  - first:
+      213: -1046438680980775815
+    second: UpSheet_2
+  - first:
+      213: 8609642626308296898
+    second: UpSheet_3
+  - first:
+      213: 1202674521413151243
+    second: UpSheet_4
+  - first:
+      213: 7574562831813475261
+    second: UpSheet_5
+  - first:
+      213: -6604917414848589482
+    second: UpSheet_6
+  - first:
+      213: -2531988507290735401
+    second: UpSheet_7
+  - first:
+      213: -6673883602343711782
+    second: UpSheet_8
+  - first:
+      213: -2091754411760056073
+    second: UpSheet_9
+  - first:
+      213: 3219194792557623055
+    second: UpSheet_10
+  - first:
+      213: -3687692010747706128
+    second: UpSheet_11
+  - first:
+      213: 7680952016818820402
+    second: UpSheet_12
+  - first:
+      213: -8482802388430054234
+    second: UpSheet_13
+  - first:
+      213: -448602087064938727
+    second: UpSheet_14
+  - first:
+      213: 7938949204742201016
+    second: UpSheet_15
+  - first:
+      213: 2867233486700510233
+    second: UpSheet_16
+  - first:
+      213: 1999630074057139763
+    second: UpSheet_17
+  - first:
+      213: 7716127807802119285
+    second: UpSheet_18
+  - first:
+      213: 833661544539596379
+    second: UpSheet_19
+  - first:
+      213: -8447857269311523527
+    second: UpSheet_20
+  - first:
+      213: 105389308812028481
+    second: UpSheet_21
+  - first:
+      213: -504335096945930829
+    second: UpSheet_22
+  - first:
+      213: -4713269277155275143
+    second: UpSheet_23
+  - first:
+      213: 4655965431305552253
+    second: UpSheet_24
+  - first:
+      213: 2702182317095419218
+    second: UpSheet_25
+  - first:
+      213: 4860168949940502780
+    second: UpSheet_26
+  - first:
+      213: -5956753218977797619
+    second: UpSheet_27
+  - first:
+      213: 6263788745619699376
+    second: UpSheet_28
+  - first:
+      213: 4493930922086570375
+    second: UpSheet_29
+  - first:
+      213: -7377845987506194424
+    second: UpSheet_30
+  - first:
+      213: -3383322238054203413
+    second: UpSheet_31
+  - first:
+      213: -8693769784876017805
+    second: UpSheet_32
+  - first:
+      213: 8655081757081943408
+    second: UpSheet_33
+  - first:
+      213: 768380732363015109
+    second: UpSheet_34
+  - first:
+      213: -8193483350251038748
+    second: UpSheet_35
+  - first:
+      213: -2517895053308486586
+    second: UpSheet_36
+  - first:
+      213: 2191011497102089635
+    second: UpSheet_37
+  - first:
+      213: -1302072791555650354
+    second: UpSheet_38
+  - first:
+      213: 3337644617633505376
+    second: UpSheet_39
+  - first:
+      213: 2157421377288849571
+    second: UpSheet_40
+  - first:
+      213: 1445732141507581529
+    second: UpSheet_41
+  - first:
+      213: -8586619916996153653
+    second: UpSheet_42
+  - first:
+      213: -1060554563476934043
+    second: UpSheet_43
+  - first:
+      213: 2232409128497517745
+    second: UpSheet_44
+  - first:
+      213: 1275805888571255033
+    second: UpSheet_45
+  - first:
+      213: -4448211933441277087
+    second: UpSheet_46
+  - first:
+      213: 2973397083454732305
+    second: UpSheet_47
+  - first:
+      213: 6557319446107617824
+    second: UpSheet_48
+  - first:
+      213: -8674633594685249885
+    second: UpSheet_49
+  - first:
+      213: 11945291492556855
+    second: UpSheet_50
+  - first:
+      213: -2447931804825989484
+    second: UpSheet_51
+  - first:
+      213: 4986482286476844584
+    second: UpSheet_52
+  - first:
+      213: 3848941005721642200
+    second: UpSheet_53
+  - first:
+      213: -86088932309708462
+    second: UpSheet_54
+  - first:
+      213: 2478667245911814115
+    second: UpSheet_55
+  - first:
+      213: 4148796930268030378
+    second: UpSheet_56
+  - first:
+      213: -2706314201662083263
+    second: UpSheet_57
+  - first:
+      213: 1445471572434944716
+    second: UpSheet_58
+  - first:
+      213: 5856260847312989198
+    second: UpSheet_59
+  - first:
+      213: 964573157390937550
+    second: UpSheet_60
+  - first:
+      213: 5853192419697190407
+    second: UpSheet_61
+  - first:
+      213: 8913783350335363269
+    second: UpSheet_62
+  - first:
+      213: 8561703291932467986
+    second: UpSheet_63
+  - first:
+      213: 8764026014036323798
+    second: UpSheet_64
+  - first:
+      213: 7816478727326625039
+    second: UpSheet_65
+  - first:
+      213: 6484249408813350588
+    second: UpSheet_66
+  - first:
+      213: -3969439552801641700
+    second: UpSheet_67
+  - first:
+      213: 3608471568228136252
+    second: UpSheet_68
+  - first:
+      213: -4306165726619939277
+    second: UpSheet_69
+  - first:
+      213: 7843838938738349793
+    second: UpSheet_70
+  - first:
+      213: 3073230646102339424
+    second: UpSheet_71
+  - first:
+      213: -3661525228907823474
+    second: UpSheet_72
+  - first:
+      213: 1848430368999554612
+    second: UpSheet_73
+  - first:
+      213: 6665682613038455597
+    second: UpSheet_74
+  - first:
+      213: 7414648814764982482
+    second: UpSheet_75
+  - first:
+      213: -1889406132691071948
+    second: UpSheet_76
+  - first:
+      213: -8714447457461294227
+    second: UpSheet_77
+  - first:
+      213: -8643719873664660297
+    second: UpSheet_78
+  - first:
+      213: -219349008908981667
+    second: UpSheet_79
+  - first:
+      213: -3951118460189021675
+    second: UpSheet_80
+  - first:
+      213: -1360189342568650069
+    second: UpSheet_81
+  - first:
+      213: -6066514407735501424
+    second: UpSheet_82
+  - first:
+      213: -5760762050016980138
+    second: UpSheet_83
+  - first:
+      213: 7855375389686195360
+    second: UpSheet_84
+  - first:
+      213: -2158265802021020579
+    second: UpSheet_85
+  - first:
+      213: -1192784980219978549
+    second: UpSheet_86
+  - first:
+      213: 1340118998152844827
+    second: UpSheet_87
+  - first:
+      213: 3574475855781586418
+    second: UpSheet_88
+  - first:
+      213: 9144206114570156881
+    second: UpSheet_89
+  - first:
+      213: -219008647938033264
+    second: UpSheet_90
+  - first:
+      213: -6975146075858828091
+    second: UpSheet_91
+  - first:
+      213: 5816590778810290587
+    second: UpSheet_92
+  - first:
+      213: 6317628391898874826
+    second: UpSheet_93
+  - first:
+      213: -5621908056759115554
+    second: UpSheet_94
+  - first:
+      213: 2339008892835506310
+    second: UpSheet_95
+  - first:
+      213: -1037681843149072885
+    second: UpSheet_96
+  - first:
+      213: -5447025799154378614
+    second: UpSheet_97
+  - first:
+      213: -8441080413371740920
+    second: UpSheet_98
+  - first:
+      213: 876944301167966678
+    second: UpSheet_99
+  - first:
+      213: -1423944035405656225
+    second: UpSheet_100
+  - first:
+      213: -390982133295851943
+    second: UpSheet_101
+  - first:
+      213: 7350504281332753095
+    second: UpSheet_102
+  - first:
+      213: -5615139902196171992
+    second: UpSheet_103
+  - first:
+      213: 3848505359538263893
+    second: UpSheet_104
+  - first:
+      213: 6744394877976195616
+    second: UpSheet_105
+  - first:
+      213: 2657949998677053999
+    second: UpSheet_106
+  - first:
+      213: 1753466571112321232
+    second: UpSheet_107
+  - first:
+      213: -6391804738838928913
+    second: UpSheet_108
+  - first:
+      213: 1228468902759980848
+    second: UpSheet_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UpSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 147
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fb12ab23beae410800000000000000
+      internalID: 1507275628412518217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 146
+        width: 174
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbed4cc64f20028e0800000000000000
+      internalID: -1720371808835412289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 144
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c99ec509d4a71f0800000000000000
+      internalID: -1046438680980775815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_3
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 144
+        width: 202
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0da205a589b7770800000000000000
+      internalID: 8609642626308296898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_4
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 166
+        width: 121
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a6e3dea12c0b010800000000000000
+      internalID: 1202674521413151243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_5
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 147
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb7e1783c04e1960800000000000000
+      internalID: 7574562831813475261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_6
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 145
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65198250b9e9654a0800000000000000
+      internalID: -6604917414848589482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 143
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc609f1ed19cdcd0800000000000000
+      internalID: -2531988507290735401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 146
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbaff1393a9163a0800000000000000
+      internalID: -6673883602343711782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_9
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 145
+        width: 92
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f88fa1f17898f2e0800000000000000
+      internalID: -2091754411760056073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_10
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 145
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f073f299b90ecac20800000000000000
+      internalID: 3219194792557623055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_11
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 145
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4465a87afa2dcc0800000000000000
+      internalID: -3687692010747706128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 148
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2355e43f929389a60800000000000000
+      internalID: 7680952016818820402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_13
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 147
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac9ac9eb28074a80800000000000000
+      internalID: -8482802388430054234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_14
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 145
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917def257ce36c9f0800000000000000
+      internalID: -448602087064938727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_15
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 146
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be57864d30dc2e60800000000000000
+      internalID: 7938949204742201016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_16
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 146
+        width: 56
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c73e63aa57ac720800000000000000
+      internalID: 2867233486700510233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_17
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 146
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3362d5635fc10cb10800000000000000
+      internalID: 1999630074057139763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_18
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 145
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5741f810c51351b60800000000000000
+      internalID: 7716127807802119285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_19
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 143
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56af2102c2c19b00800000000000000
+      internalID: 833661544539596379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9353c7d729e23ca80800000000000000
+      internalID: -8447857269311523527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 128
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a6dda940b667100800000000000000
+      internalID: 105389308812028481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_22
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 125
+        width: 138
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd86c2c6ed3009f0800000000000000
+      internalID: -504335096945930829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_23
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 125
+        width: 137
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ec56c709a179eb0800000000000000
+      internalID: -4713269277155275143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_24
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 124
+        width: 56
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71477334ef4d9040800000000000000
+      internalID: 4655965431305552253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_25
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 124
+        width: 67
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d70d82084108520800000000000000
+      internalID: 2702182317095419218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_26
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 126
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf04691e8e9c27340800000000000000
+      internalID: 4860168949940502780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_27
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 125
+        width: 123
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ae920f18c555da0800000000000000
+      internalID: -5956753218977797619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_28
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 124
+        width: 179
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b670ca5da27de650800000000000000
+      internalID: 6263788745619699376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_29
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 125
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7891d102d56ad5e30800000000000000
+      internalID: 4493930922086570375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 82
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808f623f920ac9990800000000000000
+      internalID: -7377845987506194424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 102
+        width: 133
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef7910a9560c01d0800000000000000
+      internalID: -3383322238054203413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_32
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 102
+        width: 85
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377d0753176895780800000000000000
+      internalID: -8693769784876017805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_33
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 104
+        width: 58
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d35d060070d1870800000000000000
+      internalID: 8655081757081943408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_34
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 5
+        width: 190
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c380cc7436d9aa00800000000000000
+      internalID: 768380732363015109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_35
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 103
+        width: 65
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7953bcd46ea4e80800000000000000
+      internalID: -8193483350251038748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_36
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 103
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c95d51ac3ae0dd0800000000000000
+      internalID: -2517895053308486586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_37
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 105
+        width: 54
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad119f1959086e10800000000000000
+      internalID: 2191011497102089635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_38
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 101
+        width: 72
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecccf9bd1bb1eede0800000000000000
+      internalID: -1302072791555650354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_39
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 104
+        width: 92
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0602a8c9812b15e20800000000000000
+      internalID: 3337644617633505376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_40
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 102
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8c228ef43b0fd10800000000000000
+      internalID: 2157421377288849571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_41
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 105
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9569cee09b5401410800000000000000
+      internalID: 1445732141507581529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 88
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce662aeda236d880800000000000000
+      internalID: -8586619916996153653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_43
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 84
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562b90b5e372841f0800000000000000
+      internalID: -1060554563476934043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_44
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 89
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b41f69464c1bfe10800000000000000
+      internalID: 2232409128497517745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_45
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 84
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f824a632b294b110800000000000000
+      internalID: 1275805888571255033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_46
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 86
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163449d60d6c442c0800000000000000
+      internalID: -4448211933441277087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_47
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 85
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1187087c4e0a34920800000000000000
+      internalID: 2973397083454732305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 87
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a71084b47400b50800000000000000
+      internalID: 6557319446107617824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_49
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 87
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6ad10b4b28d9780800000000000000
+      internalID: -8674633594685249885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_50
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 85
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7300728ed207a2000800000000000000
+      internalID: 11945291492556855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_51
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 84
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e47f24ef2370ed0800000000000000
+      internalID: -2447931804825989484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_52
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 88
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82eda34583b833540800000000000000
+      internalID: 4986482286476844584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_53
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 84
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4297fb37f2a6530800000000000000
+      internalID: 3848941005721642200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_54
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 87
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251569a72962ecef0800000000000000
+      internalID: -86088932309708462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_55
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 45
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef28f44abef56220800000000000000
+      internalID: 2478667245911814115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_56
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 89
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa56bd9a3dc739930800000000000000
+      internalID: 4148796930268030378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 84
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f265f729d317ad0800000000000000
+      internalID: -2706314201662083263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_58
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 84
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc209e79cb85f0410800000000000000
+      internalID: 1445471572434944716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_59
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 85
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c6e1c763e954150800000000000000
+      internalID: 5856260847312989198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_60
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 84
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecde9261d2ad26d00800000000000000
+      internalID: 964573157390937550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_61
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 86
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7066f028e77ba3150800000000000000
+      internalID: 5853192419697190407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_62
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 88
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8d789dabe14bb70800000000000000
+      internalID: 8913783350335363269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_63
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 85
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2136deb38c741d670800000000000000
+      internalID: 8561703291932467986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_64
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 87
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddeae8d93310a970800000000000000
+      internalID: 8764026014036323798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_65
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 85
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d63b03df5b97c60800000000000000
+      internalID: 7816478727326625039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_66
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 84
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe3b577b7eacf950800000000000000
+      internalID: 6484249408813350588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_67
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 84
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b6fd9f1c7b9e8c0800000000000000
+      internalID: -3969439552801641700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_68
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 87
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35b556d5cdd31230800000000000000
+      internalID: 3608471568228136252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_69
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 84
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e4bd0361d6d34c0800000000000000
+      internalID: -4306165726619939277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_70
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 84
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e650e2d4f9eadc60800000000000000
+      internalID: 7843838938738349793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_71
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 86
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f26cd6dfe46aa20800000000000000
+      internalID: 3073230646102339424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_72
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 87
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e71d23436af2dc0800000000000000
+      internalID: -3661525228907823474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_73
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 85
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e334090a1f6a910800000000000000
+      internalID: 1848430368999554612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_74
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 86
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b97af2503418c50800000000000000
+      internalID: 6665682613038455597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_75
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 85
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0865200df16e660800000000000000
+      internalID: 7414648814764982482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_76
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 70
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c0180022b77c5e0800000000000000
+      internalID: -1889406132691071948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_77
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 46
+        width: 72
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ba6346530101780800000000000000
+      internalID: -8714447457461294227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_78
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 47
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bccb3042965b0880800000000000000
+      internalID: -8643719873664660297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_79
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 65
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a65221d37b4fcf0800000000000000
+      internalID: -219349008908981667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_80
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 66
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ae1f2c1beca29c0800000000000000
+      internalID: -3951118460189021675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_81
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 65
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa6ce0eff2af1de0800000000000000
+      internalID: -1360189342568650069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_82
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 67
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dd226b9496fcba0800000000000000
+      internalID: -6066514407735501424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_83
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 46
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653df25ff69ad00b0800000000000000
+      internalID: -5760762050016980138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_84
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 65
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4679f1c46e30d60800000000000000
+      internalID: 7855375389686195360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_85
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 68
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cd9a320bc4c02e0800000000000000
+      internalID: -2158265802021020579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_86
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 65
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc11905160627fe0800000000000000
+      internalID: -1192784980219978549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_87
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 67
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1617a9e02f099210800000000000000
+      internalID: 1340118998152844827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_88
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 49
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5621a3ad61b9130800000000000000
+      internalID: 3574475855781586418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_89
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bb8eb530fb6ee70800000000000000
+      internalID: 9144206114570156881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_90
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 63
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0993ae88bcce5fcf0800000000000000
+      internalID: -219008647938033264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_91
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 66
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c489f3999d433f90800000000000000
+      internalID: -6975146075858828091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_92
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 67
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91dcc6ee7ea8b050800000000000000
+      internalID: 5816590778810290587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_93
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 64
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac30e0adc89bca750800000000000000
+      internalID: 6317628391898874826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_94
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 46
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed067f49868faf1b0800000000000000
+      internalID: -5621908056759115554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_95
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 5
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688a0f70234d57020800000000000000
+      internalID: 2339008892835506310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_96
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 64
+        width: 36
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b061a3d8cd96991f0800000000000000
+      internalID: -1037681843149072885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_97
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 65
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88d30f25e64864b0800000000000000
+      internalID: -5447025799154378614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_98
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 24
+        width: 14
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d487836124bda80800000000000000
+      internalID: -8441080413371740920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_99
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 66
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d97be612388b2c00800000000000000
+      internalID: 876944301167966678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_100
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 62
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f0c95b1722d3ce0800000000000000
+      internalID: -1423944035405656225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_101
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 4
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956506f32d3f29af0800000000000000
+      internalID: -390982133295851943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_102
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 5
+        width: 10
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2a3d003bc320660800000000000000
+      internalID: 7350504281332753095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_103
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 4
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bb97d52040312b0800000000000000
+      internalID: -5615139902196171992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_104
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 43
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5571777fb33a86530800000000000000
+      internalID: 3848505359538263893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_105
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 7
+        width: 11
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0223cbe7867e89d50800000000000000
+      internalID: 6744394877976195616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_106
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 26
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2255edf07fe2e420800000000000000
+      internalID: 2657949998677053999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_107
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 44
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d01ca06e80955810800000000000000
+      internalID: 1753466571112321232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_108
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 26
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1e8db847fbb47a0800000000000000
+      internalID: -6391804738838928913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpSheet_109
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 46
+        width: 52
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f5f9655f56c0110800000000000000
+      internalID: 1228468902759980848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

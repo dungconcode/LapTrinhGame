@@ -1,0 +1,942 @@
+fileFormatVersion: 2
+guid: 65ffc826298d7f5469b0fa9eae7da1e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4010262895126282088
+    second: bombcave_sheet_0
+  - first:
+      213: -3253589710961233046
+    second: bombcave_sheet_1
+  - first:
+      213: -5421551662980447956
+    second: bombcave_sheet_2
+  - first:
+      213: 1166468082132149061
+    second: bombcave_sheet_3
+  - first:
+      213: 1496232262150013045
+    second: bombcave_sheet_4
+  - first:
+      213: -3560289386316101124
+    second: bombcave_sheet_5
+  - first:
+      213: 6797521299583391208
+    second: bombcave_sheet_6
+  - first:
+      213: -1552059813588590848
+    second: bombcave_sheet_7
+  - first:
+      213: -8685150428372189107
+    second: bombcave_sheet_8
+  - first:
+      213: -57632069478432533
+    second: bombcave_sheet_9
+  - first:
+      213: 947346728240088270
+    second: bombcave_sheet_10
+  - first:
+      213: 5631399277736573752
+    second: bombcave_sheet_11
+  - first:
+      213: 6785335557708183667
+    second: bombcave_sheet_12
+  - first:
+      213: 6788782172857148079
+    second: bombcave_sheet_13
+  - first:
+      213: 910748700401057153
+    second: bombcave_sheet_14
+  - first:
+      213: 7726106502088435142
+    second: bombcave_sheet_15
+  - first:
+      213: -1603503433864148595
+    second: bombcave_sheet_16
+  - first:
+      213: 2195459233247144203
+    second: bombcave_sheet_17
+  - first:
+      213: -4020131017574604472
+    second: bombcave_sheet_18
+  - first:
+      213: -4698662598020158804
+    second: bombcave_sheet_19
+  - first:
+      213: -2132989962014536805
+    second: bombcave_sheet_20
+  - first:
+      213: 2525627930725338632
+    second: bombcave_sheet_21
+  - first:
+      213: -6883700589411907242
+    second: bombcave_sheet_22
+  - first:
+      213: 8016299790290473690
+    second: bombcave_sheet_23
+  - first:
+      213: -7328889477068936147
+    second: bombcave_sheet_24
+  - first:
+      213: -5913195725885610582
+    second: bombcave_sheet_25
+  - first:
+      213: 6292674219577466448
+    second: bombcave_sheet_26
+  - first:
+      213: -7840654947058255774
+    second: bombcave_sheet_27
+  - first:
+      213: 5867209006566088653
+    second: bombcave_sheet_28
+  - first:
+      213: -2902061025853352493
+    second: bombcave_sheet_29
+  - first:
+      213: 8344579581141142674
+    second: bombcave_sheet_30
+  - first:
+      213: -624982683238293695
+    second: bombcave_sheet_31
+  - first:
+      213: -3341212828292889237
+    second: bombcave_sheet_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bombcave_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 47
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f7ee71bd057a730800000000000000
+      internalID: 4010262895126282088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 29
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a633a49656de8d2d0800000000000000
+      internalID: -3253589710961233046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 29
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c214f94bc77c2c4b0800000000000000
+      internalID: -5421551662980447956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 29
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543615d5a80203010800000000000000
+      internalID: 1166468082132149061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5704ee6a05fa3c410800000000000000
+      internalID: 1496232262150013045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf909079aaf479ec0800000000000000
+      internalID: -3560289386316101124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5d1de6b95a55e50800000000000000
+      internalID: 6797521299583391208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f94ec92d9f57ae0800000000000000
+      internalID: -1552059813588590848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d404b0883b5287780800000000000000
+      internalID: -8685150428372189107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0411b20ff333ff0800000000000000
+      internalID: -57632069478432533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec401ef74d6a52d00800000000000000
+      internalID: 947346728240088270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b31e18ecfb62e40800000000000000
+      internalID: 5631399277736573752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378f50f4dba5a2e50800000000000000
+      internalID: 6785335557708183667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2a7aeea69963e50800000000000000
+      internalID: 6788782172857148079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18dbd0f1e11a3ac00800000000000000
+      internalID: 910748700401057153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c521d1dde4a83b60800000000000000
+      internalID: 7726106502088435142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8988646f163fb9e0800000000000000
+      internalID: -1603503433864148595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b092c846a86d77e10800000000000000
+      internalID: 2195459233247144203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841afea9320a538c0800000000000000
+      internalID: -4020131017574604472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 89
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa289df24ffaceb0800000000000000
+      internalID: -4698662598020158804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 89
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b46ac3ee81662e0800000000000000
+      internalID: -2132989962014536805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 29
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e40bdb835dc0320800000000000000
+      internalID: 2525627930725338632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 29
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659c4fb09ce2870a0800000000000000
+      internalID: -6883700589411907242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 29
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad25d45ef2e9f3f60800000000000000
+      internalID: 8016299790290473690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 29
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c2539c9dd8a4a90800000000000000
+      internalID: -7328889477068936147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 29
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5ea3711db10fda0800000000000000
+      internalID: -5913195725885610582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 29
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e5c29dcd1145750800000000000000
+      internalID: 6292674219577466448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 29
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268fe220ed5603390800000000000000
+      internalID: -7840654947058255774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 29
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf185371838c6150800000000000000
+      internalID: 5867209006566088653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 29
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5518d6fdec9b7d0800000000000000
+      internalID: -2902061025853352493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 29
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c45e5eae6edc370800000000000000
+      internalID: 8344579581141142674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 29
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f9fc69f8d9357f0800000000000000
+      internalID: -624982683238293695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombcave_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 29
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65cf9a92a0a1a1d0800000000000000
+      internalID: -3341212828292889237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

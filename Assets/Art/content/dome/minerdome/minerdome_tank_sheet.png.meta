@@ -1,0 +1,1142 @@
+fileFormatVersion: 2
+guid: 901d563d43558aa4b8bfb0c2f9a12764
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3117838757356055420
+    second: minerdome_tank_sheet_0
+  - first:
+      213: 3068285065224265322
+    second: minerdome_tank_sheet_1
+  - first:
+      213: -1213185358880290135
+    second: minerdome_tank_sheet_2
+  - first:
+      213: -88325343730276735
+    second: minerdome_tank_sheet_3
+  - first:
+      213: -4309740179510191276
+    second: minerdome_tank_sheet_4
+  - first:
+      213: 6270692883778300522
+    second: minerdome_tank_sheet_5
+  - first:
+      213: -6697340456923245593
+    second: minerdome_tank_sheet_6
+  - first:
+      213: -9223093662046144536
+    second: minerdome_tank_sheet_7
+  - first:
+      213: -803725666969368406
+    second: minerdome_tank_sheet_8
+  - first:
+      213: -2896013444942130234
+    second: minerdome_tank_sheet_9
+  - first:
+      213: 8960488631927648482
+    second: minerdome_tank_sheet_10
+  - first:
+      213: -1533418302847471952
+    second: minerdome_tank_sheet_11
+  - first:
+      213: -2678551797554633157
+    second: minerdome_tank_sheet_12
+  - first:
+      213: 4856585787611370940
+    second: minerdome_tank_sheet_13
+  - first:
+      213: -9098988327763521260
+    second: minerdome_tank_sheet_14
+  - first:
+      213: 641583581774085277
+    second: minerdome_tank_sheet_15
+  - first:
+      213: -2460772752762608966
+    second: minerdome_tank_sheet_16
+  - first:
+      213: -9131130978957235693
+    second: minerdome_tank_sheet_17
+  - first:
+      213: 8991299345900500924
+    second: minerdome_tank_sheet_18
+  - first:
+      213: 6353443679420891384
+    second: minerdome_tank_sheet_19
+  - first:
+      213: 4483558431129863916
+    second: minerdome_tank_sheet_20
+  - first:
+      213: 5888464173363811438
+    second: minerdome_tank_sheet_21
+  - first:
+      213: -6237971373375476767
+    second: minerdome_tank_sheet_22
+  - first:
+      213: -746298583731656472
+    second: minerdome_tank_sheet_23
+  - first:
+      213: 8751102672295350439
+    second: minerdome_tank_sheet_24
+  - first:
+      213: 4160717897500579052
+    second: minerdome_tank_sheet_25
+  - first:
+      213: 1555689152724554936
+    second: minerdome_tank_sheet_26
+  - first:
+      213: -8762601588147210879
+    second: minerdome_tank_sheet_27
+  - first:
+      213: 7323457425975953667
+    second: minerdome_tank_sheet_28
+  - first:
+      213: -7805956314280801254
+    second: minerdome_tank_sheet_29
+  - first:
+      213: 6603638475198402887
+    second: minerdome_tank_sheet_30
+  - first:
+      213: 3029142185781887475
+    second: minerdome_tank_sheet_31
+  - first:
+      213: -4553816229405556441
+    second: minerdome_tank_sheet_32
+  - first:
+      213: 3347235727329272593
+    second: minerdome_tank_sheet_33
+  - first:
+      213: -995478413917377338
+    second: minerdome_tank_sheet_34
+  - first:
+      213: 399829022976759284
+    second: minerdome_tank_sheet_35
+  - first:
+      213: -3196839210783846686
+    second: minerdome_tank_sheet_36
+  - first:
+      213: 1054746689999515907
+    second: minerdome_tank_sheet_37
+  - first:
+      213: -6540777241012846213
+    second: minerdome_tank_sheet_38
+  - first:
+      213: -1303176475778640138
+    second: minerdome_tank_sheet_39
+  - first:
+      213: -7157610571490447790
+    second: minerdome_tank_sheet_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484d8d05b263bb4d0800000000000000
+      internalID: -3117838757356055420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e1456a20db49a20800000000000000
+      internalID: 3068285065224265322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa4c350856e92fe0800000000000000
+      internalID: -1213185358880290135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 28
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186ea4e519436cef0800000000000000
+      internalID: -88325343730276735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b1116042ab034c0800000000000000
+      internalID: -4309740179510191276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 48
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6aec2944f9f50750800000000000000
+      internalID: 6270692883778300522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 28
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3dc35a6544e03a0800000000000000
+      internalID: -6697340456923245593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7359f2e2df00080800000000000000
+      internalID: -9223093662046144536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 55
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa84d63a3c798d4f0800000000000000
+      internalID: -803725666969368406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c318759d1b4fc7d0800000000000000
+      internalID: -2896013444942130234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 28
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e039ff9fec0a5c70800000000000000
+      internalID: 8960488631927648482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bea1be8d2438bae0800000000000000
+      internalID: -1533418302847471952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 55
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36a54ae45fd3dad0800000000000000
+      internalID: -2678551797554633157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb559c3ea0f066340800000000000000
+      internalID: 4856585787611370940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 28
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411da3c0356e9b180800000000000000
+      internalID: -9098988327763521260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cfd5d4edc57e800800000000000000
+      internalID: 641583581774085277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2ef96183499ddd0800000000000000
+      internalID: -2460772752762608966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 28
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a60b1e0c4b74180800000000000000
+      internalID: -9131130978957235693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7f99dfd1387cc70800000000000000
+      internalID: 8991299345900500924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 48
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0455c4d57fb2850800000000000000
+      internalID: 6353443679420891384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 28
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6043163acc83e30800000000000000
+      internalID: 4483558431129863916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64d6fd97f608b150800000000000000
+      internalID: 5888464173363811438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 48
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb26ea06164e69a0800000000000000
+      internalID: -6237971373375476767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 28
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e82c44646d94a5f0800000000000000
+      internalID: -746298583731656472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0d22fd389227970800000000000000
+      internalID: 8751102672295350439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 48
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4d12322e6ddb930800000000000000
+      internalID: 4160717897500579052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 28
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b45311ca0be69510800000000000000
+      internalID: 1555689152724554936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1853636284cf46680800000000000000
+      internalID: -8762601588147210879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 48
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3094ef24ab522a560800000000000000
+      internalID: 7323457425975953667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 28
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c4313071caba390800000000000000
+      internalID: -7805956314280801254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 0
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7419d43a436d4ab50800000000000000
+      internalID: 6603638475198402887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 48
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f10ea5d4cca90a20800000000000000
+      internalID: 3029142185781887475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 28
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7218fd934489dc0c0800000000000000
+      internalID: -4553816229405556441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11325fad825c37e20800000000000000
+      internalID: 3347235727329272593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 48
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cca2e428a95f22f0800000000000000
+      internalID: -995478413917377338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 28
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5db65c06a7c8500800000000000000
+      internalID: 399829022976759284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 0
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee4035ecab82a3d0800000000000000
+      internalID: -3196839210783846686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 48
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301b079b68633ae00800000000000000
+      internalID: 1054746689999515907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 27
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71487af0cd7a35a0800000000000000
+      internalID: -6540777241012846213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6919956ef2aede0800000000000000
+      internalID: -1303176475778640138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_tank_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 48
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e2bbd9b1f0bac90800000000000000
+      internalID: -7157610571490447790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,917 @@
+fileFormatVersion: 2
+guid: b9ece6eec4721874fa2266e669ff2639
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -415593460515628324
+    second: battledroneB_sheet_0
+  - first:
+      213: -5079859491775944202
+    second: battledroneB_sheet_1
+  - first:
+      213: -3747199256522555995
+    second: battledroneB_sheet_2
+  - first:
+      213: -20652644067356482
+    second: battledroneB_sheet_3
+  - first:
+      213: -5624934737062316830
+    second: battledroneB_sheet_4
+  - first:
+      213: 1840371303488914883
+    second: battledroneB_sheet_5
+  - first:
+      213: -2712364683009211584
+    second: battledroneB_sheet_6
+  - first:
+      213: -8365584350240727472
+    second: battledroneB_sheet_7
+  - first:
+      213: 8313422400418108543
+    second: battledroneB_sheet_8
+  - first:
+      213: 6681397740407598570
+    second: battledroneB_sheet_9
+  - first:
+      213: -6231924767711515243
+    second: battledroneB_sheet_10
+  - first:
+      213: -9122544076481081113
+    second: battledroneB_sheet_11
+  - first:
+      213: 3700826122990110461
+    second: battledroneB_sheet_12
+  - first:
+      213: -7928319877935558868
+    second: battledroneB_sheet_13
+  - first:
+      213: 3471565975697658499
+    second: battledroneB_sheet_14
+  - first:
+      213: 4987869698346523605
+    second: battledroneB_sheet_15
+  - first:
+      213: -2775867269193599250
+    second: battledroneB_sheet_16
+  - first:
+      213: -6018350147470367594
+    second: battledroneB_sheet_17
+  - first:
+      213: 162200296276064285
+    second: battledroneB_sheet_18
+  - first:
+      213: -2620786502692757574
+    second: battledroneB_sheet_19
+  - first:
+      213: 4984242105478828733
+    second: battledroneB_sheet_20
+  - first:
+      213: -6800397139996713374
+    second: battledroneB_sheet_21
+  - first:
+      213: 6771149433613688304
+    second: battledroneB_sheet_22
+  - first:
+      213: -8990025022874396711
+    second: battledroneB_sheet_23
+  - first:
+      213: 4079573446063343697
+    second: battledroneB_sheet_24
+  - first:
+      213: -8920798747814509999
+    second: battledroneB_sheet_25
+  - first:
+      213: -8115884897334595025
+    second: battledroneB_sheet_26
+  - first:
+      213: 4961037369824208738
+    second: battledroneB_sheet_27
+  - first:
+      213: -5335024244453936575
+    second: battledroneB_sheet_28
+  - first:
+      213: 3696936285805766895
+    second: battledroneB_sheet_29
+  - first:
+      213: 6194198657417431248
+    second: battledroneB_sheet_30
+  - first:
+      213: -4190664529813930483
+    second: battledroneB_sheet_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: battledroneB_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 203
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda9df613f38b3af0800000000000000
+      internalID: -415593460515628324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 204
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f96ccbd4b6b089b0800000000000000
+      internalID: -5079859491775944202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 208
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad7d5431264ffbc0800000000000000
+      internalID: -3747199256522555995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 201
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb051b69780a6bff0800000000000000
+      internalID: -20652644067356482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 199
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e435a8a8a730f1b0800000000000000
+      internalID: -5624934737062316830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 202
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5874723ff4a8910800000000000000
+      internalID: 1840371303488914883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 153
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043cbe701bebb5ad0800000000000000
+      internalID: -2712364683009211584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 152
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e95513b5977eb80800000000000000
+      internalID: -8365584350240727472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 152
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7452b470a53f5370800000000000000
+      internalID: 8313422400418108543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 152
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeda71868d719bc50800000000000000
+      internalID: 6681397740407598570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 153
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59da8912171c389a0800000000000000
+      internalID: -6231924767711515243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 153
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e05089ee76366180800000000000000
+      internalID: -9122544076481081113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 102
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6cf4440c9fb5330800000000000000
+      internalID: 3700826122990110461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 102
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f8bf9b313f8f190800000000000000
+      internalID: -7928319877935558868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 101
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3829acb9cda7d2030800000000000000
+      internalID: 3471565975697658499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 101
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db11e35019783540800000000000000
+      internalID: 4987869698346523605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 102
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6f4140d632a79d0800000000000000
+      internalID: -2775867269193599250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 103
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694eb1e6d668a7ca0800000000000000
+      internalID: -6018350147470367594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 52
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d187ff16f40404200800000000000000
+      internalID: 162200296276064285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 52
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf1cd2bf8811abd0800000000000000
+      internalID: -2620786502692757574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 51
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db25c9b89c59b2540800000000000000
+      internalID: 4984242105478828733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 51
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ed9eac4d220a1a0800000000000000
+      internalID: -6800397139996713374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 52
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd91a7e884f7fd50800000000000000
+      internalID: 6771149433613688304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 53
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7d2b57fd30d3380800000000000000
+      internalID: -8990025022874396711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158c8b74f6e8d9830800000000000000
+      internalID: 4079573446063343697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 7
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15244c3adc4f23480800000000000000
+      internalID: -8920798747814509999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 11
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22f9688fa59e5f80800000000000000
+      internalID: -8115884897334595025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 17
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2676fc1043529d440800000000000000
+      internalID: 4961037369824208738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 19
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142f93147bf26f5b0800000000000000
+      internalID: -5335024244453936575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 4
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe864b8f6f72e4330800000000000000
+      internalID: 3696936285805766895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d841935cd636f550800000000000000
+      internalID: 6194198657417431248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battledroneB_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e7c9f20d4c7d5c0800000000000000
+      internalID: -4190664529813930483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

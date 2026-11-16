@@ -1,0 +1,992 @@
+fileFormatVersion: 2
+guid: cdcb1601fb7319444bbbd01aa1a5398d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5249771039916965812
+    second: relic_lock-Sheet+gif_0
+  - first:
+      213: -3705651385979030241
+    second: relic_lock-Sheet+gif_1
+  - first:
+      213: -1452262233216298629
+    second: relic_lock-Sheet+gif_2
+  - first:
+      213: -1965681456669225760
+    second: relic_lock-Sheet+gif_3
+  - first:
+      213: 4439102082110678229
+    second: relic_lock-Sheet+gif_4
+  - first:
+      213: -7293307445719259874
+    second: relic_lock-Sheet+gif_5
+  - first:
+      213: -5432942579596762665
+    second: relic_lock-Sheet+gif_6
+  - first:
+      213: 8405483945200414382
+    second: relic_lock-Sheet+gif_7
+  - first:
+      213: 4129377109831457572
+    second: relic_lock-Sheet+gif_8
+  - first:
+      213: 4814059337265152165
+    second: relic_lock-Sheet+gif_9
+  - first:
+      213: 2475875595826715818
+    second: relic_lock-Sheet+gif_10
+  - first:
+      213: 383316086555065020
+    second: relic_lock-Sheet+gif_11
+  - first:
+      213: 4197308875406321264
+    second: relic_lock-Sheet+gif_12
+  - first:
+      213: -7515753551282445885
+    second: relic_lock-Sheet+gif_13
+  - first:
+      213: 6541713094910829673
+    second: relic_lock-Sheet+gif_14
+  - first:
+      213: -5271300433850762014
+    second: relic_lock-Sheet+gif_15
+  - first:
+      213: -4166881983775905580
+    second: relic_lock-Sheet+gif_16
+  - first:
+      213: 6128543962786293431
+    second: relic_lock-Sheet+gif_17
+  - first:
+      213: 238926093527454614
+    second: relic_lock-Sheet+gif_18
+  - first:
+      213: 9192487774895211621
+    second: relic_lock-Sheet+gif_19
+  - first:
+      213: -4010791400801139919
+    second: relic_lock-Sheet+gif_20
+  - first:
+      213: 554368040833885456
+    second: relic_lock-Sheet+gif_21
+  - first:
+      213: -2673980731036682284
+    second: relic_lock-Sheet+gif_22
+  - first:
+      213: -8962633866989362330
+    second: relic_lock-Sheet+gif_23
+  - first:
+      213: -8855399042578128155
+    second: relic_lock-Sheet+gif_24
+  - first:
+      213: 643393111748757215
+    second: relic_lock-Sheet+gif_25
+  - first:
+      213: 4260883208660285641
+    second: relic_lock-Sheet+gif_26
+  - first:
+      213: 5671350609943013295
+    second: relic_lock-Sheet+gif_27
+  - first:
+      213: -3626164323117362389
+    second: relic_lock-Sheet+gif_28
+  - first:
+      213: -6941361710190676668
+    second: relic_lock-Sheet+gif_29
+  - first:
+      213: -3867184524075227896
+    second: relic_lock-Sheet+gif_30
+  - first:
+      213: -5156322264030840489
+    second: relic_lock-Sheet+gif_31
+  - first:
+      213: 6432015365798253248
+    second: relic_lock-Sheet+gif_32
+  - first:
+      213: -4210100453670890145
+    second: relic_lock-Sheet+gif_33
+  - first:
+      213: 7302013254136897760
+    second: relic_lock-Sheet+gif_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 28
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf326242feead840800000000000000
+      internalID: 5249771039916965812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 28
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f153945a2b1e29cc0800000000000000
+      internalID: -3705651385979030241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 28
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b715d6c713788dbe0800000000000000
+      internalID: -1452262233216298629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_3
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 28
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec88a9312f78b4e0800000000000000
+      internalID: -1965681456669225760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_4
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 28
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d467e503dbda9d30800000000000000
+      internalID: 4439102082110678229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_5
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 28
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15213c0587f8ca90800000000000000
+      internalID: -7293307445719259874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_6
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 28
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d16a02428f4a94b0800000000000000
+      internalID: -5432942579596762665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_7
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 28
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae6bee2d1746a470800000000000000
+      internalID: 8405483945200414382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_8
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 28
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b122f5a9e7e4930800000000000000
+      internalID: 4129377109831457572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_9
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 28
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a087551679fec240800000000000000
+      internalID: 4814059337265152165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_10
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 28
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac5f459cb31c5220800000000000000
+      internalID: 2475875595826715818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_11
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 25
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbabec723ffc15500800000000000000
+      internalID: 383316086555065020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_12
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 24
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07620331f26df3a30800000000000000
+      internalID: 4197308875406321264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_13
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 24
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1ed6c17fda2b790800000000000000
+      internalID: -7515753551282445885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_14
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 24
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9646eac7665d8ca50800000000000000
+      internalID: 6541713094910829673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_15
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 23
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec76f71f2498d6b0800000000000000
+      internalID: -5271300433850762014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_16
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 23
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8ef00b9e24c26c0800000000000000
+      internalID: -4166881983775905580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_17
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 23
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6ed348346fc0550800000000000000
+      internalID: 6128543962786293431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_18
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 23
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69396442406d05300800000000000000
+      internalID: 238926093527454614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_19
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 23
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56400c86de6429f70800000000000000
+      internalID: 9192487774895211621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_20
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 23
+        width: 51
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1338e07987ec658c0800000000000000
+      internalID: -4010791400801139919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_21
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 23
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015abb4cbc281b700800000000000000
+      internalID: 554368040833885456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_22
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 23
+        width: 61
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7b15641bc14ead0800000000000000
+      internalID: -2673980731036682284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_23
+      rect:
+        serializedVersion: 2
+        x: 2479
+        y: 23
+        width: 66
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663a63aebf35e9380800000000000000
+      internalID: -8962633866989362330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_24
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 23
+        width: 71
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2ebca1d7d4b1580800000000000000
+      internalID: -8855399042578128155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_25
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 23
+        width: 76
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6c7b450aacde800800000000000000
+      internalID: 643393111748757215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_26
+      rect:
+        serializedVersion: 2
+        x: 2793
+        y: 23
+        width: 82
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c87f9104b2b12b30800000000000000
+      internalID: 4260883208660285641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_27
+      rect:
+        serializedVersion: 2
+        x: 2899
+        y: 23
+        width: 85
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa72956e45fa4be40800000000000000
+      internalID: 5671350609943013295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_28
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 22
+        width: 91
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b231567a2c64dadc0800000000000000
+      internalID: -3626164323117362389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_29
+      rect:
+        serializedVersion: 2
+        x: 3110
+        y: 22
+        width: 92
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445369e2d445baf90800000000000000
+      internalID: -6941361710190676668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_30
+      rect:
+        serializedVersion: 2
+        x: 3217
+        y: 21
+        width: 93
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805ab912a20055ac0800000000000000
+      internalID: -3867184524075227896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_31
+      rect:
+        serializedVersion: 2
+        x: 3321
+        y: 21
+        width: 99
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759f00168301178b0800000000000000
+      internalID: -5156322264030840489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_32
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 21
+        width: 102
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2524c95eb134950800000000000000
+      internalID: 6432015365798253248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_33
+      rect:
+        serializedVersion: 2
+        x: 3532
+        y: 20
+        width: 748
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f555c3681f7b295c0800000000000000
+      internalID: -4210100453670890145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_lock-Sheet+gif_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2462
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0260eed56f55560800000000000000
+      internalID: 7302013254136897760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

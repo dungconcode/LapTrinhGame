@@ -1,0 +1,2167 @@
+fileFormatVersion: 2
+guid: 3f6bdeb6121c8244495efc162b6fdbdb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7871303409572433647
+    second: GroundBurst_0
+  - first:
+      213: -5792245286373812758
+    second: GroundBurst_1
+  - first:
+      213: -1792851692073344526
+    second: GroundBurst_2
+  - first:
+      213: 7404577356563952083
+    second: GroundBurst_3
+  - first:
+      213: -356176283620838993
+    second: GroundBurst_4
+  - first:
+      213: -2776782285213657086
+    second: GroundBurst_5
+  - first:
+      213: 5035178373969859406
+    second: GroundBurst_6
+  - first:
+      213: -5885402485989915917
+    second: GroundBurst_7
+  - first:
+      213: -5836847833867813325
+    second: GroundBurst_8
+  - first:
+      213: -1420060731507435478
+    second: GroundBurst_9
+  - first:
+      213: 6128681018924374891
+    second: GroundBurst_10
+  - first:
+      213: 8591362645978643630
+    second: GroundBurst_11
+  - first:
+      213: 4128275534307063572
+    second: GroundBurst_12
+  - first:
+      213: 9099875404993880065
+    second: GroundBurst_13
+  - first:
+      213: 14624339339543963
+    second: GroundBurst_14
+  - first:
+      213: -192119939496586688
+    second: GroundBurst_15
+  - first:
+      213: 3524999980503158674
+    second: GroundBurst_16
+  - first:
+      213: -6535240587455355407
+    second: GroundBurst_17
+  - first:
+      213: -2796028949018443043
+    second: GroundBurst_18
+  - first:
+      213: -1991154658539024825
+    second: GroundBurst_19
+  - first:
+      213: 8567937671276134428
+    second: GroundBurst_20
+  - first:
+      213: 2618072874759902679
+    second: GroundBurst_21
+  - first:
+      213: 3088468936396374694
+    second: GroundBurst_22
+  - first:
+      213: -8034622012876738672
+    second: GroundBurst_23
+  - first:
+      213: -2637619218154341688
+    second: GroundBurst_24
+  - first:
+      213: 7631250863454013843
+    second: GroundBurst_25
+  - first:
+      213: 7861715179530437075
+    second: GroundBurst_26
+  - first:
+      213: 5071886075343679084
+    second: GroundBurst_27
+  - first:
+      213: -4637233331722818405
+    second: GroundBurst_28
+  - first:
+      213: -1340647435266867646
+    second: GroundBurst_29
+  - first:
+      213: 2604929052652097534
+    second: GroundBurst_30
+  - first:
+      213: 7285802234347882379
+    second: GroundBurst_31
+  - first:
+      213: -9211604770434935718
+    second: GroundBurst_32
+  - first:
+      213: -3162703116860702828
+    second: GroundBurst_33
+  - first:
+      213: 6425227643569517405
+    second: GroundBurst_34
+  - first:
+      213: 7284589944484293935
+    second: GroundBurst_35
+  - first:
+      213: -980974631972084518
+    second: GroundBurst_36
+  - first:
+      213: 8338932036082019777
+    second: GroundBurst_37
+  - first:
+      213: 2205711729329195618
+    second: GroundBurst_38
+  - first:
+      213: -2489731815458793756
+    second: GroundBurst_39
+  - first:
+      213: 5612525552656096051
+    second: GroundBurst_40
+  - first:
+      213: -2920526084419397279
+    second: GroundBurst_41
+  - first:
+      213: -4801589293795487694
+    second: GroundBurst_42
+  - first:
+      213: -7316432000967721597
+    second: GroundBurst_43
+  - first:
+      213: -2333030271512505992
+    second: GroundBurst_44
+  - first:
+      213: 8800998412833835281
+    second: GroundBurst_45
+  - first:
+      213: 1286014453049348161
+    second: GroundBurst_46
+  - first:
+      213: 5747706395529338797
+    second: GroundBurst_47
+  - first:
+      213: -8358547672399803538
+    second: GroundBurst_48
+  - first:
+      213: -7784483126580139309
+    second: GroundBurst_49
+  - first:
+      213: -4024820721531355862
+    second: GroundBurst_50
+  - first:
+      213: -5229718383071567770
+    second: GroundBurst_51
+  - first:
+      213: -4657489829418827355
+    second: GroundBurst_52
+  - first:
+      213: 1410981300755693484
+    second: GroundBurst_53
+  - first:
+      213: 3956375082949155245
+    second: GroundBurst_54
+  - first:
+      213: -6309906031071199533
+    second: GroundBurst_55
+  - first:
+      213: 8931140242231854918
+    second: GroundBurst_56
+  - first:
+      213: 4005106727164378403
+    second: GroundBurst_57
+  - first:
+      213: 4440574894674069221
+    second: GroundBurst_58
+  - first:
+      213: 1074728806386098592
+    second: GroundBurst_59
+  - first:
+      213: -3205802366850367593
+    second: GroundBurst_60
+  - first:
+      213: 258296120406985201
+    second: GroundBurst_61
+  - first:
+      213: -4979573839899808037
+    second: GroundBurst_62
+  - first:
+      213: -5122226140028558349
+    second: GroundBurst_63
+  - first:
+      213: -3474885998434072495
+    second: GroundBurst_64
+  - first:
+      213: -3129863245444839072
+    second: GroundBurst_65
+  - first:
+      213: 8076620224292142930
+    second: GroundBurst_66
+  - first:
+      213: 1210268719129539137
+    second: GroundBurst_67
+  - first:
+      213: -1456360159853987726
+    second: GroundBurst_68
+  - first:
+      213: -354684091653327682
+    second: GroundBurst_69
+  - first:
+      213: -7330944146655672671
+    second: GroundBurst_70
+  - first:
+      213: 3137114733481533205
+    second: GroundBurst_71
+  - first:
+      213: -2440312832756813439
+    second: GroundBurst_72
+  - first:
+      213: 8358054567812383388
+    second: GroundBurst_73
+  - first:
+      213: -3397118705969000020
+    second: GroundBurst_74
+  - first:
+      213: 1919942902764466627
+    second: GroundBurst_75
+  - first:
+      213: 8588077839596583023
+    second: GroundBurst_76
+  - first:
+      213: -4431395371745960199
+    second: GroundBurst_77
+  - first:
+      213: 2670344952734313062
+    second: GroundBurst_78
+  - first:
+      213: 2032796373961413086
+    second: GroundBurst_79
+  - first:
+      213: -4184889889807432403
+    second: GroundBurst_80
+  - first:
+      213: 4234931750450290591
+    second: GroundBurst_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GroundBurst_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 159
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1113d11c04383c290800000000000000
+      internalID: -7871303409572433647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 295
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae512c5c99fcd9fa0800000000000000
+      internalID: -5792245286373812758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 183
+        width: 120
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1a20f82e28e17e0800000000000000
+      internalID: -1792851692073344526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 335
+        width: 11
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d135e9efd752c660800000000000000
+      internalID: 7404577356563952083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 321
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa17c51ae8b9e0bf0800000000000000
+      internalID: -356176283620838993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 322
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2081e3f3933e679d0800000000000000
+      internalID: -2776782285213657086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 326
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43d339bd0c80e540800000000000000
+      internalID: 5035178373969859406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_7
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 321
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2ce560f99d25ea0800000000000000
+      internalID: -5885402485989915917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_8
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 322
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33efc4ee1d95ffea0800000000000000
+      internalID: -5836847833867813325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_9
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 331
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28940bd94eea4ce0800000000000000
+      internalID: -1420060731507435478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_10
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b9aa26ae27d0550800000000000000
+      internalID: 6128681018924374891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_11
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 329
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacfd1abec6aa3770800000000000000
+      internalID: 8591362645978643630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_12
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 324
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417fe45d9b49a4930800000000000000
+      internalID: 4128275534307063572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_13
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 314
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10069f6b770494e70800000000000000
+      internalID: 9099875404993880065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_14
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 29
+        width: 123
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95886752c4f33000800000000000000
+      internalID: 14624339339543963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_15
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 328
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0425904dee3755df0800000000000000
+      internalID: -192119939496586688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_16
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 327
+        width: 73
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f46275ec05be030800000000000000
+      internalID: 3524999980503158674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_17
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 332
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f522079f492e45a0800000000000000
+      internalID: -6535240587455355407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 312
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd20c002c728239d0800000000000000
+      internalID: -2796028949018443043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_19
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 300
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ecaec336ffd54e0800000000000000
+      internalID: -1991154658539024825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 150
+        width: 107
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c100a1acaed67e670800000000000000
+      internalID: 8567937671276134428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_21
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 306
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d556209863455420800000000000000
+      internalID: 2618072874759902679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_22
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 280
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a20cbd52227cda20800000000000000
+      internalID: 3088468936396374694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_23
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 274
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fa2f939d94f7090800000000000000
+      internalID: -8034622012876738672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_24
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 285
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8caba29bb4b456bd0800000000000000
+      internalID: -2637619218154341688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_25
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 274
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399c11c6a36a7e960800000000000000
+      internalID: 7631250863454013843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_26
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 138
+        width: 43
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d145397d4c6a1d60800000000000000
+      internalID: 7861715179530437075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 203
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e2c167385f26640800000000000000
+      internalID: 5071886075343679084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_28
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 92
+        width: 50
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c6f0a9adc35afb0800000000000000
+      internalID: -4637233331722818405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_29
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 187
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e31ebb240156de0800000000000000
+      internalID: -1340647435266867646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_30
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 148
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff4c600c21962420800000000000000
+      internalID: 2604929052652097534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_31
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 196
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b878d02c78e5c1560800000000000000
+      internalID: 7285802234347882379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_32
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 173
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a549ee6344ec92080800000000000000
+      internalID: -9211604770434935718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_33
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 197
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f3f7d9542db14d0800000000000000
+      internalID: -3162703116860702828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_34
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 202
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d533bffdf7efa2950800000000000000
+      internalID: 6425227643569517405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_35
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 198
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d6e5785ff081560800000000000000
+      internalID: 7284589944484293935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_36
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 197
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad462a705c0e262f0800000000000000
+      internalID: -980974631972084518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_37
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 177
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd2bc85186d9b370800000000000000
+      internalID: 8338932036082019777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_38
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 189
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a4497a1234c9e10800000000000000
+      internalID: 2205711729329195618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_39
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 194
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e61791ea12b27dd0800000000000000
+      internalID: -2489731815458793756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_40
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 142
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b9ed2f042b3ed40800000000000000
+      internalID: 5612525552656096051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_41
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 183
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1695be4fff43877d0800000000000000
+      internalID: -2920526084419397279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_42
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 178
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230500a2af35d5db0800000000000000
+      internalID: -4801589293795487694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_43
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 179
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38db407fbdfc67a90800000000000000
+      internalID: -7316432000967721597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_44
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 178
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871934834596f9fd0800000000000000
+      internalID: -2333030271512505992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_45
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 183
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119ccb14d6d632a70800000000000000
+      internalID: 8800998412833835281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_46
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 181
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140560ad457d8d110800000000000000
+      internalID: 1286014453049348161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_47
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 178
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf54ca9384f3cf40800000000000000
+      internalID: 5747706395529338797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_48
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 159
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b017c6d29700c80800000000000000
+      internalID: -8358547672399803538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_49
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 164
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da2b2027d5f7f390800000000000000
+      internalID: -7784483126580139309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_50
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 174
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dfd70d0e6f428c0800000000000000
+      internalID: -4024820721531355862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_51
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 165
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66060bdb6de4c67b0800000000000000
+      internalID: -5229718383071567770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_52
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 164
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a10f743da54d5fb0800000000000000
+      internalID: -4657489829418827355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_53
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 165
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caff2407400d49310800000000000000
+      internalID: 1410981300755693484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_54
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 168
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da914691d2ed7e630800000000000000
+      internalID: 3956375082949155245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_55
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 169
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3def7e365e5be68a0800000000000000
+      internalID: -6309906031071199533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_56
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 165
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6470d692bb8c1fb70800000000000000
+      internalID: 8931140242231854918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_57
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 162
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32df820395ff49730800000000000000
+      internalID: 4005106727164378403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_58
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 156
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6c09be65710ad30800000000000000
+      internalID: 4440574894674069221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_59
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 144
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1e58eb7243aee00800000000000000
+      internalID: 1074728806386098592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_60
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 152
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ff6cf7bb3b283d0800000000000000
+      internalID: -3205802366850367593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_61
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 163
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f948b7f3f6a59300800000000000000
+      internalID: 258296120406985201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_62
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 147
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdea1fbb9fff4eab0800000000000000
+      internalID: -4979573839899808037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_63
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 160
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3a060e6723ae8b0800000000000000
+      internalID: -5122226140028558349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_64
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 156
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158cb5c5899b6cfc0800000000000000
+      internalID: -3474885998434072495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_65
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 147
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06985b306fd7094d0800000000000000
+      internalID: -3129863245444839072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_66
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 150
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f3bae5d4be51070800000000000000
+      internalID: 8076620224292142930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_67
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 155
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142bb7edcfcbbc010800000000000000
+      internalID: 1210268719129539137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_68
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 31
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2783fd69628f9cbe0800000000000000
+      internalID: -1456360159853987726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_69
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 57
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb47585a2b8e31bf0800000000000000
+      internalID: -354684091653327682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_70
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 67
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a60c5eb321434a90800000000000000
+      internalID: -7330944146655672671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_71
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 24
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f9fcc9a35498b20800000000000000
+      internalID: 3137114733481533205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_72
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 76
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181f3be6864422ed0800000000000000
+      internalID: -2440312832756813439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_73
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 51
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92c9c7b856cdf370800000000000000
+      internalID: 8358054567812383388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_74
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 33
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca112ee19820bd0d0800000000000000
+      internalID: -3397118705969000020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_75
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 70
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1fe44d5e105aa10800000000000000
+      internalID: 1919942902764466627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_76
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 30
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68fe842b4bfe2770800000000000000
+      internalID: 8588077839596583023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_77
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 22
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe95cf43658082c0800000000000000
+      internalID: -4431395371745960199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_78
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 55
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a6c7f1698fe0520800000000000000
+      internalID: 2670344952734313062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 26
+        width: 79
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed11caa2881f53c10800000000000000
+      internalID: 2032796373961413086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_80
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 43
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2587e551d84ce5c0800000000000000
+      internalID: -4184889889807432403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundBurst_81
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 32
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fdc994dff75ca30800000000000000
+      internalID: 4234931750450290591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2067 @@
+fileFormatVersion: 2
+guid: 24114047e3be8f64a866b4b20099df32
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 699666430673625072
+    second: stunlaser_sheet_0
+  - first:
+      213: -2374396342266324595
+    second: stunlaser_sheet_1
+  - first:
+      213: -4372187923346310073
+    second: stunlaser_sheet_2
+  - first:
+      213: 1068943744799496748
+    second: stunlaser_sheet_3
+  - first:
+      213: -4313286153108036332
+    second: stunlaser_sheet_4
+  - first:
+      213: 220648836175526823
+    second: stunlaser_sheet_5
+  - first:
+      213: 7116937769727495355
+    second: stunlaser_sheet_6
+  - first:
+      213: 1002224802771823016
+    second: stunlaser_sheet_7
+  - first:
+      213: -5425199836299333635
+    second: stunlaser_sheet_8
+  - first:
+      213: 4342587265936326938
+    second: stunlaser_sheet_9
+  - first:
+      213: 7417997164683673337
+    second: stunlaser_sheet_10
+  - first:
+      213: 4734378788920014394
+    second: stunlaser_sheet_11
+  - first:
+      213: 6747479902456724092
+    second: stunlaser_sheet_12
+  - first:
+      213: 9069140876613537628
+    second: stunlaser_sheet_13
+  - first:
+      213: 8837332665710462813
+    second: stunlaser_sheet_14
+  - first:
+      213: 3874662324067634337
+    second: stunlaser_sheet_15
+  - first:
+      213: -8236688272971991047
+    second: stunlaser_sheet_16
+  - first:
+      213: 8767484613271740422
+    second: stunlaser_sheet_17
+  - first:
+      213: 7449212815686710098
+    second: stunlaser_sheet_18
+  - first:
+      213: -3908277272222241188
+    second: stunlaser_sheet_19
+  - first:
+      213: 3408267986428380368
+    second: stunlaser_sheet_20
+  - first:
+      213: -1413304586053819910
+    second: stunlaser_sheet_21
+  - first:
+      213: 1239925486133781231
+    second: stunlaser_sheet_22
+  - first:
+      213: 954120888288580596
+    second: stunlaser_sheet_23
+  - first:
+      213: 7172186426355418118
+    second: stunlaser_sheet_24
+  - first:
+      213: 9013005926080701350
+    second: stunlaser_sheet_25
+  - first:
+      213: -4382333339423589884
+    second: stunlaser_sheet_26
+  - first:
+      213: 7093421054763653836
+    second: stunlaser_sheet_27
+  - first:
+      213: -7415471751304614077
+    second: stunlaser_sheet_28
+  - first:
+      213: -3080322838369352909
+    second: stunlaser_sheet_29
+  - first:
+      213: -6389182193211248786
+    second: stunlaser_sheet_30
+  - first:
+      213: 2765680045485660996
+    second: stunlaser_sheet_31
+  - first:
+      213: 7618958350265819276
+    second: stunlaser_sheet_32
+  - first:
+      213: -2619489993775738820
+    second: stunlaser_sheet_33
+  - first:
+      213: 4692683821351078809
+    second: stunlaser_sheet_34
+  - first:
+      213: 2414661671666685933
+    second: stunlaser_sheet_35
+  - first:
+      213: -4922738265131353766
+    second: stunlaser_sheet_36
+  - first:
+      213: 8708269168689077405
+    second: stunlaser_sheet_37
+  - first:
+      213: 6237110382876359841
+    second: stunlaser_sheet_38
+  - first:
+      213: -4733865978909855161
+    second: stunlaser_sheet_39
+  - first:
+      213: -946945366160040299
+    second: stunlaser_sheet_40
+  - first:
+      213: 4384725539254350041
+    second: stunlaser_sheet_41
+  - first:
+      213: 7869176858802971784
+    second: stunlaser_sheet_42
+  - first:
+      213: 1972490000623447054
+    second: stunlaser_sheet_43
+  - first:
+      213: 5587590890107952822
+    second: stunlaser_sheet_44
+  - first:
+      213: -6468064408680458406
+    second: stunlaser_sheet_45
+  - first:
+      213: 4323901094956964036
+    second: stunlaser_sheet_46
+  - first:
+      213: 8738385078912140123
+    second: stunlaser_sheet_47
+  - first:
+      213: -4221445854080264770
+    second: stunlaser_sheet_48
+  - first:
+      213: -4877745834662730748
+    second: stunlaser_sheet_49
+  - first:
+      213: 2505300272320279192
+    second: stunlaser_sheet_50
+  - first:
+      213: -2464460957053020645
+    second: stunlaser_sheet_51
+  - first:
+      213: 3998413106344436691
+    second: stunlaser_sheet_52
+  - first:
+      213: 1996212962498383075
+    second: stunlaser_sheet_53
+  - first:
+      213: 74121648987050948
+    second: stunlaser_sheet_54
+  - first:
+      213: -6642511697446736164
+    second: stunlaser_sheet_55
+  - first:
+      213: 5369264611638662517
+    second: stunlaser_sheet_56
+  - first:
+      213: -1429945977482844783
+    second: stunlaser_sheet_57
+  - first:
+      213: 2902761586161038315
+    second: stunlaser_sheet_58
+  - first:
+      213: 908867298301108874
+    second: stunlaser_sheet_59
+  - first:
+      213: 8573492727941505724
+    second: stunlaser_sheet_60
+  - first:
+      213: 2312220040241077585
+    second: stunlaser_sheet_61
+  - first:
+      213: -2293025481488232083
+    second: stunlaser_sheet_62
+  - first:
+      213: -2029546419124931456
+    second: stunlaser_sheet_63
+  - first:
+      213: 686221035495024297
+    second: stunlaser_sheet_64
+  - first:
+      213: -4238756956268985756
+    second: stunlaser_sheet_65
+  - first:
+      213: 5072053330578099362
+    second: stunlaser_sheet_66
+  - first:
+      213: 6377600072353851974
+    second: stunlaser_sheet_67
+  - first:
+      213: -2931611205166142593
+    second: stunlaser_sheet_68
+  - first:
+      213: 5647150937958801396
+    second: stunlaser_sheet_69
+  - first:
+      213: 3742060839907070826
+    second: stunlaser_sheet_70
+  - first:
+      213: -7274410145586978640
+    second: stunlaser_sheet_71
+  - first:
+      213: 4618342549039368788
+    second: stunlaser_sheet_72
+  - first:
+      213: 7320780958879113925
+    second: stunlaser_sheet_73
+  - first:
+      213: 1160401112741668613
+    second: stunlaser_sheet_74
+  - first:
+      213: -5262609568974028305
+    second: stunlaser_sheet_75
+  - first:
+      213: -6633790590895645945
+    second: stunlaser_sheet_76
+  - first:
+      213: 5400915152200124157
+    second: stunlaser_sheet_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stunlaser_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 380
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff119569e6b5b900800000000000000
+      internalID: 699666430673625072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 361
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d899a375b137c0fd0800000000000000
+      internalID: -2374396342266324595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 342
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cb0b1af3ed253c0800000000000000
+      internalID: -4372187923346310073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 323
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a56a12ca6a5de00800000000000000
+      internalID: 1068943744799496748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 323
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4156265b8112424c0800000000000000
+      internalID: -4313286153108036332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 323
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab785c82f6ef0300800000000000000
+      internalID: 220648836175526823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 323
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc0b25c13174c260800000000000000
+      internalID: 7116937769727495355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 323
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9ec4ae52e98ed00800000000000000
+      internalID: 1002224802771823016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 322
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffeed92e71d5b4b0800000000000000
+      internalID: -5425199836299333635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 323
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1105404c18f34c30800000000000000
+      internalID: 4342587265936326938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 323
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe33d97e1502f660800000000000000
+      internalID: 7417997164683673337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 304
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36b8b9bc64e3b140800000000000000
+      internalID: 4734378788920014394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 304
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a350bb83dd3ad50800000000000000
+      internalID: 6747479902456724092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 304
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f4680b39f0cdd70800000000000000
+      internalID: 9069140876613537628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 304
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57c0adbc3384aa70800000000000000
+      internalID: 8837332665710462813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 304
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac04aadad095c530800000000000000
+      internalID: 3874662324067634337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 303
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7f0e3d7a761bd80800000000000000
+      internalID: -8236688272971991047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 304
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600e3cbbdcc5ca970800000000000000
+      internalID: 8767484613271740422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 304
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2533b47969be06760800000000000000
+      internalID: 7449212815686710098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 285
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ee571278203c9c0800000000000000
+      internalID: -3908277272222241188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 285
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d446660da99c4f20800000000000000
+      internalID: 3408267986428380368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 285
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1e4dc87fee26ce0800000000000000
+      internalID: -1413304586053819910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 285
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe225f409a9153110800000000000000
+      internalID: 1239925486133781231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 284
+        width: 56
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3983b84e7bd3d00800000000000000
+      internalID: 954120888288580596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 285
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6040bcd0e89b88360800000000000000
+      internalID: 7172186426355418118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 266
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3e7860321a41d70800000000000000
+      internalID: 9013005926080701350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 266
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a3e40eb03de23c0800000000000000
+      internalID: -4382333339423589884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 266
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccad673edd4e07260800000000000000
+      internalID: 7093421054763653836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 266
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f6b852bb3f61990800000000000000
+      internalID: -7415471751304614077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 247
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333c871e2be7045d0800000000000000
+      internalID: -3080322838369352909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 247
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f646885a01557a0800000000000000
+      internalID: -6389182193211248786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 247
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b1f81295ba16620800000000000000
+      internalID: 2765680045485660996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 247
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80271aa04afbb960800000000000000
+      internalID: 7618958350265819276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c309e44bab3b5abd0800000000000000
+      internalID: -2619489993775738820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 228
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b8ad69213cf1140800000000000000
+      internalID: 4692683821351078809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 228
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de791783ff9928120800000000000000
+      internalID: 2414661671666685933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 228
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a597f9031abeeabb0800000000000000
+      internalID: -4922738265131353766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 210
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cd238abacf9d870800000000000000
+      internalID: 8708269168689077405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 209
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acfe3cf8daae8650800000000000000
+      internalID: 6237110382876359841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 209
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74275c829fded4eb0800000000000000
+      internalID: -4733865978909855161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 210
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e1454e436cbd2f0800000000000000
+      internalID: -946945366160040299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 191
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0b6dc85aca9dc30800000000000000
+      internalID: 4384725539254350041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 190
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884ecaf09aee43d60800000000000000
+      internalID: 7869176858802971784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 190
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cab227431bf5b10800000000000000
+      internalID: 1972490000623447054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 191
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bed71b6f4c1b8d40800000000000000
+      internalID: 5587590890107952822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57114880b1dc36a0800000000000000
+      internalID: -6468064408680458406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 171
+        width: 38
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c815d80325910c30800000000000000
+      internalID: 4323901094956964036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 172
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53c12b6eeaf44970800000000000000
+      internalID: 8738385078912140123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 152
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb51005ac596a65c0800000000000000
+      internalID: -4221445854080264770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 133
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404694cb104ce4cb0800000000000000
+      internalID: -4877745834662730748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 114
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892f653f25d94c220800000000000000
+      internalID: 2505300272320279192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 95
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16190c11d97ccdd0800000000000000
+      internalID: -2464460957053020645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 76
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d32de429873d7730800000000000000
+      internalID: 3998413106344436691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 57
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec0fbdec19f3bb10800000000000000
+      internalID: 1996212962498383075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 38
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c31a0e3f35570100800000000000000
+      internalID: 74121648987050948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 37
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde6f410ece01d3a0800000000000000
+      internalID: -6642511697446736164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 37
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5755cc977b5738a40800000000000000
+      internalID: 5369264611638662517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 38
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195e22ca5bfc72ce0800000000000000
+      internalID: -1429945977482844783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 38
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be337ca784ea84820800000000000000
+      internalID: 2902761586161038315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 38
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82e43f0ef1fc9c00800000000000000
+      internalID: 908867298301108874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 38
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb22955363a2bf670800000000000000
+      internalID: 8573492727941505724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 38
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ddb1d30e7a61020800000000000000
+      internalID: 2312220040241077585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6199fa39798d20e0800000000000000
+      internalID: -2293025481488232083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08474e8e84a95d3e0800000000000000
+      internalID: -2029546419124931456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 18
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6e4126562f58900800000000000000
+      internalID: 686221035495024297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 19
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4620f549109ec25c0800000000000000
+      internalID: -4238756956268985756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 19
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2acc1fa91ad836640800000000000000
+      internalID: 5072053330578099362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 19
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a2820d979c18850800000000000000
+      internalID: 6377600072353851974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 19
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b64882423d057d0800000000000000
+      internalID: -2931611205166142593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 19
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff5c02bbd5be5e40800000000000000
+      internalID: 5647150937958801396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a639f82f1887ee330800000000000000
+      internalID: 3742060839907070826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b06ac9938a1c0b90800000000000000
+      internalID: -7274410145586978640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a409e4416a71040800000000000000
+      internalID: 4618342549039368788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2ee64be73a89560800000000000000
+      internalID: 7320780958879113925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5076fe9f9a29a1010800000000000000
+      internalID: 1160401112741668613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe14bb1ca7477f6b0800000000000000
+      internalID: -5262609568974028305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b165bda9a00f3a0800000000000000
+      internalID: -6633790590895645945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunlaser_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6c9e437b7e3fa40800000000000000
+      internalID: 5400915152200124157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
