@@ -34,6 +34,7 @@ namespace Underlab.EditorTools.Mining
             var terrainConfig = GetOrCreateTerrainConfig();
             var playerConfig = GetOrCreate<PlayerConfig>(PlayerConfigPath);
             var drillConfig = GetOrCreate<DrillConfig>(DrillConfigPath);
+            var carrierConfig = GetOrCreate<CarrierConfig>(DataFolder + "/CarrierConfig.asset");
 
             // Ánh sáng 2D toàn cục (URP 2D cần light để sprite Lit hiện đúng màu)
             var lightGo = new GameObject("Global Light 2D");
@@ -88,6 +89,13 @@ namespace Underlab.EditorTools.Mining
             Set(drill, "config", drillConfig);
             Set(drill, "terrain", gen);
             Set(drill, "crackOverlay", crackArt);
+
+            var carrier = player.AddComponent<Carrier>();
+            Set(carrier, "config", carrierConfig);
+
+            var hud = new GameObject("MiningDebugHud").AddComponent<MiningDebugHud>();
+            Set(hud, "player", pc);
+            Set(hud, "carrier", carrier);
 
             // Camera
             var camGo = new GameObject("Main Camera", typeof(Camera), typeof(AudioListener));

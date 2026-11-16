@@ -21,7 +21,11 @@ namespace Underlab.Player
         [SerializeField] private PlayerConfig config;
         [SerializeField] private ArtSprite art;
 
+        public const string DefaultWalkAnim = "char_player_walk";
+
         public float SpeedMultiplier { get; set; } = 1f;
+        /// <summary>Anim khi đi bộ — Carrier đổi sang char_player_carry khi mang nặng.</summary>
+        public string WalkAnimId { get; set; } = DefaultWalkAnim;
         public float ThrustMultiplier { get; set; } = 1f;
         public Vector2 MoveInput { get; private set; }
         public int Facing { get; private set; } = 1;
@@ -102,7 +106,7 @@ namespace Underlab.Player
             if (AnimLocked) return;
 
             bool walking = IsGrounded && Mathf.Abs(MoveInput.x) > 0.1f;
-            art.Play(walking ? "char_player_walk" : "char_player_idle");
+            art.Play(walking ? WalkAnimId : "char_player_idle");
         }
 
         private void UpdateDepth()
