@@ -1,0 +1,25 @@
+using Underlab.Art;
+using Underlab.Core;
+using UnityEngine;
+
+namespace Underlab.Defense
+{
+    public class BaseHealth : MonoBehaviour
+    {
+        public DefenseConfig config;
+        public ArtSprite art;
+        public int Current { get; private set; }
+        public int Maximum { get; private set; }
+        private void Awake() { Maximum = config.baseHealth; Current = Maximum; }
+        private void Start() { if (!art) art = GetComponent<ArtSprite>(); Publish(); }
+        public void Damage(int damage) { if (Current <= 0) return; Current = Mathf.Max(0, Current - Mathf.Max(0, damage)); Publish(); }
+        public void Repair() { if (Current <= 0) return; Current = Mathf.Min(Maximum, Current + config.repairAmount); Publish(); }
+        public void Upgrade() { Maximum += config.baseHealthBonus; Current += config.baseHealthBonus; Publish(); }
+        public void Restore() { Current = Maximum; Publish(); }
+        private void Publish()
+        {
+            if (art) art.Play(Current == 0 ? "bld_base_destroyed" : Current * 2 < Maximum ? "bld_base_damaged" : "bld_base_normal");
+            GameEvents.RaiseBaseHpChanged(Current, Maximum);
+        }
+    }
+}
