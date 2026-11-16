@@ -98,8 +98,12 @@ namespace Underlab.Player
 
             if (IsThrusting)
             {
+                // Tải chỉ làm GIẢM tốc độ bay lên tối đa, không bao giờ làm jetpack thua trọng lực.
+                // Lực đẩy = bù trọng lực + thrustAccel => luôn bay lên được, kể cả túi đầy.
                 float thrust = ThrustMultiplier * ThrustUpgrade;
-                v.y = Mathf.MoveTowards(v.y, config.maxRiseSpeed * thrust, config.thrustAccel * thrust * Time.fixedDeltaTime);
+                float gravity = Mathf.Abs(Physics2D.gravity.y) * body.gravityScale;
+                float lift = gravity + config.thrustAccel * Mathf.Max(0.3f, thrust);
+                v.y = Mathf.MoveTowards(v.y, config.maxRiseSpeed * thrust, lift * Time.fixedDeltaTime);
             }
             v.y = Mathf.Max(v.y, -config.maxFallSpeed);
 
