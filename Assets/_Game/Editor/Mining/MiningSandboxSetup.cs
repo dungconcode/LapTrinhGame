@@ -59,6 +59,18 @@ namespace Underlab.EditorTools.Mining
             Set(gen, "config", terrainConfig);
             Set(gen, "tilemap", tilemap);
 
+            // Base TẠM (base thật là prefab của Dev B — B02). Chỉ để test gửi quặng.
+            var baseGo = new GameObject("Base (placeholder)");
+            var baseSr = baseGo.AddComponent<SpriteRenderer>();
+            baseSr.sortingOrder = 2;
+            var baseArt = baseGo.AddComponent<ArtSprite>();
+            Set(baseArt, "artId", "bld_base_normal");
+            var zone = baseGo.AddComponent<BoxCollider2D>();
+            zone.isTrigger = true;
+            zone.size = new Vector2(3f, 2.5f);
+            zone.offset = new Vector2(0f, 1.25f);
+            baseGo.AddComponent<DepositZone>();
+
             // Player
             var player = new GameObject("Player");
             player.transform.position = new Vector3(0f, 0.05f, 0f);
