@@ -1,10 +1,10 @@
 id,category,type,frames,fps,world_w,pivot,spec_px,priority,status,ai_tool,notes
-char_player_idle,char,anim,4,6,2,bc,256x256,P0,placeholder,GPT,Tho mo dung tho - nhin sang PHAI
-char_player_walk,char,anim,6,12,2,bc,256x256,P0,placeholder,GPT,Chu ky di bo - nhin sang PHAI (code tu lat trai)
-char_player_drill,char,anim,4,12,2,bc,256x256,P0,placeholder,GPT,Dang khoan ve phia truoc - mui khoan chia sang PHAI
-char_player_carry,char,anim,6,10,2,bc,256x256,P1,placeholder,GPT,Di cham khom lung keo quang nang
-char_player_hurt,char,anim,2,10,2,bc,256x256,P1,placeholder,GPT,Bi trung don - giat lui
-char_player_death,char,anim,6,10,2,bc,256x256,P2,placeholder,GPT,Nga xuong
+char_player_idle,char,anim,4,6,1.1,bc,256x256,P0,placeholder,GPT,Tho mo dung tho - nhin sang PHAI
+char_player_walk,char,anim,6,12,1.1,bc,256x256,P0,placeholder,GPT,Chu ky di bo - nhin sang PHAI (code tu lat trai)
+char_player_drill,char,anim,4,12,1.1,bc,256x256,P0,placeholder,GPT,Dang khoan ve phia truoc - mui khoan chia sang PHAI
+char_player_carry,char,anim,6,10,1.1,bc,256x256,P1,placeholder,GPT,Di cham khom lung keo quang nang
+char_player_hurt,char,anim,2,10,1.1,bc,256x256,P1,placeholder,GPT,Bi trung don - giat lui
+char_player_death,char,anim,6,10,1.1,bc,256x256,P2,placeholder,GPT,Nga xuong
 tile_surface,tile,tile,1,0,1,c,128x128,P0,placeholder,GEM,O dat mat tren cung (co reu ngoai hanh tinh o canh tren) - seamless trai phai
 tile_dirt_1,tile,tile,1,0,1,c,128x128,P0,placeholder,GEM,Dat mem tang 1 (do cung 1) - seamless 4 phia
 tile_dirt_2,tile,tile,1,0,1,c,128x128,P0,placeholder,GEM,Da tang 2 cung hon toi mau hon - seamless

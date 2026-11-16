@@ -51,7 +51,7 @@ Dev chỉ lấy file trong **02_Final**. Gửi xong nhắn 1 dòng: `xong enemy_
 
 | Loại | Kích thước 1 frame | Pivot | Ghi chú |
 |---|---|---|---|
-| Nhân vật `char_*` | 256×256 | chân giữa | cao ~1.5 ô |
+| Nhân vật `char_*` | 256×256 | chân giữa | cao ~0.85 ô — **phải chui lọt đường hầm 1 ô**; vẽ người chiếm ~70% chiều cao frame |
 | Quái `enemy_*` | 256×256 | chân giữa (quái bay: tâm) | |
 | Boss `boss_*` | 768×768 | chân giữa | |
 | Tile `tile_*` | 128×128 | tâm | **seamless 4 phía**, phủ kín ô |

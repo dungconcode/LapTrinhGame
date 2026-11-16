@@ -23,6 +23,23 @@ namespace Underlab.Core
         Ice = 3,
     }
 
+    /// <summary>
+    /// Tên upgrade dùng cho GameEvents.RaiseUpgradePurchased(id).
+    /// Shop (Dev B) phát id, hệ thống tương ứng tự nghe và tăng cấp.
+    /// </summary>
+    public static class UpgradeIds
+    {
+        // Phần đào (Dev A nghe)
+        public const string Drill = "drill";     // sát thương khoan
+        public const string Move = "move";       // tốc độ đi
+        public const string Carry = "carry";     // sức mang
+        public const string Jetpack = "jetpack"; // lực bay
+        public const string Lift = "lift";       // mở khoá thang máy
+        public const string Blast = "blast";     // mua 1 bom phá đá
+
+        // Phần phòng thủ (Dev B tự thêm ở đây)
+    }
+
     /// <summary>Pha của 1 vòng chơi.</summary>
     public enum GamePhase
     {

@@ -36,6 +36,19 @@ namespace Underlab.EditorTools.Art
         [MenuItem("Underlab/Art/Rebuild Art Database + Report", priority = 1)]
         private static void BuildMenu() => Build(true);
 
+        [MenuItem("Underlab/Art/Reimport All Art", priority = 2)]
+        public static void ReimportAll()
+        {
+            var files = FindArtFiles(ArtManifest.Load(), false);
+            AssetDatabase.StartAssetEditing();
+            try
+            {
+                foreach (var path in files.Values) AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate);
+            }
+            finally { AssetDatabase.StopAssetEditing(); }
+            Build(true);
+        }
+
         /// <summary>Tìm file PNG cho từng id (tên file = id, nằm bất kỳ đâu trong Assets/_Game/Art).</summary>
         public static Dictionary<string, string> FindArtFiles(Dictionary<string, ArtEntry> manifest, bool warnDuplicates)
         {
