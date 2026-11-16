@@ -293,6 +293,16 @@ def icon_up_move():
                 + up_badge())
 
 
+def icon_up_jetpack():
+    return icon(f'<rect x="30" y="18" width="26" height="58" rx="10" fill="#B9BCD3" {S()}/>'
+                f'<rect x="60" y="18" width="26" height="58" rx="10" fill="#B9BCD3" {S()}/>'
+                f'<rect x="38" y="30" width="40" height="14" rx="4" fill="{PAL["teal_d"]}" {S(stroke_width=4)}/>'
+                f'<path d="M34 78 Q43 112 52 78 Z" fill="{PAL["rust"]}" {S(stroke_width=4)}/>'
+                f'<path d="M64 78 Q73 112 82 78 Z" fill="{PAL["rust"]}" {S(stroke_width=4)}/>'
+                f'<path d="M39 80 Q43 96 47 80 Z M69 80 Q73 96 77 80 Z" fill="{PAL["gold"]}"/>'
+                + up_badge())
+
+
 def icon_up_carry():
     return icon(f'<rect x="22" y="34" width="70" height="66" rx="12" fill="{PAL["teal_d"]}" {S()}/>'
                 f'<path d="M40 34 L40 24 Q40 14 50 14 L64 14 Q74 14 74 24 L74 34" fill="none" {S()}/>'
@@ -382,6 +392,7 @@ BUILDERS = {
     "icon_ammo_normal": icon_ammo_normal, "icon_ammo_acid": icon_ammo_acid,
     "icon_ammo_fire": icon_ammo_fire, "icon_ammo_ice": icon_ammo_ice,
     "icon_up_drill": icon_up_drill, "icon_up_move": icon_up_move, "icon_up_carry": icon_up_carry,
+    "icon_up_jetpack": icon_up_jetpack,
     "icon_up_turret_dmg": icon_up_turret_dmg, "icon_up_turret_rot": icon_up_turret_rot,
     "icon_up_base_hp": icon_up_base_hp, "icon_repair": icon_repair,
     "icon_lift": icon_lift, "icon_teleporter": icon_teleporter, "icon_blast": icon_blast,

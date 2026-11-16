@@ -364,7 +364,7 @@ namespace Underlab.UI
                 case UpgradeIds.Drill: return "icon_up_drill";
                 case UpgradeIds.Move: return "icon_up_move";
                 case UpgradeIds.Carry: return "icon_up_carry";
-                case UpgradeIds.Jetpack: return "icon_up_move";
+                case UpgradeIds.Jetpack: return "icon_up_jetpack";
                 case UpgradeIds.Lift: return "icon_lift";
                 case UpgradeIds.Blast: return "icon_blast";
                 case "turret_damage": return "icon_up_turret_dmg";
