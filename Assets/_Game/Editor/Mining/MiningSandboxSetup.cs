@@ -139,6 +139,11 @@ namespace Underlab.EditorTools.Mining
             Set(lift, "player", pc);
             Set(lift, "carrier", carrier);
 
+            var blast = systems.AddComponent<BlastMining>();
+            Set(blast, "player", pc);
+            Set(blast, "terrain", gen);
+            Set(blast, "cameraFollow", follow);
+
             var alert = systems.AddComponent<WaveAlert>();
             Set(alert, "player", pc);
             Set(alert, "cameraFollow", follow);
