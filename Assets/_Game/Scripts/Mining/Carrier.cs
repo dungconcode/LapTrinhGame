@@ -28,8 +28,8 @@ namespace Underlab.Mining
         public float Weight { get; private set; }
         public float Load01 => MaxWeight > 0f ? Mathf.Clamp01(Weight / MaxWeight) : 1f;
         public bool IsEmpty => Weight <= 0f;
-        /// <summary>Không nhặt thêm được cả loại quặng nhẹ nhất.</summary>
-        public bool IsFull => Weight + LightestWeight() > MaxWeight + 0.0001f;
+        /// <summary>Hết chỗ (còn chút chỗ là vẫn nhặt được, được phép vượt nhẹ 1 cục).</summary>
+        public bool IsFull => Weight >= MaxWeight - 0.0001f;
 
         /// <summary>Gọi mỗi khi túi thay đổi (nhặt hoặc lấy ra).</summary>
         public event Action Changed;
@@ -58,14 +58,18 @@ namespace Underlab.Mining
 
         public int Get(ResourceType t) => items.TryGetValue(t, out var n) ? n : 0;
 
-        public bool CanCarry(ResourceType t, int amount = 1) =>
-            Weight + config.WeightOf(t) * amount <= MaxWeight + 0.0001f;
+        /// <summary>
+        /// Còn chỗ là nhặt được (vd 9.2/10 vẫn nhặt sắt nặng 1 => 10.2/10).
+        /// Tránh cảnh HUD báo còn chỗ mà không nhặt được.
+        /// </summary>
+        public bool CanCarry(ResourceType t) => !IsFull;
 
         /// <summary>Thêm quặng vào túi. Trả về số thực sự nhận (có thể ít hơn nếu gần đầy).</summary>
         public int Add(ResourceType t, int amount)
         {
             int taken = 0;
-            while (taken < amount && CanCarry(t)) taken++;
+            float w = config.WeightOf(t);
+            while (taken < amount && Weight + w * taken < MaxWeight - 0.0001f) taken++;
             if (taken == 0) return 0;
 
             items[t] = Get(t) + taken;
@@ -121,13 +125,6 @@ namespace Underlab.Mining
                     rb.linearVelocity = to.normalized * config.magnetSpeed;
                 }
             }
-        }
-
-        private float LightestWeight()
-        {
-            float min = float.MaxValue;
-            foreach (var w in config.weights) min = Mathf.Min(min, w.weight);
-            return min == float.MaxValue ? 1f : min;
         }
 
         private void Refresh()
