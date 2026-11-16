@@ -21,6 +21,7 @@ namespace Underlab.EditorTools.Mining
         private const string ScenePath = "Assets/_Game/Scenes/Sandbox_A.unity";
         private const string TerrainConfigPath = DataFolder + "/TerrainConfig.asset";
         private const string PlayerConfigPath = DataFolder + "/PlayerConfig.asset";
+        private const string DrillConfigPath = DataFolder + "/DrillConfig.asset";
 
         [MenuItem("Underlab/Mining/Build Sandbox_A Scene", priority = 100)]
         public static void Build()
@@ -32,6 +33,7 @@ namespace Underlab.EditorTools.Mining
             // Load config SAU NewScene (NewScene dọn asset không dùng => load trước sẽ bị unload mất).
             var terrainConfig = GetOrCreateTerrainConfig();
             var playerConfig = GetOrCreate<PlayerConfig>(PlayerConfigPath);
+            var drillConfig = GetOrCreate<DrillConfig>(DrillConfigPath);
 
             // Ánh sáng 2D toàn cục (URP 2D cần light để sprite Lit hiện đúng màu)
             var lightGo = new GameObject("Global Light 2D");
@@ -73,6 +75,20 @@ namespace Underlab.EditorTools.Mining
             Set(pc, "config", playerConfig);
             Set(pc, "art", art);
 
+            // Vết nứt trên ô đang khoan (không làm con của Player để không bị lật theo)
+            var crack = new GameObject("DrillCrack");
+            var crackSr = crack.AddComponent<SpriteRenderer>();
+            crackSr.sortingOrder = 5;
+            var crackArt = crack.AddComponent<ArtSprite>();
+            Set(crackArt, "artId", "tile_crack");
+            SetBool(crackArt, "playOnEnable", false);
+            crack.SetActive(false);
+
+            var drill = player.AddComponent<Drill>();
+            Set(drill, "config", drillConfig);
+            Set(drill, "terrain", gen);
+            Set(drill, "crackOverlay", crackArt);
+
             // Camera
             var camGo = new GameObject("Main Camera", typeof(Camera), typeof(AudioListener));
             camGo.tag = "MainCamera";
@@ -89,7 +105,7 @@ namespace Underlab.EditorTools.Mining
 
             ArtDatabaseBuilder.EnsureFolder("Assets/_Game/Scenes");
             EditorSceneManager.SaveScene(scene, ScenePath);
-            Debug.Log($"[Mining] Đã dựng {ScenePath}. Bấm Play: A/D đi, giữ Space bay.");
+            Debug.Log($"[Mining] Đã dựng {ScenePath}. Bấm Play: A/D đi, giữ Space bay, giữ S/A/D/W vào đất để khoan.");
         }
 
         private static TerrainConfig GetOrCreateTerrainConfig()
@@ -143,6 +159,13 @@ namespace Underlab.EditorTools.Mining
         {
             var so = new SerializedObject(target);
             so.FindProperty(field).objectReferenceValue = value;
+            so.ApplyModifiedPropertiesWithoutUndo();
+        }
+
+        private static void SetBool(Object target, string field, bool value)
+        {
+            var so = new SerializedObject(target);
+            so.FindProperty(field).boolValue = value;
             so.ApplyModifiedPropertiesWithoutUndo();
         }
 
