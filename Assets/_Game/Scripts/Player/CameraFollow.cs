@@ -19,15 +19,40 @@ namespace Underlab.Player
 
         public Transform Target { get => target; set => target = value; }
 
-        private void Awake() => cam = GetComponent<Camera>();
+        private Vector3 basePos;
+        private float shakeAmp, shakeTime, shakeDuration;
+
+        private void Awake()
+        {
+            cam = GetComponent<Camera>();
+            basePos = transform.position;
+        }
+
+        /// <summary>Rung camera (vd cảnh báo wave, nổ). amplitude tính bằng ô.</summary>
+        public void Shake(float amplitude, float duration)
+        {
+            if (amplitude >= shakeAmp * (shakeTime / Mathf.Max(0.0001f, shakeDuration)))
+            {
+                shakeAmp = amplitude;
+                shakeTime = shakeDuration = duration;
+            }
+        }
 
         private void LateUpdate()
         {
             if (target == null) return;
             var desired = (Vector3)((Vector2)target.position + offset);
             desired.z = transform.position.z;
-            var pos = Vector3.SmoothDamp(transform.position, desired, ref velocity, smoothTime);
-            transform.position = Clamp(pos);
+            basePos = Clamp(Vector3.SmoothDamp(basePos, desired, ref velocity, smoothTime));
+
+            var shake = Vector3.zero;
+            if (shakeTime > 0f)
+            {
+                shakeTime -= Time.deltaTime;
+                float k = shakeAmp * Mathf.Clamp01(shakeTime / shakeDuration);
+                shake = (Vector3)(Random.insideUnitCircle * k);
+            }
+            transform.position = basePos + shake;
         }
 
         private Vector3 Clamp(Vector3 p)

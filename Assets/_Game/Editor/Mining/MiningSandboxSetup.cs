@@ -124,6 +124,15 @@ namespace Underlab.EditorTools.Mining
             Set(follow, "target", player.transform);
             Set(follow, "terrain", gen);
 
+            // Vòng chơi giả + HUD (A09) + cảnh báo wave (A10)
+            var systems = new GameObject("[Mining Systems]");
+            systems.AddComponent<DebugWaveClock>();
+            var miningHud = systems.AddComponent<Underlab.UI.MiningHud>();
+            Set(miningHud, "carrier", carrier);
+            var alert = systems.AddComponent<WaveAlert>();
+            Set(alert, "player", pc);
+            Set(alert, "cameraFollow", follow);
+
             // Nền parallax (A11). Lòng đất vẽ sau cùng; trời + núi che phần trên mặt đất.
             var bgRoot = new GameObject("Backgrounds");
             // id, follow, anchor, size, tint, order

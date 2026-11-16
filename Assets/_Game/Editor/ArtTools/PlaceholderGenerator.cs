@@ -40,6 +40,7 @@ namespace Underlab.EditorTools.Art
             { "dirt_2", new Color32(105, 80, 65, 255) },
             { "dirt_3", new Color32(75, 65, 70, 255) },
             { "bedrock", new Color32(35, 35, 40, 255) },
+            { "bar_fill", new Color32(255, 255, 255, 255) }, // code tô màu => placeholder phải trắng
         };
 
         [MenuItem("Underlab/Art/Generate Missing Placeholders", priority = 0)]

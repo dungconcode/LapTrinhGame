@@ -50,7 +50,7 @@ namespace Underlab.Mining
                 $"Mg {carrier.Get(ResourceType.Magnesium)} · KCl {carrier.Get(ResourceType.KCl)}\n" +
                 $"<b>Kho (debug)</b>: Sắt {Bank(ResourceType.Iron)} · S {Bank(ResourceType.Sulfur)} · " +
                 $"Mg {Bank(ResourceType.Magnesium)} · KCl {Bank(ResourceType.KCl)}";
-            GUI.Box(new Rect(10, 10, 380, 125), text, style);
+            GUI.Box(new Rect(10, Screen.height - 135, 380, 125), text, style);
         }
 #endif
     }
