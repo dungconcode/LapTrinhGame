@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: 66ce80778befeff408ec70e3719a85b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3265251294223331253
+    second: skyray gag_0
+  - first:
+      213: 3130191964289559599
+    second: skyray gag_1
+  - first:
+      213: 1164092256355627014
+    second: skyray gag_2
+  - first:
+      213: 6939680947251014825
+    second: skyray gag_3
+  - first:
+      213: -1511186921031481363
+    second: skyray gag_4
+  - first:
+      213: 974081391902446816
+    second: skyray gag_5
+  - first:
+      213: -8696017262509416936
+    second: skyray gag_6
+  - first:
+      213: -7370445325938701174
+    second: skyray gag_7
+  - first:
+      213: 161642639359510410
+    second: skyray gag_8
+  - first:
+      213: 8949811780606810526
+    second: skyray gag_9
+  - first:
+      213: -1178597653112646599
+    second: skyray gag_10
+  - first:
+      213: 3565527260662548236
+    second: skyray gag_11
+  - first:
+      213: -7827750973677694679
+    second: skyray gag_12
+  - first:
+      213: -7139979473920306797
+    second: skyray gag_13
+  - first:
+      213: -8573538352978169942
+    second: skyray gag_14
+  - first:
+      213: 601393620637144598
+    second: skyray gag_15
+  - first:
+      213: 8904706760013271125
+    second: skyray gag_16
+  - first:
+      213: 3152550123692186008
+    second: skyray gag_17
+  - first:
+      213: -8022226596337461941
+    second: skyray gag_18
+  - first:
+      213: -2063966835591167688
+    second: skyray gag_19
+  - first:
+      213: -1575110257459680524
+    second: skyray gag_20
+  - first:
+      213: -5053909379897445808
+    second: skyray gag_21
+  - first:
+      213: -7974679467271488515
+    second: skyray gag_22
+  - first:
+      213: -5485932523008733518
+    second: skyray gag_23
+  - first:
+      213: -3353782074729106623
+    second: skyray gag_24
+  - first:
+      213: -1958616394228575206
+    second: skyray gag_25
+  - first:
+      213: -2414613367267015870
+    second: skyray gag_26
+  - first:
+      213: 5319942964425328524
+    second: skyray gag_27
+  - first:
+      213: 7532594954194939180
+    second: skyray gag_28
+  - first:
+      213: -3971888912331097703
+    second: skyray gag_29
+  - first:
+      213: 4365600682117818818
+    second: skyray gag_30
+  - first:
+      213: -4945002780862112549
+    second: skyray gag_31
+  - first:
+      213: 1697215125874835891
+    second: skyray gag_32
+  - first:
+      213: -5791254276202020557
+    second: skyray gag_33
+  - first:
+      213: -6485677276760291789
+    second: skyray gag_34
+  - first:
+      213: 2106796169409349064
+    second: skyray gag_35
+  - first:
+      213: -7040841925746902277
+    second: skyray gag_36
+  - first:
+      213: -6845029106095577661
+    second: skyray gag_37
+  - first:
+      213: -3058713963159388867
+    second: skyray gag_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skyray gag_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 306
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b401f697f3f7fa2d0800000000000000
+      internalID: -3265251294223331253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 306
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ce24ec10da07b20800000000000000
+      internalID: 3130191964289559599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 306
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6003cd15dbfa72010800000000000000
+      internalID: 1164092256355627014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_3
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 305
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac6173bd03be4060800000000000000
+      internalID: 6939680947251014825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_4
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 305
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7c3be708f270be0800000000000000
+      internalID: -1511186921031481363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 307
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4d9a27dd1a48d00800000000000000
+      internalID: 974081391902446816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_6
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 307
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e167b8f5a815780800000000000000
+      internalID: -8696017262509416936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 249
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c4cfeb60be6b990800000000000000
+      internalID: -7370445325938701174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 249
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a878493cf154e3200800000000000000
+      internalID: 161642639359510410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_9
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 248
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99dca5756e143c70800000000000000
+      internalID: 8949811780606810526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_10
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 248
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9349c11dda7c4afe0800000000000000
+      internalID: -1178597653112646599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_11
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 247
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0743c0172c4b7130800000000000000
+      internalID: 3565527260662548236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_12
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 247
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92119bf66fd3e5390800000000000000
+      internalID: -7827750973677694679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_13
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 249
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39156696f72b9ec90800000000000000
+      internalID: -7139979473920306797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 138
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf6c82ea4ca40980800000000000000
+      internalID: -8573538352978169942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 190
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6165348cf44985800800000000000000
+      internalID: 601393620637144598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_16
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 137
+        width: 76
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5505c9b7e9fd39b70800000000000000
+      internalID: 8904706760013271125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_17
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 188
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899594372ab10cb20800000000000000
+      internalID: 3152550123692186008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_18
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 138
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b455d990a635ba090800000000000000
+      internalID: -8022226596337461941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_19
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 182
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831c66039115b53e0800000000000000
+      internalID: -2063966835591167688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_20
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 139
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4faaa0ee095142ae0800000000000000
+      internalID: -1575110257459680524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_21
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 185
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052b23c1238ecd9b0800000000000000
+      internalID: -5053909379897445808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_22
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 137
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb7ea3b64f345190800000000000000
+      internalID: -7974679467271488515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_23
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 185
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be4d40af6d0ed3b0800000000000000
+      internalID: -5485932523008733518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_24
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 135
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143f2bdd8f8f471d0800000000000000
+      internalID: -3353782074729106623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_25
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 164
+        width: 93
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14dfb244c891d4e0800000000000000
+      internalID: -1958616394228575206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_26
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 137
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243c3268fe19d7ed0800000000000000
+      internalID: -2414613367267015870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_27
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 115
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8709eb90fb34d940800000000000000
+      internalID: 5319942964425328524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_28
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 58
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d60b19337298860800000000000000
+      internalID: 7532594954194939180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_29
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 72
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9993135041401e8c0800000000000000
+      internalID: -3971888912331097703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_30
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 58
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9e5d0c0bab59c30800000000000000
+      internalID: 4365600682117818818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_31
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 58
+        width: 67
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc1569ab22df5bb0800000000000000
+      internalID: -4945002780862112549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_32
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 58
+        width: 136
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1803d2a28bd8710800000000000000
+      internalID: 1697215125874835891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_33
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 58
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331440f4be451afa0800000000000000
+      internalID: -5791254276202020557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_34
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 59
+        width: 46
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33641ee11ee3ef5a0800000000000000
+      internalID: -6485677276760291789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_35
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 59
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c54ccb24f7dc3d10800000000000000
+      internalID: 2106796169409349064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_36
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 59
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfabd209297e94e90800000000000000
+      internalID: -7040841925746902277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_37
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 45
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5a6f56b429101a0800000000000000
+      internalID: -6845029106095577661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyray gag_38
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1
+        width: 45
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d7b543bd34d85d0800000000000000
+      internalID: -3058713963159388867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      skyray gag_0: -3265251294223331253
+      skyray gag_1: 3130191964289559599
+      skyray gag_10: -1178597653112646599
+      skyray gag_11: 3565527260662548236
+      skyray gag_12: -7827750973677694679
+      skyray gag_13: -7139979473920306797
+      skyray gag_14: -8573538352978169942
+      skyray gag_15: 601393620637144598
+      skyray gag_16: 8904706760013271125
+      skyray gag_17: 3152550123692186008
+      skyray gag_18: -8022226596337461941
+      skyray gag_19: -2063966835591167688
+      skyray gag_2: 1164092256355627014
+      skyray gag_20: -1575110257459680524
+      skyray gag_21: -5053909379897445808
+      skyray gag_22: -7974679467271488515
+      skyray gag_23: -5485932523008733518
+      skyray gag_24: -3353782074729106623
+      skyray gag_25: -1958616394228575206
+      skyray gag_26: -2414613367267015870
+      skyray gag_27: 5319942964425328524
+      skyray gag_28: 7532594954194939180
+      skyray gag_29: -3971888912331097703
+      skyray gag_3: 6939680947251014825
+      skyray gag_30: 4365600682117818818
+      skyray gag_31: -4945002780862112549
+      skyray gag_32: 1697215125874835891
+      skyray gag_33: -5791254276202020557
+      skyray gag_34: -6485677276760291789
+      skyray gag_35: 2106796169409349064
+      skyray gag_36: -7040841925746902277
+      skyray gag_37: -6845029106095577661
+      skyray gag_38: -3058713963159388867
+      skyray gag_4: -1511186921031481363
+      skyray gag_5: 974081391902446816
+      skyray gag_6: -8696017262509416936
+      skyray gag_7: -7370445325938701174
+      skyray gag_8: 161642639359510410
+      skyray gag_9: 8949811780606810526
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 00b82aee393eb7746a3abb92e1dd7e50
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2628475166888126674
+    second: pilzmannerl_sheet_0
+  - first:
+      213: 2715245384574025723
+    second: pilzmannerl_sheet_1
+  - first:
+      213: 8997832087456751669
+    second: pilzmannerl_sheet_2
+  - first:
+      213: 1650926308209604488
+    second: pilzmannerl_sheet_3
+  - first:
+      213: 1682630682336749840
+    second: pilzmannerl_sheet_4
+  - first:
+      213: -5370645544564924606
+    second: pilzmannerl_sheet_5
+  - first:
+      213: -1160186985510412789
+    second: pilzmannerl_sheet_6
+  - first:
+      213: 5064281595457225574
+    second: pilzmannerl_sheet_7
+  - first:
+      213: 8119478139141424715
+    second: pilzmannerl_sheet_8
+  - first:
+      213: 889224834882314187
+    second: pilzmannerl_sheet_9
+  - first:
+      213: -5041145470161874246
+    second: pilzmannerl_sheet_10
+  - first:
+      213: -4009998774984668646
+    second: pilzmannerl_sheet_11
+  - first:
+      213: -1162228309342394879
+    second: pilzmannerl_sheet_12
+  - first:
+      213: -5932450616256838786
+    second: pilzmannerl_sheet_13
+  - first:
+      213: -1186822046497312361
+    second: pilzmannerl_sheet_14
+  - first:
+      213: 7291837120676010119
+    second: pilzmannerl_sheet_15
+  - first:
+      213: -1092303560307061445
+    second: pilzmannerl_sheet_16
+  - first:
+      213: -6915099488889876795
+    second: pilzmannerl_sheet_17
+  - first:
+      213: -37886403183170424
+    second: pilzmannerl_sheet_18
+  - first:
+      213: 8000828729225764497
+    second: pilzmannerl_sheet_19
+  - first:
+      213: 724773811388443540
+    second: pilzmannerl_sheet_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2792b013c7c58bd0800000000000000
+      internalID: -2628475166888126674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 59
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffbd819a4d7ea520800000000000000
+      internalID: 2715245384574025723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 59
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530a8796c98bedc70800000000000000
+      internalID: 8997832087456751669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8873e27fab449e610800000000000000
+      internalID: 1650926308209604488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 47
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019eadcc0b7e95710800000000000000
+      internalID: 1682630682336749840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f5ca50552a775b0800000000000000
+      internalID: -5370645544564924606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 35
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ede97651036efe0800000000000000
+      internalID: -1160186985510412789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 35
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663c6c38741f74640800000000000000
+      internalID: 5064281595457225574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 35
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b460315495e2ea070800000000000000
+      internalID: 8119478139141424715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf9d98a649275c00800000000000000
+      internalID: 889224834882314187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 23
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab29eed67e04a0ab0800000000000000
+      internalID: -5041145470161874246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 11
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a894b2c5f9958c0800000000000000
+      internalID: -4009998774984668646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 19
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1066eb9a28feedfe0800000000000000
+      internalID: -1162228309342394879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 18
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73c6729893bbada0800000000000000
+      internalID: -5932450616256838786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 17
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791fce203af878fe0800000000000000
+      internalID: -1186822046497312361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78896e93a3fc13560800000000000000
+      internalID: 7291837120676010119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 11
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dc00df2bb57d0f0800000000000000
+      internalID: -1092303560307061445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 15
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cecb3217a1a800a0800000000000000
+      internalID: -6915099488889876795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 11
+        width: 43
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c237c5486697ff0800000000000000
+      internalID: -37886403183170424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19edd3ac657a80f60800000000000000
+      internalID: 8000828729225764497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pilzmannerl_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b605201f9ee0a00800000000000000
+      internalID: 724773811388443540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pilzmannerl_sheet_0: -2628475166888126674
+      pilzmannerl_sheet_1: 2715245384574025723
+      pilzmannerl_sheet_10: -5041145470161874246
+      pilzmannerl_sheet_11: -4009998774984668646
+      pilzmannerl_sheet_12: -1162228309342394879
+      pilzmannerl_sheet_13: -5932450616256838786
+      pilzmannerl_sheet_14: -1186822046497312361
+      pilzmannerl_sheet_15: 7291837120676010119
+      pilzmannerl_sheet_16: -1092303560307061445
+      pilzmannerl_sheet_17: -6915099488889876795
+      pilzmannerl_sheet_18: -37886403183170424
+      pilzmannerl_sheet_19: 8000828729225764497
+      pilzmannerl_sheet_2: 8997832087456751669
+      pilzmannerl_sheet_20: 724773811388443540
+      pilzmannerl_sheet_3: 1650926308209604488
+      pilzmannerl_sheet_4: 1682630682336749840
+      pilzmannerl_sheet_5: -5370645544564924606
+      pilzmannerl_sheet_6: -1160186985510412789
+      pilzmannerl_sheet_7: 5064281595457225574
+      pilzmannerl_sheet_8: 8119478139141424715
+      pilzmannerl_sheet_9: 889224834882314187
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

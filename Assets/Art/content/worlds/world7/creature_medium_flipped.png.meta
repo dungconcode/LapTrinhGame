@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 83c3f8455e474f0428d82308006b12e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1558530983380382752
+    second: creature_medium_flipped_0
+  - first:
+      213: 4404763571152941203
+    second: creature_medium_flipped_1
+  - first:
+      213: 5414384636681865066
+    second: creature_medium_flipped_2
+  - first:
+      213: -7672005984142811260
+    second: creature_medium_flipped_3
+  - first:
+      213: -4982255411886969950
+    second: creature_medium_flipped_4
+  - first:
+      213: 1125079141527825255
+    second: creature_medium_flipped_5
+  - first:
+      213: 996127190172965241
+    second: creature_medium_flipped_6
+  - first:
+      213: -1297449903196399817
+    second: creature_medium_flipped_7
+  - first:
+      213: -4702554271266692638
+    second: creature_medium_flipped_8
+  - first:
+      213: 9098953838557587095
+    second: creature_medium_flipped_9
+  - first:
+      213: 6659612719034947876
+    second: creature_medium_flipped_10
+  - first:
+      213: -8858216445448874322
+    second: creature_medium_flipped_11
+  - first:
+      213: 5886652195377686938
+    second: creature_medium_flipped_12
+  - first:
+      213: 1302244992151523550
+    second: creature_medium_flipped_13
+  - first:
+      213: -8657458232655292536
+    second: creature_medium_flipped_14
+  - first:
+      213: 1808968073453627850
+    second: creature_medium_flipped_15
+  - first:
+      213: -2514699077113544614
+    second: creature_medium_flipped_16
+  - first:
+      213: 561690992459934430
+    second: creature_medium_flipped_17
+  - first:
+      213: 30359295383784324
+    second: creature_medium_flipped_18
+  - first:
+      213: 8254893113379672499
+    second: creature_medium_flipped_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: creature_medium_flipped_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 123
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024f3d30ca301a510800000000000000
+      internalID: 1558530983380382752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 123
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390f62a612dd02d30800000000000000
+      internalID: 4404763571152941203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 90
+        width: 7
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6741c2f322c32b40800000000000000
+      internalID: 5414384636681865066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 125
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f1f78943f878590800000000000000
+      internalID: -7672005984142811260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 121
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aba53a99197bdab0800000000000000
+      internalID: -4982255411886969950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 123
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ba7fea4851d9f00800000000000000
+      internalID: 1125079141527825255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 124
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9791e59d664f2dd00800000000000000
+      internalID: 996127190172965241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_7
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 103
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7371d1eef288efde0800000000000000
+      internalID: -1297449903196399817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 91
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e127243ecb2dbeb0800000000000000
+      internalID: -4702554271266692638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4
+        width: 7
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796e6eece4af54e70800000000000000
+      internalID: 9098953838557587095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4
+        width: 7
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42950cbdb72bb6c50800000000000000
+      internalID: 6659612719034947876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_11
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 91
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea61f71631b411580800000000000000
+      internalID: -8858216445448874322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 90
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99a2cd9bf691b150800000000000000
+      internalID: 5886652195377686938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_13
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 90
+        width: 7
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed019b7bbe0821210800000000000000
+      internalID: 1302244992151523550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 89
+        width: 7
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887dcc84b978ad780800000000000000
+      internalID: -8657458232655292536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_15
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 75
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9e934e0eeba1910800000000000000
+      internalID: 1808968073453627850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 4
+        width: 7
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5005a7438ef91dd0800000000000000
+      internalID: -2514699077113544614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_17
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 4
+        width: 7
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda6c1f4bf68bc700800000000000000
+      internalID: 561690992459934430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_18
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 4
+        width: 7
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b4bf84e9bdb6000800000000000000
+      internalID: 30359295383784324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creature_medium_flipped_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 4
+        width: 6
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b150d1ec854f8270800000000000000
+      internalID: 8254893113379672499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      creature_medium_flipped_0: 1558530983380382752
+      creature_medium_flipped_1: 4404763571152941203
+      creature_medium_flipped_10: 6659612719034947876
+      creature_medium_flipped_11: -8858216445448874322
+      creature_medium_flipped_12: 5886652195377686938
+      creature_medium_flipped_13: 1302244992151523550
+      creature_medium_flipped_14: -8657458232655292536
+      creature_medium_flipped_15: 1808968073453627850
+      creature_medium_flipped_16: -2514699077113544614
+      creature_medium_flipped_17: 561690992459934430
+      creature_medium_flipped_18: 30359295383784324
+      creature_medium_flipped_19: 8254893113379672499
+      creature_medium_flipped_2: 5414384636681865066
+      creature_medium_flipped_3: -7672005984142811260
+      creature_medium_flipped_4: -4982255411886969950
+      creature_medium_flipped_5: 1125079141527825255
+      creature_medium_flipped_6: 996127190172965241
+      creature_medium_flipped_7: -1297449903196399817
+      creature_medium_flipped_8: -4702554271266692638
+      creature_medium_flipped_9: 9098953838557587095
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

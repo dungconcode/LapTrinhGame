@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7438db627e39cd949ac8846e7c5cf97f, type: 3}
+  m_Name: DefenseAudioConfig
+  m_EditorClassIdentifier: 
+  shot: {fileID: 0}
+  explosion: {fileID: 0}
+  warning: {fileID: 0}
+  miningMusic: {fileID: 0}
+  defenseMusic: {fileID: 0}
+  effectsVolume: 0.2
+  musicVolume: 0.08
+  shotFrequency: 180
+  explosionFrequency: 60
+  warningFrequency: 660
+  effectSeconds: 0.12
+  musicSeconds: 4
+  miningNotes:
+  - 130.81
+  - 164.81
+  - 196
+  - 164.81
+  defenseNotes:
+  - 130.81
+  - 155.56
+  - 146.83
+  - 174.61

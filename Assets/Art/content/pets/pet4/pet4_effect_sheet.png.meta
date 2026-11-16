@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 0d1d03cd7a8c3b54b91b42b24e457e35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5618737751710025332
+    second: pet4_effect_sheet_0
+  - first:
+      213: 6495738212901680976
+    second: pet4_effect_sheet_1
+  - first:
+      213: 740067327367002007
+    second: pet4_effect_sheet_2
+  - first:
+      213: -382396585593451063
+    second: pet4_effect_sheet_3
+  - first:
+      213: 228202297936262978
+    second: pet4_effect_sheet_4
+  - first:
+      213: 3501361116980106732
+    second: pet4_effect_sheet_5
+  - first:
+      213: -2660762684316543477
+    second: pet4_effect_sheet_6
+  - first:
+      213: -7691388993379112572
+    second: pet4_effect_sheet_7
+  - first:
+      213: -922170934870892469
+    second: pet4_effect_sheet_8
+  - first:
+      213: 2069394278552690634
+    second: pet4_effect_sheet_9
+  - first:
+      213: 8182878516366086477
+    second: pet4_effect_sheet_10
+  - first:
+      213: 6196585160004938424
+    second: pet4_effect_sheet_11
+  - first:
+      213: -5024467563009321365
+    second: pet4_effect_sheet_12
+  - first:
+      213: -6887527982378529360
+    second: pet4_effect_sheet_13
+  - first:
+      213: -3331642395165071041
+    second: pet4_effect_sheet_14
+  - first:
+      213: 2606733915531207449
+    second: pet4_effect_sheet_15
+  - first:
+      213: 1249640106490394609
+    second: pet4_effect_sheet_16
+  - first:
+      213: 7391120779098347014
+    second: pet4_effect_sheet_17
+  - first:
+      213: 4244350032127534088
+    second: pet4_effect_sheet_18
+  - first:
+      213: -8700847544539055343
+    second: pet4_effect_sheet_19
+  - first:
+      213: -5601475469568102024
+    second: pet4_effect_sheet_20
+  - first:
+      213: -7957114582033172005
+    second: pet4_effect_sheet_21
+  - first:
+      213: -7327066731646167364
+    second: pet4_effect_sheet_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pet4_effect_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 22
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476c0c04734c9fd40800000000000000
+      internalID: 5618737751710025332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 22
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0577fed1d7f752a50800000000000000
+      internalID: 6495738212901680976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 22
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797359d205f354a00800000000000000
+      internalID: 740067327367002007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 22
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd4168d45471baf0800000000000000
+      internalID: -382396585593451063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 23
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2473b69e7ccba2300800000000000000
+      internalID: 228202297936262978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 35
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5d6f78265579030800000000000000
+      internalID: 3501361116980106732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 23
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0692b99f62131bd0800000000000000
+      internalID: -2660762684316543477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 23
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489e9441672b24590800000000000000
+      internalID: -7691388993379112572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 23
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40a4dcab6ac333f0800000000000000
+      internalID: -922170934870892469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 23
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfdb59d127f7bc10800000000000000
+      internalID: 2069394278552690634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 23
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d411d28e7ac6f8170800000000000000
+      internalID: 8182878516366086477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 7
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba2d824f51bef550800000000000000
+      internalID: 6196585160004938424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 5
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b665b594f51854ab0800000000000000
+      internalID: -5024467563009321365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 4
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdc3cdaac59a60a0800000000000000
+      internalID: -6887527982378529360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 4
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39ed85b4e0a3c1d0800000000000000
+      internalID: -3331642395165071041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 3
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91363336faafc2420800000000000000
+      internalID: 2606733915531207449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 3
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7f0745e0d975110800000000000000
+      internalID: 1249640106490394609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 3
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6065a225039829660800000000000000
+      internalID: 7391120779098347014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 2
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804216fddd5f6ea30800000000000000
+      internalID: 4244350032127534088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b7beed141604780800000000000000
+      internalID: -8700847544539055343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 0
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87134520dbf8342b0800000000000000
+      internalID: -5601475469568102024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 0
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9f4dc3276a29190800000000000000
+      internalID: -7957114582033172005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet4_effect_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 0
+        width: 119
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6d5a6c0a7015a90800000000000000
+      internalID: -7327066731646167364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pet4_effect_sheet_0: 5618737751710025332
+      pet4_effect_sheet_1: 6495738212901680976
+      pet4_effect_sheet_10: 8182878516366086477
+      pet4_effect_sheet_11: 6196585160004938424
+      pet4_effect_sheet_12: -5024467563009321365
+      pet4_effect_sheet_13: -6887527982378529360
+      pet4_effect_sheet_14: -3331642395165071041
+      pet4_effect_sheet_15: 2606733915531207449
+      pet4_effect_sheet_16: 1249640106490394609
+      pet4_effect_sheet_17: 7391120779098347014
+      pet4_effect_sheet_18: 4244350032127534088
+      pet4_effect_sheet_19: -8700847544539055343
+      pet4_effect_sheet_2: 740067327367002007
+      pet4_effect_sheet_20: -5601475469568102024
+      pet4_effect_sheet_21: -7957114582033172005
+      pet4_effect_sheet_22: -7327066731646167364
+      pet4_effect_sheet_3: -382396585593451063
+      pet4_effect_sheet_4: 228202297936262978
+      pet4_effect_sheet_5: 3501361116980106732
+      pet4_effect_sheet_6: -2660762684316543477
+      pet4_effect_sheet_7: -7691388993379112572
+      pet4_effect_sheet_8: -922170934870892469
+      pet4_effect_sheet_9: 2069394278552690634
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

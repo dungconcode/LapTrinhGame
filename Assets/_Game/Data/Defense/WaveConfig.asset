@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907dc2e963c799d4294f887771574a54, type: 3}
+  m_Name: WaveConfig
+  m_EditorClassIdentifier: 
+  warningSeconds: 10
+  spawnDistance: 16
+  flyingHeight: 5
+  waves:
+  - miningSeconds: 90
+    spawnDelay: 1.5
+    melee: 5
+    flying: 0
+    ranged: 0
+    bosses: 0
+    healthScale: 1
+    speedScale: 1
+  - miningSeconds: 90
+    spawnDelay: 1.5
+    melee: 5
+    flying: 0
+    ranged: 0
+    bosses: 0
+    healthScale: 1
+    speedScale: 1
+  - miningSeconds: 90
+    spawnDelay: 1.5
+    melee: 5
+    flying: 0
+    ranged: 0
+    bosses: 0
+    healthScale: 1
+    speedScale: 1
+  - miningSeconds: 90
+    spawnDelay: 1.5
+    melee: 5
+    flying: 0
+    ranged: 0
+    bosses: 0
+    healthScale: 1
+    speedScale: 1
+  - miningSeconds: 90
+    spawnDelay: 1.5
+    melee: 5
+    flying: 0
+    ranged: 0
+    bosses: 0
+    healthScale: 1
+    speedScale: 1
+  - miningSeconds: 90
+    spawnDelay: 1.5
+    melee: 5
+    flying: 0
+    ranged: 0
+    bosses: 0
+    healthScale: 1
+    speedScale: 1
+  - miningSeconds: 90
+    spawnDelay: 1.5
+    melee: 5
+    flying: 0
+    ranged: 0
+    bosses: 0
+    healthScale: 1
+    speedScale: 1
+  - miningSeconds: 90
+    spawnDelay: 1.5
+    melee: 5
+    flying: 0
+    ranged: 0
+    bosses: 0
+    healthScale: 1
+    speedScale: 1
+  - miningSeconds: 90
+    spawnDelay: 1.5
+    melee: 5
+    flying: 0
+    ranged: 0
+    bosses: 0
+    healthScale: 1
+    speedScale: 1
+  - miningSeconds: 90
+    spawnDelay: 1.5
+    melee: 5
+    flying: 0
+    ranged: 0
+    bosses: 0
+    healthScale: 1
+    speedScale: 1

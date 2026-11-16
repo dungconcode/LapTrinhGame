@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 9cbf22d32526df2458b5e3551362e6cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6287060640902770451
+    second: lasercannon_sheet_0
+  - first:
+      213: 9036422700687462315
+    second: lasercannon_sheet_1
+  - first:
+      213: 4048346516005201591
+    second: lasercannon_sheet_2
+  - first:
+      213: 6779164442335119817
+    second: lasercannon_sheet_3
+  - first:
+      213: 8163058078034346133
+    second: lasercannon_sheet_4
+  - first:
+      213: -1559737277020812699
+    second: lasercannon_sheet_5
+  - first:
+      213: -7350483031405069611
+    second: lasercannon_sheet_6
+  - first:
+      213: 4308733526028697823
+    second: lasercannon_sheet_7
+  - first:
+      213: -6471107182982655059
+    second: lasercannon_sheet_8
+  - first:
+      213: -5604149617040735746
+    second: lasercannon_sheet_9
+  - first:
+      213: -5275469959957720582
+    second: lasercannon_sheet_10
+  - first:
+      213: 3172514845401474709
+    second: lasercannon_sheet_11
+  - first:
+      213: -292448533911842416
+    second: lasercannon_sheet_12
+  - first:
+      213: -1348551606980839492
+    second: lasercannon_sheet_13
+  - first:
+      213: -4509110789304674257
+    second: lasercannon_sheet_14
+  - first:
+      213: -4714228270694668744
+    second: lasercannon_sheet_15
+  - first:
+      213: -443211416939730672
+    second: lasercannon_sheet_16
+  - first:
+      213: 6647073639741791916
+    second: lasercannon_sheet_17
+  - first:
+      213: -7743591816958717412
+    second: lasercannon_sheet_18
+  - first:
+      213: 57247217550863110
+    second: lasercannon_sheet_19
+  - first:
+      213: -6440778809234732930
+    second: lasercannon_sheet_20
+  - first:
+      213: -4838704558637740670
+    second: lasercannon_sheet_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lasercannon_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 142
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f6956b750204750800000000000000
+      internalID: 6287060640902770451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 142
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf80cab192d76d70800000000000000
+      internalID: 9036422700687462315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 142
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b62e2e05bd9e2830800000000000000
+      internalID: 4048346516005201591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 142
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9085b842e641e50800000000000000
+      internalID: 6779164442335119817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 142
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590ce1e7212094170800000000000000
+      internalID: 8163058078034346133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 142
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a4d3cd533ba5ae0800000000000000
+      internalID: -1559737277020812699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 119
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da7091a0a6ddf990800000000000000
+      internalID: -7350483031405069611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 119
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0c1c23052bbcb30800000000000000
+      internalID: 4308733526028697823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 119
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da317de6d420236a0800000000000000
+      internalID: -6471107182982655059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 119
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef145288d9f0a32b0800000000000000
+      internalID: -5604149617040735746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 96
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1d975a504c9c6b0800000000000000
+      internalID: -5275469959957720582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 96
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596eec47179070c20800000000000000
+      internalID: 3172514845401474709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 96
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091d91d9b9301fbf0800000000000000
+      internalID: -292448533911842416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 73
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7ff98557bf84de0800000000000000
+      internalID: -1348551606980839492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 50
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f281d9e90ab6c61c0800000000000000
+      internalID: -4509110789304674257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 50
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836e3276d52b39eb0800000000000000
+      internalID: -4714228270694668744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 50
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019e8e4809569d9f0800000000000000
+      internalID: -443211416939730672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 27
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae1ca4f1462f3c50800000000000000
+      internalID: 6647073639741791916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 27
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12dd80154c398490800000000000000
+      internalID: -7743591816958717412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 27
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60baf728a026bc000800000000000000
+      internalID: 57247217550863110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 27
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7843b63cc1cd96a0800000000000000
+      internalID: -6440778809234732930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lasercannon_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 4
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d855927d779dcb0800000000000000
+      internalID: -4838704558637740670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lasercannon_sheet_0: 6287060640902770451
+      lasercannon_sheet_1: 9036422700687462315
+      lasercannon_sheet_10: -5275469959957720582
+      lasercannon_sheet_11: 3172514845401474709
+      lasercannon_sheet_12: -292448533911842416
+      lasercannon_sheet_13: -1348551606980839492
+      lasercannon_sheet_14: -4509110789304674257
+      lasercannon_sheet_15: -4714228270694668744
+      lasercannon_sheet_16: -443211416939730672
+      lasercannon_sheet_17: 6647073639741791916
+      lasercannon_sheet_18: -7743591816958717412
+      lasercannon_sheet_19: 57247217550863110
+      lasercannon_sheet_2: 4048346516005201591
+      lasercannon_sheet_20: -6440778809234732930
+      lasercannon_sheet_21: -4838704558637740670
+      lasercannon_sheet_3: 6779164442335119817
+      lasercannon_sheet_4: 8163058078034346133
+      lasercannon_sheet_5: -1559737277020812699
+      lasercannon_sheet_6: -7350483031405069611
+      lasercannon_sheet_7: 4308733526028697823
+      lasercannon_sheet_8: -6471107182982655059
+      lasercannon_sheet_9: -5604149617040735746
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

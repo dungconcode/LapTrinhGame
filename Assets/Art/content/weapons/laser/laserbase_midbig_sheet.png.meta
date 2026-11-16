@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 8bfda8a20b15e9c4891e5d2b27c731e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4495559717597774075
+    second: laserbase_midbig_sheet_0
+  - first:
+      213: -195274051027063592
+    second: laserbase_midbig_sheet_1
+  - first:
+      213: 1560386995697635657
+    second: laserbase_midbig_sheet_2
+  - first:
+      213: 2347161165446492840
+    second: laserbase_midbig_sheet_3
+  - first:
+      213: -6655061523725023212
+    second: laserbase_midbig_sheet_4
+  - first:
+      213: -2543250735307023989
+    second: laserbase_midbig_sheet_5
+  - first:
+      213: -1536584447847895532
+    second: laserbase_midbig_sheet_6
+  - first:
+      213: -1014030441160591754
+    second: laserbase_midbig_sheet_7
+  - first:
+      213: -8657507670028005559
+    second: laserbase_midbig_sheet_8
+  - first:
+      213: 3979230317553096878
+    second: laserbase_midbig_sheet_9
+  - first:
+      213: -8215171041890636850
+    second: laserbase_midbig_sheet_10
+  - first:
+      213: -660554890678099678
+    second: laserbase_midbig_sheet_11
+  - first:
+      213: 648211863732393446
+    second: laserbase_midbig_sheet_12
+  - first:
+      213: -6788905727710327162
+    second: laserbase_midbig_sheet_13
+  - first:
+      213: 8636489938615755184
+    second: laserbase_midbig_sheet_14
+  - first:
+      213: -287973976036047774
+    second: laserbase_midbig_sheet_15
+  - first:
+      213: -7646978236737874298
+    second: laserbase_midbig_sheet_16
+  - first:
+      213: -5851408493737855258
+    second: laserbase_midbig_sheet_17
+  - first:
+      213: -1703689737190518508
+    second: laserbase_midbig_sheet_18
+  - first:
+      213: 8039157861852564939
+    second: laserbase_midbig_sheet_19
+  - first:
+      213: -1387947550022499974
+    second: laserbase_midbig_sheet_20
+  - first:
+      213: -915348946090809699
+    second: laserbase_midbig_sheet_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 149
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f770e51409c91c0800000000000000
+      internalID: -4495559717597774075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 149
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc2ea2094f3a4df0800000000000000
+      internalID: -195274051027063592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 149
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94152be84bb97a510800000000000000
+      internalID: 1560386995697635657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 149
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2b709e4aac29020800000000000000
+      internalID: 2347161165446492840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 149
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4180000edc874a3a0800000000000000
+      internalID: -6655061523725023212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 149
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8916435eee84bcd0800000000000000
+      internalID: -2543250735307023989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ee2aaf594fcaae0800000000000000
+      internalID: -1536584447847895532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 124
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676b033bfa07de1f0800000000000000
+      internalID: -1014030441160591754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 124
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fc2cfb4aa5ad780800000000000000
+      internalID: -8657507670028005559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 124
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8973514e0193730800000000000000
+      internalID: 3979230317553096878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb68079679ddfd80800000000000000
+      internalID: -8215171041890636850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 99
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2212c72a3dc35d6f0800000000000000
+      internalID: -660554890678099678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 99
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e596f47149eef800800000000000000
+      internalID: 648211863732393446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e0636b536f8c1a0800000000000000
+      internalID: -6788905727710327162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b16d6157d9fad770800000000000000
+      internalID: 8636489938615755184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 49
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26480ddc139e00cf0800000000000000
+      internalID: -287973976036047774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 49
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68698122fc970e590800000000000000
+      internalID: -7646978236737874298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e63d0f1afe9bcea0800000000000000
+      internalID: -5851408493737855258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 24
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411d747e5374b58e0800000000000000
+      internalID: -1703689737190518508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 24
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdc2096b73d09f60800000000000000
+      internalID: 8039157861852564939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 24
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7109029e050dbce0800000000000000
+      internalID: -1387947550022499974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserbase_midbig_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96aab6bbf60c43f0800000000000000
+      internalID: -915348946090809699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      laserbase_midbig_sheet_0: -4495559717597774075
+      laserbase_midbig_sheet_1: -195274051027063592
+      laserbase_midbig_sheet_10: -8215171041890636850
+      laserbase_midbig_sheet_11: -660554890678099678
+      laserbase_midbig_sheet_12: 648211863732393446
+      laserbase_midbig_sheet_13: -6788905727710327162
+      laserbase_midbig_sheet_14: 8636489938615755184
+      laserbase_midbig_sheet_15: -287973976036047774
+      laserbase_midbig_sheet_16: -7646978236737874298
+      laserbase_midbig_sheet_17: -5851408493737855258
+      laserbase_midbig_sheet_18: -1703689737190518508
+      laserbase_midbig_sheet_19: 8039157861852564939
+      laserbase_midbig_sheet_2: 1560386995697635657
+      laserbase_midbig_sheet_20: -1387947550022499974
+      laserbase_midbig_sheet_21: -915348946090809699
+      laserbase_midbig_sheet_3: 2347161165446492840
+      laserbase_midbig_sheet_4: -6655061523725023212
+      laserbase_midbig_sheet_5: -2543250735307023989
+      laserbase_midbig_sheet_6: -1536584447847895532
+      laserbase_midbig_sheet_7: -1014030441160591754
+      laserbase_midbig_sheet_8: -8657507670028005559
+      laserbase_midbig_sheet_9: 3979230317553096878
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

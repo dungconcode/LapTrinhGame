@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 68801a88dbf73d041aece97ef3407ba8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1693390652777445954
+    second: killMarkerSheet_0
+  - first:
+      213: -9213058538223743828
+    second: killMarkerSheet_1
+  - first:
+      213: -3812855756568098096
+    second: killMarkerSheet_2
+  - first:
+      213: 5710579929583726925
+    second: killMarkerSheet_3
+  - first:
+      213: 2399410168923880891
+    second: killMarkerSheet_4
+  - first:
+      213: 3910926405300262629
+    second: killMarkerSheet_5
+  - first:
+      213: 3364753217838398492
+    second: killMarkerSheet_6
+  - first:
+      213: 1171525442430886505
+    second: killMarkerSheet_7
+  - first:
+      213: 8029225230973501112
+    second: killMarkerSheet_8
+  - first:
+      213: -898850901754335288
+    second: killMarkerSheet_9
+  - first:
+      213: 4747564729830910003
+    second: killMarkerSheet_10
+  - first:
+      213: 7584666156425695362
+    second: killMarkerSheet_11
+  - first:
+      213: -8652624912346656207
+    second: killMarkerSheet_12
+  - first:
+      213: -835762737088297416
+    second: killMarkerSheet_13
+  - first:
+      213: 5589286577989254625
+    second: killMarkerSheet_14
+  - first:
+      213: -6055210179317906408
+    second: killMarkerSheet_15
+  - first:
+      213: 6144990041845019612
+    second: killMarkerSheet_16
+  - first:
+      213: 1231071311435163447
+    second: killMarkerSheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: killMarkerSheet_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 149
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5cb3b5c2edf78e0800000000000000
+      internalID: -1693390652777445954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 144
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac4b468214a42080800000000000000
+      internalID: -9213058538223743828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 143
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da84f904e3061bc0800000000000000
+      internalID: -3812855756568098096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 144
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d413054a03e004f40800000000000000
+      internalID: 5710579929583726925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdfa2506da6c4120800000000000000
+      internalID: 2399410168923880891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 3
+        width: 55
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e61e9a38d6664630800000000000000
+      internalID: 3910926405300262629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 96
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c3c12793102be20800000000000000
+      internalID: 3364753217838398492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 103
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962ec61de28124010800000000000000
+      internalID: 1171525442430886505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 91
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be77c19ec98d6f60800000000000000
+      internalID: 8029225230973501112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_9
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 11
+        width: 39
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfa4eefdd3a683f0800000000000000
+      internalID: -898850901754335288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 91
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338aeb5d7fcb2e140800000000000000
+      internalID: 4747564729830910003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 91
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2805ea91fa5224960800000000000000
+      internalID: 7584666156425695362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_12
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 91
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132d1ec5c73bbe780800000000000000
+      internalID: -8652624912346656207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_13
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 68
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836085bf736c664f0800000000000000
+      internalID: -835762737088297416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 24
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed78e48782219d40800000000000000
+      internalID: 5589286577989254625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_15
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 39
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8144d6d7c6297fba0800000000000000
+      internalID: -6055210179317906408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 24
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd33c70b2e3674550800000000000000
+      internalID: 6144990041845019612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killMarkerSheet_17
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 3
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7376443d5d4a51110800000000000000
+      internalID: 1231071311435163447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      killMarkerSheet_0: -1693390652777445954
+      killMarkerSheet_1: -9213058538223743828
+      killMarkerSheet_10: 4747564729830910003
+      killMarkerSheet_11: 7584666156425695362
+      killMarkerSheet_12: -8652624912346656207
+      killMarkerSheet_13: -835762737088297416
+      killMarkerSheet_14: 5589286577989254625
+      killMarkerSheet_15: -6055210179317906408
+      killMarkerSheet_16: 6144990041845019612
+      killMarkerSheet_17: 1231071311435163447
+      killMarkerSheet_2: -3812855756568098096
+      killMarkerSheet_3: 5710579929583726925
+      killMarkerSheet_4: 2399410168923880891
+      killMarkerSheet_5: 3910926405300262629
+      killMarkerSheet_6: 3364753217838398492
+      killMarkerSheet_7: 1171525442430886505
+      killMarkerSheet_8: 8029225230973501112
+      killMarkerSheet_9: -898850901754335288
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

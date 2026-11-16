@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 7b5b6441756d4c04bb0db0e09ccc315c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3467841107187723900
+    second: tesla_effects_3_0
+  - first:
+      213: 5236164105634895418
+    second: tesla_effects_3_1
+  - first:
+      213: -8523464950211864105
+    second: tesla_effects_3_2
+  - first:
+      213: 2501160226208708294
+    second: tesla_effects_3_3
+  - first:
+      213: -5788800659690330424
+    second: tesla_effects_3_4
+  - first:
+      213: 8415832781507463338
+    second: tesla_effects_3_5
+  - first:
+      213: -6296505599304893349
+    second: tesla_effects_3_6
+  - first:
+      213: 4579741723209496655
+    second: tesla_effects_3_7
+  - first:
+      213: 2096734097183787862
+    second: tesla_effects_3_8
+  - first:
+      213: 360412327103171005
+    second: tesla_effects_3_9
+  - first:
+      213: -6555628129533697999
+    second: tesla_effects_3_10
+  - first:
+      213: 6712618839081435032
+    second: tesla_effects_3_11
+  - first:
+      213: -6094127324072768518
+    second: tesla_effects_3_12
+  - first:
+      213: 6082928433555511065
+    second: tesla_effects_3_13
+  - first:
+      213: -99891722666701692
+    second: tesla_effects_3_14
+  - first:
+      213: 8326107997351033163
+    second: tesla_effects_3_15
+  - first:
+      213: 1652858191835982617
+    second: tesla_effects_3_16
+  - first:
+      213: -8787705882806824870
+    second: tesla_effects_3_17
+  - first:
+      213: -3953464423342006566
+    second: tesla_effects_3_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tesla_effects_3_0
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 319
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7eeb631d1f302030800000000000000
+      internalID: 3467841107187723900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 335
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36d40ef2879aa840800000000000000
+      internalID: 5236164105634895418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 320
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9112b79c196b980800000000000000
+      internalID: -8523464950211864105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 294
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6718959f7e5b220800000000000000
+      internalID: 2501160226208708294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 307
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c66c9b687c0aafa0800000000000000
+      internalID: -5788800659690330424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_5
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 310
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa807d6635b0bc470800000000000000
+      internalID: 8415832781507463338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_6
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 285
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c7c2b84815e98a0800000000000000
+      internalID: -6296505599304893349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_7
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 275
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48ffee25d28e8f30800000000000000
+      internalID: 4579741723209496655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_8
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 262
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bc61b6d88191d10800000000000000
+      internalID: 2096734097183787862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 226
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db908a91a11700500800000000000000
+      internalID: 360412327103171005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 239
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130e59b03fab505a0800000000000000
+      internalID: -6555628129533697999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_11
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 238
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f3b08e443082d50800000000000000
+      internalID: 6712618839081435032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb04a0ac7f4d6ba0800000000000000
+      internalID: -6094127324072768518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_13
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 194
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917133c7e27ea6450800000000000000
+      internalID: 6082928433555511065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_14
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 213
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c037ae10d1d9ef0800000000000000
+      internalID: -99891722666701692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_15
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 180
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49b5a72c174c8370800000000000000
+      internalID: 8326107997351033163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_16
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 194
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b6a7ca4c120f610800000000000000
+      internalID: 1652858191835982617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 118
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5050b01f0ccb0680800000000000000
+      internalID: -8787705882806824870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tesla_effects_3_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 88
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade1e86ad097229c0800000000000000
+      internalID: -3953464423342006566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tesla_effects_3_0: 3467841107187723900
+      tesla_effects_3_1: 5236164105634895418
+      tesla_effects_3_10: -6555628129533697999
+      tesla_effects_3_11: 6712618839081435032
+      tesla_effects_3_12: -6094127324072768518
+      tesla_effects_3_13: 6082928433555511065
+      tesla_effects_3_14: -99891722666701692
+      tesla_effects_3_15: 8326107997351033163
+      tesla_effects_3_16: 1652858191835982617
+      tesla_effects_3_17: -8787705882806824870
+      tesla_effects_3_18: -3953464423342006566
+      tesla_effects_3_2: -8523464950211864105
+      tesla_effects_3_3: 2501160226208708294
+      tesla_effects_3_4: -5788800659690330424
+      tesla_effects_3_5: 8415832781507463338
+      tesla_effects_3_6: -6296505599304893349
+      tesla_effects_3_7: 4579741723209496655
+      tesla_effects_3_8: 2096734097183787862
+      tesla_effects_3_9: 360412327103171005
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

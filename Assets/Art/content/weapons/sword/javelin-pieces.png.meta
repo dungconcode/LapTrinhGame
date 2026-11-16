@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: c0fc2d0e5ef57b34890795c98dc41caa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4520899002227636000
+    second: javelin-pieces_0
+  - first:
+      213: -7868096361251256863
+    second: javelin-pieces_1
+  - first:
+      213: 9074184237455562645
+    second: javelin-pieces_2
+  - first:
+      213: 2234746467957764043
+    second: javelin-pieces_3
+  - first:
+      213: 5887325906015292548
+    second: javelin-pieces_4
+  - first:
+      213: 8084476064684135323
+    second: javelin-pieces_5
+  - first:
+      213: 2892362154153776153
+    second: javelin-pieces_6
+  - first:
+      213: -3911838342317862549
+    second: javelin-pieces_7
+  - first:
+      213: -8002768479389281020
+    second: javelin-pieces_8
+  - first:
+      213: 6172370255374420330
+    second: javelin-pieces_9
+  - first:
+      213: 3443669971784246325
+    second: javelin-pieces_10
+  - first:
+      213: 5048337061696868040
+    second: javelin-pieces_11
+  - first:
+      213: -2360421801648045182
+    second: javelin-pieces_12
+  - first:
+      213: 2297380783680108620
+    second: javelin-pieces_13
+  - first:
+      213: 1763563127887670461
+    second: javelin-pieces_14
+  - first:
+      213: -7114915285784227414
+    second: javelin-pieces_15
+  - first:
+      213: -4285066416255794771
+    second: javelin-pieces_16
+  - first:
+      213: -6995701202681477201
+    second: javelin-pieces_17
+  - first:
+      213: -7176940279360385019
+    second: javelin-pieces_18
+  - first:
+      213: 9112727009422198736
+    second: javelin-pieces_19
+  - first:
+      213: -4900035481654264266
+    second: javelin-pieces_20
+  - first:
+      213: 8167898489614281504
+    second: javelin-pieces_21
+  - first:
+      213: -1357356043930738997
+    second: javelin-pieces_22
+  - first:
+      213: 5842252576530266036
+    second: javelin-pieces_23
+  - first:
+      213: -6648750435074451899
+    second: javelin-pieces_24
+  - first:
+      213: -6487454672485650132
+    second: javelin-pieces_25
+  - first:
+      213: -814653936435404688
+    second: javelin-pieces_26
+  - first:
+      213: 4268534573283653307
+    second: javelin-pieces_27
+  - first:
+      213: -1199154537459660872
+    second: javelin-pieces_28
+  - first:
+      213: 8920798176490362237
+    second: javelin-pieces_29
+  - first:
+      213: 5362506091030958843
+    second: javelin-pieces_30
+  - first:
+      213: -1735217782664898813
+    second: javelin-pieces_31
+  - first:
+      213: -6424317230123996415
+    second: javelin-pieces_32
+  - first:
+      213: -4774525732810646002
+    second: javelin-pieces_33
+  - first:
+      213: 2100064244295209796
+    second: javelin-pieces_34
+  - first:
+      213: 3114128510644337383
+    second: javelin-pieces_35
+  - first:
+      213: 3149358910888381954
+    second: javelin-pieces_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: javelin-pieces_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 387
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8cdca6f4a8241c0800000000000000
+      internalID: -4520899002227636000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 379
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e54311eb08eec290800000000000000
+      internalID: -7868096361251256863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 405
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597dcf3ac7afded70800000000000000
+      internalID: 9074184237455562645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_3
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 408
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf6ea9821a630f10800000000000000
+      internalID: 2234746467957764043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 406
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c0ff818bbf3b150800000000000000
+      internalID: 5887325906015292548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_5
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 408
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9355aeb524d13070800000000000000
+      internalID: 8084476064684135323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_6
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 393
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9149e180e0cb32820800000000000000
+      internalID: 2892362154153776153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_7
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 411
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b611463e0cb56b9c0800000000000000
+      internalID: -3911838342317862549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_8
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 410
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4051f4ee77470f090800000000000000
+      internalID: -8002768479389281020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_9
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 389
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6987cd6b0aa8a550800000000000000
+      internalID: 6172370255374420330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_10
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 397
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53421ef089f5acf20800000000000000
+      internalID: 3443669971784246325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_11
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 397
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce81e47fcb4f0640800000000000000
+      internalID: 5048337061696868040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_12
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 381
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2834ea0a0e81e3fd0800000000000000
+      internalID: -2360421801648045182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_13
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 394
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48bf0596afe1ef10800000000000000
+      internalID: 2297380783680108620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_14
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 398
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbca8b0325f697810800000000000000
+      internalID: 1763563127887670461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_15
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 391
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa195d77e3eb24d90800000000000000
+      internalID: -7114915285784227414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_16
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 397
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da10e143cc26884c0800000000000000
+      internalID: -4285066416255794771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_17
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 383
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7c56b22d64aee90800000000000000
+      internalID: -6995701202681477201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_18
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 388
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500188a47d2666c90800000000000000
+      internalID: -7176940279360385019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 379
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7c7bb0fe8e67e70800000000000000
+      internalID: 9112727009422198736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 250
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63eff21e0b39ffbb0800000000000000
+      internalID: -4900035481654264266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_21
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 255
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ba8e2a6643a5170800000000000000
+      internalID: 8167898489614281504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_22
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 238
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce57cf9ed3b92de0800000000000000
+      internalID: -1357356043930738997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_23
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 250
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b77238c3c9d31150800000000000000
+      internalID: 5842252576530266036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_24
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 251
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546d925b4b4eab3a0800000000000000
+      internalID: -6648750435074451899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_25
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 213
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c217b0ee85ee7f5a0800000000000000
+      internalID: -6487454672485650132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_26
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 231
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070e4ef9f84c1b4f0800000000000000
+      internalID: -814653936435404688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_27
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 209
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6bb082491ec3b30800000000000000
+      internalID: 4268534573283653307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_28
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 75
+        width: 29
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b74be33d4fbb5fe0800000000000000
+      internalID: -1199154537459660872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_29
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 239
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7519a65daa0dcb70800000000000000
+      internalID: 8920798176490362237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_30
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 239
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2d4c5c0e27b6a40800000000000000
+      internalID: 5362506091030958843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_31
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 228
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3075158ce944be7e0800000000000000
+      internalID: -1735217782664898813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_32
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 222
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ba906448d38d6a0800000000000000
+      internalID: -6424317230123996415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_33
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 231
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e1cdc742a7dbdb0800000000000000
+      internalID: -4774525732810646002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_34
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 224
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44317b6bd4de42d10800000000000000
+      internalID: 2100064244295209796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_35
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 78
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea3fdd816b973b20800000000000000
+      internalID: 3114128510644337383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: javelin-pieces_36
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 77
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e86b15e35c4bb20800000000000000
+      internalID: 3149358910888381954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      javelin-pieces_0: -4520899002227636000
+      javelin-pieces_1: -7868096361251256863
+      javelin-pieces_10: 3443669971784246325
+      javelin-pieces_11: 5048337061696868040
+      javelin-pieces_12: -2360421801648045182
+      javelin-pieces_13: 2297380783680108620
+      javelin-pieces_14: 1763563127887670461
+      javelin-pieces_15: -7114915285784227414
+      javelin-pieces_16: -4285066416255794771
+      javelin-pieces_17: -6995701202681477201
+      javelin-pieces_18: -7176940279360385019
+      javelin-pieces_19: 9112727009422198736
+      javelin-pieces_2: 9074184237455562645
+      javelin-pieces_20: -4900035481654264266
+      javelin-pieces_21: 8167898489614281504
+      javelin-pieces_22: -1357356043930738997
+      javelin-pieces_23: 5842252576530266036
+      javelin-pieces_24: -6648750435074451899
+      javelin-pieces_25: -6487454672485650132
+      javelin-pieces_26: -814653936435404688
+      javelin-pieces_27: 4268534573283653307
+      javelin-pieces_28: -1199154537459660872
+      javelin-pieces_29: 8920798176490362237
+      javelin-pieces_3: 2234746467957764043
+      javelin-pieces_30: 5362506091030958843
+      javelin-pieces_31: -1735217782664898813
+      javelin-pieces_32: -6424317230123996415
+      javelin-pieces_33: -4774525732810646002
+      javelin-pieces_34: 2100064244295209796
+      javelin-pieces_35: 3114128510644337383
+      javelin-pieces_36: 3149358910888381954
+      javelin-pieces_4: 5887325906015292548
+      javelin-pieces_5: 8084476064684135323
+      javelin-pieces_6: 2892362154153776153
+      javelin-pieces_7: -3911838342317862549
+      javelin-pieces_8: -8002768479389281020
+      javelin-pieces_9: 6172370255374420330
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

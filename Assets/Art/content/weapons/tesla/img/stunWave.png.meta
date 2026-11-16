@@ -1,0 +1,2249 @@
+fileFormatVersion: 2
+guid: af340457322f9ed4b8a54e37e1b36f6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6729948381445006720
+    second: stunWave_0
+  - first:
+      213: 7788220183046992326
+    second: stunWave_1
+  - first:
+      213: 5632103073768221037
+    second: stunWave_2
+  - first:
+      213: 3329901253608387794
+    second: stunWave_3
+  - first:
+      213: 1343477957000865370
+    second: stunWave_4
+  - first:
+      213: -1875687335215794230
+    second: stunWave_5
+  - first:
+      213: 476029480007501933
+    second: stunWave_6
+  - first:
+      213: -8399975519051068965
+    second: stunWave_7
+  - first:
+      213: 752746719480517731
+    second: stunWave_8
+  - first:
+      213: 2380177153283310934
+    second: stunWave_9
+  - first:
+      213: -8819940437406254105
+    second: stunWave_10
+  - first:
+      213: -8334975017106651336
+    second: stunWave_11
+  - first:
+      213: -1688986630552833861
+    second: stunWave_12
+  - first:
+      213: -8565259349575069506
+    second: stunWave_13
+  - first:
+      213: -2848165669972020704
+    second: stunWave_14
+  - first:
+      213: -4118645247663417151
+    second: stunWave_15
+  - first:
+      213: 8529829229787181032
+    second: stunWave_16
+  - first:
+      213: 3821713064592807305
+    second: stunWave_17
+  - first:
+      213: 9202645420106739955
+    second: stunWave_18
+  - first:
+      213: -5170429009007431103
+    second: stunWave_19
+  - first:
+      213: 8895723650679101003
+    second: stunWave_20
+  - first:
+      213: -6559181255219318257
+    second: stunWave_21
+  - first:
+      213: -1843848607676205110
+    second: stunWave_22
+  - first:
+      213: -157168829891817949
+    second: stunWave_23
+  - first:
+      213: 7065197388657354386
+    second: stunWave_24
+  - first:
+      213: 861432594040479235
+    second: stunWave_25
+  - first:
+      213: 5205062275066852105
+    second: stunWave_26
+  - first:
+      213: -7410046639905612411
+    second: stunWave_27
+  - first:
+      213: -5600312268469056192
+    second: stunWave_28
+  - first:
+      213: 7587187221005163589
+    second: stunWave_29
+  - first:
+      213: -8600004864403659662
+    second: stunWave_30
+  - first:
+      213: -454024256425400403
+    second: stunWave_31
+  - first:
+      213: 7761201011317450761
+    second: stunWave_32
+  - first:
+      213: -4057856191942759684
+    second: stunWave_33
+  - first:
+      213: -5981839172243534282
+    second: stunWave_34
+  - first:
+      213: -5644839725363721190
+    second: stunWave_35
+  - first:
+      213: -7973802169345445726
+    second: stunWave_36
+  - first:
+      213: 6440246014098669883
+    second: stunWave_37
+  - first:
+      213: 7388175073664313929
+    second: stunWave_38
+  - first:
+      213: -1638573944413275739
+    second: stunWave_39
+  - first:
+      213: -384229009007006761
+    second: stunWave_40
+  - first:
+      213: 2622155324041612665
+    second: stunWave_41
+  - first:
+      213: -143560987301304241
+    second: stunWave_42
+  - first:
+      213: 576876595573859826
+    second: stunWave_43
+  - first:
+      213: -5649051023893173663
+    second: stunWave_44
+  - first:
+      213: -7594873557043880260
+    second: stunWave_45
+  - first:
+      213: 630340464069025262
+    second: stunWave_46
+  - first:
+      213: 7934584008697627119
+    second: stunWave_47
+  - first:
+      213: 3234582034477041431
+    second: stunWave_48
+  - first:
+      213: 1314710654788673278
+    second: stunWave_49
+  - first:
+      213: -1991852202180438000
+    second: stunWave_50
+  - first:
+      213: -5649896095680922062
+    second: stunWave_51
+  - first:
+      213: 928976511173428005
+    second: stunWave_52
+  - first:
+      213: 8970728006423591193
+    second: stunWave_53
+  - first:
+      213: 5984585982367288798
+    second: stunWave_54
+  - first:
+      213: 7729662801449488594
+    second: stunWave_55
+  - first:
+      213: -590980874749182896
+    second: stunWave_56
+  - first:
+      213: 391716969473616328
+    second: stunWave_57
+  - first:
+      213: 5950204723928806102
+    second: stunWave_58
+  - first:
+      213: 928817666616733225
+    second: stunWave_59
+  - first:
+      213: 2101065749215819080
+    second: stunWave_60
+  - first:
+      213: 4702305299267737370
+    second: stunWave_61
+  - first:
+      213: 1431310295857025418
+    second: stunWave_62
+  - first:
+      213: 8564520119764633375
+    second: stunWave_63
+  - first:
+      213: -5639208444814329725
+    second: stunWave_64
+  - first:
+      213: -5432852462082996133
+    second: stunWave_65
+  - first:
+      213: 5053050952861372805
+    second: stunWave_66
+  - first:
+      213: 2212221551206113014
+    second: stunWave_67
+  - first:
+      213: -5470216343860385340
+    second: stunWave_68
+  - first:
+      213: 9021811364003389325
+    second: stunWave_69
+  - first:
+      213: 5921568160603273091
+    second: stunWave_70
+  - first:
+      213: 6120824616004539647
+    second: stunWave_71
+  - first:
+      213: -5903041829475375068
+    second: stunWave_72
+  - first:
+      213: -6261824126508160300
+    second: stunWave_73
+  - first:
+      213: 954880063905459097
+    second: stunWave_74
+  - first:
+      213: -5874719133893782522
+    second: stunWave_75
+  - first:
+      213: 2404659817636210013
+    second: stunWave_76
+  - first:
+      213: -502773328991535429
+    second: stunWave_77
+  - first:
+      213: 8336303819924825038
+    second: stunWave_78
+  - first:
+      213: -1399809276278095985
+    second: stunWave_79
+  - first:
+      213: 594372032086582293
+    second: stunWave_80
+  - first:
+      213: 747736066182590032
+    second: stunWave_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stunWave_0
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 645
+        width: 111
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a51479a9b6a92a0800000000000000
+      internalID: -6729948381445006720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_1
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 751
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c13b032ef0551c60800000000000000
+      internalID: 7788220183046992326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_2
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 653
+        width: 121
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69275ac7ef392e40800000000000000
+      internalID: 5632103073768221037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_3
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 651
+        width: 77
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4b47e2c8f263e20800000000000000
+      internalID: 3329901253608387794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_4
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 751
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56aa96751ef4a210800000000000000
+      internalID: 1343477957000865370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_5
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 690
+        width: 142
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac773c27e4838f5e0800000000000000
+      internalID: -1875687335215794230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_6
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 690
+        width: 196
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68067a3a423b9600800000000000000
+      internalID: 476029480007501933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_7
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 564
+        width: 170
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9cbf835ca4d6b80800000000000000
+      internalID: -8399975519051068965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_8
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 556
+        width: 98
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3641a74372b427a00800000000000000
+      internalID: 752746719480517731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_9
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 690
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655c3fb9286180120800000000000000
+      internalID: 2380177153283310934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_10
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 556
+        width: 85
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebfb48f6e6499580800000000000000
+      internalID: -8819940437406254105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_11
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 549
+        width: 41
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8374a9de168345c80800000000000000
+      internalID: -8334975017106651336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_12
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 556
+        width: 57
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0b38fab938f88e0800000000000000
+      internalID: -1688986630552833861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 627
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb01c739006122980800000000000000
+      internalID: -8565259349575069506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_14
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 533
+        width: 114
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022fad3d9684978d0800000000000000
+      internalID: -2848165669972020704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_15
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 515
+        width: 85
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8db2108f1a7d6c0800000000000000
+      internalID: -4118645247663417151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_16
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 530
+        width: 70
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef6534dd7a006670800000000000000
+      internalID: 8529829229787181032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_17
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 517
+        width: 120
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9851680b8c3790530800000000000000
+      internalID: 3821713064592807305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_18
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 550
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0765b704d56bf70800000000000000
+      internalID: 9202645420106739955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_19
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 527
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142bcbdd532fe38b0800000000000000
+      internalID: -5170429009007431103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_20
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 550
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46d4ca5785f37b70800000000000000
+      internalID: 8895723650679101003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_21
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 528
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f027041866b19f4a0800000000000000
+      internalID: -6559181255219318257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_22
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 517
+        width: 123
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac77cdfd5755966e0800000000000000
+      internalID: -1843848607676205110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_23
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 473
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ec88c28cf91ddf0800000000000000
+      internalID: -157168829891817949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_24
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 495
+        width: 99
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29660fa879f9c0260800000000000000
+      internalID: 7065197388657354386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_25
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 489
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ed9b5516c64fb00800000000000000
+      internalID: 861432594040479235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_26
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 473
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9037523cf881c3840800000000000000
+      internalID: 5205062275066852105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_27
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 473
+        width: 133
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d595357d93a2990800000000000000
+      internalID: -7410046639905612411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_28
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 473
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04dc3aed9a1b742b0800000000000000
+      internalID: -5600312268469056192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_29
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 255
+        width: 769
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c5560349a1b4960800000000000000
+      internalID: 7587187221005163589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 434
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274a69ef325a6a880800000000000000
+      internalID: -8600004864403659662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 468
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da76a54285bf2b9f0800000000000000
+      internalID: -454024256425400403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_32
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 468
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908aafdf23355bb60800000000000000
+      internalID: 7761201011317450761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_33
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 434
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfae1a9fa499fa7c0800000000000000
+      internalID: -4057856191942759684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_34
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 434
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e48ea47fc3cfca0800000000000000
+      internalID: -5981839172243534282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_35
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 468
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c8eab6d2089a1b0800000000000000
+      internalID: -5644839725363721190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_36
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 468
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0fcea8c2d575190800000000000000
+      internalID: -7973802169345445726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_37
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 434
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b310a70c0a9506950800000000000000
+      internalID: 6440246014098669883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_38
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 456
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a2824d512188660800000000000000
+      internalID: 7388175073664313929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_39
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 457
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a93909ddad9249e0800000000000000
+      internalID: -1638573944413275739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_40
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 335
+        width: 14
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbacb580c1faaaf0800000000000000
+      internalID: -384229009007006761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_41
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 335
+        width: 19
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d466bdf54c36420800000000000000
+      internalID: 2622155324041612665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_42
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 431
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f482d4cea08f10ef0800000000000000
+      internalID: -143560987301304241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_43
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 330
+        width: 14
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5aa6e053a710800800000000000000
+      internalID: 576876595573859826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_44
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 335
+        width: 22
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a6ac2160a8a91b0800000000000000
+      internalID: -5649051023893173663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_45
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 347
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe546e3db6999690800000000000000
+      internalID: -7594873557043880260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_46
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 301
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed9368ff4b6fb800800000000000000
+      internalID: 630340464069025262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_47
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 301
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1caeedd1e4d1e60800000000000000
+      internalID: 7934584008697627119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_48
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 334
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7174dd9093b83ec20800000000000000
+      internalID: 3234582034477041431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_49
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 301
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe9919ff5ace3210800000000000000
+      internalID: 1314710654788673278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_50
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 301
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01894f3b9f48b54e0800000000000000
+      internalID: -1991852202180438000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_51
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 334
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e72177f698791b0800000000000000
+      internalID: -5649896095680922062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_52
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 315
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5238c29073364ec00800000000000000
+      internalID: 928976511173428005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_53
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 294
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919b687c79d6e7c70800000000000000
+      internalID: 8970728006423591193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_54
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 272
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddc8c64e358d0350800000000000000
+      internalID: 5984585982367288798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_55
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 272
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d092f94d57454b60800000000000000
+      internalID: 7729662801449488594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_56
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 294
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c768b860a6cc7f0800000000000000
+      internalID: -590980874749182896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9a7f12288af6500800000000000000
+      internalID: 391716969473616328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_58
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 272
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2b0aebbaf539250800000000000000
+      internalID: 5950204723928806102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_59
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 272
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e2cc72fb2d3ec00800000000000000
+      internalID: 928817666616733225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_60
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 294
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845bfbfba2c782d10800000000000000
+      internalID: 2101065749215819080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_61
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 281
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a175a4c71c1f14140800000000000000
+      internalID: 4702305299267737370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_62
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 256
+        width: 99
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81dae371290dd310800000000000000
+      internalID: 1431310295857025418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_63
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 166
+        width: 164
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17c1421ca94bd670800000000000000
+      internalID: 8564520119764633375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_64
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 255
+        width: 99
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38875781cc18db1b0800000000000000
+      internalID: -5639208444814329725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_65
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 223
+        width: 85
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58cf606871aa94b0800000000000000
+      internalID: -5432852462082996133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_66
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 160
+        width: 68
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5815045c11b002640800000000000000
+      internalID: 5053050952861372805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_67
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 228
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe9a1ca7c363be10800000000000000
+      internalID: 2212221551206113014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_68
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 237
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c96aabb733e514b0800000000000000
+      internalID: -5470216343860385340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_69
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 182
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f110ec2a9e33d70800000000000000
+      internalID: 9021811364003389325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_70
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 199
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38775064ed2ad2250800000000000000
+      internalID: 5921568160603273091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_71
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 103
+        width: 6
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4da690f8981f450800000000000000
+      internalID: 6120824616004539647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_72
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 56
+        width: 25
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42829d35bbe241ea0800000000000000
+      internalID: -5903041829475375068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_73
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 59
+        width: 22
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4daa28d22288919a0800000000000000
+      internalID: -6261824126508160300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_74
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 41
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bef24eb5a604d00800000000000000
+      internalID: 954880063905459097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_75
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 5
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6041215c21ec87ea0800000000000000
+      internalID: -5874719133893782522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_76
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 84
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55acdb1d511f5120800000000000000
+      internalID: 2404659817636210013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_77
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 26
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe3be2325ac509f0800000000000000
+      internalID: -502773328991535429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_78
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 9
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3e956182080b370800000000000000
+      internalID: 8336303819924825038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_79
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 0
+        width: 61
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fb52631e0e29ce0800000000000000
+      internalID: -1399809276278095985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_80
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 0
+        width: 41
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514a2fcc632af3800800000000000000
+      internalID: 594372032086582293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stunWave_81
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 115
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05eaf829dfd706a00800000000000000
+      internalID: 747736066182590032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      stunWave_0: -6729948381445006720
+      stunWave_1: 7788220183046992326
+      stunWave_10: -8819940437406254105
+      stunWave_11: -8334975017106651336
+      stunWave_12: -1688986630552833861
+      stunWave_13: -8565259349575069506
+      stunWave_14: -2848165669972020704
+      stunWave_15: -4118645247663417151
+      stunWave_16: 8529829229787181032
+      stunWave_17: 3821713064592807305
+      stunWave_18: 9202645420106739955
+      stunWave_19: -5170429009007431103
+      stunWave_2: 5632103073768221037
+      stunWave_20: 8895723650679101003
+      stunWave_21: -6559181255219318257
+      stunWave_22: -1843848607676205110
+      stunWave_23: -157168829891817949
+      stunWave_24: 7065197388657354386
+      stunWave_25: 861432594040479235
+      stunWave_26: 5205062275066852105
+      stunWave_27: -7410046639905612411
+      stunWave_28: -5600312268469056192
+      stunWave_29: 7587187221005163589
+      stunWave_3: 3329901253608387794
+      stunWave_30: -8600004864403659662
+      stunWave_31: -454024256425400403
+      stunWave_32: 7761201011317450761
+      stunWave_33: -4057856191942759684
+      stunWave_34: -5981839172243534282
+      stunWave_35: -5644839725363721190
+      stunWave_36: -7973802169345445726
+      stunWave_37: 6440246014098669883
+      stunWave_38: 7388175073664313929
+      stunWave_39: -1638573944413275739
+      stunWave_4: 1343477957000865370
+      stunWave_40: -384229009007006761
+      stunWave_41: 2622155324041612665
+      stunWave_42: -143560987301304241
+      stunWave_43: 576876595573859826
+      stunWave_44: -5649051023893173663
+      stunWave_45: -7594873557043880260
+      stunWave_46: 630340464069025262
+      stunWave_47: 7934584008697627119
+      stunWave_48: 3234582034477041431
+      stunWave_49: 1314710654788673278
+      stunWave_5: -1875687335215794230
+      stunWave_50: -1991852202180438000
+      stunWave_51: -5649896095680922062
+      stunWave_52: 928976511173428005
+      stunWave_53: 8970728006423591193
+      stunWave_54: 5984585982367288798
+      stunWave_55: 7729662801449488594
+      stunWave_56: -590980874749182896
+      stunWave_57: 391716969473616328
+      stunWave_58: 5950204723928806102
+      stunWave_59: 928817666616733225
+      stunWave_6: 476029480007501933
+      stunWave_60: 2101065749215819080
+      stunWave_61: 4702305299267737370
+      stunWave_62: 1431310295857025418
+      stunWave_63: 8564520119764633375
+      stunWave_64: -5639208444814329725
+      stunWave_65: -5432852462082996133
+      stunWave_66: 5053050952861372805
+      stunWave_67: 2212221551206113014
+      stunWave_68: -5470216343860385340
+      stunWave_69: 9021811364003389325
+      stunWave_7: -8399975519051068965
+      stunWave_70: 5921568160603273091
+      stunWave_71: 6120824616004539647
+      stunWave_72: -5903041829475375068
+      stunWave_73: -6261824126508160300
+      stunWave_74: 954880063905459097
+      stunWave_75: -5874719133893782522
+      stunWave_76: 2404659817636210013
+      stunWave_77: -502773328991535429
+      stunWave_78: 8336303819924825038
+      stunWave_79: -1399809276278095985
+      stunWave_8: 752746719480517731
+      stunWave_80: 594372032086582293
+      stunWave_81: 747736066182590032
+      stunWave_9: 2380177153283310934
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

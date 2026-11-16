@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: a388d4411b2047d49aa2110b221fd982
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5821238800127044025
+    second: orchard03_sheet_0
+  - first:
+      213: -2584844162036902925
+    second: orchard03_sheet_1
+  - first:
+      213: -7938036795021212125
+    second: orchard03_sheet_2
+  - first:
+      213: -1154496870748465972
+    second: orchard03_sheet_3
+  - first:
+      213: 7206452975833649519
+    second: orchard03_sheet_4
+  - first:
+      213: 5897799166064613133
+    second: orchard03_sheet_5
+  - first:
+      213: -6476938950365574229
+    second: orchard03_sheet_6
+  - first:
+      213: 1009625197282742386
+    second: orchard03_sheet_7
+  - first:
+      213: 3912076039676883604
+    second: orchard03_sheet_8
+  - first:
+      213: -4077026640532566744
+    second: orchard03_sheet_9
+  - first:
+      213: -4177842589245354993
+    second: orchard03_sheet_10
+  - first:
+      213: -4564258323814806356
+    second: orchard03_sheet_11
+  - first:
+      213: 6325802833866963108
+    second: orchard03_sheet_12
+  - first:
+      213: 6449778380439768207
+    second: orchard03_sheet_13
+  - first:
+      213: -1262018788296186183
+    second: orchard03_sheet_14
+  - first:
+      213: -7159381816832196200
+    second: orchard03_sheet_15
+  - first:
+      213: -7881282201449517033
+    second: orchard03_sheet_16
+  - first:
+      213: -5303515616671969311
+    second: orchard03_sheet_17
+  - first:
+      213: -3318885000338862193
+    second: orchard03_sheet_18
+  - first:
+      213: -8070617816841894336
+    second: orchard03_sheet_19
+  - first:
+      213: 4194955267966182920
+    second: orchard03_sheet_20
+  - first:
+      213: 3081220294291306591
+    second: orchard03_sheet_21
+  - first:
+      213: -5108030480808457461
+    second: orchard03_sheet_22
+  - first:
+      213: -6781160004761644131
+    second: orchard03_sheet_23
+  - first:
+      213: -8633408296569177465
+    second: orchard03_sheet_24
+  - first:
+      213: 598736004373899294
+    second: orchard03_sheet_25
+  - first:
+      213: -2143273580853692645
+    second: orchard03_sheet_26
+  - first:
+      213: 6973030180642183785
+    second: orchard03_sheet_27
+  - first:
+      213: -1738761571273816604
+    second: orchard03_sheet_28
+  - first:
+      213: -1108630026485141664
+    second: orchard03_sheet_29
+  - first:
+      213: 7724304832956099992
+    second: orchard03_sheet_30
+  - first:
+      213: -1061148412118462815
+    second: orchard03_sheet_31
+  - first:
+      213: 4499909520282527050
+    second: orchard03_sheet_32
+  - first:
+      213: 7966324294794706639
+    second: orchard03_sheet_33
+  - first:
+      213: 5791047277017163718
+    second: orchard03_sheet_34
+  - first:
+      213: -3707559362897769220
+    second: orchard03_sheet_35
+  - first:
+      213: -4181045951148599611
+    second: orchard03_sheet_36
+  - first:
+      213: 4962738827393013173
+    second: orchard03_sheet_37
+  - first:
+      213: -661618553178271829
+    second: orchard03_sheet_38
+  - first:
+      213: 5117562553076797863
+    second: orchard03_sheet_39
+  - first:
+      213: 6076444033804665792
+    second: orchard03_sheet_40
+  - first:
+      213: -6361683819329073548
+    second: orchard03_sheet_41
+  - first:
+      213: -5996507898481086766
+    second: orchard03_sheet_42
+  - first:
+      213: 4258240596542302790
+    second: orchard03_sheet_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orchard03_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b92b42b8d139c050800000000000000
+      internalID: 5821238800127044025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f35c020ee9c02cd0800000000000000
+      internalID: -2584844162036902925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 109
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326c7caa79d66d190800000000000000
+      internalID: -7938036795021212125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 109
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4dcbc76376affe0800000000000000
+      internalID: -1154496870748465972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 109
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f611f13dcc6720460800000000000000
+      internalID: 7206452975833649519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 109
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0750e9f71139d150800000000000000
+      internalID: 5897799166064613133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 109
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab8197475a4d16a0800000000000000
+      internalID: -6476938950365574229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 109
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270525884c8e20e00800000000000000
+      internalID: 1009625197282742386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 109
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492f1475e6c7a4630800000000000000
+      internalID: 3912076039676883604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 109
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d80471fdd7b67c0800000000000000
+      internalID: -4077026640532566744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 109
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c488cdc425506c0800000000000000
+      internalID: -4177842589245354993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 109
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac06e9ac3f78a0c0800000000000000
+      internalID: -4564258323814806356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 109
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8bccf6924c9c750800000000000000
+      internalID: 6325802833866963108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 109
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c4b1eb347328950800000000000000
+      internalID: 6449778380439768207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 109
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6acb739986c7ee0800000000000000
+      internalID: -1262018788296186183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 109
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891835c6b24c4ac90800000000000000
+      internalID: -7159381816832196200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 109
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7103ef7389f00a290800000000000000
+      internalID: -7881282201449517033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 109
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efc78755a02666b0800000000000000
+      internalID: -5303515616671969311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 109
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f0e682da3f0f1d0800000000000000
+      internalID: -3318885000338862193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04643350bd76fff80800000000000000
+      internalID: -8070617816841894336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80627c32799773a30800000000000000
+      internalID: 4194955267966182920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 54
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5835fb5881b2ca20800000000000000
+      internalID: 3081220294291306591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b4b895751ac19b0800000000000000
+      internalID: -5108030480808457461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 54
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93981f57ea74e1a0800000000000000
+      internalID: -6781160004761644131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a751265e8ff2880800000000000000
+      internalID: -8633408296569177465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 54
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1861f649332f4800800000000000000
+      internalID: 598736004373899294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b177cb4a8009142e0800000000000000
+      internalID: -2143273580853692645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 54
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a514d210e25c060800000000000000
+      internalID: 6973030180642183785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5cf13309daed7e0800000000000000
+      internalID: -1738761571273816604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 54
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f650c5dda5d90f0800000000000000
+      internalID: -1108630026485141664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d6e29025e323b60800000000000000
+      internalID: 7724304832956099992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 54
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae85b1342b0641f0800000000000000
+      internalID: -1061148412118462815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45a6ddfdd3e27e30800000000000000
+      internalID: 4499909520282527050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 54
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce7dcc1db11e8e60800000000000000
+      internalID: 7966324294794706639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 54
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7e910f0deed5050800000000000000
+      internalID: 5791047277017163718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 54
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc0ec6276a1c8cc0800000000000000
+      internalID: -3707559362897769220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 54
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6d33c0cd0f9f5c0800000000000000
+      internalID: -4181045951148599611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 54
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b59cc77ba03fd440800000000000000
+      internalID: 4962738827393013173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 54
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf40096e6571d6f0800000000000000
+      internalID: -661618553178271829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 54
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1dbfb270c350740800000000000000
+      internalID: 5117562553076797863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 54
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3087487add35450800000000000000
+      internalID: 6076444033804665792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 54
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e4a8f9542c6b7a0800000000000000
+      internalID: -6361683819329073548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 54
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dee53256df18cca0800000000000000
+      internalID: -5996507898481086766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orchard03_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 54
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a2d0de24f481b30800000000000000
+      internalID: 4258240596542302790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      orchard03_sheet_0: 5821238800127044025
+      orchard03_sheet_1: -2584844162036902925
+      orchard03_sheet_10: -4177842589245354993
+      orchard03_sheet_11: -4564258323814806356
+      orchard03_sheet_12: 6325802833866963108
+      orchard03_sheet_13: 6449778380439768207
+      orchard03_sheet_14: -1262018788296186183
+      orchard03_sheet_15: -7159381816832196200
+      orchard03_sheet_16: -7881282201449517033
+      orchard03_sheet_17: -5303515616671969311
+      orchard03_sheet_18: -3318885000338862193
+      orchard03_sheet_19: -8070617816841894336
+      orchard03_sheet_2: -7938036795021212125
+      orchard03_sheet_20: 4194955267966182920
+      orchard03_sheet_21: 3081220294291306591
+      orchard03_sheet_22: -5108030480808457461
+      orchard03_sheet_23: -6781160004761644131
+      orchard03_sheet_24: -8633408296569177465
+      orchard03_sheet_25: 598736004373899294
+      orchard03_sheet_26: -2143273580853692645
+      orchard03_sheet_27: 6973030180642183785
+      orchard03_sheet_28: -1738761571273816604
+      orchard03_sheet_29: -1108630026485141664
+      orchard03_sheet_3: -1154496870748465972
+      orchard03_sheet_30: 7724304832956099992
+      orchard03_sheet_31: -1061148412118462815
+      orchard03_sheet_32: 4499909520282527050
+      orchard03_sheet_33: 7966324294794706639
+      orchard03_sheet_34: 5791047277017163718
+      orchard03_sheet_35: -3707559362897769220
+      orchard03_sheet_36: -4181045951148599611
+      orchard03_sheet_37: 4962738827393013173
+      orchard03_sheet_38: -661618553178271829
+      orchard03_sheet_39: 5117562553076797863
+      orchard03_sheet_4: 7206452975833649519
+      orchard03_sheet_40: 6076444033804665792
+      orchard03_sheet_41: -6361683819329073548
+      orchard03_sheet_42: -5996507898481086766
+      orchard03_sheet_43: 4258240596542302790
+      orchard03_sheet_5: 5897799166064613133
+      orchard03_sheet_6: -6476938950365574229
+      orchard03_sheet_7: 1009625197282742386
+      orchard03_sheet_8: 3912076039676883604
+      orchard03_sheet_9: -4077026640532566744
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

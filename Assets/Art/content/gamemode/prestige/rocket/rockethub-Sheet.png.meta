@@ -1,0 +1,2275 @@
+fileFormatVersion: 2
+guid: 354a6838d0ae27540bffc7894f070fcb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2290349279733210235
+    second: rockethub-Sheet_0
+  - first:
+      213: 755552420248934256
+    second: rockethub-Sheet_1
+  - first:
+      213: -2182324147770566274
+    second: rockethub-Sheet_2
+  - first:
+      213: -3875775977505278815
+    second: rockethub-Sheet_3
+  - first:
+      213: -6346446282539111110
+    second: rockethub-Sheet_4
+  - first:
+      213: 7803466231376842942
+    second: rockethub-Sheet_5
+  - first:
+      213: 1312726411907723352
+    second: rockethub-Sheet_6
+  - first:
+      213: 2902365262395923456
+    second: rockethub-Sheet_7
+  - first:
+      213: -2755575166441626060
+    second: rockethub-Sheet_8
+  - first:
+      213: 4865816611721482863
+    second: rockethub-Sheet_9
+  - first:
+      213: -3106457188775876416
+    second: rockethub-Sheet_10
+  - first:
+      213: -8844378357894980510
+    second: rockethub-Sheet_11
+  - first:
+      213: 5238986039758952533
+    second: rockethub-Sheet_12
+  - first:
+      213: 8411309482913036559
+    second: rockethub-Sheet_13
+  - first:
+      213: -1676688496106862236
+    second: rockethub-Sheet_14
+  - first:
+      213: -1045014034452317290
+    second: rockethub-Sheet_15
+  - first:
+      213: 5135929837004451310
+    second: rockethub-Sheet_16
+  - first:
+      213: -9222182323011586585
+    second: rockethub-Sheet_17
+  - first:
+      213: 1914263260715549382
+    second: rockethub-Sheet_18
+  - first:
+      213: -5135802339779468606
+    second: rockethub-Sheet_19
+  - first:
+      213: 8865553232265468678
+    second: rockethub-Sheet_20
+  - first:
+      213: 8887718763512817798
+    second: rockethub-Sheet_21
+  - first:
+      213: 4431004938345946962
+    second: rockethub-Sheet_22
+  - first:
+      213: 2998187669551449538
+    second: rockethub-Sheet_23
+  - first:
+      213: 4221319495820735179
+    second: rockethub-Sheet_24
+  - first:
+      213: -2842235835982318721
+    second: rockethub-Sheet_25
+  - first:
+      213: 5263068687697386404
+    second: rockethub-Sheet_26
+  - first:
+      213: -3398300554836592968
+    second: rockethub-Sheet_27
+  - first:
+      213: -679673298647213385
+    second: rockethub-Sheet_28
+  - first:
+      213: 3322396211261438958
+    second: rockethub-Sheet_29
+  - first:
+      213: 4965525442911984021
+    second: rockethub-Sheet_30
+  - first:
+      213: -6029125936398631152
+    second: rockethub-Sheet_31
+  - first:
+      213: 8748914506723040144
+    second: rockethub-Sheet_32
+  - first:
+      213: 6251159227433426248
+    second: rockethub-Sheet_33
+  - first:
+      213: -3438811368099351050
+    second: rockethub-Sheet_34
+  - first:
+      213: 8314895192314641396
+    second: rockethub-Sheet_35
+  - first:
+      213: -5091240490407467161
+    second: rockethub-Sheet_36
+  - first:
+      213: 2530070954786893162
+    second: rockethub-Sheet_37
+  - first:
+      213: 4877836673412455224
+    second: rockethub-Sheet_38
+  - first:
+      213: 4217100992270968853
+    second: rockethub-Sheet_39
+  - first:
+      213: 8446706499183662337
+    second: rockethub-Sheet_40
+  - first:
+      213: 6892919971356088319
+    second: rockethub-Sheet_41
+  - first:
+      213: -3230460119578025977
+    second: rockethub-Sheet_42
+  - first:
+      213: 8511401804132394342
+    second: rockethub-Sheet_43
+  - first:
+      213: 4981242264388444568
+    second: rockethub-Sheet_44
+  - first:
+      213: 7107358092346410201
+    second: rockethub-Sheet_45
+  - first:
+      213: 4595099435753234652
+    second: rockethub-Sheet_46
+  - first:
+      213: -8607455506032443198
+    second: rockethub-Sheet_47
+  - first:
+      213: 6655650954774429088
+    second: rockethub-Sheet_48
+  - first:
+      213: 7435096162726027753
+    second: rockethub-Sheet_49
+  - first:
+      213: 2347864195556834271
+    second: rockethub-Sheet_50
+  - first:
+      213: 3706010242971915345
+    second: rockethub-Sheet_51
+  - first:
+      213: -7196108684318540033
+    second: rockethub-Sheet_52
+  - first:
+      213: -5359584994193111987
+    second: rockethub-Sheet_53
+  - first:
+      213: -6340529448844272010
+    second: rockethub-Sheet_54
+  - first:
+      213: 5966557347949764980
+    second: rockethub-Sheet_55
+  - first:
+      213: 5443468601477911304
+    second: rockethub-Sheet_56
+  - first:
+      213: -628416826185631478
+    second: rockethub-Sheet_57
+  - first:
+      213: 3523921155629961640
+    second: rockethub-Sheet_58
+  - first:
+      213: -5410746315319313298
+    second: rockethub-Sheet_59
+  - first:
+      213: 6644859770066142444
+    second: rockethub-Sheet_60
+  - first:
+      213: -5566161812849979652
+    second: rockethub-Sheet_61
+  - first:
+      213: -6927361163126836647
+    second: rockethub-Sheet_62
+  - first:
+      213: -5662137849622046069
+    second: rockethub-Sheet_63
+  - first:
+      213: 8980955886797541827
+    second: rockethub-Sheet_64
+  - first:
+      213: -3455725162351567533
+    second: rockethub-Sheet_65
+  - first:
+      213: 1097027987387329520
+    second: rockethub-Sheet_66
+  - first:
+      213: 5533281724150583583
+    second: rockethub-Sheet_67
+  - first:
+      213: 8097527696715240019
+    second: rockethub-Sheet_68
+  - first:
+      213: 5978541639596305139
+    second: rockethub-Sheet_69
+  - first:
+      213: -3607735079097107613
+    second: rockethub-Sheet_70
+  - first:
+      213: -1252424754924102973
+    second: rockethub-Sheet_71
+  - first:
+      213: 3021797440548124209
+    second: rockethub-Sheet_72
+  - first:
+      213: 6770581418221230494
+    second: rockethub-Sheet_73
+  - first:
+      213: 1815109717525472704
+    second: rockethub-Sheet_74
+  - first:
+      213: 7981887568192620488
+    second: rockethub-Sheet_75
+  - first:
+      213: -5537788696605958117
+    second: rockethub-Sheet_76
+  - first:
+      213: -8941017982487104911
+    second: rockethub-Sheet_77
+  - first:
+      213: 18342391789972295
+    second: rockethub-Sheet_78
+  - first:
+      213: -6550352208755046825
+    second: rockethub-Sheet_79
+  - first:
+      213: -3171877067488887912
+    second: rockethub-Sheet_80
+  - first:
+      213: 5359709725774709308
+    second: rockethub-Sheet_81
+  - first:
+      213: -789038374215078453
+    second: rockethub-Sheet_82
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rockethub-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 215
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cd11ef884f8cf10800000000000000
+      internalID: 2290349279733210235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 215
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077df125ce24c7a00800000000000000
+      internalID: 755552420248934256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 215
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79d06300c3d6b1e0800000000000000
+      internalID: -2182324147770566274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 215
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a43ecf784a763ac0800000000000000
+      internalID: -3875775977505278815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 215
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d682f1bb4ece7a0800000000000000
+      internalID: -6346446282539111110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 215
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb019f1613b7b4c60800000000000000
+      internalID: 7803466231376842942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 215
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850780d67bdb73210800000000000000
+      internalID: 1312726411907723352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 215
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00cda8924d5474820800000000000000
+      internalID: 2902365262395923456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 215
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436eb5c5cfa32c9d0800000000000000
+      internalID: -2755575166441626060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 215
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f629adb9d6ad68340800000000000000
+      internalID: 4865816611721482863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 215
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c82e0145a5a3e4d0800000000000000
+      internalID: -3106457188775876416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 215
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c54863eb4724580800000000000000
+      internalID: -8844378357894980510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 215
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558101bbb0e94b840800000000000000
+      internalID: 5238986039758952533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 215
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09f7e0e869fab470800000000000000
+      internalID: 8411309482913036559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 215
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469019e32b43bb8e0800000000000000
+      internalID: -1676688496106862236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 215
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bfb2bb54d5f71f0800000000000000
+      internalID: -1045014034452317290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 215
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedeaf5b9fc764740800000000000000
+      internalID: 5135929837004451310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 215
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5f107d90a340080800000000000000
+      internalID: -9222182323011586585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 143
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2088d1b44d09a10800000000000000
+      internalID: 1914263260715549382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 178
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c223dc8bf6f9b8b0800000000000000
+      internalID: -5135802339779468606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 168
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60bdf7a61b5c80b70800000000000000
+      internalID: 8865553232265468678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 168
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68861c25025875b70800000000000000
+      internalID: 8887718763512817798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 93
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f9c14d3871e7d30800000000000000
+      internalID: 4431004938345946962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 91
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c50295ecc3bb9920800000000000000
+      internalID: 2998187669551449538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 92
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc273d747b3259a30800000000000000
+      internalID: 4221319495820735179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 92
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f737364e0995e88d0800000000000000
+      internalID: -2842235835982318721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 93
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab1fa6261d2a0940800000000000000
+      internalID: 5263068687697386404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 92
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6b3fc76afc6d0d0800000000000000
+      internalID: -3398300554836592968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 93
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba90d66cb05196f0800000000000000
+      internalID: -679673298647213385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 131
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb775750c58b1e20800000000000000
+      internalID: 3322396211261438958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599dee3f41719e440800000000000000
+      internalID: 4965525442911984021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 131
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f7dde87ed345ca0800000000000000
+      internalID: -6029125936398631152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 125
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b1d7fd3636a6970800000000000000
+      internalID: 8748914506723040144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 94
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d1391823490c650800000000000000
+      internalID: 6251159227433426248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 133
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5fcd2c743e640d0800000000000000
+      internalID: -3438811368099351050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 133
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb748a8f11746370800000000000000
+      internalID: 8314895192314641396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 112
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7676d2f9fb74859b0800000000000000
+      internalID: -5091240490407467161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 111
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d2b94e02e9c1320800000000000000
+      internalID: 2530070954786893162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 107
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b5f1f4c9e81b340800000000000000
+      internalID: 4877836673412455224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 122
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51822426207268a30800000000000000
+      internalID: 4217100992270968853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 119
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10553d5fecab83570800000000000000
+      internalID: 8446706499183662337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 95
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff710e5913298af50800000000000000
+      internalID: 6892919971356088319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 91
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7006c7f03a91b23d0800000000000000
+      internalID: -3230460119578025977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 92
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6652ee378d29e1670800000000000000
+      internalID: 8511401804132394342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 92
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891290d927de02540800000000000000
+      internalID: 4981242264388444568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 96
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d44ec1578862a260800000000000000
+      internalID: 7107358092346410201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 96
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd06ba7479215cf30800000000000000
+      internalID: 4595099435753234652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 96
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0c4fe42dc2c8880800000000000000
+      internalID: -8607455506032443198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 96
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adb15cb74f9d5c50800000000000000
+      internalID: 6655650954774429088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 96
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1a7223194ce2760800000000000000
+      internalID: 7435096162726027753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 96
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbf50ddb0a459020800000000000000
+      internalID: 2347864195556834271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 96
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154dc424ea46e6330800000000000000
+      internalID: 3706010242971915345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 93
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffef61a3749422c90800000000000000
+      internalID: -7196108684318540033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 96
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d440b9518ddee95b0800000000000000
+      internalID: -5359584994193111987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 96
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67edbb15f0ae108a0800000000000000
+      internalID: -6340529448844272010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 93
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471ea88bb487dc250800000000000000
+      internalID: 5966557347949764980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 112
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80355113ad51b8b40800000000000000
+      internalID: 5443468601477911304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 96
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09b350e93a6747f0800000000000000
+      internalID: -628416826185631478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 96
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1dec9de9b77e030800000000000000
+      internalID: 3523921155629961640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 94
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c73a1c4ea29e4b0800000000000000
+      internalID: -5410746315319313298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 94
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4831141c8473c50800000000000000
+      internalID: 6644859770066142444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 96
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe8bbe625501c2b0800000000000000
+      internalID: -5566161812849979652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 96
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952fcf099b11ddf90800000000000000
+      internalID: -6927361163126836647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 94
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8adbf300ab0c61b0800000000000000
+      internalID: -5662137849622046069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 112
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c15500cbc3c2ac70800000000000000
+      internalID: 8980955886797541827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 94
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35dd7a8264cca00d0800000000000000
+      internalID: -3455725162351567533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 96
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb22e8642d693f00800000000000000
+      internalID: 1097027987387329520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 96
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11182a596a2acc40800000000000000
+      internalID: 5533281724150583583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 104
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3525991a982306070800000000000000
+      internalID: 8097527696715240019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 106
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fae40f02fb08f250800000000000000
+      internalID: 5978541639596305139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 96
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b73b66f00ceedc0800000000000000
+      internalID: -3607735079097107613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 95
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cad7de225e7e9ee0800000000000000
+      internalID: -1252424754924102973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1363e0313c49fe920800000000000000
+      internalID: 3021797440548124209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 103
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99dfe38defe5fd50800000000000000
+      internalID: 6770581418221230494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 95
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c52775dba0903910800000000000000
+      internalID: 1815109717525472704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 94
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c74a33147c55ce60800000000000000
+      internalID: 7981887568192620488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 24
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10e0a95582d523b0800000000000000
+      internalID: -5537788696605958117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 22
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172f977348f1be380800000000000000
+      internalID: -8941017982487104911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 19
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74be8f2ee4a214000800000000000000
+      internalID: 18342391789972295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 23
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756c5731f597815a0800000000000000
+      internalID: -6550352208755046825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 27
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bfd19cc9a3bf3d0800000000000000
+      internalID: -3171877067488887912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 36
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3202004993816a40800000000000000
+      internalID: 5359709725774709308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockethub-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 36
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd22c677c5cc05f0800000000000000
+      internalID: -789038374215078453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rockethub-Sheet_0: 2290349279733210235
+      rockethub-Sheet_1: 755552420248934256
+      rockethub-Sheet_10: -3106457188775876416
+      rockethub-Sheet_11: -8844378357894980510
+      rockethub-Sheet_12: 5238986039758952533
+      rockethub-Sheet_13: 8411309482913036559
+      rockethub-Sheet_14: -1676688496106862236
+      rockethub-Sheet_15: -1045014034452317290
+      rockethub-Sheet_16: 5135929837004451310
+      rockethub-Sheet_17: -9222182323011586585
+      rockethub-Sheet_18: 1914263260715549382
+      rockethub-Sheet_19: -5135802339779468606
+      rockethub-Sheet_2: -2182324147770566274
+      rockethub-Sheet_20: 8865553232265468678
+      rockethub-Sheet_21: 8887718763512817798
+      rockethub-Sheet_22: 4431004938345946962
+      rockethub-Sheet_23: 2998187669551449538
+      rockethub-Sheet_24: 4221319495820735179
+      rockethub-Sheet_25: -2842235835982318721
+      rockethub-Sheet_26: 5263068687697386404
+      rockethub-Sheet_27: -3398300554836592968
+      rockethub-Sheet_28: -679673298647213385
+      rockethub-Sheet_29: 3322396211261438958
+      rockethub-Sheet_3: -3875775977505278815
+      rockethub-Sheet_30: 4965525442911984021
+      rockethub-Sheet_31: -6029125936398631152
+      rockethub-Sheet_32: 8748914506723040144
+      rockethub-Sheet_33: 6251159227433426248
+      rockethub-Sheet_34: -3438811368099351050
+      rockethub-Sheet_35: 8314895192314641396
+      rockethub-Sheet_36: -5091240490407467161
+      rockethub-Sheet_37: 2530070954786893162
+      rockethub-Sheet_38: 4877836673412455224
+      rockethub-Sheet_39: 4217100992270968853
+      rockethub-Sheet_4: -6346446282539111110
+      rockethub-Sheet_40: 8446706499183662337
+      rockethub-Sheet_41: 6892919971356088319
+      rockethub-Sheet_42: -3230460119578025977
+      rockethub-Sheet_43: 8511401804132394342
+      rockethub-Sheet_44: 4981242264388444568
+      rockethub-Sheet_45: 7107358092346410201
+      rockethub-Sheet_46: 4595099435753234652
+      rockethub-Sheet_47: -8607455506032443198
+      rockethub-Sheet_48: 6655650954774429088
+      rockethub-Sheet_49: 7435096162726027753
+      rockethub-Sheet_5: 7803466231376842942
+      rockethub-Sheet_50: 2347864195556834271
+      rockethub-Sheet_51: 3706010242971915345
+      rockethub-Sheet_52: -7196108684318540033
+      rockethub-Sheet_53: -5359584994193111987
+      rockethub-Sheet_54: -6340529448844272010
+      rockethub-Sheet_55: 5966557347949764980
+      rockethub-Sheet_56: 5443468601477911304
+      rockethub-Sheet_57: -628416826185631478
+      rockethub-Sheet_58: 3523921155629961640
+      rockethub-Sheet_59: -5410746315319313298
+      rockethub-Sheet_6: 1312726411907723352
+      rockethub-Sheet_60: 6644859770066142444
+      rockethub-Sheet_61: -5566161812849979652
+      rockethub-Sheet_62: -6927361163126836647
+      rockethub-Sheet_63: -5662137849622046069
+      rockethub-Sheet_64: 8980955886797541827
+      rockethub-Sheet_65: -3455725162351567533
+      rockethub-Sheet_66: 1097027987387329520
+      rockethub-Sheet_67: 5533281724150583583
+      rockethub-Sheet_68: 8097527696715240019
+      rockethub-Sheet_69: 5978541639596305139
+      rockethub-Sheet_7: 2902365262395923456
+      rockethub-Sheet_70: -3607735079097107613
+      rockethub-Sheet_71: -1252424754924102973
+      rockethub-Sheet_72: 3021797440548124209
+      rockethub-Sheet_73: 6770581418221230494
+      rockethub-Sheet_74: 1815109717525472704
+      rockethub-Sheet_75: 7981887568192620488
+      rockethub-Sheet_76: -5537788696605958117
+      rockethub-Sheet_77: -8941017982487104911
+      rockethub-Sheet_78: 18342391789972295
+      rockethub-Sheet_79: -6550352208755046825
+      rockethub-Sheet_8: -2755575166441626060
+      rockethub-Sheet_80: -3171877067488887912
+      rockethub-Sheet_81: 5359709725774709308
+      rockethub-Sheet_82: -789038374215078453
+      rockethub-Sheet_9: 4865816611721482863
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

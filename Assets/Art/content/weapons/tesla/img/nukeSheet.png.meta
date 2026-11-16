@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 6ef37d83e1dad4e48ba1078524374e22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2306039023259821029
+    second: nukeSheet_0
+  - first:
+      213: 5736541575278104561
+    second: nukeSheet_1
+  - first:
+      213: 3341693955653852027
+    second: nukeSheet_2
+  - first:
+      213: -1341748711517703361
+    second: nukeSheet_3
+  - first:
+      213: 5554721295934399665
+    second: nukeSheet_4
+  - first:
+      213: -3046607560515046652
+    second: nukeSheet_5
+  - first:
+      213: -3850044362850978319
+    second: nukeSheet_6
+  - first:
+      213: 349154955565410622
+    second: nukeSheet_7
+  - first:
+      213: 481396596991405902
+    second: nukeSheet_8
+  - first:
+      213: -5871661050514096439
+    second: nukeSheet_9
+  - first:
+      213: -1245826268480600662
+    second: nukeSheet_10
+  - first:
+      213: -8261700371899878245
+    second: nukeSheet_11
+  - first:
+      213: 6529278024387246571
+    second: nukeSheet_12
+  - first:
+      213: 3818481601268930219
+    second: nukeSheet_13
+  - first:
+      213: 5888040340293366104
+    second: nukeSheet_14
+  - first:
+      213: 1662698334004357676
+    second: nukeSheet_15
+  - first:
+      213: -3497383179846359372
+    second: nukeSheet_16
+  - first:
+      213: -5107392607098922348
+    second: nukeSheet_17
+  - first:
+      213: 6072135780497938170
+    second: nukeSheet_18
+  - first:
+      213: -4658214285095741604
+    second: nukeSheet_19
+  - first:
+      213: -6386448952900791927
+    second: nukeSheet_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nukeSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 253
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1cd86ce9bd4fffd0800000000000000
+      internalID: -2306039023259821029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff06b15b2a4c9f40800000000000000
+      internalID: 5736541575278104561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_2
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1
+        width: 255
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b51d692f4106e20800000000000000
+      internalID: 3341693955653852027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_3
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 4
+        width: 251
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f333620e7a6216de0800000000000000
+      internalID: -1341748711517703361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 12
+        width: 239
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4a776a695561d40800000000000000
+      internalID: 5554721295934399665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 227
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4033b79b09648b5d0800000000000000
+      internalID: -3046607560515046652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 186
+        width: 88
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5b5c6ec05e19ac0800000000000000
+      internalID: -3850044362850978319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 228
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e392b0a059278d400800000000000000
+      internalID: 349154955565410622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 214
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f21c787a34ea600800000000000000
+      internalID: 481396596991405902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 210
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce3c9a426ba38ea0800000000000000
+      internalID: -5871661050514096439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 91
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa50d570c9fe5bee0800000000000000
+      internalID: -1245826268480600662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 122
+        width: 81
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94f13cb84b885d80800000000000000
+      internalID: -8261700371899878245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 138
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9bd5305c7ac9a50800000000000000
+      internalID: 6529278024387246571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 22
+        width: 110
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6dff009c8fdf430800000000000000
+      internalID: 3818481601268930219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 93
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8513b5a4e7586b150800000000000000
+      internalID: 5888040340293366104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 116
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2aa6fe4357131710800000000000000
+      internalID: 1662698334004357676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 105
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6e4d1278cc67fc0800000000000000
+      internalID: -3497383179846359372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 79
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a9965eb75ee19b0800000000000000
+      internalID: -5107392607098922348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 40
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6d480225f844450800000000000000
+      internalID: 6072135780497938170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 37
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57d739b9c2ba5fb0800000000000000
+      internalID: -4658214285095741604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nukeSheet_20
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 19
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981de22a386ce57a0800000000000000
+      internalID: -6386448952900791927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nukeSheet_0: -2306039023259821029
+      nukeSheet_1: 5736541575278104561
+      nukeSheet_10: -1245826268480600662
+      nukeSheet_11: -8261700371899878245
+      nukeSheet_12: 6529278024387246571
+      nukeSheet_13: 3818481601268930219
+      nukeSheet_14: 5888040340293366104
+      nukeSheet_15: 1662698334004357676
+      nukeSheet_16: -3497383179846359372
+      nukeSheet_17: -5107392607098922348
+      nukeSheet_18: 6072135780497938170
+      nukeSheet_19: -4658214285095741604
+      nukeSheet_2: 3341693955653852027
+      nukeSheet_20: -6386448952900791927
+      nukeSheet_3: -1341748711517703361
+      nukeSheet_4: 5554721295934399665
+      nukeSheet_5: -3046607560515046652
+      nukeSheet_6: -3850044362850978319
+      nukeSheet_7: 349154955565410622
+      nukeSheet_8: 481396596991405902
+      nukeSheet_9: -5871661050514096439
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

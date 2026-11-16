@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: a3675eda68e6d634ba4d11fbf033feb2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4710789607477731860
+    second: sphere_timing_sheet_0
+  - first:
+      213: 2801560042372174849
+    second: sphere_timing_sheet_1
+  - first:
+      213: -4089182053182205955
+    second: sphere_timing_sheet_2
+  - first:
+      213: 535792669191232838
+    second: sphere_timing_sheet_3
+  - first:
+      213: -8737814217450934781
+    second: sphere_timing_sheet_4
+  - first:
+      213: 4578473303402380386
+    second: sphere_timing_sheet_5
+  - first:
+      213: -1163388862211552484
+    second: sphere_timing_sheet_6
+  - first:
+      213: -7107056836337597130
+    second: sphere_timing_sheet_7
+  - first:
+      213: 6049047916415166449
+    second: sphere_timing_sheet_8
+  - first:
+      213: 3487774438071075517
+    second: sphere_timing_sheet_9
+  - first:
+      213: -3084574899773661453
+    second: sphere_timing_sheet_10
+  - first:
+      213: -2738157034460160574
+    second: sphere_timing_sheet_11
+  - first:
+      213: -7180212690109065138
+    second: sphere_timing_sheet_12
+  - first:
+      213: 920166373620844629
+    second: sphere_timing_sheet_13
+  - first:
+      213: -3972079490931128724
+    second: sphere_timing_sheet_14
+  - first:
+      213: 822171820254392947
+    second: sphere_timing_sheet_15
+  - first:
+      213: -5101105810829140891
+    second: sphere_timing_sheet_16
+  - first:
+      213: 2357311066638142506
+    second: sphere_timing_sheet_17
+  - first:
+      213: 8269009299013416851
+    second: sphere_timing_sheet_18
+  - first:
+      213: -8559600842522555879
+    second: sphere_timing_sheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sphere_timing_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 133
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced10b29fc9ef9eb0800000000000000
+      internalID: -4710789607477731860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1049586e30421e620800000000000000
+      internalID: 2801560042372174849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff0c2a869e4047c0800000000000000
+      internalID: -4089182053182205955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dd66808948f6700800000000000000
+      internalID: 535792669191232838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30eaa7f934c0db680800000000000000
+      internalID: -8737814217450934781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c78ee26310a8f30800000000000000
+      internalID: 4578473303402380386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b0c346effcadfe0800000000000000
+      internalID: -1163388862211552484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635069f4679ae5d90800000000000000
+      internalID: -7107056836337597130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 0
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f72e3fd70982f350800000000000000
+      internalID: 6049047916415166449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db20ae55f50176030800000000000000
+      internalID: 3487774438071075517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe97efa8736135d0800000000000000
+      internalID: -3084574899773661453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdd3cd3fac100ad0800000000000000
+      internalID: -2738157034460160574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e481c4ac992ca5c90800000000000000
+      internalID: -7180212690109065138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5580ee9017615cc00800000000000000
+      internalID: 920166373620844629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c668f6b7fb650e8c0800000000000000
+      internalID: -3972079490931128724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 3
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372799a1ae0f86b00800000000000000
+      internalID: 822171820254392947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 4
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c19d7ba4b3539b0800000000000000
+      internalID: -5101105810829140891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 5
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c4010fce9d6b020800000000000000
+      internalID: 2357311066638142506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 6
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397b818752c61c270800000000000000
+      internalID: 8269009299013416851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_timing_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 7
+        width: 75
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a0f4a6260363980800000000000000
+      internalID: -8559600842522555879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sphere_timing_sheet_0: -4710789607477731860
+      sphere_timing_sheet_1: 2801560042372174849
+      sphere_timing_sheet_10: -3084574899773661453
+      sphere_timing_sheet_11: -2738157034460160574
+      sphere_timing_sheet_12: -7180212690109065138
+      sphere_timing_sheet_13: 920166373620844629
+      sphere_timing_sheet_14: -3972079490931128724
+      sphere_timing_sheet_15: 822171820254392947
+      sphere_timing_sheet_16: -5101105810829140891
+      sphere_timing_sheet_17: 2357311066638142506
+      sphere_timing_sheet_18: 8269009299013416851
+      sphere_timing_sheet_19: -8559600842522555879
+      sphere_timing_sheet_2: -4089182053182205955
+      sphere_timing_sheet_3: 535792669191232838
+      sphere_timing_sheet_4: -8737814217450934781
+      sphere_timing_sheet_5: 4578473303402380386
+      sphere_timing_sheet_6: -1163388862211552484
+      sphere_timing_sheet_7: -7107056836337597130
+      sphere_timing_sheet_8: 6049047916415166449
+      sphere_timing_sheet_9: 3487774438071075517
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

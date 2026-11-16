@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 06fff8cbdadc348438ce8fbce38c709c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4962109939910091880
+    second: scanner_sheet_0
+  - first:
+      213: 6651454096915108044
+    second: scanner_sheet_1
+  - first:
+      213: 6649710954681809998
+    second: scanner_sheet_2
+  - first:
+      213: -21709829915016492
+    second: scanner_sheet_3
+  - first:
+      213: 1346894556703176509
+    second: scanner_sheet_4
+  - first:
+      213: 8702481434942271419
+    second: scanner_sheet_5
+  - first:
+      213: -2179090478923244428
+    second: scanner_sheet_6
+  - first:
+      213: 4799155258157330659
+    second: scanner_sheet_7
+  - first:
+      213: -4788554891424738408
+    second: scanner_sheet_8
+  - first:
+      213: -3562259960908653697
+    second: scanner_sheet_9
+  - first:
+      213: 8400280002626255301
+    second: scanner_sheet_10
+  - first:
+      213: -2720480133354153365
+    second: scanner_sheet_11
+  - first:
+      213: 3352636117928091176
+    second: scanner_sheet_12
+  - first:
+      213: -8208759517332893284
+    second: scanner_sheet_13
+  - first:
+      213: -7530757133206495198
+    second: scanner_sheet_14
+  - first:
+      213: 3469093803615954657
+    second: scanner_sheet_15
+  - first:
+      213: 2457850418357502567
+    second: scanner_sheet_16
+  - first:
+      213: -5805408006987540985
+    second: scanner_sheet_17
+  - first:
+      213: -6197215817556531027
+    second: scanner_sheet_18
+  - first:
+      213: -3354945382111847599
+    second: scanner_sheet_19
+  - first:
+      213: 6453343334113331075
+    second: scanner_sheet_20
+  - first:
+      213: 4048604349458434328
+    second: scanner_sheet_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: scanner_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864a6c033b4fcd440800000000000000
+      internalID: 4962109939910091880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0117e9246be4c50800000000000000
+      internalID: 6651454096915108044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 44
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c35d0b1e4884c50800000000000000
+      internalID: 6649710954681809998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d208c3560fd2bff0800000000000000
+      internalID: -21709829915016492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 44
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d373332967121b210800000000000000
+      internalID: 1346894556703176509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf6a22e1cc65c870800000000000000
+      internalID: 8702481434942271419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 44
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c185631c052c1e0800000000000000
+      internalID: -2179090478923244428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e07a60c7460a9240800000000000000
+      internalID: 4799155258157330659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8935b2572b2ab8db0800000000000000
+      internalID: -4788554891424738408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b5170707f409ec0800000000000000
+      internalID: -3562259960908653697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9fa52e72ac39470800000000000000
+      internalID: 8400280002626255301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a1be08bb9ee3ad0800000000000000
+      internalID: -2720480133354153365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 29
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e9f3649c4f68e20800000000000000
+      internalID: 3352636117928091176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9114caf5b0a41e80800000000000000
+      internalID: -8208759517332893284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 23
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220ec7979406d7790800000000000000
+      internalID: -7530757133206495198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 23
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6a9013f62b42030800000000000000
+      internalID: 3469093803615954657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 23
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7628e39eee90c1220800000000000000
+      internalID: 2457850418357502567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 23
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7069c4f0d2c0f6fa0800000000000000
+      internalID: -5805408006987540985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da86c165c011ff9a0800000000000000
+      internalID: -6197215817556531027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bd26243f6d071d0800000000000000
+      internalID: -3354945382111847599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387c5733291ee8950800000000000000
+      internalID: 6453343334113331075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scanner_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819429594388f2830800000000000000
+      internalID: 4048604349458434328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      scanner_sheet_0: 4962109939910091880
+      scanner_sheet_1: 6651454096915108044
+      scanner_sheet_10: 8400280002626255301
+      scanner_sheet_11: -2720480133354153365
+      scanner_sheet_12: 3352636117928091176
+      scanner_sheet_13: -8208759517332893284
+      scanner_sheet_14: -7530757133206495198
+      scanner_sheet_15: 3469093803615954657
+      scanner_sheet_16: 2457850418357502567
+      scanner_sheet_17: -5805408006987540985
+      scanner_sheet_18: -6197215817556531027
+      scanner_sheet_19: -3354945382111847599
+      scanner_sheet_2: 6649710954681809998
+      scanner_sheet_20: 6453343334113331075
+      scanner_sheet_21: 4048604349458434328
+      scanner_sheet_3: -21709829915016492
+      scanner_sheet_4: 1346894556703176509
+      scanner_sheet_5: 8702481434942271419
+      scanner_sheet_6: -2179090478923244428
+      scanner_sheet_7: 4799155258157330659
+      scanner_sheet_8: -4788554891424738408
+      scanner_sheet_9: -3562259960908653697
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 20e7e77dae238af429608dda276a4e26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1806251426612166020
+    second: armssheet_0
+  - first:
+      213: 7724848936479837085
+    second: armssheet_1
+  - first:
+      213: 2606329285671535544
+    second: armssheet_2
+  - first:
+      213: -8491488797812104098
+    second: armssheet_3
+  - first:
+      213: 8098723985807611843
+    second: armssheet_4
+  - first:
+      213: -95503756570337837
+    second: armssheet_5
+  - first:
+      213: 5899077009809901083
+    second: armssheet_6
+  - first:
+      213: -260467554966332754
+    second: armssheet_7
+  - first:
+      213: 5699036445896535819
+    second: armssheet_8
+  - first:
+      213: 6068974872491409671
+    second: armssheet_9
+  - first:
+      213: -34044010530332926
+    second: armssheet_10
+  - first:
+      213: 5015121805486316185
+    second: armssheet_11
+  - first:
+      213: -1929289703075892263
+    second: armssheet_12
+  - first:
+      213: -4024599323999111755
+    second: armssheet_13
+  - first:
+      213: 1547115991059591426
+    second: armssheet_14
+  - first:
+      213: 6321198344492510446
+    second: armssheet_15
+  - first:
+      213: 4767950824537893061
+    second: armssheet_16
+  - first:
+      213: 1637801834148437743
+    second: armssheet_17
+  - first:
+      213: -894493045797735443
+    second: armssheet_18
+  - first:
+      213: 3635420583075624181
+    second: armssheet_19
+  - first:
+      213: -6865996491739369847
+    second: armssheet_20
+  - first:
+      213: 4364237834667601438
+    second: armssheet_21
+  - first:
+      213: 3129828745192661410
+    second: armssheet_22
+  - first:
+      213: 5833855095706414636
+    second: armssheet_23
+  - first:
+      213: 7076528991438242012
+    second: armssheet_24
+  - first:
+      213: 3359623639066649380
+    second: armssheet_25
+  - first:
+      213: -8805748239067852972
+    second: armssheet_26
+  - first:
+      213: -1538260676799082614
+    second: armssheet_27
+  - first:
+      213: -4064487801402065303
+    second: armssheet_28
+  - first:
+      213: 8522232309974840828
+    second: armssheet_29
+  - first:
+      213: -6753515622776510314
+    second: armssheet_30
+  - first:
+      213: 8700525519874867718
+    second: armssheet_31
+  - first:
+      213: -348089213454922279
+    second: armssheet_32
+  - first:
+      213: -5767426915697353246
+    second: armssheet_33
+  - first:
+      213: -6721971498228362032
+    second: armssheet_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: armssheet_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 139
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48db2424a18111910800000000000000
+      internalID: 1806251426612166020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 78
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b4f620e2d243b60800000000000000
+      internalID: 7724848936479837085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_2
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 6
+        width: 77
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b346282daa8b2420800000000000000
+      internalID: 2606329285671535544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e546330adeb282a80800000000000000
+      internalID: -8491488797812104098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_4
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 43
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c79ff36e82746070800000000000000
+      internalID: 8098723985807611843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_5
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 47
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddd8e2e6d3bcaef0800000000000000
+      internalID: -95503756570337837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_6
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 32
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b168468294bbdd150800000000000000
+      internalID: 5899077009809901083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_7
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 4
+        width: 211
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa97b68322a26cf0800000000000000
+      internalID: -260467554966332754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 5
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0feaa7e37b071f40800000000000000
+      internalID: 5699036445896535819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 5
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7014f91ed74593450800000000000000
+      internalID: 6068974872491409671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_10
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 5
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f1c9d172d078ff0800000000000000
+      internalID: -34044010530332926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_11
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 5
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ad359f5ba499540800000000000000
+      internalID: 5015121805486316185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_12
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 5
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3b753ac39c935e0800000000000000
+      internalID: -1929289703075892263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_13
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 5
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b571c1fc30c528c0800000000000000
+      internalID: -4024599323999111755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_14
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 5
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201fe610cc5787510800000000000000
+      internalID: 1547115991059591426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_15
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 5
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec6346376869b750800000000000000
+      internalID: 6321198344492510446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_16
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 40
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8ac13630a2b2240800000000000000
+      internalID: 4767950824537893061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_17
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 19
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee96e83714aab610800000000000000
+      internalID: 1637801834148437743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_18
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 32
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de33b27605f1693f0800000000000000
+      internalID: -894493045797735443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_19
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 40
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4bd5f42cb937230800000000000000
+      internalID: 3635420583075624181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_20
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 38
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98eebc0819417b0a0800000000000000
+      internalID: -6865996491739369847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1eaeaa1033e09c30800000000000000
+      internalID: 4364237834667601438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 5
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1e30549a26f6b20800000000000000
+      internalID: 3129828745192661410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_23
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 5
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2eeeaaec4406f050800000000000000
+      internalID: 5833855095706414636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_24
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 24
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd00e69ef91e43260800000000000000
+      internalID: 7076528991438242012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_25
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 24
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423a29156e7cf9e20800000000000000
+      internalID: 3359623639066649380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_26
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 32
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fc6d4a1a2bbc580800000000000000
+      internalID: -8805748239067852972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_27
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f4073801007aae0800000000000000
+      internalID: -1538260676799082614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_28
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 4
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e758311e90897c0800000000000000
+      internalID: -4064487801402065303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_29
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf53869122d054670800000000000000
+      internalID: 8522232309974840828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_30
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 10
+        width: 38
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698ea5f9251b642a0800000000000000
+      internalID: -6753515622776510314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_31
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 6
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602cc5becd97eb870800000000000000
+      internalID: 8700525519874867718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_32
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddcfd164b65b2bf0800000000000000
+      internalID: -348089213454922279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_33
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 0
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed15ddf6cbf5ffa0800000000000000
+      internalID: -5767426915697353246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armssheet_34
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 4
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d45cc17982c6b2a0800000000000000
+      internalID: -6721971498228362032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      armssheet_0: 1806251426612166020
+      armssheet_1: 7724848936479837085
+      armssheet_10: -34044010530332926
+      armssheet_11: 5015121805486316185
+      armssheet_12: -1929289703075892263
+      armssheet_13: -4024599323999111755
+      armssheet_14: 1547115991059591426
+      armssheet_15: 6321198344492510446
+      armssheet_16: 4767950824537893061
+      armssheet_17: 1637801834148437743
+      armssheet_18: -894493045797735443
+      armssheet_19: 3635420583075624181
+      armssheet_2: 2606329285671535544
+      armssheet_20: -6865996491739369847
+      armssheet_21: 4364237834667601438
+      armssheet_22: 3129828745192661410
+      armssheet_23: 5833855095706414636
+      armssheet_24: 7076528991438242012
+      armssheet_25: 3359623639066649380
+      armssheet_26: -8805748239067852972
+      armssheet_27: -1538260676799082614
+      armssheet_28: -4064487801402065303
+      armssheet_29: 8522232309974840828
+      armssheet_3: -8491488797812104098
+      armssheet_30: -6753515622776510314
+      armssheet_31: 8700525519874867718
+      armssheet_32: -348089213454922279
+      armssheet_33: -5767426915697353246
+      armssheet_34: -6721971498228362032
+      armssheet_4: 8098723985807611843
+      armssheet_5: -95503756570337837
+      armssheet_6: 5899077009809901083
+      armssheet_7: -260467554966332754
+      armssheet_8: 5699036445896535819
+      armssheet_9: 6068974872491409671
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

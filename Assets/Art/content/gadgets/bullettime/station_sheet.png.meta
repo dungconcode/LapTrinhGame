@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: 1d4af1ae6150761489dc02ac74b6ca89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9209838031321760267
+    second: station_sheet_0
+  - first:
+      213: -860120200999598298
+    second: station_sheet_1
+  - first:
+      213: -4341428163589696918
+    second: station_sheet_2
+  - first:
+      213: 6706422798825399429
+    second: station_sheet_3
+  - first:
+      213: 6990121718775535712
+    second: station_sheet_4
+  - first:
+      213: -3932564061267967442
+    second: station_sheet_5
+  - first:
+      213: 1832523033140374861
+    second: station_sheet_6
+  - first:
+      213: 4025270254875552883
+    second: station_sheet_7
+  - first:
+      213: 4467081391411363329
+    second: station_sheet_8
+  - first:
+      213: -4754718630816201833
+    second: station_sheet_9
+  - first:
+      213: 9027119826324228163
+    second: station_sheet_10
+  - first:
+      213: 4131103737832817781
+    second: station_sheet_11
+  - first:
+      213: 3070962095813878980
+    second: station_sheet_12
+  - first:
+      213: 2687530415261318615
+    second: station_sheet_13
+  - first:
+      213: -3741695287116574408
+    second: station_sheet_14
+  - first:
+      213: 5662108851235704307
+    second: station_sheet_15
+  - first:
+      213: 3536834157963075438
+    second: station_sheet_16
+  - first:
+      213: -3948903787917644239
+    second: station_sheet_17
+  - first:
+      213: -5248748431318397331
+    second: station_sheet_18
+  - first:
+      213: 6652881515662555814
+    second: station_sheet_19
+  - first:
+      213: 1081791284491945689
+    second: station_sheet_20
+  - first:
+      213: -4808170898043256365
+    second: station_sheet_21
+  - first:
+      213: -5624400289720534252
+    second: station_sheet_22
+  - first:
+      213: -8339291540034218319
+    second: station_sheet_23
+  - first:
+      213: -6250281147507494449
+    second: station_sheet_24
+  - first:
+      213: 6945589267866079522
+    second: station_sheet_25
+  - first:
+      213: -5015609287220628396
+    second: station_sheet_26
+  - first:
+      213: 381334733626232631
+    second: station_sheet_27
+  - first:
+      213: 6363457321648459767
+    second: station_sheet_28
+  - first:
+      213: 3507683780673885803
+    second: station_sheet_29
+  - first:
+      213: 5356890361829449347
+    second: station_sheet_30
+  - first:
+      213: 5570396312229474535
+    second: station_sheet_31
+  - first:
+      213: 1265995289942133745
+    second: station_sheet_32
+  - first:
+      213: -5990258860057000476
+    second: station_sheet_33
+  - first:
+      213: 6770511063187422233
+    second: station_sheet_34
+  - first:
+      213: -6298629242207779582
+    second: station_sheet_35
+  - first:
+      213: 979400133110946565
+    second: station_sheet_36
+  - first:
+      213: 7955242107955012734
+    second: station_sheet_37
+  - first:
+      213: -8615561414356814605
+    second: station_sheet_38
+  - first:
+      213: -5752743399790250557
+    second: station_sheet_39
+  - first:
+      213: 4594859387074928759
+    second: station_sheet_40
+  - first:
+      213: -8261940693544663609
+    second: station_sheet_41
+  - first:
+      213: 7367300840237726989
+    second: station_sheet_42
+  - first:
+      213: -3323441669013838561
+    second: station_sheet_43
+  - first:
+      213: 5011463675516060996
+    second: station_sheet_44
+  - first:
+      213: 5954422704611295655
+    second: station_sheet_45
+  - first:
+      213: 6969423426869850319
+    second: station_sheet_46
+  - first:
+      213: -3665207355468600458
+    second: station_sheet_47
+  - first:
+      213: 3741632659454159987
+    second: station_sheet_48
+  - first:
+      213: -3050627335613315176
+    second: station_sheet_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: station_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fdfe283b15103080800000000000000
+      internalID: -9209838031321760267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627084bfb3d3014f0800000000000000
+      internalID: -860120200999598298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 61
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a621c5b461620c3c0800000000000000
+      internalID: -4341428163589696918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 61
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584a19dd000021d50800000000000000
+      internalID: 6706422798825399429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 61
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068db500ba6e10160800000000000000
+      internalID: 6990121718775535712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 61
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22c7a762d9bc69c0800000000000000
+      internalID: -3932564061267967442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 61
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4dad015dfd6e6910800000000000000
+      internalID: 1832523033140374861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 61
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cadc258f1acd730800000000000000
+      internalID: 4025270254875552883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 61
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ef4dd9bd24efd30800000000000000
+      internalID: 4467081391411363329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 61
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793c44bc898d30eb0800000000000000
+      internalID: -4754718630816201833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 61
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34801f087a5c64d70800000000000000
+      internalID: 9027119826324228163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 61
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57440d746f0a45930800000000000000
+      internalID: 4131103737832817781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4eca761cf3e9a20800000000000000
+      internalID: 3070962095813878980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd75bc6ca60c4520800000000000000
+      internalID: 2687530415261318615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831d9a1f5f3d21cc0800000000000000
+      internalID: -3741695287116574408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdcf75400ad39e40800000000000000
+      internalID: 5662108851235704307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f5bde7deb551130800000000000000
+      internalID: 3536834157963075438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e69f45deca239c0800000000000000
+      internalID: -3948903787917644239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ec0eb5c13b827b0800000000000000
+      internalID: -5248748431318397331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa34d17d78c35c50800000000000000
+      internalID: 6652881515662555814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d68141117b430f00800000000000000
+      internalID: 1081791284491945689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1c2c20b02f54db0800000000000000
+      internalID: -4808170898043256365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b7a906cbd12f1b0800000000000000
+      internalID: -5624400289720534252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b617dd1782e44c80800000000000000
+      internalID: -8339291540034218319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1be78696a8249a0800000000000000
+      internalID: -6250281147507494449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2215ceac3a0b36060800000000000000
+      internalID: 6945589267866079522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45470175de9f46ab0800000000000000
+      internalID: -5015609287220628396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f4f4a7be5ca4500800000000000000
+      internalID: 381334733626232631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff073018ba8f4850800000000000000
+      internalID: 6363457321648459767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66577360dbcda030800000000000000
+      internalID: 3507683780673885803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ede8de66f775a40800000000000000
+      internalID: 5356890361829449347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e07598cee50e4d40800000000000000
+      internalID: 5570396312229474535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb81583208b19110800000000000000
+      internalID: 1265995289942133745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e58aa5fd435edca0800000000000000
+      internalID: -5990258860057000476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c7325b0ffa5fd50800000000000000
+      internalID: 6770511063187422233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20541566316c698a0800000000000000
+      internalID: -6298629242207779582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b5c036b37879d00800000000000000
+      internalID: 979400133110946565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7463ea6c82b66e60800000000000000
+      internalID: 7955242107955012734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f433b47a806f6880800000000000000
+      internalID: -8615561414356814605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c577837b562a20b0800000000000000
+      internalID: -5752743399790250557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7706877944834cf30800000000000000
+      internalID: 4594859387074928759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c50ded76b0b75d80800000000000000
+      internalID: -8261940693544663609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d7ecf9419ed3660800000000000000
+      internalID: 7367300840237726989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15e2be0963c0e1d0800000000000000
+      internalID: -3323441669013838561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44588e739ab4c8540800000000000000
+      internalID: 5011463675516060996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a180e6e6eb52a250800000000000000
+      internalID: 5954422704611295655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0fcdf5ead58b060800000000000000
+      internalID: 6969423426869850319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b252d4451922dc0800000000000000
+      internalID: -3665207355468600458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 30
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ce3ca6413fce330800000000000000
+      internalID: 3741632659454159987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: station_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 30
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8970ca6e99ef9a5d0800000000000000
+      internalID: -3050627335613315176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      station_sheet_0: -9209838031321760267
+      station_sheet_1: -860120200999598298
+      station_sheet_10: 9027119826324228163
+      station_sheet_11: 4131103737832817781
+      station_sheet_12: 3070962095813878980
+      station_sheet_13: 2687530415261318615
+      station_sheet_14: -3741695287116574408
+      station_sheet_15: 5662108851235704307
+      station_sheet_16: 3536834157963075438
+      station_sheet_17: -3948903787917644239
+      station_sheet_18: -5248748431318397331
+      station_sheet_19: 6652881515662555814
+      station_sheet_2: -4341428163589696918
+      station_sheet_20: 1081791284491945689
+      station_sheet_21: -4808170898043256365
+      station_sheet_22: -5624400289720534252
+      station_sheet_23: -8339291540034218319
+      station_sheet_24: -6250281147507494449
+      station_sheet_25: 6945589267866079522
+      station_sheet_26: -5015609287220628396
+      station_sheet_27: 381334733626232631
+      station_sheet_28: 6363457321648459767
+      station_sheet_29: 3507683780673885803
+      station_sheet_3: 6706422798825399429
+      station_sheet_30: 5356890361829449347
+      station_sheet_31: 5570396312229474535
+      station_sheet_32: 1265995289942133745
+      station_sheet_33: -5990258860057000476
+      station_sheet_34: 6770511063187422233
+      station_sheet_35: -6298629242207779582
+      station_sheet_36: 979400133110946565
+      station_sheet_37: 7955242107955012734
+      station_sheet_38: -8615561414356814605
+      station_sheet_39: -5752743399790250557
+      station_sheet_4: 6990121718775535712
+      station_sheet_40: 4594859387074928759
+      station_sheet_41: -8261940693544663609
+      station_sheet_42: 7367300840237726989
+      station_sheet_43: -3323441669013838561
+      station_sheet_44: 5011463675516060996
+      station_sheet_45: 5954422704611295655
+      station_sheet_46: 6969423426869850319
+      station_sheet_47: -3665207355468600458
+      station_sheet_48: 3741632659454159987
+      station_sheet_49: -3050627335613315176
+      station_sheet_5: -3932564061267967442
+      station_sheet_6: 1832523033140374861
+      station_sheet_7: 4025270254875552883
+      station_sheet_8: 4467081391411363329
+      station_sheet_9: -4754718630816201833
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

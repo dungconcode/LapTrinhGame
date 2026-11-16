@@ -1,0 +1,2301 @@
+fileFormatVersion: 2
+guid: 3a1c83154025dd6468e2c180123d5a31
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2160385731647575132
+    second: minerdome_fuelstation_sheet_0
+  - first:
+      213: 3361500854374604455
+    second: minerdome_fuelstation_sheet_1
+  - first:
+      213: 5764245223953040490
+    second: minerdome_fuelstation_sheet_2
+  - first:
+      213: 1534780819389262127
+    second: minerdome_fuelstation_sheet_3
+  - first:
+      213: 3530654337996688848
+    second: minerdome_fuelstation_sheet_4
+  - first:
+      213: 7512288347265397854
+    second: minerdome_fuelstation_sheet_5
+  - first:
+      213: -315230006126779323
+    second: minerdome_fuelstation_sheet_6
+  - first:
+      213: 7237922671372052193
+    second: minerdome_fuelstation_sheet_7
+  - first:
+      213: 264527031864725951
+    second: minerdome_fuelstation_sheet_8
+  - first:
+      213: -4554237162726059032
+    second: minerdome_fuelstation_sheet_9
+  - first:
+      213: 5348155927322893202
+    second: minerdome_fuelstation_sheet_10
+  - first:
+      213: -4976634703537522473
+    second: minerdome_fuelstation_sheet_11
+  - first:
+      213: -6440463195045702279
+    second: minerdome_fuelstation_sheet_12
+  - first:
+      213: -1661367723644254212
+    second: minerdome_fuelstation_sheet_13
+  - first:
+      213: -212151288824939252
+    second: minerdome_fuelstation_sheet_14
+  - first:
+      213: -2160960226055664289
+    second: minerdome_fuelstation_sheet_15
+  - first:
+      213: 4781974168531239934
+    second: minerdome_fuelstation_sheet_16
+  - first:
+      213: -2674554855376779550
+    second: minerdome_fuelstation_sheet_17
+  - first:
+      213: -3680568121766758778
+    second: minerdome_fuelstation_sheet_18
+  - first:
+      213: -5699086858081428962
+    second: minerdome_fuelstation_sheet_19
+  - first:
+      213: 4165649547496898541
+    second: minerdome_fuelstation_sheet_20
+  - first:
+      213: 9047393995572537680
+    second: minerdome_fuelstation_sheet_21
+  - first:
+      213: -7328272144978094046
+    second: minerdome_fuelstation_sheet_22
+  - first:
+      213: -154391897707138404
+    second: minerdome_fuelstation_sheet_23
+  - first:
+      213: -5896353988233170922
+    second: minerdome_fuelstation_sheet_24
+  - first:
+      213: -3122698619996545555
+    second: minerdome_fuelstation_sheet_25
+  - first:
+      213: -8076898268054843155
+    second: minerdome_fuelstation_sheet_26
+  - first:
+      213: -1835192000361789857
+    second: minerdome_fuelstation_sheet_27
+  - first:
+      213: -459726823959208403
+    second: minerdome_fuelstation_sheet_28
+  - first:
+      213: -1217156135368310473
+    second: minerdome_fuelstation_sheet_29
+  - first:
+      213: 6840944001811249064
+    second: minerdome_fuelstation_sheet_30
+  - first:
+      213: -7650035307659756796
+    second: minerdome_fuelstation_sheet_31
+  - first:
+      213: -2171278091040352262
+    second: minerdome_fuelstation_sheet_32
+  - first:
+      213: 2596596722420846350
+    second: minerdome_fuelstation_sheet_33
+  - first:
+      213: -7814524392701063669
+    second: minerdome_fuelstation_sheet_34
+  - first:
+      213: 7484883294772154375
+    second: minerdome_fuelstation_sheet_35
+  - first:
+      213: -7199222383325085731
+    second: minerdome_fuelstation_sheet_36
+  - first:
+      213: -1430475763888647237
+    second: minerdome_fuelstation_sheet_37
+  - first:
+      213: 3376414834911155960
+    second: minerdome_fuelstation_sheet_38
+  - first:
+      213: 2536403670253230523
+    second: minerdome_fuelstation_sheet_39
+  - first:
+      213: 6259810557952106357
+    second: minerdome_fuelstation_sheet_40
+  - first:
+      213: -2038653863534650704
+    second: minerdome_fuelstation_sheet_41
+  - first:
+      213: -9090813347102608472
+    second: minerdome_fuelstation_sheet_42
+  - first:
+      213: -3816104041226997532
+    second: minerdome_fuelstation_sheet_43
+  - first:
+      213: -4285917922886817595
+    second: minerdome_fuelstation_sheet_44
+  - first:
+      213: -8657860637488103056
+    second: minerdome_fuelstation_sheet_45
+  - first:
+      213: 2025239417001138769
+    second: minerdome_fuelstation_sheet_46
+  - first:
+      213: -7870099497045131534
+    second: minerdome_fuelstation_sheet_47
+  - first:
+      213: -3777230131757898214
+    second: minerdome_fuelstation_sheet_48
+  - first:
+      213: -3048448647324282159
+    second: minerdome_fuelstation_sheet_49
+  - first:
+      213: 8426522154394402492
+    second: minerdome_fuelstation_sheet_50
+  - first:
+      213: -3413563013889023218
+    second: minerdome_fuelstation_sheet_51
+  - first:
+      213: -6601499506395296843
+    second: minerdome_fuelstation_sheet_52
+  - first:
+      213: -2857256113402029269
+    second: minerdome_fuelstation_sheet_53
+  - first:
+      213: 9066340202639068555
+    second: minerdome_fuelstation_sheet_54
+  - first:
+      213: 4647500906378488981
+    second: minerdome_fuelstation_sheet_55
+  - first:
+      213: 1964924115562296879
+    second: minerdome_fuelstation_sheet_56
+  - first:
+      213: -4296714741285161496
+    second: minerdome_fuelstation_sheet_57
+  - first:
+      213: 4727009206041877501
+    second: minerdome_fuelstation_sheet_58
+  - first:
+      213: -7076237498438806625
+    second: minerdome_fuelstation_sheet_59
+  - first:
+      213: -8983076690795836343
+    second: minerdome_fuelstation_sheet_60
+  - first:
+      213: 1876609677178680297
+    second: minerdome_fuelstation_sheet_61
+  - first:
+      213: 844582865343541559
+    second: minerdome_fuelstation_sheet_62
+  - first:
+      213: 5754854873184714571
+    second: minerdome_fuelstation_sheet_63
+  - first:
+      213: -5304238764092716108
+    second: minerdome_fuelstation_sheet_64
+  - first:
+      213: -3479498217683177725
+    second: minerdome_fuelstation_sheet_65
+  - first:
+      213: 1254651721094199923
+    second: minerdome_fuelstation_sheet_66
+  - first:
+      213: -7171533874657556172
+    second: minerdome_fuelstation_sheet_67
+  - first:
+      213: -6834894446398861792
+    second: minerdome_fuelstation_sheet_68
+  - first:
+      213: -8583642618171233678
+    second: minerdome_fuelstation_sheet_69
+  - first:
+      213: 6005247194481101334
+    second: minerdome_fuelstation_sheet_70
+  - first:
+      213: -2719275930514638032
+    second: minerdome_fuelstation_sheet_71
+  - first:
+      213: -8795547952609210328
+    second: minerdome_fuelstation_sheet_72
+  - first:
+      213: -7817320829055314821
+    second: minerdome_fuelstation_sheet_73
+  - first:
+      213: -5555523657924194708
+    second: minerdome_fuelstation_sheet_74
+  - first:
+      213: 6458914544397041025
+    second: minerdome_fuelstation_sheet_75
+  - first:
+      213: -8543292424816738763
+    second: minerdome_fuelstation_sheet_76
+  - first:
+      213: 8188058300873729968
+    second: minerdome_fuelstation_sheet_77
+  - first:
+      213: -1782457881908516082
+    second: minerdome_fuelstation_sheet_78
+  - first:
+      213: 7183954505132325887
+    second: minerdome_fuelstation_sheet_79
+  - first:
+      213: 3743862798194819697
+    second: minerdome_fuelstation_sheet_80
+  - first:
+      213: 244655242532227656
+    second: minerdome_fuelstation_sheet_81
+  - first:
+      213: -6424038800140319940
+    second: minerdome_fuelstation_sheet_82
+  - first:
+      213: -3193208379978955544
+    second: minerdome_fuelstation_sheet_83
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c541da0706b3bfd10800000000000000
+      internalID: 2160385731647575132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae9b21973376ae20800000000000000
+      internalID: 3361500854374604455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 33
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6486fbad76beff40800000000000000
+      internalID: 5764245223953040490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29a7cb0603ac4510800000000000000
+      internalID: 1534780819389262127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 33
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd0cf80a676ff030800000000000000
+      internalID: 3530654337996688848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e547f053372014860800000000000000
+      internalID: 7512288347265397854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 18
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544e446caf310abf0800000000000000
+      internalID: -315230006126779323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6a0ea4254427460800000000000000
+      internalID: 7237922671372052193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 33
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb119c71fe9cba300800000000000000
+      internalID: 264527031864725951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e394dc0e691cc0c0800000000000000
+      internalID: -4554237162726059032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 33
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b1b7bea77783a40800000000000000
+      internalID: 5348155927322893202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8b3ceba117feab0800000000000000
+      internalID: -4976634703537522473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 33
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975d25ed8d0ee96a0800000000000000
+      internalID: -6440463195045702279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf782ee8bd2a1f8e0800000000000000
+      internalID: -1661367723644254212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 33
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0db2fed6894e0df0800000000000000
+      internalID: -212151288824939252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d4438af1ab202e0800000000000000
+      internalID: -2160960226055664289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 33
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef306689b2cfc5240800000000000000
+      internalID: 4781974168531239934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e688f8878212ead0800000000000000
+      internalID: -2674554855376779550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68637723bcefbecc0800000000000000
+      internalID: -3680568121766758778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a95f792b6c8e0b0800000000000000
+      internalID: -5699086858081428962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defb151613c5fc930800000000000000
+      internalID: 4165649547496898541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0596a1167ecce8d70800000000000000
+      internalID: 9047393995572537680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228d03d9f4fbc4a90800000000000000
+      internalID: -7328272144978094046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92b7f4136d7bddf0800000000000000
+      internalID: -154391897707138404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6107765b941fb2ea0800000000000000
+      internalID: -5896353988233170922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedd08e5622f9a4d0800000000000000
+      internalID: -3122698619996545555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de09f9581d719ef80800000000000000
+      internalID: -8076898268054843155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f560cc359961886e0800000000000000
+      internalID: -1835192000361789857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e513ca3e8be99f0800000000000000
+      internalID: -459726823959208403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7314f2391facb1fe0800000000000000
+      internalID: -1217156135368310473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a77c44235aefee50800000000000000
+      internalID: 6840944001811249064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b7eb75b6d95d590800000000000000
+      internalID: -7650035307659756796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af793f284121ed1e0800000000000000
+      internalID: -2171278091040352262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f86d036f6f80420800000000000000
+      internalID: 2596596722420846350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e8d6cc77b3d8390800000000000000
+      internalID: -7814524392701063669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700562233b5afd760800000000000000
+      internalID: 7484883294772154375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddffddea269371c90800000000000000
+      internalID: -7199222383325085731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb39c992fdde52ce0800000000000000
+      internalID: -1430475763888647237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f61d31476f6bde20800000000000000
+      internalID: 3376414834911155960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9d07c13bd133320800000000000000
+      internalID: 2536403670253230523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f99fb59805fd650800000000000000
+      internalID: 6259810557952106357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba1a04cc1f35b3e0800000000000000
+      internalID: -2038653863534650704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3b19e0d61f6d180800000000000000
+      internalID: -9090813347102608472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e07bb4d7997a0bc0800000000000000
+      internalID: -3816104041226997532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8e9dd5b5c5584c0800000000000000
+      internalID: -4285917922886817595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0714fab1f9919d780800000000000000
+      internalID: -8657860637488103056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ad87305881b1c10800000000000000
+      internalID: 2025239417001138769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fef4ab743ac7c290800000000000000
+      internalID: -7870099497045131534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a162ba13535949bc0800000000000000
+      internalID: -3777230131757898214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2573c4b1cb1b5d0800000000000000
+      internalID: -3048448647324282159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe33a8f04501f470800000000000000
+      internalID: 8426522154394402492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 36
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03abb2568690a0d0800000000000000
+      internalID: -3413563013889023218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 33
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb4468dc23c264a0800000000000000
+      internalID: -6601499506395296843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 36
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bdb5804bcf858d0800000000000000
+      internalID: -2857256113402029269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 10
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d0527f06c12dd70800000000000000
+      internalID: 9066340202639068555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 10
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ceef9637d3f7040800000000000000
+      internalID: 4647500906378488981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 7
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2670be8210d44b10800000000000000
+      internalID: 1964924115562296879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 7
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5738035b00f54c0800000000000000
+      internalID: -4296714741285161496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 10
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb902004d5b99140800000000000000
+      internalID: 4727009206041877501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 10
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9391479c772ccd90800000000000000
+      internalID: -7076237498438806625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 12
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cc5071853b55380800000000000000
+      internalID: -8983076690795836343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 12
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3bb460f8e0b0a10800000000000000
+      internalID: 1876609677178680297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 14
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731fe2824af88bb00800000000000000
+      internalID: 844582865343541559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 14
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4fb912440a5ddf40800000000000000
+      internalID: 5754854873184714571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 14
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb856672fe8366b0800000000000000
+      internalID: -5304238764092716108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 14
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fa3626ec656bfc0800000000000000
+      internalID: -3479498217683177725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 14
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37af6a8c71b696110800000000000000
+      internalID: 1254651721094199923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 14
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4390b5affe7997c90800000000000000
+      internalID: -7171533874657556172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 14
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e0b1db6b39521a0800000000000000
+      internalID: -6834894446398861792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 14
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27aeff05486c0e880800000000000000
+      internalID: -8583642618171233678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 14
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a0577918ce65350800000000000000
+      internalID: 6005247194481101334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 13
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bb763d2f0334ad0800000000000000
+      internalID: -2719275930514638032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 13
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82050d7ecbfefe580800000000000000
+      internalID: -8795547952609210328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 10
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7455e8bf1c438390800000000000000
+      internalID: -7817320829055314821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 8
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e4624eaa0d6e2b0800000000000000
+      internalID: -5555523657924194708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 12
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18db36dae8ca2a950800000000000000
+      internalID: 6458914544397041025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 11
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e338ecdc0207980800000000000000
+      internalID: -8543292424816738763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 11
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b764c774a3d1a170800000000000000
+      internalID: 8188058300873729968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 12
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b6fb110007347e0800000000000000
+      internalID: -1782457881908516082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 11
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbbaf86f8882b360800000000000000
+      internalID: 7183954505132325887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 9
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172c33e016fd4f330800000000000000
+      internalID: 3743862798194819697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 9
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a029795a0356300800000000000000
+      internalID: 244655242532227656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c334f4e4fba39d6a0800000000000000
+      internalID: -6424038800140319940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minerdome_fuelstation_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 14
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4cd8195e17fa3d0800000000000000
+      internalID: -3193208379978955544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      minerdome_fuelstation_sheet_0: 2160385731647575132
+      minerdome_fuelstation_sheet_1: 3361500854374604455
+      minerdome_fuelstation_sheet_10: 5348155927322893202
+      minerdome_fuelstation_sheet_11: -4976634703537522473
+      minerdome_fuelstation_sheet_12: -6440463195045702279
+      minerdome_fuelstation_sheet_13: -1661367723644254212
+      minerdome_fuelstation_sheet_14: -212151288824939252
+      minerdome_fuelstation_sheet_15: -2160960226055664289
+      minerdome_fuelstation_sheet_16: 4781974168531239934
+      minerdome_fuelstation_sheet_17: -2674554855376779550
+      minerdome_fuelstation_sheet_18: -3680568121766758778
+      minerdome_fuelstation_sheet_19: -5699086858081428962
+      minerdome_fuelstation_sheet_2: 5764245223953040490
+      minerdome_fuelstation_sheet_20: 4165649547496898541
+      minerdome_fuelstation_sheet_21: 9047393995572537680
+      minerdome_fuelstation_sheet_22: -7328272144978094046
+      minerdome_fuelstation_sheet_23: -154391897707138404
+      minerdome_fuelstation_sheet_24: -5896353988233170922
+      minerdome_fuelstation_sheet_25: -3122698619996545555
+      minerdome_fuelstation_sheet_26: -8076898268054843155
+      minerdome_fuelstation_sheet_27: -1835192000361789857
+      minerdome_fuelstation_sheet_28: -459726823959208403
+      minerdome_fuelstation_sheet_29: -1217156135368310473
+      minerdome_fuelstation_sheet_3: 1534780819389262127
+      minerdome_fuelstation_sheet_30: 6840944001811249064
+      minerdome_fuelstation_sheet_31: -7650035307659756796
+      minerdome_fuelstation_sheet_32: -2171278091040352262
+      minerdome_fuelstation_sheet_33: 2596596722420846350
+      minerdome_fuelstation_sheet_34: -7814524392701063669
+      minerdome_fuelstation_sheet_35: 7484883294772154375
+      minerdome_fuelstation_sheet_36: -7199222383325085731
+      minerdome_fuelstation_sheet_37: -1430475763888647237
+      minerdome_fuelstation_sheet_38: 3376414834911155960
+      minerdome_fuelstation_sheet_39: 2536403670253230523
+      minerdome_fuelstation_sheet_4: 3530654337996688848
+      minerdome_fuelstation_sheet_40: 6259810557952106357
+      minerdome_fuelstation_sheet_41: -2038653863534650704
+      minerdome_fuelstation_sheet_42: -9090813347102608472
+      minerdome_fuelstation_sheet_43: -3816104041226997532
+      minerdome_fuelstation_sheet_44: -4285917922886817595
+      minerdome_fuelstation_sheet_45: -8657860637488103056
+      minerdome_fuelstation_sheet_46: 2025239417001138769
+      minerdome_fuelstation_sheet_47: -7870099497045131534
+      minerdome_fuelstation_sheet_48: -3777230131757898214
+      minerdome_fuelstation_sheet_49: -3048448647324282159
+      minerdome_fuelstation_sheet_5: 7512288347265397854
+      minerdome_fuelstation_sheet_50: 8426522154394402492
+      minerdome_fuelstation_sheet_51: -3413563013889023218
+      minerdome_fuelstation_sheet_52: -6601499506395296843
+      minerdome_fuelstation_sheet_53: -2857256113402029269
+      minerdome_fuelstation_sheet_54: 9066340202639068555
+      minerdome_fuelstation_sheet_55: 4647500906378488981
+      minerdome_fuelstation_sheet_56: 1964924115562296879
+      minerdome_fuelstation_sheet_57: -4296714741285161496
+      minerdome_fuelstation_sheet_58: 4727009206041877501
+      minerdome_fuelstation_sheet_59: -7076237498438806625
+      minerdome_fuelstation_sheet_6: -315230006126779323
+      minerdome_fuelstation_sheet_60: -8983076690795836343
+      minerdome_fuelstation_sheet_61: 1876609677178680297
+      minerdome_fuelstation_sheet_62: 844582865343541559
+      minerdome_fuelstation_sheet_63: 5754854873184714571
+      minerdome_fuelstation_sheet_64: -5304238764092716108
+      minerdome_fuelstation_sheet_65: -3479498217683177725
+      minerdome_fuelstation_sheet_66: 1254651721094199923
+      minerdome_fuelstation_sheet_67: -7171533874657556172
+      minerdome_fuelstation_sheet_68: -6834894446398861792
+      minerdome_fuelstation_sheet_69: -8583642618171233678
+      minerdome_fuelstation_sheet_7: 7237922671372052193
+      minerdome_fuelstation_sheet_70: 6005247194481101334
+      minerdome_fuelstation_sheet_71: -2719275930514638032
+      minerdome_fuelstation_sheet_72: -8795547952609210328
+      minerdome_fuelstation_sheet_73: -7817320829055314821
+      minerdome_fuelstation_sheet_74: -5555523657924194708
+      minerdome_fuelstation_sheet_75: 6458914544397041025
+      minerdome_fuelstation_sheet_76: -8543292424816738763
+      minerdome_fuelstation_sheet_77: 8188058300873729968
+      minerdome_fuelstation_sheet_78: -1782457881908516082
+      minerdome_fuelstation_sheet_79: 7183954505132325887
+      minerdome_fuelstation_sheet_8: 264527031864725951
+      minerdome_fuelstation_sheet_80: 3743862798194819697
+      minerdome_fuelstation_sheet_81: 244655242532227656
+      minerdome_fuelstation_sheet_82: -6424038800140319940
+      minerdome_fuelstation_sheet_83: -3193208379978955544
+      minerdome_fuelstation_sheet_9: -4554237162726059032
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

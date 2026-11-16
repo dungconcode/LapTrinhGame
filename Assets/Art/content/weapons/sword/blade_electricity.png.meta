@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 7f0e3b61f31fa1e4abf5c965ece26137
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5676064697578418177
+    second: blade_electricity_0
+  - first:
+      213: 3120500151588153370
+    second: blade_electricity_1
+  - first:
+      213: -7548882378066495889
+    second: blade_electricity_2
+  - first:
+      213: -5160546269461378363
+    second: blade_electricity_3
+  - first:
+      213: 8193265831376744169
+    second: blade_electricity_4
+  - first:
+      213: -1252356792722184845
+    second: blade_electricity_5
+  - first:
+      213: 1763097757661359291
+    second: blade_electricity_6
+  - first:
+      213: -2794232793481735816
+    second: blade_electricity_7
+  - first:
+      213: -1919961403015609263
+    second: blade_electricity_8
+  - first:
+      213: 5756767931817270391
+    second: blade_electricity_9
+  - first:
+      213: -4636980628639742497
+    second: blade_electricity_10
+  - first:
+      213: -6308311388960257824
+    second: blade_electricity_11
+  - first:
+      213: 7852990625829396758
+    second: blade_electricity_12
+  - first:
+      213: 3791674472538478048
+    second: blade_electricity_13
+  - first:
+      213: -482529067208162373
+    second: blade_electricity_14
+  - first:
+      213: 4270648808492812186
+    second: blade_electricity_15
+  - first:
+      213: -7447456774381523504
+    second: blade_electricity_16
+  - first:
+      213: 2013173230924106510
+    second: blade_electricity_17
+  - first:
+      213: 6460826395786408053
+    second: blade_electricity_18
+  - first:
+      213: -8980481365665101214
+    second: blade_electricity_19
+  - first:
+      213: 7368547098190299060
+    second: blade_electricity_20
+  - first:
+      213: -8465656844408175757
+    second: blade_electricity_21
+  - first:
+      213: -6709495801572655541
+    second: blade_electricity_22
+  - first:
+      213: 4203857661864067095
+    second: blade_electricity_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blade_electricity_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 297
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100fb45f4ce65ce40800000000000000
+      internalID: 5676064697578418177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 303
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18e6f0da5e3e4b20800000000000000
+      internalID: 3120500151588153370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 273
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66f32c097bfc3790800000000000000
+      internalID: -7548882378066495889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 281
+        width: 70
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca89c9728e0268b0800000000000000
+      internalID: -5160546269461378363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 249
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee6e852dd354b170800000000000000
+      internalID: 8193265831376744169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 210
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3752fbdd12cbe9ee0800000000000000
+      internalID: -1252356792722184845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 226
+        width: 55
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc61bdb118c77810800000000000000
+      internalID: 1763097757661359291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 203
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87116cc2414e839d0800000000000000
+      internalID: -2794232793481735816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 155
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1544bceb64dea55e0800000000000000
+      internalID: -1919961403015609263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_9
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 155
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c145eeee524ef40800000000000000
+      internalID: 5756767931817270391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 157
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd58f8f9fa226afb0800000000000000
+      internalID: -4636980628639742497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_11
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 159
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e80970f6306478a0800000000000000
+      internalID: -6308311388960257824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 132
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611a8050e5d6bfc60800000000000000
+      internalID: 7852990625829396758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_13
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 106
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e59297f7dbbe9430800000000000000
+      internalID: 3791674472538478048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_14
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 106
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3c143be56bd49f0800000000000000
+      internalID: -482529067208162373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 49
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97c8a6e674644b30800000000000000
+      internalID: 4270648808492812186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_16
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 59
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dda9e2a58155a890800000000000000
+      internalID: -7447456774381523504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_17
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 52
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b8e84236a30fb10800000000000000
+      internalID: 2013173230924106510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 52
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570f054406779a950800000000000000
+      internalID: 6460826395786408053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_19
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 57
+        width: 78
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a448f47cbee5380800000000000000
+      internalID: -8980481365665101214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf3e5aab86524660800000000000000
+      internalID: 7368547098190299060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37342b6f3f1f38a80800000000000000
+      internalID: -8465656844408175757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_22
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 3
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e794ded1513e2a0800000000000000
+      internalID: -6709495801572655541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blade_electricity_23
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 5
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71046bd354a175a30800000000000000
+      internalID: 4203857661864067095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blade_electricity_0: 5676064697578418177
+      blade_electricity_1: 3120500151588153370
+      blade_electricity_10: -4636980628639742497
+      blade_electricity_11: -6308311388960257824
+      blade_electricity_12: 7852990625829396758
+      blade_electricity_13: 3791674472538478048
+      blade_electricity_14: -482529067208162373
+      blade_electricity_15: 4270648808492812186
+      blade_electricity_16: -7447456774381523504
+      blade_electricity_17: 2013173230924106510
+      blade_electricity_18: 6460826395786408053
+      blade_electricity_19: -8980481365665101214
+      blade_electricity_2: -7548882378066495889
+      blade_electricity_20: 7368547098190299060
+      blade_electricity_21: -8465656844408175757
+      blade_electricity_22: -6709495801572655541
+      blade_electricity_23: 4203857661864067095
+      blade_electricity_3: -5160546269461378363
+      blade_electricity_4: 8193265831376744169
+      blade_electricity_5: -1252356792722184845
+      blade_electricity_6: 1763097757661359291
+      blade_electricity_7: -2794232793481735816
+      blade_electricity_8: -1919961403015609263
+      blade_electricity_9: 5756767931817270391
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,5499 @@
+fileFormatVersion: 2
+guid: dd9cc4c85b87a0e4084b96edccbe3f86
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1726196820815629624
+    second: pet7_sheet_0
+  - first:
+      213: -1238790418376549057
+    second: pet7_sheet_1
+  - first:
+      213: -6580812100977574915
+    second: pet7_sheet_2
+  - first:
+      213: 5007257735109072851
+    second: pet7_sheet_3
+  - first:
+      213: 4555080359334009214
+    second: pet7_sheet_4
+  - first:
+      213: 4367647174753809166
+    second: pet7_sheet_5
+  - first:
+      213: 7606761104425841544
+    second: pet7_sheet_6
+  - first:
+      213: -6307386574299429438
+    second: pet7_sheet_7
+  - first:
+      213: 4552421226878237840
+    second: pet7_sheet_8
+  - first:
+      213: 7693635863789107938
+    second: pet7_sheet_9
+  - first:
+      213: -1102061469729828531
+    second: pet7_sheet_10
+  - first:
+      213: -6850590399993606637
+    second: pet7_sheet_11
+  - first:
+      213: 7481683031070954747
+    second: pet7_sheet_12
+  - first:
+      213: 8973720025435322414
+    second: pet7_sheet_13
+  - first:
+      213: 8893289406533355590
+    second: pet7_sheet_14
+  - first:
+      213: 1652979148250837388
+    second: pet7_sheet_15
+  - first:
+      213: -2624017684842617707
+    second: pet7_sheet_16
+  - first:
+      213: 978166106207123919
+    second: pet7_sheet_17
+  - first:
+      213: 6705909337743885165
+    second: pet7_sheet_18
+  - first:
+      213: 8436535370939379459
+    second: pet7_sheet_19
+  - first:
+      213: -4910877309405130511
+    second: pet7_sheet_20
+  - first:
+      213: -7267273641811225282
+    second: pet7_sheet_21
+  - first:
+      213: 7275465644117497810
+    second: pet7_sheet_22
+  - first:
+      213: -8569088932690225978
+    second: pet7_sheet_23
+  - first:
+      213: -2227712631429783314
+    second: pet7_sheet_24
+  - first:
+      213: -2453661977751153851
+    second: pet7_sheet_25
+  - first:
+      213: -4264841231353094255
+    second: pet7_sheet_26
+  - first:
+      213: 3482767183521728507
+    second: pet7_sheet_27
+  - first:
+      213: -919131161157309956
+    second: pet7_sheet_28
+  - first:
+      213: -4180886168715342397
+    second: pet7_sheet_29
+  - first:
+      213: 6359289667784581047
+    second: pet7_sheet_30
+  - first:
+      213: 1098175600444597943
+    second: pet7_sheet_31
+  - first:
+      213: -5399139198100577583
+    second: pet7_sheet_32
+  - first:
+      213: -4522854423386088099
+    second: pet7_sheet_33
+  - first:
+      213: -7996445118476952900
+    second: pet7_sheet_34
+  - first:
+      213: 4100197942047912682
+    second: pet7_sheet_35
+  - first:
+      213: 3556600850101258863
+    second: pet7_sheet_36
+  - first:
+      213: -6809122036019218421
+    second: pet7_sheet_37
+  - first:
+      213: -5140887791102609766
+    second: pet7_sheet_38
+  - first:
+      213: 2399507497687298877
+    second: pet7_sheet_39
+  - first:
+      213: 5239082646690821506
+    second: pet7_sheet_40
+  - first:
+      213: 1060828817090621735
+    second: pet7_sheet_41
+  - first:
+      213: -8131938004989631465
+    second: pet7_sheet_42
+  - first:
+      213: 5878354082294254960
+    second: pet7_sheet_43
+  - first:
+      213: -3666960618401711030
+    second: pet7_sheet_44
+  - first:
+      213: -5363248905138950039
+    second: pet7_sheet_45
+  - first:
+      213: -8682387583826788081
+    second: pet7_sheet_46
+  - first:
+      213: 833493530431915750
+    second: pet7_sheet_47
+  - first:
+      213: 7441939115330154421
+    second: pet7_sheet_48
+  - first:
+      213: -1996187839886096298
+    second: pet7_sheet_49
+  - first:
+      213: 6791668538589483459
+    second: pet7_sheet_50
+  - first:
+      213: -4944762392255577305
+    second: pet7_sheet_51
+  - first:
+      213: -5994417777552599862
+    second: pet7_sheet_52
+  - first:
+      213: -2389014736772328764
+    second: pet7_sheet_53
+  - first:
+      213: -5340077707842748279
+    second: pet7_sheet_54
+  - first:
+      213: 9183468025713625821
+    second: pet7_sheet_55
+  - first:
+      213: 1385643428977082623
+    second: pet7_sheet_56
+  - first:
+      213: -7762838805627427207
+    second: pet7_sheet_57
+  - first:
+      213: -5915454078328301701
+    second: pet7_sheet_58
+  - first:
+      213: 1271417942411516279
+    second: pet7_sheet_59
+  - first:
+      213: -3868053504016303690
+    second: pet7_sheet_60
+  - first:
+      213: 7042961586931410810
+    second: pet7_sheet_61
+  - first:
+      213: 2639365475002241390
+    second: pet7_sheet_62
+  - first:
+      213: 8015688700131661006
+    second: pet7_sheet_63
+  - first:
+      213: -5098707729224018411
+    second: pet7_sheet_64
+  - first:
+      213: 2426992364876968664
+    second: pet7_sheet_65
+  - first:
+      213: 1644633877839344833
+    second: pet7_sheet_66
+  - first:
+      213: 396626748666674357
+    second: pet7_sheet_67
+  - first:
+      213: -7546260749350948555
+    second: pet7_sheet_68
+  - first:
+      213: 9217627965784724565
+    second: pet7_sheet_69
+  - first:
+      213: 3676676743128538659
+    second: pet7_sheet_70
+  - first:
+      213: -5788875266593995476
+    second: pet7_sheet_71
+  - first:
+      213: 6299712998277978674
+    second: pet7_sheet_72
+  - first:
+      213: -3412364996811674399
+    second: pet7_sheet_73
+  - first:
+      213: -3542204390633289476
+    second: pet7_sheet_74
+  - first:
+      213: 927833026900396514
+    second: pet7_sheet_75
+  - first:
+      213: -473433706695307818
+    second: pet7_sheet_76
+  - first:
+      213: 6171793174912781177
+    second: pet7_sheet_77
+  - first:
+      213: 1331905703851773397
+    second: pet7_sheet_78
+  - first:
+      213: -8145741997989673235
+    second: pet7_sheet_79
+  - first:
+      213: 1358820566934910065
+    second: pet7_sheet_80
+  - first:
+      213: -1863103673795099887
+    second: pet7_sheet_81
+  - first:
+      213: 5812049685124039166
+    second: pet7_sheet_82
+  - first:
+      213: -6391111493388064630
+    second: pet7_sheet_83
+  - first:
+      213: 4228420255859879828
+    second: pet7_sheet_84
+  - first:
+      213: 1357541163530423961
+    second: pet7_sheet_85
+  - first:
+      213: 5163794149635647361
+    second: pet7_sheet_86
+  - first:
+      213: 8241222263540724520
+    second: pet7_sheet_87
+  - first:
+      213: 4320609030559930317
+    second: pet7_sheet_88
+  - first:
+      213: 2189793885376632064
+    second: pet7_sheet_89
+  - first:
+      213: 5687450802128728264
+    second: pet7_sheet_90
+  - first:
+      213: -4597753891022507178
+    second: pet7_sheet_91
+  - first:
+      213: -4067987371562453218
+    second: pet7_sheet_92
+  - first:
+      213: 2943863854326215757
+    second: pet7_sheet_93
+  - first:
+      213: -2100437955190533030
+    second: pet7_sheet_94
+  - first:
+      213: 3294627119632401475
+    second: pet7_sheet_95
+  - first:
+      213: 5750133660799177099
+    second: pet7_sheet_96
+  - first:
+      213: -2664100245125836847
+    second: pet7_sheet_97
+  - first:
+      213: -7392552427099049177
+    second: pet7_sheet_98
+  - first:
+      213: -6993334400578474721
+    second: pet7_sheet_99
+  - first:
+      213: -3313568610962648675
+    second: pet7_sheet_100
+  - first:
+      213: 7706924626398644792
+    second: pet7_sheet_101
+  - first:
+      213: 6343186482282038799
+    second: pet7_sheet_102
+  - first:
+      213: 7438388976799740718
+    second: pet7_sheet_103
+  - first:
+      213: 9106823512902549925
+    second: pet7_sheet_104
+  - first:
+      213: 7812566095470593984
+    second: pet7_sheet_105
+  - first:
+      213: -4910791726964238560
+    second: pet7_sheet_106
+  - first:
+      213: 6652573544643388317
+    second: pet7_sheet_107
+  - first:
+      213: -4502929249541055047
+    second: pet7_sheet_108
+  - first:
+      213: 2664494075538655867
+    second: pet7_sheet_109
+  - first:
+      213: 5254569405120734171
+    second: pet7_sheet_110
+  - first:
+      213: 2721371529254338013
+    second: pet7_sheet_111
+  - first:
+      213: -5465178618442727239
+    second: pet7_sheet_112
+  - first:
+      213: 4523685109477836385
+    second: pet7_sheet_113
+  - first:
+      213: 3101106799627998829
+    second: pet7_sheet_114
+  - first:
+      213: 4272117666904879378
+    second: pet7_sheet_115
+  - first:
+      213: 2209829701560484119
+    second: pet7_sheet_116
+  - first:
+      213: 8856043063611137059
+    second: pet7_sheet_117
+  - first:
+      213: -3720039399853805824
+    second: pet7_sheet_118
+  - first:
+      213: -6111509522648314637
+    second: pet7_sheet_119
+  - first:
+      213: 1476180133458443114
+    second: pet7_sheet_120
+  - first:
+      213: 3056255323379821662
+    second: pet7_sheet_121
+  - first:
+      213: -5953008541935355260
+    second: pet7_sheet_122
+  - first:
+      213: -3824524988264432646
+    second: pet7_sheet_123
+  - first:
+      213: 8980578188701910164
+    second: pet7_sheet_124
+  - first:
+      213: 5366326126503169354
+    second: pet7_sheet_125
+  - first:
+      213: -319431030910438998
+    second: pet7_sheet_126
+  - first:
+      213: 345677856414278942
+    second: pet7_sheet_127
+  - first:
+      213: 3768093466463054325
+    second: pet7_sheet_128
+  - first:
+      213: 1838686280491285051
+    second: pet7_sheet_129
+  - first:
+      213: -3700562643657205631
+    second: pet7_sheet_130
+  - first:
+      213: 6342727893831596930
+    second: pet7_sheet_131
+  - first:
+      213: 671817263041287425
+    second: pet7_sheet_132
+  - first:
+      213: -3608181211309682893
+    second: pet7_sheet_133
+  - first:
+      213: 6809413148079271132
+    second: pet7_sheet_134
+  - first:
+      213: -18014986635160133
+    second: pet7_sheet_135
+  - first:
+      213: 2169068422445437356
+    second: pet7_sheet_136
+  - first:
+      213: -4319333466253400367
+    second: pet7_sheet_137
+  - first:
+      213: -5166555251306752646
+    second: pet7_sheet_138
+  - first:
+      213: 3906243434081509199
+    second: pet7_sheet_139
+  - first:
+      213: -283599819912287911
+    second: pet7_sheet_140
+  - first:
+      213: -3454699571140820277
+    second: pet7_sheet_141
+  - first:
+      213: 2541137534124719140
+    second: pet7_sheet_142
+  - first:
+      213: -8283258019635300946
+    second: pet7_sheet_143
+  - first:
+      213: 6027877571940198232
+    second: pet7_sheet_144
+  - first:
+      213: 5369709295647666225
+    second: pet7_sheet_145
+  - first:
+      213: 4067760443159483486
+    second: pet7_sheet_146
+  - first:
+      213: 1560584948301721444
+    second: pet7_sheet_147
+  - first:
+      213: -1697737490820055971
+    second: pet7_sheet_148
+  - first:
+      213: -4798902730738013525
+    second: pet7_sheet_149
+  - first:
+      213: 9100782070339950145
+    second: pet7_sheet_150
+  - first:
+      213: -2937658718188574447
+    second: pet7_sheet_151
+  - first:
+      213: -5077984015718294278
+    second: pet7_sheet_152
+  - first:
+      213: -2083342681464033168
+    second: pet7_sheet_153
+  - first:
+      213: -4850923835715563641
+    second: pet7_sheet_154
+  - first:
+      213: 3051855457485700047
+    second: pet7_sheet_155
+  - first:
+      213: 7438955151597070923
+    second: pet7_sheet_156
+  - first:
+      213: 1969997670151674312
+    second: pet7_sheet_157
+  - first:
+      213: -8887752593072963254
+    second: pet7_sheet_158
+  - first:
+      213: 7045657634120623422
+    second: pet7_sheet_159
+  - first:
+      213: 3989475449437159761
+    second: pet7_sheet_160
+  - first:
+      213: 1463643761023609043
+    second: pet7_sheet_161
+  - first:
+      213: -6337280708197771445
+    second: pet7_sheet_162
+  - first:
+      213: -7364723189825306246
+    second: pet7_sheet_163
+  - first:
+      213: 4062495642828868960
+    second: pet7_sheet_164
+  - first:
+      213: 2472441864187088923
+    second: pet7_sheet_165
+  - first:
+      213: 3573156793167451318
+    second: pet7_sheet_166
+  - first:
+      213: 5037712258814770989
+    second: pet7_sheet_167
+  - first:
+      213: 4918310319314218613
+    second: pet7_sheet_168
+  - first:
+      213: -2182747462576001323
+    second: pet7_sheet_169
+  - first:
+      213: -5333127885593745532
+    second: pet7_sheet_170
+  - first:
+      213: 5800175894849769327
+    second: pet7_sheet_171
+  - first:
+      213: -3098734136609354293
+    second: pet7_sheet_172
+  - first:
+      213: 1310861174659779576
+    second: pet7_sheet_173
+  - first:
+      213: 4591658831515593475
+    second: pet7_sheet_174
+  - first:
+      213: -836109792464449380
+    second: pet7_sheet_175
+  - first:
+      213: -376540289399983940
+    second: pet7_sheet_176
+  - first:
+      213: 5807857829177247375
+    second: pet7_sheet_177
+  - first:
+      213: -3817019484908861447
+    second: pet7_sheet_178
+  - first:
+      213: -8593045155231694881
+    second: pet7_sheet_179
+  - first:
+      213: -3435851876598465200
+    second: pet7_sheet_180
+  - first:
+      213: -4544851529104782155
+    second: pet7_sheet_181
+  - first:
+      213: 1051253460670435487
+    second: pet7_sheet_182
+  - first:
+      213: 6785572119806855535
+    second: pet7_sheet_183
+  - first:
+      213: -1473505876387626007
+    second: pet7_sheet_184
+  - first:
+      213: -2451853279288656237
+    second: pet7_sheet_185
+  - first:
+      213: 206789596786586389
+    second: pet7_sheet_186
+  - first:
+      213: 4699321745981930528
+    second: pet7_sheet_187
+  - first:
+      213: -131255760991354641
+    second: pet7_sheet_188
+  - first:
+      213: -4682728113322646841
+    second: pet7_sheet_189
+  - first:
+      213: 2157929938953780741
+    second: pet7_sheet_190
+  - first:
+      213: -3257230932660752433
+    second: pet7_sheet_191
+  - first:
+      213: -8196237897721030098
+    second: pet7_sheet_192
+  - first:
+      213: 1710135783182697065
+    second: pet7_sheet_193
+  - first:
+      213: -2955624185880699322
+    second: pet7_sheet_194
+  - first:
+      213: 1536436206520456375
+    second: pet7_sheet_195
+  - first:
+      213: -5547268870330611810
+    second: pet7_sheet_196
+  - first:
+      213: 4986681165937547154
+    second: pet7_sheet_197
+  - first:
+      213: -7861879515052607233
+    second: pet7_sheet_198
+  - first:
+      213: -3481104539991649418
+    second: pet7_sheet_199
+  - first:
+      213: 3010160254887826712
+    second: pet7_sheet_200
+  - first:
+      213: -6412375324765254056
+    second: pet7_sheet_201
+  - first:
+      213: 3506182643342685590
+    second: pet7_sheet_202
+  - first:
+      213: 3834636539755352389
+    second: pet7_sheet_203
+  - first:
+      213: 1993534220902512177
+    second: pet7_sheet_204
+  - first:
+      213: 4324614991326018967
+    second: pet7_sheet_205
+  - first:
+      213: 633198405320037327
+    second: pet7_sheet_206
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pet7_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c230e223215b08e0800000000000000
+      internalID: -1726196820815629624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 178
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d12898daeeecee0800000000000000
+      internalID: -1238790418376549057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 178
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbb3a3c2424ca4a0800000000000000
+      internalID: -6580812100977574915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 178
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7d008616a5d7540800000000000000
+      internalID: 5007257735109072851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 178
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e795675f375e63f30800000000000000
+      internalID: 4555080359334009214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 178
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e037073f6fffc9c30800000000000000
+      internalID: 4367647174753809166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 178
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8837f801ce4a09960800000000000000
+      internalID: 7606761104425841544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 178
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c580d12459a778a0800000000000000
+      internalID: -6307386574299429438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 178
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c76007cf27d2f30800000000000000
+      internalID: 4552421226878237840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 156
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eafa543e0945ca60800000000000000
+      internalID: 7693635863789107938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41db18aee0b4b0f0800000000000000
+      internalID: -1102061469729828531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 156
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e0ea2c350dde0a0800000000000000
+      internalID: -6850590399993606637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf45d0db31744d760800000000000000
+      internalID: 7481683031070954747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 156
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28b1ed71de098c70800000000000000
+      internalID: 8973720025435322414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 157
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6484a29b89f4b6b70800000000000000
+      internalID: 8893289406533355590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 156
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c817e9807cf80f610800000000000000
+      internalID: 1652979148250837388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 157
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594ec9a71dd959bd0800000000000000
+      internalID: -2624017684842617707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 156
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc97dcb14e4239d00800000000000000
+      internalID: 978166106207123919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d630334630d201d50800000000000000
+      internalID: 6705909337743885165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 156
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f2cdf9838941570800000000000000
+      internalID: 8436535370939379459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f091652b1f09dbb0800000000000000
+      internalID: -4910877309405130511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 156
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35584e5025752b90800000000000000
+      internalID: -7267273641811225282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d79e2dc475a7f460800000000000000
+      internalID: 7275465644117497810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 160
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c49446440b741980800000000000000
+      internalID: -8569088932690225978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 156
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee02af52a239511e0800000000000000
+      internalID: -2227712631429783314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54392496e67d2fdd0800000000000000
+      internalID: -2453661977751153851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 160
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f52c50f7d30d4c0800000000000000
+      internalID: -4264841231353094255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 156
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf743390d46455030800000000000000
+      internalID: 3482767183521728507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9e93524179e33f0800000000000000
+      internalID: -919131161157309956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 156
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdc06b4e228af5c0800000000000000
+      internalID: -4180886168715342397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf9c18824cb04850800000000000000
+      internalID: 6359289667784581047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 156
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b66085e3e08d3f00800000000000000
+      internalID: 1098175600444597943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2e35451876215b0800000000000000
+      internalID: -5399139198100577583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d94437dd79b31c0800000000000000
+      internalID: -4522854423386088099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 128
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba564f188be60190800000000000000
+      internalID: -7996445118476952900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 128
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2bd84fd44d6e830800000000000000
+      internalID: 4100197942047912682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 128
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a432621a59b5130800000000000000
+      internalID: 3556600850101258863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 128
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b083ac2a5932181a0800000000000000
+      internalID: -6809122036019218421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 128
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96bf25aac5e7a8b0800000000000000
+      internalID: -5140887791102609766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 128
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33b9832b53cc4120800000000000000
+      internalID: 2399507497687298877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 128
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2857be8c8e5f4b840800000000000000
+      internalID: 5239082646690821506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 128
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7213f2a4032d8be00800000000000000
+      internalID: 1060828817090621735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 128
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7142815287d852f80800000000000000
+      internalID: -8131938004989631465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 128
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07dcd1b94eb149150800000000000000
+      internalID: 5878354082294254960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 128
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cb1d6feb65c1dc0800000000000000
+      internalID: -3666960618401711030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 128
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960b0375989e195b0800000000000000
+      internalID: -5363248905138950039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 128
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f010eb76e76f18780800000000000000
+      internalID: -8682387583826788081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 128
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e60bfb23f9219b00800000000000000
+      internalID: 833493530431915750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 128
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfa6514234174760800000000000000
+      internalID: 7441939115330154421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 128
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65882a26cbd1c44e0800000000000000
+      internalID: -1996187839886096298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 128
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c192d25d8ad04e50800000000000000
+      internalID: 6791668538589483459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 128
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72345ee7dcca06bb0800000000000000
+      internalID: -4944762392255577305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 128
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4d0b58acc8fcca0800000000000000
+      internalID: -5994417777552599862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 128
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2138321c388ded0800000000000000
+      internalID: -2389014736772328764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 128
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9800d0f1e9b34e5b0800000000000000
+      internalID: -5340077707842748279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 128
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda81d6638b327f70800000000000000
+      internalID: 9183468025713625821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 109
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff088817b5bca3310800000000000000
+      internalID: 1385643428977082623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 109
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976a5fd4c3bd44490800000000000000
+      internalID: -7762838805627427207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 109
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b771b107bd518eda0800000000000000
+      internalID: -5915454078328301701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 109
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7791f72e1ebf4a110800000000000000
+      internalID: 1271417942411516279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 109
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b937e8f4d9e15ac0800000000000000
+      internalID: -3868053504016303690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 109
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77a4c38f30adb160800000000000000
+      internalID: 7042961586931410810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 109
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6150f16ae8e0a420800000000000000
+      internalID: 2639365475002241390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 109
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4d57167627d3f60800000000000000
+      internalID: 8015688700131661006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 109
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516501a9550cd39b0800000000000000
+      internalID: -5098707729224018411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 109
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2b31572b86ea120800000000000000
+      internalID: 2426992364876968664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 109
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4ff2a5cc9e2d610800000000000000
+      internalID: 1644633877839344833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 109
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcf1be2de9118500800000000000000
+      internalID: 396626748666674357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 109
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531b67c84db464790800000000000000
+      internalID: -7546260749350948555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 109
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5541e4c3cc79bef70800000000000000
+      internalID: 9217627965784724565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 109
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32edd1c940e260330800000000000000
+      internalID: 3676676743128538659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 109
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25ce95ad98c9afa0800000000000000
+      internalID: -5788875266593995476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 109
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a154938931d6750800000000000000
+      internalID: 6299712998277978674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 109
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec20196d18d4a0d0800000000000000
+      internalID: -3412364996811674399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 109
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf84976cfdf87dec0800000000000000
+      internalID: -3542204390633289476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 109
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9064bd83350ec00800000000000000
+      internalID: 927833026900396514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 109
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddcab75d860e69f0800000000000000
+      internalID: -473433706695307818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b4bd9613d96a550800000000000000
+      internalID: 6171793174912781177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddc6605e21eb7210800000000000000
+      internalID: 1331905703851773397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de648d19fc284fe80800000000000000
+      internalID: -8145741997989673235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17476a53b108bd210800000000000000
+      internalID: 1358820566934910065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113c7bf641de426e0800000000000000
+      internalID: -1863103673795099887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef14db2256c88a050800000000000000
+      internalID: 5812049685124039166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8820b455f53e47a0800000000000000
+      internalID: -6391111493388064630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f289fc1dd5eaa30800000000000000
+      internalID: 4228420255859879828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e8334ee74f6d210800000000000000
+      internalID: 1357541163530423961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187e54e8b6b79a740800000000000000
+      internalID: 5163794149635647361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823b26d1cf3be5270800000000000000
+      internalID: 8241222263540724520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc79edf8503e5fb30800000000000000
+      internalID: 4320609030559930317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005523dcfe5b36e10800000000000000
+      internalID: 2189793885376632064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0b4620f52edee40800000000000000
+      internalID: 5687450802128728264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 85
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653fee0323f7130c0800000000000000
+      internalID: -4597753891022507178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 47
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17be37e90b9b87c0800000000000000
+      internalID: -4067987371562453218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44f9380494bad820800000000000000
+      internalID: 2943863854326215757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 47
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54de10feceb9d2e0800000000000000
+      internalID: -2100437955190533030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344ce0dd8edd8bd20800000000000000
+      internalID: 3294627119632401475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 47
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8193f659149ccf40800000000000000
+      internalID: 5750133660799177099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df4e3b21f6370bd0800000000000000
+      internalID: -2664100245125836847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 47
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7233f472cb0686990800000000000000
+      internalID: -7392552427099049177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d200a3a6fa2fe90800000000000000
+      internalID: -6993334400578474721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 47
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91dfa487e6d302d0800000000000000
+      internalID: -3313568610962648675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a833b5d1f74fa60800000000000000
+      internalID: 7706924626398644792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 49
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f060b7c7f76870850800000000000000
+      internalID: 6343186482282038799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2374573d577a3760800000000000000
+      internalID: 7438388976799740718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 49
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a14bb62cbfe16e70800000000000000
+      internalID: 9106823512902549925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c709c8987fcb6c60800000000000000
+      internalID: 7812566095470593984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 49
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0279e5c51fc59dbb0800000000000000
+      internalID: -4910791726964238560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9361aa5460b25c50800000000000000
+      internalID: 6652573544643388317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 49
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd936084b16281c0800000000000000
+      internalID: -4502929249541055047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a4d9e9e3f2af420800000000000000
+      internalID: 2664494075538655867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 48
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd36bd7b80bfbe840800000000000000
+      internalID: 5254569405120734171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddf017ccf044c520800000000000000
+      internalID: 2721371529254338013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 48
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b049a59009c724b0800000000000000
+      internalID: -5465178618442727239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166862ab3ab57ce30800000000000000
+      internalID: 4523685109477836385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 49
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6610623438590b20800000000000000
+      internalID: 3101106799627998829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2113986226c994b30800000000000000
+      internalID: 4272117666904879378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711ce97c764eaae10800000000000000
+      internalID: 2209829701560484119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c9a1abe3cf6ea70800000000000000
+      internalID: 8856043063611137059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fa14d10e3cf5cc0800000000000000
+      internalID: -3720039399853805824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 34
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc4125287e8f2ba0800000000000000
+      internalID: -6111509522648314637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_120
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 26
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b774f92027c7410800000000000000
+      internalID: 1476180133458443114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_121
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c63fc16000a6a20800000000000000
+      internalID: 3056255323379821662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_122
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 32
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ab311854aa26da0800000000000000
+      internalID: -5953008541935355260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_123
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 27
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbb4ef49ce8ceac0800000000000000
+      internalID: -3824524988264432646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_124
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 35
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494c23f084c61ac70800000000000000
+      internalID: 8980578188701910164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_125
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 32
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d8e171e25097a40800000000000000
+      internalID: 5366326126503169354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_126
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 29
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1b8587b27219bf0800000000000000
+      internalID: -319431030910438998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_127
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 35
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15aa4ecd281cc400800000000000000
+      internalID: 345677856414278942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_128
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 32
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f920052b05fa4430800000000000000
+      internalID: 3768093466463054325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_129
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 30
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a311a2e63548910800000000000000
+      internalID: 1838686280491285051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_130
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 35
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1885bbbc1e5f4acc0800000000000000
+      internalID: -3700562643657205631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_131
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 32
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b3bca0a65e50850800000000000000
+      internalID: 6342727893831596930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_132
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 29
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1051d85cd36c25900800000000000000
+      internalID: 671817263041287425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_133
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 35
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fc5a62e4a2dedc0800000000000000
+      internalID: -3608181211309682893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_134
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 32
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdca32c2e25ef7e50800000000000000
+      internalID: 6809413148079271132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_135
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 28
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb55af0177fffbff0800000000000000
+      internalID: -18014986635160133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_136
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 35
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1906dec341a1e10800000000000000
+      internalID: 2169068422445437356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_137
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 32
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d66285e815ae04c0800000000000000
+      internalID: -4319333466253400367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_138
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 27
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a759e6d5f55bc48b0800000000000000
+      internalID: -5166555251306752646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_139
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 35
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f51a605b3c53630800000000000000
+      internalID: 3906243434081509199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_140
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95963c36773701cf0800000000000000
+      internalID: -283599819912287911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_141
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 35
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc205783b017e00d0800000000000000
+      internalID: -3454699571140820277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_142
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c7aeeaf1fe34320800000000000000
+      internalID: 2541137534124719140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_143
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 35
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea57bbcb7b4fb0d80800000000000000
+      internalID: -8283258019635300946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_144
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8572a01f6b257a350800000000000000
+      internalID: 6027877571940198232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_145
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 35
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130313a872a058a40800000000000000
+      internalID: 5369709295647666225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_146
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5418e53296937830800000000000000
+      internalID: 4067760443159483486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_147
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 35
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f685dfdbf48a510800000000000000
+      internalID: 1560584948301721444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_148
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cbec14fbc6078e0800000000000000
+      internalID: -1697737490820055971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_149
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa65be546fd66db0800000000000000
+      internalID: -4798902730738013525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_150
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1465bd033197c4e70800000000000000
+      internalID: 9100782070339950145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_151
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1196a0fc5f65b37d0800000000000000
+      internalID: -2937658718188574447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_152
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcdff721706789b0800000000000000
+      internalID: -5077984015718294278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_153
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0703de58eda7613e0800000000000000
+      internalID: -2083342681464033168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_154
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78fc2b3097e0eacb0800000000000000
+      internalID: -4850923835715563641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_155
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbb5418e5e5a5a20800000000000000
+      internalID: 3051855457485700047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_156
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a610f0c4a7c3760800000000000000
+      internalID: 7438955151597070923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_157
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9dcb98176d65b10800000000000000
+      internalID: 1969997670151674312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_158
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41445e1b1c58a480800000000000000
+      internalID: -8887752593072963254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_159
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3567cae94437c160800000000000000
+      internalID: 7045657634120623422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_160
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15108dbb8c67d5730800000000000000
+      internalID: 3989475449437159761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_161
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d86785fe38ef4410800000000000000
+      internalID: 1463643761023609043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_162
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b479fe1b5c47d08a0800000000000000
+      internalID: -6337280708197771445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_163
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a718161674f3bc990800000000000000
+      internalID: -7364723189825306246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_164
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d036c5342e06830800000000000000
+      internalID: 4062495642828868960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_165
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b101da2a6c0ef4220800000000000000
+      internalID: 2472441864187088923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_166
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b415870c27669130800000000000000
+      internalID: 3573156793167451318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_167
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ff843cb9c89e540800000000000000
+      internalID: 5037712258814770989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_168
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57eacd55d29514440800000000000000
+      internalID: 4918310319314218613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_169
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dea5ca5fb255b1e0800000000000000
+      internalID: -2182747462576001323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_170
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4876475b17cecf5b0800000000000000
+      internalID: -5333127885593745532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_171
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fcd47ee3d5e7050800000000000000
+      internalID: 5800175894849769327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_172
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdc50678b51ff4d0800000000000000
+      internalID: -3098734136609354293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_173
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb82790b4d113210800000000000000
+      internalID: 1310861174659779576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_174
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ba54e2169d8bf30800000000000000
+      internalID: 4591658831515593475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_175
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c905eead29a8564f0800000000000000
+      internalID: -836109792464449380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_176
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0f0be0a9246caf0800000000000000
+      internalID: -376540289399983940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_177
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86c41e9ce7a99050800000000000000
+      internalID: 5807857829177247375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_178
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7434d7009370bc0800000000000000
+      internalID: -3817019484908861447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_179
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdff58f85fe5fb880800000000000000
+      internalID: -8593045155231694881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_180
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 26
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d3d721ce66150d0800000000000000
+      internalID: -3435851876598465200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_181
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc81da2d917de0c0800000000000000
+      internalID: -4544851529104782155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_182
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f905924e37dc69e00800000000000000
+      internalID: 1051253460670435487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_183
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69c1e634e13b2e50800000000000000
+      internalID: 6785572119806855535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_184
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3077f563e0d8be0800000000000000
+      internalID: -1473505876387626007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_185
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 7
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e7f96de6449fdd0800000000000000
+      internalID: -2451853279288656237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_186
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 7
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513f5bbea0aaed200800000000000000
+      internalID: 206789596786586389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_187
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 7
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c758ada38573140800000000000000
+      internalID: 4699321745981930528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_188
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 7
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0036fa49fad2ef0800000000000000
+      internalID: -131255760991354641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_189
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 7
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c22ba1579b930fb0800000000000000
+      internalID: -4682728113322646841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_190
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 7
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e3585a8d182fd10800000000000000
+      internalID: 2157929938953780741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_191
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 7
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf675b69bdfbc2d0800000000000000
+      internalID: -3257230932660752433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_192
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 7
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a5ebbbe0d114e80800000000000000
+      internalID: -8196237897721030098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_193
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 7
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9620a422f6f9bb710800000000000000
+      internalID: 1710135783182697065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_194
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e170766738bf6d0800000000000000
+      internalID: -2955624185880699322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_195
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b453b5e694825510800000000000000
+      internalID: 1536436206520456375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_196
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e978c566a542403b0800000000000000
+      internalID: -5547268870330611810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_197
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29796df8910443540800000000000000
+      internalID: 4986681165937547154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_198
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff87e5e2c3ef4e290800000000000000
+      internalID: -7861879515052607233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_199
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6735cc35dd1a0bfc0800000000000000
+      internalID: -3481104539991649418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_200
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8159695adcc36c920800000000000000
+      internalID: 3010160254887826712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_201
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e03e8cd9aa207a0800000000000000
+      internalID: -6412375324765254056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_202
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695b41e998678a030800000000000000
+      internalID: 3506182643342685590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_203
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541d9dabd9d573530800000000000000
+      internalID: 3834636539755352389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_204
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136ba7ccfc47aab10800000000000000
+      internalID: 1993534220902512177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_205
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79df05cfb6e140c30800000000000000
+      internalID: 4324614991326018967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet7_sheet_206
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3d175489299c800800000000000000
+      internalID: 633198405320037327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pet7_sheet_0: -1726196820815629624
+      pet7_sheet_1: -1238790418376549057
+      pet7_sheet_10: -1102061469729828531
+      pet7_sheet_100: -3313568610962648675
+      pet7_sheet_101: 7706924626398644792
+      pet7_sheet_102: 6343186482282038799
+      pet7_sheet_103: 7438388976799740718
+      pet7_sheet_104: 9106823512902549925
+      pet7_sheet_105: 7812566095470593984
+      pet7_sheet_106: -4910791726964238560
+      pet7_sheet_107: 6652573544643388317
+      pet7_sheet_108: -4502929249541055047
+      pet7_sheet_109: 2664494075538655867
+      pet7_sheet_11: -6850590399993606637
+      pet7_sheet_110: 5254569405120734171
+      pet7_sheet_111: 2721371529254338013
+      pet7_sheet_112: -5465178618442727239
+      pet7_sheet_113: 4523685109477836385
+      pet7_sheet_114: 3101106799627998829
+      pet7_sheet_115: 4272117666904879378
+      pet7_sheet_116: 2209829701560484119
+      pet7_sheet_117: 8856043063611137059
+      pet7_sheet_118: -3720039399853805824
+      pet7_sheet_119: -6111509522648314637
+      pet7_sheet_12: 7481683031070954747
+      pet7_sheet_120: 1476180133458443114
+      pet7_sheet_121: 3056255323379821662
+      pet7_sheet_122: -5953008541935355260
+      pet7_sheet_123: -3824524988264432646
+      pet7_sheet_124: 8980578188701910164
+      pet7_sheet_125: 5366326126503169354
+      pet7_sheet_126: -319431030910438998
+      pet7_sheet_127: 345677856414278942
+      pet7_sheet_128: 3768093466463054325
+      pet7_sheet_129: 1838686280491285051
+      pet7_sheet_13: 8973720025435322414
+      pet7_sheet_130: -3700562643657205631
+      pet7_sheet_131: 6342727893831596930
+      pet7_sheet_132: 671817263041287425
+      pet7_sheet_133: -3608181211309682893
+      pet7_sheet_134: 6809413148079271132
+      pet7_sheet_135: -18014986635160133
+      pet7_sheet_136: 2169068422445437356
+      pet7_sheet_137: -4319333466253400367
+      pet7_sheet_138: -5166555251306752646
+      pet7_sheet_139: 3906243434081509199
+      pet7_sheet_14: 8893289406533355590
+      pet7_sheet_140: -283599819912287911
+      pet7_sheet_141: -3454699571140820277
+      pet7_sheet_142: 2541137534124719140
+      pet7_sheet_143: -8283258019635300946
+      pet7_sheet_144: 6027877571940198232
+      pet7_sheet_145: 5369709295647666225
+      pet7_sheet_146: 4067760443159483486
+      pet7_sheet_147: 1560584948301721444
+      pet7_sheet_148: -1697737490820055971
+      pet7_sheet_149: -4798902730738013525
+      pet7_sheet_15: 1652979148250837388
+      pet7_sheet_150: 9100782070339950145
+      pet7_sheet_151: -2937658718188574447
+      pet7_sheet_152: -5077984015718294278
+      pet7_sheet_153: -2083342681464033168
+      pet7_sheet_154: -4850923835715563641
+      pet7_sheet_155: 3051855457485700047
+      pet7_sheet_156: 7438955151597070923
+      pet7_sheet_157: 1969997670151674312
+      pet7_sheet_158: -8887752593072963254
+      pet7_sheet_159: 7045657634120623422
+      pet7_sheet_16: -2624017684842617707
+      pet7_sheet_160: 3989475449437159761
+      pet7_sheet_161: 1463643761023609043
+      pet7_sheet_162: -6337280708197771445
+      pet7_sheet_163: -7364723189825306246
+      pet7_sheet_164: 4062495642828868960
+      pet7_sheet_165: 2472441864187088923
+      pet7_sheet_166: 3573156793167451318
+      pet7_sheet_167: 5037712258814770989
+      pet7_sheet_168: 4918310319314218613
+      pet7_sheet_169: -2182747462576001323
+      pet7_sheet_17: 978166106207123919
+      pet7_sheet_170: -5333127885593745532
+      pet7_sheet_171: 5800175894849769327
+      pet7_sheet_172: -3098734136609354293
+      pet7_sheet_173: 1310861174659779576
+      pet7_sheet_174: 4591658831515593475
+      pet7_sheet_175: -836109792464449380
+      pet7_sheet_176: -376540289399983940
+      pet7_sheet_177: 5807857829177247375
+      pet7_sheet_178: -3817019484908861447
+      pet7_sheet_179: -8593045155231694881
+      pet7_sheet_18: 6705909337743885165
+      pet7_sheet_180: -3435851876598465200
+      pet7_sheet_181: -4544851529104782155
+      pet7_sheet_182: 1051253460670435487
+      pet7_sheet_183: 6785572119806855535
+      pet7_sheet_184: -1473505876387626007
+      pet7_sheet_185: -2451853279288656237
+      pet7_sheet_186: 206789596786586389
+      pet7_sheet_187: 4699321745981930528
+      pet7_sheet_188: -131255760991354641
+      pet7_sheet_189: -4682728113322646841
+      pet7_sheet_19: 8436535370939379459
+      pet7_sheet_190: 2157929938953780741
+      pet7_sheet_191: -3257230932660752433
+      pet7_sheet_192: -8196237897721030098
+      pet7_sheet_193: 1710135783182697065
+      pet7_sheet_194: -2955624185880699322
+      pet7_sheet_195: 1536436206520456375
+      pet7_sheet_196: -5547268870330611810
+      pet7_sheet_197: 4986681165937547154
+      pet7_sheet_198: -7861879515052607233
+      pet7_sheet_199: -3481104539991649418
+      pet7_sheet_2: -6580812100977574915
+      pet7_sheet_20: -4910877309405130511
+      pet7_sheet_200: 3010160254887826712
+      pet7_sheet_201: -6412375324765254056
+      pet7_sheet_202: 3506182643342685590
+      pet7_sheet_203: 3834636539755352389
+      pet7_sheet_204: 1993534220902512177
+      pet7_sheet_205: 4324614991326018967
+      pet7_sheet_206: 633198405320037327
+      pet7_sheet_21: -7267273641811225282
+      pet7_sheet_22: 7275465644117497810
+      pet7_sheet_23: -8569088932690225978
+      pet7_sheet_24: -2227712631429783314
+      pet7_sheet_25: -2453661977751153851
+      pet7_sheet_26: -4264841231353094255
+      pet7_sheet_27: 3482767183521728507
+      pet7_sheet_28: -919131161157309956
+      pet7_sheet_29: -4180886168715342397
+      pet7_sheet_3: 5007257735109072851
+      pet7_sheet_30: 6359289667784581047
+      pet7_sheet_31: 1098175600444597943
+      pet7_sheet_32: -5399139198100577583
+      pet7_sheet_33: -4522854423386088099
+      pet7_sheet_34: -7996445118476952900
+      pet7_sheet_35: 4100197942047912682
+      pet7_sheet_36: 3556600850101258863
+      pet7_sheet_37: -6809122036019218421
+      pet7_sheet_38: -5140887791102609766
+      pet7_sheet_39: 2399507497687298877
+      pet7_sheet_4: 4555080359334009214
+      pet7_sheet_40: 5239082646690821506
+      pet7_sheet_41: 1060828817090621735
+      pet7_sheet_42: -8131938004989631465
+      pet7_sheet_43: 5878354082294254960
+      pet7_sheet_44: -3666960618401711030
+      pet7_sheet_45: -5363248905138950039
+      pet7_sheet_46: -8682387583826788081
+      pet7_sheet_47: 833493530431915750
+      pet7_sheet_48: 7441939115330154421
+      pet7_sheet_49: -1996187839886096298
+      pet7_sheet_5: 4367647174753809166
+      pet7_sheet_50: 6791668538589483459
+      pet7_sheet_51: -4944762392255577305
+      pet7_sheet_52: -5994417777552599862
+      pet7_sheet_53: -2389014736772328764
+      pet7_sheet_54: -5340077707842748279
+      pet7_sheet_55: 9183468025713625821
+      pet7_sheet_56: 1385643428977082623
+      pet7_sheet_57: -7762838805627427207
+      pet7_sheet_58: -5915454078328301701
+      pet7_sheet_59: 1271417942411516279
+      pet7_sheet_6: 7606761104425841544
+      pet7_sheet_60: -3868053504016303690
+      pet7_sheet_61: 7042961586931410810
+      pet7_sheet_62: 2639365475002241390
+      pet7_sheet_63: 8015688700131661006
+      pet7_sheet_64: -5098707729224018411
+      pet7_sheet_65: 2426992364876968664
+      pet7_sheet_66: 1644633877839344833
+      pet7_sheet_67: 396626748666674357
+      pet7_sheet_68: -7546260749350948555
+      pet7_sheet_69: 9217627965784724565
+      pet7_sheet_7: -6307386574299429438
+      pet7_sheet_70: 3676676743128538659
+      pet7_sheet_71: -5788875266593995476
+      pet7_sheet_72: 6299712998277978674
+      pet7_sheet_73: -3412364996811674399
+      pet7_sheet_74: -3542204390633289476
+      pet7_sheet_75: 927833026900396514
+      pet7_sheet_76: -473433706695307818
+      pet7_sheet_77: 6171793174912781177
+      pet7_sheet_78: 1331905703851773397
+      pet7_sheet_79: -8145741997989673235
+      pet7_sheet_8: 4552421226878237840
+      pet7_sheet_80: 1358820566934910065
+      pet7_sheet_81: -1863103673795099887
+      pet7_sheet_82: 5812049685124039166
+      pet7_sheet_83: -6391111493388064630
+      pet7_sheet_84: 4228420255859879828
+      pet7_sheet_85: 1357541163530423961
+      pet7_sheet_86: 5163794149635647361
+      pet7_sheet_87: 8241222263540724520
+      pet7_sheet_88: 4320609030559930317
+      pet7_sheet_89: 2189793885376632064
+      pet7_sheet_9: 7693635863789107938
+      pet7_sheet_90: 5687450802128728264
+      pet7_sheet_91: -4597753891022507178
+      pet7_sheet_92: -4067987371562453218
+      pet7_sheet_93: 2943863854326215757
+      pet7_sheet_94: -2100437955190533030
+      pet7_sheet_95: 3294627119632401475
+      pet7_sheet_96: 5750133660799177099
+      pet7_sheet_97: -2664100245125836847
+      pet7_sheet_98: -7392552427099049177
+      pet7_sheet_99: -6993334400578474721
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

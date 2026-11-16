@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 5fdf3b873930b8a49a60296056b46664
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5540861961509653640
+    second: cage_sheet_0
+  - first:
+      213: -7536268626899090916
+    second: cage_sheet_1
+  - first:
+      213: 5640882075501313483
+    second: cage_sheet_2
+  - first:
+      213: -5905582217197972536
+    second: cage_sheet_3
+  - first:
+      213: 7402531637920357015
+    second: cage_sheet_4
+  - first:
+      213: 3002098608423167171
+    second: cage_sheet_5
+  - first:
+      213: -4443035630869822754
+    second: cage_sheet_6
+  - first:
+      213: 3888201479744460338
+    second: cage_sheet_7
+  - first:
+      213: 1561642191697708530
+    second: cage_sheet_8
+  - first:
+      213: -5130536750149748873
+    second: cage_sheet_9
+  - first:
+      213: -3223267967458820300
+    second: cage_sheet_10
+  - first:
+      213: 8501259844179987445
+    second: cage_sheet_11
+  - first:
+      213: -7059630922494070120
+    second: cage_sheet_12
+  - first:
+      213: -1341816662559368647
+    second: cage_sheet_13
+  - first:
+      213: -1465045074668346318
+    second: cage_sheet_14
+  - first:
+      213: 5057151921353795785
+    second: cage_sheet_15
+  - first:
+      213: 7209797982815275092
+    second: cage_sheet_16
+  - first:
+      213: 1897605422037010796
+    second: cage_sheet_17
+  - first:
+      213: -3326973709494795472
+    second: cage_sheet_18
+  - first:
+      213: -336053129197027076
+    second: cage_sheet_19
+  - first:
+      213: 2889910857552745053
+    second: cage_sheet_20
+  - first:
+      213: -2640566600505258194
+    second: cage_sheet_21
+  - first:
+      213: -1462198698989933535
+    second: cage_sheet_22
+  - first:
+      213: -8657374953499532278
+    second: cage_sheet_23
+  - first:
+      213: 4788921961480676655
+    second: cage_sheet_24
+  - first:
+      213: -1446027678861156580
+    second: cage_sheet_25
+  - first:
+      213: 2583559677749987879
+    second: cage_sheet_26
+  - first:
+      213: 8015023162650595819
+    second: cage_sheet_27
+  - first:
+      213: -8531729847350030353
+    second: cage_sheet_28
+  - first:
+      213: 1712713479858694460
+    second: cage_sheet_29
+  - first:
+      213: -5213119162050656578
+    second: cage_sheet_30
+  - first:
+      213: 4237296475677197999
+    second: cage_sheet_31
+  - first:
+      213: -3715104093369571501
+    second: cage_sheet_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cage_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 59
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8733eba1767ea13b0800000000000000
+      internalID: -5540861961509653640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 44
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1242c9dc9bc96790800000000000000
+      internalID: -7536268626899090916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 59
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdbf1a6c50784e40800000000000000
+      internalID: 5640882075501313483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 44
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c31d0833482b0ea0800000000000000
+      internalID: -5905582217197972536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 59
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a55dced431bb660800000000000000
+      internalID: 7402531637920357015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 59
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4e1cf47c899a920800000000000000
+      internalID: 3002098608423167171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 44
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2c99942aa2752c0800000000000000
+      internalID: -4443035630869822754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 44
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236115f25aaa5f530800000000000000
+      internalID: 3888201479744460338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 29
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f58766ac411ca510800000000000000
+      internalID: 1561642191697708530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 29
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777bc3c220cacc8b0800000000000000
+      internalID: -5130536750149748873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 44
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43fb8b77cd6a443d0800000000000000
+      internalID: -3223267967458820300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 29
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb04a369ca8af570800000000000000
+      internalID: 8501259844179987445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 44
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892b06b5417270e90800000000000000
+      internalID: -7059630922494070120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ad27acad8e06de0800000000000000
+      internalID: -1341816662559368647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 29
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2342578444d1babe0800000000000000
+      internalID: -1465045074668346318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 29
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c82a77e0ec9e2640800000000000000
+      internalID: 5057151921353795785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 29
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4584804f0195e0460800000000000000
+      internalID: 7209797982815275092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 29
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c690f50d316a55a10800000000000000
+      internalID: 1897605422037010796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 29
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033cf7cc90734d1d0800000000000000
+      internalID: -3326973709494795472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 29
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf08d80a579165bf0800000000000000
+      internalID: -336053129197027076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 29
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52d9f01d960b1820800000000000000
+      internalID: 2889910857552745053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 29
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f8f1bcaa2da5bd0800000000000000
+      internalID: -2640566600505258194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 29
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12caaa3c70a35bbe0800000000000000
+      internalID: -1462198698989933535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 29
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04eb493953dad780800000000000000
+      internalID: -8657374953499532278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 14
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f256f13b62ba57240800000000000000
+      internalID: 4788921961480676655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 14
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f191acc7daeebe0800000000000000
+      internalID: -1446027678861156580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 14
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a8f40b6d5aad320800000000000000
+      internalID: 2583559677749987879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 14
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1115cd9151b3f60800000000000000
+      internalID: 8015023162650595819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 14
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef8a1928e4399980800000000000000
+      internalID: -8531729847350030353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c392009e5d7c4c710800000000000000
+      internalID: 1712713479858694460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6403e0eb747a7b0800000000000000
+      internalID: -5213119162050656578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa601c8c1b6edca30800000000000000
+      internalID: 4237296475677197999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cage_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3576b13b28c417cc0800000000000000
+      internalID: -3715104093369571501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cage_sheet_0: -5540861961509653640
+      cage_sheet_1: -7536268626899090916
+      cage_sheet_10: -3223267967458820300
+      cage_sheet_11: 8501259844179987445
+      cage_sheet_12: -7059630922494070120
+      cage_sheet_13: -1341816662559368647
+      cage_sheet_14: -1465045074668346318
+      cage_sheet_15: 5057151921353795785
+      cage_sheet_16: 7209797982815275092
+      cage_sheet_17: 1897605422037010796
+      cage_sheet_18: -3326973709494795472
+      cage_sheet_19: -336053129197027076
+      cage_sheet_2: 5640882075501313483
+      cage_sheet_20: 2889910857552745053
+      cage_sheet_21: -2640566600505258194
+      cage_sheet_22: -1462198698989933535
+      cage_sheet_23: -8657374953499532278
+      cage_sheet_24: 4788921961480676655
+      cage_sheet_25: -1446027678861156580
+      cage_sheet_26: 2583559677749987879
+      cage_sheet_27: 8015023162650595819
+      cage_sheet_28: -8531729847350030353
+      cage_sheet_29: 1712713479858694460
+      cage_sheet_3: -5905582217197972536
+      cage_sheet_30: -5213119162050656578
+      cage_sheet_31: 4237296475677197999
+      cage_sheet_32: -3715104093369571501
+      cage_sheet_4: 7402531637920357015
+      cage_sheet_5: 3002098608423167171
+      cage_sheet_6: -4443035630869822754
+      cage_sheet_7: 3888201479744460338
+      cage_sheet_8: 1561642191697708530
+      cage_sheet_9: -5130536750149748873
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

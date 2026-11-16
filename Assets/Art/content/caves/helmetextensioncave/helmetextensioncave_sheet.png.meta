@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 346ca2f07e5bfe54d8e16fdc8903f0c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3519391704036177648
+    second: helmetextensioncave_sheet_0
+  - first:
+      213: 5392658955608642732
+    second: helmetextensioncave_sheet_1
+  - first:
+      213: -5907479954375663860
+    second: helmetextensioncave_sheet_2
+  - first:
+      213: 3558780314054976534
+    second: helmetextensioncave_sheet_3
+  - first:
+      213: -5754676984045637226
+    second: helmetextensioncave_sheet_4
+  - first:
+      213: 2359793358704674233
+    second: helmetextensioncave_sheet_5
+  - first:
+      213: 2344819430936260327
+    second: helmetextensioncave_sheet_6
+  - first:
+      213: -4837656937867726000
+    second: helmetextensioncave_sheet_7
+  - first:
+      213: -2101774407645241490
+    second: helmetextensioncave_sheet_8
+  - first:
+      213: 5143432154795293539
+    second: helmetextensioncave_sheet_9
+  - first:
+      213: -6118890961206508342
+    second: helmetextensioncave_sheet_10
+  - first:
+      213: 9093443921357409295
+    second: helmetextensioncave_sheet_11
+  - first:
+      213: 1805056009988926191
+    second: helmetextensioncave_sheet_12
+  - first:
+      213: 9063372259458991526
+    second: helmetextensioncave_sheet_13
+  - first:
+      213: -4823410169300887269
+    second: helmetextensioncave_sheet_14
+  - first:
+      213: -1312274861334583863
+    second: helmetextensioncave_sheet_15
+  - first:
+      213: 3021230790684815294
+    second: helmetextensioncave_sheet_16
+  - first:
+      213: -2890513971928767567
+    second: helmetextensioncave_sheet_17
+  - first:
+      213: 5549337858220042437
+    second: helmetextensioncave_sheet_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 61
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f67888bb1467d030800000000000000
+      internalID: 3519391704036177648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4d1e3afb296da40800000000000000
+      internalID: 5392658955608642732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f92b9d74a640ea0800000000000000
+      internalID: -5907479954375663860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61466e427d3536130800000000000000
+      internalID: 3558780314054976534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691f7d8c5c74320b0800000000000000
+      internalID: -5754676984045637226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b50be89e8bafb020800000000000000
+      internalID: 2359793358704674233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eea36b59d87a8020800000000000000
+      internalID: 2344819430936260327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 49
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053b03165a03ddcb0800000000000000
+      internalID: -4837656937867726000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 49
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f5c4adf4ff4d2e0800000000000000
+      internalID: -2101774407645241490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 49
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b35e03b44216740800000000000000
+      internalID: 5143432154795293539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 49
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac400fd0715551ba0800000000000000
+      internalID: -6118890961206508342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 49
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c817d3117623e70800000000000000
+      internalID: 9093443921357409295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 49
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feae213a0e8dc0910800000000000000
+      internalID: 1805056009988926191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 49
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5ce28dc0197cd70800000000000000
+      internalID: 9063372259458991526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 49
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1950dca10ecf0db0800000000000000
+      internalID: -4823410169300887269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 49
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c52a7267fcd9cde0800000000000000
+      internalID: -1312274861334583863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 49
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfad3f95619de920800000000000000
+      internalID: 3021230790684815294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 49
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3e1ec6bd4d2e7d0800000000000000
+      internalID: -2890513971928767567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: helmetextensioncave_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 49
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c825d16165330d40800000000000000
+      internalID: 5549337858220042437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      helmetextensioncave_sheet_0: 3519391704036177648
+      helmetextensioncave_sheet_1: 5392658955608642732
+      helmetextensioncave_sheet_10: -6118890961206508342
+      helmetextensioncave_sheet_11: 9093443921357409295
+      helmetextensioncave_sheet_12: 1805056009988926191
+      helmetextensioncave_sheet_13: 9063372259458991526
+      helmetextensioncave_sheet_14: -4823410169300887269
+      helmetextensioncave_sheet_15: -1312274861334583863
+      helmetextensioncave_sheet_16: 3021230790684815294
+      helmetextensioncave_sheet_17: -2890513971928767567
+      helmetextensioncave_sheet_18: 5549337858220042437
+      helmetextensioncave_sheet_2: -5907479954375663860
+      helmetextensioncave_sheet_3: 3558780314054976534
+      helmetextensioncave_sheet_4: -5754676984045637226
+      helmetextensioncave_sheet_5: 2359793358704674233
+      helmetextensioncave_sheet_6: 2344819430936260327
+      helmetextensioncave_sheet_7: -4837656937867726000
+      helmetextensioncave_sheet_8: -2101774407645241490
+      helmetextensioncave_sheet_9: 5143432154795293539
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

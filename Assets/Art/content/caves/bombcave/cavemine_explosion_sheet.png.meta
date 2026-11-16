@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: a5d6793ae4c2e7949866e68d2925794d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7543807198742294434
+    second: cavemine_explosion_sheet_0
+  - first:
+      213: -4954265008766769318
+    second: cavemine_explosion_sheet_1
+  - first:
+      213: -4655110952292360266
+    second: cavemine_explosion_sheet_2
+  - first:
+      213: 8289310450473033978
+    second: cavemine_explosion_sheet_3
+  - first:
+      213: -3595319086560552597
+    second: cavemine_explosion_sheet_4
+  - first:
+      213: 6478837294595367257
+    second: cavemine_explosion_sheet_5
+  - first:
+      213: -5857666020330232288
+    second: cavemine_explosion_sheet_6
+  - first:
+      213: 3922753530116735408
+    second: cavemine_explosion_sheet_7
+  - first:
+      213: -1277606405037038205
+    second: cavemine_explosion_sheet_8
+  - first:
+      213: 2957435329881148918
+    second: cavemine_explosion_sheet_9
+  - first:
+      213: -8608879867289059105
+    second: cavemine_explosion_sheet_10
+  - first:
+      213: -1460454976364117676
+    second: cavemine_explosion_sheet_11
+  - first:
+      213: -4383592430352700424
+    second: cavemine_explosion_sheet_12
+  - first:
+      213: -8082989858159951871
+    second: cavemine_explosion_sheet_13
+  - first:
+      213: 8111036280588633665
+    second: cavemine_explosion_sheet_14
+  - first:
+      213: -951298711367741553
+    second: cavemine_explosion_sheet_15
+  - first:
+      213: -443464937061778922
+    second: cavemine_explosion_sheet_16
+  - first:
+      213: -8885869274930240588
+    second: cavemine_explosion_sheet_17
+  - first:
+      213: 6236292070809335965
+    second: cavemine_explosion_sheet_18
+  - first:
+      213: -9131907132916821218
+    second: cavemine_explosion_sheet_19
+  - first:
+      213: 4476927643198021772
+    second: cavemine_explosion_sheet_20
+  - first:
+      213: 5686825855798410399
+    second: cavemine_explosion_sheet_21
+  - first:
+      213: 2132816867306659889
+    second: cavemine_explosion_sheet_22
+  - first:
+      213: 7097217281057204982
+    second: cavemine_explosion_sheet_23
+  - first:
+      213: 2484318764965898104
+    second: cavemine_explosion_sheet_24
+  - first:
+      213: 461201699538122812
+    second: cavemine_explosion_sheet_25
+  - first:
+      213: 270303181528414965
+    second: cavemine_explosion_sheet_26
+  - first:
+      213: 3924920833451103780
+    second: cavemine_explosion_sheet_27
+  - first:
+      213: 6462241010800268015
+    second: cavemine_explosion_sheet_28
+  - first:
+      213: 9198919339567997504
+    second: cavemine_explosion_sheet_29
+  - first:
+      213: -8594481715103151293
+    second: cavemine_explosion_sheet_30
+  - first:
+      213: -3103964111936286719
+    second: cavemine_explosion_sheet_31
+  - first:
+      213: 4552483388544297439
+    second: cavemine_explosion_sheet_32
+  - first:
+      213: 5767169718911028444
+    second: cavemine_explosion_sheet_33
+  - first:
+      213: -4666417763752579242
+    second: cavemine_explosion_sheet_34
+  - first:
+      213: -773320581470225864
+    second: cavemine_explosion_sheet_35
+  - first:
+      213: 2817680494658000901
+    second: cavemine_explosion_sheet_36
+  - first:
+      213: 4545916879500133990
+    second: cavemine_explosion_sheet_37
+  - first:
+      213: -4083013573304746844
+    second: cavemine_explosion_sheet_38
+  - first:
+      213: 7027688817477590265
+    second: cavemine_explosion_sheet_39
+  - first:
+      213: 301659942052438963
+    second: cavemine_explosion_sheet_40
+  - first:
+      213: -5825935813078392462
+    second: cavemine_explosion_sheet_41
+  - first:
+      213: -3088052781772663480
+    second: cavemine_explosion_sheet_42
+  - first:
+      213: 5924917210441048092
+    second: cavemine_explosion_sheet_43
+  - first:
+      213: -6133193139127174207
+    second: cavemine_explosion_sheet_44
+  - first:
+      213: -5010242095146024741
+    second: cavemine_explosion_sheet_45
+  - first:
+      213: -7136641700207701497
+    second: cavemine_explosion_sheet_46
+  - first:
+      213: 680533968328286143
+    second: cavemine_explosion_sheet_47
+  - first:
+      213: 8274966798350779259
+    second: cavemine_explosion_sheet_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 14
+        width: 76
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afa11fadacf0b860800000000000000
+      internalID: 7543807198742294434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 31
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a572f4d293aee3bb0800000000000000
+      internalID: -4954265008766769318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 67
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf5592b049b56fb0800000000000000
+      internalID: -4655110952292360266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 80
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0e061afeb890370800000000000000
+      internalID: 8289310450473033978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 83
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69506fe65cda1ec0800000000000000
+      internalID: -3595319086560552597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 86
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951e8ed613479e950800000000000000
+      internalID: 6478837294595367257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 77
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026275d2ac365bea0800000000000000
+      internalID: -5857666020330232288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 90
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b184005d8b607630800000000000000
+      internalID: 3922753530116735408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 24
+        width: 93
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385e0016eb7054ee0800000000000000
+      internalID: -1277606405037038205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 27
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd81cb63cbea0920800000000000000
+      internalID: 2957435329881148918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 67
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0493c5f5d178880800000000000000
+      internalID: -8608879867289059105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 76
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4518d53dfeb6bbbe0800000000000000
+      internalID: -1460454976364117676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 82
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb6cbce8e95a23c0800000000000000
+      internalID: -4383592430352700424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 58
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1008a4dac8373df80800000000000000
+      internalID: -8082989858159951871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 51
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1468ac8e580309070800000000000000
+      internalID: 8111036280588633665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 70
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f83a9bcde4cc2f0800000000000000
+      internalID: -951298711367741553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 75
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a77144dfe78d9f0800000000000000
+      internalID: -443464937061778922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 51
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3a93b49fc0fa480800000000000000
+      internalID: -8885869274930240588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 24
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98fc2cd892cb8650800000000000000
+      internalID: 6236292070809335965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 58
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1313a478d2f44180800000000000000
+      internalID: -9131907132916821218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 65
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80e1f1c8fd312e30800000000000000
+      internalID: 4476927643198021772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 66
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9cfe5a5cf9abee40800000000000000
+      internalID: 5686825855798410399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 52
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13066c204a9499d10800000000000000
+      internalID: 2132816867306659889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 36
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6faad23b3816e7260800000000000000
+      internalID: 7097217281057204982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 55
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87721a611c21a7220800000000000000
+      internalID: 2484318764965898104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 39
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38b6ce8084866600800000000000000
+      internalID: 461201699538122812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 57
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fab8acbf4f40c300800000000000000
+      internalID: 270303181528414965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 50
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4261261f3be187630800000000000000
+      internalID: 3924920833451103780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 32
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe216bdf5fd7ea950800000000000000
+      internalID: 6462241010800268015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 45
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042eb60c66029af70800000000000000
+      internalID: 9198919339567997504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 16
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bcfa66a644ab880800000000000000
+      internalID: -8594481715103151293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1001a70f5118ce4d0800000000000000
+      internalID: -3103964111936286719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9ac04958bad2f30800000000000000
+      internalID: 4552483388544297439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 38
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcc417bd4a190050800000000000000
+      internalID: 5767169718911028444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 41
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f64f184cd8d3fb0800000000000000
+      internalID: -4666417763752579242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 41
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83af7f3470d9445f0800000000000000
+      internalID: -773320581470225864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 34
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50813ae2b796a1720800000000000000
+      internalID: 2817680494658000901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 11
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666ce0d0157561f30800000000000000
+      internalID: 4545916879500133990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 11
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac721ea9c83657c0800000000000000
+      internalID: -4083013573304746844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 29
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc9cb5cebd578160800000000000000
+      internalID: 7027688817477590265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 16
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b320097e16bf2400800000000000000
+      internalID: 301659942052438963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 15
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2716c31ce3e162fa0800000000000000
+      internalID: -5825935813078392462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 10
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84598ce2b580525d0800000000000000
+      internalID: -3088052781772663480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 5
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10efe3bfc8893250800000000000000
+      internalID: 5924917210441048092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 7
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb3673c55582eaa0800000000000000
+      internalID: -6133193139127174207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 11
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0cc102c5b087ab0800000000000000
+      internalID: -5010242095146024741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70251e96f2e85fc90800000000000000
+      internalID: -7136641700207701497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 9
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf5bcfd90eb17900800000000000000
+      internalID: 680533968328286143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavemine_explosion_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 8
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7389dfd57696d270800000000000000
+      internalID: 8274966798350779259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cavemine_explosion_sheet_0: 7543807198742294434
+      cavemine_explosion_sheet_1: -4954265008766769318
+      cavemine_explosion_sheet_10: -8608879867289059105
+      cavemine_explosion_sheet_11: -1460454976364117676
+      cavemine_explosion_sheet_12: -4383592430352700424
+      cavemine_explosion_sheet_13: -8082989858159951871
+      cavemine_explosion_sheet_14: 8111036280588633665
+      cavemine_explosion_sheet_15: -951298711367741553
+      cavemine_explosion_sheet_16: -443464937061778922
+      cavemine_explosion_sheet_17: -8885869274930240588
+      cavemine_explosion_sheet_18: 6236292070809335965
+      cavemine_explosion_sheet_19: -9131907132916821218
+      cavemine_explosion_sheet_2: -4655110952292360266
+      cavemine_explosion_sheet_20: 4476927643198021772
+      cavemine_explosion_sheet_21: 5686825855798410399
+      cavemine_explosion_sheet_22: 2132816867306659889
+      cavemine_explosion_sheet_23: 7097217281057204982
+      cavemine_explosion_sheet_24: 2484318764965898104
+      cavemine_explosion_sheet_25: 461201699538122812
+      cavemine_explosion_sheet_26: 270303181528414965
+      cavemine_explosion_sheet_27: 3924920833451103780
+      cavemine_explosion_sheet_28: 6462241010800268015
+      cavemine_explosion_sheet_29: 9198919339567997504
+      cavemine_explosion_sheet_3: 8289310450473033978
+      cavemine_explosion_sheet_30: -8594481715103151293
+      cavemine_explosion_sheet_31: -3103964111936286719
+      cavemine_explosion_sheet_32: 4552483388544297439
+      cavemine_explosion_sheet_33: 5767169718911028444
+      cavemine_explosion_sheet_34: -4666417763752579242
+      cavemine_explosion_sheet_35: -773320581470225864
+      cavemine_explosion_sheet_36: 2817680494658000901
+      cavemine_explosion_sheet_37: 4545916879500133990
+      cavemine_explosion_sheet_38: -4083013573304746844
+      cavemine_explosion_sheet_39: 7027688817477590265
+      cavemine_explosion_sheet_4: -3595319086560552597
+      cavemine_explosion_sheet_40: 301659942052438963
+      cavemine_explosion_sheet_41: -5825935813078392462
+      cavemine_explosion_sheet_42: -3088052781772663480
+      cavemine_explosion_sheet_43: 5924917210441048092
+      cavemine_explosion_sheet_44: -6133193139127174207
+      cavemine_explosion_sheet_45: -5010242095146024741
+      cavemine_explosion_sheet_46: -7136641700207701497
+      cavemine_explosion_sheet_47: 680533968328286143
+      cavemine_explosion_sheet_48: 8274966798350779259
+      cavemine_explosion_sheet_5: 6478837294595367257
+      cavemine_explosion_sheet_6: -5857666020330232288
+      cavemine_explosion_sheet_7: 3922753530116735408
+      cavemine_explosion_sheet_8: -1277606405037038205
+      cavemine_explosion_sheet_9: 2957435329881148918
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2067 @@
+fileFormatVersion: 2
+guid: 8217a4d272b70c540885588526f7c92c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 11032411663715871
+    second: AirBurst_0
+  - first:
+      213: 5424073605752387822
+    second: AirBurst_1
+  - first:
+      213: 9064236830132015688
+    second: AirBurst_2
+  - first:
+      213: -8934397901206926143
+    second: AirBurst_3
+  - first:
+      213: -7022814689143827170
+    second: AirBurst_4
+  - first:
+      213: 3302603954942331417
+    second: AirBurst_5
+  - first:
+      213: -3252599767441728121
+    second: AirBurst_6
+  - first:
+      213: -813191706561052534
+    second: AirBurst_7
+  - first:
+      213: -8066644028791196805
+    second: AirBurst_8
+  - first:
+      213: 2654510361025487392
+    second: AirBurst_9
+  - first:
+      213: 4553039518842823942
+    second: AirBurst_10
+  - first:
+      213: -9067739497775390447
+    second: AirBurst_11
+  - first:
+      213: 525172683701909302
+    second: AirBurst_12
+  - first:
+      213: -1920355277596393046
+    second: AirBurst_13
+  - first:
+      213: -4435581058956371198
+    second: AirBurst_14
+  - first:
+      213: 7826673926647545291
+    second: AirBurst_15
+  - first:
+      213: -436551492924035155
+    second: AirBurst_16
+  - first:
+      213: -5231491538903574888
+    second: AirBurst_17
+  - first:
+      213: -4039775374515171903
+    second: AirBurst_18
+  - first:
+      213: -6202947562883277654
+    second: AirBurst_19
+  - first:
+      213: -3302779703434273806
+    second: AirBurst_20
+  - first:
+      213: -3650380639807877690
+    second: AirBurst_21
+  - first:
+      213: 7324852487721650962
+    second: AirBurst_22
+  - first:
+      213: 4617292801104257485
+    second: AirBurst_23
+  - first:
+      213: -1597844387423570104
+    second: AirBurst_24
+  - first:
+      213: 3447877806797704785
+    second: AirBurst_25
+  - first:
+      213: -2186916458377355152
+    second: AirBurst_26
+  - first:
+      213: -6401395697787409297
+    second: AirBurst_27
+  - first:
+      213: -8357462964858002659
+    second: AirBurst_28
+  - first:
+      213: 1558786690269942895
+    second: AirBurst_29
+  - first:
+      213: -2919550518606277663
+    second: AirBurst_30
+  - first:
+      213: 5447759642069062366
+    second: AirBurst_31
+  - first:
+      213: -3178203875859298384
+    second: AirBurst_32
+  - first:
+      213: -1287456942665783680
+    second: AirBurst_33
+  - first:
+      213: 2436883299746522687
+    second: AirBurst_34
+  - first:
+      213: 5021114886638458572
+    second: AirBurst_35
+  - first:
+      213: -3177956303081584557
+    second: AirBurst_36
+  - first:
+      213: -4363138838023099310
+    second: AirBurst_37
+  - first:
+      213: 8412362548975559248
+    second: AirBurst_38
+  - first:
+      213: -2394827370041859654
+    second: AirBurst_39
+  - first:
+      213: 8797707138654604763
+    second: AirBurst_40
+  - first:
+      213: 955969691722872083
+    second: AirBurst_41
+  - first:
+      213: 3278328222267416241
+    second: AirBurst_42
+  - first:
+      213: 2271276589675718801
+    second: AirBurst_43
+  - first:
+      213: -7987276152330691662
+    second: AirBurst_44
+  - first:
+      213: 7776580478646661659
+    second: AirBurst_45
+  - first:
+      213: 2351357493774173568
+    second: AirBurst_46
+  - first:
+      213: -3552035696108706048
+    second: AirBurst_47
+  - first:
+      213: 3258889017721425797
+    second: AirBurst_48
+  - first:
+      213: 1325961705501226740
+    second: AirBurst_49
+  - first:
+      213: 5710775350301732304
+    second: AirBurst_50
+  - first:
+      213: -8846082706546102376
+    second: AirBurst_51
+  - first:
+      213: -4488436022135085029
+    second: AirBurst_52
+  - first:
+      213: -652254771065040558
+    second: AirBurst_53
+  - first:
+      213: 1035712806056865446
+    second: AirBurst_54
+  - first:
+      213: 9180601502258901972
+    second: AirBurst_55
+  - first:
+      213: 8259499768116922781
+    second: AirBurst_56
+  - first:
+      213: -8094581486372375387
+    second: AirBurst_57
+  - first:
+      213: 5246817903206525723
+    second: AirBurst_58
+  - first:
+      213: 1196804177679783032
+    second: AirBurst_59
+  - first:
+      213: -8146796088927310980
+    second: AirBurst_60
+  - first:
+      213: -3708071356119461319
+    second: AirBurst_61
+  - first:
+      213: -2554211468442668726
+    second: AirBurst_62
+  - first:
+      213: -5669870985232584446
+    second: AirBurst_63
+  - first:
+      213: 7048909089035676902
+    second: AirBurst_64
+  - first:
+      213: 6581247364755572982
+    second: AirBurst_65
+  - first:
+      213: 2827384978458626171
+    second: AirBurst_66
+  - first:
+      213: -976951617385199123
+    second: AirBurst_67
+  - first:
+      213: 1585759199936068243
+    second: AirBurst_68
+  - first:
+      213: 4566353794089340447
+    second: AirBurst_69
+  - first:
+      213: 5094584729994272429
+    second: AirBurst_70
+  - first:
+      213: -2259021576789433401
+    second: AirBurst_71
+  - first:
+      213: -3760905670120049892
+    second: AirBurst_72
+  - first:
+      213: 3708106755058548152
+    second: AirBurst_73
+  - first:
+      213: 6262007665833288876
+    second: AirBurst_74
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AirBurst_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 138
+        width: 120
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e4b328be1372000800000000000000
+      internalID: 11032411663715871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 222
+        width: 98
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8717ad43e264b40800000000000000
+      internalID: 5424073605752387822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 359
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84218046f53aacd70800000000000000
+      internalID: 9064236830132015688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 364
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccc0900274a20480800000000000000
+      internalID: -8934397901206926143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 372
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15df2aaf33f98e90800000000000000
+      internalID: -7022814689143827170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 372
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a43209cc435dd20800000000000000
+      internalID: 3302603954942331417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 366
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d1e199eb17cd2d0800000000000000
+      internalID: -3252599767441728121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 350
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80822c8376f6b4f0800000000000000
+      internalID: -813191706561052534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 349
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73ff56aef58d0090800000000000000
+      internalID: -8066644028791196805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_9
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 364
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022a481fb17b6d420800000000000000
+      internalID: 2654510361025487392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 361
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60521f0c155af2f30800000000000000
+      internalID: 4553039518842823942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 363
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111a15f38fae82280800000000000000
+      internalID: -9067739497775390447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_12
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 344
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6377ac9f5c9c94700800000000000000
+      internalID: 525172683701909302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_13
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 374
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1025cac078955e0800000000000000
+      internalID: -1920355277596393046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_14
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 344
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b54701786a172c0800000000000000
+      internalID: -4435581058956371198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_15
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 342
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd73a2087eed9c60800000000000000
+      internalID: 7826673926647545291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 353
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafa81aeabe01f9f0800000000000000
+      internalID: -436551492924035155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_17
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 315
+        width: 82
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896d03ab9220667b0800000000000000
+      internalID: -5231491538903574888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_18
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 334
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd07a553b5dfe7c0800000000000000
+      internalID: -4039775374515171903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_19
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 344
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac97f16e04bae9a0800000000000000
+      internalID: -6202947562883277654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_20
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 333
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb1e6dcb5b2a22d0800000000000000
+      internalID: -3302779703434273806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_21
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 337
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdc94d062e375dc0800000000000000
+      internalID: -3650380639807877690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_22
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 341
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b09c2678a17a560800000000000000
+      internalID: 7324852487721650962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_23
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 320
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1a9c1d65be31040800000000000000
+      internalID: 4617292801104257485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_24
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 326
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8473441def053d9e0800000000000000
+      internalID: -1597844387423570104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_25
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 299
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e412ff89259df20800000000000000
+      internalID: 3447877806797704785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_26
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 223
+        width: 81
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07066f0611386a1e0800000000000000
+      internalID: -2186916458377355152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_27
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 322
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ceaa6678ca927a0800000000000000
+      internalID: -6401395697787409297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_28
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 302
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13e72496b3540c80800000000000000
+      internalID: -8357462964858002659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_29
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 327
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64952a6c3ce1a510800000000000000
+      internalID: 1558786690269942895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_30
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 295
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e35aa2954cab77d0800000000000000
+      internalID: -2919550518606277663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_31
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 291
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed25c3fe7845a9b40800000000000000
+      internalID: 5447759642069062366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_32
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 326
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b703abe960c4e3d0800000000000000
+      internalID: -3178203875859298384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_33
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 321
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086abcc5bb8022ee0800000000000000
+      internalID: -1287456942665783680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_34
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 305
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f362970337c81d120800000000000000
+      internalID: 2436883299746522687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_35
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 299
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6d28ae2659ea540800000000000000
+      internalID: 5021114886638458572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_36
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 299
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358cb137491a5e3d0800000000000000
+      internalID: -3177956303081584557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_37
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 295
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c2cedf7540373c0800000000000000
+      internalID: -4363138838023099310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_38
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 299
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052ec7dea27beb470800000000000000
+      internalID: 8412362548975559248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_39
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 305
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1a54ef13dd3ced0800000000000000
+      internalID: -2394827370041859654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_40
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 259
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd0d65c70cb71a70800000000000000
+      internalID: 8797707138654604763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 276
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3157e23ae59444d00800000000000000
+      internalID: 955969691722872083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_42
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 280
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be13691626fe7d20800000000000000
+      internalID: 3278328222267416241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_43
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 272
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198284a4602358f10800000000000000
+      internalID: 2271276589675718801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_44
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 270
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb516968ae772190800000000000000
+      internalID: -7987276152330691662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_45
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 281
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12b8f44eb6fbeb60800000000000000
+      internalID: 7776580478646661659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_46
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 267
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085cc5cbe23b1a020800000000000000
+      internalID: 2351357493774173568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_47
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 267
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007eee79a52a4bec0800000000000000
+      internalID: -3552035696108706048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_48
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 269
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f05b79b46e93d20800000000000000
+      internalID: 3258889017721425797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_49
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 266
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6fb2a5523c66210800000000000000
+      internalID: 1325961705501226740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_50
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 281
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddaac29cefb04f40800000000000000
+      internalID: 5710775350301732304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_51
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 229
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fe79e95a66c3580800000000000000
+      internalID: -8846082706546102376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_52
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 204
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b182297f73fd5b1c0800000000000000
+      internalID: -4488436022135085029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_53
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 216
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2515d93ddb9b2f6f0800000000000000
+      internalID: -652254771065040558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_54
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 144
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aea7564f479f5e00800000000000000
+      internalID: 1035712806056865446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_55
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 181
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d33f86ec6c086f70800000000000000
+      internalID: 9180601502258901972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_56
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 139
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99c7054743af9270800000000000000
+      internalID: 8259499768116922781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_57
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 185
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4325b66054aaf80800000000000000
+      internalID: -8094581486372375387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_58
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 201
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1be8c9851170d840800000000000000
+      internalID: 5246817903206525723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_59
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 183
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8749e440f07eb9010800000000000000
+      internalID: 1196804177679783032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_60
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 176
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b22f5ee14c0fe80800000000000000
+      internalID: -8146796088927310980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_61
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 147
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932d2b07fb84a8cc0800000000000000
+      internalID: -3708071356119461319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_62
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 23
+        width: 84
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41fe36c33e9d8cd0800000000000000
+      internalID: -2554211468442668726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_63
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 76
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201fae211629051b0800000000000000
+      internalID: -5669870985232584446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_64
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 76
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec6ef14871c2d160800000000000000
+      internalID: 7048909089035676902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_65
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 87
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f84b3bfb99455b50800000000000000
+      internalID: 6581247364755572982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_66
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 58
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b784d4468a3ec3720800000000000000
+      internalID: 2827384978458626171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_67
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 50
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9030b1eab2172f0800000000000000
+      internalID: -976951617385199123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_68
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 70
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a3f73379fb10610800000000000000
+      internalID: 1585759199936068243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_69
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 74
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ec3770592fe5f30800000000000000
+      internalID: 4566353794089340447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_70
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 39
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae1075d1d993b640800000000000000
+      internalID: 5094584729994272429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_71
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 58
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3e58f38d756a0e0800000000000000
+      internalID: -2259021576789433401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_72
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 26
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13fdba18349ecbc0800000000000000
+      internalID: -3760905670120049892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_73
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 50
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdbd748277d57330800000000000000
+      internalID: 3708106755058548152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirBurst_74
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 27
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca424c66bce17e650800000000000000
+      internalID: 6262007665833288876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AirBurst_0: 11032411663715871
+      AirBurst_1: 5424073605752387822
+      AirBurst_10: 4553039518842823942
+      AirBurst_11: -9067739497775390447
+      AirBurst_12: 525172683701909302
+      AirBurst_13: -1920355277596393046
+      AirBurst_14: -4435581058956371198
+      AirBurst_15: 7826673926647545291
+      AirBurst_16: -436551492924035155
+      AirBurst_17: -5231491538903574888
+      AirBurst_18: -4039775374515171903
+      AirBurst_19: -6202947562883277654
+      AirBurst_2: 9064236830132015688
+      AirBurst_20: -3302779703434273806
+      AirBurst_21: -3650380639807877690
+      AirBurst_22: 7324852487721650962
+      AirBurst_23: 4617292801104257485
+      AirBurst_24: -1597844387423570104
+      AirBurst_25: 3447877806797704785
+      AirBurst_26: -2186916458377355152
+      AirBurst_27: -6401395697787409297
+      AirBurst_28: -8357462964858002659
+      AirBurst_29: 1558786690269942895
+      AirBurst_3: -8934397901206926143
+      AirBurst_30: -2919550518606277663
+      AirBurst_31: 5447759642069062366
+      AirBurst_32: -3178203875859298384
+      AirBurst_33: -1287456942665783680
+      AirBurst_34: 2436883299746522687
+      AirBurst_35: 5021114886638458572
+      AirBurst_36: -3177956303081584557
+      AirBurst_37: -4363138838023099310
+      AirBurst_38: 8412362548975559248
+      AirBurst_39: -2394827370041859654
+      AirBurst_4: -7022814689143827170
+      AirBurst_40: 8797707138654604763
+      AirBurst_41: 955969691722872083
+      AirBurst_42: 3278328222267416241
+      AirBurst_43: 2271276589675718801
+      AirBurst_44: -7987276152330691662
+      AirBurst_45: 7776580478646661659
+      AirBurst_46: 2351357493774173568
+      AirBurst_47: -3552035696108706048
+      AirBurst_48: 3258889017721425797
+      AirBurst_49: 1325961705501226740
+      AirBurst_5: 3302603954942331417
+      AirBurst_50: 5710775350301732304
+      AirBurst_51: -8846082706546102376
+      AirBurst_52: -4488436022135085029
+      AirBurst_53: -652254771065040558
+      AirBurst_54: 1035712806056865446
+      AirBurst_55: 9180601502258901972
+      AirBurst_56: 8259499768116922781
+      AirBurst_57: -8094581486372375387
+      AirBurst_58: 5246817903206525723
+      AirBurst_59: 1196804177679783032
+      AirBurst_6: -3252599767441728121
+      AirBurst_60: -8146796088927310980
+      AirBurst_61: -3708071356119461319
+      AirBurst_62: -2554211468442668726
+      AirBurst_63: -5669870985232584446
+      AirBurst_64: 7048909089035676902
+      AirBurst_65: 6581247364755572982
+      AirBurst_66: 2827384978458626171
+      AirBurst_67: -976951617385199123
+      AirBurst_68: 1585759199936068243
+      AirBurst_69: 4566353794089340447
+      AirBurst_7: -813191706561052534
+      AirBurst_70: 5094584729994272429
+      AirBurst_71: -2259021576789433401
+      AirBurst_72: -3760905670120049892
+      AirBurst_73: 3708106755058548152
+      AirBurst_74: 6262007665833288876
+      AirBurst_8: -8066644028791196805
+      AirBurst_9: 2654510361025487392
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

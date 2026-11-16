@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: a298573521006a34c82afc171f107f87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1695452828072600822
+    second: monster_on_landing_spot-Sheet_0
+  - first:
+      213: -338418026626652574
+    second: monster_on_landing_spot-Sheet_1
+  - first:
+      213: 6104074169560371853
+    second: monster_on_landing_spot-Sheet_2
+  - first:
+      213: -1364567603846532151
+    second: monster_on_landing_spot-Sheet_3
+  - first:
+      213: 7612953994679208297
+    second: monster_on_landing_spot-Sheet_4
+  - first:
+      213: -6198002615593660783
+    second: monster_on_landing_spot-Sheet_5
+  - first:
+      213: 4136581943994400968
+    second: monster_on_landing_spot-Sheet_6
+  - first:
+      213: 6431486695393369912
+    second: monster_on_landing_spot-Sheet_7
+  - first:
+      213: -6128446095026593108
+    second: monster_on_landing_spot-Sheet_8
+  - first:
+      213: -6284402734752587659
+    second: monster_on_landing_spot-Sheet_9
+  - first:
+      213: -505572156043998412
+    second: monster_on_landing_spot-Sheet_10
+  - first:
+      213: -2262184627613229502
+    second: monster_on_landing_spot-Sheet_11
+  - first:
+      213: -5443329211601782325
+    second: monster_on_landing_spot-Sheet_12
+  - first:
+      213: -6795254637823866990
+    second: monster_on_landing_spot-Sheet_13
+  - first:
+      213: -3828397184283344387
+    second: monster_on_landing_spot-Sheet_14
+  - first:
+      213: 1353980589668429532
+    second: monster_on_landing_spot-Sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b1d41c2aa8878e0800000000000000
+      internalID: -1695452828072600822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26664590992bd4bf0800000000000000
+      internalID: -338418026626652574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82984fcd1706b450800000000000000
+      internalID: 6104074169560371853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3b8bc7ef4101de0800000000000000
+      internalID: -1364567603846532151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969ce30b255a6a960800000000000000
+      internalID: 7612953994679208297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e0994a5754cf9a0800000000000000
+      internalID: -6198002615593660783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0c41c8c57186930800000000000000
+      internalID: 4136581943994400968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f9290f21b314950800000000000000
+      internalID: 6431486695393369912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca26fc81fb263faa0800000000000000
+      internalID: -6128446095026593108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5702499420159c8a0800000000000000
+      internalID: -6284402734752587659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 0
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b4bae7dc8dbf8f0800000000000000
+      internalID: -505572156043998412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e93c6111b1b90e0800000000000000
+      internalID: -2262184627613229502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9f7fa0ce86574b0800000000000000
+      internalID: -5443329211601782325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297ce22e8e762b1a0800000000000000
+      internalID: -6795254637823866990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 71
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df18fab6b0dcedac0800000000000000
+      internalID: -3828397184283344387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_on_landing_spot-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 0
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdee5ff2c2e4ac210800000000000000
+      internalID: 1353980589668429532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      monster_on_landing_spot-Sheet_0: -1695452828072600822
+      monster_on_landing_spot-Sheet_1: -338418026626652574
+      monster_on_landing_spot-Sheet_10: -505572156043998412
+      monster_on_landing_spot-Sheet_11: -2262184627613229502
+      monster_on_landing_spot-Sheet_12: -5443329211601782325
+      monster_on_landing_spot-Sheet_13: -6795254637823866990
+      monster_on_landing_spot-Sheet_14: -3828397184283344387
+      monster_on_landing_spot-Sheet_15: 1353980589668429532
+      monster_on_landing_spot-Sheet_2: 6104074169560371853
+      monster_on_landing_spot-Sheet_3: -1364567603846532151
+      monster_on_landing_spot-Sheet_4: 7612953994679208297
+      monster_on_landing_spot-Sheet_5: -6198002615593660783
+      monster_on_landing_spot-Sheet_6: 4136581943994400968
+      monster_on_landing_spot-Sheet_7: 6431486695393369912
+      monster_on_landing_spot-Sheet_8: -6128446095026593108
+      monster_on_landing_spot-Sheet_9: -6284402734752587659
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

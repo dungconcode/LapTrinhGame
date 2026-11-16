@@ -1,0 +1,1677 @@
+fileFormatVersion: 2
+guid: 7b56c1e076f9bd949ae5ed7717193078
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -621556945784587151
+    second: shredder02-Sheet+gif_0
+  - first:
+      213: 1438169647495700755
+    second: shredder02-Sheet+gif_1
+  - first:
+      213: 2057191805002788958
+    second: shredder02-Sheet+gif_2
+  - first:
+      213: -8706658084160209842
+    second: shredder02-Sheet+gif_3
+  - first:
+      213: -511346563266872081
+    second: shredder02-Sheet+gif_4
+  - first:
+      213: -4786489729320990920
+    second: shredder02-Sheet+gif_5
+  - first:
+      213: -6399077408608094988
+    second: shredder02-Sheet+gif_6
+  - first:
+      213: -4804384584882473056
+    second: shredder02-Sheet+gif_7
+  - first:
+      213: 8521955052250363191
+    second: shredder02-Sheet+gif_8
+  - first:
+      213: -7260946937579209356
+    second: shredder02-Sheet+gif_9
+  - first:
+      213: 9113333011554723949
+    second: shredder02-Sheet+gif_10
+  - first:
+      213: -1650210895856232862
+    second: shredder02-Sheet+gif_11
+  - first:
+      213: 6735014135076650887
+    second: shredder02-Sheet+gif_12
+  - first:
+      213: 6312962205847339707
+    second: shredder02-Sheet+gif_13
+  - first:
+      213: -7968689477220618774
+    second: shredder02-Sheet+gif_14
+  - first:
+      213: 6509949390528139482
+    second: shredder02-Sheet+gif_15
+  - first:
+      213: 6821317750434869023
+    second: shredder02-Sheet+gif_16
+  - first:
+      213: 8406819971054758035
+    second: shredder02-Sheet+gif_17
+  - first:
+      213: 1452801228927893793
+    second: shredder02-Sheet+gif_18
+  - first:
+      213: 7296922225903779472
+    second: shredder02-Sheet+gif_19
+  - first:
+      213: 6261980301194587342
+    second: shredder02-Sheet+gif_20
+  - first:
+      213: 8632945728330378877
+    second: shredder02-Sheet+gif_21
+  - first:
+      213: 79864655390516356
+    second: shredder02-Sheet+gif_22
+  - first:
+      213: 7474907587197387811
+    second: shredder02-Sheet+gif_23
+  - first:
+      213: -1378763240589638506
+    second: shredder02-Sheet+gif_24
+  - first:
+      213: 2783172734852418818
+    second: shredder02-Sheet+gif_25
+  - first:
+      213: -2433832772732558149
+    second: shredder02-Sheet+gif_26
+  - first:
+      213: 2599491705030744361
+    second: shredder02-Sheet+gif_27
+  - first:
+      213: 35381371344267800
+    second: shredder02-Sheet+gif_28
+  - first:
+      213: -3492408486018634944
+    second: shredder02-Sheet+gif_29
+  - first:
+      213: 7699177339306390316
+    second: shredder02-Sheet+gif_30
+  - first:
+      213: 6508122104978792152
+    second: shredder02-Sheet+gif_31
+  - first:
+      213: 1983237509760931908
+    second: shredder02-Sheet+gif_32
+  - first:
+      213: -5646814479862118263
+    second: shredder02-Sheet+gif_33
+  - first:
+      213: 7033685411139433959
+    second: shredder02-Sheet+gif_34
+  - first:
+      213: -1245182742979800134
+    second: shredder02-Sheet+gif_35
+  - first:
+      213: -5066833883731196135
+    second: shredder02-Sheet+gif_36
+  - first:
+      213: 7185339366652276670
+    second: shredder02-Sheet+gif_37
+  - first:
+      213: -6711219206967992976
+    second: shredder02-Sheet+gif_38
+  - first:
+      213: -8974877321434680433
+    second: shredder02-Sheet+gif_39
+  - first:
+      213: 943316309028819007
+    second: shredder02-Sheet+gif_40
+  - first:
+      213: -7515450175479013491
+    second: shredder02-Sheet+gif_41
+  - first:
+      213: -3347095175969566747
+    second: shredder02-Sheet+gif_42
+  - first:
+      213: 3064158410580218065
+    second: shredder02-Sheet+gif_43
+  - first:
+      213: 8260116515765539600
+    second: shredder02-Sheet+gif_44
+  - first:
+      213: 8049061278110510961
+    second: shredder02-Sheet+gif_45
+  - first:
+      213: 4761346666549848732
+    second: shredder02-Sheet+gif_46
+  - first:
+      213: 1627597530184090028
+    second: shredder02-Sheet+gif_47
+  - first:
+      213: -3551571812858100625
+    second: shredder02-Sheet+gif_48
+  - first:
+      213: -4337783698386692157
+    second: shredder02-Sheet+gif_49
+  - first:
+      213: 2593390597159816872
+    second: shredder02-Sheet+gif_50
+  - first:
+      213: 7330739528126556752
+    second: shredder02-Sheet+gif_51
+  - first:
+      213: 5988307247947957029
+    second: shredder02-Sheet+gif_52
+  - first:
+      213: 2493260270440954567
+    second: shredder02-Sheet+gif_53
+  - first:
+      213: -4281903386495928401
+    second: shredder02-Sheet+gif_54
+  - first:
+      213: 5292676391282566954
+    second: shredder02-Sheet+gif_55
+  - first:
+      213: 3629404382342718295
+    second: shredder02-Sheet+gif_56
+  - first:
+      213: -1791419848803104093
+    second: shredder02-Sheet+gif_57
+  - first:
+      213: 5467718916173663215
+    second: shredder02-Sheet+gif_58
+  - first:
+      213: 7301169940812481978
+    second: shredder02-Sheet+gif_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c35de3049cf57f0800000000000000
+      internalID: -621556945784587151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 36
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311eab5bca765f310800000000000000
+      internalID: 1438169647495700755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 46
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5039041c0d9c8c10800000000000000
+      internalID: 2057191805002788958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 43
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cf8d03a9cbb2780800000000000000
+      internalID: -8706658084160209842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 46
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec7c5b820557e8f0800000000000000
+      internalID: -511346563266872081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 36
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83744ca73f8f29db0800000000000000
+      internalID: -4786489729320990920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 30
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4ffa92009e137a0800000000000000
+      internalID: -6399077408608094988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_7
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 30
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7b7bdbca5635db0800000000000000
+      internalID: -4804384584882473056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 36
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7357a3108f0144670800000000000000
+      internalID: 8521955052250363191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 46
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d71acfa3feb3b90800000000000000
+      internalID: -7260946937579209356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 30
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d686f89e610197e70800000000000000
+      internalID: 9113333011554723949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_11
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 46
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2669204fee54919e0800000000000000
+      internalID: -1650210895856232862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 36
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f7a761ca3977d50800000000000000
+      internalID: 6735014135076650887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 30
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb24fffbda52c9750800000000000000
+      internalID: 6312962205847339707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_14
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 29
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed2fd0f327896190800000000000000
+      internalID: -7968689477220618774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad05330ca7cf75a50800000000000000
+      internalID: 6509949390528139482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 30
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1facb66a503aae50800000000000000
+      internalID: 6821317750434869023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_17
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 32
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398e061f8360ba470800000000000000
+      internalID: 8406819971054758035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_18
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 29
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1218f7b3503692410800000000000000
+      internalID: 1452801228927893793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_19
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 28
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09eb5ac8a10e34560800000000000000
+      internalID: 7296922225903779472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_20
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 31
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc623318e507e650800000000000000
+      internalID: 6261980301194587342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_21
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 29
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7eab5e86626ec770800000000000000
+      internalID: 8632945728330378877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 31
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48429ae1b7cbb1100800000000000000
+      internalID: 79864655390516356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_23
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 28
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324c5c7c8d43cb760800000000000000
+      internalID: 7474907587197387811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_24
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 29
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694c94f3326addce0800000000000000
+      internalID: -1378763240589638506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_25
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 32
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d4e614bd0df9620800000000000000
+      internalID: 2783172734852418818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_26
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 40
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4629afcf9493ed0800000000000000
+      internalID: -2433832772732558149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_27
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 32
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9299eeadeef331420800000000000000
+      internalID: 2599491705030744361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_28
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 29
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a24a67b23bd7000800000000000000
+      internalID: 35381371344267800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_29
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bac4c4cf8788fc0800000000000000
+      internalID: -3492408486018634944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_30
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2338148ff8f8da60800000000000000
+      internalID: 7699177339306390316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_31
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 30
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ded02ea29e715a50800000000000000
+      internalID: 6508122104978792152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_32
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448d78ae100e58b10800000000000000
+      internalID: 1983237509760931908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_33
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988494f062c72a1b0800000000000000
+      internalID: -5646814479862118263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_34
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e530d88d9bac9160800000000000000
+      internalID: 7033685411139433959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_35
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab31e3c74e838bee0800000000000000
+      internalID: -1245182742979800134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_36
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9170a409d6dfea9b0800000000000000
+      internalID: -5066833883731196135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_37
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf60fb951477b360800000000000000
+      internalID: 7185339366652276670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_38
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07dd4e650b5fcd2a0800000000000000
+      internalID: -6711219206967992976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_39
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f833d2980a4d27380800000000000000
+      internalID: -8974877321434680433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_40
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30de766f25571d00800000000000000
+      internalID: 943316309028819007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_41
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f1d6b42e1c3b790800000000000000
+      internalID: -7515450175479013491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_42
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef09eecbaabc81d0800000000000000
+      internalID: -3347095175969566747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_43
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 29
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0d82ef6d3168a20800000000000000
+      internalID: 3064158410580218065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_44
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013da850534d1a270800000000000000
+      internalID: 8260116515765539600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fe021369204bf60800000000000000
+      internalID: 8049061278110510961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_46
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9aa1380193b31240800000000000000
+      internalID: 4761346666549848732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_47
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca10def8453669610800000000000000
+      internalID: 1627597530184090028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_48
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f648d44d04846bec0800000000000000
+      internalID: -3551571812858100625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_49
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c75e2975b81dc3c0800000000000000
+      internalID: -4337783698386692157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_50
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae8c8bf1039df320800000000000000
+      internalID: 2593390597159816872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ae5eac2c40cb560800000000000000
+      internalID: 7330739528126556752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_52
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523c5dfe6bdba1350800000000000000
+      internalID: 5988307247947957029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_53
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca3a309107d99220800000000000000
+      internalID: 2493260270440954567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_54
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa73e557e8f9394c0800000000000000
+      internalID: -4281903386495928401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_55
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a276e75d22d537940800000000000000
+      internalID: 5292676391282566954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_56
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753a8cb6e0c3e5230800000000000000
+      internalID: 3629404382342718295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_57
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aac18c83299327e0800000000000000
+      internalID: -1791419848803104093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_58
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb0732926d31eb40800000000000000
+      internalID: 5467718916173663215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shredder02-Sheet+gif_59
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab543eeb067f25560800000000000000
+      internalID: 7301169940812481978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shredder02-Sheet+gif_0: -621556945784587151
+      shredder02-Sheet+gif_1: 1438169647495700755
+      shredder02-Sheet+gif_10: 9113333011554723949
+      shredder02-Sheet+gif_11: -1650210895856232862
+      shredder02-Sheet+gif_12: 6735014135076650887
+      shredder02-Sheet+gif_13: 6312962205847339707
+      shredder02-Sheet+gif_14: -7968689477220618774
+      shredder02-Sheet+gif_15: 6509949390528139482
+      shredder02-Sheet+gif_16: 6821317750434869023
+      shredder02-Sheet+gif_17: 8406819971054758035
+      shredder02-Sheet+gif_18: 1452801228927893793
+      shredder02-Sheet+gif_19: 7296922225903779472
+      shredder02-Sheet+gif_2: 2057191805002788958
+      shredder02-Sheet+gif_20: 6261980301194587342
+      shredder02-Sheet+gif_21: 8632945728330378877
+      shredder02-Sheet+gif_22: 79864655390516356
+      shredder02-Sheet+gif_23: 7474907587197387811
+      shredder02-Sheet+gif_24: -1378763240589638506
+      shredder02-Sheet+gif_25: 2783172734852418818
+      shredder02-Sheet+gif_26: -2433832772732558149
+      shredder02-Sheet+gif_27: 2599491705030744361
+      shredder02-Sheet+gif_28: 35381371344267800
+      shredder02-Sheet+gif_29: -3492408486018634944
+      shredder02-Sheet+gif_3: -8706658084160209842
+      shredder02-Sheet+gif_30: 7699177339306390316
+      shredder02-Sheet+gif_31: 6508122104978792152
+      shredder02-Sheet+gif_32: 1983237509760931908
+      shredder02-Sheet+gif_33: -5646814479862118263
+      shredder02-Sheet+gif_34: 7033685411139433959
+      shredder02-Sheet+gif_35: -1245182742979800134
+      shredder02-Sheet+gif_36: -5066833883731196135
+      shredder02-Sheet+gif_37: 7185339366652276670
+      shredder02-Sheet+gif_38: -6711219206967992976
+      shredder02-Sheet+gif_39: -8974877321434680433
+      shredder02-Sheet+gif_4: -511346563266872081
+      shredder02-Sheet+gif_40: 943316309028819007
+      shredder02-Sheet+gif_41: -7515450175479013491
+      shredder02-Sheet+gif_42: -3347095175969566747
+      shredder02-Sheet+gif_43: 3064158410580218065
+      shredder02-Sheet+gif_44: 8260116515765539600
+      shredder02-Sheet+gif_45: 8049061278110510961
+      shredder02-Sheet+gif_46: 4761346666549848732
+      shredder02-Sheet+gif_47: 1627597530184090028
+      shredder02-Sheet+gif_48: -3551571812858100625
+      shredder02-Sheet+gif_49: -4337783698386692157
+      shredder02-Sheet+gif_5: -4786489729320990920
+      shredder02-Sheet+gif_50: 2593390597159816872
+      shredder02-Sheet+gif_51: 7330739528126556752
+      shredder02-Sheet+gif_52: 5988307247947957029
+      shredder02-Sheet+gif_53: 2493260270440954567
+      shredder02-Sheet+gif_54: -4281903386495928401
+      shredder02-Sheet+gif_55: 5292676391282566954
+      shredder02-Sheet+gif_56: 3629404382342718295
+      shredder02-Sheet+gif_57: -1791419848803104093
+      shredder02-Sheet+gif_58: 5467718916173663215
+      shredder02-Sheet+gif_59: 7301169940812481978
+      shredder02-Sheet+gif_6: -6399077408608094988
+      shredder02-Sheet+gif_7: -4804384584882473056
+      shredder02-Sheet+gif_8: 8521955052250363191
+      shredder02-Sheet+gif_9: -7260946937579209356
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

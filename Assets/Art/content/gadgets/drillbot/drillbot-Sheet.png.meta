@@ -1,0 +1,7267 @@
+fileFormatVersion: 2
+guid: 2748160fb91507a46a5c515189474666
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -996100856290854764
+    second: drillbot-Sheet_0
+  - first:
+      213: -147299378414057385
+    second: drillbot-Sheet_1
+  - first:
+      213: 4726807579028686300
+    second: drillbot-Sheet_2
+  - first:
+      213: 4812485839106923192
+    second: drillbot-Sheet_3
+  - first:
+      213: 6094437113275985232
+    second: drillbot-Sheet_4
+  - first:
+      213: 329133109582767650
+    second: drillbot-Sheet_5
+  - first:
+      213: -1555640939303935327
+    second: drillbot-Sheet_6
+  - first:
+      213: -2391431241525003735
+    second: drillbot-Sheet_7
+  - first:
+      213: -5086480098208937128
+    second: drillbot-Sheet_8
+  - first:
+      213: 5485317265626072126
+    second: drillbot-Sheet_9
+  - first:
+      213: -2967068089028952329
+    second: drillbot-Sheet_10
+  - first:
+      213: 3246868691906525425
+    second: drillbot-Sheet_11
+  - first:
+      213: -6891281754551639558
+    second: drillbot-Sheet_12
+  - first:
+      213: -7706373479617370002
+    second: drillbot-Sheet_13
+  - first:
+      213: -833603580186453962
+    second: drillbot-Sheet_14
+  - first:
+      213: 5953192014720993337
+    second: drillbot-Sheet_15
+  - first:
+      213: -4008896199594626485
+    second: drillbot-Sheet_16
+  - first:
+      213: -2271074526130519296
+    second: drillbot-Sheet_17
+  - first:
+      213: 2426268939830966079
+    second: drillbot-Sheet_18
+  - first:
+      213: 4759721617188632321
+    second: drillbot-Sheet_19
+  - first:
+      213: 3571043504919709253
+    second: drillbot-Sheet_20
+  - first:
+      213: 6554873787584607641
+    second: drillbot-Sheet_21
+  - first:
+      213: -7030324396148649704
+    second: drillbot-Sheet_22
+  - first:
+      213: 9170105708660194960
+    second: drillbot-Sheet_23
+  - first:
+      213: -5798005098987343069
+    second: drillbot-Sheet_24
+  - first:
+      213: 517634803164002054
+    second: drillbot-Sheet_25
+  - first:
+      213: -5325662584355048821
+    second: drillbot-Sheet_26
+  - first:
+      213: -1625033406326453234
+    second: drillbot-Sheet_27
+  - first:
+      213: 5768720729044023270
+    second: drillbot-Sheet_28
+  - first:
+      213: 5375833090486192189
+    second: drillbot-Sheet_29
+  - first:
+      213: 2388415666677624870
+    second: drillbot-Sheet_30
+  - first:
+      213: -3498853614288227347
+    second: drillbot-Sheet_31
+  - first:
+      213: -1966679501455254593
+    second: drillbot-Sheet_32
+  - first:
+      213: 6674165378977137957
+    second: drillbot-Sheet_33
+  - first:
+      213: 6265617493381676645
+    second: drillbot-Sheet_34
+  - first:
+      213: 8834302772970097622
+    second: drillbot-Sheet_35
+  - first:
+      213: -2251487573860794349
+    second: drillbot-Sheet_36
+  - first:
+      213: -7511609086370071242
+    second: drillbot-Sheet_37
+  - first:
+      213: -8164115159777860715
+    second: drillbot-Sheet_38
+  - first:
+      213: -2403463346418560547
+    second: drillbot-Sheet_39
+  - first:
+      213: 5825996973269946735
+    second: drillbot-Sheet_40
+  - first:
+      213: 7591291752961321006
+    second: drillbot-Sheet_41
+  - first:
+      213: 3570712227144461797
+    second: drillbot-Sheet_42
+  - first:
+      213: 2360461488204791616
+    second: drillbot-Sheet_43
+  - first:
+      213: -908799200280693716
+    second: drillbot-Sheet_44
+  - first:
+      213: -4666429488297062239
+    second: drillbot-Sheet_45
+  - first:
+      213: 9042612583260119599
+    second: drillbot-Sheet_46
+  - first:
+      213: -6423145508548853633
+    second: drillbot-Sheet_47
+  - first:
+      213: 3364002244662288018
+    second: drillbot-Sheet_48
+  - first:
+      213: 6711257130187082802
+    second: drillbot-Sheet_49
+  - first:
+      213: -542430997314416538
+    second: drillbot-Sheet_50
+  - first:
+      213: -3128514733209009953
+    second: drillbot-Sheet_51
+  - first:
+      213: -7043128272355377545
+    second: drillbot-Sheet_52
+  - first:
+      213: -5993455569666237133
+    second: drillbot-Sheet_53
+  - first:
+      213: -3658993906233130387
+    second: drillbot-Sheet_54
+  - first:
+      213: 3232280182342672586
+    second: drillbot-Sheet_55
+  - first:
+      213: 3261968190892558771
+    second: drillbot-Sheet_56
+  - first:
+      213: 7601513125298244318
+    second: drillbot-Sheet_57
+  - first:
+      213: 3478326060628067405
+    second: drillbot-Sheet_58
+  - first:
+      213: -7677609512730739726
+    second: drillbot-Sheet_59
+  - first:
+      213: 547049771833828362
+    second: drillbot-Sheet_60
+  - first:
+      213: -2686166612596711420
+    second: drillbot-Sheet_61
+  - first:
+      213: -7028572631899171637
+    second: drillbot-Sheet_62
+  - first:
+      213: 1163216375956795683
+    second: drillbot-Sheet_63
+  - first:
+      213: -1251969904752973513
+    second: drillbot-Sheet_64
+  - first:
+      213: -5029868276559758149
+    second: drillbot-Sheet_65
+  - first:
+      213: -6969022641384668565
+    second: drillbot-Sheet_66
+  - first:
+      213: 7112909292398444336
+    second: drillbot-Sheet_67
+  - first:
+      213: 3354874325753324476
+    second: drillbot-Sheet_68
+  - first:
+      213: 1339045500158342215
+    second: drillbot-Sheet_69
+  - first:
+      213: -4925860669528653573
+    second: drillbot-Sheet_70
+  - first:
+      213: 2292434021253118965
+    second: drillbot-Sheet_71
+  - first:
+      213: -7418183484691182127
+    second: drillbot-Sheet_72
+  - first:
+      213: -521725291132260078
+    second: drillbot-Sheet_73
+  - first:
+      213: -3904284947628659346
+    second: drillbot-Sheet_74
+  - first:
+      213: -1311290470207214356
+    second: drillbot-Sheet_75
+  - first:
+      213: -5507092195206254856
+    second: drillbot-Sheet_76
+  - first:
+      213: -3111118756876313773
+    second: drillbot-Sheet_77
+  - first:
+      213: 105798998226646955
+    second: drillbot-Sheet_78
+  - first:
+      213: -6137363362376093794
+    second: drillbot-Sheet_79
+  - first:
+      213: 144419378082528463
+    second: drillbot-Sheet_80
+  - first:
+      213: -6363275444088869789
+    second: drillbot-Sheet_81
+  - first:
+      213: 820752624225878278
+    second: drillbot-Sheet_82
+  - first:
+      213: 3138345952144341292
+    second: drillbot-Sheet_83
+  - first:
+      213: 6939478236718179826
+    second: drillbot-Sheet_84
+  - first:
+      213: 1079463630496060348
+    second: drillbot-Sheet_85
+  - first:
+      213: -2193708880972585625
+    second: drillbot-Sheet_86
+  - first:
+      213: 4287870834987399846
+    second: drillbot-Sheet_87
+  - first:
+      213: -8832004819620623240
+    second: drillbot-Sheet_88
+  - first:
+      213: -5746913981402046943
+    second: drillbot-Sheet_89
+  - first:
+      213: 5515748498244059217
+    second: drillbot-Sheet_90
+  - first:
+      213: -8171501588489933692
+    second: drillbot-Sheet_91
+  - first:
+      213: 6302995972224552083
+    second: drillbot-Sheet_92
+  - first:
+      213: 7403741337842137136
+    second: drillbot-Sheet_93
+  - first:
+      213: 8705662464833705968
+    second: drillbot-Sheet_94
+  - first:
+      213: -8491054525028271355
+    second: drillbot-Sheet_95
+  - first:
+      213: -6227999635848485110
+    second: drillbot-Sheet_96
+  - first:
+      213: 6230352829417490307
+    second: drillbot-Sheet_97
+  - first:
+      213: 1376075359261642400
+    second: drillbot-Sheet_98
+  - first:
+      213: -8546131237557103215
+    second: drillbot-Sheet_99
+  - first:
+      213: -8474824657142006259
+    second: drillbot-Sheet_100
+  - first:
+      213: -5274426638581643192
+    second: drillbot-Sheet_101
+  - first:
+      213: 6466910056047746463
+    second: drillbot-Sheet_102
+  - first:
+      213: 2803387983324605243
+    second: drillbot-Sheet_103
+  - first:
+      213: 7135559283958667016
+    second: drillbot-Sheet_104
+  - first:
+      213: -2817512893421367532
+    second: drillbot-Sheet_105
+  - first:
+      213: 5534624132887435168
+    second: drillbot-Sheet_106
+  - first:
+      213: -1005486479081764358
+    second: drillbot-Sheet_107
+  - first:
+      213: -6548447396447089761
+    second: drillbot-Sheet_108
+  - first:
+      213: 8817493534994917503
+    second: drillbot-Sheet_109
+  - first:
+      213: -6800340286132831212
+    second: drillbot-Sheet_110
+  - first:
+      213: 2399742596991172553
+    second: drillbot-Sheet_111
+  - first:
+      213: 1302207589250783392
+    second: drillbot-Sheet_112
+  - first:
+      213: 3410330540183484312
+    second: drillbot-Sheet_113
+  - first:
+      213: -1694547630337554000
+    second: drillbot-Sheet_114
+  - first:
+      213: 2363218773847125026
+    second: drillbot-Sheet_115
+  - first:
+      213: 586828890963004145
+    second: drillbot-Sheet_116
+  - first:
+      213: 7022963408109990288
+    second: drillbot-Sheet_117
+  - first:
+      213: -2281122573508742651
+    second: drillbot-Sheet_118
+  - first:
+      213: 6041834785857300221
+    second: drillbot-Sheet_119
+  - first:
+      213: 8117257108093633078
+    second: drillbot-Sheet_120
+  - first:
+      213: -2077017832541162800
+    second: drillbot-Sheet_121
+  - first:
+      213: 2175842856675130072
+    second: drillbot-Sheet_122
+  - first:
+      213: -3956193454933639920
+    second: drillbot-Sheet_123
+  - first:
+      213: -4582798013867910803
+    second: drillbot-Sheet_124
+  - first:
+      213: -4746963378879207365
+    second: drillbot-Sheet_125
+  - first:
+      213: -1321242000207573974
+    second: drillbot-Sheet_126
+  - first:
+      213: 6963363054170674637
+    second: drillbot-Sheet_127
+  - first:
+      213: 5276341685903003377
+    second: drillbot-Sheet_128
+  - first:
+      213: -2812443946061942014
+    second: drillbot-Sheet_129
+  - first:
+      213: 8855249579294236509
+    second: drillbot-Sheet_130
+  - first:
+      213: 8346782749025722211
+    second: drillbot-Sheet_131
+  - first:
+      213: -243016873837005580
+    second: drillbot-Sheet_132
+  - first:
+      213: -4154136282082334390
+    second: drillbot-Sheet_133
+  - first:
+      213: 3252482371198869399
+    second: drillbot-Sheet_134
+  - first:
+      213: 7487178524885621212
+    second: drillbot-Sheet_135
+  - first:
+      213: -4081712028505479609
+    second: drillbot-Sheet_136
+  - first:
+      213: -936136002123305886
+    second: drillbot-Sheet_137
+  - first:
+      213: -7471691655554958739
+    second: drillbot-Sheet_138
+  - first:
+      213: 3103691862462302125
+    second: drillbot-Sheet_139
+  - first:
+      213: 3939579132552887588
+    second: drillbot-Sheet_140
+  - first:
+      213: -2122777921665299998
+    second: drillbot-Sheet_141
+  - first:
+      213: -8284347027880858886
+    second: drillbot-Sheet_142
+  - first:
+      213: -4155744421860758203
+    second: drillbot-Sheet_143
+  - first:
+      213: -1944676319309867913
+    second: drillbot-Sheet_144
+  - first:
+      213: -4549413011536029986
+    second: drillbot-Sheet_145
+  - first:
+      213: -8616422660854969829
+    second: drillbot-Sheet_146
+  - first:
+      213: -2173483884966900783
+    second: drillbot-Sheet_147
+  - first:
+      213: 5905830413496342564
+    second: drillbot-Sheet_148
+  - first:
+      213: 1920783632495194408
+    second: drillbot-Sheet_149
+  - first:
+      213: 2458308042049389219
+    second: drillbot-Sheet_150
+  - first:
+      213: -4680125046574051588
+    second: drillbot-Sheet_151
+  - first:
+      213: -7333396117234040224
+    second: drillbot-Sheet_152
+  - first:
+      213: -74460670602908189
+    second: drillbot-Sheet_153
+  - first:
+      213: -1222258425042502024
+    second: drillbot-Sheet_154
+  - first:
+      213: -1247367821691243140
+    second: drillbot-Sheet_155
+  - first:
+      213: -7648406374976819783
+    second: drillbot-Sheet_156
+  - first:
+      213: 2666622870650309260
+    second: drillbot-Sheet_157
+  - first:
+      213: -1951759888159211794
+    second: drillbot-Sheet_158
+  - first:
+      213: -8659467159592800905
+    second: drillbot-Sheet_159
+  - first:
+      213: -3817594980899405551
+    second: drillbot-Sheet_160
+  - first:
+      213: -7091712548924723654
+    second: drillbot-Sheet_161
+  - first:
+      213: -7893766414635702315
+    second: drillbot-Sheet_162
+  - first:
+      213: 4050297491689326863
+    second: drillbot-Sheet_163
+  - first:
+      213: 7693737069470234801
+    second: drillbot-Sheet_164
+  - first:
+      213: -110819980938209473
+    second: drillbot-Sheet_165
+  - first:
+      213: -5328503348114855616
+    second: drillbot-Sheet_166
+  - first:
+      213: -8739375597337662582
+    second: drillbot-Sheet_167
+  - first:
+      213: -1306172892197165412
+    second: drillbot-Sheet_168
+  - first:
+      213: 814661295374983775
+    second: drillbot-Sheet_169
+  - first:
+      213: -8162841980133440908
+    second: drillbot-Sheet_170
+  - first:
+      213: -3970030987957057930
+    second: drillbot-Sheet_171
+  - first:
+      213: -2860893726995958381
+    second: drillbot-Sheet_172
+  - first:
+      213: -8232983914464747906
+    second: drillbot-Sheet_173
+  - first:
+      213: -4768105636532431294
+    second: drillbot-Sheet_174
+  - first:
+      213: -1132190970163489951
+    second: drillbot-Sheet_175
+  - first:
+      213: -5980493772329962222
+    second: drillbot-Sheet_176
+  - first:
+      213: -3250448906110882329
+    second: drillbot-Sheet_177
+  - first:
+      213: -7011775572471891854
+    second: drillbot-Sheet_178
+  - first:
+      213: -1138136815929216832
+    second: drillbot-Sheet_179
+  - first:
+      213: -3528379370833307999
+    second: drillbot-Sheet_180
+  - first:
+      213: 456429892339933392
+    second: drillbot-Sheet_181
+  - first:
+      213: 1351865155479808680
+    second: drillbot-Sheet_182
+  - first:
+      213: 1992522355732612413
+    second: drillbot-Sheet_183
+  - first:
+      213: 2180528229214245859
+    second: drillbot-Sheet_184
+  - first:
+      213: -5812583941054459413
+    second: drillbot-Sheet_185
+  - first:
+      213: -2155971477470340354
+    second: drillbot-Sheet_186
+  - first:
+      213: 7633166300612223561
+    second: drillbot-Sheet_187
+  - first:
+      213: 461373254943348904
+    second: drillbot-Sheet_188
+  - first:
+      213: -8318161277341745608
+    second: drillbot-Sheet_189
+  - first:
+      213: 4245179504715246034
+    second: drillbot-Sheet_190
+  - first:
+      213: -3488501471887660888
+    second: drillbot-Sheet_191
+  - first:
+      213: -5661435352127722317
+    second: drillbot-Sheet_192
+  - first:
+      213: -4453775566947876571
+    second: drillbot-Sheet_193
+  - first:
+      213: 150358620401610946
+    second: drillbot-Sheet_194
+  - first:
+      213: -1930324949462524548
+    second: drillbot-Sheet_195
+  - first:
+      213: 5952703289248263780
+    second: drillbot-Sheet_196
+  - first:
+      213: 7116441273785211403
+    second: drillbot-Sheet_197
+  - first:
+      213: -1232137531060893263
+    second: drillbot-Sheet_198
+  - first:
+      213: 1786272411946653875
+    second: drillbot-Sheet_199
+  - first:
+      213: -1770879174775429890
+    second: drillbot-Sheet_200
+  - first:
+      213: -7614940605268706181
+    second: drillbot-Sheet_201
+  - first:
+      213: 7424652497216233986
+    second: drillbot-Sheet_202
+  - first:
+      213: -5233523656712673939
+    second: drillbot-Sheet_203
+  - first:
+      213: -8457459794983657915
+    second: drillbot-Sheet_204
+  - first:
+      213: 8673576432610367941
+    second: drillbot-Sheet_205
+  - first:
+      213: -4609804763381270881
+    second: drillbot-Sheet_206
+  - first:
+      213: -79774209040146547
+    second: drillbot-Sheet_207
+  - first:
+      213: 1766442366826369580
+    second: drillbot-Sheet_208
+  - first:
+      213: -6205051555779001236
+    second: drillbot-Sheet_209
+  - first:
+      213: -1463933772531622821
+    second: drillbot-Sheet_210
+  - first:
+      213: 5850741026425910195
+    second: drillbot-Sheet_211
+  - first:
+      213: -3736113973408373388
+    second: drillbot-Sheet_212
+  - first:
+      213: 2505755300714689205
+    second: drillbot-Sheet_213
+  - first:
+      213: -4926690364137759103
+    second: drillbot-Sheet_214
+  - first:
+      213: -4079381545609134154
+    second: drillbot-Sheet_215
+  - first:
+      213: -7280317319164251925
+    second: drillbot-Sheet_216
+  - first:
+      213: 6339704132537144254
+    second: drillbot-Sheet_217
+  - first:
+      213: -6403435691514060913
+    second: drillbot-Sheet_218
+  - first:
+      213: 3559849227150736732
+    second: drillbot-Sheet_219
+  - first:
+      213: 346464152991003649
+    second: drillbot-Sheet_220
+  - first:
+      213: 1676530003363943640
+    second: drillbot-Sheet_221
+  - first:
+      213: -2657510794340715622
+    second: drillbot-Sheet_222
+  - first:
+      213: -5080982947793847468
+    second: drillbot-Sheet_223
+  - first:
+      213: -2759548075338490014
+    second: drillbot-Sheet_224
+  - first:
+      213: 474866987067690499
+    second: drillbot-Sheet_225
+  - first:
+      213: -1644193740398485904
+    second: drillbot-Sheet_226
+  - first:
+      213: -8878127191886243912
+    second: drillbot-Sheet_227
+  - first:
+      213: 51786857852418921
+    second: drillbot-Sheet_228
+  - first:
+      213: 8143617495035538300
+    second: drillbot-Sheet_229
+  - first:
+      213: 4926757064494809429
+    second: drillbot-Sheet_230
+  - first:
+      213: -7729724364972101341
+    second: drillbot-Sheet_231
+  - first:
+      213: -5382698385787584689
+    second: drillbot-Sheet_232
+  - first:
+      213: 6732692117793141327
+    second: drillbot-Sheet_233
+  - first:
+      213: 8829702693812851529
+    second: drillbot-Sheet_234
+  - first:
+      213: -5362227383090242445
+    second: drillbot-Sheet_235
+  - first:
+      213: 5497451363425525859
+    second: drillbot-Sheet_236
+  - first:
+      213: 2319706724309461155
+    second: drillbot-Sheet_237
+  - first:
+      213: -7171987751647391217
+    second: drillbot-Sheet_238
+  - first:
+      213: -313210094291631437
+    second: drillbot-Sheet_239
+  - first:
+      213: -3120923647315593607
+    second: drillbot-Sheet_240
+  - first:
+      213: 52137471063231627
+    second: drillbot-Sheet_241
+  - first:
+      213: 6379298944949505749
+    second: drillbot-Sheet_242
+  - first:
+      213: -6963901698358043849
+    second: drillbot-Sheet_243
+  - first:
+      213: 1623823261188566692
+    second: drillbot-Sheet_244
+  - first:
+      213: 9212165528818016532
+    second: drillbot-Sheet_245
+  - first:
+      213: -5986946286522196374
+    second: drillbot-Sheet_246
+  - first:
+      213: -3666608780464070511
+    second: drillbot-Sheet_247
+  - first:
+      213: -7960340056066481206
+    second: drillbot-Sheet_248
+  - first:
+      213: 1970586394665726744
+    second: drillbot-Sheet_249
+  - first:
+      213: -5812739861753021114
+    second: drillbot-Sheet_250
+  - first:
+      213: 1658671662982087045
+    second: drillbot-Sheet_251
+  - first:
+      213: -6968661448134761011
+    second: drillbot-Sheet_252
+  - first:
+      213: 6242524131923021337
+    second: drillbot-Sheet_253
+  - first:
+      213: -9199333744593360882
+    second: drillbot-Sheet_254
+  - first:
+      213: -49294813893824362
+    second: drillbot-Sheet_255
+  - first:
+      213: 4526925317542895873
+    second: drillbot-Sheet_256
+  - first:
+      213: 6979324651052218608
+    second: drillbot-Sheet_257
+  - first:
+      213: -8947856700644712563
+    second: drillbot-Sheet_258
+  - first:
+      213: 6297148487782028161
+    second: drillbot-Sheet_259
+  - first:
+      213: 4676306012937150576
+    second: drillbot-Sheet_260
+  - first:
+      213: -5810395881436582768
+    second: drillbot-Sheet_261
+  - first:
+      213: 4404335261175935942
+    second: drillbot-Sheet_262
+  - first:
+      213: -7565867684642505164
+    second: drillbot-Sheet_263
+  - first:
+      213: 466020450616725393
+    second: drillbot-Sheet_264
+  - first:
+      213: -2947772841828164897
+    second: drillbot-Sheet_265
+  - first:
+      213: 7435347232058185858
+    second: drillbot-Sheet_266
+  - first:
+      213: 2345536689271611458
+    second: drillbot-Sheet_267
+  - first:
+      213: -7747858259519184924
+    second: drillbot-Sheet_268
+  - first:
+      213: -6697713922869195157
+    second: drillbot-Sheet_269
+  - first:
+      213: -6994804729922282743
+    second: drillbot-Sheet_270
+  - first:
+      213: 9050814976531146810
+    second: drillbot-Sheet_271
+  - first:
+      213: -7791316406485884666
+    second: drillbot-Sheet_272
+  - first:
+      213: 4599972765434654764
+    second: drillbot-Sheet_273
+  - first:
+      213: -8159628879014319022
+    second: drillbot-Sheet_274
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: drillbot-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1275
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498325c7c832d22f0800000000000000
+      internalID: -996100856290854764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1275
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7588ef9eeffa4fdf0800000000000000
+      internalID: -147299378414057385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1275
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd501ad037ef89140800000000000000
+      internalID: 4726807579028686300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1275
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bad09e7f5269c240800000000000000
+      internalID: 4812485839106923192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1249
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05da5cac34ac39450800000000000000
+      internalID: 6094437113275985232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1249
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2262080c1d0519400800000000000000
+      internalID: 329133109582767650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1249
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2ebbecec0496ae0800000000000000
+      internalID: -1555640939303935327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1249
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a7128c4fdefced0800000000000000
+      internalID: -2391431241525003735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1223
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b892dcc413969b0800000000000000
+      internalID: -5086480098208937128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1223
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3485f99df2cf1c40800000000000000
+      internalID: 5485317265626072126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1223
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe38011b4bd2d6d0800000000000000
+      internalID: -2967068089028952329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1223
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8fc656fd13f0d20800000000000000
+      internalID: 3246868691906525425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1a1dc71cf3d50a0800000000000000
+      internalID: -6891281754551639558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e686ae086267d0590800000000000000
+      internalID: -7706373479617370002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6381e7fd5f17e64f0800000000000000
+      internalID: -833603580186453962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9380325989cfd9250800000000000000
+      internalID: 5953192014720993337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42bfb1852a8d58c0800000000000000
+      internalID: -4008896199594626485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0034d8b40c58b70e0800000000000000
+      internalID: -2271074526130519296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f373030feb6dba120800000000000000
+      internalID: 2426268939830966079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107b64eb79ded0240800000000000000
+      internalID: 4759721617188632321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5468434c525ee8130800000000000000
+      internalID: 3571043504919709253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995ff780bf697fa50800000000000000
+      internalID: 6554873787584607641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8111ccfb5354f6e90800000000000000
+      internalID: -7030324396148649704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ef8758e82c24f70800000000000000
+      internalID: 9170105708660194960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323b4f4e419598fa0800000000000000
+      internalID: -5798005098987343069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60738f56c120f2700800000000000000
+      internalID: 517634803164002054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1197
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82bde998127716b0800000000000000
+      internalID: -5325662584355048821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1197
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cc4cb0ab8b279e0800000000000000
+      internalID: -1625033406326453234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1197
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7f91760fc9e0050800000000000000
+      internalID: 5768720729044023270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1197
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d384832a6bbca9a40800000000000000
+      internalID: 5375833090486192189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1197
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6203c4cf46b552120800000000000000
+      internalID: 2388415666677624870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1197
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3324fec23917fc0800000000000000
+      internalID: -3498853614288227347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1197
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb97b0d963f4b4e0800000000000000
+      internalID: -1966679501455254593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1197
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525842a0d066f9c50800000000000000
+      internalID: 6674165378977137957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1175
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56efc7fd9e1f3f650800000000000000
+      internalID: 6265617493381676645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1175
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db812dd09fb99a70800000000000000
+      internalID: 8834302772970097622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1145
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31042dffafb11c0e0800000000000000
+      internalID: -2251487573860794349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1145
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63db05b855761c790800000000000000
+      internalID: -7511609086370071242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1145
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5932f0c748c33be80800000000000000
+      internalID: -8164115159777860715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1dc0e02de25aed0800000000000000
+      internalID: -2403463346418560547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1097
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61914631691ad050800000000000000
+      internalID: 5825996973269946735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1095
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28ac9101afa95960800000000000000
+      internalID: 7591291752961321006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1071
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ede6162ad7bd8130800000000000000
+      internalID: 3570712227144461797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1069
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fbf6e973b02c020800000000000000
+      internalID: 2360461488204791616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1067
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c243c1f31fb4363f0800000000000000
+      internalID: -908799200280693716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1067
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a055acaa138d3fb0800000000000000
+      internalID: -4666429488297062239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1067
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2262b21c30dd7d70800000000000000
+      internalID: 9042612583260119599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1067
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70cc46f0376cd6a0800000000000000
+      internalID: -6423145508548853633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1067
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e56b0e7365fae20800000000000000
+      internalID: 3364002244662288018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1041
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ccb195dcc232d50800000000000000
+      internalID: 6711257130187082802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1041
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660d9e1c1e5e878f0800000000000000
+      internalID: -542430997314416538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1041
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0408cfc684594d0800000000000000
+      internalID: -3128514733209009953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1041
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e3fb20728c14e90800000000000000
+      internalID: -7043128272355377545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1041
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d15f00ae7f2dca0800000000000000
+      internalID: -5993455569666237133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1041
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62c7afad64a83dc0800000000000000
+      internalID: -3658993906233130387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1015
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0e11353bd5bdc20800000000000000
+      internalID: 3232280182342672586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1015
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b946c679c6d44d20800000000000000
+      internalID: 3261968190892558771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1015
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda0fd4b9effd7960800000000000000
+      internalID: 7601513125298244318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1015
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4448b88f1f754030800000000000000
+      internalID: 3478326060628067405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 989
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb368d63d6a37590800000000000000
+      internalID: -7677609512730739726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 989
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a042d9c7ed2879700800000000000000
+      internalID: 547049771833828362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 989
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400a8a0a2b1d8bad0800000000000000
+      internalID: -2686166612596711420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 989
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc41e952e6e757e90800000000000000
+      internalID: -7028572631899171637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 963
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32172d58123942010800000000000000
+      internalID: 1163216375956795683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 963
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73928bd310c10aee0800000000000000
+      internalID: -1251969904752973513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 963
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc36aca371523ab0800000000000000
+      internalID: -5029868276559758149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 963
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62cc94c4de094f90800000000000000
+      internalID: -6969022641384668565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ffbfcc05126b260800000000000000
+      internalID: 7112909292398444336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3ea94ac68ee8e20800000000000000
+      internalID: 3354874325753324476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744f50fa9ce359210800000000000000
+      internalID: 1339045500158342215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf04da3c1d3d3abb0800000000000000
+      internalID: -4925860669528653573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbffc3b89c50df10800000000000000
+      internalID: 2292434021253118965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd00548c615d0990800000000000000
+      internalID: -7418183484691182127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21179b7ac9572c8f0800000000000000
+      internalID: -521725291132260078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d60b2a68131d9c0800000000000000
+      internalID: -3904284947628659346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceca1fdc34c5dcde0800000000000000
+      internalID: -1311290470207214356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fea76783d0e293b0800000000000000
+      internalID: -5507092195206254856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b155a59f513d4d0800000000000000
+      internalID: -3111118756876313773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba734ead0afd77100800000000000000
+      internalID: 105798998226646955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f63100a84b3daa0800000000000000
+      internalID: -6137363362376093794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccba41c8a4110200800000000000000
+      internalID: 144419378082528463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 937
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ced1b92ba11b7a0800000000000000
+      internalID: -6363275444088869789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 937
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6010477c926e36b00800000000000000
+      internalID: 820752624225878278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 937
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2939db0405ad8b20800000000000000
+      internalID: 3138345952144341292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 937
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5242a70bafd4060800000000000000
+      internalID: 6939478236718179826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 937
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3dba3e3760bfe00800000000000000
+      internalID: 1079463630496060348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 937
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765620145616e81e0800000000000000
+      internalID: -2193708880972585625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 937
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa7e2a6ec3918b30800000000000000
+      internalID: 4287870834987399846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 937
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c89f7196a6e6580800000000000000
+      internalID: -8832004819620623240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 915
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e1ecfae2cde30b0800000000000000
+      internalID: -5746913981402046943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 915
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1504b341900eb8c40800000000000000
+      internalID: 5515748498244059217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 885
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c6488899ef89e80800000000000000
+      internalID: -8171501588489933692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 885
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c8929217db87750800000000000000
+      internalID: 6302995972224552083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 885
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038b4f2258f5fb660800000000000000
+      internalID: 7403741337842137136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 859
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f75dde13e9b0d870800000000000000
+      internalID: 8705662464833705968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 835
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b7733a5e6b92a80800000000000000
+      internalID: -8491054525028271355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 837
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a072dfb1453b199a0800000000000000
+      internalID: -6227999635848485110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 811
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38787c673e8a67650800000000000000
+      internalID: 6230352829417490307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 809
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae45fc9f3dc81310800000000000000
+      internalID: 1376075359261642400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 807
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1951a853bea066980800000000000000
+      internalID: -8546131237557103215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 807
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e345930ef536a80800000000000000
+      internalID: -8474824657142006259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 807
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848cb75dae87dc6b0800000000000000
+      internalID: -5274426638581643192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 807
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d902dce641fb950800000000000000
+      internalID: 6466910056047746463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 807
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b69a19482a7e620800000000000000
+      internalID: 2803387983324605243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 781
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807d81aec59960360800000000000000
+      internalID: 7135559283958667016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 781
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f498583fe26e8d0800000000000000
+      internalID: -2817512893421367532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 781
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a75f0e335feecc40800000000000000
+      internalID: 5534624132887435168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 781
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af98fd3ef5bcb02f0800000000000000
+      internalID: -1005486479081764358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 781
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b8070c9cd3f15a0800000000000000
+      internalID: -6548447396447089761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 781
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78ecaa27a70e5a70800000000000000
+      internalID: 8817493534994917503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 755
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c364d1a8650a1a0800000000000000
+      internalID: -6800340286132831212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 755
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf38067d299d4120800000000000000
+      internalID: 2399742596991172553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 755
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a85c1d27ee521210800000000000000
+      internalID: 1302207589250783392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 755
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8977d4ebe8de35f20800000000000000
+      internalID: 3410330540183484312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 729
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b900c688e1cb78e0800000000000000
+      internalID: -1694547630337554000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 729
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c21b534f6dbc020800000000000000
+      internalID: 2363218773847125026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 729
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa49c564c5d42800800000000000000
+      internalID: 586828890963004145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 729
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09176faa204967160800000000000000
+      internalID: 7022963408109990288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 703
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502f2e4fa13d750e0800000000000000
+      internalID: -2281122573508742651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 703
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df66f9a0ab8e8d350800000000000000
+      internalID: 6041834785857300221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 703
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6328f6e255a46a070800000000000000
+      internalID: 8117257108093633078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 703
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d27b3b2943fc23e0800000000000000
+      internalID: -2077017832541162800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da313fcc85223e10800000000000000
+      internalID: 2175842856675130072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d74f77307c819c0800000000000000
+      internalID: -3956193454933639920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d699902bc71a660c0800000000000000
+      internalID: -4582798013867910803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38ed1815f56f1eb0800000000000000
+      internalID: -4746963378879207365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c0d4ba6610aade0800000000000000
+      internalID: -1321242000207573974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc51ce5edc5d2a060800000000000000
+      internalID: 6963363054170674637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe85dddec4593940800000000000000
+      internalID: 5276341685903003377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203b74cc12138f8d0800000000000000
+      internalID: -2812443946061942014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f9243439a24ea70800000000000000
+      internalID: 8855249579294236509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f5905efaab5d370800000000000000
+      internalID: 8346782749025722211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4f488d071a0acf0800000000000000
+      internalID: -243016873837005580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49abed9f0b8956c0800000000000000
+      internalID: -4154136282082334390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f5785fb73232d20800000000000000
+      internalID: 3252482371198869399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd99db9133dc7e760800000000000000
+      internalID: 7487178524885621212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 677
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746ed713988da57c0800000000000000
+      internalID: -4081712028505479609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 677
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c6cf3144d2203f0800000000000000
+      internalID: -936136002123305886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 677
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a7567a6083f4890800000000000000
+      internalID: -7471691655554958739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 677
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7065a0e47821b20800000000000000
+      internalID: 3103691862462302125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 677
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d3b5829523ca630800000000000000
+      internalID: 3939579132552887588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 677
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9091a2ab06a82e0800000000000000
+      internalID: -2122777921665299998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 677
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa291f3546180d80800000000000000
+      internalID: -8284347027880858886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 677
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54dada56774d356c0800000000000000
+      internalID: -4155744421860758203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 655
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774db60e03f1305e0800000000000000
+      internalID: -1944676319309867913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 655
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6dad648fc3dd0c0800000000000000
+      internalID: -4549413011536029986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 625
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a0d11ed315c6880800000000000000
+      internalID: -8616422660854969829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 625
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db03871ceb36d1e0800000000000000
+      internalID: -2173483884966900783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 625
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428d52c7879b5f150800000000000000
+      internalID: 5905830413496342564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 599
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821b249798ef7aa10800000000000000
+      internalID: 1920783632495194408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_150
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 577
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a207dab32aad1220800000000000000
+      internalID: 2458308042049389219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_151
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 575
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe8b86011bdc0fb0800000000000000
+      internalID: -4680125046574051588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_152
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 551
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062490bd51b8a3a90800000000000000
+      internalID: -7333396117234040224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_153
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 549
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ede9f22a6677fef0800000000000000
+      internalID: -74460670602908189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_154
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 547
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87efc9f207aa90fe0800000000000000
+      internalID: -1222258425042502024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_155
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 547
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7537d3339570bee0800000000000000
+      internalID: -1247367821691243140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_156
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 547
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd6ca9cce66bd590800000000000000
+      internalID: -7648406374976819783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_157
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 547
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a4b0b5f5fb10520800000000000000
+      internalID: 2666622870650309260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_158
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 547
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeef96bf8b4f9e4e0800000000000000
+      internalID: -1951759888159211794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_159
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 521
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d6f488f7463d780800000000000000
+      internalID: -8659467159592800905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_160
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 521
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1114d23679d250bc0800000000000000
+      internalID: -3817594980899405551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_161
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 521
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e6920a20d259d90800000000000000
+      internalID: -7091712548924723654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_162
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 521
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7eab3d445b37290800000000000000
+      internalID: -7893766414635702315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_163
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 521
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f094ccafb1c853830800000000000000
+      internalID: 4050297491689326863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_164
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 521
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8370df915a5ca60800000000000000
+      internalID: 7693737069470234801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_165
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 495
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37992280d9467ef0800000000000000
+      internalID: -110819980938209473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_166
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 495
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049622fbf6a5d06b0800000000000000
+      internalID: -5328503348114855616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_167
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 495
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ba8f9823087b680800000000000000
+      internalID: -8739375597337662582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_168
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 495
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96e759ccaa8fdde0800000000000000
+      internalID: -1306172892197165412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_169
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 469
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52e513c1224e4b00800000000000000
+      internalID: 814661295374983775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_170
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 469
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4720088b772c7be80800000000000000
+      internalID: -8162841980133440908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_171
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 469
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676c68fb9dd97e8c0800000000000000
+      internalID: -3970030987957057930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_172
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 469
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395334e10501c48d0800000000000000
+      internalID: -2860893726995958381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_173
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 443
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ed2d000c09ebd80800000000000000
+      internalID: -8232983914464747906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_174
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 443
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24652f2af2944ddb0800000000000000
+      internalID: -4768105636532431294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_175
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 443
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163108daf46a940f0800000000000000
+      internalID: -1132190970163489951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_176
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 443
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21536de9994010da0800000000000000
+      internalID: -5980493772329962222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_177
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed24b601f514e2d0800000000000000
+      internalID: -3250448906110882329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_178
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2783d0e444b21be90800000000000000
+      internalID: -7011775572471891854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_179
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0beb498968430f0800000000000000
+      internalID: -1138136815929216832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_180
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a61aa808ada80fc0800000000000000
+      internalID: -3528379370833307999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_181
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0aacd9190955600800000000000000
+      internalID: 456429892339933392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_182
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa2a98423ac2c210800000000000000
+      internalID: 1351865155479808680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_183
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d358774968cd6ab10800000000000000
+      internalID: 1992522355732612413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_184
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3d60d1fdac24e10800000000000000
+      internalID: 2180528229214245859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_185
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be11f46b3bd855fa0800000000000000
+      internalID: -5812583941054459413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_186
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa91833d537412e0800000000000000
+      internalID: -2155971477470340354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_187
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9426973ee447ee960800000000000000
+      internalID: 7633166300612223561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_188
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a893c9e780276600800000000000000
+      internalID: 461373254943348904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_189
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83eb2a7c364ff8c80800000000000000
+      internalID: -8318161277341745608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_190
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d922528448e9ea30800000000000000
+      internalID: 4245179504715246034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_191
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 417
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a865b9e46a569fc0800000000000000
+      internalID: -3488501471887660888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_192
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 417
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bca695fa8a8e61b0800000000000000
+      internalID: -5661435352127722317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_193
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 417
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52102ce08b20132c0800000000000000
+      internalID: -4453775566947876571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_194
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 417
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0b4fd5e5e261200800000000000000
+      internalID: 150358620401610946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_195
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 417
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d563e8fab1635e0800000000000000
+      internalID: -1930324949462524548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_196
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 417
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e21f05a104c9250800000000000000
+      internalID: 5952703289248263780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_197
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 417
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a55ec42ada2c260800000000000000
+      internalID: 7116441273785211403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_198
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 417
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b940b2917196eee0800000000000000
+      internalID: -1232137531060893263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_199
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 395
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8192a6b4d1ac810800000000000000
+      internalID: 1786272411946653875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_200
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 395
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4af57e5c29c67e0800000000000000
+      internalID: -1770879174775429890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_201
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 365
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cb24d7ddb425690800000000000000
+      internalID: -7614940605268706181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_202
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 365
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2026a45db1aa90760800000000000000
+      internalID: 7424652497216233986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_203
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 365
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65a90e66f9ce57b0800000000000000
+      internalID: -5233523656712673939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_204
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ed9d1402111aa80800000000000000
+      internalID: -8457459794983657915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_205
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 317
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9d0f59fcbbe5870800000000000000
+      internalID: 8673576432610367941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_206
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 315
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9671c2ddfea600c0800000000000000
+      internalID: -4609804763381270881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_207
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 291
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f9cef87c594eef0800000000000000
+      internalID: -79774209040146547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_208
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 289
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22d2ee39f9a38810800000000000000
+      internalID: 1766442366826369580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_209
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 287
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64cecc5c7a33e9a0800000000000000
+      internalID: -6205051555779001236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_210
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 287
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c1e897dff0fabe0800000000000000
+      internalID: -1463933772531622821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_211
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 287
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3bbe807f1023150800000000000000
+      internalID: 5850741026425910195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_212
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 287
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475ee9ec228a62cc0800000000000000
+      internalID: -3736113973408373388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_213
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 287
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2b6218b2b36c220800000000000000
+      internalID: 2505755300714689205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_214
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 261
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e9a3f6731e0abb0800000000000000
+      internalID: -4926690364137759103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_215
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 261
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bffea609102367c0800000000000000
+      internalID: -4079381545609134154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_216
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 261
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0371398fd17fa90800000000000000
+      internalID: -7280317319164251925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_217
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 261
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3d3f0c1572bf750800000000000000
+      internalID: 6339704132537144254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_218
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 261
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f1f395a2d6227a0800000000000000
+      internalID: -6403435691514060913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_219
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 261
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5db44ed200276130800000000000000
+      internalID: 3559849227150736732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_220
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 235
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1047f6ebf43eec400800000000000000
+      internalID: 346464152991003649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_221
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 235
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4dac9c72b344710800000000000000
+      internalID: 1676530003363943640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_222
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 235
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a933e8c3300ae1bd0800000000000000
+      internalID: -2657510794340715622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_223
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 235
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b3eeedde8bc79b0800000000000000
+      internalID: -5080982947793847468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_224
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 209
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f16dc65ad14b9d0800000000000000
+      internalID: -2759548075338490014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_225
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 209
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ecabf3201179600800000000000000
+      internalID: 474866987067690499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_226
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 209
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e90a12186ae29e0800000000000000
+      internalID: -1644193740398485904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_227
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 209
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b752e87b5e8ac480800000000000000
+      internalID: -8878127191886243912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_228
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 183
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bb3527fdbf7b000800000000000000
+      internalID: 51786857852418921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_229
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 183
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7bef3a07f0f30170800000000000000
+      internalID: 8143617495035538300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_230
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 183
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5510cd3727b5f5440800000000000000
+      internalID: 4926757064494809429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_231
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 183
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321f726d4a08ab490800000000000000
+      internalID: -7729724364972101341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_232
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fff0e3650dc45b0800000000000000
+      internalID: -5382698385787584689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_233
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42f12f4fc35f6d50800000000000000
+      internalID: 6732692117793141327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_234
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943560971d7698a70800000000000000
+      internalID: 8829702693812851529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_235
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c980afa9a8595b0800000000000000
+      internalID: -5362227383090242445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_236
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36027f663eeda4c40800000000000000
+      internalID: 5497451363425525859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_237
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8ec85b9f0413020800000000000000
+      internalID: 2319706724309461155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_238
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02da91832bf77c90800000000000000
+      internalID: -7171987751647391217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_239
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b24ea5241147abf0800000000000000
+      internalID: -313210094291631437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_240
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97633a66a7040b4d0800000000000000
+      internalID: -3120923647315593607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_241
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c0632f0ca39b000800000000000000
+      internalID: 52137471063231627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_242
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de4db96792d78850800000000000000
+      internalID: 6379298944949505749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_243
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b11aa3d404b5f90800000000000000
+      internalID: -6963901698358043849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_244
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae292517aaf88610800000000000000
+      internalID: 1623823261188566692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_245
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411eb458dbf28df70800000000000000
+      internalID: 9212165528818016532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_246
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 157
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e108692181aeca0800000000000000
+      internalID: -5986946286522196374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_247
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 157
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1906c1e9db69d1dc0800000000000000
+      internalID: -3666608780464070511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_248
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 157
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac328da05e0378190800000000000000
+      internalID: -7960340056066481206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_249
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 157
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813b445a2ede85b10800000000000000
+      internalID: 1970586394665726744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_250
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 157
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d357894eff45fa0800000000000000
+      internalID: -5812739861753021114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_251
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 157
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581cd07e619c40710800000000000000
+      internalID: 1658671662982087045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_252
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 157
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5e7ff95575a4f90800000000000000
+      internalID: -6968661448134761011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_253
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 157
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e4319af96e1a650800000000000000
+      internalID: 6242524131923021337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_254
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 135
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08af3f03b6655080800000000000000
+      internalID: -9199333744593360882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_255
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 135
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690f690c0aed05ff0800000000000000
+      internalID: -49294813893824362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_256
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 105
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101edd4779ed2de30800000000000000
+      internalID: 4526925317542895873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_257
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 105
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f83816caca8bd060800000000000000
+      internalID: 6979324651052218608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_258
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 105
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f19f01db3d2d380800000000000000
+      internalID: -8947856700644712563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_259
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 77
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183d2289f27f36750800000000000000
+      internalID: 6297148487782028161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_260
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 57
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070642aea8395e040800000000000000
+      internalID: 4676306012937150576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_261
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 55
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c649a0bb35d5fa0800000000000000
+      internalID: -5810395881436582768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_262
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 31
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c37e1ab5975f1d30800000000000000
+      internalID: 4404335261175935942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_263
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 29
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43eb64f2d63a00790800000000000000
+      internalID: -7565867684642505164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_264
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 27
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fc3197123a77600800000000000000
+      internalID: 466020450616725393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_265
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 27
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdad944e7386717d0800000000000000
+      internalID: -2947772841828164897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_266
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 27
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2881384d9e8af2760800000000000000
+      internalID: 7435347232058185858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_267
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 27
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2402ea311350d8020800000000000000
+      internalID: 2345536689271611458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_268
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 27
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef584f76f31a7490800000000000000
+      internalID: -7747858259519184924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_269
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e81345ca0fc03a0800000000000000
+      internalID: -6697713922869195157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_270
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b92cf78267dee90800000000000000
+      internalID: -6994804729922282743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_271
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38ace39444fa9d70800000000000000
+      internalID: 9050814976531146810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_272
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6016cba220fafd390800000000000000
+      internalID: -7791316406485884666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_273
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c203434cbd266df30800000000000000
+      internalID: 4599972765434654764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drillbot-Sheet_274
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c255f14cc23ce80800000000000000
+      internalID: -8159628879014319022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      drillbot-Sheet_0: -996100856290854764
+      drillbot-Sheet_1: -147299378414057385
+      drillbot-Sheet_10: -2967068089028952329
+      drillbot-Sheet_100: -8474824657142006259
+      drillbot-Sheet_101: -5274426638581643192
+      drillbot-Sheet_102: 6466910056047746463
+      drillbot-Sheet_103: 2803387983324605243
+      drillbot-Sheet_104: 7135559283958667016
+      drillbot-Sheet_105: -2817512893421367532
+      drillbot-Sheet_106: 5534624132887435168
+      drillbot-Sheet_107: -1005486479081764358
+      drillbot-Sheet_108: -6548447396447089761
+      drillbot-Sheet_109: 8817493534994917503
+      drillbot-Sheet_11: 3246868691906525425
+      drillbot-Sheet_110: -6800340286132831212
+      drillbot-Sheet_111: 2399742596991172553
+      drillbot-Sheet_112: 1302207589250783392
+      drillbot-Sheet_113: 3410330540183484312
+      drillbot-Sheet_114: -1694547630337554000
+      drillbot-Sheet_115: 2363218773847125026
+      drillbot-Sheet_116: 586828890963004145
+      drillbot-Sheet_117: 7022963408109990288
+      drillbot-Sheet_118: -2281122573508742651
+      drillbot-Sheet_119: 6041834785857300221
+      drillbot-Sheet_12: -6891281754551639558
+      drillbot-Sheet_120: 8117257108093633078
+      drillbot-Sheet_121: -2077017832541162800
+      drillbot-Sheet_122: 2175842856675130072
+      drillbot-Sheet_123: -3956193454933639920
+      drillbot-Sheet_124: -4582798013867910803
+      drillbot-Sheet_125: -4746963378879207365
+      drillbot-Sheet_126: -1321242000207573974
+      drillbot-Sheet_127: 6963363054170674637
+      drillbot-Sheet_128: 5276341685903003377
+      drillbot-Sheet_129: -2812443946061942014
+      drillbot-Sheet_13: -7706373479617370002
+      drillbot-Sheet_130: 8855249579294236509
+      drillbot-Sheet_131: 8346782749025722211
+      drillbot-Sheet_132: -243016873837005580
+      drillbot-Sheet_133: -4154136282082334390
+      drillbot-Sheet_134: 3252482371198869399
+      drillbot-Sheet_135: 7487178524885621212
+      drillbot-Sheet_136: -4081712028505479609
+      drillbot-Sheet_137: -936136002123305886
+      drillbot-Sheet_138: -7471691655554958739
+      drillbot-Sheet_139: 3103691862462302125
+      drillbot-Sheet_14: -833603580186453962
+      drillbot-Sheet_140: 3939579132552887588
+      drillbot-Sheet_141: -2122777921665299998
+      drillbot-Sheet_142: -8284347027880858886
+      drillbot-Sheet_143: -4155744421860758203
+      drillbot-Sheet_144: -1944676319309867913
+      drillbot-Sheet_145: -4549413011536029986
+      drillbot-Sheet_146: -8616422660854969829
+      drillbot-Sheet_147: -2173483884966900783
+      drillbot-Sheet_148: 5905830413496342564
+      drillbot-Sheet_149: 1920783632495194408
+      drillbot-Sheet_15: 5953192014720993337
+      drillbot-Sheet_150: 2458308042049389219
+      drillbot-Sheet_151: -4680125046574051588
+      drillbot-Sheet_152: -7333396117234040224
+      drillbot-Sheet_153: -74460670602908189
+      drillbot-Sheet_154: -1222258425042502024
+      drillbot-Sheet_155: -1247367821691243140
+      drillbot-Sheet_156: -7648406374976819783
+      drillbot-Sheet_157: 2666622870650309260
+      drillbot-Sheet_158: -1951759888159211794
+      drillbot-Sheet_159: -8659467159592800905
+      drillbot-Sheet_16: -4008896199594626485
+      drillbot-Sheet_160: -3817594980899405551
+      drillbot-Sheet_161: -7091712548924723654
+      drillbot-Sheet_162: -7893766414635702315
+      drillbot-Sheet_163: 4050297491689326863
+      drillbot-Sheet_164: 7693737069470234801
+      drillbot-Sheet_165: -110819980938209473
+      drillbot-Sheet_166: -5328503348114855616
+      drillbot-Sheet_167: -8739375597337662582
+      drillbot-Sheet_168: -1306172892197165412
+      drillbot-Sheet_169: 814661295374983775
+      drillbot-Sheet_17: -2271074526130519296
+      drillbot-Sheet_170: -8162841980133440908
+      drillbot-Sheet_171: -3970030987957057930
+      drillbot-Sheet_172: -2860893726995958381
+      drillbot-Sheet_173: -8232983914464747906
+      drillbot-Sheet_174: -4768105636532431294
+      drillbot-Sheet_175: -1132190970163489951
+      drillbot-Sheet_176: -5980493772329962222
+      drillbot-Sheet_177: -3250448906110882329
+      drillbot-Sheet_178: -7011775572471891854
+      drillbot-Sheet_179: -1138136815929216832
+      drillbot-Sheet_18: 2426268939830966079
+      drillbot-Sheet_180: -3528379370833307999
+      drillbot-Sheet_181: 456429892339933392
+      drillbot-Sheet_182: 1351865155479808680
+      drillbot-Sheet_183: 1992522355732612413
+      drillbot-Sheet_184: 2180528229214245859
+      drillbot-Sheet_185: -5812583941054459413
+      drillbot-Sheet_186: -2155971477470340354
+      drillbot-Sheet_187: 7633166300612223561
+      drillbot-Sheet_188: 461373254943348904
+      drillbot-Sheet_189: -8318161277341745608
+      drillbot-Sheet_19: 4759721617188632321
+      drillbot-Sheet_190: 4245179504715246034
+      drillbot-Sheet_191: -3488501471887660888
+      drillbot-Sheet_192: -5661435352127722317
+      drillbot-Sheet_193: -4453775566947876571
+      drillbot-Sheet_194: 150358620401610946
+      drillbot-Sheet_195: -1930324949462524548
+      drillbot-Sheet_196: 5952703289248263780
+      drillbot-Sheet_197: 7116441273785211403
+      drillbot-Sheet_198: -1232137531060893263
+      drillbot-Sheet_199: 1786272411946653875
+      drillbot-Sheet_2: 4726807579028686300
+      drillbot-Sheet_20: 3571043504919709253
+      drillbot-Sheet_200: -1770879174775429890
+      drillbot-Sheet_201: -7614940605268706181
+      drillbot-Sheet_202: 7424652497216233986
+      drillbot-Sheet_203: -5233523656712673939
+      drillbot-Sheet_204: -8457459794983657915
+      drillbot-Sheet_205: 8673576432610367941
+      drillbot-Sheet_206: -4609804763381270881
+      drillbot-Sheet_207: -79774209040146547
+      drillbot-Sheet_208: 1766442366826369580
+      drillbot-Sheet_209: -6205051555779001236
+      drillbot-Sheet_21: 6554873787584607641
+      drillbot-Sheet_210: -1463933772531622821
+      drillbot-Sheet_211: 5850741026425910195
+      drillbot-Sheet_212: -3736113973408373388
+      drillbot-Sheet_213: 2505755300714689205
+      drillbot-Sheet_214: -4926690364137759103
+      drillbot-Sheet_215: -4079381545609134154
+      drillbot-Sheet_216: -7280317319164251925
+      drillbot-Sheet_217: 6339704132537144254
+      drillbot-Sheet_218: -6403435691514060913
+      drillbot-Sheet_219: 3559849227150736732
+      drillbot-Sheet_22: -7030324396148649704
+      drillbot-Sheet_220: 346464152991003649
+      drillbot-Sheet_221: 1676530003363943640
+      drillbot-Sheet_222: -2657510794340715622
+      drillbot-Sheet_223: -5080982947793847468
+      drillbot-Sheet_224: -2759548075338490014
+      drillbot-Sheet_225: 474866987067690499
+      drillbot-Sheet_226: -1644193740398485904
+      drillbot-Sheet_227: -8878127191886243912
+      drillbot-Sheet_228: 51786857852418921
+      drillbot-Sheet_229: 8143617495035538300
+      drillbot-Sheet_23: 9170105708660194960
+      drillbot-Sheet_230: 4926757064494809429
+      drillbot-Sheet_231: -7729724364972101341
+      drillbot-Sheet_232: -5382698385787584689
+      drillbot-Sheet_233: 6732692117793141327
+      drillbot-Sheet_234: 8829702693812851529
+      drillbot-Sheet_235: -5362227383090242445
+      drillbot-Sheet_236: 5497451363425525859
+      drillbot-Sheet_237: 2319706724309461155
+      drillbot-Sheet_238: -7171987751647391217
+      drillbot-Sheet_239: -313210094291631437
+      drillbot-Sheet_24: -5798005098987343069
+      drillbot-Sheet_240: -3120923647315593607
+      drillbot-Sheet_241: 52137471063231627
+      drillbot-Sheet_242: 6379298944949505749
+      drillbot-Sheet_243: -6963901698358043849
+      drillbot-Sheet_244: 1623823261188566692
+      drillbot-Sheet_245: 9212165528818016532
+      drillbot-Sheet_246: -5986946286522196374
+      drillbot-Sheet_247: -3666608780464070511
+      drillbot-Sheet_248: -7960340056066481206
+      drillbot-Sheet_249: 1970586394665726744
+      drillbot-Sheet_25: 517634803164002054
+      drillbot-Sheet_250: -5812739861753021114
+      drillbot-Sheet_251: 1658671662982087045
+      drillbot-Sheet_252: -6968661448134761011
+      drillbot-Sheet_253: 6242524131923021337
+      drillbot-Sheet_254: -9199333744593360882
+      drillbot-Sheet_255: -49294813893824362
+      drillbot-Sheet_256: 4526925317542895873
+      drillbot-Sheet_257: 6979324651052218608
+      drillbot-Sheet_258: -8947856700644712563
+      drillbot-Sheet_259: 6297148487782028161
+      drillbot-Sheet_26: -5325662584355048821
+      drillbot-Sheet_260: 4676306012937150576
+      drillbot-Sheet_261: -5810395881436582768
+      drillbot-Sheet_262: 4404335261175935942
+      drillbot-Sheet_263: -7565867684642505164
+      drillbot-Sheet_264: 466020450616725393
+      drillbot-Sheet_265: -2947772841828164897
+      drillbot-Sheet_266: 7435347232058185858
+      drillbot-Sheet_267: 2345536689271611458
+      drillbot-Sheet_268: -7747858259519184924
+      drillbot-Sheet_269: -6697713922869195157
+      drillbot-Sheet_27: -1625033406326453234
+      drillbot-Sheet_270: -6994804729922282743
+      drillbot-Sheet_271: 9050814976531146810
+      drillbot-Sheet_272: -7791316406485884666
+      drillbot-Sheet_273: 4599972765434654764
+      drillbot-Sheet_274: -8159628879014319022
+      drillbot-Sheet_28: 5768720729044023270
+      drillbot-Sheet_29: 5375833090486192189
+      drillbot-Sheet_3: 4812485839106923192
+      drillbot-Sheet_30: 2388415666677624870
+      drillbot-Sheet_31: -3498853614288227347
+      drillbot-Sheet_32: -1966679501455254593
+      drillbot-Sheet_33: 6674165378977137957
+      drillbot-Sheet_34: 6265617493381676645
+      drillbot-Sheet_35: 8834302772970097622
+      drillbot-Sheet_36: -2251487573860794349
+      drillbot-Sheet_37: -7511609086370071242
+      drillbot-Sheet_38: -8164115159777860715
+      drillbot-Sheet_39: -2403463346418560547
+      drillbot-Sheet_4: 6094437113275985232
+      drillbot-Sheet_40: 5825996973269946735
+      drillbot-Sheet_41: 7591291752961321006
+      drillbot-Sheet_42: 3570712227144461797
+      drillbot-Sheet_43: 2360461488204791616
+      drillbot-Sheet_44: -908799200280693716
+      drillbot-Sheet_45: -4666429488297062239
+      drillbot-Sheet_46: 9042612583260119599
+      drillbot-Sheet_47: -6423145508548853633
+      drillbot-Sheet_48: 3364002244662288018
+      drillbot-Sheet_49: 6711257130187082802
+      drillbot-Sheet_5: 329133109582767650
+      drillbot-Sheet_50: -542430997314416538
+      drillbot-Sheet_51: -3128514733209009953
+      drillbot-Sheet_52: -7043128272355377545
+      drillbot-Sheet_53: -5993455569666237133
+      drillbot-Sheet_54: -3658993906233130387
+      drillbot-Sheet_55: 3232280182342672586
+      drillbot-Sheet_56: 3261968190892558771
+      drillbot-Sheet_57: 7601513125298244318
+      drillbot-Sheet_58: 3478326060628067405
+      drillbot-Sheet_59: -7677609512730739726
+      drillbot-Sheet_6: -1555640939303935327
+      drillbot-Sheet_60: 547049771833828362
+      drillbot-Sheet_61: -2686166612596711420
+      drillbot-Sheet_62: -7028572631899171637
+      drillbot-Sheet_63: 1163216375956795683
+      drillbot-Sheet_64: -1251969904752973513
+      drillbot-Sheet_65: -5029868276559758149
+      drillbot-Sheet_66: -6969022641384668565
+      drillbot-Sheet_67: 7112909292398444336
+      drillbot-Sheet_68: 3354874325753324476
+      drillbot-Sheet_69: 1339045500158342215
+      drillbot-Sheet_7: -2391431241525003735
+      drillbot-Sheet_70: -4925860669528653573
+      drillbot-Sheet_71: 2292434021253118965
+      drillbot-Sheet_72: -7418183484691182127
+      drillbot-Sheet_73: -521725291132260078
+      drillbot-Sheet_74: -3904284947628659346
+      drillbot-Sheet_75: -1311290470207214356
+      drillbot-Sheet_76: -5507092195206254856
+      drillbot-Sheet_77: -3111118756876313773
+      drillbot-Sheet_78: 105798998226646955
+      drillbot-Sheet_79: -6137363362376093794
+      drillbot-Sheet_8: -5086480098208937128
+      drillbot-Sheet_80: 144419378082528463
+      drillbot-Sheet_81: -6363275444088869789
+      drillbot-Sheet_82: 820752624225878278
+      drillbot-Sheet_83: 3138345952144341292
+      drillbot-Sheet_84: 6939478236718179826
+      drillbot-Sheet_85: 1079463630496060348
+      drillbot-Sheet_86: -2193708880972585625
+      drillbot-Sheet_87: 4287870834987399846
+      drillbot-Sheet_88: -8832004819620623240
+      drillbot-Sheet_89: -5746913981402046943
+      drillbot-Sheet_9: 5485317265626072126
+      drillbot-Sheet_90: 5515748498244059217
+      drillbot-Sheet_91: -8171501588489933692
+      drillbot-Sheet_92: 6302995972224552083
+      drillbot-Sheet_93: 7403741337842137136
+      drillbot-Sheet_94: 8705662464833705968
+      drillbot-Sheet_95: -8491054525028271355
+      drillbot-Sheet_96: -6227999635848485110
+      drillbot-Sheet_97: 6230352829417490307
+      drillbot-Sheet_98: 1376075359261642400
+      drillbot-Sheet_99: -8546131237557103215
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

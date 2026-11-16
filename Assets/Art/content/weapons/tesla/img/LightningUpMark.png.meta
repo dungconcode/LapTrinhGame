@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 305589e4bcb04f14daa107dfc957c79f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3642310640174183322
+    second: LightningUpMark_0
+  - first:
+      213: -2193962328754315720
+    second: LightningUpMark_1
+  - first:
+      213: -6626481761723787592
+    second: LightningUpMark_2
+  - first:
+      213: 2881648044598133256
+    second: LightningUpMark_3
+  - first:
+      213: 1591895237561578051
+    second: LightningUpMark_4
+  - first:
+      213: 6139027594690905720
+    second: LightningUpMark_5
+  - first:
+      213: 8143933620536506190
+    second: LightningUpMark_6
+  - first:
+      213: 9163692152500253548
+    second: LightningUpMark_7
+  - first:
+      213: 8899030915204727334
+    second: LightningUpMark_8
+  - first:
+      213: 2561710420014136914
+    second: LightningUpMark_9
+  - first:
+      213: -2728625247297936968
+    second: LightningUpMark_10
+  - first:
+      213: 3242455449203302223
+    second: LightningUpMark_11
+  - first:
+      213: -4290609837386964817
+    second: LightningUpMark_12
+  - first:
+      213: -8050661368075151905
+    second: LightningUpMark_13
+  - first:
+      213: 3314603309857229543
+    second: LightningUpMark_14
+  - first:
+      213: 2277749910693771036
+    second: LightningUpMark_15
+  - first:
+      213: -4990731736228197776
+    second: LightningUpMark_16
+  - first:
+      213: 6060305602769976465
+    second: LightningUpMark_17
+  - first:
+      213: -5788740349050466843
+    second: LightningUpMark_18
+  - first:
+      213: -1552685121129769115
+    second: LightningUpMark_19
+  - first:
+      213: 8300278769903991111
+    second: LightningUpMark_20
+  - first:
+      213: -5489075255285987446
+    second: LightningUpMark_21
+  - first:
+      213: -681585149849250790
+    second: LightningUpMark_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LightningUpMark_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 103
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ccac245c9e37dc0800000000000000
+      internalID: -3642310640174183322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 103
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e9208d2ea7d81e0800000000000000
+      internalID: -2193962328754315720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 109
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b659d142f10a04a0800000000000000
+      internalID: -6626481761723787592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 104
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80288f101abadf720800000000000000
+      internalID: 2881648044598133256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 101
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3427e7ac84c871610800000000000000
+      internalID: 1591895237561578051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 104
+        width: 75
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8764fd74215323550800000000000000
+      internalID: 6139027594690905720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_6
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 107
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47707eba70150170800000000000000
+      internalID: 8143933620536506190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_7
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 102
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63ffcc1679fb2f70800000000000000
+      internalID: 9163692152500253548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_8
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 104
+        width: 52
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6224ff1e775bf7b70800000000000000
+      internalID: 8899030915204727334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_9
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 103
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25efb52fd060d8320800000000000000
+      internalID: 2561710420014136914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_10
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 106
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1e4a16bc9f12ad0800000000000000
+      internalID: -2728625247297936968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_11
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 104
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fdac14d048ffc20800000000000000
+      internalID: 3242455449203302223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_12
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 104
+        width: 46
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0e0c4e511b474c0800000000000000
+      internalID: -4290609837386964817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_13
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 105
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd59be4d32e464090800000000000000
+      internalID: -8050661368075151905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_14
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 103
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eacf571626dffd20800000000000000
+      internalID: 3314603309857229543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_15
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 105
+        width: 57
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17741ac9713c9f10800000000000000
+      internalID: 2277749910693771036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 800
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a89dc8deb5dbab0800000000000000
+      internalID: -4990731736228197776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 800
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cf96b36d78a1450800000000000000
+      internalID: 6060305602769976465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 800
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed40e592534aafa0800000000000000
+      internalID: -5788740349050466843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 5
+        width: 325
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567960bdb11c37ae0800000000000000
+      internalID: -1552685121129769115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_20
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 25
+        width: 72
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749f7d08093803370800000000000000
+      internalID: 8300278769903991111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_21
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 25
+        width: 72
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87ca4f3323e2d3b0800000000000000
+      internalID: -5489075255285987446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningUpMark_22
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 7
+        width: 85
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14dd0bdae58a86f0800000000000000
+      internalID: -681585149849250790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LightningUpMark_0: -3642310640174183322
+      LightningUpMark_1: -2193962328754315720
+      LightningUpMark_10: -2728625247297936968
+      LightningUpMark_11: 3242455449203302223
+      LightningUpMark_12: -4290609837386964817
+      LightningUpMark_13: -8050661368075151905
+      LightningUpMark_14: 3314603309857229543
+      LightningUpMark_15: 2277749910693771036
+      LightningUpMark_16: -4990731736228197776
+      LightningUpMark_17: 6060305602769976465
+      LightningUpMark_18: -5788740349050466843
+      LightningUpMark_19: -1552685121129769115
+      LightningUpMark_2: -6626481761723787592
+      LightningUpMark_20: 8300278769903991111
+      LightningUpMark_21: -5489075255285987446
+      LightningUpMark_22: -681585149849250790
+      LightningUpMark_3: 2881648044598133256
+      LightningUpMark_4: 1591895237561578051
+      LightningUpMark_5: 6139027594690905720
+      LightningUpMark_6: 8143933620536506190
+      LightningUpMark_7: 9163692152500253548
+      LightningUpMark_8: 8899030915204727334
+      LightningUpMark_9: 2561710420014136914
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69a69e2769f1e824ab0134ac6690aa6d, type: 3}
+  m_Name: DefenseConfig
+  m_EditorClassIdentifier: 
+  baseHealth: 500
+  repairAmount: 100
+  baseHealthBonus: 100
+  rotationSpeed: 180
+  fireSeconds: 0.3
+  projectileSpeed: 22
+  projectileLifetime: 3
+  damageUpgrade: 0.25
+  rotationUpgrade: 0.2
+  hitRadius: 0.65
+  bossPatternSeconds: 6
+  bossChargeMultiplier: 3
+  bossSummonCount: 2
+  turretBoardingRadius: 1.5
+  turretBoardingOffset: {x: 0, y: -2}
+  enemies:
+  - kind: 0
+    health: 40
+    speed: 1
+    range: 2
+    attackSeconds: 1.5
+    damage: 8
+  - kind: 1
+    health: 25
+    speed: 2
+    range: 2
+    attackSeconds: 1.5
+    damage: 8
+  - kind: 2
+    health: 35
+    speed: 1
+    range: 8
+    attackSeconds: 1.5
+    damage: 8
+  - kind: 3
+    health: 1600
+    speed: 0.6
+    range: 4
+    attackSeconds: 1.5
+    damage: 25
+  ammo:
+  - artId: proj_normal
+    damage: 20
+    statusSeconds: 0
+    damagePerSecond: 0
+    speedMultiplier: 1
+    craftCost: 1
+    craftYield: 5
+  - artId: proj_acid
+    damage: 12
+    statusSeconds: 4
+    damagePerSecond: 8
+    speedMultiplier: 1
+    craftCost: 1
+    craftYield: 5
+  - artId: proj_fire
+    damage: 40
+    statusSeconds: 3
+    damagePerSecond: 5
+    speedMultiplier: 1
+    craftCost: 2
+    craftYield: 1
+  - artId: proj_ice
+    damage: 12
+    statusSeconds: 4
+    damagePerSecond: 0
+    speedMultiplier: 0.5
+    craftCost: 1
+    craftYield: 5

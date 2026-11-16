@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: e28a858009c5a0a4199a74c5e1768220
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6520760076757787078
+    second: direct-hit-flame_0
+  - first:
+      213: -2670194492544111305
+    second: direct-hit-flame_1
+  - first:
+      213: -5118845612248661799
+    second: direct-hit-flame_2
+  - first:
+      213: 5660646242602670991
+    second: direct-hit-flame_3
+  - first:
+      213: -6000649621609513368
+    second: direct-hit-flame_4
+  - first:
+      213: 7324578248046616949
+    second: direct-hit-flame_5
+  - first:
+      213: -2123535296723663252
+    second: direct-hit-flame_6
+  - first:
+      213: 6093159850247581534
+    second: direct-hit-flame_7
+  - first:
+      213: -8044088054267134296
+    second: direct-hit-flame_8
+  - first:
+      213: 1798039190177144455
+    second: direct-hit-flame_9
+  - first:
+      213: -5988957282185307983
+    second: direct-hit-flame_10
+  - first:
+      213: 2936081013207620211
+    second: direct-hit-flame_11
+  - first:
+      213: -9188961591217516408
+    second: direct-hit-flame_12
+  - first:
+      213: 9069643966957953899
+    second: direct-hit-flame_13
+  - first:
+      213: 1771176758123035266
+    second: direct-hit-flame_14
+  - first:
+      213: -1596146794458674854
+    second: direct-hit-flame_15
+  - first:
+      213: -2559527690223611827
+    second: direct-hit-flame_16
+  - first:
+      213: 1365886632176001020
+    second: direct-hit-flame_17
+  - first:
+      213: 42212095432775801
+    second: direct-hit-flame_18
+  - first:
+      213: 1492839547602661467
+    second: direct-hit-flame_19
+  - first:
+      213: 7655660721426904411
+    second: direct-hit-flame_20
+  - first:
+      213: 5608406188439340237
+    second: direct-hit-flame_21
+  - first:
+      213: -7465337650856280854
+    second: direct-hit-flame_22
+  - first:
+      213: 7273616622641235015
+    second: direct-hit-flame_23
+  - first:
+      213: 1998383263081194430
+    second: direct-hit-flame_24
+  - first:
+      213: 7758385939732493451
+    second: direct-hit-flame_25
+  - first:
+      213: 7864602624407384443
+    second: direct-hit-flame_26
+  - first:
+      213: 3435792833451920842
+    second: direct-hit-flame_27
+  - first:
+      213: 3456570666089518239
+    second: direct-hit-flame_28
+  - first:
+      213: -2415965187431300952
+    second: direct-hit-flame_29
+  - first:
+      213: 2207290543988535098
+    second: direct-hit-flame_30
+  - first:
+      213: -3589362958435704843
+    second: direct-hit-flame_31
+  - first:
+      213: 8479884151218361445
+    second: direct-hit-flame_32
+  - first:
+      213: 4002168799407239251
+    second: direct-hit-flame_33
+  - first:
+      213: -3457134838986032906
+    second: direct-hit-flame_34
+  - first:
+      213: -8866273133315350029
+    second: direct-hit-flame_35
+  - first:
+      213: 3578450736551306891
+    second: direct-hit-flame_36
+  - first:
+      213: -8454509645394394856
+    second: direct-hit-flame_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: direct-hit-flame_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 207
+        width: 49
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e9d47324b9185a0800000000000000
+      internalID: -6520760076757787078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 199
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d24be914091fad0800000000000000
+      internalID: -2670194492544111305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 196
+        width: 69
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d00ad5590536f8b0800000000000000
+      internalID: -5118845612248661799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 196
+        width: 78
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b5b7924c7ae8e40800000000000000
+      internalID: 5660646242602670991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_4
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 194
+        width: 95
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ef16246f869bca0800000000000000
+      internalID: -6000649621609513368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 157
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5712f5cfb1126a560800000000000000
+      internalID: 7324578248046616949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 136
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6648ca06efa782e0800000000000000
+      internalID: -2123535296723663252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 156
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5feda1d9904f8450800000000000000
+      internalID: 6093159850247581534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 138
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aeb177b888ad5090800000000000000
+      internalID: -8044088054267134296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 156
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e5db6fd1be3f810800000000000000
+      internalID: 1798039190177144455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_10
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 104
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b81b5c2513f2eca0800000000000000
+      internalID: -5988957282185307983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_11
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 182
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a5200202e0fb820800000000000000
+      internalID: 2936081013207620211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_12
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 158
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88095c43e104a7080800000000000000
+      internalID: -9188961591217516408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_13
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 112
+        width: 62
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b632bc98229dddd70800000000000000
+      internalID: 9069643966957953899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_14
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 125
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28af95e90eb749810800000000000000
+      internalID: 1771176758123035266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_15
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 163
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5989ea72f859d9e0800000000000000
+      internalID: -1596146794458674854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_16
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 164
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40127f602bba7cd0800000000000000
+      internalID: -2559527690223611827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_17
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 158
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff1e4ab7aa94f210800000000000000
+      internalID: 1365886632176001020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_18
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 149
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978de795da7f59000800000000000000
+      internalID: 42212095432775801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_19
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50f28db8a1a7b410800000000000000
+      internalID: 1492839547602661467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_20
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 101
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55bf8d5dde5e3a60800000000000000
+      internalID: 7655660721426904411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 113
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4870ab6bf05dd40800000000000000
+      internalID: 5608406188439340237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_22
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 103
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecbc58a5fac56890800000000000000
+      internalID: -7465337650856280854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 113
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74448e0f7c311f460800000000000000
+      internalID: 7273616622641235015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_24
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 114
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb36a096dfeabbb10800000000000000
+      internalID: 1998383263081194430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_25
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 114
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84f32018e25bab60800000000000000
+      internalID: 7758385939732493451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_26
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 119
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71386f1b6ea42d60800000000000000
+      internalID: 7864602624407384443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_27
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 114
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd0cbfd0636eaf20800000000000000
+      internalID: 3435792833451920842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_28
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 120
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f941d4505b438ff20800000000000000
+      internalID: 3456570666089518239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_29
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0827d5674c87ed0800000000000000
+      internalID: -2415965187431300952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_30
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 28
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fe3861e0fd1ae10800000000000000
+      internalID: 2207290543988535098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_31
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 99
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff9e741865003ec0800000000000000
+      internalID: -3589362958435704843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_32
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 28
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564d5d905b99ea570800000000000000
+      internalID: 8479884151218361445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_33
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 100
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350f1d3915f8a8730800000000000000
+      internalID: 4002168799407239251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_34
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 29
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f83c9d3e2ac500d0800000000000000
+      internalID: -3457134838986032906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_35
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 100
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1262f8f8ba4f480800000000000000
+      internalID: -8866273133315350029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_36
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 60
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8620664cf539a130800000000000000
+      internalID: 3578450736551306891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: direct-hit-flame_37
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 75
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811472c754c8baa80800000000000000
+      internalID: -8454509645394394856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      direct-hit-flame_0: -6520760076757787078
+      direct-hit-flame_1: -2670194492544111305
+      direct-hit-flame_10: -5988957282185307983
+      direct-hit-flame_11: 2936081013207620211
+      direct-hit-flame_12: -9188961591217516408
+      direct-hit-flame_13: 9069643966957953899
+      direct-hit-flame_14: 1771176758123035266
+      direct-hit-flame_15: -1596146794458674854
+      direct-hit-flame_16: -2559527690223611827
+      direct-hit-flame_17: 1365886632176001020
+      direct-hit-flame_18: 42212095432775801
+      direct-hit-flame_19: 1492839547602661467
+      direct-hit-flame_2: -5118845612248661799
+      direct-hit-flame_20: 7655660721426904411
+      direct-hit-flame_21: 5608406188439340237
+      direct-hit-flame_22: -7465337650856280854
+      direct-hit-flame_23: 7273616622641235015
+      direct-hit-flame_24: 1998383263081194430
+      direct-hit-flame_25: 7758385939732493451
+      direct-hit-flame_26: 7864602624407384443
+      direct-hit-flame_27: 3435792833451920842
+      direct-hit-flame_28: 3456570666089518239
+      direct-hit-flame_29: -2415965187431300952
+      direct-hit-flame_3: 5660646242602670991
+      direct-hit-flame_30: 2207290543988535098
+      direct-hit-flame_31: -3589362958435704843
+      direct-hit-flame_32: 8479884151218361445
+      direct-hit-flame_33: 4002168799407239251
+      direct-hit-flame_34: -3457134838986032906
+      direct-hit-flame_35: -8866273133315350029
+      direct-hit-flame_36: 3578450736551306891
+      direct-hit-flame_37: -8454509645394394856
+      direct-hit-flame_4: -6000649621609513368
+      direct-hit-flame_5: 7324578248046616949
+      direct-hit-flame_6: -2123535296723663252
+      direct-hit-flame_7: 6093159850247581534
+      direct-hit-flame_8: -8044088054267134296
+      direct-hit-flame_9: 1798039190177144455
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

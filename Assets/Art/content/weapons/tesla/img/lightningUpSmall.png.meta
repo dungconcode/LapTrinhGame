@@ -1,0 +1,3055 @@
+fileFormatVersion: 2
+guid: be357953037fefd4098958555edfe1d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8705078408295131640
+    second: lightningUpSmall_0
+  - first:
+      213: -4543734656334526180
+    second: lightningUpSmall_1
+  - first:
+      213: -8586688015840869701
+    second: lightningUpSmall_2
+  - first:
+      213: -5506818063248642523
+    second: lightningUpSmall_3
+  - first:
+      213: 5403049307766559477
+    second: lightningUpSmall_4
+  - first:
+      213: 3082928622589436312
+    second: lightningUpSmall_5
+  - first:
+      213: -8412231456056356233
+    second: lightningUpSmall_6
+  - first:
+      213: 1939293711018497152
+    second: lightningUpSmall_7
+  - first:
+      213: 1173714570734673794
+    second: lightningUpSmall_8
+  - first:
+      213: -448172904094617406
+    second: lightningUpSmall_9
+  - first:
+      213: -2322493698343760255
+    second: lightningUpSmall_10
+  - first:
+      213: 8983583283195191394
+    second: lightningUpSmall_11
+  - first:
+      213: -8327186615542867655
+    second: lightningUpSmall_12
+  - first:
+      213: 9199973657125404170
+    second: lightningUpSmall_13
+  - first:
+      213: 7140426632462732037
+    second: lightningUpSmall_14
+  - first:
+      213: 2527444980087089981
+    second: lightningUpSmall_15
+  - first:
+      213: -8876666478959177539
+    second: lightningUpSmall_16
+  - first:
+      213: 3289734243251208642
+    second: lightningUpSmall_17
+  - first:
+      213: -1902432802674342290
+    second: lightningUpSmall_18
+  - first:
+      213: 1949039129852402350
+    second: lightningUpSmall_19
+  - first:
+      213: -4362398279749423327
+    second: lightningUpSmall_20
+  - first:
+      213: -5029694600560923572
+    second: lightningUpSmall_21
+  - first:
+      213: -3356497876380257690
+    second: lightningUpSmall_22
+  - first:
+      213: -8735581261319588689
+    second: lightningUpSmall_23
+  - first:
+      213: 5212634858786099804
+    second: lightningUpSmall_24
+  - first:
+      213: 3865474695136891966
+    second: lightningUpSmall_25
+  - first:
+      213: 8405492177452695199
+    second: lightningUpSmall_26
+  - first:
+      213: 6179576685712590185
+    second: lightningUpSmall_27
+  - first:
+      213: -6622032403191833968
+    second: lightningUpSmall_28
+  - first:
+      213: -7804212284893825230
+    second: lightningUpSmall_29
+  - first:
+      213: -5871041947735602994
+    second: lightningUpSmall_30
+  - first:
+      213: 7062577395275692017
+    second: lightningUpSmall_31
+  - first:
+      213: -4270196566066040595
+    second: lightningUpSmall_32
+  - first:
+      213: 3051163004325971182
+    second: lightningUpSmall_33
+  - first:
+      213: 8629505236669513293
+    second: lightningUpSmall_34
+  - first:
+      213: -3977468815290211274
+    second: lightningUpSmall_35
+  - first:
+      213: 6106018622099924616
+    second: lightningUpSmall_36
+  - first:
+      213: -7426721809863455903
+    second: lightningUpSmall_37
+  - first:
+      213: 7388608222211978106
+    second: lightningUpSmall_38
+  - first:
+      213: 295206857750503213
+    second: lightningUpSmall_39
+  - first:
+      213: -5156468137474103425
+    second: lightningUpSmall_40
+  - first:
+      213: 297041269595235768
+    second: lightningUpSmall_41
+  - first:
+      213: 8691040591543466689
+    second: lightningUpSmall_42
+  - first:
+      213: -9110490950631319400
+    second: lightningUpSmall_43
+  - first:
+      213: 6517193176408749253
+    second: lightningUpSmall_44
+  - first:
+      213: -4482928151261179252
+    second: lightningUpSmall_45
+  - first:
+      213: -3266005404753603864
+    second: lightningUpSmall_46
+  - first:
+      213: -3279810674611913156
+    second: lightningUpSmall_47
+  - first:
+      213: 1706166494686350463
+    second: lightningUpSmall_48
+  - first:
+      213: -7573404731669720860
+    second: lightningUpSmall_49
+  - first:
+      213: 8714222360114925281
+    second: lightningUpSmall_50
+  - first:
+      213: 1856768982411673276
+    second: lightningUpSmall_51
+  - first:
+      213: -3725121400098613673
+    second: lightningUpSmall_52
+  - first:
+      213: 7212026174795345306
+    second: lightningUpSmall_53
+  - first:
+      213: -4516192563865739128
+    second: lightningUpSmall_54
+  - first:
+      213: 6037369507335737177
+    second: lightningUpSmall_55
+  - first:
+      213: 4890139244949329615
+    second: lightningUpSmall_56
+  - first:
+      213: -8843149299135768056
+    second: lightningUpSmall_57
+  - first:
+      213: -5606538863628245057
+    second: lightningUpSmall_58
+  - first:
+      213: -4476864503247889187
+    second: lightningUpSmall_59
+  - first:
+      213: 8808623629167136495
+    second: lightningUpSmall_60
+  - first:
+      213: -6117210306206127451
+    second: lightningUpSmall_61
+  - first:
+      213: -1107039814090173199
+    second: lightningUpSmall_62
+  - first:
+      213: 5300943068887952912
+    second: lightningUpSmall_63
+  - first:
+      213: 2962316298365793535
+    second: lightningUpSmall_64
+  - first:
+      213: 8468709428112425737
+    second: lightningUpSmall_65
+  - first:
+      213: 2616118211266319553
+    second: lightningUpSmall_66
+  - first:
+      213: -8112026800090847935
+    second: lightningUpSmall_67
+  - first:
+      213: 1835817431526047590
+    second: lightningUpSmall_68
+  - first:
+      213: -4984106989469092198
+    second: lightningUpSmall_69
+  - first:
+      213: -3337769537075713220
+    second: lightningUpSmall_70
+  - first:
+      213: 5396229548630214197
+    second: lightningUpSmall_71
+  - first:
+      213: 3762059276369120708
+    second: lightningUpSmall_72
+  - first:
+      213: -3620419544001829459
+    second: lightningUpSmall_73
+  - first:
+      213: 1498339984746299560
+    second: lightningUpSmall_74
+  - first:
+      213: -3763628717226589456
+    second: lightningUpSmall_75
+  - first:
+      213: -7332957466299762776
+    second: lightningUpSmall_76
+  - first:
+      213: 7657558431157205521
+    second: lightningUpSmall_77
+  - first:
+      213: 5602044536387019005
+    second: lightningUpSmall_78
+  - first:
+      213: -53743501056834406
+    second: lightningUpSmall_79
+  - first:
+      213: -3145972303253613800
+    second: lightningUpSmall_80
+  - first:
+      213: 8784289704205387002
+    second: lightningUpSmall_81
+  - first:
+      213: -3103556906948042379
+    second: lightningUpSmall_82
+  - first:
+      213: -8410466514267137540
+    second: lightningUpSmall_83
+  - first:
+      213: 9201293711834251817
+    second: lightningUpSmall_84
+  - first:
+      213: -764878493796688068
+    second: lightningUpSmall_85
+  - first:
+      213: 4552922338931178078
+    second: lightningUpSmall_86
+  - first:
+      213: -2560982410333649381
+    second: lightningUpSmall_87
+  - first:
+      213: -7640949504588568886
+    second: lightningUpSmall_88
+  - first:
+      213: 5913750723934258376
+    second: lightningUpSmall_89
+  - first:
+      213: 1709838459289953462
+    second: lightningUpSmall_90
+  - first:
+      213: -1598768890684897030
+    second: lightningUpSmall_91
+  - first:
+      213: 4933663610750293676
+    second: lightningUpSmall_92
+  - first:
+      213: 218446534137881845
+    second: lightningUpSmall_93
+  - first:
+      213: -2947127159526862555
+    second: lightningUpSmall_94
+  - first:
+      213: -1091552465484993596
+    second: lightningUpSmall_95
+  - first:
+      213: 4216096852031870984
+    second: lightningUpSmall_96
+  - first:
+      213: -518710576901674244
+    second: lightningUpSmall_97
+  - first:
+      213: -5118698510769684941
+    second: lightningUpSmall_98
+  - first:
+      213: -3507722339178880742
+    second: lightningUpSmall_99
+  - first:
+      213: -8701264701443100455
+    second: lightningUpSmall_100
+  - first:
+      213: -7708053982116748660
+    second: lightningUpSmall_101
+  - first:
+      213: 1278992034340597008
+    second: lightningUpSmall_102
+  - first:
+      213: -6931929572088037200
+    second: lightningUpSmall_103
+  - first:
+      213: 4258973033482624713
+    second: lightningUpSmall_104
+  - first:
+      213: 7191217325538114248
+    second: lightningUpSmall_105
+  - first:
+      213: -8416435512649354542
+    second: lightningUpSmall_106
+  - first:
+      213: 30453052486730292
+    second: lightningUpSmall_107
+  - first:
+      213: 5230034788615862102
+    second: lightningUpSmall_108
+  - first:
+      213: 6545117206436023361
+    second: lightningUpSmall_109
+  - first:
+      213: -6903278313532574689
+    second: lightningUpSmall_110
+  - first:
+      213: 1884871710687257810
+    second: lightningUpSmall_111
+  - first:
+      213: 1834739355816927034
+    second: lightningUpSmall_112
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lightningUpSmall_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80655a32f49513780800000000000000
+      internalID: -8705078408295131640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 107
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c198c8f576961f0c0800000000000000
+      internalID: -4543734656334526180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 82
+        width: 133
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb283ba6eb4f5d880800000000000000
+      internalID: -8586688015840869701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 104
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e2c59d52ad393b0800000000000000
+      internalID: -5506818063248642523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 103
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2985508bc7bfa40800000000000000
+      internalID: 5403049307766559477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_5
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 106
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891e3598f33c8ca20800000000000000
+      internalID: 3082928622589436312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_6
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 85
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772d4658f00c14b80800000000000000
+      internalID: -8412231456056356233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_7
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 105
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0841868fa51c9ea10800000000000000
+      internalID: 1939293711018497152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_8
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 82
+        width: 347
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f1758fe2fd94010800000000000000
+      internalID: 1173714570734673794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_9
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 106
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c03c754e15c7c9f0800000000000000
+      internalID: -448172904094617406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_10
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 102
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e03255948d4cfd0800000000000000
+      internalID: -2322493698343760255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_11
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 104
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260acf426691cac70800000000000000
+      internalID: 8983583283195191394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_12
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 105
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9391e2a74e3ef6c80800000000000000
+      internalID: -8327186615542867655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_13
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 104
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e39ef2c4fdcaf70800000000000000
+      internalID: 9199973657125404170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_14
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 107
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b0eacc034e71360800000000000000
+      internalID: 7140426632462732037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_15
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 107
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b6f6381d9431320800000000000000
+      internalID: 2527444980087089981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_16
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 85
+        width: 46
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db055043edebfc480800000000000000
+      internalID: -8876666478959177539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_17
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 84
+        width: 55
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c14d6e4ddb77ad20800000000000000
+      internalID: 3289734243251208642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_18
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 85
+        width: 54
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e668b8b02733995e0800000000000000
+      internalID: -1902432802674342290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_19
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 84
+        width: 55
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa503c13c06c0b10800000000000000
+      internalID: 1949039129852402350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 45
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12fa2c6a0e5a573c0800000000000000
+      internalID: -4362398279749423327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_21
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 64
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cadd4c86fe23ab0800000000000000
+      internalID: -5029694600560923572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_22
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 64
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662700507f25b61d0800000000000000
+      internalID: -3356497876380257690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_23
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 62
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4bc7c302bf4c680800000000000000
+      internalID: -8735581261319588689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_24
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 63
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5293cd49cff65840800000000000000
+      internalID: 5212634858786099804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 63
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3455eb41cce4a530800000000000000
+      internalID: 3865474695136891966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_26
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 62
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e7467e99e46a470800000000000000
+      internalID: 8405492177452695199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9654f2e314442c550800000000000000
+      internalID: 6179576685712590185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_28
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 65
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09adf944d90d914a0800000000000000
+      internalID: -6622032403191833968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_29
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 64
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237f92f764ed1b390800000000000000
+      internalID: -7804212284893825230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_30
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 63
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec84dc3647ed58ea0800000000000000
+      internalID: -5871041947735602994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_31
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 65
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f77c1cc8b0530260800000000000000
+      internalID: 7062577395275692017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_32
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 63
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de07a8ef8d63db4c0800000000000000
+      internalID: -4270196566066040595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_33
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4c9a03698e75a20800000000000000
+      internalID: 3051163004325971182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_34
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 66
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e3f0baa4922c770800000000000000
+      internalID: 8629505236669513293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_35
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 65
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634ee6f9f213dc8c0800000000000000
+      internalID: -3977468815290211274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_36
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 64
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886af22f59fecb450800000000000000
+      internalID: 6106018622099924616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_37
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 64
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b4175ccdbfee890800000000000000
+      internalID: -7426721809863455903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_38
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 64
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73b975180c998660800000000000000
+      internalID: 7388608222211978106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_39
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 63
+        width: 41
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f5a73b219c81400800000000000000
+      internalID: 295206857750503213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_40
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 63
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f776c329c8b8078b0800000000000000
+      internalID: -5156468137474103425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_41
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 62
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5eaddf57d4f1400800000000000000
+      internalID: 297041269595235768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_42
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 64
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1caf273fe57cc9870800000000000000
+      internalID: 8691040591543466689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_43
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 64
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8989536ffb8019180800000000000000
+      internalID: -9110490950631319400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_44
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 65
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c471741aa8b17a50800000000000000
+      internalID: 6517193176408749253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_45
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 64
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c829a76199079c1c0800000000000000
+      internalID: -4482928151261179252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_46
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 65
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2d72f6361dca2d0800000000000000
+      internalID: -3266005404753603864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_47
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 63
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ef8319195cb72d0800000000000000
+      internalID: -3279810674611913156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_48
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 64
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c047323658da710800000000000000
+      internalID: 1706166494686350463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_49
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 64
+        width: 43
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0509ca58cd5e690800000000000000
+      internalID: -7573404731669720860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee8a6c01132fe870800000000000000
+      internalID: 8714222360114925281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_51
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 47
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe7c9a4d8194c910800000000000000
+      internalID: 1856768982411673276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_52
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 41
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7569ae9b2d5bd4cc0800000000000000
+      internalID: -3725121400098613673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_53
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 45
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9dee735893461460800000000000000
+      internalID: 7212026174795345306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_54
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 45
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880a58d7ac24351c0800000000000000
+      internalID: -4516192563865739128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_55
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 43
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f858e549b09c350800000000000000
+      internalID: 6037369507335737177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_56
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 45
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6d665fbb34dd340800000000000000
+      internalID: 4890139244949329615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_57
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 43
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a9441c092d64580800000000000000
+      internalID: -8843149299135768056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_58
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 46
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb72406bb929132b0800000000000000
+      internalID: -5606538863628245057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_59
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 25
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc9a58247bfed1c0800000000000000
+      internalID: -4476864503247889187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_60
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 45
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee8e9845848e3a70800000000000000
+      internalID: 8808623629167136495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_61
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 44
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aaa93a03ad4b1ba0800000000000000
+      internalID: -6117210306206127451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_62
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 25
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4d0f8872103a0f0800000000000000
+      internalID: -1107039814090173199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_63
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 42
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ea2a3b2abb09940800000000000000
+      internalID: 5300943068887952912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_64
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 45
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff471747af24c1920800000000000000
+      internalID: 2962316298365793535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_65
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 44
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90384a01b56e68570800000000000000
+      internalID: 8468709428112425737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_66
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 45
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c495f007a15e4420800000000000000
+      internalID: 2616118211266319553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_67
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 29
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145e22cca9a4c6f80800000000000000
+      internalID: -8112026800090847935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_68
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 45
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f74963a322a7910800000000000000
+      internalID: 1835817431526047590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_69
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 45
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96372a9915e4dab0800000000000000
+      internalID: -4984106989469092198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_70
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 43
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b6b705a4cdda1d0800000000000000
+      internalID: -3337769537075713220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_71
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 44
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536029c1f2243ea40800000000000000
+      internalID: 5396229548630214197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_72
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 41
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdc1f7caf4853430800000000000000
+      internalID: 3762059276369120708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_73
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 43
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5a3e54b9fa1cdc0800000000000000
+      internalID: -3620419544001829459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_74
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 42
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0419f074c2bc410800000000000000
+      internalID: 1498339984746299560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_75
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 45
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2004b4f97e4cbc0800000000000000
+      internalID: -3763628717226589456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_76
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 47
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7772c390a1c3a90800000000000000
+      internalID: -7332957466299762776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_77
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 44
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a3ce752dc154a60800000000000000
+      internalID: 7657558431157205521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_78
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 45
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0244f23d57ebd40800000000000000
+      internalID: 5602044536387019005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_79
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 43
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94858e0290114ff0800000000000000
+      internalID: -53743501056834406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_80
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 47
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813d957bbd24754d0800000000000000
+      internalID: -3145972303253613800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_81
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 43
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4884fd1f018e970800000000000000
+      internalID: 8784289704205387002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_82
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 7
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571e62dbf63fde4d0800000000000000
+      internalID: -3103556906948042379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_83
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 6
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf91acd0445084b80800000000000000
+      internalID: -8410466514267137540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_84
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 26
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9228aef51ef81bf70800000000000000
+      internalID: 9201293711834251817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_85
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 24
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f99e8ff0b9265f0800000000000000
+      internalID: -764878493796688068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_86
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 7
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5afeedaeba3f2f30800000000000000
+      internalID: 4552922338931178078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_87
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b160a040110957cd0800000000000000
+      internalID: -2560982410333649381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_88
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 11
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac62d48b8e4e5f590800000000000000
+      internalID: -7640949504588568886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_89
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 25
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c48f4673fcd11250800000000000000
+      internalID: 5913750723934258376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_90
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 6
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4674505019ab710800000000000000
+      internalID: 1709838459289953462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_91
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 27
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af808c02a2800d9e0800000000000000
+      internalID: -1598768890684897030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_92
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 21
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6da001ae4e77440800000000000000
+      internalID: 4933663610750293676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_93
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 28
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f424b527f3180300800000000000000
+      internalID: 218446534137881845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_94
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 6
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521de748673b917d0800000000000000
+      internalID: -2947127159526862555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_95
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 5
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cba011e0d60ad0f0800000000000000
+      internalID: -1091552465484993596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_96
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 24
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8089004cfb5928a30800000000000000
+      internalID: 4216096852031870984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_97
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 25
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaa9828a7b2dc8f0800000000000000
+      internalID: -518710576901674244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_98
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 23
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e704113dab6f8b0800000000000000
+      internalID: -5118698510769684941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_99
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 3
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a116a820e11125fc0800000000000000
+      internalID: -3507722339178880742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_100
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0b6d5fad5ee3780800000000000000
+      internalID: -8701264701443100455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_101
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 5
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8265660ebd770590800000000000000
+      internalID: -7708053982116748660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_102
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01dec659a74efb110800000000000000
+      internalID: 1278992034340597008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_103
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 5
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0caa7f7c6dccf90800000000000000
+      internalID: -6931929572088037200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_104
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce13b0b869ea1b30800000000000000
+      internalID: 4258973033482624713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_105
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 26
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca755f8e065cc360800000000000000
+      internalID: 7191217325538114248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_106
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 7
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d27d815e70d23b80800000000000000
+      internalID: -8416435512649354542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_107
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4324ccfc3e03c6000800000000000000
+      internalID: 30453052486730292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_108
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 25
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657326a2ee0d49840800000000000000
+      internalID: 5230034788615862102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_109
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 7
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c8ae6fb6de4da50800000000000000
+      internalID: 6545117206436023361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_110
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 5
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14bb30f2f0a230a0800000000000000
+      internalID: -6903278313532574689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_111
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 4
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d462ba95d8682a10800000000000000
+      internalID: 1884871710687257810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningUpSmall_112
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 5
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f95e629bd467910800000000000000
+      internalID: 1834739355816927034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lightningUpSmall_0: -8705078408295131640
+      lightningUpSmall_1: -4543734656334526180
+      lightningUpSmall_10: -2322493698343760255
+      lightningUpSmall_100: -8701264701443100455
+      lightningUpSmall_101: -7708053982116748660
+      lightningUpSmall_102: 1278992034340597008
+      lightningUpSmall_103: -6931929572088037200
+      lightningUpSmall_104: 4258973033482624713
+      lightningUpSmall_105: 7191217325538114248
+      lightningUpSmall_106: -8416435512649354542
+      lightningUpSmall_107: 30453052486730292
+      lightningUpSmall_108: 5230034788615862102
+      lightningUpSmall_109: 6545117206436023361
+      lightningUpSmall_11: 8983583283195191394
+      lightningUpSmall_110: -6903278313532574689
+      lightningUpSmall_111: 1884871710687257810
+      lightningUpSmall_112: 1834739355816927034
+      lightningUpSmall_12: -8327186615542867655
+      lightningUpSmall_13: 9199973657125404170
+      lightningUpSmall_14: 7140426632462732037
+      lightningUpSmall_15: 2527444980087089981
+      lightningUpSmall_16: -8876666478959177539
+      lightningUpSmall_17: 3289734243251208642
+      lightningUpSmall_18: -1902432802674342290
+      lightningUpSmall_19: 1949039129852402350
+      lightningUpSmall_2: -8586688015840869701
+      lightningUpSmall_20: -4362398279749423327
+      lightningUpSmall_21: -5029694600560923572
+      lightningUpSmall_22: -3356497876380257690
+      lightningUpSmall_23: -8735581261319588689
+      lightningUpSmall_24: 5212634858786099804
+      lightningUpSmall_25: 3865474695136891966
+      lightningUpSmall_26: 8405492177452695199
+      lightningUpSmall_27: 6179576685712590185
+      lightningUpSmall_28: -6622032403191833968
+      lightningUpSmall_29: -7804212284893825230
+      lightningUpSmall_3: -5506818063248642523
+      lightningUpSmall_30: -5871041947735602994
+      lightningUpSmall_31: 7062577395275692017
+      lightningUpSmall_32: -4270196566066040595
+      lightningUpSmall_33: 3051163004325971182
+      lightningUpSmall_34: 8629505236669513293
+      lightningUpSmall_35: -3977468815290211274
+      lightningUpSmall_36: 6106018622099924616
+      lightningUpSmall_37: -7426721809863455903
+      lightningUpSmall_38: 7388608222211978106
+      lightningUpSmall_39: 295206857750503213
+      lightningUpSmall_4: 5403049307766559477
+      lightningUpSmall_40: -5156468137474103425
+      lightningUpSmall_41: 297041269595235768
+      lightningUpSmall_42: 8691040591543466689
+      lightningUpSmall_43: -9110490950631319400
+      lightningUpSmall_44: 6517193176408749253
+      lightningUpSmall_45: -4482928151261179252
+      lightningUpSmall_46: -3266005404753603864
+      lightningUpSmall_47: -3279810674611913156
+      lightningUpSmall_48: 1706166494686350463
+      lightningUpSmall_49: -7573404731669720860
+      lightningUpSmall_5: 3082928622589436312
+      lightningUpSmall_50: 8714222360114925281
+      lightningUpSmall_51: 1856768982411673276
+      lightningUpSmall_52: -3725121400098613673
+      lightningUpSmall_53: 7212026174795345306
+      lightningUpSmall_54: -4516192563865739128
+      lightningUpSmall_55: 6037369507335737177
+      lightningUpSmall_56: 4890139244949329615
+      lightningUpSmall_57: -8843149299135768056
+      lightningUpSmall_58: -5606538863628245057
+      lightningUpSmall_59: -4476864503247889187
+      lightningUpSmall_6: -8412231456056356233
+      lightningUpSmall_60: 8808623629167136495
+      lightningUpSmall_61: -6117210306206127451
+      lightningUpSmall_62: -1107039814090173199
+      lightningUpSmall_63: 5300943068887952912
+      lightningUpSmall_64: 2962316298365793535
+      lightningUpSmall_65: 8468709428112425737
+      lightningUpSmall_66: 2616118211266319553
+      lightningUpSmall_67: -8112026800090847935
+      lightningUpSmall_68: 1835817431526047590
+      lightningUpSmall_69: -4984106989469092198
+      lightningUpSmall_7: 1939293711018497152
+      lightningUpSmall_70: -3337769537075713220
+      lightningUpSmall_71: 5396229548630214197
+      lightningUpSmall_72: 3762059276369120708
+      lightningUpSmall_73: -3620419544001829459
+      lightningUpSmall_74: 1498339984746299560
+      lightningUpSmall_75: -3763628717226589456
+      lightningUpSmall_76: -7332957466299762776
+      lightningUpSmall_77: 7657558431157205521
+      lightningUpSmall_78: 5602044536387019005
+      lightningUpSmall_79: -53743501056834406
+      lightningUpSmall_8: 1173714570734673794
+      lightningUpSmall_80: -3145972303253613800
+      lightningUpSmall_81: 8784289704205387002
+      lightningUpSmall_82: -3103556906948042379
+      lightningUpSmall_83: -8410466514267137540
+      lightningUpSmall_84: 9201293711834251817
+      lightningUpSmall_85: -764878493796688068
+      lightningUpSmall_86: 4552922338931178078
+      lightningUpSmall_87: -2560982410333649381
+      lightningUpSmall_88: -7640949504588568886
+      lightningUpSmall_89: 5913750723934258376
+      lightningUpSmall_9: -448172904094617406
+      lightningUpSmall_90: 1709838459289953462
+      lightningUpSmall_91: -1598768890684897030
+      lightningUpSmall_92: 4933663610750293676
+      lightningUpSmall_93: 218446534137881845
+      lightningUpSmall_94: -2947127159526862555
+      lightningUpSmall_95: -1091552465484993596
+      lightningUpSmall_96: 4216096852031870984
+      lightningUpSmall_97: -518710576901674244
+      lightningUpSmall_98: -5118698510769684941
+      lightningUpSmall_99: -3507722339178880742
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
