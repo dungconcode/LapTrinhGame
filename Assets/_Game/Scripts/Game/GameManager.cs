@@ -60,6 +60,14 @@ namespace Underlab.Game
         private void Finish(GamePhase result) { spawner.Stop(); SetPhase(result); Time.timeScale = 0; }
         private void SetPhase(GamePhase phase) { Phase = phase; GameEvents.RaisePhaseChanged(phase); }
         public void TogglePause() { Paused = !Paused; Time.timeScale = Paused ? 0 : 1; AudioListener.pause = Paused; }
-        public void Restart() { Time.timeScale = 1; SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); }
+        public void Restart()
+        {
+            Time.timeScale = 1; AudioListener.pause = false;
+#if UNITY_EDITOR
+            UnityEditor.SceneManagement.EditorSceneManager.LoadSceneInPlayMode(SceneManager.GetActiveScene().path, new LoadSceneParameters(LoadSceneMode.Single));
+#else
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+#endif
+        }
     }
 }
