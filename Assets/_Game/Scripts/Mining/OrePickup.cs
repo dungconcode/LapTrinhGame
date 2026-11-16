@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using Underlab.Art;
 using Underlab.Core;
@@ -17,6 +18,25 @@ namespace Underlab.Mining
 
         private float pickupAt;
         private bool collected;
+        private Collider2D col;
+
+        // Mọi cục quặng đang có trong map — để áp lại "bỏ va chạm với player".
+        private static readonly HashSet<OrePickup> All = new HashSet<OrePickup>();
+
+        /// <summary>
+        /// Bỏ va chạm giữa mọi cục quặng và collider này.
+        /// Phải gọi lại mỗi khi player được bật lại: Unity tự xoá IgnoreCollision khi collider bị tắt
+        /// (vd lên/xuống pháo của Dev B tắt/bật Player).
+        /// </summary>
+        public static void IgnoreAll(Collider2D other)
+        {
+            if (other == null) return;
+            foreach (var ore in All)
+                if (ore != null && ore.col != null) Physics2D.IgnoreCollision(ore.col, other, true);
+        }
+
+        private void OnEnable() => All.Add(this);
+        private void OnDisable() => All.Remove(this);
         private Transform waitLeave;   // quặng do player tự vứt: chờ player đi xa rồi mới cho nhặt lại
         private float leaveDistance;
 
@@ -64,6 +84,7 @@ namespace Underlab.Mining
             if (ignore != null) Physics2D.IgnoreCollision(col, ignore);
 
             var p = go.AddComponent<OrePickup>();
+            p.col = col;
             p.Type = type;
             p.Amount = Mathf.Max(1, amount);
             p.pickupAt = Time.time + pickupDelay;

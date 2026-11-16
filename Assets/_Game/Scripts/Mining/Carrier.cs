@@ -40,16 +40,21 @@ namespace Underlab.Mining
         private readonly List<Collider2D> nearby = new List<Collider2D>();
         private ContactFilter2D filter;
         private PlayerController player;
+        private Collider2D playerCollider;
         private float capacityBonus;
 
         private void Awake()
         {
             player = GetComponent<PlayerController>();
+            playerCollider = GetComponent<Collider2D>();
             filter = new ContactFilter2D { useTriggers = true };
             filter.NoFilter();
         }
 
         private void Start() => Refresh();
+
+        // Player vừa được bật lại (vd xuống khỏi pháo) => Unity đã xoá IgnoreCollision cũ, áp lại.
+        private void OnEnable() => OrePickup.IgnoreAll(GetComponent<Collider2D>());
 
         public int Get(ResourceType t) => items.TryGetValue(t, out var n) ? n : 0;
 
@@ -99,7 +104,10 @@ namespace Underlab.Mining
 
             foreach (var col in nearby)
             {
-                if (col == null || !col.TryGetComponent<OrePickup>(out var ore) || !ore.CanPickup) continue;
+                if (col == null || !col.TryGetComponent<OrePickup>(out var ore)) continue;
+                // Chốt chặn: quặng ở gần thì luôn không va chạm với player (kể cả quặng chưa nhặt được).
+                if (playerCollider != null) Physics2D.IgnoreCollision(col, playerCollider, true);
+                if (!ore.CanPickup) continue;
                 if (!CanCarry(ore.Type)) continue;
 
                 Vector2 to = center - (Vector2)ore.transform.position;

@@ -39,7 +39,7 @@ namespace Underlab.Mining
         public float magnetRadius = 1.6f;
         public float magnetSpeed = 4.5f;
         [Tooltip("Khoảng cách coi như đã nhặt")]
-        public float collectRadius = 0.45f;
+        public float collectRadius = 0.6f;
 
         public float WeightOf(ResourceType t)
         {
