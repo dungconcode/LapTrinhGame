@@ -124,6 +124,15 @@ namespace Underlab.EditorTools.Mining
             Set(follow, "target", player.transform);
             Set(follow, "terrain", gen);
 
+            // Nền parallax (A11). Lòng đất vẽ sau cùng; trời + núi che phần trên mặt đất.
+            var bgRoot = new GameObject("Backgrounds");
+            // id, follow, anchor, size, tint, order
+            AddLayer(bgRoot, camGo.transform, "bg_underground_far", new Vector2(0.85f, 0.85f), new Vector2(0, -150), new Vector2(150, 300), new Color(0.55f, 0.55f, 0.65f), -40);
+            AddLayer(bgRoot, camGo.transform, "bg_underground_mid", new Vector2(0.6f, 0.6f), new Vector2(0, -150), new Vector2(150, 300), new Color(0.75f, 0.75f, 0.8f), -35);
+            AddLayer(bgRoot, camGo.transform, "bg_surface_sky", new Vector2(1f, 0f), new Vector2(0, 20f), new Vector2(300, 40), Color.white, -30);
+            AddLayer(bgRoot, camGo.transform, "bg_surface_far", new Vector2(0.85f, 0f), new Vector2(0, 5.625f), new Vector2(300, 11.25f), Color.white, -25);
+            AddLayer(bgRoot, camGo.transform, "bg_surface_mid", new Vector2(0.6f, 0f), new Vector2(0, 5.625f), new Vector2(300, 11.25f), Color.white, -20);
+
             ArtDatabaseBuilder.EnsureFolder("Assets/_Game/Scenes");
             EditorSceneManager.SaveScene(scene, ScenePath);
             Debug.Log($"[Mining] Đã dựng {ScenePath}. Bấm Play: A/D đi, giữ Space bay, giữ S/A/D/W vào đất để khoan.");
@@ -180,6 +189,24 @@ namespace Underlab.EditorTools.Mining
         {
             var so = new SerializedObject(target);
             so.FindProperty(field).objectReferenceValue = value;
+            so.ApplyModifiedPropertiesWithoutUndo();
+        }
+
+        private static void AddLayer(GameObject root, Transform cam, string id, Vector2 follow, Vector2 anchor,
+                                     Vector2 size, Color tint, int order)
+        {
+            var go = new GameObject(id);
+            go.transform.SetParent(root.transform, false);
+            var sr = go.AddComponent<SpriteRenderer>();
+            sr.sortingOrder = order;
+            var layer = go.AddComponent<ParallaxLayer>();
+            var so = new SerializedObject(layer);
+            so.FindProperty("artId").stringValue = id;
+            so.FindProperty("follow").vector2Value = follow;
+            so.FindProperty("anchor").vector2Value = anchor;
+            so.FindProperty("size").vector2Value = size;
+            so.FindProperty("tint").colorValue = tint;
+            so.FindProperty("cameraTransform").objectReferenceValue = cam;
             so.ApplyModifiedPropertiesWithoutUndo();
         }
 
