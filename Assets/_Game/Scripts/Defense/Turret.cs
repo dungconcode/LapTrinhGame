@@ -35,10 +35,14 @@ namespace Underlab.Defense
         private float cooldown;
         private int damageLevel, rotationLevel;
         private bool waitingForRelease;
+        private Underlab.Art.ArtSprite barrelArt;
         private void Awake()
         {
             controls = Instantiate(inputActions);
             attack = controls.FindAction("Player/Attack", true);
+            // Nòng giật (bld_turret_fire) chạy 1 lần rồi về hình nòng thường. DefenseVisual (-200) đã tạo ArtSprite trước.
+            barrelArt = barrel ? barrel.GetComponent<Underlab.Art.ArtSprite>() : null;
+            if (barrelArt) barrelArt.OnFinished += id => { if (id == "bld_turret_fire") barrelArt.Play("bld_turret_barrel"); };
         }
         private void OnEnable() { controls?.Enable(); GameEvents.UpgradePurchased += Purchased; GameEvents.PhaseChanged += PhaseChanged; }
         private void OnDisable() { Dismount(); controls?.Disable(); GameEvents.UpgradePurchased -= Purchased; GameEvents.PhaseChanged -= PhaseChanged; }
@@ -109,6 +113,8 @@ namespace Underlab.Defense
             if (index != 0) Ammunition[index]--;
             cooldown = pool.config.fireSeconds;
             if (pool.audioFx) pool.audioFx.Shot();
+            Underlab.Art.ArtFx.Spawn("fx_muzzle_flash", muzzle.position, 16, 0.9f, rotationZ: barrel.eulerAngles.z);
+            if (barrelArt) barrelArt.Play("bld_turret_fire", loop: false, restart: true);
             pool.Shoot(muzzle.position, barrel.right, pool.config.ammo[index].damage * (1 + damageLevel * pool.config.damageUpgrade), index, false);
         }
     }

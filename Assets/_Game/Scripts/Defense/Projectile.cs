@@ -10,6 +10,8 @@ namespace Underlab.Defense
         private float damage, expires;
         private int ammo;
         private bool hostile;
+        // Hiệu ứng khi trúng, theo chỉ số đạn (0 thường, 1 axit, 2 lửa, 3 băng)
+        private static readonly string[] HitFx = { "fx_hit_normal", "fx_hit_acid", "fx_hit_fire", "fx_hit_ice" };
         public void Initialize(CombatPool owner, Vector3 position, Vector3 direction, float hitDamage, int ammoIndex, bool enemy)
         {
             pool = owner; transform.position = position; velocity = direction.normalized * owner.config.projectileSpeed;
@@ -30,7 +32,13 @@ namespace Underlab.Defense
             if (hostile)
             {
                 if (SegmentDistance(from, to, pool.target.transform.position + Vector3.up) <= pool.config.hitRadius)
-                { pool.target.Damage(Mathf.CeilToInt(damage)); gameObject.SetActive(false); }
+                {
+                    pool.target.Damage(Mathf.CeilToInt(damage));
+                    // axit của quái bắn xa / mảnh pha lê của boss văng vào base
+                    if (ammo < 0) ArtFx.Spawn("fx_explosion", to, 16, 1.2f);
+                    else ArtFx.Spawn("fx_hit_acid", to, 16, 1f);
+                    gameObject.SetActive(false);
+                }
             }
             else
             {
@@ -44,7 +52,12 @@ namespace Underlab.Defense
                     float d = (center - from).sqrMagnitude;
                     if (d < along) { nearest = e; along = d; }
                 }
-                if (nearest) { nearest.Hit(damage, pool.config.ammo[ammo], ammo); gameObject.SetActive(false); }
+                if (nearest)
+                {
+                    ArtFx.Spawn(HitFx[Mathf.Clamp(ammo, 0, HitFx.Length - 1)], to, 16, ammo == 2 ? 1.2f : 1f);
+                    nearest.Hit(damage, pool.config.ammo[ammo], ammo);
+                    gameObject.SetActive(false);
+                }
             }
             if (Time.time >= expires) gameObject.SetActive(false);
         }

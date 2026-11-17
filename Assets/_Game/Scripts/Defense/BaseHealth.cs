@@ -18,7 +18,9 @@ namespace Underlab.Defense
         public void Restore() { Current = Maximum; Publish(); }
         private void Publish()
         {
-            if (art) art.Play(Current == 0 ? "bld_base_destroyed" : Current * 2 < Maximum ? "bld_base_damaged" : "bld_base_normal");
+            // Đã mua thêm máu base và còn khoẻ => hiện bản nâng cấp
+            string healthy = Maximum > config.baseHealth ? "bld_base_upgraded" : "bld_base_normal";
+            if (art) art.Play(Current == 0 ? "bld_base_destroyed" : Current * 2 < Maximum ? "bld_base_damaged" : healthy);
             GameEvents.RaiseBaseHpChanged(Current, Maximum);
         }
     }

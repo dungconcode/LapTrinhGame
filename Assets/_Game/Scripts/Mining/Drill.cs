@@ -47,6 +47,7 @@ namespace Underlab.Mining
             if (drilling)
             {
                 if (cell != TargetCell) TargetCell = cell;
+                SparkTick(cell);
                 bool broke = terrain.Damage(cell, config.damagePerSecond * DamageMultiplier * Time.deltaTime);
                 if (broke) Break(cell, data);
                 else UpdateCrack(cell);
@@ -85,6 +86,21 @@ namespace Underlab.Mining
                 return terrain.IsSolid(cell);
             }
             return false;
+        }
+
+        private float nextSpark;
+
+        /// <summary>Tia lửa ở chỗ mũi khoan chạm đất, mỗi ~0.18s, xoay theo hướng khoan.</summary>
+        private void SparkTick(Vector3Int cell)
+        {
+            if (Time.time < nextSpark) return;
+            nextSpark = Time.time + 0.18f;
+            Vector3 body = transform.position + Vector3.up * 0.4f;
+            Vector3 center = terrain.CellCenter(cell);
+            Vector3 dir = center - body;
+            Vector3 contact = Vector3.Lerp(body, center, 0.55f);
+            float angle = Mathf.Abs(dir.x) >= Mathf.Abs(dir.y) ? 0f : (dir.y > 0f ? 90f : -90f);
+            ArtFx.Spawn("fx_drill_spark", contact, 21, 0.8f, flipX: angle == 0f && dir.x < 0f, rotationZ: angle);
         }
 
         private void Break(Vector3Int cell, TerrainCell data)
