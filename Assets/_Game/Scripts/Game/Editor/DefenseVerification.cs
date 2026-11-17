@@ -129,9 +129,12 @@ namespace Underlab.Game.EditorTools
                     Check(Underlab.Mining.MiningUpgrades.Instance.Level(UpgradeIds.Drill) == 1, "Mining did not receive upgrade event");
                     while (shop.CanBuy(drill)) Check(shop.Buy(drill), "Upgrade cap loop failed");
                     Check(!shop.Buy(drill), "Over-cap purchase accepted");
+                    // Đạn lửa giờ chỉ làm bằng thí nghiệm (Lab) => chế nhanh bị chặn; kiểm tra công thức axit thay thế.
                     GameEvents.RaiseResourcesDeposited(ResourceType.Magnesium, 2);
-                    Check(turret.Craft(2) && turret.Ammunition[2] == turret.pool.config.ammo[2].craftYield, "Fire recipe failed");
-                    Check(!turret.Craft(2), "Craft allowed without resources");
+                    Check(!turret.Craft(2), "Fire ammo must come from the lab, not quick craft");
+                    GameEvents.RaiseResourcesDeposited(ResourceType.Sulfur, 1);
+                    Check(turret.Craft(1) && turret.Ammunition[1] == turret.pool.config.ammo[1].craftYield, "Acid recipe failed");
+                    Check(!turret.Craft(1), "Craft allowed without resources");
                     game.baseHealth.Damage(10); game.baseHealth.Repair();
                     Check(game.baseHealth.Current == game.baseHealth.Maximum, "Repair failed");
                     GameEvents.RaisePlayerAtBaseChanged(false);

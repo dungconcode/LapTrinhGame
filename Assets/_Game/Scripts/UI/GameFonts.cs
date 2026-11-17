@@ -28,7 +28,18 @@ namespace Underlab.UI
         {
             get
             {
-                if (mainTmp == null && Main != null) mainTmp = TMP_FontAsset.CreateFontAsset(Main);
+                if (mainTmp == null && Main != null)
+                {
+                    mainTmp = TMP_FontAsset.CreateFontAsset(Main);
+                    // Roboto thiếu mũi tên "→" (cần cho phương trình hoá học) => lấy từ LiberationSans (đi kèm TMP)
+                    var fallback = Resources.Load<TMP_FontAsset>("Fonts & Materials/LiberationSans SDF - Fallback");
+                    if (mainTmp != null && fallback != null)
+                    {
+                        if (mainTmp.fallbackFontAssetTable == null)
+                            mainTmp.fallbackFontAssetTable = new System.Collections.Generic.List<TMP_FontAsset>();
+                        mainTmp.fallbackFontAssetTable.Add(fallback);
+                    }
+                }
                 return mainTmp;
             }
         }

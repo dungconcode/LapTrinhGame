@@ -24,7 +24,7 @@ namespace Underlab.Defense
                     foreach (var root in gameObject.scene.GetRootGameObjects())
                         if (root.name == "Player") { playerRoot = root; break; }
                 return playerRoot && playerRoot.activeInHierarchy && game.Started && !game.Paused &&
-                    (game.Phase == GamePhase.Mining || game.Phase == GamePhase.Defense) && !shop.Open &&
+                    (game.Phase == GamePhase.Mining || game.Phase == GamePhase.Defense) && !shop.Open && !Underlab.Lab.LabStation.IsOpen &&
                     Vector2.Distance(playerRoot.transform.position, (Vector2)transform.position + pool.config.turretBoardingOffset) <= pool.config.turretBoardingRadius;
             }
         }
@@ -69,6 +69,7 @@ namespace Underlab.Defense
         public bool Craft(int index)
         {
             if (!shop.Available || index < 1 || index > 3) return false;
+            if (index == (int)AmmoType.Fire) return false; // đạn lửa giờ phải tự làm thí nghiệm (Underlab.Lab.FireExperiment)
             var ammo = pool.config.ammo[index];
             ResourceType resource = index == 1 ? ResourceType.Sulfur : index == 2 ? ResourceType.Magnesium : ResourceType.KCl;
             if (!shop.bank.Spend(resource, ammo.craftCost)) return false;
@@ -77,6 +78,7 @@ namespace Underlab.Defense
         private void Update()
         {
             if (!game.Started || game.Paused || game.Phase == GamePhase.Victory || game.Phase == GamePhase.GameOver) return;
+            if (Underlab.Lab.LabStation.IsOpen) return; // đang làm thí nghiệm: chuột/phím dành cho phòng thí nghiệm
             var keyboard = Keyboard.current;
             if (IsMounted && keyboard != null && keyboard.qKey.wasPressedThisFrame) { Dismount(); return; }
             if (keyboard != null)

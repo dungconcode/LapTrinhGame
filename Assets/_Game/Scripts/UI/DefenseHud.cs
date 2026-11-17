@@ -35,6 +35,7 @@ namespace Underlab.UI
         private static readonly string[] OreShort = { "Fe", "S", "Mg", "KCl" };
 
         private RectTransform root;
+        private bool warnedBank;
         private GameObject hudGroup, menuGroup, overlayGroup, shopGroup, bossGroup, hintGroup;
         private TextMeshProUGUI waveText, hpText, hintText, bossText, overlayTitle;
         private Image hpFill, bossFill, crosshair, overlayBg;
@@ -198,7 +199,18 @@ namespace Underlab.UI
             hpFill.fillAmount = t;
             hpFill.color = t > 0.5f ? Color.Lerp(Gold, new Color(0.4f, 0.9f, 0.5f), (t - 0.5f) * 2f) : Color.Lerp(Red, Gold, t * 2f);
             hpText.text = $"{baseHealth.Current}/{baseHealth.Maximum}";
-            for (int i = 0; i < 4; i++) bankTexts[i].text = bank.Balance((ResourceType)i).ToString();
+            if (bank == null)
+            {
+                if (!warnedBank) Debug.LogError("[DefenseHud] Thiếu tham chiếu ResourceBank", this);
+                warnedBank = true;
+                bank = FindFirstObjectByType<ResourceBank>();
+                if (bank == null) return;
+            }
+            for (int i = 0; i < 4; i++)
+            {
+                if (bankTexts[i] == null) { if (!warnedBank) Debug.LogError($"[DefenseHud] bankTexts[{i}] null", this); warnedBank = true; continue; }
+                bankTexts[i].text = bank.Balance((ResourceType)i).ToString();
+            }
         }
 
         private void RefreshAmmo()
@@ -223,7 +235,7 @@ namespace Underlab.UI
             {
                 if (turret.IsMounted) text = "ĐANG TRONG PHÁO  ·  chuột trái: bắn  ·  1–4: đạn  ·  Q: ra";
                 else if (turret.CanMount) text = "CHUỘT TRÁI để vào pháo";
-                else if (shop.Available && !shop.Open) text = "E: mở cửa hàng nâng cấp";
+                else if (shop.Available && !shop.Open) text = "E: cửa hàng nâng cấp   ·   T: phòng thí nghiệm";
             }
             hintGroup.SetActive(text != null);
             if (text != null) hintText.text = text;
@@ -322,6 +334,13 @@ namespace Underlab.UI
             var row = Row(parent, "craft" + ammo);
             var cfg = turret.pool.config.ammo[ammo];
             Img(row, "Icon", AmmoIcons[ammo], new Vector2(0, 0.5f), new Vector2(4, 0), new Vector2(36, 36), new Vector2(0, 0.5f));
+            if (ammo == (int)AmmoType.Fire)
+            {
+                // Đạn lửa: chỉ làm được bằng thí nghiệm
+                Txt(row, "Lab", "Đạn Lửa: tự làm thí nghiệm ở <color=#3FE0D0>PHÒNG THÍ NGHIỆM (phím T)</color>", 15, Color.white,
+                    TextAlignmentOptions.Left, new Vector2(0, 0.5f), new Vector2(48, 0), new Vector2(420, 30), new Vector2(0, 0.5f));
+                return new CraftRow { ammo = ammo, have = null, craft = null };
+            }
             Img(row, "Ore", OreIcons[ammo], new Vector2(0, 0.5f), new Vector2(48, 0), new Vector2(22, 22), new Vector2(0, 0.5f));
             Txt(row, "Recipe", $"{cfg.craftCost} {OreShort[ammo]} → {cfg.craftYield} đạn {AmmoNames[ammo]}", 16, Color.white,
                 TextAlignmentOptions.Left, new Vector2(0, 0.5f), new Vector2(74, 0), new Vector2(200, 30), new Vector2(0, 0.5f));
@@ -351,6 +370,7 @@ namespace Underlab.UI
             }
             foreach (var c in craftRows)
             {
+                if (c.craft == null) continue;
                 var cfg = turret.pool.config.ammo[c.ammo];
                 c.have.text = $"có {turret.Ammunition[c.ammo]}";
                 c.craft.interactable = shop.Available && bank.Balance((ResourceType)c.ammo) >= cfg.craftCost;
