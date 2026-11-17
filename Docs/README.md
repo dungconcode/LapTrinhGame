@@ -8,6 +8,7 @@
 | [04_AI_PROMPTS.md](04_AI_PROMPTS.md) | 2 dev | Chia việc ChatGPT/Gemini/Claude, style block, prompt từng loại asset |
 | [05_GIT_WORKFLOW.md](05_GIT_WORKFLOW.md) | 2 dev | Nhánh, ownership folder, tránh conflict scene, Smart Merge |
 | [07_BALANCE.md](07_BALANCE.md) | dev | Số cân bằng hiện tại, lý do, cách chỉnh lại sau playtest (`Tools/balance_model.py`) |
+| [09_EXPANSION_PLAN.md](09_EXPANSION_PLAN.md) | dev | Kế hoạch mở rộng: phòng thí nghiệm hoá học (thao tác tay), quái 4 phía, đạn nâng cấp |
 | [08_AI_ASSET_REVIEW.md](08_AI_ASSET_REVIEW.md) | người gen asset + dev | Kết quả duyệt ảnh AI, danh sách cần gen lại |
 | [06_ASSET_LIST_CHATGPT.md](06_ASSET_LIST_CHATGPT.md) | **người gen asset** | 76 asset cần gen bằng ChatGPT, prompt dán sẵn, thứ tự ưu tiên, cách nộp lên Drive. Sinh lại: `python Tools/make_asset_list.py` |
 | [../AGENTS.md](../AGENTS.md) / [../CLAUDE.md](../CLAUDE.md) | Codex / Claude Code | Quy ước code để AI agent tuân theo |
