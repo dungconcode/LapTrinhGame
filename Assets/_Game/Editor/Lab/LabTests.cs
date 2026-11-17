@@ -39,6 +39,42 @@ namespace Underlab.EditorTools.Lab
             if (ok) Debug.Log(log.ToString()); else Debug.LogError(log.ToString());
         }
 
+        [MenuItem("Underlab/Lab/Test Ice + Acid Scoring", priority = 502)]
+        public static void IceAcidScoring()
+        {
+            var cfg = ScriptableObject.CreateInstance<LabConfig>();
+            var log = new StringBuilder("[LabTest] Ice + Acid scoring\n");
+            bool ok = true;
+
+            // --- Băng: 200 g nước cần 68.4 g KCl (độ tan 34.2 g/100 g)
+            float w = 200f, need = cfg.kclSolubility * w;
+            var r = IceExperiment.Evaluate(need, w, need, cfg);
+            ok &= Check(log, r.outcome == IceExperiment.Outcome.Ok && Mathf.Abs(r.eff - 1f) < 0.001f, $"KCl bão hoà đúng, tan hết => đạt 100% (cần {need:0.0} g)");
+            r = IceExperiment.Evaluate(need * 1.08f, w, need, cfg);
+            ok &= Check(log, r.outcome == IceExperiment.Outcome.Supersaturated, "thừa KCl 8% => QUÁ BÃO HOÀ, thất bại");
+            r = IceExperiment.Evaluate(need * 0.9f, w, need * 0.9f, cfg);
+            ok &= Check(log, r.outcome == IceExperiment.Outcome.Unsaturated, "thiếu KCl 10% => CHƯA BÃO HOÀ, thất bại");
+            r = IceExperiment.Evaluate(need, w, need * 0.5f, cfg);
+            ok &= Check(log, r.outcome == IceExperiment.Outcome.NotDissolved, "đúng lượng nhưng mới tan 50% => CHƯA TAN HẾT, thất bại");
+            float t = IceExperiment.SolutionTemp(need, w, cfg);
+            ok &= Check(log, t < 25f && t > 0f, $"hoà tan thu nhiệt: nhiệt độ tụt còn {t:0.0} °C");
+
+            // --- Axit: tỉ lệ khí
+            float vm = cfg.gasMolarVolume;
+            var a = AcidExperiment.Evaluate(1f, 1f * vm, 1f, cfg);
+            ok &= Check(log, a.ok, "S + O₂ (1 : 1) đúng => đạt");
+            a = AcidExperiment.Evaluate(1f, 0.5f * vm, 1f, cfg);
+            ok &= Check(log, !a.ok, "đốt S thiếu nửa O₂ => thất bại");
+            a = AcidExperiment.Evaluate(2f, 1f * vm, 0.5f, cfg);
+            ok &= Check(log, a.ok, "2SO₂ + O₂ (2 mol SO₂ cần 1 mol O₂) => đạt");
+            a = AcidExperiment.Evaluate(2f, 2f * vm, 0.5f, cfg);
+            ok &= Check(log, !a.ok, "2 mol SO₂ nạp 2 mol O₂ (quên cân bằng) => thất bại");
+
+            Object.DestroyImmediate(cfg);
+            log.Insert(0, ok ? "PASS " : "FAIL ");
+            if (ok) Debug.Log(log.ToString()); else Debug.LogError(log.ToString());
+        }
+
         /// <summary>Mở phòng thí nghiệm trong Play Mode để kiểm tra giao diện dựng không lỗi.</summary>
         [MenuItem("Underlab/Lab/Open Lab (Play Mode)", priority = 501)]
         public static void OpenLab()

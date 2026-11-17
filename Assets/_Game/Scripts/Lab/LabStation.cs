@@ -30,8 +30,11 @@ namespace Underlab.Lab
         private GameObject canvasGo;
         private Image flashImg;
         private float flashUntil;
-        private FireExperiment fire;
-        private TextMeshProUGUI o2Text;
+        private readonly List<ILabExperiment> experiments = new List<ILabExperiment>();
+        private readonly List<GameObject> pages = new List<GameObject>();
+        private readonly List<Button> tabs = new List<Button>();
+        private int current;
+        private TextMeshProUGUI o2Text, header;
         private readonly Dictionary<string, int> mastery = new Dictionary<string, int>();
 
         public int Mastery(string id) => mastery.TryGetValue(id, out var n) ? n : 0;
@@ -72,7 +75,8 @@ namespace Underlab.Lab
             if (IsOpen && !shop.Available) SetOpen(false);   // rời base / wave tới => đóng
             if (!IsOpen) return;
 
-            fire.Tick(Time.deltaTime);
+            experiments[current].Tick(Time.deltaTime);
+            for (int i = 0; i < tabs.Count; i++) tabs[i].image.color = i == current ? new Color(1.25f, 1.2f, 0.75f) : Color.white;
             o2Text.text = $"Bình O<sub>2</sub> của base: {O2Liters:0.0}/{config.o2Capacity:0} L  <color=#ffffff88>(+{config.o2RegenPerSecond:0.0} L/s)</color>";
             flashImg.enabled = Time.time < flashUntil;
             if (flashImg.enabled)
@@ -90,10 +94,18 @@ namespace Underlab.Lab
             IsOpen = open;
             canvasGo.SetActive(open);
             if (open) shop.Open = false;
-            else fire.OnClose();
+            else foreach (var e in experiments) e.OnClose();
             if (player) player.enabled = !open;
             if (drill) drill.enabled = !open;
             if (player && open) player.Body.linearVelocity = Vector2.zero;
+        }
+
+        private void ShowPage(int idx)
+        {
+            if (experiments.Count == 0) return;
+            if (idx != current) experiments[current].OnClose();   // đổi tab: khoá van, tắt lửa, trả khay
+            current = idx;
+            for (int i = 0; i < pages.Count; i++) pages[i].SetActive(i == idx);
         }
 
         /// <summary>Nháy màn hình xanh (thành công) / đỏ (thất bại).</summary>
@@ -122,14 +134,27 @@ namespace Underlab.Lab
             dim.raycastTarget = true; // chặn click xuyên xuống game
 
             var root = LabUi.Rect(canvasGo.transform, "Root", new Vector2(0.5f, 0.5f), Vector2.zero, new Vector2(1280, 720), new Vector2(0.5f, 0.5f));
-            LabUi.Txt(root, "Header", "PHÒNG THÍ NGHIỆM — <color=#E07A3F>ĐẠN LỬA</color>", 26, LabUi.Teal, TMPro.TextAlignmentOptions.TopLeft,
-                new Vector2(0, 1), new Vector2(30, -18), new Vector2(700, 40));
-            LabUi.Txt(root, "Close", "T: đóng   ·   thời gian vẫn trôi!", 15, LabUi.Dim, TMPro.TextAlignmentOptions.TopRight,
-                new Vector2(1, 1), new Vector2(-30, -24), new Vector2(400, 30), new Vector2(1, 1));
+            header = LabUi.Txt(root, "Header", "PHÒNG THÍ NGHIỆM", 26, LabUi.Teal, TMPro.TextAlignmentOptions.TopLeft,
+                new Vector2(0, 1), new Vector2(30, -18), new Vector2(330, 40));
+            LabUi.Txt(root, "Close", "T: đóng · thời gian vẫn trôi!", 14, LabUi.Dim, TMPro.TextAlignmentOptions.TopRight,
+                new Vector2(1, 1), new Vector2(-24, -26), new Vector2(200, 30), new Vector2(1, 1));
             o2Text = LabUi.Txt(root, "O2", "", 15, LabUi.Dim, TMPro.TextAlignmentOptions.TopLeft,
                 new Vector2(0, 1), new Vector2(30, -600), new Vector2(700, 26));
 
-            fire = new FireExperiment(root, this, config, bank, turret);
+            // Mỗi thí nghiệm 1 trang + 1 tab
+            void AddPage(System.Func<Transform, ILabExperiment> make)
+            {
+                var page = LabUi.Rect(root, "Page" + pages.Count, new Vector2(0.5f, 0.5f), Vector2.zero, new Vector2(1280, 720), new Vector2(0.5f, 0.5f));
+                var exp = make(page);
+                int idx = experiments.Count;
+                experiments.Add(exp);
+                pages.Add(page.gameObject);
+                tabs.Add(LabUi.Btn(root, exp.Title, new Vector2(0, 1), new Vector2(370 + idx * 175, -16), new Vector2(165, 40), () => ShowPage(idx), null, 16));
+            }
+            AddPage(p => new FireExperiment(p, this, config, bank, turret));
+            AddPage(p => new IceExperiment(p, this, config, bank, turret));
+            AddPage(p => new AcidExperiment(p, this, config, bank, turret));
+            ShowPage(0);
 
             flashImg = LabUi.Img(canvasGo.transform, "Flash", null, Vector2.zero, Vector2.zero, Vector2.zero);
             flashImg.rectTransform.anchorMin = Vector2.zero;

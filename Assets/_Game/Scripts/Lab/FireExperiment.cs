@@ -14,9 +14,10 @@ namespace Underlab.Lab
     /// Lệch tỉ lệ > tolerance => thất bại, MẤT SẠCH Mg trên cân và O₂ trong ống đo.
     /// Trên màn hình chỉ ghi phương trình CHƯA cân bằng — cân bằng là việc của người chơi.
     /// </summary>
-    public class FireExperiment
+    public class FireExperiment : ILabExperiment
     {
         public const string Id = "fire";
+        public string Title => "ĐẠN LỬA";
 
         private readonly LabStation station;
         private readonly LabConfig cfg;

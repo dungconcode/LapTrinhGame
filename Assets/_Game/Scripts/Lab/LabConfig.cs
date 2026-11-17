@@ -41,6 +41,37 @@ namespace Underlab.Lab
         [Tooltip("Đạn lửa nhận được cho mỗi mol Mg đốt đúng (nhân hiệu suất)")]
         public float fireBulletsPerMolMg = 1f;
 
+        [Header("Đạn BĂNG — hoà tan KCl (thu nhiệt)")]
+        [Tooltip("Độ tan KCl ở 20°C: 34.2 g / 100 g nước. Phải pha đúng dung dịch BÃO HOÀ")]
+        public float kclSolubility = 0.342f;
+        public float iceBulletsPerMolKCl = 5f;
+        [Tooltip("Nhiệt hoà tan KCl (kJ/mol, dương = thu nhiệt) — dùng tính nhiệt độ tụt")]
+        public float kclDissolveEnthalpy = 17.2f;
+        public float beakerCapacity = 300f;          // mL
+        public float maxPour = 70f;                  // mL/s khi nghiêng hết
+        public float pourInertia = 0.3f;
+        [Tooltip("Thời gian tan hết khi khuấy đúng tốc độ")]
+        public float dissolveSeconds = 6f;
+        [Tooltip("Tốc độ khuấy tốt (vòng/giây)")]
+        public Vector2 stirGood = new Vector2(0.8f, 2.6f);
+        [Tooltip("Khuấy nhanh hơn mức này liên tục => sóng tràn cốc")]
+        public float stirSpill = 3.4f;
+        public float stirSpillSeconds = 0.4f;
+
+        [Header("Đạn AXIT — quy trình tiếp xúc (3 bước)")]
+        public float acidBulletsPerMolH2SO4 = 5f;
+        [Tooltip("Vùng nhiệt độ tốt của tháp xúc tác V₂O₅")]
+        public Vector2 contactTemp = new Vector2(400f, 500f);
+        [Tooltip("Ra ngoài vùng này sau khi bắt đầu phản ứng => thất bại")]
+        public Vector2 contactFail = new Vector2(380f, 550f);
+        public float contactHoldSeconds = 5f;
+        [Tooltip("Nhiệt độ cân bằng khi mở lò hết cỡ (°C trên nhiệt độ phòng)")]
+        public float heaterMaxRise = 900f;
+        [Tooltip("Lò phản ứng trễ (giây)")]
+        public float heaterTimeConstant = 4f;
+        [Tooltip("Phản ứng 2SO₂ + O₂ → 2SO₃ toả nhiệt: tháp tự nóng thêm (°C/giây khi đang phản ứng)")]
+        public float contactExoHeat = 30f;
+
         [Header("Tự động hoá")]
         public int masteryRuns = 3;
         [Range(0.5f, 1f)] public float autoEfficiency = 0.9f;

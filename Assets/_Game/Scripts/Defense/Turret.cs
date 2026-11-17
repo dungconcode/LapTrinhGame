@@ -66,15 +66,8 @@ namespace Underlab.Defense
         }
         private void Purchased(string id) { if (id == "turret_damage") damageLevel++; if (id == "turret_rotate") rotationLevel++; }
         public void Select(int index) => Selected = (AmmoType)Mathf.Clamp(index, 0, 3);
-        public bool Craft(int index)
-        {
-            if (!shop.Available || index < 1 || index > 3) return false;
-            if (index == (int)AmmoType.Fire) return false; // đạn lửa giờ phải tự làm thí nghiệm (Underlab.Lab.FireExperiment)
-            var ammo = pool.config.ammo[index];
-            ResourceType resource = index == 1 ? ResourceType.Sulfur : index == 2 ? ResourceType.Magnesium : ResourceType.KCl;
-            if (!shop.bank.Spend(resource, ammo.craftCost)) return false;
-            Ammunition[index] += ammo.craftYield; return true;
-        }
+        /// <summary>Chế đạn nhanh đã bỏ: mọi đạn đặc biệt giờ phải TỰ LÀM THÍ NGHIỆM (Underlab.Lab).</summary>
+        public bool Craft(int index) => false;
         private void Update()
         {
             if (!game.Started || game.Paused || game.Phase == GamePhase.Victory || game.Phase == GamePhase.GameOver) return;

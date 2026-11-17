@@ -301,7 +301,7 @@ namespace Underlab.UI
                 foreach (var def in shop.upgrades)
                     if (def != null) shopRows.Add(BuildShopRow(content.transform, def));
 
-            Section(content.transform, "CHẾ TẠO ĐẠN (tại base)");
+            Section(content.transform, "ĐẠN ĐẶC BIỆT (làm thí nghiệm)");
             for (int i = 1; i < 4; i++) craftRows.Add(BuildCraftRow(content.transform, i));
         }
 
@@ -329,30 +329,14 @@ namespace Underlab.UI
             return r;
         }
 
+        /// <summary>Đạn đặc biệt chỉ làm được bằng thí nghiệm => dòng hướng dẫn thay cho nút chế.</summary>
         private CraftRow BuildCraftRow(Transform parent, int ammo)
         {
             var row = Row(parent, "craft" + ammo);
-            var cfg = turret.pool.config.ammo[ammo];
             Img(row, "Icon", AmmoIcons[ammo], new Vector2(0, 0.5f), new Vector2(4, 0), new Vector2(36, 36), new Vector2(0, 0.5f));
-            if (ammo == (int)AmmoType.Fire)
-            {
-                // Đạn lửa: chỉ làm được bằng thí nghiệm
-                Txt(row, "Lab", "Đạn Lửa: tự làm thí nghiệm ở <color=#3FE0D0>PHÒNG THÍ NGHIỆM (phím T)</color>", 15, Color.white,
-                    TextAlignmentOptions.Left, new Vector2(0, 0.5f), new Vector2(48, 0), new Vector2(420, 30), new Vector2(0, 0.5f));
-                return new CraftRow { ammo = ammo, have = null, craft = null };
-            }
-            Img(row, "Ore", OreIcons[ammo], new Vector2(0, 0.5f), new Vector2(48, 0), new Vector2(22, 22), new Vector2(0, 0.5f));
-            Txt(row, "Recipe", $"{cfg.craftCost} {OreShort[ammo]} → {cfg.craftYield} đạn {AmmoNames[ammo]}", 16, Color.white,
-                TextAlignmentOptions.Left, new Vector2(0, 0.5f), new Vector2(74, 0), new Vector2(200, 30), new Vector2(0, 0.5f));
-            var r = new CraftRow { ammo = ammo };
-            r.have = Txt(row, "Have", "", 15, new Color(1, 1, 1, 0.7f), TextAlignmentOptions.Right, new Vector2(1, 0.5f), new Vector2(-130, 0), new Vector2(80, 30), new Vector2(1, 0.5f));
-            var btnImg = Img(row, "Craft", "ui_button", new Vector2(1, 0.5f), new Vector2(-4, 0), new Vector2(118, 36), new Vector2(1, 0.5f));
-            btnImg.type = Image.Type.Sliced;
-            btnImg.pixelsPerUnitMultiplier = 2.5f;
-            r.craft = MakeButton(btnImg);
-            r.craft.onClick.AddListener(() => turret.Craft(ammo));
-            Txt(btnImg.transform, "Label", "CHẾ", 16, Color.white, TextAlignmentOptions.Center, new Vector2(0.5f, 0.5f), Vector2.zero, new Vector2(118, 36), new Vector2(0.5f, 0.5f));
-            return r;
+            Txt(row, "Lab", $"Đạn {AmmoNames[ammo]}: tự làm thí nghiệm ở <color=#3FE0D0>PHÒNG THÍ NGHIỆM (phím T)</color>", 15, Color.white,
+                TextAlignmentOptions.Left, new Vector2(0, 0.5f), new Vector2(48, 0), new Vector2(420, 30), new Vector2(0, 0.5f));
+            return new CraftRow { ammo = ammo, have = null, craft = null };
         }
 
         private void RefreshShop()
