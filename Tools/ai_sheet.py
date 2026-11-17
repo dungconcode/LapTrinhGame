@@ -96,16 +96,84 @@ def split_grid(img, cols, rows, count):
     return cells[:count] if count else cells
 
 
+def alpha_cut(img, cut):
+    """Xoá quầng mờ: pixel alpha < cut => trong suốt hẳn (AI hay để viền bán trong suốt)."""
+    if cut <= 0:
+        return img
+    a = img.getchannel("A").point(lambda v: 0 if v < cut else v)
+    img = img.copy()
+    img.putalpha(a)
+    return img
+
+
+def split_auto(img, count, alpha_min=24):
+    """
+    Tách frame theo HÌNH chứ không theo lưới: gom các mảng không trong suốt (nối liền sau khi nở 2%%),
+    giữ `count` mảng lớn nhất, xếp theo hàng (trên->dưới) rồi cột (trái->phải).
+    Chịu được AI vẽ lệch ô / tia lửa tràn sang ô bên.
+    """
+    import numpy as np
+    from scipy import ndimage
+    arr = np.array(img)
+    mask = arr[:, :, 3] >= alpha_min
+    grow = max(2, int(min(img.size) * 0.02))
+    merged = ndimage.binary_dilation(mask, iterations=grow)
+    labels, n = ndimage.label(merged)
+    if n == 0:
+        return []
+    sizes = ndimage.sum(mask, labels, range(1, n + 1))
+    keep = sorted(range(1, n + 1), key=lambda i: -sizes[i - 1])[:count]
+    boxes = ndimage.find_objects(labels)
+    items = []
+    for lab in keep:
+        sl = boxes[lab - 1]
+        y0, y1, x0, x1 = sl[0].start, sl[0].stop, sl[1].start, sl[1].stop
+        part = arr[y0:y1, x0:x1].copy()
+        part[labels[y0:y1, x0:x1] != lab] = 0          # chỉ lấy pixel của đúng mảng này
+        items.append(((y0 + y1) / 2, (x0 + x1) / 2, y1 - y0, Image.fromarray(part, "RGBA")))
+    # gom hàng: 2 mảng cùng hàng nếu tâm y cách nhau < nửa chiều cao trung bình
+    items.sort(key=lambda t: t[0])
+    avg_h = sum(t[2] for t in items) / len(items)
+    rows, cur = [], [items[0]]
+    for it in items[1:]:
+        if abs(it[0] - cur[-1][0]) < avg_h * 0.5:
+            cur.append(it)
+        else:
+            rows.append(cur)
+            cur = [it]
+    rows.append(cur)
+    return [t[3] for row in rows for t in sorted(row, key=lambda t: t[1])]
+
+
+def make_cover(img, fw, fh):
+    """Phủ kín khung fw x fh, giữ tỉ lệ, cắt phần thừa ở giữa (cho background / ảnh màn hình)."""
+    img = img.convert("RGBA")
+    scale = max(fw / img.width, fh / img.height)
+    img = img.resize((round(img.width * scale), round(img.height * scale)), Image.LANCZOS)
+    left, top = (img.width - fw) // 2, (img.height - fh) // 2
+    return img.crop((left, top, left + fw, top + fh))
+
+
 def trim(img):
     bbox = img.getchannel("A").point(lambda a: 255 if a > 10 else 0).getbbox()
     return img.crop(bbox) if bbox else img
 
 
-def build_strip(frames, fw, fh, pivot, fill):
+def build_strip(frames, fw, fh, pivot, fill, fit="box"):
+    """
+    fit="box":    thu nhỏ để frame TO NHẤT vừa khung (đồ vật, fx).
+    fit="height": chiều cao TRUNG VỊ của thân = fill * khung (nhân vật/quái) => mọi animation của
+                  cùng 1 con cùng cỡ dù có frame vươn dài (lao tới, vung tay); vẫn kẹp để không tràn khung.
+    """
     frames = [trim(f) for f in frames]
     max_w = max(f.width for f in frames)
     max_h = max(f.height for f in frames)
     scale = min(fw * fill / max_w, fh * fill / max_h)  # scale chung => frame không bị to nhỏ lệch nhau
+    if fit == "height":
+        hs = sorted(f.height for f in frames)
+        median_h = hs[len(hs) // 2]
+        scale = fh * fill / median_h
+        scale = min(scale, fw * 0.98 / max_w, fh * 0.98 / max_h)
     strip = Image.new("RGBA", (fw * len(frames), fh), (0, 0, 0, 0))
     px, py = pivot
     margin_x = int(fw * (1 - fill) / 2)
@@ -134,57 +202,75 @@ def make_tile(img, fw, fh):
     return img.crop((left, top, left + side, top + side)).resize((fw, fh), Image.LANCZOS)
 
 
+def process(inputs, out, art_id=None, grid=None, frames=None, frame=None, pivot=None, mode=None,
+            key="ff00ff", tol=90.0, fill=0.9, auto=False, cut=0, fit="box"):
+    """Dùng được từ script khác (vd Tools/import_ai_batch.py). Trả về (ảnh, số frame)."""
+    if art_id:
+        row = load_manifest_entry(art_id)
+        frame = frame or row["spec_px"]
+        pivot = pivot or row["pivot"]
+        frames = frames or int(row["frames"])
+        if not mode:
+            mode = "tile" if row["type"] == "tile" else ("cover" if row["category"] in ("bg",) or
+                   (row["type"] == "ui" and int(row["frames"]) == 1 and row["spec_px"] == "1920x1080") else "sprite")
+    if not frame:
+        raise ValueError("Cần frame WxH hoặc art_id")
+    fw, fh = parse_wh(frame)
+    mode = mode or "sprite"
+    imgs = [Image.open(p) for p in inputs]
+
+    if mode == "tile":
+        strip = make_tile(imgs[0], fw, fh)
+    elif mode == "cover":
+        strip = make_cover(imgs[0], fw, fh)
+    else:
+        k = None if (key or "none").lower() == "none" else tuple(int(key[i:i + 2], 16) for i in (0, 2, 4))
+        prepared = []
+        for im in imgs:
+            im = im.convert("RGBA")
+            if k and not has_transparency(im):
+                im = key_out(im, k, tol)
+            prepared.append(alpha_cut(im, cut))
+        if auto and len(prepared) == 1 and (frames or 1) > 1:
+            cells = split_auto(prepared[0], frames)
+        elif grid:
+            cols, rows = parse_wh(grid)
+            cells = split_grid(prepared[0], cols, rows, frames)
+        elif auto and len(prepared) == 1:
+            cells = split_auto(prepared[0], 1)
+        else:
+            cells = prepared
+        if frames and len(cells) != frames:
+            print(f"[!] {art_id or out}: có {len(cells)} frame nhưng cần {frames}", file=sys.stderr)
+        strip = build_strip(cells, fw, fh, parse_pivot(pivot or "c"), fill, fit)
+
+    if out:
+        strip.save(out)
+    return strip, strip.width // fw
+
+
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("inputs", nargs="+", help="1 ảnh (grid hoặc tĩnh) hoặc nhiều ảnh = nhiều frame")
     ap.add_argument("-o", "--out", help="file output (mặc định <id>.png)")
     ap.add_argument("--id", help="lấy frame size / frames / pivot / mode từ asset_manifest.csv")
-    ap.add_argument("--grid", help="CxR, vd 3x2")
-    ap.add_argument("--frames", type=int, help="số frame lấy từ grid (mặc định = C*R)")
+    ap.add_argument("--grid", help="CxR, vd 3x2 (cắt đều theo lưới)")
+    ap.add_argument("--auto", action="store_true", help="tách frame theo hình (khuyên dùng với ảnh AI)")
+    ap.add_argument("--frames", type=int, help="số frame (mặc định theo manifest / C*R)")
     ap.add_argument("--frame", help="kích thước 1 frame WxH, vd 256x256")
     ap.add_argument("--pivot", default=None, help="bc | c | tc | lc | rc | bl | x;y")
-    ap.add_argument("--mode", choices=["sprite", "tile"], default=None)
+    ap.add_argument("--mode", choices=["sprite", "tile", "cover"], default=None)
     ap.add_argument("--key", default="ff00ff", help="màu nền cần xoá (hex), 'none' để bỏ qua")
     ap.add_argument("--tol", type=float, default=90, help="độ lệch màu nền chấp nhận")
-    ap.add_argument("--fill", type=float, default=0.9, help="sprite chiếm bao nhiêu % frame (0.9 = chừa 5%% mỗi bên)")
+    ap.add_argument("--fill", type=float, default=0.9, help="sprite chiếm bao nhiêu %% frame")
+    ap.add_argument("--cut", type=int, default=0, help="xoá quầng mờ: alpha < cut => trong suốt (vd 40)")
     a = ap.parse_args()
-
-    frame, pivot, mode, frames = a.frame, a.pivot, a.mode, a.frames
-    if a.id:
-        row = load_manifest_entry(a.id)
-        frame = frame or row["spec_px"]
-        pivot = pivot or row["pivot"]
-        frames = frames or int(row["frames"])
-        mode = mode or ("tile" if row["type"] == "tile" else "sprite")
-    if not frame:
-        sys.exit("Cần --frame WxH hoặc --id")
-    fw, fh = parse_wh(frame)
-    mode = mode or "sprite"
     out = a.out or (a.id + ".png" if a.id else "out.png")
-
-    imgs = [Image.open(p) for p in a.inputs]
-
-    if mode == "tile":
-        strip = make_tile(imgs[0], fw, fh)
-    else:
-        key = None if a.key.lower() == "none" else tuple(int(a.key[i:i + 2], 16) for i in (0, 2, 4))
-        prepared = []
-        for im in imgs:
-            im = im.convert("RGBA")
-            if key and not has_transparency(im):
-                im = key_out(im, key, a.tol)
-            prepared.append(im)
-        if a.grid:
-            cols, rows = parse_wh(a.grid)
-            cells = split_grid(prepared[0], cols, rows, frames)
-        else:
-            cells = prepared
-        if frames and len(cells) != frames:
-            print(f"[!] Có {len(cells)} frame nhưng manifest/--frames = {frames}", file=sys.stderr)
-        strip = build_strip(cells, fw, fh, parse_pivot(pivot or "c"), a.fill)
-
-    strip.save(out)
-    print(f"OK -> {out}  ({strip.width}x{strip.height}, {strip.width // fw} frame {fw}x{fh})")
+    strip, n = process(a.inputs, out, a.id, a.grid, a.frames, a.frame, a.pivot, a.mode, a.key, a.tol, a.fill, a.auto, a.cut)
+    print(f"OK -> {out}  ({strip.width}x{strip.height}, {n} frame)")
 
 
 if __name__ == "__main__":

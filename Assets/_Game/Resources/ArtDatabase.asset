@@ -15,7 +15,7 @@ MonoBehaviour:
   entries:
   - id: char_player_idle
     fps: 6
-    status: placeholder
+    status: ai
     frames:
     - {fileID: -184909390, guid: bddfbf7def312df4983f0f09057ddee8, type: 3}
     - {fileID: 705195539, guid: bddfbf7def312df4983f0f09057ddee8, type: 3}
@@ -23,7 +23,7 @@ MonoBehaviour:
     - {fileID: 1900473241, guid: bddfbf7def312df4983f0f09057ddee8, type: 3}
   - id: char_player_walk
     fps: 12
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 485172560, guid: 53b5e439b2205b344b334495944c24e1, type: 3}
     - {fileID: -1366872264, guid: 53b5e439b2205b344b334495944c24e1, type: 3}
@@ -33,7 +33,7 @@ MonoBehaviour:
     - {fileID: -115804801, guid: 53b5e439b2205b344b334495944c24e1, type: 3}
   - id: char_player_drill
     fps: 12
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 1597278443, guid: 80f1823481c570348aaeeb265683771c, type: 3}
     - {fileID: -1401927961, guid: 80f1823481c570348aaeeb265683771c, type: 3}
@@ -67,22 +67,22 @@ MonoBehaviour:
     - {fileID: 912623675, guid: 6dfb08cea6c66b049aa25ffa2a1d48e7, type: 3}
   - id: tile_surface
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 737191b3b83d7d44f9449ec018188dd9, type: 3}
   - id: tile_dirt_1
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: bc7561c6c0721c942a2cb98813544e01, type: 3}
   - id: tile_dirt_2
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: e43e7b10213b7934888f5ad8dd308c07, type: 3}
   - id: tile_dirt_3
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 87728bec0daf5974883edc4c41015dbd, type: 3}
   - id: tile_bedrock
@@ -92,27 +92,27 @@ MonoBehaviour:
     - {fileID: 21300000, guid: ef95be9578b72a245b976edd741de4f1, type: 3}
   - id: tile_ore_iron
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: fc8cc4274ca241644b8fd62537f8162b, type: 3}
   - id: tile_ore_sulfur
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 16b8af14198c04547b1b547f27eef3c3, type: 3}
   - id: tile_ore_mg
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 8f621d4151a30224bb4759d349a5e2ef, type: 3}
   - id: tile_ore_kcl
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 7cafd62eb04bdec4aa8a14ceb814e5c0, type: 3}
   - id: tile_crack
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: -2090545652, guid: 9f95ea92c7160594fbda2974ddb05178, type: 3}
     - {fileID: 556815078, guid: 9f95ea92c7160594fbda2974ddb05178, type: 3}
@@ -120,22 +120,22 @@ MonoBehaviour:
     - {fileID: -1017518770, guid: 9f95ea92c7160594fbda2974ddb05178, type: 3}
   - id: item_ore_iron
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 34a1d7e5b5f336241abbc57ffd6df796, type: 3}
   - id: item_ore_sulfur
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 86d320a68a413ed40a15bbc022b0cbea, type: 3}
   - id: item_ore_mg
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 3e22857c24768244a8decc3afc44ff56, type: 3}
   - id: item_ore_kcl
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: e87fdafaf58ce324ca92a125ee7b75e4, type: 3}
   - id: item_blast_charge
@@ -145,7 +145,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: bdc2a0d5d781b3d4dabd38d472f050a2, type: 3}
   - id: bld_base_normal
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: b3d20c23371d8a44a88667e9dd7d86b7, type: 3}
   - id: bld_base_damaged
@@ -165,12 +165,12 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 1082dbb8c0ded0e4883de0259f1b1dbe, type: 3}
   - id: bld_turret_body
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 2a393dee14fa5834f93b40f5dfaf92c6, type: 3}
   - id: bld_turret_barrel
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: bab6fa65e30808d42a5d4234331d48fd, type: 3}
   - id: bld_turret_fire
@@ -202,7 +202,7 @@ MonoBehaviour:
     - {fileID: 1680761002, guid: 11fbfe4ea17decf49914b19e512d9515, type: 3}
   - id: proj_normal
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 444b7f10917ffe34a9e2c5118a268efd, type: 3}
   - id: proj_acid
@@ -227,7 +227,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 4a30b86c92581814082bfecd8e6cf2df, type: 3}
   - id: enemy_melee_walk
     fps: 10
-    status: placeholder
+    status: ai
     frames:
     - {fileID: -1998908535, guid: fa5cbf4fa57ed844b9f6e4158f0a34eb, type: 3}
     - {fileID: 1983890561, guid: fa5cbf4fa57ed844b9f6e4158f0a34eb, type: 3}
@@ -237,7 +237,7 @@ MonoBehaviour:
     - {fileID: 331329833, guid: fa5cbf4fa57ed844b9f6e4158f0a34eb, type: 3}
   - id: enemy_melee_attack
     fps: 10
-    status: placeholder
+    status: ai
     frames:
     - {fileID: -377670357, guid: 370c7829c752ce24ab8302bcd05ebdb8, type: 3}
     - {fileID: 1001030756, guid: 370c7829c752ce24ab8302bcd05ebdb8, type: 3}
@@ -260,7 +260,7 @@ MonoBehaviour:
     - {fileID: 1151026907, guid: 05cdb3d2f73e8de4dbbf4b9cb60225a6, type: 3}
   - id: enemy_flying_fly
     fps: 12
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 2092486254, guid: fc0d16ba170b6e849978d824cd9a0ec3, type: 3}
     - {fileID: -1888612158, guid: fc0d16ba170b6e849978d824cd9a0ec3, type: 3}
@@ -293,7 +293,7 @@ MonoBehaviour:
     - {fileID: -933274756, guid: f5ae7e079bcd6cc44b7be204d0dc9efb, type: 3}
   - id: enemy_ranged_walk
     fps: 10
-    status: placeholder
+    status: ai
     frames:
     - {fileID: -49757557, guid: 78147df70d3dafd4c963de894d2153fc, type: 3}
     - {fileID: 1404201034, guid: 78147df70d3dafd4c963de894d2153fc, type: 3}
@@ -303,7 +303,7 @@ MonoBehaviour:
     - {fileID: -492042908, guid: 78147df70d3dafd4c963de894d2153fc, type: 3}
   - id: enemy_ranged_attack
     fps: 10
-    status: placeholder
+    status: ai
     frames:
     - {fileID: -888936168, guid: d89c097bfa8f7d142b43c24389349cd3, type: 3}
     - {fileID: 2107389756, guid: d89c097bfa8f7d142b43c24389349cd3, type: 3}
@@ -374,7 +374,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 627d68bce2dcfdf43a3d3631c273aa77, type: 3}
   - id: fx_block_break
     fps: 20
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 1358864039, guid: ef0d234ce9d543544b3ea6246ad69a08, type: 3}
     - {fileID: -1840483150, guid: ef0d234ce9d543544b3ea6246ad69a08, type: 3}
@@ -502,7 +502,7 @@ MonoBehaviour:
     - {fileID: 1144657679, guid: 4f0c9a162c0c1ac45adeaa28eb0f03d0, type: 3}
   - id: bg_surface_sky
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: c6ec9e2b58fe0e04b8eae71401707f2a, type: 3}
   - id: bg_surface_far
@@ -517,7 +517,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 117e62027e0681b4f84068ddd7d2d090, type: 3}
   - id: bg_underground_far
     fps: 0
-    status: placeholder
+    status: ai
     frames:
     - {fileID: 21300000, guid: 9e247ac67b078f64ba4c3406ee658d9c, type: 3}
   - id: bg_underground_mid
@@ -665,6 +665,11 @@ MonoBehaviour:
     status: ai
     frames:
     - {fileID: 21300000, guid: 511a343c2427bfe4eaa7e89ae82fc1d2, type: 3}
+  - id: icon_up_jetpack
+    fps: 0
+    status: ai
+    frames:
+    - {fileID: 21300000, guid: 754314c1848c55540a37c07ad66c918b, type: 3}
   - id: icon_up_carry
     fps: 0
     status: ai
