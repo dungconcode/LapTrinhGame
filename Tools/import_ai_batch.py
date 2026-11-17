@@ -31,7 +31,7 @@ BY_CATEGORY = {
     "boss": dict(fill=0.7, fit="height"),
     "item": dict(fill=0.85),
     "proj": dict(fill=0.9),
-    "fx": dict(fill=0.95),
+    "fx": dict(fill=0.95, auto=False, use_grid=True),   # hạt rời rạc (tia lửa, mảnh băng) => cắt theo lưới
     "bld": dict(fill=0.92),
 }
 OVERRIDES = {
@@ -39,6 +39,11 @@ OVERRIDES = {
     "bld_turret_fire": dict(pivot="lc"),
     "tile_crack": dict(fill=1.0),
     "enemy_ranged_attack": dict(auto=False, grid="3x2"),  # cục axit nối 2 frame => cắt theo lưới
+    "char_player_carry": dict(cut=110, auto=False, use_grid=True),  # quầng trắng nối các frame => cắt lưới
+    "boss_death": dict(auto=False, use_grid=True),  # mảnh vỡ nối các frame => cắt lưới
+    "proj_enemy": dict(flip=True),               # vẽ chĩa trái; code xoay đạn theo hướng bay => phải chĩa PHẢI
+    "bg_surface_far": dict(crop_bottom=0.74),    # bỏ lát cắt hang ngầm dưới đường chân trời
+    "bg_surface_mid": dict(crop_bottom=0.68),
     "enemy_ranged_": dict(fill=0.8),   # key kết thúc bằng "_" = áp cho mọi id bắt đầu như vậy (dáng cao gầy)
     "fx_status_poison": dict(fill=0.8),
     "fx_status_burn": dict(fill=0.8),
@@ -65,7 +70,8 @@ def set_status(ids, status="ai"):
 
 
 def settings_for(row):
-    s = dict(auto=True, cut=40, fill=0.9, pivot=None, grid=None, fit="box")
+    s = dict(auto=True, cut=40, fill=0.9, pivot=None, grid=None, fit="box", use_grid=False,
+             flip=False, crop_bottom=None)
     s.update(BY_CATEGORY.get(row["category"], {}))
     for key, val in OVERRIDES.items():          # theo tiền tố trước, id cụ thể sau
         if key.endswith("_") and row["id"].startswith(key):
@@ -124,6 +130,14 @@ def main():
     a = ap.parse_args()
 
     rows = {r["id"]: r for r in manifest_rows()}
+    cand_grid = {}
+    cand_manifest = os.path.join(a.candidates, "MANIFEST.csv")
+    if os.path.exists(cand_manifest):
+        with open(cand_manifest, encoding="utf-8-sig") as f:
+            cand_grid = {r["Id"]: r.get("Grid", "") for r in csv.DictReader(f)}
+    import tempfile
+    from PIL import Image, ImageOps
+    tmp_dir = tempfile.mkdtemp(prefix="underlab_ai_")
     # icon/khung UI vẽ bằng SVG (Tools/ui_svg) => không lấy từ ảnh AI
     ids = a.ids or [r for r in rows if (not a.priority or rows[r]["priority"] == a.priority)
                     and rows[r]["ai_tool"] != "CLA"]
@@ -142,6 +156,16 @@ def main():
             out_dir = os.path.join(ROOT, "Assets", "_Game", "Art", row["category"])
             os.makedirs(out_dir, exist_ok=True)
             out = os.path.join(out_dir, rid + ".png")
+        if st["use_grid"] and cand_grid.get(rid):
+            st["grid"] = cand_grid[rid]
+        if st["flip"] or st["crop_bottom"]:
+            im = Image.open(src)
+            if st["crop_bottom"]:
+                im = im.crop((0, 0, im.width, int(im.height * st["crop_bottom"])))
+            if st["flip"]:
+                im = ImageOps.mirror(im)
+            src = os.path.join(tmp_dir, rid + ".png")
+            im.save(src)
         img, n = ai_sheet.process([src], out, art_id=rid, pivot=st["pivot"], fill=st["fill"], grid=st["grid"], fit=st["fit"],
                                   auto=st["auto"], cut=st["cut"])
         kind = "tile" if row["type"] == "tile" else "sprite"

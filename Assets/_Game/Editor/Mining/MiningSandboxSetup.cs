@@ -156,7 +156,7 @@ namespace Underlab.EditorTools.Mining
             var bgRoot = new GameObject("Backgrounds");
             // id, follow, anchor, size, tint, order
             AddLayer(bgRoot, camGo.transform, "bg_underground_far", new Vector2(0.85f, 0.85f), new Vector2(0, -150), new Vector2(150, 300), new Color(0.55f, 0.55f, 0.65f), -40);
-            AddLayer(bgRoot, camGo.transform, "bg_underground_mid", new Vector2(0.6f, 0.6f), new Vector2(0, -150), new Vector2(150, 300), new Color(0.75f, 0.75f, 0.8f), -35);
+            AddLayer(bgRoot, camGo.transform, "bg_underground_mid", new Vector2(0.6f, 0.6f), new Vector2(0, -150), new Vector2(150, 300), new Color(0.75f, 0.75f, 0.8f, 0.55f), -35); // mờ để lộ lớp xa
             AddLayer(bgRoot, camGo.transform, "bg_surface_sky", new Vector2(1f, 0f), new Vector2(0, 20f), new Vector2(300, 40), Color.white, -30);
             AddLayer(bgRoot, camGo.transform, "bg_surface_far", new Vector2(0.85f, 0f), new Vector2(0, 5.625f), new Vector2(300, 11.25f), Color.white, -25);
             AddLayer(bgRoot, camGo.transform, "bg_surface_mid", new Vector2(0.6f, 0f), new Vector2(0, 5.625f), new Vector2(300, 11.25f), Color.white, -20);
