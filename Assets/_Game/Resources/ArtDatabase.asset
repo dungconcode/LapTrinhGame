@@ -665,6 +665,11 @@ MonoBehaviour:
     status: ai
     frames:
     - {fileID: 21300000, guid: 511a343c2427bfe4eaa7e89ae82fc1d2, type: 3}
+  - id: icon_up_jetpack
+    fps: 0
+    status: ai
+    frames:
+    - {fileID: 21300000, guid: 754314c1848c55540a37c07ad66c918b, type: 3}
   - id: icon_up_carry
     fps: 0
     status: ai
