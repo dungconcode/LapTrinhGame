@@ -2,6 +2,7 @@
 
 | File | Cho ai | Nội dung |
 |---|---|---|
+| [10_HANDOFF.md](10_HANDOFF.md) | **người code tiếp — ĐỌC ĐẦU TIÊN** | Trạng thái hiện tại, kế hoạch sắp tới theo ưu tiên, menu/tool/test, lưu ý dễ vấp |
 | [01_ROADMAP.md](01_ROADMAP.md) | 2 dev | 4 tuần, milestone, task ID chia Dev A / Dev B, phụ thuộc, scope |
 | [02_ASSET_PIPELINE.md](02_ASSET_PIPELINE.md) | 2 dev | Hệ thống asset 3 tầng (placeholder → AI → final), manifest, cách code dùng, cách thay art |
 | [03_ART_TEAM_GUIDE.md](03_ART_TEAM_GUIDE.md) | **nhóm art** | Thông số vẽ, đặt tên, cấu trúc Drive, lịch art mới, checklist |

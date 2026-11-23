@@ -3,6 +3,8 @@
 > Đọc kèm: [02_ASSET_PIPELINE.md](02_ASSET_PIPELINE.md) (hệ thống asset), [05_GIT_WORKFLOW.md](05_GIT_WORKFLOW.md) (cách merge).
 > Tick `[x]` khi xong. Mỗi task có **ID** để ghi vào tên nhánh / commit (vd `a/A03-dig`, `feat(A03): ...`).
 
+## 📌 23/11 — BÀN GIAO: xem [10_HANDOFF.md](10_HANDOFF.md) (trạng thái + kế hoạch mới nhất, thay cho các mục bên dưới)
+
 ## ⚡ CẬP NHẬT 16/11 tối — trạng thái & chia việc mới
 
 **Đã xong (trên `main`):** toàn bộ Dev A (A01–A13) + Dev B (B01–B16) bản greybox. `Game.unity` chơi được trọn 1 run: đào → về base → shop (E) → pháo (chuột trái) → 10 wave + boss → thắng/thua.

@@ -1,5 +1,8 @@
 # AGENTS.md — quy ước cho AI coding agent (Codex, Claude Code…) trong dự án UNDERLAB
 
+> **Đọc `Docs/10_HANDOFF.md` trước** — trạng thái hiện tại, việc đang dở (quái 4 phía), menu/test, lưu ý.
+> Phòng thí nghiệm hoá học: `Assets/_Game/Scripts/Lab` (thí nghiệm là class thường, `LabStation` là MonoBehaviour duy nhất).
+
 Game 2D mining + tower-defense (đào quặng dưới lòng đất, về base phòng thủ wave quái). Unity **6000.0.44f1**, URP 2D, Input System mới, C#.
 Tài liệu: `Docs/01_ROADMAP.md` (task ID), `Docs/02_ASSET_PIPELINE.md` (asset), `Docs/05_GIT_WORKFLOW.md` (ownership).
 
