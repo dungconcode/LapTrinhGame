@@ -29,6 +29,16 @@ namespace Underlab.Mining
         [Min(10)] public int depth = 120;
         [Tooltip("0 = ngẫu nhiên mỗi lần chơi")] public int seed = 0;
 
+        [Header("Lối vào base hai tầng (ô)")]
+        public bool carveBaseEntrance = true;
+        public int entranceCenterX;
+        [Min(2)] public int entranceChamberWidth = 4;
+        [Min(1)] public int entranceChamberDepth = 2;
+        [Min(1)] public int entranceShaftWidth = 2;
+        [Min(1)] public int entranceShaftDepth = 3;
+        [Min(.6f)] public float entranceHatchWidth = 1.4f;
+        [Min(.01f)] public float entranceFloorThickness = .125f;
+
         [Header("Tầng đất (độ sâu bắt đầu, tính bằng ô)")]
         public int layer2Depth = 30;
         public int layer3Depth = 70;

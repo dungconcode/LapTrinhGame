@@ -15,6 +15,14 @@ MonoBehaviour:
   width: 40
   depth: 120
   seed: 0
+  carveBaseEntrance: 1
+  entranceCenterX: 0
+  entranceChamberWidth: 4
+  entranceChamberDepth: 2
+  entranceShaftWidth: 2
+  entranceShaftDepth: 3
+  entranceHatchWidth: 1.4
+  entranceFloorThickness: 0.125
   layer2Depth: 30
   layer3Depth: 70
   surfaceHp: 2

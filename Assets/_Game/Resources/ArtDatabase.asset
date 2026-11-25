@@ -39,6 +39,30 @@ MonoBehaviour:
     - {fileID: -1401927961, guid: 80f1823481c570348aaeeb265683771c, type: 3}
     - {fileID: -1767059729, guid: 80f1823481c570348aaeeb265683771c, type: 3}
     - {fileID: 1030089582, guid: 80f1823481c570348aaeeb265683771c, type: 3}
+  - id: char_player_drill_down
+    fps: 12
+    status: ai
+    frames:
+    - {fileID: 461986480, guid: b292a2cb1b10a514f9982a1ed5b6ee8f, type: 3}
+    - {fileID: 1785975498, guid: b292a2cb1b10a514f9982a1ed5b6ee8f, type: 3}
+    - {fileID: 111252380, guid: b292a2cb1b10a514f9982a1ed5b6ee8f, type: 3}
+    - {fileID: -472031638, guid: b292a2cb1b10a514f9982a1ed5b6ee8f, type: 3}
+  - id: char_player_drill_up
+    fps: 12
+    status: ai
+    frames:
+    - {fileID: 904882930, guid: 2a3c62a69eb915243982eb37f84efe86, type: 3}
+    - {fileID: -1533079848, guid: 2a3c62a69eb915243982eb37f84efe86, type: 3}
+    - {fileID: -2089254407, guid: 2a3c62a69eb915243982eb37f84efe86, type: 3}
+    - {fileID: -1736803981, guid: 2a3c62a69eb915243982eb37f84efe86, type: 3}
+  - id: char_player_jetpack
+    fps: 12
+    status: ai
+    frames:
+    - {fileID: -1737570986, guid: 2e0fcdf103e32174b92b59f0c22b0262, type: 3}
+    - {fileID: 265241643, guid: 2e0fcdf103e32174b92b59f0c22b0262, type: 3}
+    - {fileID: 658592748, guid: 2e0fcdf103e32174b92b59f0c22b0262, type: 3}
+    - {fileID: -276425710, guid: 2e0fcdf103e32174b92b59f0c22b0262, type: 3}
   - id: char_player_carry
     fps: 10
     status: placeholder
@@ -163,6 +187,38 @@ MonoBehaviour:
     status: ai
     frames:
     - {fileID: 21300000, guid: 1082dbb8c0ded0e4883de0259f1b1dbe, type: 3}
+  - id: bld_dome_frame
+    fps: 0
+    status: final
+    frames:
+    - {fileID: 21300000, guid: ba8d4318514403244bff9dd0338bbdb4, type: 3}
+  - id: bld_dome_interior
+    fps: 0
+    status: final
+    frames:
+    - {fileID: 21300000, guid: 63a36b3723608a544bc041c54ec88953, type: 3}
+  - id: bld_dome_glass
+    fps: 0
+    status: final
+    frames:
+    - {fileID: 21300000, guid: 17c37f7677c59b540a9cb77315821577, type: 3}
+  - id: bld_dome_cracks
+    fps: 0
+    status: final
+    frames:
+    - {fileID: -546817586918944003, guid: a1c96ef3049ca3440907e153186e058a, type: 3}
+    - {fileID: -4825808256855191955, guid: a1c96ef3049ca3440907e153186e058a, type: 3}
+    - {fileID: 8655227466915943331, guid: a1c96ef3049ca3440907e153186e058a, type: 3}
+  - id: bld_dome_underground
+    fps: 0
+    status: final
+    frames:
+    - {fileID: 21300000, guid: c14aac03ee280784b87df250adcb865e, type: 3}
+  - id: bld_dome_shaft
+    fps: 0
+    status: final
+    frames:
+    - {fileID: 21300000, guid: fa9c4f50d89e5494bb3ecf13f5bc1eca, type: 3}
   - id: bld_turret_body
     fps: 0
     status: ai
@@ -710,3 +766,13 @@ MonoBehaviour:
     status: ai
     frames:
     - {fileID: 21300000, guid: 68748d8fa793aaf4bb33d4c4f78ba5c9, type: 3}
+  - id: DomeHatch_Left
+    fps: 0
+    status: final
+    frames:
+    - {fileID: 21300000, guid: f0a25463a3202cc488354761c8efc0cf, type: 3}
+  - id: DomeHatch_Right
+    fps: 0
+    status: final
+    frames:
+    - {fileID: 21300000, guid: 062cd7638dbba064a855a1f1cd5f23bb, type: 3}

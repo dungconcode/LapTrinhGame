@@ -122,7 +122,8 @@ namespace Underlab.Defense
                     attackClock = stats.attackSeconds;
                     art.Play(Kind == EnemyKind.Boss ? "boss_skill" : Prefix + "_attack", loop: false, restart: true);
                     if (Kind == EnemyKind.Ranged) pool.Shoot(transform.position + Vector3.up, aim - transform.position - Vector3.up, stats.damage, 0, true);
-                    else pool.target.Damage(stats.damage);
+                    else pool.target.DamageFromEnemy(stats.damage,
+                        Kind == EnemyKind.Flying ? transform.position : transform.position + Vector3.up * .35f);
                 }
             }
         }

@@ -39,7 +39,9 @@ namespace Underlab.EditorTools.Art
             ti.spritePixelsPerUnit = e.IsUi ? 100f : frameW / e.worldW;
             ti.mipmapEnabled = false;
             ti.alphaIsTransparency = true;
-            ti.filterMode = FilterMode.Bilinear;
+            ti.filterMode = e.id.StartsWith("bld_dome_", StringComparison.Ordinal) ||
+                            e.id.StartsWith("DomeHatch_", StringComparison.Ordinal)
+                ? FilterMode.Point : FilterMode.Bilinear;
             ti.wrapMode = TextureWrapMode.Clamp;
             ti.maxTextureSize = NextPow2(Mathf.Max(w, h));
 

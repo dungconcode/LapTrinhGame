@@ -14,9 +14,10 @@ namespace Underlab.Mining
         public int oreAmount;
         public int maxHp;
         public float hp;
+        public bool reinforced;
 
         public bool IsSolid => kind != TileKind.Empty;
-        public bool IsBreakable => kind != TileKind.Empty && kind != TileKind.Bedrock;
+        public bool IsBreakable => IsSolid && kind != TileKind.Bedrock && !reinforced;
     }
 
     /// <summary>
@@ -40,6 +41,8 @@ namespace Underlab.Mining
         public int Depth => config.depth;
         public int MinX => -config.width / 2;
         public int MaxX => MinX + config.width - 1;
+        internal float EntranceOpeningWidth => Mathf.Min(config.entranceShaftWidth,
+            Mathf.Max(2, config.entranceChamberWidth), config.entranceHatchWidth);
 
         /// <summary>Khung thế giới của map (kể cả viền bedrock).</summary>
         public Bounds WorldBounds
@@ -82,13 +85,88 @@ namespace Underlab.Mining
             {
                 bool border = ix == 0 || ix == config.width + 1 || iy == config.depth;
                 cells[ix, iy] = border ? Make(TileKind.Bedrock, 0) : BaseCell(iy);
+                if (iy == 0) cells[ix, iy].reinforced = true;
             }
 
             PlaceOres();
             CarveCaves();
+            CarveBaseEntrance();
             PaintAll();
+            BuildEntranceFloors();
 
             Debug.Log($"[Terrain] Sinh map {config.width}x{config.depth}, seed {seed}");
+        }
+
+        private void CarveBaseEntrance()
+        {
+            if (!config.carveBaseEntrance) return;
+            int chamberWidth = Mathf.Max(2, config.entranceChamberWidth);
+            int shaftWidth = Mathf.Clamp(config.entranceShaftWidth, 1, chamberWidth);
+            int chamberDepth = Mathf.Max(1, config.entranceChamberDepth);
+            int bottom = chamberDepth + Mathf.Max(1, config.entranceShaftDepth);
+            // Cập nhật cả dữ liệu ô và Tilemap để collider/logic khoan đều thấy lối trống.
+            for (int depth = 0; depth < Mathf.Min(bottom, config.depth); depth++)
+            {
+                int width = depth < chamberDepth ? chamberWidth : shaftWidth;
+                int left = config.entranceCenterX - width / 2;
+                for (int x = left; x < left + width; x++)
+                    if (x >= MinX && x <= MaxX && ToIndex(new Vector3Int(x, -depth - 1, 0), out int ix, out int iy))
+                        cells[ix, iy] = Make(TileKind.Empty, 0);
+            }
+
+            int chamberLeft = config.entranceCenterX - chamberWidth / 2;
+            int shaftLeft = config.entranceCenterX - shaftWidth / 2;
+            for (int row = 0; row < chamberDepth; row++)
+            {
+                Reinforce(chamberLeft - 1, row);
+                Reinforce(chamberLeft + chamberWidth, row);
+            }
+            for (int x = chamberLeft; x < chamberLeft + chamberWidth; x++)
+                if (x < shaftLeft || x >= shaftLeft + shaftWidth) Reinforce(x, chamberDepth);
+        }
+
+        private void Reinforce(int x, int row)
+        {
+            if (!ToIndex(new Vector3Int(x, -row - 1, 0), out int ix, out int iy)) return;
+            if (!cells[ix, iy].IsSolid) cells[ix, iy] = BaseCell(row);
+            cells[ix, iy].reinforced = true;
+        }
+
+        private void BuildEntranceFloors()
+        {
+            var floors = tilemap.transform.Find("BaseEntranceFloors");
+            if (!config.carveBaseEntrance)
+            {
+                if (floors) floors.gameObject.SetActive(false);
+                return;
+            }
+            if (!floors)
+            {
+                floors = new GameObject("BaseEntranceFloors").transform;
+                floors.SetParent(tilemap.transform, false);
+            }
+            floors.gameObject.SetActive(true);
+            float width = Mathf.Max(2, config.entranceChamberWidth);
+            float opening = EntranceOpeningWidth;
+            float ledge = (width - opening) * .5f;
+            float thickness = Mathf.Max(.01f, config.entranceFloorThickness);
+            for (int level = 0; level < 2; level++)
+            for (int side = 0; side < 2; side++)
+            {
+                string name = $"Floor_{level}_{side}";
+                var part = floors.Find(name);
+                if (!part)
+                {
+                    part = new GameObject(name, typeof(BoxCollider2D)).transform;
+                    part.SetParent(floors, false);
+                }
+                part.gameObject.layer = tilemap.gameObject.layer;
+                part.localPosition = new Vector3(config.entranceCenterX + (side == 0 ? -1 : 1) * (opening + ledge) * .5f,
+                    -level * Mathf.Max(1, config.entranceChamberDepth) - thickness * .5f, 0);
+                var collider = part.GetComponent<BoxCollider2D>();
+                collider.enabled = ledge > 0;
+                collider.size = new Vector2(Mathf.Max(.01f, ledge), thickness);
+            }
         }
 
         // ---------------- API cho Drill / Player ----------------

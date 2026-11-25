@@ -15,6 +15,7 @@ namespace Underlab.Defense
         public InputActionAsset inputActions;
         public GameObject playerRoot;
         public bool IsMounted { get; private set; }
+        public Vector2 BoardingPosition => (Vector2)transform.position + pool.config.turretBoardingOffset;
         public bool CanMount
         {
             get
@@ -25,7 +26,7 @@ namespace Underlab.Defense
                         if (root.name == "Player") { playerRoot = root; break; }
                 return playerRoot && playerRoot.activeInHierarchy && game.Started && !game.Paused &&
                     (game.Phase == GamePhase.Mining || game.Phase == GamePhase.Defense) && !shop.Open && !Underlab.Lab.LabStation.IsOpen &&
-                    Vector2.Distance(playerRoot.transform.position, (Vector2)transform.position + pool.config.turretBoardingOffset) <= pool.config.turretBoardingRadius;
+                    Vector2.Distance(playerRoot.transform.position, BoardingPosition) <= pool.config.turretBoardingRadius;
             }
         }
         public AmmoType Selected { get; private set; }
@@ -33,6 +34,8 @@ namespace Underlab.Defense
         private InputActionAsset controls;
         private InputAction attack;
         private float cooldown;
+        private float previousCameraSize;
+        private bool zoomed;
         private int damageLevel, rotationLevel;
         private bool waitingForRelease;
         private Underlab.Art.ArtSprite barrelArt;
@@ -54,14 +57,26 @@ namespace Underlab.Defense
             IsMounted = true; waitingForRelease = true;
             var body = playerRoot.GetComponent<Rigidbody2D>();
             if (body) { body.linearVelocity = Vector2.zero; body.angularVelocity = 0; }
-            // Tắt cả nhân vật để dừng di chuyển, khoan và vật lý khi đang trong pháo.
+            // Ẩn nhân vật và giữ vị trí ghế làm điểm trở lại.
             playerRoot.SetActive(false);
+            Vector3 seat = BoardingPosition;
+            seat.z = playerRoot.transform.position.z;
+            playerRoot.transform.position = seat;
+            if (!aimCamera) aimCamera = Camera.main;
+            if (aimCamera && aimCamera.orthographic)
+            {
+                previousCameraSize = aimCamera.orthographicSize;
+                aimCamera.orthographicSize = pool.config.combatCameraSize;
+                zoomed = true;
+            }
             return true;
         }
         public void Dismount()
         {
             if (!IsMounted) return;
             IsMounted = false; waitingForRelease = false;
+            if (zoomed && aimCamera) aimCamera.orthographicSize = previousCameraSize;
+            zoomed = false;
             if (playerRoot) playerRoot.SetActive(true);
         }
         private void Purchased(string id) { if (id == "turret_damage") damageLevel++; if (id == "turret_rotate") rotationLevel++; }
@@ -90,7 +105,7 @@ namespace Underlab.Defense
                 if (Mouse.current.position.y.ReadValue() >= 110 * uiScale && Mouse.current.leftButton.wasPressedThisFrame) TryMount();
                 return;
             }
-            // Cú bấm lên pháo chỉ dùng để nhập; nhả chuột rồi bấm tiếp mới bắn.
+            // Nhả chuột sau khi dùng máy tính rồi bấm lại mới bắn.
             if (waitingForRelease)
             {
                 if (!attack.IsPressed()) waitingForRelease = false;

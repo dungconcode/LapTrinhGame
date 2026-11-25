@@ -233,8 +233,8 @@ namespace Underlab.UI
             string text = null;
             if (!game.Paused && !ended)
             {
-                if (turret.IsMounted) text = "ĐANG TRONG PHÁO  ·  chuột trái: bắn  ·  1–4: đạn  ·  Q: ra";
-                else if (turret.CanMount) text = "CHUỘT TRÁI để vào pháo";
+                if (turret.IsMounted) text = "PHÒNG THỦ  ·  chuột trái: bắn  ·  1–4: chọn đạn  ·  Q: rời máy tính";
+                else if (turret.CanMount) text = "CHUỘT TRÁI để sử dụng máy tính";
                 else if (shop.Available && !shop.Open) text = "E: cửa hàng nâng cấp   ·   T: phòng thí nghiệm";
             }
             hintGroup.SetActive(text != null);
@@ -397,7 +397,7 @@ namespace Underlab.UI
                 "<color=#3FE0D0>Đào quặng · Về base · Sống qua 10 wave</color>\n" +
                 "A/D: đi   ·   Space: bay   ·   W/S: khoan\n" +
                 "E: cửa hàng ở base   ·   Esc: tạm dừng\n" +
-                "Gần pháo: chuột trái để vào  ·  1–4: đạn  ·  Q: ra",
+                "Gần máy tính: chuột trái để dùng  ·  1–4: chọn đạn  ·  Q: thoát",
                 18, Color.white, TextAlignmentOptions.Center, new Vector2(0.5f, 0.5f), Vector2.zero, new Vector2(520, 180), new Vector2(0.5f, 0.5f));
 
             BigButton(menuGroup.transform, "BẮT ĐẦU", new Vector2(0, 90), () => game.StartRun());

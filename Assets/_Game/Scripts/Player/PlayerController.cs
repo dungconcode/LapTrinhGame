@@ -116,6 +116,13 @@ namespace Underlab.Player
             art.SetFlipX(Facing < 0);
             if (AnimLocked) return;
 
+            // Khoan giữ quyền ưu tiên qua AnimLocked; chỉ hiện phản lực khi không khoan.
+            if (IsThrusting)
+            {
+                art.Play("char_player_jetpack");
+                return;
+            }
+
             bool walking = IsGrounded && Mathf.Abs(MoveInput.x) > 0.1f;
             art.Play(walking ? WalkAnimId : "char_player_idle");
         }

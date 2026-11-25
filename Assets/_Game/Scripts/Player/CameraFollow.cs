@@ -1,4 +1,5 @@
 using UnityEngine;
+using Underlab.Core;
 using Underlab.Mining;
 
 namespace Underlab.Player
@@ -21,11 +22,26 @@ namespace Underlab.Player
 
         private Vector3 basePos;
         private float shakeAmp, shakeTime, shakeDuration;
+        private int lastBaseHp = -1;
 
         private void Awake()
         {
             cam = GetComponent<Camera>();
             basePos = transform.position;
+        }
+
+        private void OnEnable() => GameEvents.BaseHpChanged += OnBaseHpChanged;
+
+        private void OnDisable()
+        {
+            GameEvents.BaseHpChanged -= OnBaseHpChanged;
+            lastBaseHp = -1;
+        }
+
+        private void OnBaseHpChanged(int current, int maximum)
+        {
+            if (lastBaseHp >= 0 && current < lastBaseHp) Shake(.09f, .18f);
+            lastBaseHp = current;
         }
 
         /// <summary>Rung camera (vd cảnh báo wave, nổ). amplitude tính bằng ô.</summary>
@@ -42,8 +58,10 @@ namespace Underlab.Player
         {
             if (target == null) return;
             var desired = (Vector3)((Vector2)target.position + offset);
+            bool surfaceView = !target.gameObject.activeInHierarchy;
+            if (surfaceView) desired.y += 2f;
             desired.z = transform.position.z;
-            basePos = Clamp(Vector3.SmoothDamp(basePos, desired, ref velocity, smoothTime));
+            basePos = Clamp(Vector3.SmoothDamp(basePos, desired, ref velocity, smoothTime), surfaceView);
 
             var shake = Vector3.zero;
             if (shakeTime > 0f)
@@ -55,7 +73,7 @@ namespace Underlab.Player
             transform.position = basePos + shake;
         }
 
-        private Vector3 Clamp(Vector3 p)
+        private Vector3 Clamp(Vector3 p, bool surfaceView)
         {
             if (terrain == null || !cam.orthographic) return p;
             var b = terrain.WorldBounds;
@@ -64,7 +82,7 @@ namespace Underlab.Player
             float minX = b.min.x + halfW, maxX = b.max.x - halfW;
             float minY = b.min.y + halfH, maxY = b.max.y + skyMargin - halfH;
             p.x = minX > maxX ? b.center.x : Mathf.Clamp(p.x, minX, maxX);
-            p.y = minY > maxY ? b.center.y : Mathf.Clamp(p.y, minY, maxY);
+            if (!surfaceView) p.y = minY > maxY ? b.center.y : Mathf.Clamp(p.y, minY, maxY);
             return p;
         }
     }

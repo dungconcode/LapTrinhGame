@@ -7,7 +7,7 @@ namespace Underlab.Mining
 {
     /// <summary>
     /// Khoan: giữ phím hướng vào 1 ô đất để phá nó.
-    ///   A/D (đẩy vào tường) = khoan ngang · S/↓ (đang đứng) = khoan xuống · W/↑ = khoan lên trần
+    ///   A/D (đẩy vào tường) = khoan ngang · S/↓ (đang đứng) = khoan xuống · Space (bay sát trần) = khoan lên
     /// Hiện vết nứt (tile_crack) theo HP còn lại, vỡ => fx_block_break + rơi quặng (OrePickup).
     /// Nâng cấp drill (A07): chỉnh DamageMultiplier.
     /// </summary>
@@ -39,10 +39,16 @@ namespace Underlab.Mining
             ShowCrack(false);
         }
 
+        private void OnDisable()
+        {
+            ShowCrack(false);
+            SetDrilling(false, null);
+        }
+
         private void Update()
         {
             TerrainCell data = default;
-            bool drilling = TryPickTarget(out var cell) && terrain.TryGetCell(cell, out data) && data.IsBreakable;
+            bool drilling = TryPickTarget(out var cell, out var animationId) && terrain.TryGetCell(cell, out data) && data.IsBreakable;
 
             if (drilling)
             {
@@ -54,13 +60,14 @@ namespace Underlab.Mining
             }
             else ShowCrack(false);
 
-            SetDrilling(drilling);
+            SetDrilling(drilling, animationId);
         }
 
         /// <summary>Chọn ô mục tiêu theo phím hướng đang giữ. False nếu không khoan.</summary>
-        private bool TryPickTarget(out Vector3Int cell)
+        private bool TryPickTarget(out Vector3Int cell, out string animationId)
         {
             cell = default;
+            animationId = "char_player_drill";
             if (terrain == null) return false;
 
             var input = player.MoveInput;
@@ -70,13 +77,20 @@ namespace Underlab.Mining
 
             if (input.y < -t && player.IsGrounded)
             {
+                animationId = "char_player_drill_down";
                 cell = terrain.WorldToCell(feet + Vector3.down * 0.1f);
                 return true;
             }
-            if (input.y > t && config.allowDrillUp)
+            if (player.IsThrusting && config.allowDrillUp)
             {
-                cell = terrain.WorldToCell(feet + Vector3.up * 0.95f);
-                return true;
+                // Dò ngay trên đỉnh collider để bắt được ô trần khi bay sát vào.
+                var bounds = playerCollider.bounds;
+                cell = terrain.WorldToCell(new Vector3(bounds.center.x, bounds.max.y + 0.1f, feet.z));
+                if (terrain.TryGetCell(cell, out var ceiling) && ceiling.IsBreakable)
+                {
+                    animationId = "char_player_drill_up";
+                    return true;
+                }
             }
             if (Mathf.Abs(input.x) > t)
             {
@@ -131,12 +145,15 @@ namespace Underlab.Mining
                 crackOverlay.gameObject.SetActive(show);
         }
 
-        private void SetDrilling(bool drilling)
+        private void SetDrilling(bool drilling, string animationId)
         {
-            if (drilling == IsDrilling) return;
-            IsDrilling = drilling;
-            player.AnimLocked = drilling;
-            if (drilling && playerArt != null) playerArt.Play("char_player_drill");
+            if (drilling != IsDrilling)
+            {
+                IsDrilling = drilling;
+                player.AnimLocked = drilling;
+            }
+            // Kiểm tra cả khi đang khoan để đổi anim ngay khi đổi hướng; Play giữ frame nếu id không đổi.
+            if (drilling && playerArt != null) playerArt.Play(animationId);
         }
     }
 }

@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "unity": {
+      "type": "stdio",
+      "command": "C:\\Users\\lequo\\AppData\\Local\\Microsoft\\WindowsApps\\unity.exe",
+      "args": [
+        "mcp",
+        "--tool-groups"
+      ]
+    }
+  }
+}

@@ -31,12 +31,12 @@ namespace Underlab.Defense
             transform.position = to;
             if (hostile)
             {
-                if (SegmentDistance(from, to, pool.target.transform.position + Vector3.up) <= pool.config.hitRadius)
+                if (pool.target.TryTraceHit(from, to, out var contact))
                 {
-                    pool.target.Damage(Mathf.CeilToInt(damage));
+                    pool.target.DamageAtGlass(Mathf.CeilToInt(damage), contact);
                     // axit của quái bắn xa / mảnh pha lê của boss văng vào base
-                    if (ammo < 0) ArtFx.Spawn("fx_explosion", to, 16, 1.2f);
-                    else ArtFx.Spawn("fx_hit_acid", to, 16, 1f);
+                    if (ammo < 0) ArtFx.Spawn("fx_explosion", contact, 16, 1.2f);
+                    else ArtFx.Spawn("fx_hit_acid", contact, 16, 1f);
                     gameObject.SetActive(false);
                 }
             }

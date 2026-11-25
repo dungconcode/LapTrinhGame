@@ -97,6 +97,8 @@ namespace Underlab.Game.EditorTools
             Object.DestroyImmediate(baseGo.GetComponent<ArtSprite>());
             baseGo.AddComponent<DefenseVisual>().artId = "bld_base_normal";
             var health = baseGo.AddComponent<BaseHealth>(); health.config = balance;
+            baseGo.AddComponent<DomeVisual>().Initialize();
+            Underlab.EditorTools.Art.DomeVisualAuthoring.InstallHatch(baseGo.transform);
             var bank = rootB.AddComponent<ResourceBank>();
             var poolGo = new GameObject("Combat Pool"); poolGo.transform.SetParent(rootB.transform);
             var pool = poolGo.AddComponent<CombatPool>(); pool.config = balance; pool.target = health;
